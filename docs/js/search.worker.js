@@ -198,7 +198,11 @@ async function loadPhonetic() {
 }
 
 async function embed(text) {
-  const t = S.tokenise(text, S.lang || 'en', S.vocabs);   // the corpus tag, read from its manifest
+  // The corpus tag, read from its manifest ('en'). DO NOT pass 'und' here: it is not in
+  // lang_vocab.json (2,438 entries, none of them 'und') and falls to <UNK> id 0, which measured
+  // three places worse in top-3 than 'en' on this corpus (26 Sep 2026). The same defect exists in
+  // whg3's Map Your Data dropdown, which offers 'und' as if it were a Symphonym code.
+  const t = S.tokenise(text, S.lang || 'en', S.vocabs);
   const n = t.charIds.length;
   const i64 = (v) => BigInt64Array.from([BigInt(v)]);
   const out = await S.session.run({

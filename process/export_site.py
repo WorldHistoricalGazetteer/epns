@@ -245,6 +245,9 @@ def main():
     # (never the tail alone: a key "hundred" would sit beside every hundred in England), both sides of
     # "X or Y" / "X alias Y" (each capped at four words), and a comma inversion for a tail of two words
     # or fewer. Derived from headwords and spellings only, and embedded like them.
+    # THE GENERIC-TAIL LIST IS DELIBERATELY ENGLISH-ONLY. It is a judgement about English toponymy
+    # as the EPNS survey records it; Welsh, Scots or Cornish material would need its own list
+    # (e.g. llan-, aber-, -ton is not a tail there), and this one was not meant to cover them.
     GENERIC = {"hundred", "wapentake", "liberty", "hundreds", "parish", "township", "farm", "farms", "house", "hall", "road",
                "street", "lane", "bridge", "hill", "wood", "field", "fields", "green", "common", "moor", "park", "mill", "cottage",
                "cottages", "lodge", "court", "grange", "end", "close", "lane", "drive", "avenue", "row", "place", "manor"}

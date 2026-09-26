@@ -47,7 +47,7 @@ EXPECT_MD5 = {"symphonym.onnx": "afc74f102d9ab98e92382dcaed93628c",
               "lang_vocab.json": "17ce7fe69a836ddd32c9577cdd60f389",
               "script_vocab.json": "18fd9410e1c543429ec8327a29ee3225"}
 DIM = 128
-LANG = "en"
+LANG = "en"   # NOT "und": it is absent from lang_vocab.json and falls to <UNK> (id 0); see the docstring
 
 
 def md5(p: Path) -> str:
