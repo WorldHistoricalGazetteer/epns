@@ -27,7 +27,7 @@ const S = {
   manifest: null, core: null, rowOf: new Map(), kids: new Map(), byId: new Map(), counties: [],
   shards: new Map(), shardLoading: new Map(),
   worker: null, pending: new Map(), seq: 0, qTok: 0, indexReady: false, phonReady: false, phonBusy: false,
-  current: null, lastResults: null, map: null, selectedGid: -1, basemap: null,
+  current: null, currentRec: null, lastResults: null, map: null, selectedGid: -1, basemap: null,
 };
 window.deep.state = S;
 
@@ -40,6 +40,76 @@ const TYPE_LABEL = {
   forest: 'forest', feature: 'feature',
 };
 const AUTH_LABEL = { histfn: 'historical field-name', modfn: 'modern field-name', histmappedname: 'historical minor name' };
+/* Standard EPNS source abbreviations, for the attestation tooltips. These are the ones used across
+   the survey with one national meaning; the county volume's own list of abbreviations is the
+   authority, and county-specific sigla (WinchCath, Weld1, Chol…) are deliberately not guessed at. */
+const SOURCES = {
+  DB: 'Domesday Book (1086)', Exon: 'Exon Domesday, the Exeter Domesday (1086)', ASC: 'The Anglo-Saxon Chronicle (the manuscript is named after it)',
+  BCS: 'Birch, Cartularium Saxonicum (Anglo-Saxon charters)', KCD: 'Kemble, Codex Diplomaticus Aevi Saxonici (Anglo-Saxon charters)',
+  FF: 'Feet of Fines: final concords recording conveyances of land in the royal courts', Ass: 'Assize Rolls: pleas before the itinerant royal justices',
+  Eyre: 'Eyre Rolls: proceedings of the general eyre', Cur: 'Curia Regis Rolls', P: 'Pipe Rolls (the Exchequer accounts)',
+  Pat: 'Calendar of Patent Rolls', Cl: 'Calendar of Close Rolls', Ch: 'Calendar of Charter Rolls', Fine: 'Calendar of Fine Rolls', Orig: 'Originalia Rolls',
+  Ipm: 'Calendar of Inquisitions post mortem', IpmR: 'Inquisitions post mortem, Record Commission edition', Misc: 'Calendar of Inquisitions Miscellaneous',
+  FA: 'Feudal Aids (inquisitions and assessments, 1284–1431)', Fees: 'The Book of Fees (Liber Feodorum)', RH: 'Rotuli Hundredorum, the Hundred Rolls (1274–5, 1279)',
+  QW: 'Placita de Quo Warranto', Abbr: 'Placitorum Abbreviatio', RBE: 'The Red Book of the Exchequer', Tax: 'Taxatio Ecclesiastica of Pope Nicholas IV (1291)',
+  VE: 'Valor Ecclesiasticus (1535)', SR: 'Lay Subsidy Rolls (tax assessments)', LP: 'Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII',
+  AD: 'Catalogue of Ancient Deeds (Public Record Office)', BM: 'British Museum charters and manuscripts (now British Library)',
+  AddCh: 'Additional Charters, British Museum (now British Library)', Add: 'Additional Manuscripts, British Museum (now British Library)',
+  Dugd: 'Dugdale, Monasticon Anglicanum', Pap: 'Calendar of Papal Registers', ECP: 'Early Chancery Proceedings',
+  Banco: 'De Banco Rolls: plea rolls of the Court of Common Pleas', Plea: 'Plea Rolls', Recov: 'Recovery Rolls (common recoveries, Court of Common Pleas)',
+  Ct: 'Court Rolls (manorial)', MinAcct: 'Ministers\u2019 Accounts (manorial and estate accounts)', Rental: 'Rental (manorial)', Rent: 'Rental (manorial)',
+  Surv: 'Survey (manorial or estate)', Terrier: 'Glebe terrier: a survey of church lands', Deed: 'Deeds', Map: 'Estate or other map',
+  LRMB: 'Land Revenue Miscellaneous Books (Public Record Office)', AOMB: 'Augmentation Office Miscellaneous Books (Public Record Office)',
+  For: 'Forest proceedings (pleas of the forest)', TA: 'Tithe Award: the tithe apportionment and map (c. 1840)', EnclA: 'Enclosure Award',
+  PR: 'Parish Registers', OS: 'Ordnance Survey maps', 'O.S.': 'Ordnance Survey maps', Saxton: 'Christopher Saxton\u2019s county map (1570s)',
+  Bry: 'A. Bryant\u2019s county map (1820s)', Kelly: 'Kelly\u2019s Directory', White: 'White\u2019s Directory',
+  YCh: 'Early Yorkshire Charters (ed. Farrer and Clay)', YD: 'Yorkshire Deeds (Yorkshire Archaeological Society Record Series)',
+  YI: 'Yorkshire Inquisitions (Yorkshire Archaeological Society Record Series)', WCR: 'Wakefield Court Rolls',
+  Orm2: 'Ormerod, History of the County Palatine and City of Chester, 2nd edition', Sheaf: 'The Cheshire Sheaf', ChRR: 'Calendar of Cheshire Recognizance Rolls',
+  Hutch3: 'Hutchins, History and Antiquities of the County of Dorset, 3rd edition', SAC: 'Sussex Archaeological Collections',
+};
+const REGNAL = { Hy: 'Henry', H: 'Henry', Ed: 'Edward', Edw: 'Edward', E: 'Edward', Eliz: 'Elizabeth', Jas: 'James', J: 'James', John: 'John', Ric: 'Richard',
+  R: 'Richard', Chas: 'Charles', Wm: 'William', William: 'William', Steph: 'Stephen', Stephen: 'Stephen', Cnut: 'Cnut', Harold: 'Harold', Ethelred: 'Æthelred',
+  Mary: 'Mary', Anne: 'Anne', Geo: 'George', Vict: 'Victoria' };
+const ROMAN = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8 };
+const ORD = (n) => n + (n % 10 === 1 && n !== 11 ? 'st' : n % 10 === 2 && n !== 12 ? 'nd' : n % 10 === 3 && n !== 13 ? 'rd' : 'th');
+const range = (b, e) => (b == null ? '' : b === e || e == null ? String(b) : `${b}–${e}`);
+
+/* One sentence for a structured date, from its subtype and the editors' begin/end. */
+function explainDate([sub, b, e, text]) {
+  const span = range(b, e);
+  switch (sub) {
+    case 'simple': return b !== e && b != null ? `the document is dated ${span}` : `the document is dated ${span || text}`;
+    case 'circa': return `approximately ${text.replace(/^c\.?\s*/, '')}; the editors\u2019 bracket is ${span}`;
+    case 'century': return `${/th$/.test(text) ? text : ORD(parseInt(text, 10))} century (${span})`;
+    case 'ante': return `before ${text.replace(/^a\.?\s*/, '')} (the editors allow ${span})`;
+    case 'post': return `after ${text.replace(/^p\.?\s*/, '')} (the editors allow ${span})`;
+    case 'no date': return 'undated in the source';
+    case 'sub anno': return `entered under the year ${span} in a chronicle or annal`;
+    case 'regnal': {
+      const m = /^(t\.\s*)?(e\.?|early|l\.?|late|m\.?)?\s*([A-Za-z]+?)\s*(Conf)?\s*([0-9]+|i{1,3}|iv|vi{0,3})?\s*-?$/.exec(text.trim());
+      let who = null;
+      if (m) {
+        const name = REGNAL[m[3]];
+        const num = m[5] ? (ROMAN[m[5].toLowerCase()] || parseInt(m[5], 10)) : null;
+        if (name) who = m[4] ? `${name} the Confessor` : name + (num ? ' ' + ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'][num - 1] : '');
+        const when = m[2] ? ({ e: 'early in', early: 'early in', l: 'late in', late: 'late in', m: 'in the middle of' }[m[2].replace('.', '')] || 'in') : 'in';
+        if (who) return `${when} the reign of ${who} (${span}); ‘t.’ is tempore, ‘in the time of’`;
+      }
+      return `in a reign, as the volume dates it (${span})`;
+    }
+    default: return span && b !== e ? `between ${b} and ${e}` : `dated ${span || text}`;
+  }
+}
+function explainCopy([text, b, e]) {
+  const t = (text || '').trim();
+  const m = /^(e\.?|early|m\.?|mid|l\.?|late)\s*(\d+)(th)?$/.exec(t);
+  const part = m ? ({ e: 'early', early: 'early', m: 'mid', mid: 'mid', l: 'late', late: 'late' }[m[1].replace('.', '')] + ' ') : '';
+  const cent = /^(\d{1,2})(th)?$/.exec(m ? m[2] : t);
+  const what = cent ? `${part}${ORD(parseInt(cent[1], 10))} century` : /^c/.test(t) ? `about ${t.replace(/^c\.?\s*/, '')}` : t;
+  return `the spelling is read in a copy made in the ${what}${b ? ` (${range(b, e)})` : ''}, not in the original document`;
+}
+
 const GROUP = {
   parish: 'parish', borough: 'parish', countytown: 'parish', subparish: 'township', chapelry: 'township', belowparish: 'township',
   mappedname: 'name', fn: 'fn', county: 'county', province: 'county',
@@ -178,8 +248,11 @@ function initMap() {
   S.map = map; window.deep.map = map;
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
   map.addControl(new BasemapControl(), 'top-right');
-  map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
-  map.addControl(new maplibregl.AttributionControl({ compact: false, customAttribution: DATA_ATTRIBUTION }), 'bottom-right');
+  /* Attribution collapsible (the ⓘ toggle MapLibre gives a compact control), bottom-right; the scale
+     bar bottom-left above the legend, so the two never share a corner. The licence line is also in
+     the info modal, which opens on a first visit, so collapsing the widget does not hide it. */
+  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: DATA_ATTRIBUTION }), 'bottom-right');
+  map.addControl(new maplibregl.ScaleControl({ unit: 'metric', maxWidth: 120 }), 'bottom-left');
   map.on('load', () => {
     setBasemap(S.basemap);
     map.addSource('places', { type: 'geojson', data: pointsGeoJSON() });
@@ -337,33 +410,99 @@ function crumbsFor(i) {
 const shortId = (i) => `${countyOf(i)?.code}-${C().code[i]}-${typeName(i)}-${String(C().seq[i]).padStart(6, '0')}`;
 const shortIdRec = (rec, code) => `${code}-${rec.code}-${C().types[rec.ty]}-${String(rec.seq).padStart(6, '0')}`;
 
-function renderAtt(a, rec) {
+function renderAtt(a, ai) {
   const dates = (a.d || []).map((d) => esc(d[3])).join(', ');
   const copy = a.c && a.c[0] ? ` <span class="ap">(${esc(a.c[0])})</span>` : '';
-  const src = a.s ? `<span class="src${a.s[2] ? ' it' : ''}" title="${esc(a.s[0] || '')}">${esc(a.s[1] || '')}</span>` : '';
+  const src = a.s ? `<span class="src${a.s[2] ? ' it' : ''}">${esc(a.s[1] || '')}</span>` : '';
   const x = a.x || {};
   const ap = [x.page, x.item, x.folio ? `f. ${x.folio}` : null, x.entry, x.appendix ? `app. ${x.appendix}` : null, x.note ? `n. ${x.note}` : null, x.number,
               x.ms ? `(${x.ms})` : null, x.pername, x.times].filter(Boolean).map(esc).join(' ');
-  const u = a.u ? ` <span class="u" title="the volume gives the source as ibidem / idem; resolved editorially">${a.u}.</span>` : '';
-  return `<span class="att">${dates}${copy} ${src}${ap ? ' <span class="ap">' + ap + '</span>' : ''}${u}</span>`;
+  const u = a.u ? ` <span class="u">${a.u}.</span>` : '';
+  return `<span class="att" tabindex="0" data-a="${ai}">${dates}${copy} ${src}${ap ? ' <span class="ap">' + ap + '</span>' : ''}${u}</span>`;
 }
+const isWrapper = (a) => !(a.d && a.d.length) && !(a.s && a.s[1]) && !a.c && !a.x;
 
 function renderForms(rec) {
   if (!rec.v || !rec.v.length) return '';
-  const atts = (rec.a || []).slice().sort((p, q) => p.p - q.p);
+  const atts = (rec.a || []).map((a, ai) => ({ a, ai })).sort((p, q) => p.a.p - q.a.p);
   const passim = (rec.ps || []).slice().sort((p, q) => p[0] - q[0]);
+  const afterPos = (pos) => passim.filter(([pp]) => pp === pos).map(([, t]) => `<span class="passim">${esc(t)}</span>`).join(' ');
   const items = rec.v.map(([vid, text]) => {
-    const mine = atts.filter((a) => (a.v || []).includes(vid));
-    const parts = [];
-    let prev = -1;
-    for (const a of mine) {
-      for (const [pos, ptext] of passim) if (pos > prev && pos < a.p && prev >= 0) parts.push(`<span class="passim">${esc(ptext)}</span>`);
-      parts.push(renderAtt(a, rec));
-      prev = a.p;
+    const mine = atts.filter(({ a }) => (a.v || []).includes(vid) && a.pa == null);
+    /* Citations are comma-separated, as the volumes print them, except that a run's text ("et
+       passim to", "et freq to") runs straight on to the next citation with no comma. */
+    let html = '';
+    const emit = (piece, runText) => { html += (html ? (html.endsWith('</span> ') ? '' : ', ') : '') + piece + (runText ? ' ' + runText + ' ' : ''); };
+    for (const { a, ai } of mine) {
+      if (isWrapper(a)) {
+        /* the wrapper says nothing itself; its children do, and the run's text sits after the
+           child it follows in the volume */
+        for (const c of atts.filter((k) => k.a.pa === a.p)) emit(renderAtt(c.a, c.ai), afterPos(c.a.p));
+        continue;
+      }
+      emit(renderAtt(a, ai), afterPos(a.p));
     }
-    return `<li><b>${esc(text)}</b> ${parts.join(', ')}</li>`;
+    return `<li data-v="${esc(vid)}"><b>${esc(text)}</b> ${html.trim()}</li>`;
   });
-  return `<h3>Spellings and attestations</h3><ul class="forms">${items.join('')}</ul>`;
+  return `<h3>Spellings and attestations <a href="#" class="how" id="how-to-read" title="How to read these">how to read</a></h3><ul class="forms">${items.join('')}</ul>`;
+}
+
+/* ── attestation tooltips ────────────────────────────────────────────────────────────────────
+   One floating panel, filled from the structured record rather than from the printed string, so a
+   first-time visitor can hover "c. 1127 (l13) WinchCath" and be told what each token means. */
+function tipHTML(a, formText) {
+  const rows = [];
+  for (const d of a.d || []) rows.push(['Date', `<b>${esc(d[3])}</b> — ${esc(explainDate(d))}`]);
+  if (a.c && (a.c[0] || a.c[1])) rows.push(['Copy', `<b>(${esc(a.c[0] || range(a.c[1], a.c[2]))})</b> — ${esc(explainCopy(a.c))}`]);
+  if (a.s && a.s[1]) {
+    const gloss = SOURCES[a.s[1]] || SOURCES[a.s[1].replace(/\d+$/, '')];
+    const conv = a.s[2] ? 'set in <i>italics</i>: the survey\u2019s convention for an unpublished manuscript source'
+                        : 'set in roman type: the survey\u2019s convention for a printed edition or calendar';
+    rows.push(['Source', `<b class="${a.s[2] ? 'it' : ''}">${esc(a.s[1])}</b> — ${gloss ? esc(gloss) : 'an abbreviation expanded in the county volume\u2019s list of sources'}; ${conv}${a.s[0] ? ` <span class="ap">(DEEP source id ${esc(a.s[0])})</span>` : ''}`]);
+  }
+  if (a.u) rows.push(['ib.', `the volume gives the source as <i>ibidem</i> (“the same”), i.e. the source of the preceding form; the encoders resolved it to <b>${esc(a.s?.[1] || '')}</b>`]);
+  const x = a.x || {};
+  if (x.page) rows.push(['Page', `<b>${esc(x.page)}</b> in the source`]);
+  if (x.item) rows.push(['Item', `<b>${esc(x.item)}</b>: the numbered entry, charter or document within the source`]);
+  if (x.folio) rows.push(['Folio', `<b>f. ${esc(x.folio)}</b> of the manuscript`]);
+  if (x.entry) rows.push(['Entry', `<b>${esc(x.entry)}</b>`]);
+  if (x.appendix) rows.push(['Appendix', `<b>${esc(x.appendix)}</b>`]);
+  if (x.note) rows.push(['Note', `<b>${esc(x.note)}</b>`]);
+  if (x.number) rows.push(['Number', `<b>${esc(x.number)}</b>`]);
+  if (x.ms) rows.push(['Manuscript', `<b>(${esc(x.ms)})</b>: the manuscript (or version) of the source in which this spelling is read`]);
+  if (x.pername) rows.push(['(p)', 'the spelling occurs <b>within a personal name</b> (a surname or by-name such as <i>de Portlond</i>), not as a direct reference to the place; weaker evidence for the name\u2019s currency']);
+  if (x.times) rows.push(['Frequency', `<b>${esc(x.times)}</b>: the number of times the spelling occurs in the source`]);
+  if ((a.v || []).length > 1) rows.push(['Spellings', `this one citation covers ${a.v.length} spellings: ${a.v.map((v) => esc((S.currentRec?.v || []).find((r) => r[0] === v)?.[1] || v)).join(', ')}`]);
+  if (a.pa != null) rows.push(['Run', 'part of an <i>et passim</i> run: the spelling recurs in sources between the two citations shown']);
+  return `<div class="tip-head"><b>${esc(formText)}</b> <span class="ap">attestation</span></div><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`;
+}
+function wireTooltips() {
+  const tip = document.createElement('div');
+  tip.id = 'att-tip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true;
+  document.body.appendChild(tip);
+  let current = null;
+  const hide = () => { tip.hidden = true; current = null; };
+  const show = (el) => {
+    const rec = S.currentRec; if (!rec) return;
+    const a = rec.a?.[+el.dataset.a]; if (!a) return;
+    const li = el.closest('li[data-v]');
+    tip.innerHTML = tipHTML(a, li ? li.querySelector('b')?.innerText : '');
+    tip.hidden = false; current = el;
+    const r = el.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+    let left = Math.min(Math.max(8, r.left), window.innerWidth - w - 8);
+    let top = r.bottom + 6;
+    if (top + h > window.innerHeight - 8) top = Math.max(8, r.top - h - 6);
+    tip.style.left = `${left}px`; tip.style.top = `${top}px`;
+  };
+  const d = $('drawer');
+  d.addEventListener('pointerover', (e) => { const el = e.target.closest('.att'); if (el && el !== current) show(el); });
+  d.addEventListener('pointerout', (e) => { const el = e.target.closest('.att'); if (el && !el.contains(e.relatedTarget) && !tip.contains(e.relatedTarget)) hide(); });
+  d.addEventListener('focusin', (e) => { const el = e.target.closest('.att'); if (el) show(el); });
+  d.addEventListener('focusout', (e) => { if (e.target.closest('.att')) hide(); });
+  d.addEventListener('click', (e) => { const el = e.target.closest('.att'); if (el) { e.preventDefault(); el === current && !tip.hidden ? hide() : show(el); } });
+  d.addEventListener('scroll', hide);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
+  tip.addEventListener('pointerleave', hide);
 }
 
 function renderGeo(rec, i) {
@@ -434,11 +573,13 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   h += renderGeo(rec, i);
   h += renderKids(gid, shard);
   const links = [];
-  if (rec.cs) links.push(`<a href="${esc(rec.cs)}" target="_blank" rel="noopener">DEEP source record</a>`);
-  links.push(`<a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener">Key to English Place-Names</a>`);
+  /* rec.cs, the 2013 epns.nottingham.ac.uk browse URL, now redirects to the university home page
+     (checked 26 Sep 2026), so it is not offered as a link; the DEEP id above is the citable handle. */
+  links.push(`<a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener" title="Etymologies and elements are in the Institute's Key to English Place-Names; it has no per-place URL to link to, so search there for ${esc(rec.t)}">Etymology: Key to English Place-Names</a>`);
   links.push(`<a href="#" id="copy-link">Copy link to this place</a>`);
   h += `<div class="links">${links.join('')}</div>`;
   S.current = gid;
+  S.currentRec = rec;
   showDrawer(h);
   if (push) history.replaceState(null, '', `#id=${shortIdRec(rec, shard.code)}`);
   const c = C();
@@ -499,6 +640,10 @@ function wireUI() {
   try { if (localStorage.getItem('deep_phon') === '1') { $('phon').checked = true; } } catch { /* fine */ }
   if ($('phon').checked) call({ type: 'warm-phonetic' }).catch(() => { $('phon').checked = false; });
 
+  const modal = $('info-modal');
+  const closeInfo = () => { modal.hidden = true; document.body.style.overflow = ''; };
+  const openInfo = () => { modal.hidden = false; document.body.style.overflow = 'hidden'; usage().then((u) => { $('cache-size').textContent = u ? `(${(u / 1e6).toFixed(0)} MB in use)` : ''; }); };
+
   const d = $('drawer');
   d.addEventListener('click', (e) => {
     const a = e.target.closest('a[data-gid], li[data-gid]');
@@ -507,15 +652,17 @@ function wireUI() {
     if (f) { e.preventDefault(); const [lon, lat] = f.dataset.fly.split(',').map(Number); S.map.flyTo({ center: [lon, lat], zoom: Math.max(S.map.getZoom(), 13) }); return; }
     if (e.target.closest('.close')) { hideDrawer(); return; }
     if (e.target.id === 'back-results') { S.current = null; showDrawer(S.lastResults); selectOnMap(-1); return; }
+    if (e.target.id === 'how-to-read') {
+      e.preventDefault();
+      openInfo(); document.getElementById('reading')?.scrollIntoView({ block: 'start' });
+      return;
+    }
     if (e.target.id === 'copy-link') {
       e.preventDefault();
       navigator.clipboard?.writeText(location.href).then(() => { e.target.textContent = 'Link copied'; setTimeout(() => { e.target.textContent = 'Copy link to this place'; }, 1500); });
     }
   });
 
-  const modal = $('info-modal');
-  const closeInfo = () => { modal.hidden = true; document.body.style.overflow = ''; };
-  const openInfo = () => { modal.hidden = false; document.body.style.overflow = 'hidden'; usage().then((u) => { $('cache-size').textContent = u ? `(${(u / 1e6).toFixed(0)} MB in use)` : ''; }); };
   $('info-btn').addEventListener('click', openInfo);
   modal.addEventListener('click', (e) => { if (e.target === modal || e.target.id === 'info-close') closeInfo(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) closeInfo(); });
@@ -550,6 +697,7 @@ async function boot() {
     initMap();
     startWorker();
     wireUI();
+    wireTooltips();
     positionDrawer();
     maybeReady();
     applyHash();

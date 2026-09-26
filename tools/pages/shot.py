@@ -123,9 +123,19 @@ def check_boot(page, rep: Report, url: str):
     n = page.evaluate("window.deep.map.queryRenderedFeatures({layers:['places']}).length")
     rep.add("map: place points rendered", n > 100, f"{n} features in view")
     # attribution carries the licence obligation and the basemap credit
-    attr = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib')?.innerText || ''")
+    attr = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib-inner')?.textContent || ''")
     rep.add("map: attribution names EPNS/DEEP and CC BY-NC", "English Place-Name Society" in attr and "CC BY-NC" in attr, attr[:90])
     rep.add("map: attribution names the basemap provider", any(s in attr for s in ("CARTO", "OpenStreetMap", "National Library of Scotland")))
+    # compact + collapsible, and not in the same corner as the scale bar
+    layout = page.evaluate("({compact: !!document.querySelector('.maplibregl-ctrl-attrib.maplibregl-compact'), toggle: !!document.querySelector('.maplibregl-ctrl-attrib-button'), attribCorner: document.querySelector('.maplibregl-ctrl-attrib')?.closest('[class*=maplibregl-ctrl-bottom]')?.className, scaleCorner: document.querySelector('.maplibregl-ctrl-scale')?.closest('[class*=maplibregl-ctrl-bottom]')?.className})")
+    rep.add("map: attribution is compact with a toggle", layout["compact"] and layout["toggle"], json.dumps(layout))
+    rep.add("map: attribution and scale bar in different corners", layout["attribCorner"] != layout["scaleCorner"], f"{layout['attribCorner']} vs {layout['scaleCorner']}")
+    # and the toggle works both ways
+    page.evaluate("document.querySelector('.maplibregl-ctrl-attrib-button').click()")
+    shown_after_1 = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib').classList.contains('maplibregl-compact-show')")
+    page.evaluate("document.querySelector('.maplibregl-ctrl-attrib-button').click()")
+    shown_after_2 = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib').classList.contains('maplibregl-compact-show')")
+    rep.add("map: attribution toggle opens and closes", shown_after_1 != shown_after_2, f"{shown_after_1} -> {shown_after_2}")
     page.screenshot(path=str(OUT / "boot.png"))
     return True
 
@@ -138,7 +148,7 @@ def check_basemaps(page, rep: Report):
             continue
         page.evaluate(f"document.querySelector('input[name=basemap][value={bid}]').click()")
         page.wait_for_timeout(600)
-        attr = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib')?.innerText || ''")
+        attr = page.evaluate("document.querySelector('.maplibregl-ctrl-attrib-inner')?.textContent || ''")
         rep.add(f"basemaps: {bid} switches and attribution follows", credit in attr and page.evaluate("!!window.deep.map.getLayer('basemap')"), attr[:70])
 
 
@@ -168,6 +178,11 @@ def check_search(page, rep: Report):
 
 
 def check_place(page, rep: Report):
+    # Establish the state this check needs rather than inherit it from `search` having run first:
+    # run alone (--check place) it once failed on an unloaded index and blamed the ranking.
+    if not wait_index(page):
+        rep.add("place: name index loaded in the worker", False)
+        return
     before = page.evaluate("window.deep.renders")
     page.fill("#q", "Bunsty")
     wait_render(page, before)
@@ -183,6 +198,32 @@ def check_place(page, rep: Report):
     rep.add("place: breadcrumb reaches the county", "Buckinghamshire" in txt)
     rep.add("place: children listed (parishes of the hundred)", "Cold Brayfield" in txt)
     rep.add("place: URL fragment carries the id", page.evaluate("location.hash") == "#id=02-hu-subcounty-000001", page.evaluate("location.hash"))
+    # tooltips: hover the first attestation; the panel must appear and gloss the source (DB = Domesday Book)
+    forms = page.evaluate("document.querySelector('#drawer .forms')?.innerText || ''")
+    rep.add("place: no empty attestation in the forms (', ,')", forms != "" and ", ," not in forms, forms[:60].replace("\n", " | "))
+    page.hover("#drawer .att")
+    page.wait_for_timeout(300)
+    tipvis = page.evaluate("!document.getElementById('att-tip').hidden")
+    tiptxt = page.evaluate("document.getElementById('att-tip').innerText")
+    rep.add("tooltip: appears on hover and glosses Domesday Book", tipvis and "Domesday Book" in tiptxt and "1086" in tiptxt, tiptxt[:90].replace("\n", " | "))
+    page.screenshot(path=str(OUT / "tooltip.png"))
+    page.mouse.move(700, 450)
+    page.wait_for_timeout(200)
+    rep.add("tooltip: hides when the pointer leaves", page.evaluate("document.getElementById('att-tip').hidden"))
+    # the Portland line from the report: a passim run with a copy-date; no ', ,' and a copy-date gloss
+    page.evaluate("location.hash = '#id=52-b-subparish-000031'")
+    before = page.evaluate("window.deep.renders")
+    wait_render(page, before, 90_000)
+    line = page.evaluate("[...document.querySelectorAll('#drawer .forms li')].map(li => li.innerText).find(t => t.startsWith('Portlond(e)')) || ''")
+    import re
+    rep.add("place: Portland's passim run renders without an empty item", line.startswith("Portlond(e)") and ", ," not in line
+            and re.search(r"\bet (passim|freq)\b[^,]*\d{4}", line) is not None, line[:90])
+    page.hover("#drawer .forms li[data-v='w579358'] .att")
+    page.wait_for_timeout(300)
+    tiptxt = page.evaluate("document.getElementById('att-tip').innerText")
+    rep.add("tooltip: copy-date (l13) glossed as late 13th century", "late 13th century" in tiptxt and "1275" in tiptxt, tiptxt[:120].replace("\n", " | "))
+    page.screenshot(path=str(OUT / "tooltip-portland.png"))
+    page.mouse.move(700, 450)
     # a field-name, which lives only in the county file, opens via its id
     page.evaluate("location.hash = '#id=28-e-fn-000001'")
     before = page.evaluate("window.deep.renders")

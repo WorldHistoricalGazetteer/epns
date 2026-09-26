@@ -50,7 +50,19 @@ button { font: inherit; }
 .forms { margin: .2rem 0; padding: 0; list-style: none; }
 .forms li { margin: .35rem 0; line-height: 1.45; }
 .forms b { font-weight: bold; }
-.att { white-space: normal; }
+.att { white-space: normal; cursor: help; border-bottom: 1px dotted #b9b1a0; padding-bottom: 1px; }
+.att:hover, .att:focus { background: #ece7da; outline: none; border-bottom-color: var(--accent); }
+#drawer h3 .how { font-size: .7rem; text-transform: none; letter-spacing: 0; margin-left: .5rem; font-weight: normal; }
+#att-tip { position: fixed; z-index: 1200; width: min(420px, 92vw); background: #fffdf8; color: var(--ink); border: 1px solid var(--line);
+           border-radius: 6px; box-shadow: 0 6px 24px rgba(0, 0, 0, .25); padding: .55rem .75rem .6rem; font-size: .82rem; line-height: 1.45;
+           font-family: system-ui, sans-serif; }
+#att-tip[hidden] { display: none; }
+#att-tip .tip-head { font-family: Georgia, serif; font-size: .95rem; margin-bottom: .3rem; padding-bottom: .3rem; border-bottom: 1px solid var(--line); }
+#att-tip dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: .22rem .6rem; }
+#att-tip dt { color: var(--muted); font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; padding-top: .12rem; }
+#att-tip dd { margin: 0; }
+#att-tip .it { font-style: italic; font-family: Georgia, serif; }
+#att-tip .ap { color: var(--muted); }
 .att .src { font-family: Georgia, serif; }
 .att .src.it { font-style: italic; }
 .att .ap { color: var(--muted); }
@@ -92,13 +104,16 @@ details.fn summary { cursor: pointer; color: var(--accent); font-size: .85rem; f
 .browse .n { color: var(--muted); font-size: .78em; font-family: system-ui, sans-serif; margin-left: .3rem; }
 
 /* legend + basemap switch */
-.legend { position: absolute; bottom: 34px; left: 12px; z-index: 900; background: rgba(246, 243, 236, .94); border: 1px solid var(--line); border-radius: 6px;
+.legend { position: absolute; bottom: 44px; left: 12px; z-index: 900; background: rgba(246, 243, 236, .94); border: 1px solid var(--line); border-radius: 6px;
           padding: .45rem .65rem; font-size: .74rem; font-family: system-ui, sans-serif; line-height: 1.7; box-shadow: 0 1px 6px rgba(0, 0, 0, .12); }
 .legend b { display: block; font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: .1rem; }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: .4rem; vertical-align: -1px; border: 1px solid rgba(0, 0, 0, .3); }
 .maplibregl-ctrl.basemaps { background: rgba(246, 243, 236, .97); border-radius: 6px; padding: .35rem .55rem; font-family: system-ui, sans-serif; font-size: .74rem; box-shadow: 0 1px 4px rgba(0, 0, 0, .25); }
 .maplibregl-ctrl.basemaps b { display: block; font-size: .66rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: .15rem; }
 .maplibregl-ctrl.basemaps label { display: flex; align-items: center; gap: .3rem; cursor: pointer; white-space: nowrap; line-height: 1.6; }
+
+.maplibregl-ctrl-bottom-left .maplibregl-ctrl-scale { margin-bottom: 10px; }
+.maplibregl-ctrl-attrib.maplibregl-compact { font-family: system-ui, sans-serif; }
 
 /* popups */
 .maplibregl-popup-content { font-family: Georgia, serif; padding: .45rem .7rem; border-radius: 6px; font-size: .86rem; box-shadow: 0 1px 6px rgba(0, 0, 0, .25); }

@@ -7,7 +7,7 @@
   <meta name="description" content="Every place-name and historical spelling in the English Place-Name Society survey volumes as digitised by DEEP (2013): searchable, mapped, browsable by county, hundred, parish and township." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="css/app.css?v=1" />
+  <link rel="stylesheet" href="css/app.css?v=2" />
 </head>
 <body>
   <div id="map"></div>
@@ -65,8 +65,18 @@
         <p>Only <b id="stat-own"></b> places carry coordinates in the data, and those come from four different gazetteers (the survey's own, the Key to English Place-Names, Unlock and GeoNames) which often disagree by some distance. Each candidate is listed on the place's page; the dot on the map is the first available in that order of preference. Places without coordinates inherit their township's or parish's for the purpose of flying the map there, and are marked as such. Nothing here is a survey-grade location.</p>
         <p>Basemaps: <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> on <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>, OpenStreetMap itself, or the Ordnance Survey six-inch second edition (1888–1913) served by the <a href="https://maps.nls.uk/" target="_blank" rel="noopener">National Library of Scotland</a> under CC BY 3.0, whose sheets show the landscape roughly as the earliest survey volumes were being compiled.</p>
 
-        <h3>Reading an entry</h3>
-        <p>Spellings are set out as the survey prints them: the form in bold, then each attestation as <i>date source</i>, with the source abbreviation in italics where the volume italicises it. Page, item and folio references follow the source; <i>(p)</i> marks a form that occurs within a personal name; a copy-date in brackets, as in <i>921 (c. 925) ASC (A)</i>, dates the manuscript the form is read in. The abbreviations expand in the bibliography of the relevant county volume, which the DEEP data did not include. The identifier under each headword is the DEEP record id and is stable for citation.</p>
+        <h3 id="reading">Reading an entry</h3>
+        <p>Spellings are set out as the survey prints them: the form in bold, then each attestation as <i>date source</i>. <b>Hover, tap or tab to any attestation</b> for a plain-English gloss of every token in it. The conventions, in brief:</p>
+        <ul>
+          <li><b>Dates.</b> A bare year is the date of the document. <i>c.</i> is <i>circa</i>; <i>a.</i> and <i>p.</i> are <i>ante</i> and <i>post</i>, before and after; <i>13th</i> or <i>13</i> is the century; <i>t. Hy 3</i> is <i>tempore</i>, in the reign of Henry III, and <i>e.</i>, <i>m.</i>, <i>l.</i> before a reign or century mean early, mid, late. The editors' year-bracket for each is in the tooltip.</li>
+          <li><b>Copy-dates.</b> A date in brackets after the date, as in <i>921 (c. 925) ASC (A)</i> or <i>c. 1127 (l13)</i>, is when the surviving copy was made: the spelling is read in a late-13th-century copy, not the 1127 original. A letter in brackets after the source names the manuscript.</li>
+          <li><b>Sources.</b> The abbreviation is the volume's; the tooltip expands the standard national ones (<i>DB</i> Domesday Book, <i>FF</i> Feet of Fines, <i>Ass</i> Assize Rolls, <i>Pat</i> Patent Rolls…) and says when it cannot. <i>Italics</i> mark an unpublished manuscript source, roman type a printed edition or calendar, the survey's own convention. <i>ib.</i> means the volume said <i>ibidem</i> and the encoders resolved it.</li>
+          <li><b>After the source:</b> page, item, folio or entry number; <i>(p)</i>, the spelling occurs within a personal name rather than as a reference to the place; <i>(3 X)</i>, it occurs three times; <i>et passim to</i>, it recurs in sources between the two citations shown.</li>
+        </ul>
+        <p>The identifier under each headword is the DEEP record id and is stable for citation. The 2013 project's own per-record URLs no longer resolve.</p>
+
+        <h3>What is not here: etymologies</h3>
+        <p>The DEEP XML carries names, hierarchy, spellings, sources and coordinates, but not the volumes' discussion of what each name means or which elements it contains. Those etymologies are in the Institute for Name-Studies' <a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener">Key to English Place-Names</a>, which does not expose per-place addresses to link to; each place page here offers a link to it for searching by name.</p>
 
         <h3>Storage</h3>
         <p>Data files are cached in your browser (IndexedDB) after the first download, so later visits are quick and the site works with a poor connection. <button id="clear-cache" type="button">Clear cached data</button> <span class="small" id="cache-size"></span></p>
@@ -79,6 +89,6 @@
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script type="module" src="js/app.js?v=1"></script>
+  <script type="module" src="js/app.js?v=2"></script>
 </body>
 </html>
