@@ -1,0 +1,43 @@
+# Project data (423 MB of MADS XML, fetched by wget; see README)
+data/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python byte-code and build artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Environment files with secrets
+.env
+.env.*
+
+# PyCharm: keep shared project config, ignore per-machine state
+.idea/workspace.xml
+.idea/usersettings.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/**/dictionaries/
+
+# OS noise
+.DS_Store
+Thumbs.db
+tools/pages/out/

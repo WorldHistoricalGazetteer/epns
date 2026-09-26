@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DEEP — English place-name survey explorer</title>
+  <meta name="description" content="Every place-name and historical spelling in the English Place-Name Society survey volumes as digitised by DEEP (2013): searchable, mapped, browsable by county, hundred, parish and township." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="css/app.css?v=1" />
+</head>
+<body>
+  <div id="map"></div>
+
+  <div id="pane">
+    <h1>DEEP <small>English place-names, 1086 onwards</small>
+      <button id="info-btn" class="info-btn" title="About this site, its data and licence" aria-label="About">ⓘ</button></h1>
+    <div class="search-wrap">
+      <input id="q" type="search" placeholder="Search a name or a historical spelling…" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="tog-row">
+      <label title="Match by sound as well as spelling (Symphonym v8, runs in your browser; ~50 MB on first use, then cached)"><input type="checkbox" id="phon" /> phonetic matching</label>
+      <label title="Include the modern and historical field-names in results (378,543 of the 539,372 records)"><input type="checkbox" id="fn" checked /> field-names</label>
+    </div>
+    <div class="nav-row">
+      <select id="nav-county" title="Browse a county"><option value="">Browse by county…</option></select>
+    </div>
+    <div id="status"></div>
+  </div>
+
+  <div id="drawer" hidden></div>
+
+  <div class="legend" id="legend">
+    <b>Places with their own coordinates</b>
+    <span><i class="dot" style="background:var(--c-parish)"></i>Parish, borough, county town</span><br />
+    <span><i class="dot" style="background:var(--c-township)"></i>Township, chapelry</span><br />
+    <span><i class="dot" style="background:var(--c-name)"></i>Minor name</span><br />
+    <span><i class="dot" style="background:var(--c-admin)"></i>Hundred, wapentake, liberty</span>
+  </div>
+
+  <div id="veil"><div class="box"><div id="veil-msg">Loading the place index…</div><div class="bar"><i id="veil-bar"></i></div></div></div>
+
+  <div class="modal" id="info-modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="info-title">
+      <div class="modal-head"><span id="info-title">DEEP: the English place-name survey, digitised</span><button id="info-close" aria-label="Close">×</button></div>
+      <div class="modal-body">
+        <p class="lede">Every name in the county volumes of the <a href="https://www.nottingham.ac.uk/research/groups/epns/" target="_blank" rel="noopener">English Place-Name Society</a> survey that had been published by 2013, with the historical spellings and dated sources that the printed volumes give for each: over half a million places and more than 400,000 attestations, from Domesday Book onwards.</p>
+
+        <div class="licence">Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br /><span class="small">Statement as published with the data at <a href="http://mads.digitalresources.jisc.ac.uk/mads2017/" target="_blank" rel="noopener">mads.digitalresources.jisc.ac.uk/mads2017</a>. The same licence applies to everything you see here that is drawn from it.</span></div>
+
+        <h3>What this is</h3>
+        <p>The <b>Digital Exposure of English Place-names</b> project (<a href="https://www.nottingham.ac.uk/research/groups/ins/projects/deep.aspx" target="_blank" rel="noopener">DEEP</a>, November 2011 to October 2013, funded by Jisc and run by the Institute for Name-Studies at Nottingham with the Centre for Data Digitisation and Analysis at Queen's University Belfast and the University of Edinburgh) converted the printed survey into structured XML, which Jisc <a href="https://digitisation.jiscinvolve.org/wp/2017/05/24/digitisation-of-english-placenames-deep-project-data/" target="_blank" rel="noopener">released in 2017</a> as the 66 files this site reads. It contains, for each place, the survey's headword, its position in the administrative hierarchy (county, hundred or wapentake, parish, township), the variant spellings the editors collected, and for each spelling the dates and sources in which it is attested, transcribed from the volumes' own apparatus. For a minority of places it also carries coordinates supplied by up to four gazetteers.</p>
+        <p>The Institute's own front end to related data is the <a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener">Key to English Place-Names</a>, which gives etymologies and elements but not the historical forms. This site is the complement: the forms, the sources and the hierarchy, in full.</p>
+
+        <div class="stats" id="stats"></div>
+
+        <h3>Searching</h3>
+        <ul>
+          <li><b>Type a modern name or a historical spelling.</b> The index holds every headword, every variant spelling and the survey's own normalised forms (so <i>Bunstow(e)</i> is found by <i>Bunstowe</i> or <i>Bunstow</i>). Matching ignores case, accents and punctuation but keeps <i>æ</i>, <i>þ</i> and <i>ð</i> in the results as written.</li>
+          <li><b>Phonetic matching</b> finds spellings that <i>sound</i> like what you typed even when no letters agree, which is how a medieval scribe's <i>Snotingaham</i> meets <i>Nottingham</i>. It uses <a href="https://doi.org/10.5281/zenodo.22767194" target="_blank" rel="noopener">Symphonym v8</a>, a phonetic embedding model, run entirely in your browser: the first use downloads the model and a precomputed index (about 50 MB), after which both are cached. Scores are cosine similarities; anything under 0.70 is not shown. It offers candidates; it does not decide.</li>
+          <li><b>Field-names</b> are seven in ten of the records: the names of fields and closes listed under each township, with no spellings or coordinates of their own. Untick the box to keep them out of results.</li>
+        </ul>
+
+        <h3>The map, and what it does not show</h3>
+        <p>Only <b id="stat-own"></b> places carry coordinates in the data, and those come from four different gazetteers (the survey's own, the Key to English Place-Names, Unlock and GeoNames) which often disagree by some distance. Each candidate is listed on the place's page; the dot on the map is the first available in that order of preference. Places without coordinates inherit their township's or parish's for the purpose of flying the map there, and are marked as such. Nothing here is a survey-grade location.</p>
+        <p>Basemaps: <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> on <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>, OpenStreetMap itself, or the Ordnance Survey six-inch second edition (1888–1913) served by the <a href="https://maps.nls.uk/" target="_blank" rel="noopener">National Library of Scotland</a> under CC BY 3.0, whose sheets show the landscape roughly as the earliest survey volumes were being compiled.</p>
+
+        <h3>Reading an entry</h3>
+        <p>Spellings are set out as the survey prints them: the form in bold, then each attestation as <i>date source</i>, with the source abbreviation in italics where the volume italicises it. Page, item and folio references follow the source; <i>(p)</i> marks a form that occurs within a personal name; a copy-date in brackets, as in <i>921 (c. 925) ASC (A)</i>, dates the manuscript the form is read in. The abbreviations expand in the bibliography of the relevant county volume, which the DEEP data did not include. The identifier under each headword is the DEEP record id and is stable for citation.</p>
+
+        <h3>Storage</h3>
+        <p>Data files are cached in your browser (IndexedDB) after the first download, so later visits are quick and the site works with a poor connection. <button id="clear-cache" type="button">Clear cached data</button> <span class="small" id="cache-size"></span></p>
+
+        <h3>Credits and code</h3>
+        <p>Survey data © English Place-Name Society, digitised by DEEP and published by Jisc, CC BY-NC 4.0. Symphonym v8 © Stephen Gadd, CC BY 4.0, with the browser tokeniser and runtime integration from the <a href="https://github.com/WorldHistoricalGazetteer/whg3" target="_blank" rel="noopener">World Historical Gazetteer</a> (BSD 3-Clause, University of Pittsburgh). Map rendering by <a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre GL</a>. This site and its data pipeline are open source at <a href="https://github.com/docuracy/deep" target="_blank" rel="noopener">github.com/docuracy/deep</a>, where corrections and suggestions are welcome as issues.</p>
+        <p class="small">A static site: there is no server and nothing you type leaves your browser. The DEEP XML was fetched from Jisc on 26 September 2026; the data files here were built on <span id="built"></span>.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>
