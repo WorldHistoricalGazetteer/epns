@@ -132,6 +132,20 @@ details.fn summary { cursor: pointer; color: var(--accent); font-size: .85rem; f
 .tip-name { font-weight: bold; }
 .tip-ctx { font-size: .74rem; color: var(--muted); font-family: system-ui, sans-serif; display: block; }
 
+/* record formats */
+.formats { margin-top: .6rem; padding-top: .5rem; border-top: 1px solid var(--line); display: flex; gap: .4rem; align-items: center; flex-wrap: wrap; }
+.formats button { font-family: system-ui, sans-serif; font-size: .76rem; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: .22rem .5rem; color: var(--accent); }
+.formats button:hover { background: #eaf2f7; }
+.fmt-box { width: min(900px, 96vw); height: 90vh; }
+.fmt-btn { font-family: system-ui, sans-serif; font-size: .76rem; cursor: pointer; background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: .2rem .5rem; color: var(--accent); margin-left: .4rem; }
+.modal-head .fmt-btn + #fmt-close { margin-left: .6rem; }
+.fmt-caveat { font-family: system-ui, sans-serif; font-size: .8rem; line-height: 1.45; padding: .5rem 1rem; background: #efeadf; border-bottom: 1px solid var(--line); color: #3a3526; }
+.fmt-caveat code { font-size: .78rem; }
+.fmt-body { margin: 0; padding: .7rem 1rem 1rem; overflow: auto; flex: 1 1 auto; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .76rem; line-height: 1.4; white-space: pre; background: #fffdf8; color: #2a2519; }
+.fmt-body .k { color: #6b4a2a; }
+.fmt-body .drop { display: block; color: #8a8378; text-decoration: line-through; text-decoration-color: #c0392b; white-space: pre-wrap; }
+.fmt-body .drop-head { display: block; color: #a24a2a; font-weight: bold; }
+
 /* modal */
 .modal { position: fixed; inset: 0; background: rgba(29, 36, 51, .55); display: flex; align-items: center; justify-content: center; z-index: 1000; }
 .modal[hidden] { display: none; }

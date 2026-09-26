@@ -14,6 +14,7 @@
  */
 import { CONFIG } from './config.js?v=1';
 import { cached, clearAll, usage } from './store.js?v=1';
+import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=1';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -504,6 +505,83 @@ function renderForms(rec) {
     <div id="forms-wrap" data-n="${units.reduce((n, u) => n + u.members.length, 0)}">${body}</div>`;
 }
 
+/* ── record formats: PLATO / LPF (with its losses in place) / MADS ───────────────────────────
+   The three views are generated in the browser from the county file by formats.js, the port of
+   process/export_plato.py; the downloads are the Python's output for the whole corpus. */
+let PLATO_META = null;
+async function platoMeta() {
+  if (PLATO_META) return PLATO_META;
+  try { PLATO_META = await (await fetch(DATA + 'plato-sample.json', { cache: 'no-cache' })).json(); } catch { PLATO_META = {}; }
+  return PLATO_META;
+}
+function fmtCtx() {
+  const sh = S.currentShard;
+  return { code: sh.code, name: sh.name, volume: sh.volume, types: C().types, byGid: sh.byGid };
+}
+function jsonHTML(obj) {
+  // pretty JSON with light syntax colouring; strings escaped
+  const s = JSON.stringify(obj, null, 2);
+  return esc(s).replace(/"(https?:\/\/[^"]+)"/g, '"<a href="$1" target="_blank" rel="noopener">$1</a>"').replace(/^(\s*)"([^"]+)":/gm, '$1<span class="k">"$2"</span>:');
+}
+function lpfHTML(feature, dropped) {
+  /* The Feature as JSON, with the losses inserted in place: after each names[] item, greyed and
+     struck, the things PLATO carries for that spelling and LPF cannot; record-level losses at the end. */
+  const lines = JSON.stringify(feature, null, 2).split('\n');
+  const out = [];
+  let inNames = false, depth = 0, current = null;
+  for (const raw of lines) {
+    const line = esc(raw).replace(/^(\s*)"([^"]+)":/, '$1<span class="k">"$2"</span>:');
+    if (/^\s*"names": \[/.test(raw)) inNames = true;
+    if (inNames) {
+      const m = /^\s{6}"toponym": "(.*)",?$/.exec(raw);
+      if (m) current = JSON.parse('"' + m[1] + '"');
+      if (/^\s{4}\},?$/.test(raw) && current != null) {
+        out.push(line);
+        for (const d of dropped.get(current) || []) out.push(`      <span class="drop">✕ ${esc(d)}</span>`);
+        current = null;
+        continue;
+      }
+      if (/^\s{2}\],?$/.test(raw)) inNames = false;
+    }
+    out.push(line);
+  }
+  const rec = dropped.get('') || [];
+  if (rec.length) out.push('', '<span class="drop-head">Record-level losses</span>', ...rec.map((d) => `<span class="drop">✕ ${esc(d)}</span>`));
+  return out.join('\n');
+}
+async function openFormat(kind) {
+  const rec = S.currentRec, ctx = fmtCtx();
+  const meta = await platoMeta();
+  const id = deepIdOfRec(rec, ctx);
+  let title, body, text, filename, caveat = '';
+  if (kind === 'plato') {
+    const { entity, identityRelations } = toPlato(rec, ctx);
+    const doc = identityRelations.length ? { spatialEntity: entity, identityRelations } : { spatialEntity: entity };
+    text = JSON.stringify(doc, null, 2); body = jsonHTML(doc); filename = `${id}.plato.json`;
+    title = 'PLATO';
+    caveat = `Place-centric PLATO, generated against <a href="https://github.com/pelagios/place-attestation-ontology/commit/${esc(meta.plato_commit || '')}" target="_blank" rel="noopener">commit <code>${esc((meta.plato_commit || '').slice(0, 12))}</code></a> (owl:versionInfo there reads ${esc(meta.plato_versionInfo_at_commit || '?')} and is not the provenance). ${entity.attestations.length} attestations; nothing in the record is dropped. Identifiers are DEEP's own placenames.org.uk URIs, which no longer resolve.`;
+  } else if (kind === 'lpf') {
+    const { feature, dropped } = toLpf(rec, ctx);
+    text = JSON.stringify(feature, null, 2); body = lpfHTML(feature, dropped); filename = `${id}.lpf.json`;
+    title = 'Linked Places Format (lossy)';
+    const n = [...dropped.values()].reduce((a, v) => a + v.length, 0);
+    caveat = `Valid LPF v1.3 (a GeoJSON Feature). <b>${n} thing${n === 1 ? '' : 's'} PLATO carries for this record ${n === 1 ? 'has' : 'have'} no slot here</b> and ${n === 1 ? 'is' : 'are'} struck through in place. The eight classes of loss are set out in <a href="https://github.com/LinkedPasts/linked-places-format/discussions/53" target="_blank" rel="noopener">LPF discussion 53</a>; for the attestations, use the PLATO view or download.`;
+  } else {
+    text = toMads(rec, ctx); body = esc(text); filename = `${id}.xml`;
+    title = 'MADS XML';
+    caveat = 'Regenerated from the parsed record: the same elements and attributes as the DEEP file, in the same order, but not byte-identical to it (whitespace and attribute order differ). The source file is <code>' + esc(ctx.volume) + '</code> at mads.digitalresources.jisc.ac.uk/mads2017/.';
+  }
+  const m = $('fmt-modal');
+  $('fmt-title').textContent = `${rec.t} as ${title}`;
+  $('fmt-caveat').innerHTML = caveat + ' <span class="small">Licence: CC BY-NC 4.0, as the source data.</span>';
+  $('fmt-body').innerHTML = body;
+  $('fmt-copy').onclick = () => navigator.clipboard?.writeText(text).then(() => { $('fmt-copy').textContent = 'Copied'; setTimeout(() => { $('fmt-copy').textContent = 'Copy'; }, 1500); });
+  $('fmt-download').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type: kind === 'mads' ? 'application/xml' : 'application/json' })); a.download = filename; a.click(); URL.revokeObjectURL(a.href); };
+  m.hidden = false; document.body.style.overflow = 'hidden';
+  window.deep.renders++;
+}
+window.deep.formats = { toPlato, toLpf, toMads, ctx: () => fmtCtx() };
+
 /* ── attestation tooltips ────────────────────────────────────────────────────────────────────
    One floating panel, filled from the structured record rather than from the printed string, so a
    first-time visitor can hover "c. 1127 (l13) WinchCath" and be told what each token means. */
@@ -642,8 +720,13 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   links.push(`<a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener" title="Etymologies and elements are in the Institute's Key to English Place-Names; it has no per-place URL to link to, so search there for ${esc(rec.t)}">Etymology: Key to English Place-Names</a>`);
   links.push(`<a href="#" id="copy-link">Copy link to this place</a>`);
   h += `<div class="links">${links.join('')}</div>`;
+  h += `<div class="formats"><span class="meta">This record as</span>
+        <button type="button" data-fmt="plato" title="PLATO place-centric JSON: every element of the record, with nothing dropped">PLATO</button>
+        <button type="button" data-fmt="lpf" title="Linked Places Format v1.3: valid, and lossy; what it drops is shown in place">LPF <span class="ap">(lossy)</span></button>
+        <button type="button" data-fmt="mads" title="The source MADS XML, regenerated from the parsed record">MADS</button></div>`;
   S.current = gid;
   S.currentRec = rec;
+  S.currentShard = shard;
   showDrawer(h);
   if (push) { const hp = new URLSearchParams(location.hash.replace(/^#/, '')); const v = hp.get('view'); history.replaceState(null, '', `#id=${shortIdRec(rec, shard.code)}${v === 'printed' ? '&view=printed' : ''}`); }
   const c = C();
@@ -716,6 +799,8 @@ function wireUI() {
     if (f) { e.preventDefault(); const [lon, lat] = f.dataset.fly.split(',').map(Number); S.map.flyTo({ center: [lon, lat], zoom: Math.max(S.map.getZoom(), 13) }); return; }
     if (e.target.closest('.close')) { hideDrawer(); return; }
     if (e.target.id === 'back-results') { S.current = null; showDrawer(S.lastResults); selectOnMap(-1); return; }
+    const fmt = e.target.closest('.formats button');
+    if (fmt && S.currentRec) { openFormat(fmt.dataset.fmt); return; }
     const tog = e.target.closest('.view-tog button');
     if (tog && S.currentRec) {
       const view = tog.dataset.view;
@@ -744,6 +829,10 @@ function wireUI() {
   modal.addEventListener('click', (e) => { if (e.target === modal || e.target.id === 'info-close') closeInfo(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) closeInfo(); });
   $('clear-cache').addEventListener('click', async () => { await clearAll(); location.reload(); });
+  const fm = $('fmt-modal');
+  const closeFmt = () => { fm.hidden = true; document.body.style.overflow = ''; };
+  fm.addEventListener('click', (e) => { if (e.target === fm || e.target.id === 'fmt-close') closeFmt(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !fm.hidden) closeFmt(); });
   try {
     if (!localStorage.getItem('deep_info_seen')) { openInfo(); localStorage.setItem('deep_info_seen', '1'); }
   } catch { /* private mode: show it every time, which is the right failure */ openInfo(); }

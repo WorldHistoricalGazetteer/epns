@@ -40,6 +40,42 @@ terms, coordinates and notes. Six per cent of attestations are nested to express
 The full profile, and why LPF cannot hold it without loss, is written up in
 [LinkedPasts/linked-places-format#53](https://github.com/LinkedPasts/linked-places-format/discussions/53).
 
+## Downloads and exports
+
+The [downloads page](https://docuracy.github.io/deep/downloads.html) offers the whole corpus in three
+shapes, all built from the same DuckDB by `process/export_plato.py` and `process/build_downloads.py`
+and attached to a GitHub release (they are too large and too rarely rebuilt for git history):
+
+| Format | For | Loss |
+|---|---|---|
+| **PLATO** place-centric JSON (JSON Lines whole-corpus file; 66 per-county documents) | anyone who wants the attestations | none: every element of every record, validated against the schema at a named PLATO commit |
+| **Parquet** tables and the **DuckDB** database | counting, joining, plotting | none |
+| **LPF** v1.3 (GeoJSON Text Sequence; 66 per-county FeatureCollections) | GIS and gazetteer interoperability | lossy, and 95.7% of features have null geometry; the page says exactly what is dropped |
+
+Every PLATO and LPF file carries `plato_commit=<sha>` in its header and the manifest carries the same
+sha; `export_plato.py --verify` fails loudly if they disagree. The commit, not PLATO's
+`owl:versionInfo`, is the provenance, because the terms the export exercises (`plato:Citation` with
+locator and attribution status, `source_timespan`, `derived_from`, `occurrence_count`,
+`occurrence_context`, `form_status`) are on PLATO's `main` and in no tagged release.
+
+Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
+through in place) and **as MADS** (regenerated), generated in the browser by `docs/js/formats.js`, a
+port of the Python exporter. `docs/data/plato-sample.json` is the Python's output for six records;
+the headless checks require the browser port to produce identical objects for them.
+
+## Identifiers
+
+Nothing is minted here. The DEEP record id (`epns-deep-<county>-<code>-<type>-<seq>`) is read
+verbatim from the XML's `<mads ID>` attribute, never composed; all 539,372 are unique, all match the
+pattern, and parse-then-compose round-trips every one, which `build_db.py` asserts on every build.
+The sequence numbers are DEEP's own (they are not dense and do not follow document order, so they were
+not assigned by this build). The site's integer `gid` is a build artefact used only inside its data
+files and never shown as an identifier. The exports use DEEP's published URIs
+(`http://placenames.org.uk/id/placename/<county>/<n>`, one per record and one per name form) as
+`@id`s; they are unique, they are the only identifiers the corpus ever had, and they no longer
+resolve, which the files say. Any resolvable namespace (a w3id, say) is a governance decision, not
+an engineering one, and is not taken in this repository.
+
 ## Layout
 
 ```
@@ -47,6 +83,8 @@ process/fetch_data.sh             wget mirror of the 66 volumes -> data/mads2017
 process/build_db.py               XML -> data/parquet/*.parquet + data/deep.duckdb, with two-instrument count checks
 process/export_site.py            DuckDB -> docs/data/ (core index, per-county files, name index, manifest)
 process/build_symphonym_index.py  name keys -> int8 Symphonym v8 matrix, docs/data/symphonym/ (system python)
+process/export_plato.py           DuckDB -> data/export/: PLATO (validated) + LPF, stamped with the PLATO commit; --sample, --verify
+process/build_downloads.py        data/export + parquet + duckdb -> release bundles and docs/downloads.html (sizes/digests read, not typed)
 docs/                             the Pages site: index.html, css/, js/, symphonym/ (model + tokeniser), data/
 tools/pages/shot.py               headless Playwright checks of the site (system python)
 ```
@@ -59,6 +97,8 @@ process/fetch_data.sh                                   # once; 423 MB
 .venv/bin/python process/build_db.py                    # ~45 s; fails loudly if any count disagrees
 .venv/bin/python process/export_site.py                 # ~2 min -> docs/data/
 /usr/bin/python3 process/build_symphonym_index.py       # ~6 min; needs torch + onnxruntime + the indexing repo's tokeniser
+.venv/bin/python process/export_plato.py                # ~40 min with validation -> data/export/ (+ --sample for the fixture)
+.venv/bin/python process/build_downloads.py --tag data-YYYY-MM-DD   # bundles + docs/downloads.html; then gh release upload
 /usr/bin/python3 tools/pages/shot.py --serve            # headless checks; --prove-it-fails to check the checks
 ```
 

@@ -76,14 +76,20 @@ def main():
     t0 = time.time()
     con = duckdb.connect(str(DB), read_only=True)
     OUT.mkdir(parents=True, exist_ok=True)
+    # Only this script's own outputs are removed. plato-sample.json (export_plato.py --sample) and
+    # symphonym/ (build_symphonym_index.py) are other scripts' products; deleting them here once
+    # silently broke phonetic search on the live site, because the matrix survived and its manifest
+    # did not.
     for old in OUT.rglob("*.json"):
+        if old.name == "plato-sample.json" or "symphonym" in old.parts:
+            continue
         old.unlink()
 
     # ── gid assignment: county code, then the order the file listed them (seq within type is not
     #    document order, so use the rowid the loader wrote them in, which is document order).
     places = con.execute("""
         SELECT rowid AS r, place_id, county_code, type_code, type, seq, title, auth_type, parent_id, parent_title,
-               content_source, created, n_variants, n_attestations, n_geo
+               content_source, created, n_variants, n_attestations, n_geo, title_uri, volume
         FROM place ORDER BY county_code, rowid""").fetchall()
     gid_of = {p[1]: i for i, p in enumerate(places)}
     n = len(places)
@@ -106,7 +112,7 @@ def main():
     county_ix = {c: i for i, c in enumerate(codes)}
     core = {k: [] for k in ["gid", "title", "type", "county", "parent", "lon", "lat", "geo", "nVar", "nAtt", "nFn", "nKids", "code", "seq", "hundred", "parish", "township"]}
     for i, p in enumerate(places):
-        r, pid, cc, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng = p
+        r, pid, cc, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng, turi, volf = p
         if typ == "fn":
             continue
         pt = point.get(pid)
@@ -170,8 +176,8 @@ def main():
         recs = []
         gids = [i for i, _ in by_county[cc]]
         for i, p in by_county[cc]:
-            r, pid, _, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng = p
-            rec = {"g": i, "t": title, "ty": type_ix[typ], "p": gid_of.get(parent, -1), "code": code, "seq": seq}
+            r, pid, _, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng, turi, volf = p
+            rec = {"g": i, "t": title, "ty": type_ix[typ], "p": gid_of.get(parent, -1), "code": code, "seq": seq, "u": uri_num(turi)}
             if at and at != typ:
                 rec["at"] = at
             if csrc:
@@ -208,7 +214,8 @@ def main():
             if pid in notes:
                 rec["n"] = [t for (t,) in notes[pid]]
             recs.append(rec)
-        info = dump(OUT / "county" / f"{cc}.json", {"code": cc, "name": county_name.get(cc), "gidFrom": gids[0], "gidTo": gids[-1], "places": recs})
+        volume = by_county[cc][0][1][16]
+        info = dump(OUT / "county" / f"{cc}.json", {"code": cc, "name": county_name.get(cc), "volume": volume, "gidFrom": gids[0], "gidTo": gids[-1], "places": recs})
         info.update({"code": cc, "name": county_name.get(cc), "gidFrom": gids[0], "gidTo": gids[-1], "n": len(recs)})
         county_files.append(info)
     print(f"{len(county_files)} county files, {sum(f['bytes'] for f in county_files) / 1e6:.1f} MB in {time.time() - t0:.0f}s")

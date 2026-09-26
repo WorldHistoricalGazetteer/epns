@@ -94,6 +94,15 @@ def wait_render(page, before: int, timeout=60_000) -> bool:
         return False
 
 
+def goto_id(page, short_id: str, timeout=90_000) -> bool:
+    """Open a record by its id via the URL fragment, and wait for the render. Setting location.hash
+    to the value it already holds fires no hashchange, so the hash is cleared first; that cost two
+    false failures before it was understood."""
+    before = page.evaluate("window.deep.renders")
+    page.evaluate(f"(() => {{ if (location.hash === '#id={short_id}') {{ location.hash = ''; }} setTimeout(() => {{ location.hash = '#id={short_id}'; }}, 30); }})()")
+    return wait_render(page, before, timeout)
+
+
 def wait_index(page, timeout=180_000) -> bool:
     try:
         page.wait_for_function("window.deep && window.deep.state && window.deep.state.indexReady === true", timeout=timeout)
@@ -228,9 +237,7 @@ def check_place(page, rep: Report):
     rep.add("tooltip: hides when the pointer leaves", page.evaluate("document.getElementById('att-tip').hidden"))
     # the Portland line from the report: a passim run with a copy-date; no ', ,' and a copy-date gloss.
     # First in the chronological view: the run is ONE row at its first date, running on to the last.
-    page.evaluate("location.hash = '#id=52-b-subparish-000031'")
-    before = page.evaluate("window.deep.renders")
-    wait_render(page, before, 90_000)
+    goto_id(page, "52-b-subparish-000031")
     row = page.evaluate("[...document.querySelectorAll('#drawer .forms.chron li')].map(li => li.innerText.replace(/\\s+/g,' ')).find(t => t.includes('Portlond(e)') && t.includes('1268')) || ''")
     rep.add("forms: a passim run is one chronological row", "1268" in row and "1460" in row and re.search(r"et (passim|freq)", row) is not None, row[:90])
     # then the printed view, which the toggle must persist into (set here, read on the next place)
@@ -246,18 +253,68 @@ def check_place(page, rep: Report):
     page.screenshot(path=str(OUT / "tooltip-portland.png"))
     page.mouse.move(700, 450)
     # persistence across places: reopen Bunsty Hundred and expect the printed view still selected
-    page.evaluate("location.hash = '#id=02-hu-subcounty-000001&view=printed'")
+    page.evaluate("location.hash = ''")
+    page.wait_for_timeout(100)
     before = page.evaluate("window.deep.renders")
+    page.evaluate("location.hash = '#id=02-hu-subcounty-000001&view=printed'")
     wait_render(page, before, 90_000)
     rep.add("forms: view choice persists across places", page.evaluate("!!document.querySelector('#drawer .forms:not(.chron)') && document.querySelector('.view-tog button[data-view=printed]').getAttribute('aria-pressed') === 'true'"))
     page.evaluate("document.querySelector('.view-tog button[data-view=date]').click()")
     # a field-name, which lives only in the county file, opens via its id
-    page.evaluate("location.hash = '#id=28-e-fn-000001'")
-    before = page.evaluate("window.deep.renders")
-    rep.add("place: field-name opens from the county file", wait_render(page, before, 90_000))
+    rep.add("place: field-name opens from the county file", goto_id(page, "28-e-fn-000001"))
     txt = page.evaluate("document.getElementById('drawer').innerText")
     rep.add("place: field-name shows its township", "Alder Wood" in txt and "Alfreton" in txt, txt[:80].replace("\n", " | "))
     page.screenshot(path=str(OUT / "place.png"))
+
+
+def check_formats(page, rep: Report):
+    """The three per-record views, and the browser port's equality with the Python export."""
+    if not wait_index(page):
+        rep.add("formats: name index loaded", False)
+        return
+    goto_id(page, "02-hu-subcounty-000001")
+    # PLATO view
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("document.querySelector('.formats button[data-fmt=plato]').click()")
+    wait_render(page, before, 30_000)
+    body = page.evaluate("document.getElementById('fmt-body').innerText")
+    cav = page.evaluate("document.getElementById('fmt-caveat').innerText")
+    rep.add("formats: PLATO view opens with Headword formStatus and the commit", "https://w3id.org/plato#Headword" in body and "commit" in cav and "0bc4e0bc7e3f" in cav, cav[:100])
+    page.evaluate("document.getElementById('fmt-close').click()")
+    # LPF view with losses struck in place
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("document.querySelector('.formats button[data-fmt=lpf]').click()")
+    wait_render(page, before, 30_000)
+    n_drop = page.evaluate("document.querySelectorAll('#fmt-body .drop').length")
+    body = page.evaluate("document.getElementById('fmt-body').innerText")
+    rep.add("formats: LPF view is a Feature with losses marked in place", '"type": "Feature"' in body and n_drop > 0 and "discussion 53" in page.evaluate("document.getElementById('fmt-caveat').innerText"), f"{n_drop} losses marked")
+    page.screenshot(path=str(OUT / "lpf-view.png"))
+    page.evaluate("document.getElementById('fmt-close').click()")
+    # MADS view
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("document.querySelector('.formats button[data-fmt=mads]').click()")
+    wait_render(page, before, 30_000)
+    body = page.evaluate("document.getElementById('fmt-body').innerText")
+    rep.add("formats: MADS view regenerates the record", '<mads ID="epns-deep-02-hu-subcounty-000001">' in body and '<attestation variantID=' in body and "<geographic" in body)
+    page.evaluate("document.getElementById('fmt-close').click()")
+    # parity: for every sample record, the browser port must equal the Python export exactly
+    res = page.evaluate("""async () => {
+      const sample = await (await fetch('data/plato-sample.json', {cache:'no-cache'})).json();
+      const out = {commit: sample.plato_commit, ok: [], bad: []};
+      for (const [sid, ref] of Object.entries(sample.records)) {
+        const okOpen = await (async () => { const b = window.deep.renders; if (location.hash === '#id=' + sid) { location.hash = ''; await new Promise(r => setTimeout(r, 40)); } location.hash = '#id=' + sid; for (let i = 0; i < 400 && window.deep.renders === b; i++) await new Promise(r => setTimeout(r, 50)); return window.deep.renders > b; })();
+        if (!okOpen) { out.bad.push(sid + ': did not open'); continue; }
+        const rec = window.deep.state.currentRec, ctx = window.deep.formats.ctx();
+        const p = window.deep.formats.toPlato(rec, ctx), l = window.deep.formats.toLpf(rec, ctx);
+        const same = JSON.stringify(p.entity) === JSON.stringify(ref.plato) && JSON.stringify(p.identityRelations) === JSON.stringify(ref.identityRelations) && JSON.stringify(l.feature) === JSON.stringify(ref.lpf);
+        (same ? out.ok : out.bad).push(sid);
+      }
+      return out;
+    }""")
+    rep.add(f"formats: browser port equals the Python export on all {len(res['ok']) + len(res['bad'])} sample records", len(res["bad"]) == 0 and len(res["ok"]) >= 5, ", ".join(res["bad"])[:120] or f"commit {res['commit'][:12]}")
+    # the comparator's own control: a record compared with a mutated copy of itself must differ
+    ctl = page.evaluate("""() => { const rec = window.deep.state.currentRec, ctx = window.deep.formats.ctx(); const a = window.deep.formats.toPlato(rec, ctx).entity; const b = JSON.parse(JSON.stringify(a)); b.attestations[0].notes += 'x'; return JSON.stringify(a) !== JSON.stringify(b); }""")
+    rep.add("formats: the parity comparator can fail (mutated copy differs)", ctl)
 
 
 def check_browse(page, rep: Report):
@@ -305,6 +362,41 @@ def check_phonetic(page, rep: Report):
     page.screenshot(path=str(OUT / "phonetic.png"))
 
 
+def check_downloads(page, rep: Report, url: str):
+    """The downloads page: present, quantitative about LPF's null geometry, and pointing at real files."""
+    r = page.goto(url.rstrip("/") + "/downloads.html", wait_until="load", timeout=60_000)
+    rep.add("downloads: page served", r is not None and r.status == 200, str(r.status if r else None))
+    txt = page.evaluate("document.body.innerText")
+    rep.add("downloads: LPF caveat is quantitative (null-geometry share) and links discussion 53",
+            "null" in txt and "%" in txt and "23,448" in txt and "discussion 53" in txt and "PLATO" in txt, "")
+    rep.add("downloads: licence statement present verbatim", "licensed to Jisc by the English Place Names Society" in txt)
+    hrefs = page.evaluate("[...document.querySelectorAll('main a[href*=\"releases/download\"]')].map(a => a.href)")
+    rep.add("downloads: release asset links listed", len(hrefs) >= 5, f"{len(hrefs)} links")
+    # Every asset link must resolve. Checked from Python, not the page: a cross-origin HEAD from the
+    # browser is blocked by CORS and would report a failure that says nothing about the file.
+    import urllib.request
+    missing = []
+    for h in hrefs:
+        try:
+            req = urllib.request.Request(h, method="HEAD")
+            with urllib.request.urlopen(req, timeout=30) as resp:   # follows GitHub's 302 to the CDN
+                if resp.status != 200:
+                    missing.append(f"{h.split('/')[-1]}:{resp.status}")
+        except Exception as e:  # noqa: BLE001
+            missing.append(f"{h.split('/')[-1]}:{getattr(e, 'code', e)}")
+    # While the repository is private the assets 404 to anonymous visitors and the page SAYS so
+    # (the access note); the check then requires the note and the 404s to agree. Once public, the
+    # note disappears and every link must resolve.
+    note = "the repository that holds these release files is private" in txt
+    if note:
+        all_404 = len(missing) == len(hrefs) and all(m.endswith(":404") for m in missing)
+        rep.add("downloads: access note present and consistent with anonymous 404s", len(hrefs) > 0 and all_404, f"{len(missing)}/{len(hrefs)} 404")
+    else:
+        rep.add("downloads: every release asset link resolves", len(hrefs) > 0 and not missing, ", ".join(missing)[:120] or f"{len(hrefs)} assets")
+    page.goto(url, wait_until="load", timeout=60_000)
+    wait_ready(page)
+
+
 def check_cache(page, rep: Report, url: str):
     """Second load must come from IndexedDB: same readiness, no core.json request over the wire."""
     fetched = []
@@ -315,7 +407,7 @@ def check_cache(page, rep: Report, url: str):
     rep.add("cache: core.json served from IndexedDB (no network request)", len(fetched) == 0, f"{len(fetched)} request(s)")
 
 
-CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "browse": check_browse, "phonetic": check_phonetic, "cache": None}
+CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "downloads": None, "cache": None}
 
 
 def main():
@@ -362,6 +454,8 @@ def main():
                         fn(page, rep)
                     except Exception as e:  # a harness exception is a failure with a reason, not a crash
                         rep.add(f"{name}: harness exception", False, str(e)[:160])
+            if "downloads" in wanted:
+                check_downloads(page, rep, url)
             if "cache" in wanted:
                 check_cache(page, rep, url)
         browser.close()

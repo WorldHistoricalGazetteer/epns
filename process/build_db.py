@@ -408,6 +408,15 @@ def main():
         problems.append(f"geo: parser {counts['geo']:,} vs regex {rx['geo']:,}")
     if rx["searchterm"] != counts["searchterm"]:
         problems.append(f"searchterms: parser {counts['searchterm']:,} vs regex {rx['searchterm']:,}")
+    # Check 1b: identifiers are READ, never composed, and parse-then-compose round-trips every one.
+    # The type word sits inside the id, so a change to the vocabulary could otherwise relabel records
+    # silently; this makes such a change a failed build instead.
+    import pyarrow.parquet as _pq
+    tbl = _pq.read_table(OUT / "place.parquet", columns=["place_id", "county_code", "type_code", "type", "seq"]).to_pylist()
+    bad_ids = [r["place_id"] for r in tbl if r["place_id"] != f"epns-deep-{r['county_code']}-{r['type_code']}-{r['type']}-{r['seq']:06d}"]
+    dup_ids = len(tbl) - len({r["place_id"] for r in tbl})
+    if bad_ids or dup_ids:
+        problems.append(f"identifiers: {len(bad_ids):,} do not round-trip (e.g. {bad_ids[:3]}), {dup_ids} duplicated")
     # Check 2: the fixed totals from the independent profile (full corpus only).
     if not args.no_expect and not args.limit:
         for k, v in EXPECT.items():
