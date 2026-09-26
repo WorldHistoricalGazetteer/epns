@@ -714,7 +714,13 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   let h = `<button class="close" title="Close">×</button>`;
   if (S.lastResults) h += `<div class="actions"><button id="back-results">‹ Back to results</button></div>`;
   h += `<div class="crumbs">${crumbs}</div><h2>${esc(rec.t)}</h2>`;
-  h += `<div class="meta">${esc(label)}${badges.length ? ' ' + badges.join(' ') : ''}${rec.cr ? ` · record ${esc(rec.cr)}` : ''}</div><div class="id">${esc(id)}</div>`;
+  let volNote = '';
+  if (tname === 'county') {
+    const co = S.counties.find((x) => x.gid === gid);
+    const siblings = co ? S.counties.filter((x) => x.name === co.name) : [];
+    if (co) volNote = ` · EPNS volume ${co.vol}${siblings.length > 1 ? ` (one of ${siblings.length} ${esc(co.name)} volumes: ${siblings.map((x) => x.vol).sort((a, b) => a - b).join(', ')})` : ''}`;
+  }
+  h += `<div class="meta">${esc(label)}${badges.length ? ' ' + badges.join(' ') : ''}${rec.cr ? ` · record ${esc(rec.cr)}` : ''}${volNote}</div><div class="id">${esc(id)}</div>`;
   h += renderForms(rec);
   if (rec.st && rec.st.length && !isFn) h += `<details><summary class="meta">Normalised search forms (${rec.st.length})</summary><p class="meta">${rec.st.map((s) => esc(s[1])).join(', ')}</p></details>`;
   if (rec.n && rec.n.length) h += `<h3>Note</h3>${rec.n.map((n) => `<p class="meta">${esc(n)}</p>`).join('')}`;
@@ -760,10 +766,38 @@ async function openById(short) {
 }
 
 /* ── UI wiring ──────────────────────────────────────────────────────────────────────────── */
+/* The survey publishes fifteen counties across several volumes, and DEEP gives each volume its own
+   county record (Cheshire has four, Lincolnshire and the West Riding six each). Those are grouped
+   under one heading and each volume is labelled by what it covers: its top-level divisions, or,
+   where a volume has a single division (every Lincolnshire volume is "Lindsey"), that division's
+   own children. The volume number is shown so a reader can cite the right book. */
+function volumeLabel(co) {
+  const kids = (S.kids.get(co.gid) || []).filter((j) => typeName(j) !== 'fn');
+  let names = kids.map((j) => title(j));
+  let prefix = '';
+  if (kids.length === 1) {
+    prefix = names[0] + ': ';
+    names = (S.kids.get(C().gid[kids[0]]) || []).filter((j) => typeName(j) !== 'fn').map((j) => title(j));
+  }
+  names = names.map((n) => n.replace(/\s+(Hundred|Wapentake|Ward|Rape|Barony|Liberty)$/i, ''));
+  let text = prefix + names.join(', ');
+  if (text.length > 70) text = text.slice(0, 67).replace(/,?\s+\S*$/, '') + '…';
+  return `vol. ${co.vol}: ${text}`;
+}
 function fillCounties() {
   const sel = $('nav-county');
-  const list = S.counties.slice().sort((a, b) => a.name.localeCompare(b.name));
-  for (const co of list) { const o = document.createElement('option'); o.value = co.gid; o.textContent = co.name; sel.appendChild(o); }
+  const byName = new Map();
+  for (const co of S.counties) { const a = byName.get(co.name); if (a) a.push(co); else byName.set(co.name, [co]); }
+  for (const name of [...byName.keys()].sort((a, b) => a.localeCompare(b))) {
+    const vols = byName.get(name).sort((a, b) => a.vol - b.vol);
+    if (vols.length === 1) {
+      const o = document.createElement('option'); o.value = vols[0].gid; o.textContent = name; sel.appendChild(o);
+    } else {
+      const g = document.createElement('optgroup'); g.label = `${name} (${vols.length} volumes)`;
+      for (const co of vols) { const o = document.createElement('option'); o.value = co.gid; o.textContent = volumeLabel(co); g.appendChild(o); }
+      sel.appendChild(g);
+    }
+  }
   sel.addEventListener('change', () => { if (sel.value !== '') { $('q').value = ''; S.lastResults = null; openPlace(+sel.value); sel.value = ''; } });
 }
 

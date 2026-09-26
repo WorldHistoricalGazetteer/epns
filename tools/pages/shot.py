@@ -396,7 +396,12 @@ def check_identifiers(page, rep: Report, url: str):
 def check_browse(page, rep: Report):
     sel = page.query_selector("#nav-county")
     n = page.evaluate("document.getElementById('nav-county').options.length - 1")
-    rep.add("browse: county list populated", n == 66, f"{n} counties")
+    rep.add("browse: county list populated (one option per volume)", n == 66, f"{n} options")
+    labels = page.evaluate("[...document.getElementById('nav-county').options].slice(1).map(o => (o.parentElement.tagName === 'OPTGROUP' ? o.parentElement.label + ' / ' : '') + o.textContent)")
+    dupes = sorted({l for l in labels if labels.count(l) > 1})
+    rep.add("browse: no two options read the same", not dupes, ", ".join(dupes)[:100])
+    ches = page.evaluate("[...document.querySelectorAll('#nav-county optgroup')].find(g => g.label.startsWith('Cheshire'))?.querySelectorAll('option').length")
+    rep.add("browse: multi-volume counties are grouped and labelled by volume", ches == 4 and any("vol. 44: Macclesfield" in l for l in labels), f"Cheshire group has {ches} options")
     before = page.evaluate("window.deep.renders")
     gid = page.evaluate("[...document.getElementById('nav-county').options].find(o=>o.text==='Buckinghamshire').value")
     page.select_option("#nav-county", gid)

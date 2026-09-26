@@ -142,7 +142,9 @@ def main():
         core["parish"].append(gid_of.get(tr[2], -1))
         core["township"].append(gid_of.get(tr[3], -1))
     core["types"] = types
-    core["counties"] = [{"code": c, "name": county_name[c], "gid": gid_of.get(next(p[1] for p in places if p[2] == c and p[4] == "county"), -1)} for c in codes]
+    volume_of = {p[2]: p[16] for p in places if p[4] == "county"}     # county code -> source file, e.g. vol44mads.xml
+    core["counties"] = [{"code": c, "name": county_name[c], "vol": int(re.search(r"vol(\d+)", volume_of.get(c, "vol0")).group(1)),
+                         "gid": gid_of.get(next(p[1] for p in places if p[2] == c and p[4] == "county"), -1)} for c in codes]
     core_info = dump(OUT / "core.json", core)
     print(f"core.json: {len(core['gid']):,} places, {core_info['bytes'] / 1e6:.1f} MB")
 
