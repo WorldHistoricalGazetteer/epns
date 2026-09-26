@@ -21,9 +21,11 @@ share the export's rounding as well as its tokeniser. Vectors are L2-normalised 
 as round-half-to-even(x * 127) int8, the form WHG's index uses; ranking is by dot product, for
 which the scale is irrelevant.
 
-Corpus language is 'und' on both sides (the browser passes 'und' too), as CAMPOP-Places does:
-the model is conditioned on the language tag, and Old English, Latin and Middle English spellings
-are not 'en' in any useful sense.
+Corpus language is 'en' on both sides (the browser passes 'en' too). The model is conditioned on
+the language tag; 'und' is not in its vocabulary at all (it falls to the unknown id), and whg3's
+Map Your Data, which measured it, tags every Latin-script name 'en' rather than leave it
+undetermined. The model also knows 'ang', 'enm' and 'la', but DEEP does not say which spellings
+are Old English, Middle English or Latin, so one tag is used for all and the query matches it.
 """
 from __future__ import annotations
 
@@ -45,7 +47,7 @@ EXPECT_MD5 = {"symphonym.onnx": "afc74f102d9ab98e92382dcaed93628c",
               "lang_vocab.json": "17ce7fe69a836ddd32c9577cdd60f389",
               "script_vocab.json": "18fd9410e1c543429ec8327a29ee3225"}
 DIM = 128
-LANG = "und"
+LANG = "en"
 
 
 def md5(p: Path) -> str:

@@ -19,7 +19,18 @@
 import { cached } from './store.js';
 
 const DIM = 128;
-const PHON_MIN = 0.70;       // the floor WHG's own index uses; below it "matches" are noise
+/* Ranking is by SOUND, gated by SPELLING, the shape whg3's Map Your Data uses (it ranks phonetically
+   and applies Sørensen–Dice over character bigrams, lifted to 1 when one name's words are wholly
+   contained in the other's, only as a VETO on a bad match; it never blends the two). Symphonym's
+   cosine alone is too compressed at the top to rank with (thousands of keys clear 0.70 for any
+   query, and "hullampton" sat at 0.89 for "york"); a blend lets a high cosine drag junk up; a veto
+   removes it and leaves genuine variants untouched, because Dice on real spelling variants is high
+   anyway. Measured on 34 queries with reachable targets (26 Sep 2026, 'en' tags, derived keys):
+   place-level top-3 32/34 for cosine, blend and veto alike; top-1 30/34 for the veto at 0.35, with
+   the specific junk hits gone and the Cambridge list unchanged. */
+const PHON_TOPK = 300;       // phonetic candidates considered
+const DICE_VETO = 0.35;      // a candidate spelt less like the query than this is withheld
+const COS_MIN = 0.70;        // and the cosine floor WHG's index uses still applies to the survivors
 const ORT_DIST = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.27.0/dist/';
 const ASSETS = {               // sha256 of the v8 set shipped in docs/symphonym/ (md5s in the provenance file)
   'symphonym.onnx':    { sha256: 'b674453fc9d5cc4e5f1a723dba246e0840982d2ab40c575760e3246cee43ddd3', bytes: 8472929 },
@@ -81,6 +92,16 @@ async function load(manifest, base) {
     }
     S.skeys = new Array(keys.length);
     for (let j = 0; j < keys.length; j++) S.skeys[j] = asciiFold(keys[j]);
+    // word -> embedded key indices, so a query word can fetch every multi-word key that contains it
+    // ("bunsty" -> "bunsty hundred", "bunsty farm") even when the whole-string cosine is low
+    S.wordIndex = new Map();
+    for (let j = 0; j < S.nEmbedded; j++) {
+      for (const w of S.skeys[j].split(' ')) {
+        if (w.length < 2) continue;
+        const a = S.wordIndex.get(w);
+        if (a) a.push(j); else S.wordIndex.set(w, [j]);
+      }
+    }
     post({ type: 'index-ready', nKeys: keys.length, nRows: n });
   })();
   S.loading.catch(() => { S.loading = null; });
@@ -156,6 +177,7 @@ async function loadPhonetic() {
       off += sh.rows * DIM; base += sh.bytes;
     }
     S.emb = emb;
+    S.lang = sm.lang || 'en';
     const [ort, pre, cv, sv, lv, onnx] = await Promise.all([
       import(ORT_DIST + 'ort.wasm.min.mjs'),
       import('../symphonym/preprocess.js'),
@@ -176,7 +198,7 @@ async function loadPhonetic() {
 }
 
 async function embed(text) {
-  const t = S.tokenise(text, 'und', S.vocabs);      // 'und' on both sides, as the corpus was built
+  const t = S.tokenise(text, S.lang || 'en', S.vocabs);   // the corpus tag, read from its manifest
   const n = t.charIds.length;
   const i64 = (v) => BigInt64Array.from([BigInt(v)]);
   const out = await S.session.run({
@@ -188,29 +210,56 @@ async function embed(text) {
   return out.embedding.data;   // Float32Array(128), L2-normalised
 }
 
+/* Sørensen–Dice over character bigrams with whg3's word-containment lift (reconciliation.js
+   nameSimilarity), on the ASCII-folded keys. */
+const bigrams = (s) => { const out = new Set(); for (let i = 0; i < s.length - 1; i++) out.add(s.slice(i, i + 2)); return out; };
+function nameSimilarity(x, y) {
+  if (!x || !y) return 0;
+  if (x === y) return 1;
+  const xt = x.split(' '), yt = y.split(' ');
+  const short = xt.length <= yt.length ? xt : yt, long = new Set(xt.length <= yt.length ? yt : xt);
+  if (short.every((t) => long.has(t))) return 1;
+  const A = bigrams(x), B = bigrams(y);
+  if (!A.size || !B.size) return 0;
+  let common = 0;
+  A.forEach((g) => { if (B.has(g)) common += 1; });
+  return (2 * common) / (A.size + B.size);
+}
+
 async function phoneticSearch(q, limit) {
   await loadPhonetic();
+  const fq = asciiFold(nameKey(q));
   const v = await embed(nameKey(q));
-  const emb = S.emb, n = S.nEmbedded, K = limit;
-  const bi = new Int32Array(K).fill(-1), bs = new Float32Array(K).fill(-Infinity);
+  const emb = S.emb, n = S.nEmbedded;
+  const cos = new Float32Array(n);
   for (let r = 0; r < n; r++) {
     let s = 0;
     const o = r * DIM;
     for (let d = 0; d < DIM; d++) s += v[d] * emb[o + d];
+    cos[r] = s / 127;                        // ≈ cosine: the corpus is unit vectors scaled by 127
+  }
+  // candidates: the phonetic top-K, plus every embedded key sharing a whole word with the query
+  const cand = new Set();
+  const K = PHON_TOPK, bi = new Int32Array(K).fill(-1), bs = new Float32Array(K).fill(-Infinity);
+  for (let r = 0; r < n; r++) {
+    const s = cos[r];
     if (s > bs[K - 1]) {
       let j = K - 1;
       while (j > 0 && bs[j - 1] < s) { bs[j] = bs[j - 1]; bi[j] = bi[j - 1]; j--; }
       bs[j] = s; bi[j] = r;
     }
   }
-  const out = [];
-  for (let i = 0; i < K; i++) {
-    if (bi[i] < 0) break;
-    const score = bs[i] / 127;             // ≈ cosine: the corpus is unit vectors scaled by 127
-    if (score < PHON_MIN) break;
-    out.push({ key: S.keys[bi[i]], ki: bi[i], score, ...rowsOf(bi[i]) });
+  for (let i = 0; i < K; i++) if (bi[i] >= 0) cand.add(bi[i]);
+  for (const w of fq.split(' ')) for (const j of S.wordIndex.get(w) || []) cand.add(j);
+  const scored = [];
+  for (const j of cand) {
+    if (cos[j] < COS_MIN) continue;
+    const ortho = nameSimilarity(fq, S.skeys[j]);
+    if (ortho < DICE_VETO) continue;                      // the veto: sounds alike, but is not spelt alike at all
+    scored.push({ ki: j, cos: cos[j], ortho });
   }
-  return out;
+  scored.sort((a, b) => b.cos - a.cos || b.ortho - a.ortho);
+  return scored.slice(0, limit).map((h) => ({ key: S.keys[h.ki], ki: h.ki, score: h.cos, cos: h.cos, ortho: h.ortho, ...rowsOf(h.ki) }));
 }
 
 self.onmessage = async ({ data: m }) => {

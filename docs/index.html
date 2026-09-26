@@ -57,7 +57,7 @@
         <h3>Searching</h3>
         <ul>
           <li><b>Type a modern name or a historical spelling.</b> The index holds every headword, every variant spelling and the survey's own normalised forms (so <i>Bunstow(e)</i> is found by <i>Bunstowe</i> or <i>Bunstow</i>). Matching ignores case, accents and punctuation but keeps <i>æ</i>, <i>þ</i> and <i>ð</i> in the results as written.</li>
-          <li><b>Phonetic matching</b> finds spellings that <i>sound</i> like what you typed even when no letters agree, which is how a medieval scribe's <i>Snotingaham</i> meets <i>Nottingham</i>. It uses <a href="https://doi.org/10.5281/zenodo.22767194" target="_blank" rel="noopener">Symphonym v8</a>, a phonetic embedding model, run entirely in your browser: the first use downloads the model and a precomputed index (about 50 MB), after which both are cached. Scores are cosine similarities; anything under 0.70 is not shown. It offers candidates; it does not decide.</li>
+          <li><b>Phonetic matching</b> finds spellings that <i>sound</i> like what you typed even when no letters agree, which is how a medieval scribe's <i>Snotingaham</i> meets <i>Nottingham</i>. It uses <a href="https://doi.org/10.5281/zenodo.22767194" target="_blank" rel="noopener">Symphonym v8</a>, a phonetic embedding model, run entirely in your browser: the first use downloads the model and a precomputed index (about 50 MB), after which both are cached. Results are ranked by <i>sound</i> (Symphonym cosine, 0.70 or better) and a candidate is withheld when it is not <i>spelt</i> anything like what you typed (bigram similarity under 0.35, with a lift when your word is contained in the name), the way the World Historical Gazetteer's own reconciliation tool vetoes a bad match; hover a score to see the spelling similarity too. One line per place, showing its best-matching form. It offers candidates; it does not decide.</li>
           <li><b>Field-names</b> are seven in ten of the records: the names of fields and closes listed under each township, with no spellings or coordinates of their own. Untick the box to keep them out of results.</li>
         </ul>
 
@@ -101,6 +101,6 @@
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script type="module" src="js/app.js?v=4"></script>
+  <script type="module" src="js/app.js?v=6"></script>
 </body>
 </html>

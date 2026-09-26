@@ -291,7 +291,7 @@ function selectOnMap(gid) {
 
 /* ── worker ─────────────────────────────────────────────────────────────────────────────── */
 function startWorker() {
-  const w = new Worker('js/search.worker.js?v=1', { type: 'module' });
+  const w = new Worker('js/search.worker.js?v=3', { type: 'module' });
   S.worker = w;
   w.onmessage = ({ data: m }) => {
     if (m.type === 'progress') {
@@ -331,7 +331,8 @@ function resultRow(row, score) {
   const ctx = rowContext(row);
   const what = row.kind === 0 ? ctx.type : `${KIND_WORD[row.kind]} <b>${esc(ctx.name)}</b>, ${esc(ctx.type)}`;
   const where = [ctx.parent, ctx.county].filter(Boolean).map(esc).join(' · ');
-  return `<li data-gid="${row.gid}">${score != null ? `<span class="score">${score.toFixed(2)}</span>` : ''}<span class="form">${esc(row.text)}</span> <span class="ctx">${what}${where ? ' · ' + where : ''}</span></li>`;
+  const sc = score != null ? `<span class="score" title="sound ${(row.cos ?? 0).toFixed(2)} · spelling ${(row.ortho ?? 0).toFixed(2)}">${score.toFixed(2)}</span>` : '';
+  return `<li data-gid="${row.gid}">${sc}<span class="form">${esc(row.text)}</span> <span class="ctx">${what}${where ? ' · ' + where : ''}</span></li>`;
 }
 
 function flattenHits(hits, includeFn, phonetic = false) {
@@ -339,15 +340,15 @@ function flattenHits(hits, includeFn, phonetic = false) {
   for (const h of hits) {
     for (const r of h.rows) {
       if (!includeFn && !S.rowOf.has(r.gid)) continue;
-      const k = `${r.gid}|${r.text}`;
+      const k = phonetic ? String(r.gid) : `${r.gid}|${r.text}`;   // phonetic: one line per PLACE, its best-scoring form
       if (seen.has(k)) continue;
       seen.add(k);
       const i = S.rowOf.get(r.gid);
-      out.push({ ...r, score: h.score, rank: i === undefined ? TYPE_RANK.fn : (TYPE_RANK[typeName(i)] ?? 8), len: h.key.length });
+      out.push({ ...r, score: h.score, cos: h.cos, ortho: h.ortho, rank: i === undefined ? TYPE_RANK.fn : (TYPE_RANK[typeName(i)] ?? 8), len: h.key.length });
     }
   }
-  // text hits: match quality, then size of unit, then shorter key; phonetic hits: score only
-  out.sort(phonetic ? (a, b) => b.score - a.score : (a, b) => a.score - b.score || a.rank - b.rank || a.len - b.len || a.kind - b.kind);
+  // text hits: match quality, then size of unit, then shorter key; phonetic hits: blended score, then size of unit
+  out.sort(phonetic ? (a, b) => b.score - a.score || a.rank - b.rank : (a, b) => a.score - b.score || a.rank - b.rank || a.len - b.len || a.kind - b.kind);
   return out;
 }
 
@@ -370,12 +371,12 @@ async function doSearch(q) {
   showDrawer(h);
   if (!phonOn) return;
   if (!S.phonReady) S.phonBusy = true;
-  call({ type: 'phonetic', q, limit: 15 }).then((pr) => {
+  call({ type: 'phonetic', q, limit: 60 }).then((pr) => {
     if (tok !== S.qTok) return;
     const pend = $('phon-pending'); if (pend) pend.remove();
-    const prow = flattenHits(pr.hits, includeFn, true).filter((r) => !rows.some((x) => x.gid === r.gid && x.text === r.text)).slice(0, 30);
+    const prow = flattenHits(pr.hits, includeFn, true).filter((r) => !rows.some((x) => x.gid === r.gid && x.text === r.text)).slice(0, 25);
     if (prow.length) $('drawer').insertAdjacentHTML('afterbegin', `<div class="rs-sec">Sounds like “${esc(q)}”</div><ul class="rs">${prow.map((r) => resultRow(r, r.score)).join('')}</ul>`);
-    else $('drawer').insertAdjacentHTML('afterbegin', `<div class="rs-status">Nothing sounds close enough to “${esc(q)}” (cosine ≥ 0.70).</div>`);
+    else $('drawer').insertAdjacentHTML('afterbegin', `<div class="rs-status">Nothing sounds close enough to “${esc(q)}” and is spelt anything like it.</div>`);
     S.lastResults = $('drawer').innerHTML;
     window.deep.renders++;
   }).catch((e) => { if (tok !== S.qTok) return; const pend = $('phon-pending'); if (pend) pend.outerHTML = `<div class="rs-status warn">phonetic matching unavailable: ${esc(e.message)}</div>`; });

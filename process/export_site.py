@@ -240,6 +240,36 @@ def main():
         g = gid_of[pid]
         for v, term in ts:
             rows.append((name_key(term), 2, g, parent_gid[g], term, True))
+    # Derived keys, kind 3: search aids pointing at the same record, so "bunsty" meets "Bunsty Hundred"
+    # directly. Modelled on whg3's derivedNameVariants() (place#198-#205): the head minus a generic tail
+    # (never the tail alone: a key "hundred" would sit beside every hundred in England), both sides of
+    # "X or Y" / "X alias Y" (each capped at four words), and a comma inversion for a tail of two words
+    # or fewer. Derived from headwords and spellings only, and embedded like them.
+    GENERIC = {"hundred", "wapentake", "liberty", "hundreds", "parish", "township", "farm", "farms", "house", "hall", "road",
+               "street", "lane", "bridge", "hill", "wood", "field", "fields", "green", "common", "moor", "park", "mill", "cottage",
+               "cottages", "lodge", "court", "grange", "end", "close", "lane", "drive", "avenue", "row", "place", "manor"}
+    derived = []
+    for key, kind, g, pg, text, emb in rows:
+        if kind not in (0, 1) or not emb:
+            continue
+        words = key.split(" ")
+        heads = set()
+        if len(words) >= 2 and words[-1] in GENERIC and len(words) - 1 >= 1:
+            heads.add(" ".join(words[:-1]))
+        for sep in (" or ", " alias "):
+            if sep in key:
+                for side in key.split(sep):
+                    side = side.strip()
+                    if 1 <= len(side.split()) <= 4:
+                        heads.add(side)
+        if "," in text:
+            parts = [x.strip() for x in text.split(",", 1)]
+            if len(parts) == 2 and len(parts[1].split()) <= 2 and parts[1]:
+                heads.add(name_key(parts[1] + " " + parts[0]))
+        for h in heads:
+            if h and h != key and len(h) > 1:
+                derived.append((h, 3, g, pg, text, True))
+    rows.extend(derived)
     rows = [r for r in rows if r[0]]
     embed_keys = sorted({r[0] for r in rows if r[5]})
     other_keys = sorted({r[0] for r in rows if not r[5]} - set(embed_keys))
@@ -255,7 +285,7 @@ def main():
         info = dump(OUT / "names" / f"{s:02d}.json", obj)
         info.update({"rows": len(part), "kFrom": obj["k"][0], "kTo": obj["k"][-1]})
         shards.append(info)
-    print(f"names: {len(rows):,} rows, {len(keys):,} keys ({len(embed_keys):,} to embed), "
+    print(f"names: {len(rows):,} rows ({len(derived):,} derived), {len(keys):,} keys ({len(embed_keys):,} to embed), "
           f"{len(shards)} shards, {sum(s['bytes'] for s in shards) / 1e6:.1f} MB + keys {keys_info['bytes'] / 1e6:.1f} MB")
 
     counts = {k: con.execute(f"SELECT count(*) FROM {k}").fetchone()[0]

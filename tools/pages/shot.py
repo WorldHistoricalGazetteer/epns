@@ -416,23 +416,38 @@ def check_phonetic(page, rep: Report):
         rep.add("phonetic: model and matrix load", False, page.evaluate("document.getElementById('status').innerText")[:120])
         return
     rep.add("phonetic: model and matrix load", True)
-    before = page.evaluate("window.deep.renders")
-    page.fill("#q", "Snotingaham")
-    wait_render(page, before)
-    try:
-        page.wait_for_function("document.getElementById('drawer').innerText.includes('Sounds like') || document.getElementById('drawer').innerText.includes('Nothing sounds')", timeout=60_000)
-    except Exception:
-        pass
-    # innerText is upper-cased by the section heading's CSS, so compare case-insensitively
+    def phon(q):
+        before = page.evaluate("window.deep.renders")
+        page.fill("#q", q)
+        wait_render(page, before)
+        try:
+            page.wait_for_function("(() => { const t = document.getElementById('drawer').innerText.toLowerCase(); return t.includes('sounds like') || t.includes('nothing sounds'); })()", timeout=60_000)
+        except Exception:
+            pass
+        # the phonetic section lists places NOT already shown by the spelling search, so a target may
+        # legitimately sit in either; return both, in order
+        return page.evaluate("""() => { const d = document.getElementById('drawer'); const out = {phon: [], text: []};
+            for (const sec of d.querySelectorAll('.rs-sec')) { const ul = sec.nextElementSibling; if (!ul) continue;
+              const rows = [...ul.querySelectorAll('li')].map(li => li.innerText.replace(/\\s+/g, ' '));
+              (sec.innerText.toLowerCase().includes('sounds like') ? out.phon : out.text).push(...rows); }
+            return out; }""")
+    # medieval spellings and a bare word must surface the right PLACE: in the spelling results, or in
+    # the top three of the phonetic additions; and the specific junk measured offline must be gone
+    # Snatchill Lodge is NOT junk for Snotingaham: its DEEP spelling "Snotengaham" is one letter off
+    # the query (Dice 0.8), so it survives the veto on merit; the junk named here was measured offline.
+    for q, target, junk in (("Snotingaham", "Nottingham", None), ("Grantebrige", "Cambridge", None), ("Bunsty", "Bunsty Hundred", "Bumpstead"), ("Bragenfeld", "Cold Brayfield", None), ("york", "York", "Hullampton")):
+        r = phon(q)
+        found = any(target in c for c in r["text"]) or any(target in c for c in r["phon"][:3])
+        rep.add(f"phonetic: '{q}' surfaces {target}", found, (" || ".join(r["phon"][:3]) or "no phonetic additions")[:110])
+        if junk:
+            rep.add(f"phonetic: '{q}' no longer offers {junk}", not any(junk in c for c in r["phon"][:10]))
     txt = page.evaluate("document.getElementById('drawer').innerText")
-    low = txt.lower()
-    rep.add("phonetic: 'Snotingaham' sounds like Nottingham", "sounds like" in low and "nottingham" in low, txt[:100].replace("\n", " | "))
     # The floor is applied: every score shown is within [0.70, 1.00] and the list is bounded. A
     # "nonsense finds nothing" control is NOT used here: to a phonetic model a short random string
     # is not noise (xqzpv scored 0.94 against Sceb when tried), so that assertion would test the
     # model's opinion of gibberish rather than the page's handling of scores.
     scores = page.evaluate("[...document.querySelectorAll('#drawer .rs .score')].map(e => +e.innerText)")
-    rep.add("phonetic: scores shown respect the 0.70 floor and the cap", len(scores) > 0 and len(scores) <= 30 and all(0.70 <= x <= 1.0 for x in scores),
+    rep.add("phonetic: scores respect the 0.70 cosine floor and the cap, one line per place", len(scores) > 0 and len(scores) <= 25 and all(0.70 <= x <= 1.01 for x in scores),
             f"{len(scores)} scores, min {min(scores) if scores else None}")
     page.evaluate("document.getElementById('phon').click()")
     page.screenshot(path=str(OUT / "phonetic.png"))
