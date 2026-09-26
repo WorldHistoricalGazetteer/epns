@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-ct-countytown-000001">
+  <authority ID="epns-deep-11-ct-name-countytown-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000002">Guildford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-co-county-000001" type="broader">
+   <geographic>Surrey</geographic>
+  </related>
+  <variant ID="epns-deep-11-ct-name-w38">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000003">(æt) Gyldeforda</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w79">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000004">Gyld</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000005">Gyl, Gyldeor</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000006">Gold</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000007">Gul, Guld</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w197">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000008">Gil</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000009">Glide, Gildefo</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000010">Gildi</geographic>
+  </variant>
+  <variant ID="epns-deep-11-ct-name-w274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000011">Gildeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328707db47fc40c23000001"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5742700" lat="51.2353600" gazref="geonames:2647793" source="geonames"/>
+   <geo long="-0.5889326767910658" lat="51.23565679581039" gazref="unlock:11162266" source="unlock"/>
+   <geo easting="499500" northing="149500" long="-0.576143" lat="51.236" kepnref="8332" source="kepn"/>
+   <attestation variantID="epns-deep-11-ct-name-w38">
+    <date end="885" begin="880" subtype="simple">880-5</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <source style="" id="sr23">BCS</source>
+    <item>553</item>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w79">
+    <date end="1016" begin="978" subtype="regnal">t. Ethelred 2</date>
+    <date end="1035" begin="1017" subtype="regnal">Cnut</date>
+    <date end="1066" begin="1042" subtype="regnal">Ed Conf</date>
+    <source style="" id="sr57">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w122">
+    <date end="1066" begin="1042" subtype="regnal">t. Ed Conf</date>
+    <source style="" id="sr57" underspec="ib">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w151">
+    <date end="1035" begin="1017" subtype="regnal">t. Cnut</date>
+    <source style="" id="sr57">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w171">
+    <date end="1066" begin="1042" subtype="regnal">t. Ed Conf</date>
+    <source style="" id="sr57" underspec="ib">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w197">
+    <date end="1042" begin="1040" subtype="regnal">t. Harthacnut</date>
+    <source style="" id="sr57">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w222">
+    <date end="1066" begin="1042" subtype="regnal">t. Ed Conf</date>
+    <source style="" id="sr57" underspec="ib">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w253">
+    <date end="1066" begin="1066" subtype="regnal">t. Harold</date>
+    <source style="" id="sr57" underspec="ib">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-ct-name-w274">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-ct-name-w38">æt Gyldeforda</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w38">Gyldeforda</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w79">Gyld</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w122">Gyl</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w122">Gyldeor</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w151">Gold</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w171">Gul</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w171">Guld</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w197">Gil</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w222">Glide</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w222">Gildefo</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w253">Gildi</searchterm>
+   <searchterm variantID="epns-deep-11-ct-name-w274">Gildeford</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000167">
+  <authority ID="epns-deep-13-a-name-parish-000167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006901">Haseley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000673"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6580600" lat="52.3094400" gazref="geonames:6693238" source="geonames"/>
+   <geo long="-1.655307720647435" lat="52.30472609768814" gazref="unlock:11167008" source="unlock"/>
+   <geo easting="423500" northing="267500" long="-1.65676" lat="52.3051" kepnref="4867" source="kepn"/>
+  </extension>
+ </mads>
+ 

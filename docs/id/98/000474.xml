@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000024">
+  <authority ID="epns-deep-98-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000474">Podington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000002" type="broader">
+   <geographic>Willey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6222700" lat="52.2538700" gazref="geonames:2640184" source="geonames"/>
+   <geo long="-0.6155046406699286" lat="52.2521544173089" gazref="unlock:11247045" source="unlock"/>
+   <geo easting="494500" northing="262500" long="-0.617071" lat="52.2526" kepnref="4246" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000064">
+  <authority ID="epns-deep-21-b-name-subparish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005095">Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000069" type="broader">
+   <geographic>Dean</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w221723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005096">Dene</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w221762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005097">Deen</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w221798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005098">Deane</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w221813">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005099">Deyn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000fcc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4316800" lat="54.6214900" gazref="geonames:2651466" source="geonames"/>
+   <geo long="-3.432566071699632" lat="54.61605096161438" gazref="unlock:11127796" source="unlock"/>
+   <geo easting="307500" northing="525500" long="-3.43389" lat="54.6162" kepnref="4527" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w221723">
+    <attestation variantID="epns-deep-21-b-name-w221723">
+     <date end="1180" begin="1160" subtype="circa">c. 1170</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-21-b-name-w221723">
+     <date end="1385" begin="1385" subtype="simple">1385</date>
+     <source style="" id="cu120">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w221762">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w221762">
+    <date end="1375" begin="1375" subtype="simple">1375</date>
+    <source style="" id="cu57">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w221762">
+    <date end="1404" begin="1404" subtype="simple">1404</date>
+    <source style="" id="cu294">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w221798">
+    <date end="1559" begin="1559" subtype="simple">1559</date>
+    <source style="" id="cu120">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w221813">
+    <date end="1576" begin="1576" subtype="simple">1576</date>
+    <source style="" id="cu349">S</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w221723">Dene</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w221762">Deen</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w221798">Deane</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w221813">Deyn</searchterm>
+  </extension>
+ </mads>
+ 

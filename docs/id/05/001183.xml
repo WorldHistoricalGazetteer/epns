@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000121">
+  <authority ID="epns-deep-05-b-name-subparish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001183">Ryton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000045" type="broader">
+   <geographic>Kirby Misperton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w100974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001184">Ritun, Ritone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w100997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001185">Riton, Ryton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001186">Rihtona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001187">Rictona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001188">Rigeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7833300" lat="54.1666700" gazref="geonames:2638893" source="geonames"/>
+   <geo long="-0.782093637218492" lat="54.16896179042698" gazref="unlock:11276005" source="unlock"/>
+   <geo easting="479500" northing="475500" long="-0.783724" lat="54.1692" kepnref="5771" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w100974">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w100997">
+    <attestation variantID="epns-deep-05-b-name-w100997">
+     <date subtype="simple" begin="1282" end="1282">1282</date>
+     <source style="italic" id="ny121">Malton</source>
+     <page>102</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101037">
+    <date subtype="circa" begin="1135" end="1155">c. 1145</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101059">
+    <date subtype="simple" begin="1189" end="1189">1189</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101078">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w100974">Ritun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w100974">Ritone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w100997">Riton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w100997">Ryton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101037">Rihtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101059">Rictona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101078">Rigeton</searchterm>
+  </extension>
+ </mads>
+ 

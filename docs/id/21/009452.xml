@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-a-parish-000108">
+  <authority ID="epns-deep-21-a-name-parish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/009452">Whitbeck</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-w-subcounty-000002" type="broader">
+   <geographic>Allerdale Above Derwent Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f87"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3530800" lat="54.2434600" gazref="geonames:2634141" source="geonames"/>
+   <geo long="-3.358393147109443" lat="54.24836180332727" gazref="unlock:11320170" source="unlock"/>
+   <geo easting="311500" northing="484500" long="-3.35971" lat="54.2485" kepnref="4568" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-b-subparish-000009">
+  <authority ID="epns-deep-84-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/001880">East Langton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-a-parish-000008" type="broader">
+   <geographic>East Langton</geographic>
+  </related>
+  <variant ID="epns-deep-84-b-name-w98375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/001881">Est ~</geographic>
+  </variant>
+  <variant ID="epns-deep-84-b-name-w98422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/001882">East -</geographic>
+  </variant>
+  <variant ID="epns-deep-84-b-name-w98451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/001883">Estere ~</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cfbb47fc40adf001150"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9300100" lat="52.5267500" gazref="geonames:2650402" source="geonames"/>
+   <geo long="-0.9312572111818227" lat="52.52518163086158" gazref="unlock:11136256" source="unlock"/>
+   <geo easting="472500" northing="292500" long="-0.932798" lat="52.5256" kepnref="8774" source="kepn"/>
+   <attestation variantID="epns-deep-84-b-name-w98375">
+    <date end="1211" begin="1211" subtype="simple">1211</date>
+    <source style="" id="le189">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w98375">
+    <attestation variantID="epns-deep-84-b-name-w98375">
+     <date end="1243" begin="1243" subtype="simple">1243</date>
+     <source style="" id="le120">Cur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-84-b-name-w98375">
+     <date end="1536" begin="1536" subtype="simple">1536</date>
+     <source style="italic" id="le56">Braye</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w98422">
+    <attestation variantID="epns-deep-84-b-name-w98422">
+     <date end="1610" begin="1610" subtype="simple">1610</date>
+     <source style="" id="le478">Speed</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w98451">
+    <date end="1320" begin="1270" subtype="post">p.1270</date>
+    <source style="italic" id="le53">Brai</source>
+   </attestation>
+   <searchterm variantID="epns-deep-84-b-name-w98375">Est ~</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w98422">East -</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w98451">Estere ~</searchterm>
+  </extension>
+ </mads>
+ 

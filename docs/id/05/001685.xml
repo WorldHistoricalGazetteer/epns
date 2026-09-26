@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000152">
+  <authority ID="epns-deep-05-b-name-subparish-000152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001685">Seamer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000057" type="broader">
+   <geographic>Seamer</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w135507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001686">Semær</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001687">Semer(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001688">Samare, Samara</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001689">Semare, Semara</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4415100" lat="54.2371400" gazref="geonames:2638290" source="geonames"/>
+   <geo long="-0.4424837619752993" lat="54.23696375580761" gazref="unlock:11279760" source="unlock"/>
+   <geo easting="501500" northing="483500" long="-0.444158" lat="54.2371" kepnref="5800" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w135507">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135522">
+    <attestation variantID="epns-deep-05-b-name-w135522">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w135522">
+     <date subtype="simple" begin="1534" end="1534">1534</date>
+     <source style="italic" id="ny22">Bodl</source>
+     <item>i</item>
+     <page>84</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135569">
+    <date subtype="simple" begin="1090" end="1096">1090-6</date>
+    <source style="" id="ny236">YCh</source>
+    <page>855</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135569">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135569">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135569">
+    <date subtype="simple" begin="1224" end="1224">1224</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135638">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135638">
+    <attestation variantID="epns-deep-05-b-name-w135638">
+     <date subtype="circa" begin="1150" end="1170">c. 1160</date>
+     <source style="italic" id="ny28">BylE</source>
+     <page>22 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w135638">
+     <date subtype="simple" begin="1529" end="1529">1529</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w135507">Semær</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135522">Semere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135522">Semer</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135569">Samare</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135569">Samara</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135638">Semare</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135638">Semara</searchterm>
+  </extension>
+ </mads>
+ 

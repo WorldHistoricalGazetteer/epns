@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000215">
+  <authority ID="epns-deep-10-a-name-parish-000215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004694">Geddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000014" type="broader">
+   <geographic>Corby Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000424"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6896500" lat="52.4375700" gazref="geonames:2648739" source="geonames"/>
+   <geo long="-0.6831389964317964" lat="52.44175636207687" gazref="unlock:11151431" source="unlock"/>
+   <geo easting="489500" northing="283500" long="-0.684706" lat="52.4422" kepnref="11085" source="kepn"/>
+  </extension>
+ </mads>
+ 

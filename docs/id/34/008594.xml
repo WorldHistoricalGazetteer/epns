@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000089">
+  <authority ID="epns-deep-34-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008594">Skelton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w352704">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008595">Scheltone, Scheldone</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w352734">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008596">Schelton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w352764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008597">Sceltun, Sceltona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w352817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008598">Skelton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w352875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008599">Skelton by Rypon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006206"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.449335672" lat="54.10644474" source="epns"/>
+   <geo long="-1.44162740305559" lat="54.11090495214062" gazref="unlock:11284603" source="unlock"/>
+   <geo easting="436500" northing="468500" long="-1.44317" lat="54.1111" kepnref="14809" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w352704">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352734">
+    <date end="1200" begin="1100" subtype="century">12</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352734">
+    <date end="1349" begin="1349" subtype="simple">1349</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352764">
+    <date end="1200" begin="1100" subtype="century">12</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352764">
+    <date end="1200" begin="1100" subtype="century">12</date>
+    <source style="" id="wr605">Rip</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352764">
+    <date end="1180" begin="1170" subtype="simple">1170-80</date>
+    <source style="" id="wr796">YCh</source>
+    <item>124</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352817">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352817">
+    <attestation variantID="epns-deep-34-b-name-w352817">
+     <date end="1228" begin="1228" subtype="simple">1228</date>
+     <source style="" id="wr605">Rip</source>
+     <item>i</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w352817">
+     <date end="1658" begin="1658" subtype="simple">1658</date>
+     <source style="" id="wr776">WillS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w352875">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="wr799">YD</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w352704">Scheltone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352704">Scheldone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352734">Scheltona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352734">Schelton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352764">Sceltun</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352764">Sceltona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352817">Skelton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w352875">Skelton by Rypon</searchterm>
+  </extension>
+ </mads>
+ 

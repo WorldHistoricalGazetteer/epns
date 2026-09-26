@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000032">
+  <authority ID="epns-deep-14-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000964">Ellerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000020" type="broader">
+   <geographic>Swine</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w62912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000965">Aluuardebi, Alu(u)erdebi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w62946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000966">Ewardeby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w62965">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000967">Helredeby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w62985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000968">Elward(e)by, Eluardby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w63069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000969">Ellerbye als. Ellwerbye</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w63102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000970">Elerdebey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000559"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2409100" lat="53.8259000" gazref="geonames:7295053" source="geonames"/>
+   <geo long="-0.2300667797151449" lat="53.82049113586962" gazref="unlock:11235550" source="unlock"/>
+   <geo easting="516500" northing="436500" long="-0.232126" lat="53.8117" kepnref="8416" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w62912">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62946">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62965">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="ey17" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62985">
+    <date end="1275" begin="1255" subtype="circa">c. 1265</date>
+    <source style="" id="ey159">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62985">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="ey160">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62985">
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w62985">
+    <attestation variantID="epns-deep-14-b-name-w62985">
+     <date end="1303" begin="1303" subtype="simple">1303</date>
+     <source style="" id="ey371">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w62985">
+     <date end="1563" begin="1563" subtype="simple">1563</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w63069">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w63102">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ey264">ParlSurv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w62912">Aluuardebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62912">Aluuerdebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62912">Aluerdebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62946">Ewardeby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62965">Helredeby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62985">Elwardeby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62985">Elwardby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w62985">Eluardby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w63069">Ellerbye</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w63069">Ellwerbye</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w63102">Elerdebey</searchterm>
+  </extension>
+ </mads>
+ 

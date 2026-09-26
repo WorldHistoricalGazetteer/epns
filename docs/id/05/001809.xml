@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000159">
+  <authority ID="epns-deep-05-b-name-subparish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001809">Scalby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000060" type="broader">
+   <geographic>Scalby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w145929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001810">Scallebi, Skallebi, Skalleby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w145985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001811">Scalebi, Skalebi, Skaleby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w146047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001812">Escaleby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w146065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001813">Scalby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w146124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001814">Scawby(e), Skawby(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000593"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4483800" lat="54.2999000" gazref="geonames:2638447" source="geonames"/>
+   <geo long="-0.4401102362554821" lat="54.29985862948356" gazref="unlock:11278567" source="unlock"/>
+   <geo easting="501500" northing="490500" long="-0.441788" lat="54.3" kepnref="5807" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w145929">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w145985">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w145985">
+    <attestation variantID="epns-deep-05-b-name-w145985">
+     <date subtype="simple" begin="1169" end="1169">1169</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w145985">
+     <date subtype="simple" begin="1280" end="1280">1280</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146047">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146065">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146065">
+    <date subtype="simple" begin="1376" end="1376">1376</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146065">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146065">
+    <date subtype="simple" begin="1508" end="1508">1508</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146065">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146124">
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w146124">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w145929">Scallebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w145929">Skallebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w145929">Skalleby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w145985">Scalebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w145985">Skalebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w145985">Skaleby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146047">Escaleby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146065">Scalby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146124">Scawbye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146124">Scawby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146124">Skawbye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w146124">Skawby</searchterm>
+  </extension>
+ </mads>
+ 

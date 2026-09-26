@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000165">
+  <authority ID="epns-deep-09-a-name-parish-000165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008633">Uplowman</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000012" type="broader">
+   <geographic>Halberton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001876"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4012700" lat="50.9270000" gazref="geonames:2635152" source="geonames"/>
+   <geo long="-3.401796679812386" lat="50.92998185208953" gazref="unlock:11309602" source="unlock"/>
+   <geo easting="301500" northing="115500" long="-3.403" lat="50.9305" kepnref="15836" source="kepn"/>
+  </extension>
+ </mads>
+ 

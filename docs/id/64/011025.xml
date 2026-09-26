@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000029">
+  <authority ID="epns-deep-64-a-name-parish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/011025">Searby cum Owmby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-64-a-name-w699363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/011026">Searby cum Owmby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f41"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3740700" lat="53.5348500" gazref="geonames:7291898" source="geonames"/>
+   <geo easting="507500" northing="405500" long="-0.379475" lat="53.5352" kepnref="10849" source="kepn"/>
+   <attestation variantID="epns-deep-64-a-name-w699363">
+    <date end="1824" begin="1824" subtype="simple">1824</date>
+    <source style="" id="li694">O</source>
+   </attestation>
+   <attestation variantID="epns-deep-64-a-name-w699363">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="li148">Bry</source>
+   </attestation>
+   <searchterm variantID="epns-deep-64-a-name-w699363">Searby cum Owmby</searchterm>
+  </extension>
+ </mads>
+ 

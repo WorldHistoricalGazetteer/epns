@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000183">
+  <authority ID="epns-deep-04-b-name-subparish-000183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004830">Hasbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000183" type="broader">
+   <geographic>Halesowen</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w397906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004831">Haselburi</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w397925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004832">Hasulbury</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w397953">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004833">Halesburg(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w397984">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004834">Halesbury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000596"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0686900" lat="52.4461800" gazref="geonames:2647376" source="geonames"/>
+   <geo long="-2.066220364573303" lat="52.44906914853547" gazref="unlock:11166993" source="unlock"/>
+   <geo easting="395500" northing="283500" long="-2.06763" lat="52.4494" kepnref="5360" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w397906">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w397925">
+    <date end="1500" begin="1500" subtype="simple">1500</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo119">Nash</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w397953">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w397953">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="wo106">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w397984">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="" id="wo59">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w397906">Haselburi</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w397925">Hasulbury</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w397953">Halesburgh</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w397953">Halesburg</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w397984">Halesbury</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000003">
+  <authority ID="epns-deep-38-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/000204">Bibury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000001" type="broader">
+   <geographic>Brightwells Barrow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300190d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8313100" lat="51.7583700" gazref="geonames:2655730" source="geonames"/>
+   <geo long="-1.840631465" lat="51.75213074" source="epns"/>
+   <geo long="-1.833370879479837" lat="51.75661748261562" gazref="unlock:11076468" source="unlock"/>
+   <geo easting="411500" northing="206500" long="-1.83478" lat="51.7571" kepnref="6192" source="kepn"/>
+  </extension>
+ </mads>
+ 

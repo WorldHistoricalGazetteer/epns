@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000026">
+  <authority ID="epns-deep-97-a-name-parish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001500">Doddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000005" type="broader">
+   <geographic>Hundred of North Witchford</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0601700" lat="52.4967100" gazref="geonames:2651181" source="geonames"/>
+   <geo long="0.05504475811513893" lat="52.49417780756701" gazref="unlock:11130080" source="unlock"/>
+   <geo easting="540500" northing="290500" long="0.068109" lat="52.4943" kepnref="4116" source="kepn"/>
+  </extension>
+ </mads>
+ 

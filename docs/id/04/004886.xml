@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000188">
+  <authority ID="epns-deep-04-b-name-subparish-000188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004886">Lapal</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000183" type="broader">
+   <geographic>Halesowen</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w401730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004887">Lappole</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w401747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004888">Laphole</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w401764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004889">Lappol, La Pole</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w401794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004890">Lappoll Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00059b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.022073461975685" lat="52.44908562560262" gazref="unlock:11191935" source="unlock"/>
+   <geo easting="398500" northing="283500" long="-2.02348" lat="52.4495" kepnref="5365" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w401730">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="wo23">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w401747">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w401764">
+    <date end="1307" begin="1274" subtype="simple">1274-1307</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w401794">
+    <date end="1591" begin="1591" subtype="simple">1591</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w401730">Lappole</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w401747">Laphole</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w401764">Lappol</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w401764">La Pole</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w401794">Lappoll Hill</searchterm>
+  </extension>
+ </mads>
+ 

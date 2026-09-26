@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000107">
+  <authority ID="epns-deep-07-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005892">Etchingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000108" type="broader">
+   <geographic>Etchingham</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w358140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005893">Hechingehā</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005894">E(c)chingeham, E(c)chyngeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005895">Hekingham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005896">Echingehamme</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005897">Achingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005898">Hachingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005899">Akingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005900">Echingham, Echygham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w358434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005901">Itchingham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cf1"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4329300" lat="51.0073800" gazref="geonames:2649881" source="geonames"/>
+   <geo long="0.4450842893220083" lat="51.01173540814692" gazref="unlock:11140760" source="unlock"/>
+   <geo easting="571500" northing="126500" long="0.443447" lat="51.0123" kepnref="7123" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w358140">
+    <date end="1158" begin="1158" subtype="simple">1158</date>
+    <source style="" id="su199">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358163">
+    <date end="1159" begin="1159" subtype="simple">1159</date>
+    <source style="" id="su199">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358163">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358163">
+    <attestation variantID="epns-deep-07-b-name-w358163">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <copydate end="1432" begin="1432">1432</copydate>
+     <source style="" id="su206">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w358163">
+     <date end="1340" begin="1340" subtype="simple">1340</date>
+     <source style="" id="su176">NI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358250">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="su237">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358270">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="su207">Pens</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358298">
+    <date end="1190" begin="1170" subtype="circa">c. 1180</date>
+    <source style="" id="su420">HMC Rutland</source>
+    <item>iv</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358337">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="su3">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358362">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="su148">LN</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358381">
+    <attestation variantID="epns-deep-07-b-name-w358381">
+     <date end="1202" begin="1202" subtype="simple">1202</date>
+     <source style="" id="su57">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w358381">
+     <date end="1586" begin="1586" subtype="simple">1586</date>
+     <source style="" id="su157">MarL</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w358434">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="su178">Norden</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w358140">Hechingehā</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358163">Ecchingeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358163">Echingeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358163">Ecchyngeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358163">Echyngeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358250">Hekingham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358270">Echingehamme</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358298">Achingeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358337">Hachingeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358362">Akingeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358381">Echingham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358381">Echygham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w358434">Itchingham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000043">
+  <authority ID="epns-deep-24-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003956">Burford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000002" type="broader">
+   <geographic>Bampton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006ab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6362800" lat="51.8091500" gazref="geonames:2654312" source="geonames"/>
+   <geo long="-1.63008035194362" lat="51.81010624480218" gazref="unlock:11092604" source="unlock"/>
+   <geo easting="425500" northing="212500" long="-1.63151" lat="51.8106" kepnref="3678" source="kepn"/>
+  </extension>
+ </mads>
+ 

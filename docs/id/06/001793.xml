@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000059">
+  <authority ID="epns-deep-06-b-name-subparish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001793">Slindon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000059" type="broader">
+   <geographic>Slindon</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w147693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001794">Eslindone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w147712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001795">Slindon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w147769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001796">Slingdon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d78"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6329200" lat="50.8662700" gazref="geonames:2637636" source="geonames"/>
+   <geo long="-0.6285077025943966" lat="50.86738403881825" gazref="unlock:11285448" source="unlock"/>
+   <geo easting="496500" northing="108500" long="-0.630018" lat="50.868" kepnref="6921" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w147693">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w147712">
+    <date subtype="simple" begin="1188" end="1188">1188</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w147769">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="italic" id="su5">Add</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w147693">Eslindone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w147712">Slindone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w147712">Slindon</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w147769">Slingdon</searchterm>
+  </extension>
+ </mads>
+ 

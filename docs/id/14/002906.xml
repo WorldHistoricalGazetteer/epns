@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000128">
+  <authority ID="epns-deep-14-b-name-subparish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002906">Ganton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000071" type="broader">
+   <geographic>Ganton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w189068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002907">Galmeton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w189141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002908">Galmeton(a) in Harfordlyth</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w189184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002909">Galmatona</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w189209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002910">Gawnton, Gaunton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w189243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002911">Ganton or Galmpton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004a9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4864500" lat="54.1847500" gazref="geonames:2648891" source="geonames"/>
+   <geo long="-0.4904681223675648" lat="54.18363807224354" gazref="unlock:11149860" source="unlock"/>
+   <geo easting="498500" northing="477500" long="-0.492134" lat="54.1838" kepnref="8510" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w189068">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w189068">
+    <attestation variantID="epns-deep-14-b-name-w189068">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <date end="1300" begin="1200" subtype="century">13th</date>
+     <source style="" id="ey45">Bridl</source>
+    </attestation>
+    <passim>passim</passim>
+    <attestation variantID="epns-deep-14-b-name-w189068">
+     <date end="1352" begin="1352" subtype="simple">1352</date>
+     <source style="" id="ey153">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w189141">
+    <date end="1342" begin="1342" subtype="simple">1342</date>
+    <source style="" id="ey19">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w189184">
+    <date end="1153" begin="1145" subtype="simple">1145-53</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w189209">
+    <date end="1519" begin="1519" subtype="simple">1519</date>
+    <date end="1559" begin="1559" subtype="simple">1559</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w189243">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w189068">Galmetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189068">Galmeton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189141">Galmetona in Harfordlyth</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189141">Galmeton in Harfordlyth</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189184">Galmatona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189209">Gawnton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189209">Gaunton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w189243">Ganton or Galmpton</searchterm>
+  </extension>
+ </mads>
+ 

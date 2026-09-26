@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000153">
+  <authority ID="epns-deep-10-a-name-parish-000153">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003469">Hannington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000010" type="broader">
+   <geographic>Orlingbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000435"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8053800" lat="52.3294800" gazref="geonames:7299002" source="geonames"/>
+   <geo long="-0.8037379332458693" lat="52.33513805476694" gazref="unlock:11165438" source="unlock"/>
+   <geo easting="481500" northing="271500" long="-0.805286" lat="52.3355" kepnref="11023" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-li-liberty-000001">
+  <authority ID="epns-deep-18-li-name-liberty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/004804">The Liberty of East Smithfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-alta-borough-000020" type="broader">
+   <geographic>The Borough of Stepney</geographic>
+  </related>
+  <variant ID="epns-deep-18-li-name-w283134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/004805">Estsmethefeld juxta Turrim</geographic>
+  </variant>
+  <variant ID="epns-deep-18-li-name-w283170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/004806">Est Smythefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-18-li-name-w283196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/004807">Est Smethefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-18-li-name-w283230">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/004808">Smethefeud</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000019"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-18-li-name-w283134">
+    <date subtype="simple" begin="1229" end="1229">1229</date>
+    <source style="" id="mi51">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-li-name-w283170">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="mi108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-li-name-w283196">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="italic" id="mi18">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-li-name-w283196">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="mi270">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-li-name-w283230">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="mi143">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-li-name-w283134">Estsmethefeld juxta Turrim</searchterm>
+   <searchterm variantID="epns-deep-18-li-name-w283170">Est Smythefeld</searchterm>
+   <searchterm variantID="epns-deep-18-li-name-w283196">Est Smethefeld</searchterm>
+   <searchterm variantID="epns-deep-18-li-name-w283230">Smethefeud</searchterm>
+  </extension>
+ </mads>
+ 

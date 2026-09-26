@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000087">
+  <authority ID="epns-deep-28-a-name-parish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/015134">Parwich</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000002" type="broader">
+   <geographic>Wirksworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c00178f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7204000" lat="53.0854800" gazref="geonames:2640587" source="geonames"/>
+   <geo long="-1.723751546350799" lat="53.08709771035011" gazref="unlock:11240987" source="unlock"/>
+   <geo easting="418500" northing="354500" long="-1.72522" lat="53.0874" kepnref="3363" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000072">
+  <authority ID="epns-deep-06-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002321">Stopham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000072" type="broader">
+   <geographic>Stopham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w187312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002322">Stopeham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w187353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002323">Stopham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w187378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002324">Stoppham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w187397">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002325">Steppeham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d85"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5409000" lat="50.9605400" gazref="geonames:2636793" source="geonames"/>
+   <geo long="-0.540170735059283" lat="50.96524651093424" gazref="unlock:11293550" source="unlock"/>
+   <geo easting="502500" northing="119500" long="-0.541695" lat="50.9658" kepnref="6934" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w187312">
+    <attestation variantID="epns-deep-06-b-name-w187312">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w187312">
+     <date subtype="simple" begin="1478" end="1478">1478</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w187353">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="su44">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w187378">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w187397">
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <source style="" id="su44">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w187312">Stopeham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w187353">Stopham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w187378">Stoppham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w187397">Steppeham</searchterm>
+  </extension>
+ </mads>
+ 

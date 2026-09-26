@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000092">
+  <authority ID="epns-deep-06-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002824">South Stoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000092" type="broader">
+   <geographic>South Stoke</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w224470">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002825">Stoches</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w224487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002826">Sudstok</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w224510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002827">Suth Stok</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d7d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5486700" lat="50.8731100" gazref="geonames:7292738" source="geonames"/>
+   <geo long="-0.5429818384591907" lat="50.87534165306612" gazref="unlock:11287947" source="unlock"/>
+   <geo easting="502500" northing="110500" long="-0.544222" lat="50.8849" kepnref="6954" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w224470">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w224487">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="su95">Fees</source>
+    <item>689</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w224510">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w224470">Stoches</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w224487">Sudstok</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w224510">Suth Stok</searchterm>
+  </extension>
+ </mads>
+ 

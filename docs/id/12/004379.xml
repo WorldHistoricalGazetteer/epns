@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000084">
+  <authority ID="epns-deep-12-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/004379">Basildon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000007" type="broader">
+   <geographic>Barstable Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bb8"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4578200" lat="51.5684400" gazref="geonames:2656194" source="geonames"/>
+   <geo long="0.5041926787678713" lat="51.57714859403522" gazref="unlock:11071400" source="unlock"/>
+   <geo easting="571500" northing="188500" long="0.473203" lat="51.5693" kepnref="12271" source="kepn"/>
+  </extension>
+ </mads>
+ 

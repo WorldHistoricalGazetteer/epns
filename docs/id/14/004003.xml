@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000185">
+  <authority ID="epns-deep-14-b-name-subparish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004003">Aike</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000105" type="broader">
+   <geographic>Lockington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w262879">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004004">Ach</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w262892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004005">Ake</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w262976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004006">Ak</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w263003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004007">Hac</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w263016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004008">Hak</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w263029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004009">Ayk</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w263042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004010">Ayke, Aike</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4095717573277232" lat="53.89492569425459" gazref="unlock:11057335" source="unlock"/>
+   <geo easting="505500" northing="445500" long="-0.396023" lat="53.895" kepnref="8564" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w262879">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262892">
+    <date end="1160" begin="1150" subtype="simple">1150-60</date>
+    <source style="" id="ey202">Melsa</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262892">
+    <date end="1216" begin="1199" subtype="regnal">t. John</date>
+    <source style="italic" id="ey4">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262892">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262892">
+    <attestation variantID="epns-deep-14-b-name-w262892">
+     <date end="1236" begin="1236" subtype="simple">1236</date>
+     <source style="italic" id="ey200">Meaux</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w262892">
+     <date end="1650" begin="1650" subtype="simple">1650</date>
+     <source style="" id="ey264">ParlSurv</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262976">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="ey306">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w262976">
+    <date end="1307" begin="1306" subtype="simple">1306-7</date>
+    <source style="" id="ey32">BevAct</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w263003">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w263016">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w263029">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="ey160">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w263042">
+    <attestation variantID="epns-deep-14-b-name-w263042">
+     <date end="1305" begin="1305" subtype="simple">1305</date>
+     <source style="" id="ey32">BevAct</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w263042">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w262879">Ach</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w262892">Ake</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w262976">Ak</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w263003">Hac</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w263016">Hak</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w263029">Ayk</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w263042">Ayke</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w263042">Aike</searchterm>
+  </extension>
+ </mads>
+ 

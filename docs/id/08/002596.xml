@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000045">
+  <authority ID="epns-deep-08-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002596">Bulkworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000045" type="broader">
+   <geographic>Bulkworthy</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w138189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002597">Buchesurda, Bochesurde, Bochesorda</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w138233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002598">Bulkewrth</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w138298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002599">Bulkewrthy, Bulkeworth, Bulkewurthi</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w138335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002600">Bulkaworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w138357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002601">Bulkesworth</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w138381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002602">Bolkeworth'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001908"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2844900" lat="50.9045400" gazref="geonames:2654354" source="geonames"/>
+   <geo long="-4.283101396557687" lat="50.90707669795026" gazref="unlock:11092088" source="unlock"/>
+   <geo easting="239500" northing="114500" long="-4.2842" lat="50.9076" kepnref="15502" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w138189">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138233">
+    <attestation variantID="epns-deep-08-b-name-w138233">
+     <date end="1219" begin="1219" subtype="simple">1219</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w138233">
+     <date end="1462" begin="1462" subtype="simple">1462</date>
+     <source style="" id="de112">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138298">
+    <date end="1462" begin="1219">1219-1462</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138335">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138357">
+    <date end="1229" begin="1229" subtype="simple">1229</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138381">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>797</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138381">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w138381">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w138189">Buchesurda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138189">Bochesurde</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138189">Bochesorda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138233">Bulkewrth</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138298">Bulkewrthy</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138298">Bulkeworth</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138298">Bulkewurthi</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138335">Bulkaworthy</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138357">Bulkesworth</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w138381">Bolkeworth'</searchterm>
+  </extension>
+ </mads>
+ 

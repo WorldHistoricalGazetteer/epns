@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000017">
+  <authority ID="epns-deep-23-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/002606">Rotherfield Greys</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000002" type="broader">
+   <geographic>Binfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000730"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9539200" lat="51.5353100" gazref="geonames:6692177" source="geonames"/>
+   <geo long="-0.9545796699136508" lat="51.53626348857493" gazref="unlock:11272995" source="unlock"/>
+   <geo easting="472500" northing="182500" long="-0.956079" lat="51.5368" kepnref="3538" source="kepn"/>
+  </extension>
+ </mads>
+ 

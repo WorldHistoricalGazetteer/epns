@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000143">
+  <authority ID="epns-deep-09-b-name-subparish-000143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007266">St Mary Church</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000143" type="broader">
+   <geographic>St Mary Church</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w329663">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007267">(æt) Sce Maria circean</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w329701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007268">Se Marie Cherche</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w329730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007269">Seintmarichurche</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a2a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="292500" northing="66500" long="-3.51673" lat="50.4884" kepnref="15814" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w329663">
+    <date end="1072" begin="1050" subtype="simple">1050-72</date>
+    <source style="" id="de71">Earle</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w329701">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w329730">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>796</item>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w329663">æt Sce Maria circean</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w329663">Sce Maria circean</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w329701">Se Marie Cherche</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w329730">Seintmarichurche</searchterm>
+  </extension>
+ </mads>
+ 

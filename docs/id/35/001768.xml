@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000009">
+  <authority ID="epns-deep-35-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/001768">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000002" type="broader">
+   <geographic>Kildwick</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w61034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/001769">Sutun</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w61049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/001770">Sutton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w61116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/001771">Sutton in Ayrdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006183"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0035400" lat="53.8832100" gazref="geonames:7298970" source="geonames"/>
+   <geo long="-2" lat="53.88298654" source="epns"/>
+   <geo easting="399500" northing="443500" long="-2.00908" lat="53.8877" kepnref="14849" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w61034">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w61049">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="" id="wr796">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w61049">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w61049">
+    <attestation variantID="epns-deep-35-b-name-w61049">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w61049">
+     <date subtype="circa" begin="1500" end="1520">c. 1510</date>
+     <source style="" id="wr680">Star</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w61116">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w61034">Sutun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w61049">Sutton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w61116">Sutton in Ayrdale</searchterm>
+  </extension>
+ </mads>
+ 

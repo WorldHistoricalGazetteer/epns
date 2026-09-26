@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000129">
+  <authority ID="epns-deep-96-a-name-parish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/005337">Burwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000014" type="broader">
+   <geographic>Staploe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3273200" lat="52.2763200" gazref="geonames:2654195" source="geonames"/>
+   <geo long="0.3233550061434" lat="52.273378443898" gazref="unlock:11094224" source="unlock"/>
+   <geo easting="558500" northing="266500" long="0.321678" lat="52.2738" kepnref="4088" source="kepn"/>
+  </extension>
+ </mads>
+ 

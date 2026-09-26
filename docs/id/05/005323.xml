@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000481">
+  <authority ID="epns-deep-05-b-name-subparish-000481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005323">Cliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000162" type="broader">
+   <geographic>Manfield</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w378522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005324">Ileclif</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005325">Ylcliue</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005326">Clive</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378623">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005327">Clif(f)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600052f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6899400" lat="54.5285700" gazref="geonames:7296857" source="geonames"/>
+   <geo long="-1.667702590767185" lat="54.53419045412242" gazref="unlock:11109169" source="unlock"/>
+   <geo easting="421500" northing="515500" long="-1.66924" lat="54.5343" kepnref="6136" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w378522">
+    <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+    <source style="" id="ny209">SD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378542">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>18 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378608">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378623">
+    <attestation variantID="epns-deep-05-b-name-w378623">
+     <date subtype="simple" begin="1234" end="1234">1234</date>
+     <source style="" id="ny34">Cl</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w378522">Ileclif</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378542">Ylcliue</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378608">Clive</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378623">Cliff</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378623">Clif</searchterm>
+  </extension>
+ </mads>
+ 

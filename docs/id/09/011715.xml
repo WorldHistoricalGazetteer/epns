@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000228">
+  <authority ID="epns-deep-09-b-name-subparish-000228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011715">Widworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000228" type="broader">
+   <geographic>Widworthy</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w531143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011716">Wideworda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w531162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011717">Wideworthe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w531231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011718">Wydeworthe, Widewrth</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w531253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011719">Wideworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w531273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011720">Wyddeworth</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w531294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011721">Wytheworthy</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a71"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1113100" lat="50.7881500" gazref="geonames:2633951" source="geonames"/>
+   <geo long="-3.11379997947476" lat="50.78918285487048" gazref="unlock:11322693" source="unlock"/>
+   <geo easting="321500" northing="99500" long="-3.11503" lat="50.7897" kepnref="15899" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w531143">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w531162">
+    <attestation variantID="epns-deep-09-b-name-w531162">
+     <date end="1300" begin="1200" subtype="century">13th</date>
+     <source style="" id="de3">AD</source>
+     <item>i</item>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w531162">
+     <date end="1290" begin="1290" subtype="simple">1290</date>
+     <source style="" id="de34">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w531231">
+    <date end="1290" begin="1200">13th-1290</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w531253">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w531273">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w531294">
+    <date end="1408" begin="1408" subtype="simple">1408</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w531143">Wideworda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531162">Wideworthe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531231">Wydeworthe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531231">Widewrth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531253">Wideworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531273">Wyddeworth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w531294">Wytheworthy</searchterm>
+  </extension>
+ </mads>
+ 

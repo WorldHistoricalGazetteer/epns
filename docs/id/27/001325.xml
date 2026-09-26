@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000010">
+  <authority ID="epns-deep-27-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001325">Bradwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000010" type="broader">
+   <geographic>Bradwell</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w57777">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001326">Bradewell(e), Bradewella</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w57873">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001327">Bradewalle</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w57897">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001328">Bradwell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w57929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001329">Bradwall(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w57978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001330">Moche Bradwall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00181a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7500000" lat="53.3166700" gazref="geonames:2654973" source="geonames"/>
+   <geo long="-1.737202829927454" lat="53.32985630567643" gazref="unlock:11084992" source="unlock"/>
+   <geo easting="417500" northing="381500" long="-1.73868" lat="53.3301" kepnref="3210" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w57777">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57777">
+    <date end="1108" begin="1100" subtype="simple">1100-8</date>
+    <source style="" id="db461">RegLich</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57777">
+    <date end="1108" begin="1058" subtype="ante">a. 1108</date>
+    <source style="" id="db149">Dugd</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57777">
+    <attestation variantID="epns-deep-27-b-name-w57777">
+     <date end="1200" begin="1200" subtype="simple">1200</date>
+     <source style="" id="db116">Cur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w57777">
+     <date end="1335" begin="1335" subtype="simple">1335</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57873">
+    <date end="1339" begin="1339" subtype="simple">1339</date>
+    <source style="" id="db128">DbA</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57897">
+    <attestation variantID="epns-deep-27-b-name-w57897">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="italic" id="db202">For</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57929">
+    <attestation variantID="epns-deep-27-b-name-w57929">
+     <date end="1376" begin="1376" subtype="simple">1376</date>
+     <source style="italic" id="db589">WollCh</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w57929">
+     <date end="1660" begin="1660" subtype="simple">1660</date>
+     <source style="" id="db530">StJ</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w57978">
+    <date end="1525" begin="1525" subtype="simple">1525</date>
+    <date end="1528" begin="1528" subtype="simple">1528</date>
+    <source style="italic" id="db438">Portland</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w57777">Bradewelle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57777">Bradewell</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57777">Bradewella</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57873">Bradewalle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57897">Bradwelle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57897">Bradwell</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57929">Bradwalle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57929">Bradwall</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w57978">Moche Bradwall</searchterm>
+  </extension>
+ </mads>
+ 

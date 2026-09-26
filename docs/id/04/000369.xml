@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000007">
+  <authority ID="epns-deep-04-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000369">Bayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000007" type="broader">
+   <geographic>Bayton</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w32487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000370">Beitone</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w32508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000371">Betune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w32524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000372">Beton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w32540">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000373">Beytune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w32557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000374">Bayton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000548"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4499900" lat="52.3561800" gazref="geonames:2656128" source="geonames"/>
+   <geo long="-2.447908142436205" lat="52.35832764260251" gazref="unlock:11072035" source="unlock"/>
+   <geo easting="369500" northing="273500" long="-2.44927" lat="52.3587" kepnref="5185" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w32487">
+    <date end="1080" begin="1080" subtype="simple">1080</date>
+    <source style="" id="wo67">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w32508">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w32524">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w32540">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w32557">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w32487">Beitone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w32508">Betune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w32524">Beton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w32540">Beytune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w32557">Bayton</searchterm>
+  </extension>
+ </mads>
+ 

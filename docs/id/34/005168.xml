@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000058">
+  <authority ID="epns-deep-34-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005168">Scotton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000024" type="broader">
+   <geographic>Farnham</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w212261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005169">Scotone, Scotona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w212287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005170">Scotton, Scottunam</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w212407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005171">Scotthona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w212431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005172">Skotton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4963900" lat="54.0301700" gazref="geonames:7290744" source="geonames"/>
+   <geo long="-1.511468394" lat="54.02581457" source="epns"/>
+   <geo long="-1.503781748554001" lat="54.03027885016951" gazref="unlock:11279392" source="unlock"/>
+   <geo easting="432500" northing="459500" long="-1.50532" lat="54.0305" kepnref="14778" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w212261">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <date end="1185" begin="1173" subtype="simple">1173-85</date>
+    <source style="" id="wr796">YCh</source>
+    <item>513</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <date end="1208" begin="1202" subtype="simple">1202-8</date>
+    <source style="" id="wr24">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <date end="1243" begin="1243" subtype="simple">1243</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212287">
+    <attestation variantID="epns-deep-34-b-name-w212287">
+     <date end="1276" begin="1276" subtype="simple">1276</date>
+     <source style="" id="wr601">RH</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w212287">
+     <date end="1628" begin="1628" subtype="simple">1628</date>
+     <source style="" id="wr521">PRFrn</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212407">
+    <date end="1260" begin="1250" subtype="simple">1250-60</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w212431">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="wr217" underspec="ib">Font</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w212261">Scotone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w212261">Scotona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w212287">Scotton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w212287">Scottunam</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w212407">Scotthona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w212431">Skotton</searchterm>
+  </extension>
+ </mads>
+ 

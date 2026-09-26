@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000045">
+  <authority ID="epns-deep-40-a-name-parish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005510">Filton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000008" type="broader">
+   <geographic>Berkeley Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001969"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5761600" lat="51.5082400" gazref="geonames:2649452" source="geonames"/>
+   <geo long="-2.576421894" lat="51.5080303" source="epns"/>
+   <geo long="-2.569161149856298" lat="51.50357013382816" gazref="unlock:11144362" source="unlock"/>
+   <geo easting="360500" northing="179500" long="-2.57059" lat="51.513" kepnref="6491" source="kepn"/>
+  </extension>
+ </mads>
+ 

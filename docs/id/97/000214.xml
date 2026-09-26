@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000004">
+  <authority ID="epns-deep-97-b-name-subparish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000214">Ely Trinity</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000004" type="broader">
+   <geographic>Ely Trinity</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w383004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000215">magna parochia de Ely</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w383038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000216">Trynetye Parisshe in Ely infra Insul' Elien'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007a9"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="369" long="0.268378" lat="52.408284" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w383004">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="ce154">ElyCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w383038">
+    <date end="1553" begin="1553" subtype="simple">1553</date>
+    <source style="" id="ce135">EA</source>
+    <item>ix</item>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w383004">magna parochia de Ely</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w383038">Trynetye Parisshe in Ely infra Insul' Elien'</searchterm>
+  </extension>
+ </mads>
+ 

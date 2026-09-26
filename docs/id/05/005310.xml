@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000478">
+  <authority ID="epns-deep-05-b-name-subparish-000478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005310">Dalton upon Tees</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000160" type="broader">
+   <geographic>Croft</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w377700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005311">Dalton super Tese</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000467"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5411800" lat="54.4643500" gazref="geonames:2651548" source="geonames"/>
+   <geo easting="429500" northing="507500" long="-1.54641" lat="54.462" kepnref="6132" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w377700">
+    <date subtype="simple" begin="1221" end="1226">1221-6</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>iii</item>
+    <page>24</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w377700">Dalton super Tese</searchterm>
+  </extension>
+ </mads>
+ 

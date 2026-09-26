@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000250">
+  <authority ID="epns-deep-12-b-name-subparish-000250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015140">Borley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000336" type="broader">
+   <geographic>Borley</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w748928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015141">Barlea, Barlā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w748951">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015142">Barle(e), Barleg', Barley</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w749008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015143">Berle(g)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w749036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015144">Borle(gh), Borlei, Borleye</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w749093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015145">Bordeleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w749114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015146">Burle (vyuun)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000da5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6921500" lat="52.0542400" gazref="geonames:2655174" source="geonames"/>
+   <geo long="0.6764371080334933" lat="52.05004467019469" gazref="unlock:11083202" source="unlock"/>
+   <geo easting="584500" northing="242500" long="0.689296" lat="52.0502" kepnref="12500" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w748928">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w748951">
+    <attestation variantID="epns-deep-12-b-name-w748951">
+     <date subtype="simple" begin="1203" end="1203">1203</date>
+     <source style="" id="ex150">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-12-b-name-w748951">
+     <date subtype="simple" begin="1314" end="1314">1314</date>
+     <source style="" id="ex202">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749008">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ex73">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749008">
+    <date subtype="simple" begin="1354" end="1354">1354</date>
+    <source style="" id="ex202">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749036">
+    <attestation variantID="epns-deep-12-b-name-w749036">
+     <date subtype="simple" begin="1224" end="1224">1224</date>
+     <source style="" id="ex74">ClR</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-12-b-name-w749036">
+     <date subtype="simple" begin="1340" end="1340">1340</date>
+     <source style="" id="ex313">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749093">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ex73">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749114">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w749114">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="ex313">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w748928">Barlea</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w748928">Barlā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w748951">Barlee</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w748951">Barle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w748951">Barleg'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w748951">Barley</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749008">Berleg</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749008">Berle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749036">Borlegh</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749036">Borle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749036">Borlei</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749036">Borleye</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749093">Bordeleg'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749114">Burle vyuun</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w749114">Burle</searchterm>
+  </extension>
+ </mads>
+ 

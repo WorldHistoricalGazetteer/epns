@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000152">
+  <authority ID="epns-deep-02-b-name-subparish-000152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002958">Lee</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000150" type="broader">
+   <geographic>Lee</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w205239">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002959">Lega</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w205252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002960">La Legh</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w205270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002961">La Leye</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w205287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002962">Lye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000388"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6833300" lat="51.7166700" gazref="geonames:2644698" source="geonames"/>
+   <geo long="-0.6894037971918083" lat="51.73144336548133" gazref="unlock:11193505" source="unlock"/>
+   <geo easting="490500" northing="204500" long="-0.690941" lat="51.7319" kepnref="11345" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w205239">
+    <date end="1181" begin="1181" subtype="simple">1181</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w205252">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w205270">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w205287">
+    <date end="1537" begin="1537" subtype="simple">1537</date>
+    <source style="" id="bu68">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w205239">Lega</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w205252">La Legh</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w205270">La Leye</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w205287">Lye</searchterm>
+  </extension>
+ </mads>
+ 

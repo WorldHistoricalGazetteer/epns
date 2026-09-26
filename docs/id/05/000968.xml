@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000104">
+  <authority ID="epns-deep-05-b-name-subparish-000104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000968">Bransdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000043" type="broader">
+   <geographic>Kirkdale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w85323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000969">Brannesdale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w85349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000970">Brauncedale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w85379">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000971">Brandesdal'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w85403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000972">Bransdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000506"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0341600" lat="54.3655400" gazref="geonames:7291673" source="geonames"/>
+   <geo long="-1.03809665918075" lat="54.36004165185994" gazref="unlock:11085796" source="unlock"/>
+   <geo easting="462500" northing="496500" long="-1.0397" lat="54.3602" kepnref="5754" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w85323">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w85349">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w85349">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w85379">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w85403">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w85323">Brannesdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w85349">Brauncedale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w85379">Brandesdal'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w85403">Bransdale</searchterm>
+  </extension>
+ </mads>
+ 

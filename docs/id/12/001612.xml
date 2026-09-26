@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000027">
+  <authority ID="epns-deep-12-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/001612">High Laver</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000003" type="broader">
+   <geographic>Ongar Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c77"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1957800" lat="51.7618200" gazref="geonames:7293520" source="geonames"/>
+   <geo long="0.209643580390547" lat="51.75394843189942" gazref="unlock:11172032" source="unlock"/>
+   <geo easting="552500" northing="208500" long="0.208002" lat="51.7544" kepnref="12222" source="kepn"/>
+  </extension>
+ </mads>
+ 

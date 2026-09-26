@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000360">
+  <authority ID="epns-deep-05-b-name-subparish-000360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004123">Sinderby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000129" type="broader">
+   <geographic>Pickhill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w302566">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004124">Senerebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004125">Sindarebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004126">Sinderbi, Sinderby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600057d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4720900" lat="54.2319200" gazref="geonames:2637815" source="geonames"/>
+   <geo long="-1.470732296266135" lat="54.22788798014955" gazref="unlock:11284187" source="unlock"/>
+   <geo easting="434500" northing="481500" long="-1.47228" lat="54.2281" kepnref="6012" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w302566">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302584">
+    <date subtype="simple" begin="1170" end="1188">1170-88</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>228</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302616">
+    <attestation variantID="epns-deep-05-b-name-w302616">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny46">Dods</source>
+     <item>xcv</item>
+     <page>34 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w302566">Senerebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302584">Sindarebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302616">Sinderbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302616">Sinderby</searchterm>
+  </extension>
+ </mads>
+ 

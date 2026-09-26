@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000002">
+  <authority ID="epns-deep-72-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/000215">Filby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000001" type="broader">
+   <geographic>East Flegg Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d15"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6427100" lat="52.6595700" gazref="geonames:2649464" source="geonames"/>
+   <geo long="1.637963612" lat="52.65846038" source="epns"/>
+   <geo long="1.645716400056591" lat="52.66272061253772" gazref="unlock:11144311" source="unlock"/>
+   <geo easting="646500" northing="313500" long="1.64387" lat="52.6631" kepnref="9223" source="kepn"/>
+  </extension>
+ </mads>
+ 

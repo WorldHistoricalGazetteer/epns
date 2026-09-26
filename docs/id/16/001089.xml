@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000020">
+  <authority ID="epns-deep-16-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001089">Malmesbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000005" type="broader">
+   <geographic>Malmesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000caa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0970800" lat="51.5817500" gazref="geonames:2643146" source="geonames"/>
+   <geo long="-2.093828158575433" lat="51.58584539732634" gazref="unlock:11211725" source="unlock"/>
+   <geo easting="393500" northing="187500" long="-2.0952" lat="51.5863" kepnref="7184" source="kepn"/>
+  </extension>
+ </mads>
+ 

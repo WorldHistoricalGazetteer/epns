@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000078">
+  <authority ID="epns-deep-05-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000752">Hovingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000032" type="broader">
+   <geographic>Hovingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w63754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000753">Hovingham, Houingham, Hovyngham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w63825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000754">Hovingeham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004c9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9789600" lat="54.1726700" gazref="geonames:2646502" source="geonames"/>
+   <geo long="-0.9812099346518206" lat="54.17081083021959" gazref="unlock:11180198" source="unlock"/>
+   <geo easting="466500" northing="475500" long="-0.982816" lat="54.171" kepnref="5725" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w63754">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w63754">
+    <attestation variantID="epns-deep-05-b-name-w63754">
+     <date subtype="simple" begin="1142" end="1150">1142-50</date>
+     <source style="" id="ny236">YCh</source>
+     <page>638</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w63825">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="" id="ny236">YCh</source>
+    <page>354</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w63825">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w63825">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w63754">Hovingham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w63754">Houingham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w63754">Hovyngham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w63825">Hovingeham</searchterm>
+  </extension>
+ </mads>
+ 

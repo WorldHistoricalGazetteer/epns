@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000063">
+  <authority ID="epns-deep-99-a-name-parish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001239">Spaldwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000003" type="broader">
+   <geographic>Leightonstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3443500" lat="52.3417900" gazref="geonames:2637262" source="geonames"/>
+   <geo long="-0.3485599567725091" lat="52.33864380521602" gazref="unlock:11288669" source="unlock"/>
+   <geo easting="512500" northing="272500" long="-0.350161" lat="52.3391" kepnref="4191" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000027">
+  <authority ID="epns-deep-49-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007505">Arborfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000007" type="broader">
+   <geographic>Sonning Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001a4e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9200600" lat="51.4014300" gazref="geonames:2657216" source="geonames"/>
+   <geo long="-0.9145343431310625" lat="51.40100605436411" gazref="unlock:11063024" source="unlock"/>
+   <geo easting="475500" northing="167500" long="-0.916033" lat="51.4015" kepnref="121" source="kepn"/>
+  </extension>
+ </mads>
+ 

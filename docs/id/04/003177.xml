@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000127">
+  <authority ID="epns-deep-04-b-name-subparish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003177">Hanley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000129" type="broader">
+   <geographic>Hanley Castle</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w269281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003178">Hanlie, Hanlege</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w269306">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003179">Heanlega</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w269327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003180">Hanley</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w269429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003181">Potters Handley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005a6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.240753201343012" lat="52.07120532084218" gazref="unlock:11165393" source="unlock"/>
+   <geo easting="384500" northing="242500" long="-2.22758" lat="52.0806" kepnref="5306" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w269281">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w269306">
+    <date end="1181" begin="1181" subtype="simple">1181</date>
+    <source style="" id="wo142">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w269327">
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w269327">
+    <date end="1344" begin="1344" subtype="simple">1344</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w269327">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w269429">
+    <date end="1633" begin="1633" subtype="simple">1633</date>
+    <source style="" id="wo163">QSR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w269281">Hanlie</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w269281">Hanlege</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w269306">Heanlega</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w269327">Hanley</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w269429">Potters Handley</searchterm>
+  </extension>
+ </mads>
+ 

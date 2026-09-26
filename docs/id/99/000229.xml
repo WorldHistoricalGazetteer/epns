@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000014">
+  <authority ID="epns-deep-99-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000229">Water Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000014" type="broader">
+   <geographic>Water Newton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w259733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000230">Niwantune</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w259816">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000231">Newetone</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w259834">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000232">Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w259887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000233">Newenton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w259915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000234">Waterneuton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w259941">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000235">Watter Newton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3643500" lat="52.5610600" gazref="geonames:2634683" source="geonames"/>
+   <geo long="-0.3696279572144119" lat="52.56373614328086" gazref="unlock:11314179" source="unlock"/>
+   <geo easting="510500" northing="297500" long="-0.371237" lat="52.5641" kepnref="4143" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w259733">
+    <date subtype="simple" begin="937" end="937">937</date>
+    <copydate end="1325" begin="1300">c. 1300-25</copydate>
+    <source style="italic" id="bh195">Thorney</source>
+    <page>5 b</page>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259733">
+    <date subtype="simple" begin="973" end="973">973</date>
+    <copydate end="1325" begin="1300">c. 1300-25</copydate>
+    <source style="italic" id="bh195" underspec="ib">Thorney</source>
+    <item>2 a</item>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259733">
+    <date subtype="circa" begin="990" end="1010">c. 1000</date>
+    <source style="italic" id="bh37">Cragg</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259816">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259834">
+    <attestation variantID="epns-deep-99-b-name-w259834">
+     <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+     <copydate end="1325" begin="1300">c. 1300-25</copydate>
+     <source style="italic" id="bh195">Thorney</source>
+     <page>169 b</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259887">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="bh192">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259887">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259915">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="italic" id="bh106">Linc</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w259941">
+    <date subtype="circa" begin="1650" end="1670">c. 1660</date>
+    <source style="" id="bh235">Moore</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w259733">Niwantune</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w259816">Newetone</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w259834">Neuton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w259887">Newenton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w259915">Waterneuton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w259941">Watter Newton</searchterm>
+  </extension>
+ </mads>
+ 

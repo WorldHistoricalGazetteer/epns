@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000118">
+  <authority ID="epns-deep-10-a-name-parish-000118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002741">Passenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000008" type="broader">
+   <geographic>Cleyley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000480"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8636700" lat="52.0476600" gazref="geonames:2640585" source="geonames"/>
+   <geo long="-0.8551764927799127" lat="52.04790709721467" gazref="unlock:11241015" source="unlock"/>
+   <geo easting="478500" northing="239500" long="-0.856707" lat="52.0483" kepnref="10988" source="kepn"/>
+  </extension>
+ </mads>
+ 

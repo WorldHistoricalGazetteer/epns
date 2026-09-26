@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000098">
+  <authority ID="epns-deep-07-b-name-subparish-000098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004859">Friston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000099" type="broader">
+   <geographic>Friston</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w297339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004860">Friston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004861">Fryston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004862">Freston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297443">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004863">Fris(s)hton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004864">Fruston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004865">Freeston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w297511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004866">Friston al. Frison al. Freston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d00"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1993000" lat="50.7640200" gazref="geonames:2649044" source="geonames"/>
+   <geo long="0.2052441041400136" lat="50.76465591019262" gazref="unlock:11148263" source="unlock"/>
+   <geo easting="555500" northing="98500" long="0.203644" lat="50.7653" kepnref="7114" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w297339">
+    <attestation variantID="epns-deep-07-b-name-w297339">
+     <date end="1200" begin="1200" subtype="simple">1200</date>
+     <source style="" id="su57">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w297339">
+     <date end="1547" begin="1509" subtype="regnal">t. Hy 8</date>
+     <source style="" id="su3">AD</source>
+     <item>v</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297407">
+    <date end="1547" begin="1200">1200-t. Hy 8</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297416">
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297416">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297443">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297443">
+    <date end="1382" begin="1382" subtype="simple">1382</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297473">
+    <date end="1347" begin="1347" subtype="simple">1347</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297490">
+    <date end="1537" begin="1537" subtype="simple">1537</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w297511">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="italic" id="su502">Pat</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w297339">Friston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297407">Fryston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297416">Freston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297443">Frisshton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297443">Frishton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297473">Fruston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297490">Freeston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297511">Friston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297511">Frison</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w297511">Freston</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000004">
+  <authority ID="epns-deep-27-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000376">Bakewell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0016b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6748100" lat="53.2133800" gazref="geonames:2656617" source="geonames"/>
+   <geo long="-1.67801512906747" lat="53.21284322856803" gazref="unlock:11067457" source="unlock"/>
+   <geo easting="421500" northing="368500" long="-1.6795" lat="53.2131" kepnref="3202" source="kepn"/>
+  </extension>
+ </mads>
+ 

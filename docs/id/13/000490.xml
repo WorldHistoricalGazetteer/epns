@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000011">
+  <authority ID="epns-deep-13-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000490">Glascote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000010" type="broader">
+   <geographic>Tamworth</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w23733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000491">Glascote</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w23800">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000492">Gloscot</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w23821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000493">Glascocke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6746300" lat="52.6251200" gazref="geonames:2648586" source="geonames"/>
+   <geo long="-1.667613668187861" lat="52.61944903469718" gazref="unlock:11153356" source="unlock"/>
+   <geo easting="421500" northing="303500" long="-1.68378" lat="52.6288" kepnref="4919" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w23733">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1398" begin="1398">1398</copydate>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w23733">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w23733">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="wa138">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w23733">
+    <date end="1432" begin="1432" subtype="simple">1432</date>
+    <source style="" id="wa139">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w23800">
+    <date end="1565" begin="1565" subtype="simple">1565</date>
+    <source style="" id="wa218">ParReg</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w23821">
+    <date end="1667" begin="1667" subtype="simple">1667</date>
+    <source style="italic" id="wa131">HT</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w23733">Glascote</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w23800">Gloscot</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w23821">Glascocke</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000065">
+  <authority ID="epns-deep-27-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007875">Outseats</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000063" type="broader">
+   <geographic>Outseats</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w309302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007876">Outseates</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6380900" lat="53.3560800" gazref="geonames:7293254" source="geonames"/>
+   <geo easting="424500" northing="383500" long="-1.63342" lat="53.3478" kepnref="3265" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w309302">
+    <date end="1683" begin="1683" subtype="simple">1683</date>
+    <source style="italic" id="db588">Woll</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w309302">Outseates</searchterm>
+  </extension>
+ </mads>
+ 

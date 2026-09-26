@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000005">
+  <authority ID="epns-deep-49-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001767">Bray</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000007" type="broader">
+   <geographic>Bray</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w62031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001768">Braio, Brai, Bras</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w62058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001769">Brai</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w62104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001770">Bray</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w62110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001771">Braya</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w62139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001772">Brai Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w62160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001773">Braye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b33"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6876800" lat="51.5034000" gazref="geonames:2654853" source="geonames"/>
+   <geo long="-0.71026935019925" lat="51.50685308041304" gazref="unlock:11086008" source="unlock"/>
+   <geo easting="490500" northing="179500" long="-0.69739" lat="51.5072" kepnref="3029" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w62031">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62058">
+    <attestation variantID="epns-deep-49-b-name-w62058">
+     <date end="1156" begin="1156" subtype="simple">1156</date>
+     <source style="" id="be256">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62104">
+    <date end="1600" begin="1156">1156-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62110">
+    <date end="1170" begin="1150" subtype="circa">c. 1160</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="be317">RSO</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62139">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="be256">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62160">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="be76">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62160">
+    <date end="1235" begin="1234" subtype="simple">1234-5</date>
+    <source style="italic" id="be124">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62160">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="" id="be64">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w62160">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w62031">Braio</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62031">Brai</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62031">Bras</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62058">Brai</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62104">Bray</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62110">Braya</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62139">Brai Regis</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w62160">Braye</searchterm>
+  </extension>
+ </mads>
+ 

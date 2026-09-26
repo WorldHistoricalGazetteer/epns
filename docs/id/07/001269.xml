@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000027">
+  <authority ID="epns-deep-07-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001269">East Chiltington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000027" type="broader">
+   <geographic>East Chiltington</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w87202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001270">Childeltune, Childe(n)tune</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w87238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001271">Chilting'</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w87262">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001272">Chiltigton juxta Lewes</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w87295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001273">Chiltinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ce4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0439700" lat="50.9177100" gazref="geonames:7298478" source="geonames"/>
+   <geo long="-0.04347414696183959" lat="50.92200287013032" gazref="unlock:11135754" source="unlock"/>
+   <geo easting="537500" northing="115500" long="-0.0450527" lat="50.9226" kepnref="7046" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w87202">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w87238">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="su95">Fees</source>
+    <item>72</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w87262">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w87295">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w87202">Childeltune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w87202">Childentune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w87202">Childetune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w87238">Chilting'</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w87262">Chiltigton juxta Lewes</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w87295">Chiltinton</searchterm>
+  </extension>
+ </mads>
+ 

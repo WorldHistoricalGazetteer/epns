@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000221">
+  <authority ID="epns-deep-09-b-name-subparish-000221">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011454">Farway</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000221" type="broader">
+   <geographic>Farway</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w520089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011455">Fareweia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w520172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011456">Fareweie, Fareweye</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w520192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011457">Fareweye juxta Honeton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w520225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011458">Fayrewaye juxta Colyton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w520259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011459">Fayreweys</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w520278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011460">Farweye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001961"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1663600" lat="50.7585700" gazref="geonames:7294955" source="geonames"/>
+   <geo long="-3.155469986773262" lat="50.75280152525467" gazref="unlock:11142367" source="unlock"/>
+   <geo easting="318500" northing="95500" long="-3.15669" lat="50.7534" kepnref="15892" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w520089">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520089">
+    <attestation variantID="epns-deep-09-b-name-w520089">
+     <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+     <source style="" id="de174">Oliver</source>
+     <page>135</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w520089">
+     <date end="1346" begin="1346" subtype="simple">1346</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520172">
+    <date end="1346" begin="1154">t. Hy 2-1346</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520192">
+    <date end="1322" begin="1322" subtype="simple">1322</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520225">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520259">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w520278">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w520089">Fareweia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520172">Fareweie</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520172">Fareweye</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520192">Fareweye juxta Honeton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520225">Fayrewaye juxta Colyton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520259">Fayreweys</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w520278">Farweye</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000061">
+  <authority ID="epns-deep-13-b-name-subparish-000061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003238">Churchover</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000063" type="broader">
+   <geographic>Churchover</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w168109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003239">Wavre, Wavra, Wara</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003240">Waure</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003241">Wavere</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003242">Waver Rogeri</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168197">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003243">Waver</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003244">Chirchewavre</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003245">Chirche Wavere</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003246">Chirchewover</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003247">Wover</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w168362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003248">Church Over al. Waver</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287435b47fc40c5f000754"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2500200" lat="52.4214600" gazref="geonames:2653027" source="geonames"/>
+   <geo long="-1.242642955690694" lat="52.41968908179911" gazref="unlock:11107257" source="unlock"/>
+   <geo easting="451500" northing="280500" long="-1.24414" lat="52.4201" kepnref="4831" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w168109">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168137">
+    <date end="1257" begin="1257" subtype="simple">1257</date>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168152">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="italic" id="wa60">Combe</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168173">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="wa107">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168197">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wa261">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168212">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <copydate end="1397" begin="1397">1397</copydate>
+    <date end="1325" begin="1325" subtype="simple">1325</date>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168251">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168251">
+    <attestation variantID="epns-deep-13-b-name-w168251">
+     <date end="1288" begin="1288" subtype="simple">1288</date>
+     <source style="italic" id="wa109">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w168251">
+     <date end="1397" begin="1397" subtype="simple">1397</date>
+     <source style="" id="wa219">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168307">
+    <date end="1427" begin="1427" subtype="simple">1427</date>
+    <source style="" id="wa5">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168307">
+    <date end="1468" begin="1468" subtype="simple">1468</date>
+    <source style="" id="wa139">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168342">
+    <date end="1445" begin="1445" subtype="simple">1445</date>
+    <source style="italic" id="wa178">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w168362">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wa305">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w168109">Wavre</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168109">Wavra</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168109">Wara</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168137">Waure</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168152">Wavere</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168173">Waver Rogeri</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168197">Waver</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168212">Chirchewavre</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168251">Chirche Wavere</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168307">Chirchewover</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168342">Wover</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168362">Church Over</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w168362">Waver</searchterm>
+  </extension>
+ </mads>
+ 

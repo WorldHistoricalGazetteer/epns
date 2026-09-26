@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000518">
+  <authority ID="epns-deep-05-b-name-subparish-000518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005709">Barningham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000179" type="broader">
+   <geographic>Barningham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w402127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005710">Berningha(m), Bernyngham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005711">Bernigeham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005712">Barnyngham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000411"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8700800" lat="54.4880900" gazref="geonames:2656289" source="geonames"/>
+   <geo long="-1.899691349628886" lat="54.47168951394761" gazref="unlock:11070561" source="unlock"/>
+   <geo easting="406500" northing="508500" long="-1.9012" lat="54.4718" kepnref="6173" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w402127">
+    <attestation variantID="epns-deep-05-b-name-w402127">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w402127">
+     <date subtype="simple" begin="1406" end="1406">1406</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402182">
+    <date subtype="simple" begin="1214" end="1214">1214</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402202">
+    <date subtype="simple" begin="1491" end="1491">1491</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w402127">Berningham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402127">Berningha</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402127">Bernyngham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402182">Bernigeham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402202">Barnyngham</searchterm>
+  </extension>
+ </mads>
+ 

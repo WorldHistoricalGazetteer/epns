@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000367">
+  <authority ID="epns-deep-05-b-name-subparish-000367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004195">Snape</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000131" type="broader">
+   <geographic>Well</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w308422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004196">Snape</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w308461">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004197">Snap</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.593191934405832" lat="54.25532879308556" gazref="unlock:11286212" source="unlock"/>
+   <geo easting="426500" northing="484500" long="-1.59473" lat="54.2555" kepnref="6020" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w308422">
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w308422">
+    <attestation variantID="epns-deep-05-b-name-w308422">
+     <date subtype="simple" begin="1283" end="1283">1283</date>
+     <source style="italic" id="ny194">Rich</source>
+     <page>25</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w308461">
+    <date subtype="simple" begin="1386" end="1386">1386</date>
+    <source style="" id="ny136">NCyWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w308422">Snape</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w308461">Snap</searchterm>
+  </extension>
+ </mads>
+ 

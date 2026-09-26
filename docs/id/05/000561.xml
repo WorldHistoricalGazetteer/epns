@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000060">
+  <authority ID="epns-deep-05-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000561">Bulmer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000026" type="broader">
+   <geographic>Bulmer</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w47366">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000562">Bolemere, Boleber</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000563">Bulem', Bulemer'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000564">Bulmer(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000565">Bolmere</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47499">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000566">Boulmere</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000567">Bowmer(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600043a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9166700" lat="54.0833300" gazref="geonames:2654340" source="geonames"/>
+   <geo long="-0.9371004585338112" lat="54.09851765990227" gazref="unlock:11092290" source="unlock"/>
+   <geo easting="469500" northing="467500" long="-0.938709" lat="54.0987" kepnref="5710" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w47366">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47393">
+    <date subtype="simple" begin="1159" end="1159">1159</date>
+    <date subtype="simple" begin="1160" end="1160">1160</date>
+    <date subtype="simple" begin="1165" end="1165">1165</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47393">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47450">
+    <attestation variantID="epns-deep-05-b-name-w47450">
+     <date subtype="simple" begin="1190" end="1190">1190</date>
+     <source style="" id="ny81">Guis</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47481">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47499">
+    <date subtype="simple" begin="1350" end="1350">1350</date>
+    <source style="" id="ny217">Test</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47523">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47523">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="ny211">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w47366">Bolemere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47366">Boleber</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47393">Bulem'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47393">Bulemer'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47450">Bulmere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47450">Bulmer</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47481">Bolmere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47499">Boulmere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47523">Bowmere</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47523">Bowmer</searchterm>
+  </extension>
+ </mads>
+ 

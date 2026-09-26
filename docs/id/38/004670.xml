@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000048">
+  <authority ID="epns-deep-38-a-name-parish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/004670">Woodchester</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000003" type="broader">
+   <geographic>Longtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2328600" lat="51.7215500" gazref="geonames:2633667" source="geonames"/>
+   <geo long="-2.231624298" lat="51.71604191" source="epns"/>
+   <geo long="-2.224408417773993" lat="51.72055274287633" gazref="unlock:11325582" source="unlock"/>
+   <geo easting="384500" northing="202500" long="-2.22577" lat="51.721" kepnref="6238" source="kepn"/>
+  </extension>
+ </mads>
+ 

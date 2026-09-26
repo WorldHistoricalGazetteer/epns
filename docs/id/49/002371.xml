@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000008">
+  <authority ID="epns-deep-49-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/002371">Maidenhead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000002" type="broader">
+   <geographic>Bray Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001ab4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7198600" lat="51.5227900" gazref="geonames:2643186" source="geonames"/>
+   <geo long="-0.738585912576423" lat="51.52514698778817" gazref="unlock:11211057" source="unlock"/>
+   <geo easting="488500" northing="181500" long="-0.725699" lat="51.5255" kepnref="3030" source="kepn"/>
+  </extension>
+ </mads>
+ 

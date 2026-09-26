@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000264">
+  <authority ID="epns-deep-12-b-name-subparish-000264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016284">Liston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000355" type="broader">
+   <geographic>Liston</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w807526">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016285">(æt) Lissingtune</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w807567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016286">Listunā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w807584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016287">Lystunā, Lyston</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w807632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016288">Lyshtone</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w807655">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016289">Leston'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e45"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7000000" lat="52.0666700" gazref="geonames:2644394" source="geonames"/>
+   <geo long="0.7066593532787795" lat="52.06734212638781" gazref="unlock:11195770" source="unlock"/>
+   <geo easting="585500" northing="244500" long="0.704947" lat="52.0678" kepnref="12517" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w807526">
+    <date subtype="circa" begin="990" end="1010">c. 1000</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="ex20">ASWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w807567">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w807584">
+    <attestation variantID="epns-deep-12-b-name-w807584">
+     <date subtype="simple" begin="1087" end="1087">1087</date>
+     <copydate end="1450" begin="1450">1450</copydate>
+     <source style="" id="ex133">EHR</source>
+     <item>xl</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w807632">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="ex157">For</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w807655">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="ex148">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w807526">æt Lissingtune</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807526">Lissingtune</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807567">Listunā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807584">Lystunā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807584">Lyston</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807632">Lyshtone</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w807655">Leston'</searchterm>
+  </extension>
+ </mads>
+ 

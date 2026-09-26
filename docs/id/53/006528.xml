@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-a-parish-000033">
+  <authority ID="epns-deep-53-a-name-parish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/006528">Tarrant Hinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-hu-subcounty-000005" type="broader">
+   <geographic>Pimperne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a6a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0885400" lat="50.8974500" gazref="geonames:2636206" source="geonames"/>
+   <geo long="-2.09102022" lat="50.89968823" source="epns"/>
+   <geo long="-2.092447777543312" lat="50.90238565176357" gazref="unlock:11298002" source="unlock"/>
+   <geo easting="393500" northing="110500" long="-2.09378" lat="50.8939" kepnref="11544" source="kepn"/>
+  </extension>
+ </mads>
+ 

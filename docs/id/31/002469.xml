@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000034">
+  <authority ID="epns-deep-31-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002469">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000008" type="broader">
+   <geographic>Campsall</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w110418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002470">Sutone</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w110434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002471">Sutton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w110508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002472">Sutton(a) neer Owston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1666700" lat="53.6000000" gazref="geonames:2636493" source="geonames"/>
+   <geo long="-1.168770072" lat="53.6014378" source="epns"/>
+   <geo easting="455500" northing="412500" long="-1.16268" lat="53.6061" kepnref="14425" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w110418">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w110434">
+    <date subtype="simple" begin="1170" end="1180">1170-80</date>
+    <source style="" id="wr796">YCh</source>
+    <item>1554-5</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w110434">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w110434">
+    <attestation variantID="epns-deep-31-b-name-w110434">
+     <date subtype="simple" begin="1402" end="1402">1402</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w110434">
+     <date subtype="simple" begin="1658" end="1658">1658</date>
+     <source style="" id="wr776">WillS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w110508">
+    <date subtype="simple" begin="1666" end="1666">1666</date>
+    <source style="" id="wr711">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w110418">Sutone</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w110434">Suttona</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w110434">Sutton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w110508">Suttona neer Owston</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w110508">Sutton neer Owston</searchterm>
+  </extension>
+ </mads>
+ 

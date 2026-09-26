@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000101">
+  <authority ID="epns-deep-13-a-name-parish-000101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004299">Long Lawford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000694"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3071600" lat="52.3817600" gazref="geonames:2643673" source="geonames"/>
+   <geo long="-1.302029601452924" lat="52.38408934806812" gazref="unlock:11205546" source="unlock"/>
+   <geo easting="447500" northing="275500" long="-1.30366" lat="52.3755" kepnref="4989" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000126">
+  <authority ID="epns-deep-12-b-name-subparish-000126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007565">Cold Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000168" type="broader">
+   <geographic>Cold Norton</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w380253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007566">Nortunā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w380270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007567">Norton iuxta ffanbrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w380304">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007568">Coldenorton</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w380326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007569">Coldnorton alias Gold Norton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000dc5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6699700" lat="51.6720900" gazref="geonames:2652605" source="geonames"/>
+   <geo long="0.668574917728804" lat="51.67246393823513" gazref="unlock:11113551" source="unlock"/>
+   <geo easting="585500" northing="200500" long="0.68133" lat="51.6726" kepnref="12349" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w380253">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w380270">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w380304">
+    <date subtype="simple" begin="1350" end="1350">1350</date>
+    <source style="" id="ex202">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w380326">
+    <date subtype="simple" begin="1605" end="1605">1605</date>
+    <source style="" id="ex127">EA</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w380253">Nortunā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w380270">Norton iuxta ffanbrigge</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w380304">Coldenorton</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w380326">Coldnorton</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w380326">Gold Norton</searchterm>
+  </extension>
+ </mads>
+ 

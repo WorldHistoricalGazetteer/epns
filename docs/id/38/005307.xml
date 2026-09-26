@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000050">
+  <authority ID="epns-deep-38-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005307">Chalford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000050" type="broader">
+   <geographic>Chalford</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w245431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005308">Chalford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w245518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005309">Chelkeford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w245542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005310">Chalkford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w245573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005311">Chaleford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w245599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005312">Chawlforde</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w245620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005313">Chawford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001abb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1513900" lat="51.7258300" gazref="geonames:2653392" source="geonames"/>
+   <geo long="-2.144765575" lat="51.71618101" source="epns"/>
+   <geo long="-2.152018945704642" lat="51.7206686824372" gazref="unlock:11103173" source="unlock"/>
+   <geo kepnexref="347" long="-2.148627" lat="51.722028" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w245431">
+    <date subtype="circa" begin="1240" end="1260">c. 1250</date>
+    <source style="" id="go44">Berk</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245431">
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245431">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245431">
+    <attestation variantID="epns-deep-38-b-name-w245431">
+     <date subtype="simple" begin="1347" end="1347">1347</date>
+     <source style="italic" id="go436">Rent</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w245431">
+     <date subtype="simple" begin="1598" end="1598">1598</date>
+     <source style="italic" id="go99">Comm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245518">
+    <date subtype="simple" begin="1275" end="1300">l. 13</date>
+    <source style="" id="go45">BG</source>
+    <item>li</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245542">
+    <date subtype="simple" begin="1275" end="1300">l. 13</date>
+    <source style="" id="go45">BG</source>
+    <item>li</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245542">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="" id="go141">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245573">
+    <date subtype="regnal" begin="1377" end="1399">Ric 2</date>
+    <source style="italic" id="go436">Rent</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245599">
+    <date subtype="simple" begin="1589" end="1589">1589</date>
+    <source style="italic" id="go120">Dep</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245620">
+    <date subtype="simple" begin="1634" end="1634">1634</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w245620">
+    <date subtype="simple" begin="1643" end="1643">1643</date>
+    <source style="" id="go50">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w245431">Chalforde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245431">Chalford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245518">Chelkeford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245542">Chalkford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245573">Chaleford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245599">Chawlforde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w245620">Chawford</searchterm>
+  </extension>
+ </mads>
+ 

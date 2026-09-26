@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000119">
+  <authority ID="epns-deep-11-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009407">Buckland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000119" type="broader">
+   <geographic>Buckland</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w531717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009408">Bochelant</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w531736">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009409">Boclande</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w531755">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009410">Boclond'</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w531820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009411">Bocland(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w531832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009412">Bukelonde</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w531851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009413">Bukkelond</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000aa7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2518300" lat="51.2437600" gazref="geonames:2654407" source="geonames"/>
+   <geo long="-0.244933265560973" lat="51.23999694609255" gazref="unlock:11091707" source="unlock"/>
+   <geo easting="521500" northing="150500" long="-0.26082" lat="51.2407" kepnref="8359" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w531717">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w531736">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w531755">
+    <attestation variantID="epns-deep-11-b-name-w531755">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="sr105">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-11-b-name-w531755">
+     <date end="1323" begin="1323" subtype="simple">1323</date>
+     <source style="" id="sr54">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w531820">
+    <date end="1323" begin="1242">1242-1323</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w531832">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w531851">
+    <date end="1448" begin="1448" subtype="simple">1448</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w531717">Bochelant</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531736">Boclande</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531755">Boclond'</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531820">Boclande</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531820">Bocland</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531832">Bukelonde</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w531851">Bukkelond</searchterm>
+  </extension>
+ </mads>
+ 

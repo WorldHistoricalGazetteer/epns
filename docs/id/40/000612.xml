@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000006">
+  <authority ID="epns-deep-40-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000612">Rockhampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000001" type="broader">
+   <geographic>Thornbury Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5033800" lat="51.6371400" gazref="geonames:7296008" source="geonames"/>
+   <geo long="-2.505767478" lat="51.63425088" source="epns"/>
+   <geo long="-2.498591967422101" lat="51.63877847438503" gazref="unlock:11271746" source="unlock"/>
+   <geo easting="365500" northing="193500" long="-2.49992" lat="51.6392" kepnref="6452" source="kepn"/>
+  </extension>
+ </mads>
+ 

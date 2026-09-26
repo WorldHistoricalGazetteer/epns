@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000054">
+  <authority ID="epns-deep-84-a-name-parish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016716">Wistow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00110a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0560000" lat="52.5620600" gazref="geonames:7295424" source="geonames"/>
+   <geo long="-1.048585814416708" lat="52.55315666417938" gazref="unlock:11324505" source="unlock"/>
+   <geo easting="464500" northing="295500" long="-1.05011" lat="52.5535" kepnref="8800" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000244">
+  <authority ID="epns-deep-10-a-name-parish-000244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005352">Lowick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000015" type="broader">
+   <geographic>Huxloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000460"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5500000" lat="52.4000000" gazref="geonames:2643483" source="geonames"/>
+   <geo long="-0.5663444316157071" lat="52.41342260929721" gazref="unlock:11209125" source="unlock"/>
+   <geo easting="497500" northing="280500" long="-0.567924" lat="52.4138" kepnref="11115" source="kepn"/>
+  </extension>
+ </mads>
+ 

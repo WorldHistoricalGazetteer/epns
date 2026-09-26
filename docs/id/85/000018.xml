@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol85mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-85-a-parish-000001">
+  <authority ID="epns-deep-85-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/85/000018">Aisthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-85-wp-subcounty-000001" type="broader">
+   <geographic>Lawress Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000ec1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5749000" lat="53.3102500" gazref="geonames:7295548" source="geonames"/>
+   <geo long="-0.5814236731094652" lat="53.31272180133225" gazref="unlock:11057793" source="unlock"/>
+   <geo easting="494500" northing="380500" long="-0.58304" lat="53.313" kepnref="10648" source="kepn"/>
+  </extension>
+ </mads>
+ 

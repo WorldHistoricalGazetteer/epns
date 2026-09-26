@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000116">
+  <authority ID="epns-deep-31-b-name-subparish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013722">Wooldale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000035" type="broader">
+   <geographic>Kirkburton</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w612026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013723">Uluedel</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w612043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013724">Wolvedal(e), Woluedal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w612154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013725">Wlvedale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w612185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013726">Wulvedale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w612205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013727">Wolfdale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w612228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013728">Woodall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006195"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.773481138" lat="53.56815282" source="epns"/>
+   <geo long="-1.765905685528754" lat="53.57263416961899" gazref="unlock:11326919" source="unlock"/>
+   <geo easting="415500" northing="408500" long="-1.76739" lat="53.5729" kepnref="14509" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w612026">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612043">
+    <date subtype="simple" begin="1202" end="1210">1202-10</date>
+    <source style="" id="wr796">YCh</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612043">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612043">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>45</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612043">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612043">
+    <date subtype="simple" begin="1392" end="1392">1392</date>
+    <date subtype="simple" begin="1492" end="1492">1492</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>88, 02</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612154">
+    <attestation variantID="epns-deep-31-b-name-w612154">
+     <date subtype="simple" begin="1274" end="1323">1274-1323</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612185">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612205">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w612228">
+    <date subtype="simple" begin="1580" end="1580">1580</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w612026">Uluedel</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612043">Wolvedale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612043">Wolvedal</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612043">Woluedale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612043">Woluedal</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612154">Wlvedale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612185">Wulvedale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612205">Wolfdale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w612228">Woodall</searchterm>
+  </extension>
+ </mads>
+ 

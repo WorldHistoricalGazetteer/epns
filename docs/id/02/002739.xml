@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000143">
+  <authority ID="epns-deep-02-b-name-subparish-000143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002739">Woodham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000142" type="broader">
+   <geographic>Woodham</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w190652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002740">Wodehamme</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w190671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002741">Woods Ham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9795600" lat="51.8628700" gazref="geonames:7298726" source="geonames"/>
+   <geo long="-0.976134674073158" lat="51.86018489003995" gazref="unlock:11325913" source="unlock"/>
+   <geo easting="470500" northing="218500" long="-0.977644" lat="51.8606" kepnref="11337" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w190652">
+    <date end="1370" begin="1370" subtype="simple">1370</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w190671">
+    <date end="1766" begin="1766" subtype="simple">1766</date>
+    <source style="" id="bu60">J</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w190652">Wodehamme</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w190671">Woods Ham</searchterm>
+  </extension>
+ </mads>
+ 

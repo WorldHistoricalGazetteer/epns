@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000080">
+  <authority ID="epns-deep-08-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004064">Belstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000080" type="broader">
+   <geographic>Belstone</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w210848">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004065">Bellestam</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w210873">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004066">Belstana</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w210891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004067">Belestan</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w210933">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004068">Belestone</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w210954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004069">Belston</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w210972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004070">Ballestan</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018d8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9579400" lat="50.7252000" gazref="geonames:2655938" source="geonames"/>
+   <geo long="-3.962436448264244" lat="50.72402215223222" gazref="unlock:11074974" source="unlock"/>
+   <geo easting="262500" northing="93500" long="-3.94941" lat="50.7248" kepnref="15537" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w210848">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210873">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="de132">LN</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210891">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210891">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="de188">Pat</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210891">
+    <date end="1254" begin="1254" subtype="simple">1254</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210933">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210954">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w210972">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w210848">Bellestam</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w210873">Belstana</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w210891">Belestan</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w210933">Belestone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w210954">Belston</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w210972">Ballestan</searchterm>
+  </extension>
+ </mads>
+ 

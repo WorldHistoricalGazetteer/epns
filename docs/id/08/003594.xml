@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000070">
+  <authority ID="epns-deep-08-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003594">Newton Tracy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000070" type="broader">
+   <geographic>Newton Tracy</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w185275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003595">Newentona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w185294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003596">Nywethon'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w185319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003597">Nyweton by Fremynton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w185354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003598">Newton Tracy</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019d8"/>
+  </recordInfo>
+  <extension>
+   <geo easting="252500" northing="126500" long="-4.1043" lat="51.0189" kepnref="15527" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w185275">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w185294">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>779</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w185319">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="de14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w185354">
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="" id="de109">Inq aqd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w185275">Newentona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w185294">Nywethon'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w185319">Nyweton by Fremynton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w185354">Newton Tracy</searchterm>
+  </extension>
+ </mads>
+ 

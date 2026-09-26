@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-hu-subcounty-000006">
+  <authority ID="epns-deep-08-hu-name-subcounty-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003886">Black Torrington Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-08-hu-name-w197825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003887">Toritone</geographic>
+  </variant>
+  <variant ID="epns-deep-08-hu-name-w197850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003888">Blachetoriton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-hu-name-w197886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003889">Blaketorrintun'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018a0"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-08-hu-name-w197825">
+    <date subtype="simple" begin="1084" end="1084">1084</date>
+    <source style="" id="de94">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w197850">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <date subtype="simple" begin="1168" end="1168">1168</date>
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w197886">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="de83">Fees</source>
+    <item>765</item>
+   </attestation>
+   <searchterm variantID="epns-deep-08-hu-name-w197825">Toritone</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w197850">Blachetoriton</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w197886">Blaketorrintun'</searchterm>
+  </extension>
+ </mads>
+ 

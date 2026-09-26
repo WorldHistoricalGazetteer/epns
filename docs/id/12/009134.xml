@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000149">
+  <authority ID="epns-deep-12-b-name-subparish-000149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009134">Roxwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000199" type="broader">
+   <geographic>Roxwell</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w459771">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009135">Rokeswelle</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w459808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009136">Rokyswell</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w459832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009137">Rookeswell</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w459854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009138">Rox(ef)feild</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w459884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009139">Roxfield</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e82"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3807000" lat="51.7515600" gazref="geonames:2639028" source="geonames"/>
+   <geo long="0.3833608625189639" lat="51.75055272242233" gazref="unlock:11273968" source="unlock"/>
+   <geo easting="564500" northing="208500" long="0.3817" lat="51.751" kepnref="12378" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w459771">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ex401">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w459771">
+    <date subtype="simple" begin="1309" end="1309">1309</date>
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ex313">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w459808">
+    <date subtype="simple" begin="1511" end="1511">1511</date>
+    <source style="" id="ex5">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w459832">
+    <date subtype="simple" begin="1550" end="1550">1550</date>
+    <source style="italic" id="ex433">Will</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w459854">
+    <date subtype="simple" begin="1657" end="1658">1657-8</date>
+    <source style="" id="ex141">EssPR</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w459884">
+    <date subtype="simple" begin="1674" end="1674">1674</date>
+    <source style="" id="ex141" underspec="ib">EssPR</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w459771">Rokeswelle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w459808">Rokyswell</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w459832">Rookeswell</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w459854">Roxeffeild</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w459854">Roxfeild</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w459884">Roxfield</searchterm>
+  </extension>
+ </mads>
+ 

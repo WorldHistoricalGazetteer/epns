@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000064">
+  <authority ID="epns-deep-14-a-name-parish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002714">Muston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000002" type="broader">
+   <geographic>Dickering Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3275800" lat="54.2006100" gazref="geonames:7296900" source="geonames"/>
+   <geo long="-0.3212387482568101" lat="54.19937729787775" gazref="unlock:11225380" source="unlock"/>
+   <geo easting="509500" northing="479500" long="-0.322926" lat="54.1996" kepnref="8502" source="kepn"/>
+  </extension>
+ </mads>
+ 

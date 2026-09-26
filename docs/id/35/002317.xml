@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-a-parish-000005">
+  <authority ID="epns-deep-35-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002317">Thornton in Craven</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-wp-subcounty-000001" type="broader">
+   <geographic>East Staincliffe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c8100600e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1461100" lat="53.9313600" gazref="geonames:2635970" source="geonames"/>
+   <geo long="-2.152307835" lat="53.92783423" source="epns"/>
+   <geo easting="390500" northing="448500" long="-2.14616" lat="53.9325" kepnref="14854" source="kepn"/>
+  </extension>
+ </mads>
+ 

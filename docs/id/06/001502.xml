@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000051">
+  <authority ID="epns-deep-06-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001502">Earnley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000051" type="broader">
+   <geographic>Earnley</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w122713">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001503">Earnaleach</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w122738">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001504">Earneleagh</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w122771">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001505">Earneleia</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w122801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001506">Erneleia</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w122834">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001507">Ernele(y)e</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cde"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8299800" lat="50.7730500" gazref="geonames:2650535" source="geonames"/>
+   <geo long="-0.8443085551438486" lat="50.76179334807694" gazref="unlock:11135341" source="unlock"/>
+   <geo easting="481500" northing="97500" long="-0.84557" lat="50.7714" kepnref="6913" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w122713">
+    <date subtype="simple" begin="780" end="780">780</date>
+    <source style="" id="su21">BCS</source>
+    <item>1334</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w122738">
+    <date subtype="simple" begin="780" end="780">780</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>237</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w122771">
+    <date subtype="simple" begin="930" end="930">930</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>669</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w122801">
+    <date subtype="circa" begin="1187" end="1207">c. 1197</date>
+    <source style="" id="su120">HMC Var</source>
+    <item>iv</item>
+    <page>97</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w122834">
+    <attestation variantID="epns-deep-06-b-name-w122834">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="su282">Tax</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w122834">
+     <date subtype="simple" begin="1438" end="1438">1438</date>
+     <source style="" id="su43">Cicestr</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w122713">Earnaleach</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w122738">Earneleagh</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w122771">Earneleia</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w122801">Erneleia</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w122834">Erneleye</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w122834">Ernelee</searchterm>
+  </extension>
+ </mads>
+ 

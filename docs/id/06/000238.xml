@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000007">
+  <authority ID="epns-deep-06-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000238">Iping</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000007" type="broader">
+   <geographic>Iping</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w22294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000239">Epinges</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w22322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000240">Ipinges, Ypinges</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w22383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000241">Hyppyngge</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w22403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000242">Ipping</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w22438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000243">Ipyng(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d22"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7859500" lat="50.9984700" gazref="geonames:2646063" source="geonames"/>
+   <geo long="-0.7812829565805161" lat="51.00398631462777" gazref="unlock:11183184" source="unlock"/>
+   <geo easting="485500" northing="122500" long="-0.783017" lat="50.9956" kepnref="6868" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w22294">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22294">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="su3">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22322">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="italic" id="su142">Lewes</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22322">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="su3">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22322">
+    <date subtype="simple" begin="1288" end="1288">1288</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22322">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="su3">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22383">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22403">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22403">
+    <date subtype="simple" begin="1334" end="1334">1334</date>
+    <source style="" id="su253">SAC</source>
+    <item>50</item>
+    <page>165</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22438">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22438">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w22438">
+    <attestation variantID="epns-deep-06-b-name-w22438">
+     <date subtype="simple" begin="1332" end="1332">1332</date>
+     <source style="" id="su271">SR</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w22294">Epinges</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22322">Ipinges</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22322">Ypinges</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22383">Hyppyngge</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22403">Ipping</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22438">Ipynge</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w22438">Ipyng</searchterm>
+  </extension>
+ </mads>
+ 

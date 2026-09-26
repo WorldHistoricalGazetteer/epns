@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000121">
+  <authority ID="epns-deep-96-a-name-parish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/005068">Madingley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000013" type="broader">
+   <geographic>Northstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000722"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0427000" lat="52.2279000" gazref="geonames:2643231" source="geonames"/>
+   <geo long="0.0425722504927796" lat="52.22461458060544" gazref="unlock:11210547" source="unlock"/>
+   <geo easting="539500" northing="260500" long="0.0409302" lat="52.225" kepnref="4083" source="kepn"/>
+  </extension>
+ </mads>
+ 

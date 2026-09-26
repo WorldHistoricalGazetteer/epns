@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000069">
+  <authority ID="epns-deep-14-b-name-subparish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001700">Leven</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000037" type="broader">
+   <geographic>Leven</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w106824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001701">Leuen(e), Leven(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w106931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001702">Levena</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w106959">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001703">Leaven</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3166700" lat="53.8833300" gazref="geonames:2644578" source="geonames"/>
+   <geo long="-0.3182974851288792" lat="53.89368160918998" gazref="unlock:11194346" source="unlock"/>
+   <geo easting="510500" northing="445500" long="-0.319971" lat="53.8939" kepnref="8450" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w106824">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106824">
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <source style="italic" id="ey200">Meaux</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106824">
+    <date end="1200" begin="1175" subtype="simple">late 12th</date>
+    <source style="italic" id="ey234">Nunkeel</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106824">
+    <attestation variantID="epns-deep-14-b-name-w106824">
+     <date end="1205" begin="1205" subtype="simple">1205</date>
+     <source style="" id="ey55">ChR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w106824">
+     <date end="1840" begin="1840" subtype="simple">1840</date>
+     <source style="" id="ey292">Poulson</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106931">
+    <date end="1249" begin="1235" subtype="simple">1235-49</date>
+    <date end="1401" begin="1401" subtype="simple">1401</date>
+    <source style="" id="ey202">Melsa</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106959">
+    <date end="1572" begin="1572" subtype="simple">1572</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w106959">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ey264">ParlSurv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w106824">Leuene</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w106824">Leuen</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w106824">Levene</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w106824">Leven</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w106931">Levena</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w106959">Leaven</searchterm>
+  </extension>
+ </mads>
+ 

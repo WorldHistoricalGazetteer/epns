@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000206">
+  <authority ID="epns-deep-08-b-name-subparish-000206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011698">Stoke Fleming</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000205" type="broader">
+   <geographic>Stoke Fleming</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w582712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011699">Stoc</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w582726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011700">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w582742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011701">Stoke Flandrensis</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w582771">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011702">Stokeflemeng</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w582794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011703">Stokeflemyngg juxta Dertemuwe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a32"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5986200" lat="50.3250800" gazref="geonames:2636856" source="geonames"/>
+   <geo long="-3.594673249598733" lat="50.32487299044082" gazref="unlock:11292718" source="unlock"/>
+   <geo easting="286500" northing="48500" long="-3.59583" lat="50.3255" kepnref="15664" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w582712">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w582726">
+    <date end="1218" begin="1218" subtype="simple">1218</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w582742">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w582771">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w582794">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w582712">Stoc</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w582726">Stokes</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w582742">Stoke Flandrensis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w582771">Stokeflemeng</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w582794">Stokeflemyngg juxta Dertemuwe</searchterm>
+  </extension>
+ </mads>
+ 

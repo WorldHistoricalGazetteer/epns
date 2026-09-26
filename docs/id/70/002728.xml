@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000022">
+  <authority ID="epns-deep-70-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002728">Lea</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000005" type="broader">
+   <geographic>Pontesbury</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w96887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002729">Lya</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w96907">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002730">La Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w96930">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002731">Lee</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a643b47fc4463d000f17"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.863743641" lat="52.67071174" source="epns"/>
+   <geo long="-2.865222725389621" lat="52.67070195153448" gazref="unlock:11192771" source="unlock"/>
+   <attestation variantID="epns-deep-70-b-name-w96887">
+    <date subtype="simple" begin="1271" end="1272">1271-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w96907">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w96930">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w96930">
+    <date subtype="simple" begin="1672" end="1672">1672</date>
+    <source style="" id="ss124">HTR</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w96930">
+    <attestation variantID="epns-deep-70-b-name-w96930">
+     <date subtype="simple" begin="1601" end="1601">1601</date>
+     <source style="italic" id="ss267">SBL</source>
+     <item>12706</item>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w96887">Lya</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w96907">La Lee</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w96930">Lee</searchterm>
+  </extension>
+ </mads>
+ 

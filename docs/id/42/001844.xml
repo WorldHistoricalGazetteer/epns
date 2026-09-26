@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000012">
+  <authority ID="epns-deep-42-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001844">Dalton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000002" type="broader">
+   <geographic>Burton</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w94532">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001845">Daltun, Dalton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w94638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001846">Dauton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013ab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.71381" lat="54.1732" source="epns"/>
+   <geo long="-2.697250453291163" lat="54.18209015213218" gazref="unlock:11126843" source="unlock"/>
+   <geo easting="353500" northing="475500" long="-2.71381" lat="54.1732" kepnref="5079" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w94532">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="we101">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w94532">
+    <date subtype="simple" begin="1190" end="1220">1190-1220</date>
+    <date subtype="simple" begin="1220" end="1225">1220-5</date>
+    <source style="" id="we80">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w94532">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>278</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w94532">
+    <attestation variantID="epns-deep-42-b-name-w94532">
+     <date subtype="simple" begin="1272" end="1272">1272</date>
+     <source style="" id="we208">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w94532">
+     <date subtype="simple" begin="1625" end="1625">1625</date>
+     <source style="" id="we511">PR(K)</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w94638">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>278</page>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w94532">Daltun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w94532">Dalton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w94638">Dauton</searchterm>
+  </extension>
+ </mads>
+ 

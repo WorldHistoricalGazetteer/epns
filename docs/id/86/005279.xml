@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000027">
+  <authority ID="epns-deep-86-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/005279">Melbury Sampford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000003" type="broader">
+   <geographic>Tollerford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a1d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6048300" lat="50.8520200" gazref="geonames:7293421" source="geonames"/>
+   <geo long="-2.600967723" lat="50.85141042" source="epns"/>
+   <geo long="-2.603867242055606" lat="50.85589275496945" gazref="unlock:11216858" source="unlock"/>
+   <geo easting="357500" northing="106500" long="-2.60515" lat="50.8564" kepnref="11629" source="kepn"/>
+  </extension>
+ </mads>
+ 

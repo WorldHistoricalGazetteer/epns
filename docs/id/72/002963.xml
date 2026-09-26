@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000016">
+  <authority ID="epns-deep-72-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/002963">Somerton, East and West</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000002" type="broader">
+   <geographic>West Flegg Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d5b"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6500000" lat="52.7166700" gazref="geonames:2637525" source="geonames"/>
+   <geo long="1.679759156804095" lat="52.71564083795509" gazref="unlock:11136603" source="unlock"/>
+   <geo easting="648500" northing="319500" long="1.6779" lat="52.716" kepnref="9238" source="kepn"/>
+  </extension>
+ </mads>
+ 

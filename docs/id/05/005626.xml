@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000507">
+  <authority ID="epns-deep-05-b-name-subparish-000507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005626">Eppleby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000173" type="broader">
+   <geographic>Forcett</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w396855">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005627">Aplebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w396871">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005628">Appelbi, Appelby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w396926">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005629">Appilbi, Appilby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w396975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005630">Eppilby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600048b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7246800" lat="54.5154000" gazref="geonames:2649959" source="geonames"/>
+   <geo long="-1.729643296294253" lat="54.5163688249716" gazref="unlock:11140219" source="unlock"/>
+   <geo easting="417500" northing="513500" long="-1.73117" lat="54.5165" kepnref="6163" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w396855">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w396871">
+    <attestation variantID="epns-deep-05-b-name-w396871">
+     <date subtype="simple" begin="1157" end="1157">1157</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>82</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w396871">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w396926">
+    <date subtype="circa" begin="1194" end="1214">c. 1204</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>224</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w396926">
+    <date subtype="simple" begin="1440" end="1440">1440</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w396975">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w396855">Aplebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w396871">Appelbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w396871">Appelby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w396926">Appilbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w396926">Appilby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w396975">Eppilby</searchterm>
+  </extension>
+ </mads>
+ 

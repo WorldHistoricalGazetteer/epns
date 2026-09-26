@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-b-subparish-000099">
+  <authority ID="epns-deep-96-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004621">Graveley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-a-parish-000109" type="broader">
+   <geographic>Graveley</geographic>
+  </related>
+  <variant ID="epns-deep-96-b-name-w274905">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004622">Greflea</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w274964">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004623">Grevelee</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w274982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004624">Grauel'</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w275011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004625">Gravele</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w275090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004626">Gravelei</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w275110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004627">Graveleye</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w275130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004628">Græflea</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w275161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004629">Groflea</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1729500" lat="52.2604900" gazref="geonames:2648194" source="geonames"/>
+   <geo long="-0.1754570236907105" lat="52.26415742650402" gazref="unlock:11158274" source="unlock"/>
+   <geo easting="525500" northing="264500" long="-0.16243" lat="52.2644" kepnref="7499" source="kepn"/>
+   <attestation variantID="epns-deep-96-b-name-w274905">
+    <date end="974" begin="974" subtype="simple">974</date>
+    <copydate end="1334" begin="1334">1334</copydate>
+    <source style="" id="ce29">BCS</source>
+    <item>1311</item>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w274905">
+    <date end="964" begin="964" subtype="simple">964</date>
+    <date end="1077" begin="1077" subtype="simple">1077</date>
+    <copydate end="1700" begin="1600">17th</copydate>
+    <source style="" id="ce79">ChronRams</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w274964">
+    <date end="1411" begin="1411" subtype="simple">1411</date>
+    <source style="" id="ce426">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w274982">
+    <date end="974" begin="974" subtype="simple">974</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ce29">BCS</source>
+    <item>1310</item>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275011">
+    <date end="974" begin="974" subtype="simple">974</date>
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <copydate end="1700" begin="1600">17th</copydate>
+    <source style="" id="ce79">ChronRams</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275011">
+    <attestation variantID="epns-deep-96-b-name-w275011">
+     <date end="1078" begin="1078" subtype="simple">1078</date>
+     <copydate end="1360" begin="1340">c. 1350</copydate>
+     <source style="" id="ce390">Rams</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-96-b-name-w275011">
+     <date end="1434" begin="1434" subtype="simple">1434</date>
+     <source style="" id="ce343">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275090">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ce116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275110">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="" id="ce343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275130">
+    <date end="1060" begin="1060" subtype="simple">1060</date>
+    <copydate end="1360" begin="1340">c. 1350</copydate>
+    <source style="" id="ce450">Thorpe</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w275161">
+    <date end="1360" begin="1340" subtype="circa">c. 1350</date>
+    <source style="" id="ce390">Rams</source>
+   </attestation>
+   <searchterm variantID="epns-deep-96-b-name-w274905">Greflea</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w274964">Grevelee</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w274982">Grauel'</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w275011">Gravele</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w275090">Gravelei</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w275110">Graveleye</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w275130">Græflea</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w275161">Groflea</searchterm>
+  </extension>
+ </mads>
+ 

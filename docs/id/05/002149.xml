@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000174">
+  <authority ID="epns-deep-05-b-name-subparish-000174">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002149">Whitby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000064" type="broader">
+   <geographic>Whitby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w169940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002150">Witebi, Witeby, Wytebi, Wyteby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w170001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002151">Wyttebeia, Wyttebeya</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w170148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002152">Whitby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w170178">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002153">Whiteby, Whyteby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w170286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002154">Quiteby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w170318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002155">Qwyteby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6149800" lat="54.4877400" gazref="geonames:2634135" source="geonames"/>
+   <geo long="-0.6184427681842459" lat="54.48181261892952" gazref="unlock:11320185" source="unlock"/>
+   <geo easting="489500" northing="510500" long="-0.620107" lat="54.482" kepnref="5819" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w169940">
+    <attestation variantID="epns-deep-05-b-name-w169940">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w169940">
+     <date subtype="simple" begin="1298" end="1298">1298</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170001">
+    <date subtype="simple" begin="1138" end="1138">1138</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>545</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170148">
+    <attestation variantID="epns-deep-05-b-name-w170148">
+     <date subtype="simple" begin="1138" end="1138">1138</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170178">
+    <attestation variantID="epns-deep-05-b-name-w170178">
+     <date subtype="simple" begin="1150" end="1160">c. 1150-60</date>
+     <source style="" id="ny236">YCh</source>
+     <page>828</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w170178">
+     <date subtype="simple" begin="1361" end="1361">1361</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170286">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="ny65">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170286">
+    <date subtype="simple" begin="1267" end="1267">1267</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w170318">
+    <date subtype="simple" begin="1423" end="1423">1423</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w169940">Witebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w169940">Witeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w169940">Wytebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w169940">Wyteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170001">Wyttebeia</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170001">Wyttebeya</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170148">Whitby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170178">Whiteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170178">Whyteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170286">Quiteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w170318">Qwyteby</searchterm>
+  </extension>
+ </mads>
+ 

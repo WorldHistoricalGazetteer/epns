@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000191">
+  <authority ID="epns-deep-02-b-name-subparish-000191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004289">Dorney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000194" type="broader">
+   <geographic>Dorney</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w307048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004290">Dornei</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w307072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004291">Dorney</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300034d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6621000" lat="51.5030800" gazref="geonames:2651091" source="geonames"/>
+   <geo long="-0.652644534356735" lat="51.50620525549076" gazref="unlock:11130802" source="unlock"/>
+   <geo easting="493500" northing="179500" long="-0.654177" lat="51.5067" kepnref="11388" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w307048">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w307048">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w307072">
+    <date end="1219" begin="1209" subtype="simple">1209-19</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w307048">Dornei</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w307072">Dorney</searchterm>
+  </extension>
+ </mads>
+ 

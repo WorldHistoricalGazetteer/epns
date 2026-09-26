@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000100">
+  <authority ID="epns-deep-02-b-name-subparish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001628">Whitchurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000099" type="broader">
+   <geographic>Whitchurch</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w114312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001629">Wicherce</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w114330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001630">Hwitchirche</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w114356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001631">Witchirche</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w114387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001632">Hucherche</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8378400" lat="51.8816000" gazref="geonames:2634125" source="geonames"/>
+   <geo long="-0.8304698563736471" lat="51.87681171936593" gazref="unlock:11320201" source="unlock"/>
+   <geo easting="480500" northing="220500" long="-0.831997" lat="51.8773" kepnref="11293" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w114312">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w114330">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <source style="" id="bu103">Rot Dom</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w114356">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="italic" id="bu7">AddCh</source>
+    <page>6026</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w114387">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="italic" id="bu7" underspec="ib">AddCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w114312">Wicherce</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w114330">Hwitchirche</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w114356">Witchirche</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w114387">Hucherche</searchterm>
+  </extension>
+ </mads>
+ 

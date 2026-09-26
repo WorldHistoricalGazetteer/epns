@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000157">
+  <authority ID="epns-deep-12-b-name-subparish-000157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009903">Bradwell-juxta-Coggeshall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000210" type="broader">
+   <geographic>Bradwell-juxta-Coggeshall</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w496391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009904">Bradewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w496421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009905">Bradewell(e) by Coggeshale</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w496457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009906">Brodwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000da9"/>
+  </recordInfo>
+  <extension>
+   <geo easting="580500" northing="222500" long="0.620527" lat="51.8719" kepnref="12388" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w496391">
+    <date subtype="simple" begin="1238" end="1238">1238</date>
+    <source style="italic" id="ex385">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w496421">
+    <date subtype="simple" begin="1354" end="1354">1354</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w496457">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="" id="ex266">N</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w496391">Bradewelle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w496391">Bradewell</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w496421">Bradewelle by Coggeshale</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w496421">Bradewell by Coggeshale</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w496457">Brodwell</searchterm>
+  </extension>
+ </mads>
+ 

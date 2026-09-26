@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000080">
+  <authority ID="epns-deep-09-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004164">Gidleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000080" type="broader">
+   <geographic>Gidleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w189518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004165">Geddelegæ</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189538">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004166">Gedelega</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189561">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004167">Giddeleia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189624">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004168">Gyddeleia and Gyddelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004169">Giddeley al. Giddelith</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004170">Gudeleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w189706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004171">Guddeleg(h)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001969"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8804400" lat="50.6794400" gazref="geonames:2648684" source="geonames"/>
+   <geo long="-3.875676460844838" lat="50.68047713407131" gazref="unlock:11152220" source="unlock"/>
+   <geo easting="267500" northing="88500" long="-3.87681" lat="50.681" kepnref="15747" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w189518">
+    <date end="1158" begin="1158" subtype="simple">1158</date>
+    <source style="" id="de225">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189538">
+    <date end="1158" begin="1158" subtype="simple">1158</date>
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189561">
+    <attestation variantID="epns-deep-09-b-name-w189561">
+     <date end="1167" begin="1167" subtype="simple">1167</date>
+     <source style="" id="de181">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w189561">
+     <date end="1324" begin="1324" subtype="simple">1324</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189624">
+    <date end="1324" begin="1167">1167-1324</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189652">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189685">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189706">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <copydate end="1500" begin="1400">15th</copydate>
+    <source style="italic" id="de260">Torre</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w189706">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w189518">Geddelegæ</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189538">Gedelega</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189561">Giddeleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189624">Gyddeleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189624">Gyddeleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189624">Gyddelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189652">Giddeley</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189652">Giddelith</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189685">Gudeleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189706">Guddelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w189706">Guddeleg</searchterm>
+  </extension>
+ </mads>
+ 

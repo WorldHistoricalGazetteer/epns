@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000195">
+  <authority ID="epns-deep-04-a-name-parish-000195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005488">Kington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000007" type="broader">
+   <geographic>Esch Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0166700" lat="52.2000000" gazref="geonames:2645411" source="geonames"/>
+   <geo long="-2.007316178720775" lat="52.19733248257757" gazref="unlock:11187306" source="unlock"/>
+   <geo easting="399500" northing="255500" long="-2.00872" lat="52.1977" kepnref="5389" source="kepn"/>
+  </extension>
+ </mads>
+ 

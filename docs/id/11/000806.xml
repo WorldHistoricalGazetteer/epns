@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000014">
+  <authority ID="epns-deep-11-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000806">Streatham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000001" type="broader">
+   <geographic>Brixton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287108b47fc40c23000a6c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1318400" lat="51.4289700" gazref="geonames:2636675" source="geonames"/>
+   <geo long="-0.1370623604153559" lat="51.42719924829979" gazref="unlock:11294254" source="unlock"/>
+   <geo easting="529500" northing="171500" long="-0.138651" lat="51.4277" kepnref="8254" source="kepn"/>
+  </extension>
+ </mads>
+ 

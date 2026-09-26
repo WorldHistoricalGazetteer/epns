@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000178">
+  <authority ID="epns-deep-09-b-name-subparish-000178">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009328">Sheldon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000178" type="broader">
+   <geographic>Sheldon</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w420241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009329">Sildenna</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420266">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009330">Sildene</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009331">Schildene</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009332">Shildene, Schyldene, Scildene</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009333">Shyeldone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009334">Shildone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w420435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009335">Sheyldon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a13"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2604800" lat="50.8705900" gazref="geonames:7293303" source="geonames"/>
+   <geo long="-3.258066119396997" lat="50.87765578889217" gazref="unlock:11282168" source="unlock"/>
+   <geo easting="311500" northing="108500" long="-3.25904" lat="50.8692" kepnref="15849" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w420241">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420266">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420282">
+    <attestation variantID="epns-deep-09-b-name-w420282">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="de27">Buckland</source>
+     <page>283</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w420282">
+     <date end="1543" begin="1543" subtype="simple">1543</date>
+     <source style="italic" id="de250">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420356">
+    <date end="1543" begin="1185">1185-1543</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420387">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420408">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420408">
+    <date end="1336" begin="1336" subtype="simple">1336</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w420435">
+    <date end="1642" begin="1642" subtype="simple">1642</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w420241">Sildenna</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420266">Sildene</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420282">Schildene</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420356">Shildene</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420356">Schyldene</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420356">Scildene</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420387">Shyeldone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420408">Shildone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w420435">Sheyldon</searchterm>
+  </extension>
+ </mads>
+ 

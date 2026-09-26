@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000001">
+  <authority ID="epns-deep-96-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/000493">Abington Pigotts</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000001" type="broader">
+   <geographic>Armingford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0956200" lat="52.0862600" gazref="geonames:7299855" source="geonames"/>
+   <geo long="-0.09527336577381715" lat="52.08303663657135" gazref="unlock:11055945" source="unlock"/>
+   <geo easting="530500" northing="244500" long="-0.0968934" lat="52.0835" kepnref="3972" source="kepn"/>
+  </extension>
+ </mads>
+ 

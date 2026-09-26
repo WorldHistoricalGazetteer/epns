@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000092">
+  <authority ID="epns-deep-07-a-name-parish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004615">Litlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000023" type="broader">
+   <geographic>Longbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bc3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1591300" lat="50.7935700" gazref="geonames:2644383" source="geonames"/>
+   <geo long="0.1639763844996989" lat="50.79241392602135" gazref="unlock:11195807" source="unlock"/>
+   <geo easting="552500" northing="101500" long="0.16238" lat="50.793" kepnref="7107" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000056">
+  <authority ID="epns-deep-34-b-name-subparish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005111">Farnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000024" type="broader">
+   <geographic>Farnham</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w209870">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005112">Farneha'</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w209888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005113">Farneham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w209940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005114">Ferneha'</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w209957">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005115">Fern(h)am</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w209990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005116">Ferham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w210007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005117">Farenham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w210043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005118">Farnham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060fd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4599500" lat="54.0387800" gazref="geonames:7302022" source="geonames"/>
+   <geo long="-1.480824555" lat="54.03467494" source="epns"/>
+   <geo long="-1.473132990386322" lat="54.0391372465886" gazref="unlock:11142279" source="unlock"/>
+   <geo easting="435500" northing="460500" long="-1.4594" lat="54.0393" kepnref="14776" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w209870">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209888">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="wr701">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209888">
+    <attestation variantID="epns-deep-34-b-name-w209888">
+     <date end="1296" begin="1296" subtype="simple">1296</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w209888">
+     <date end="1609" begin="1609" subtype="simple">1609</date>
+     <source style="" id="wr521">PRFrn</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209940">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209957">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209957">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w209990">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="wr294">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w210007">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w210007">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="wr347">Linds</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w210043">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <source style="" id="wr436">OblR</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w210043">
+    <attestation variantID="epns-deep-34-b-name-w210043">
+     <date end="1251" begin="1251" subtype="simple">1251</date>
+     <source style="" id="wr82">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w210043">
+     <date end="1614" begin="1614" subtype="simple">1614</date>
+     <source style="" id="wr521">PRFrn</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w209870">Farneha'</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w209888">Farneham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w209940">Ferneha'</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w209957">Fernham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w209957">Fernam</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w209990">Ferham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w210007">Farenham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w210043">Farnham</searchterm>
+  </extension>
+ </mads>
+ 

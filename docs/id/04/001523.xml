@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000051">
+  <authority ID="epns-deep-04-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001523">Bushley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000051" type="broader">
+   <geographic>Bushley</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w126416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001524">Biselege</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w126434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001525">Bisselega, Bissele(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w126511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001526">Busseleg', Busseleye</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w126567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001527">Bisscheleye, Bishele, Byschele</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w126637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001528">Bussheley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00055f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1858500" lat="52.0082500" gazref="geonames:2654176" source="geonames"/>
+   <geo long="-2.19670373589743" lat="52.0083451960695" gazref="unlock:11094467" source="unlock"/>
+   <geo easting="387500" northing="234500" long="-2.18351" lat="52.0088" kepnref="5230" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w126416">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126434">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126434">
+    <date end="1159" begin="1159" subtype="simple">1159</date>
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126434">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126434">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126511">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo56">Fees</source>
+    <item>139</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126511">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126511">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126567">
+    <date end="1307" begin="1307" subtype="simple">1307</date>
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126567">
+    <date end="1344" begin="1344" subtype="simple">1344</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126567">
+    <date end="1417" begin="1417" subtype="simple">1417</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126637">
+    <date end="1415" begin="1415" subtype="simple">1415</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w126637">
+    <date end="1575" begin="1575" subtype="simple">1575</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w126416">Biselege</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126434">Bisselega</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126434">Bisseley</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126434">Bissele</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126511">Busseleg'</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126511">Busseleye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126567">Bisscheleye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126567">Bishele</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126567">Byschele</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w126637">Bussheley</searchterm>
+  </extension>
+ </mads>
+ 

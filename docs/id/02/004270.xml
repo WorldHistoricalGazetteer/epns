@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000190">
+  <authority ID="epns-deep-02-b-name-subparish-000190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004270">Coleshill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000193" type="broader">
+   <geographic>Coleshill</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w304822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004271">Coleshulle</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w304858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004272">Colshull</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w304877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004273">Coleshull</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000346"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6218800" lat="51.6441800" gazref="geonames:7291042" source="geonames"/>
+   <geo long="-0.633932391307369" lat="51.64987630936142" gazref="unlock:11113935" source="unlock"/>
+   <geo easting="494500" northing="195500" long="-0.635473" lat="51.6504" kepnref="11387" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w304822">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="bu75">Miss</source>
+    <page>50</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w304858">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w304877">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="bu78">NI</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w304877">
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="" id="bu18">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w304822">Coleshulle</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w304858">Colshull</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w304877">Coleshull</searchterm>
+  </extension>
+ </mads>
+ 

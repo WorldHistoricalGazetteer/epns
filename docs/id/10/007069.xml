@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000313">
+  <authority ID="epns-deep-10-b-name-subparish-000313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007069">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000314" type="broader">
+   <geographic>Sutton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w387569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007070">suðtun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w387599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007071">Sutton(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000605"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3819900" lat="52.5766600" gazref="geonames:2636497" source="geonames"/>
+   <geo easting="509500" northing="298500" long="-0.385653" lat="52.5733" kepnref="11185" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w387569">
+    <date end="948" begin="948" subtype="simple">948</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="nh20">BCS</source>
+    <item>871</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w387599">
+    <attestation variantID="epns-deep-10-b-name-w387599">
+     <date end="1189" begin="1189" subtype="simple">1189</date>
+     <copydate end="1332" begin="1332">1332</copydate>
+     <source style="" id="nh44">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w387569">suðtun</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w387599">Suttona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w387599">Sutton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000110">
+  <authority ID="epns-deep-96-a-name-parish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004631">Knapwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000012" type="broader">
+   <geographic>Papworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00070d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0552700" lat="52.2366700" gazref="geonames:7292948" source="geonames"/>
+   <geo long="-0.04443369721330098" lat="52.24407407601238" gazref="unlock:11188589" source="unlock"/>
+   <geo easting="533500" northing="262500" long="-0.0460665" lat="52.2445" kepnref="4072" source="kepn"/>
+  </extension>
+ </mads>
+ 

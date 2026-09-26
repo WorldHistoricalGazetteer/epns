@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000066">
+  <authority ID="epns-deep-09-b-name-subparish-000066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003348">Upton Hellions</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000066" type="broader">
+   <geographic>Upton Hellions</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w153747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003349">Uppetone Hyliun</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w153775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003350">Hylon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w153802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003351">Upton Hellyng</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a5a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6420800" lat="50.8122700" gazref="geonames:7296503" source="geonames"/>
+   <geo long="-3.639841715649358" lat="50.81895035819912" gazref="unlock:11310795" source="unlock"/>
+   <geo easting="284500" northing="103500" long="-3.64101" lat="50.8195" kepnref="15733" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w153747">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w153775">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <date end="1416" begin="1416" subtype="simple">1416</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w153802">
+    <date end="1557" begin="1557" subtype="simple">1557</date>
+    <source style="" id="de277">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w153747">Uppetone Hyliun</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w153775">Hylone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w153775">Hylon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w153802">Upton Hellyng</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000023">
+  <authority ID="epns-deep-81-a-name-parish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/010022">Cold Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001094"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9335500" lat="52.6529400" gazref="geonames:7296321" source="geonames"/>
+   <geo long="-0.9429717982405342" lat="52.65116425906427" gazref="unlock:11113547" source="unlock"/>
+   <geo easting="471500" northing="306500" long="-0.944517" lat="52.6515" kepnref="8822" source="kepn"/>
+  </extension>
+ </mads>
+ 

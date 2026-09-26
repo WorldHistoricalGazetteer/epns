@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000022">
+  <authority ID="epns-deep-98-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000425">Odell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000002" type="broader">
+   <geographic>Willey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a900029b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5888000" lat="52.2093700" gazref="geonames:2641084" source="geonames"/>
+   <geo long="-0.6019888309939666" lat="52.21602691325728" gazref="unlock:11235068" source="unlock"/>
+   <geo easting="496500" northing="258500" long="-0.588923" lat="52.2163" kepnref="4244" source="kepn"/>
+  </extension>
+ </mads>
+ 

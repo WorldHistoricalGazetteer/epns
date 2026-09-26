@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000348">
+  <authority ID="epns-deep-05-b-name-subparish-000348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004002">Middleton Quernhow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000126" type="broader">
+   <geographic>Hutton Conyers</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w293705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004003">Middeltun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w293727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004004">Medelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w293764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004005">in the Mire</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w293791">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004006">in the Myers</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w293815">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004007">Whernehow</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4828300" lat="54.2070400" gazref="geonames:7296845" source="geonames"/>
+   <geo long="-1.486407354026926" lat="54.20099028079008" gazref="unlock:11218640" source="unlock"/>
+   <geo easting="433500" northing="478500" long="-1.48795" lat="54.2012" kepnref="6001" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w293705">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w293727">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w293764">
+    <date subtype="century" begin="1400" end="1500">15</date>
+    <source style="" id="ny220">VCH</source>
+    <item>i</item>
+    <page>392</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w293791">
+    <date subtype="simple" begin="1578" end="1578">1578</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w293815">
+    <date subtype="century" begin="1400" end="1500">15</date>
+    <source style="" id="ny220">VCH</source>
+    <item>i</item>
+    <page>392</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w293705">Middeltune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w293705">Middeltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w293727">Medelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w293764">in the Mire</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w293791">in the Myers</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w293815">Whernehow</searchterm>
+  </extension>
+ </mads>
+ 

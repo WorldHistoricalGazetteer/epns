@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-a-parish-000070">
+  <authority ID="epns-deep-20-a-name-parish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007700">Greystoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-w-subcounty-000003" type="broader">
+   <geographic>Leath Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f0e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8727500" lat="54.6690700" gazref="geonames:2647900" source="geonames"/>
+   <geo long="-2.860583757711604" lat="54.66640785939521" gazref="unlock:11161122" source="unlock"/>
+   <geo easting="344500" northing="531500" long="-2.86217" lat="54.6755" kepnref="4430" source="kepn"/>
+  </extension>
+ </mads>
+ 

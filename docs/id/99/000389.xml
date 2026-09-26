@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000021">
+  <authority ID="epns-deep-99-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000389">Yaxley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000001" type="broader">
+   <geographic>Normancross Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2585200" lat="52.5176800" gazref="geonames:2633399" source="geonames"/>
+   <geo long="-0.2534343751701826" lat="52.51711878373305" gazref="unlock:11328401" source="unlock"/>
+   <geo easting="518500" northing="292500" long="-0.255055" lat="52.5175" kepnref="4150" source="kepn"/>
+  </extension>
+ </mads>
+ 

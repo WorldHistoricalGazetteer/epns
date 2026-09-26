@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000228">
+  <authority ID="epns-deep-10-a-name-parish-000228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005000">Weldon, Great and Little</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000014" type="broader">
+   <geographic>Corby Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6361500" lat="52.4953200" gazref="geonames:7301943" source="geonames"/>
+   <geo long="-0.6373469305905447" lat="52.49518764410251" gazref="unlock:11315496" source="unlock"/>
+   <geo easting="492500" northing="289500" long="-0.638921" lat="52.4956" kepnref="11098" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000018">
+  <authority ID="epns-deep-06-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000479">Harting</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000002" type="broader">
+   <geographic>Dumpford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000ba0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8905000" lat="50.9695200" gazref="geonames:7297465" source="geonames"/>
+   <geo long="-0.8676638618175789" lat="50.9688808307904" gazref="unlock:11136078" source="unlock"/>
+   <geo easting="479500" northing="119500" long="-0.869151" lat="50.9694" kepnref="6879" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000097">
+  <authority ID="epns-deep-02-b-name-subparish-000097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001539">Mentmore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000096" type="broader">
+   <geographic>Mentmore</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w107997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001540">Mentemore</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w108052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001541">Mantemore</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w108081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001542">Mintemore</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w108100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001543">Mentymore</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000394"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6848500" lat="51.8689700" gazref="geonames:2642740" source="geonames"/>
+   <geo long="-0.6854877906320972" lat="51.86628870348704" gazref="unlock:11217147" source="unlock"/>
+   <geo easting="490500" northing="219500" long="-0.687031" lat="51.8667" kepnref="11290" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w107997">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w108052">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w108052">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="bu101">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w108081">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w108100">
+    <date end="1396" begin="1396" subtype="simple">1396</date>
+    <source style="" id="bu58">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w107997">Mentemore</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w108052">Mantemore</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w108081">Mintemore</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w108100">Mentymore</searchterm>
+  </extension>
+ </mads>
+ 

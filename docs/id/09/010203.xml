@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000199">
+  <authority ID="epns-deep-09-a-name-parish-000199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010203">Lympstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000015" type="broader">
+   <geographic>East Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017d5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4316200" lat="50.6475100" gazref="geonames:2643306" source="geonames"/>
+   <geo long="-3.42176871407967" lat="50.65092150969453" gazref="unlock:11210045" source="unlock"/>
+   <geo easting="299500" northing="84500" long="-3.42296" lat="50.6515" kepnref="15870" source="kepn"/>
+  </extension>
+ </mads>
+ 

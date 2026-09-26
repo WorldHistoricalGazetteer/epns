@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000306">
+  <authority ID="epns-deep-05-b-name-subparish-000306">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003671">Kepwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000115" type="broader">
+   <geographic>Over Silton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w268709">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003672">Capuic, Chipuic</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268734">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003673">Chepewic</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268755">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003674">Kepwic, Kepuuic, Kepwyche</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268815">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003675">Kepewyk, Kepewick</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268903">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003676">Keppewic, Keppewyk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268942">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003677">Kepyk, Kepec</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000569"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2806300" lat="54.3118200" gazref="geonames:2645779" source="geonames"/>
+   <geo long="-1.285254862415574" lat="54.30782755167756" gazref="unlock:11185381" source="unlock"/>
+   <geo easting="446500" northing="490500" long="-1.28683" lat="54.308" kepnref="5957" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w268709">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268734">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268755">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268755">
+    <date subtype="simple" begin="1208" end="1210">1208-10</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268755">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1224" end="1230">1224-30</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268815">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268903">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268903">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268942">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268942">
+    <date subtype="simple" begin="1505" end="1505">1505</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w268709">Capuic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268709">Chipuic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268734">Chepewic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268755">Kepwic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268755">Kepuuic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268755">Kepwyche</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268815">Kepewyk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268815">Kepewick</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268903">Keppewic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268903">Keppewyk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268942">Kepyk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268942">Kepec</searchterm>
+  </extension>
+ </mads>
+ 

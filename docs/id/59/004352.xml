@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000015">
+  <authority ID="epns-deep-59-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/004352">Sutton Waldron</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000001" type="broader">
+   <geographic>Redlane Hundred and Gillingham Liberty</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a63"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1875200" lat="50.9448200" gazref="geonames:7291574" source="geonames"/>
+   <geo long="-2.195008774" lat="50.9400312" source="epns"/>
+   <geo long="-2.192154589026791" lat="50.93823777974023" gazref="unlock:11295958" source="unlock"/>
+   <geo easting="386500" northing="115500" long="-2.19349" lat="50.9388" kepnref="11569" source="kepn"/>
+  </extension>
+ </mads>
+ 

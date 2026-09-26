@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000009">
+  <authority ID="epns-deep-46-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001527">Alvaston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000004" type="broader">
+   <geographic>Nantwich</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w73688">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001528">Alfualdest'</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001529">Alualdiston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73799">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001530">Alvaldiston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001531">Alwaldiston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001532">Alvaldeston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001533">Alwaldeston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73870">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001534">Aluaston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73895">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001535">Alvaston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001536">Aluaston, Alwaston, Alweston, Alueston</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w73987">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001537">Alvandeston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002006"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.507639153" lat="53.08183954" source="epns"/>
+   <geo long="-2.500226441993618" lat="53.08636712564744" gazref="unlock:11061522" source="unlock"/>
+   <geo easting="366500" northing="354500" long="-2.5016" lat="53.0867" kepnref="11901" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w73688">
+    <date end="1225" begin="1200" subtype="simple">e13</date>
+    <source style="italic" id="ch8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73711 epns-deep-46-b-name-w73799 epns-deep-46-b-name-w73812 epns-deep-46-b-name-w73825 epns-deep-46-b-name-w73837">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="italic" id="ch507">Plea</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73711 epns-deep-46-b-name-w73799 epns-deep-46-b-name-w73812 epns-deep-46-b-name-w73825 epns-deep-46-b-name-w73837">
+    <date end="1342" begin="1342" subtype="simple">1342</date>
+    <copydate end="1438" begin="1438">1438</copydate>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73870">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="ch96">Chamb</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73895">
+    <attestation variantID="epns-deep-46-b-name-w73895">
+     <date end="1380" begin="1380" subtype="simple">1380</date>
+     <source style="" id="ch506">Plea</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73947">
+    <date end="1600" begin="1380">1380-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73987">
+    <date end="1393" begin="1393" subtype="simple">1393</date>
+    <date end="1420" begin="1420" subtype="simple">1420</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73987">
+    <date end="1407" begin="1407" subtype="simple">1407</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <date end="1430" begin="1430" subtype="simple">1430</date>
+    <date end="1435" begin="1435" subtype="simple">1435</date>
+    <date end="1446" begin="1446" subtype="simple">1446</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w73987">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ch474">Orm2</source>
+    <item>iii</item>
+    <page>451</page>
+    <page>665</page>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w73688">Alfualdest'</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73711">Alualdiston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73799">Alvaldiston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73812">Alwaldiston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73825">Alvaldeston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73837">Alwaldeston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73870">Aluaston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73895">Alvaston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73947">Aluaston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73947">Alwaston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73947">Alweston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73947">Alueston</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w73987">Alvandeston</searchterm>
+  </extension>
+ </mads>
+ 

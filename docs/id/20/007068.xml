@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000057">
+  <authority ID="epns-deep-20-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007068">Bowscale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000062" type="broader">
+   <geographic>Bowscale</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w288245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007069">le Bouschale, le Bouscale</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007070">Bowscalez</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007071">Buskaill, Bewskayll, Buskell</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288365">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007072">Bowreskell</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288389">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007073">Bowskell</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007074">Buskelde</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007075">Buskell</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007076">Bouskell</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007077">Bowsgill</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w288510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/007078">Bousgil(l)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000fae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.000336755979549" lat="54.67432273835437" gazref="unlock:11084370" source="unlock"/>
+   <geo easting="335500" northing="531500" long="-3.00172" lat="54.6744" kepnref="4420" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w288245">
+    <date end="1361" begin="1361" subtype="simple">1361</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288281">
+    <date end="1485" begin="1485" subtype="simple">1485</date>
+    <source style="" id="cu173" underspec="ib">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288301">
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <date end="1568" begin="1568" subtype="simple">1568</date>
+    <date end="1571" begin="1571" subtype="simple">1571</date>
+    <source style="" id="cu324">PR (Greystoke)</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288365">
+    <date end="1568" begin="1568" subtype="simple">1568</date>
+    <source style="italic" id="cu205">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288389">
+    <date end="1600" begin="1600" subtype="simple">1600</date>
+    <source style="" id="cu324">PR (Dacre)</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288415">
+    <date end="1604" begin="1604" subtype="simple">1604</date>
+    <source style="italic" id="cu205">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288437">
+    <date end="1604" begin="1604" subtype="simple">1604</date>
+    <source style="italic" id="cu205" underspec="ib">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288437">
+    <date end="1606" begin="1606" subtype="simple">1606</date>
+    <source style="italic" id="cu72">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288459">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="italic" id="cu293">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288483">
+    <date end="1749" begin="1749" subtype="simple">1749</date>
+    <source style="" id="cu324">PR (Crosth)</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288510">
+    <date end="1753" begin="1753" subtype="simple">1753</date>
+    <date end="1749" begin="1749" subtype="simple">1749</date>
+    <source style="" id="cu324" underspec="ib">PR (Crosth)</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w288510">
+    <date end="1777" begin="1777" subtype="simple">1777</date>
+    <source style="" id="cu243">NB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w288245">le Bouschale</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288245">le Bouscale</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288281">Bowscalez</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288301">Buskaill</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288301">Bewskayll</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288301">Buskell</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288365">Bowreskell</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288389">Bowskell</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288415">Buskelde</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288437">Buskell</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288459">Bouskell</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288483">Bowsgill</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288510">Bousgill</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w288510">Bousgil</searchterm>
+  </extension>
+ </mads>
+ 

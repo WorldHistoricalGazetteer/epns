@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000281">
+  <authority ID="epns-deep-16-a-name-parish-000281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011499">Little Bedwyn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000030" type="broader">
+   <geographic>Kinwardstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c9b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5824400" lat="51.3917600" gazref="geonames:2644374" source="geonames"/>
+   <geo long="-1.576009299258037" lat="51.38728027079554" gazref="unlock:11195906" source="unlock"/>
+   <geo easting="427500" northing="164500" long="-1.60625" lat="51.3789" kepnref="7440" source="kepn"/>
+  </extension>
+ </mads>
+ 

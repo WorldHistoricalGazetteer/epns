@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000016">
+  <authority ID="epns-deep-50-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002761">Upper Lambourn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000017" type="broader">
+   <geographic>Lambourn</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w107493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002762">Vplamburn'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002763">Uplamburn', Huplamburn(e), Uplamborn', Uplamburn</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107596">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002764">Upper Lamborn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b74"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.545928840900654" lat="51.52205721201312" gazref="unlock:11310223" source="unlock"/>
+   <geo kepnexref="376" long="-1.547374" lat="51.522544" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w107493">
+    <attestation variantID="epns-deep-50-b-name-w107493">
+     <date subtype="simple" begin="1182" end="1182">1182</date>
+     <source style="" id="be256">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107544">
+    <date end="1600" begin="1182">1182-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107596">
+    <date subtype="simple" begin="1761" end="1761">1761</date>
+    <source style="" id="be312">Rocque</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w107493">Vplamburn'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107544">Uplamburn'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107544">Huplamburne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107544">Huplamburn</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107544">Uplamborn'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107544">Uplamburn</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107596">Upper Lamborn</searchterm>
+  </extension>
+ </mads>
+ 

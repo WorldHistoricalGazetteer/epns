@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000330">
+  <authority ID="epns-deep-05-b-name-subparish-000330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003829">Northallerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000120" type="broader">
+   <geographic>Northallerton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w280565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003830">Aluretune, Aluertun(e), Alverton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003831">Alverton(e) North</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003832">Auuerton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003833">Northallerton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000557"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4324300" lat="54.3390100" gazref="geonames:2641435" source="geonames"/>
+   <geo long="-1.42308103942758" lat="54.34451887943256" gazref="unlock:11233271" source="unlock"/>
+   <geo easting="437500" northing="494500" long="-1.42464" lat="54.3447" kepnref="5979" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w280565">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280565">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280627">
+    <attestation variantID="epns-deep-05-b-name-w280627">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny118">LS</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w280627">
+     <date subtype="simple" begin="1444" end="1444">1444</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280681">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280701">
+    <date subtype="simple" begin="1371" end="1371">1371</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w280565">Aluretune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280565">Aluertune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280565">Aluertun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280565">Alvertone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280565">Alverton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280627">Alvertone North</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280627">Alverton North</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280681">Auuerton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280701">Northallerton</searchterm>
+  </extension>
+ </mads>
+ 

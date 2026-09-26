@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000254">
+  <authority ID="epns-deep-16-a-name-parish-000254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010797">Patney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000027" type="broader">
+   <geographic>Studfold Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000cd4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8978200" lat="51.3278700" gazref="geonames:2640573" source="geonames"/>
+   <geo long="-1.89235190922078" lat="51.32504867226925" gazref="unlock:11241170" source="unlock"/>
+   <geo easting="407500" northing="158500" long="-1.89374" lat="51.3256" kepnref="7409" source="kepn"/>
+  </extension>
+ </mads>
+ 

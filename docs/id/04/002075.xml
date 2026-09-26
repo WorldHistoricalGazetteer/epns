@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000073">
+  <authority ID="epns-deep-04-a-name-parish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002075">Holdfast</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2214500" lat="52.0379000" gazref="geonames:7299678" source="geonames"/>
+   <geo long="-2.211401408723205" lat="52.03529491151924" gazref="unlock:11176645" source="unlock"/>
+   <geo easting="385500" northing="237500" long="-2.21277" lat="52.0357" kepnref="5251" source="kepn"/>
+  </extension>
+ </mads>
+ 

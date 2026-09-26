@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000092">
+  <authority ID="epns-deep-05-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000854">Salton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000038" type="broader">
+   <geographic>Salton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w74552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000855">Saletun, Saleton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000856">Salton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000857">Saulton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74655">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000858">Sauton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000590"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9034500" lat="54.2113600" gazref="geonames:2638630" source="geonames"/>
+   <geo long="-0.9034352839150719" lat="54.21507250210359" gazref="unlock:11277321" source="unlock"/>
+   <geo easting="471500" northing="480500" long="-0.905053" lat="54.2153" kepnref="5741" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w74552">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74552">
+    <date subtype="simple" begin="1167" end="1180">1167-80</date>
+    <source style="" id="ny236">YCh</source>
+    <page>415</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74599">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74599">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74599">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74638">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74655">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w74552">Saletun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74552">Saleton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74599">Salton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74638">Saulton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74655">Sauton</searchterm>
+  </extension>
+ </mads>
+ 

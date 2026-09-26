@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000008">
+  <authority ID="epns-deep-08-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000582">West Buckland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000008" type="broader">
+   <geographic>West Buckland</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w31961">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000583">Bochelant</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w31980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000584">West Boclaunde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a68"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9166700" lat="51.0666700" gazref="geonames:2634489" source="geonames"/>
+   <geo long="-3.919790444267158" lat="51.06652214744285" gazref="unlock:11316444" source="unlock"/>
+   <geo kepnexref="0078" long="-3.91815" lat="51.0653" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w31961">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w31980">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>784</item>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w31961">Bochelant</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w31980">West Boclaunde</searchterm>
+  </extension>
+ </mads>
+ 

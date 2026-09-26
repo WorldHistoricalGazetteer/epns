@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000034">
+  <authority ID="epns-deep-98-a-name-parish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000755">Eaton Socon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000003" type="broader">
+   <geographic>Barford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a900024b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2892500" lat="52.2175200" gazref="geonames:2650293" source="geonames"/>
+   <geo long="-0.2943626933635044" lat="52.22097358874798" gazref="unlock:11137623" source="unlock"/>
+   <geo easting="516500" northing="258500" long="-0.296309" lat="52.2124" kepnref="4256" source="kepn"/>
+  </extension>
+ </mads>
+ 

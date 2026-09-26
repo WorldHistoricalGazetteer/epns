@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000055">
+  <authority ID="epns-deep-42-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009092">Rydal</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000008" type="broader">
+   <geographic>Grasmere</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w457360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009093">Ridal(e), Rydal(e), -dall</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w457484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009094">Ryddle</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w457506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009095">Ridell, Rydell</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w457551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009096">Roydall</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w457568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/009097">Reidale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013b4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9841600" lat="54.4476400" gazref="geonames:2638912" source="geonames"/>
+   <geo long="-2.9808" lat="54.4499" source="epns"/>
+   <geo long="-2.97943049851992" lat="54.44978599662359" gazref="unlock:11275806" source="unlock"/>
+   <geo easting="336500" northing="506500" long="-2.9808" lat="54.4499" kepnref="5122" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="we71">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>21</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="we424">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457360">
+    <attestation variantID="epns-deep-42-b-name-w457360">
+     <date subtype="simple" begin="1334" end="1334">1334</date>
+     <source style="" id="we71">Cl</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w457360">
+     <date subtype="simple" begin="1777" end="1777">1777</date>
+     <source style="" id="we251">M</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457484">
+    <date subtype="simple" begin="1361" end="1361">1361</date>
+    <source style="" id="we451">TestKarl</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457506">
+    <date subtype="simple" begin="1487" end="1487">1487</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>24</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457506">
+    <date subtype="simple" begin="1508" end="1508">1508</date>
+    <source style="italic" id="we395">Rydal</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457551">
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <source style="italic" id="we156">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w457568">
+    <date subtype="simple" begin="1750" end="1750">1750</date>
+    <source style="" id="we354">Pococke</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w457360">Ridale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457360">Ridal</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457360">Rydale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457360">Rydal</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457360">-dall</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457484">Ryddle</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457506">Ridell</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457506">Rydell</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457551">Roydall</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w457568">Reidale</searchterm>
+  </extension>
+ </mads>
+ 

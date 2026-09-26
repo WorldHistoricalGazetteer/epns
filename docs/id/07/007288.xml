@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000125">
+  <authority ID="epns-deep-07-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007288">Whatlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000036" type="broader">
+   <geographic>Battle Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c47"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5052900" lat="50.9378200" gazref="geonames:2634177" source="geonames"/>
+   <geo long="0.498193137982182" lat="50.93865067259316" gazref="unlock:11319586" source="unlock"/>
+   <geo easting="576500" northing="118500" long="0.510772" lat="50.9389" kepnref="7140" source="kepn"/>
+  </extension>
+ </mads>
+ 

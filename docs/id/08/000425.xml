@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000005">
+  <authority ID="epns-deep-08-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000425">Bratton Fleming</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000001" type="broader">
+   <geographic>Braunton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001711"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9385400" lat="51.1225000" gazref="geonames:2654864" source="geonames"/>
+   <geo long="-3.93630698498809" lat="51.12021492901132" gazref="unlock:11085946" source="unlock"/>
+   <geo easting="264500" northing="137500" long="-3.93745" lat="51.1207" kepnref="15462" source="kepn"/>
+  </extension>
+ </mads>
+ 

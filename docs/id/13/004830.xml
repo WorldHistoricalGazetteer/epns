@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000122">
+  <authority ID="epns-deep-13-a-name-parish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004830">Ashow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Stoneleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000612"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5451500" lat="52.3303900" gazref="geonames:2656929" source="geonames"/>
+   <geo long="-1.537688290598387" lat="52.33129830410155" gazref="unlock:11064668" source="unlock"/>
+   <geo easting="431500" northing="270500" long="-1.53915" lat="52.3317" kepnref="5018" source="kepn"/>
+  </extension>
+ </mads>
+ 

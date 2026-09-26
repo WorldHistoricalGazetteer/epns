@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000150">
+  <authority ID="epns-deep-09-b-name-subparish-000150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007544">Buckland in the Moor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000150" type="broader">
+   <geographic>Buckland in the Moor</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w341663">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007545">Bochelanda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w341683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007546">Bocland'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w341707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007547">Bokelaund in the More</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w341738">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007548">Boklonde Inthemore</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w341768">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007549">Bokelond in La More</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001905"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8065700" lat="50.5433700" gazref="geonames:2654400" source="geonames"/>
+   <geo long="-3.799780074093268" lat="50.54675304113309" gazref="unlock:11091741" source="unlock"/>
+   <geo easting="272500" northing="73500" long="-3.80092" lat="50.5473" kepnref="15821" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w341663">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w341683">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>768</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w341707">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w341738">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w341768">
+    <date end="1378" begin="1378" subtype="simple">1378</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w341663">Bochelanda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w341683">Bocland'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w341707">Bokelaund in the More</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w341738">Boklonde Inthemore</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w341768">Bokelond in La More</searchterm>
+  </extension>
+ </mads>
+ 

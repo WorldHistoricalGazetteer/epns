@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000048">
+  <authority ID="epns-deep-33-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004127">Boston Spa</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000020" type="broader">
+   <geographic>Bramham</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w185007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004128">Bostongate</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w185032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004129">Boston</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w185060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004130">Thorp Spaw</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3573600" lat="53.9079600" gazref="geonames:7295965" source="geonames"/>
+   <geo long="-1.360739784" lat="53.89926256" source="epns"/>
+   <geo long="-1.35306044973112" lat="53.90371727964386" gazref="unlock:11083472" source="unlock"/>
+   <geo easting="442500" northing="445500" long="-1.35461" lat="53.9039" kepnref="14635" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w185007">
+    <date end="1799" begin="1799" subtype="simple">1799</date>
+    <source style="italic" id="wr763">Weth</source>
+    <page>91</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w185032">
+    <date end="1822" begin="1822" subtype="simple">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w185060">
+    <date end="1771" begin="1771" subtype="simple">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w185007">Bostongate</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w185032">Boston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w185060">Thorp Spaw</searchterm>
+  </extension>
+ </mads>
+ 

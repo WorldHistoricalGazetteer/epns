@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000322">
+  <authority ID="epns-deep-12-a-name-parish-000322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/014586">Great Tey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000015" type="broader">
+   <geographic>Lexden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c5b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7490300" lat="51.8992500" gazref="geonames:2648005" source="geonames"/>
+   <geo long="0.7544568955025514" lat="51.89534276109588" gazref="unlock:11159292" source="unlock"/>
+   <geo easting="589500" northing="225500" long="0.752747" lat="51.8958" kepnref="12487" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000364">
+  <authority ID="epns-deep-05-b-name-subparish-000364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004149">Exelby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000130" type="broader">
+   <geographic>Burneston</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w304125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004150">Aschilebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w304144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004151">Aschelebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w304180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004152">Eskelby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w304227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004153">Eskilby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w304244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004154">Exkilby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w304261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004155">Exilby, Exylby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600043f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.546942640043831" lat="54.27314068024105" gazref="unlock:11141134" source="unlock"/>
+   <geo easting="429500" northing="486500" long="-1.54848" lat="54.2733" kepnref="6016" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w304125">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304144">
+    <date subtype="simple" begin="1161" end="1170">1161-70</date>
+    <source style="italic" id="ny124">Mary Y</source>
+    <page>231 d</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304180">
+    <attestation variantID="epns-deep-05-b-name-w304180">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>139 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w304180">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304227">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304244">
+    <date subtype="simple" begin="1372" end="1372">1372</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304261">
+    <date subtype="simple" begin="1419" end="1419">1419</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w304261">
+    <date subtype="simple" begin="1468" end="1468">1468</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w304125">Aschilebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304144">Aschelebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304180">Eskelby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304227">Eskilby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304244">Exkilby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304261">Exilby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w304261">Exylby</searchterm>
+  </extension>
+ </mads>
+ 

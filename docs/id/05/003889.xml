@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000339">
+  <authority ID="epns-deep-05-b-name-subparish-000339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003889">West Harlsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000123" type="broader">
+   <geographic>Osmotherley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w283845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003890">Herlesege, Herelsaie, Herselaige, Erleseie</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w283897">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003891">Herleseie, Herlesey, Herlesay</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w283971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003892">West Herlesay</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w283996">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003893">West Harlesay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000565"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3729300" lat="54.3787900" gazref="geonames:7296827" source="geonames"/>
+   <geo long="-1.360989275827367" lat="54.38015949507213" gazref="unlock:11316977" source="unlock"/>
+   <geo easting="441500" northing="498500" long="-1.36256" lat="54.3803" kepnref="5992" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w283845">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283897">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283897">
+    <date subtype="simple" begin="1175" end="1189">1175-89</date>
+    <source style="" id="ny236">YCh</source>
+    <page>962</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283897">
+    <date subtype="simple" begin="1206" end="1206">1206</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283971">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283996">
+    <date subtype="simple" begin="1365" end="1365">1365</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w283845">Herlesege</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283845">Herelsaie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283845">Herselaige</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283845">Erleseie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283897">Herleseie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283897">Herlesey</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283897">Herlesay</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283971">West Herlesay</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283996">West Harlesay</searchterm>
+  </extension>
+ </mads>
+ 

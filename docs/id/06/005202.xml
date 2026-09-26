@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000148">
+  <authority ID="epns-deep-06-a-name-parish-000148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/005202">Warnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000019" type="broader">
+   <geographic>Steyning Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c33"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3495000" lat="51.0897800" gazref="geonames:2634749" source="geonames"/>
+   <geo long="-0.3506373100186325" lat="51.0886396215012" gazref="unlock:11313508" source="unlock"/>
+   <geo easting="515500" northing="133500" long="-0.352188" lat="51.0892" kepnref="7013" source="kepn"/>
+  </extension>
+ </mads>
+ 

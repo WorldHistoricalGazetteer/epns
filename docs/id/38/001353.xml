@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-db-dbhundred-000003">
+  <authority ID="epns-deep-38-db-name-dbhundred-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/001353">Gersdon Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000002" type="broader">
+   <geographic>Crowthorne and Minety Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-38-db-name-w61483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/001354">Gersdon(es) hd', Gersdvnes hd'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab3000009"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-38-db-name-w61483">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-db-name-w61483">Gersdones hd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w61483">Gersdon hd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w61483">Gersdvnes hd'</searchterm>
+  </extension>
+ </mads>
+ 

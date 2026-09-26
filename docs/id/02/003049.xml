@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000153">
+  <authority ID="epns-deep-02-a-name-parish-000153">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003049">Wendover</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000013" type="broader">
+   <geographic>Aylesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7414900" lat="51.7630100" gazref="geonames:2634538" source="geonames"/>
+   <geo long="-0.7463201319639399" lat="51.76803489304483" gazref="unlock:11315982" source="unlock"/>
+   <geo easting="486500" northing="208500" long="-0.747852" lat="51.7685" kepnref="11348" source="kepn"/>
+  </extension>
+ </mads>
+ 

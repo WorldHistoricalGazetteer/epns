@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-a-parish-000009">
+  <authority ID="epns-deep-30-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/001975">Cantley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-wpd-belowsubcounty-000001" type="broader">
+   <geographic>Lower Strafforth Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005f7e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0500000" lat="53.5000000" gazref="geonames:2653873" source="geonames"/>
+   <geo long="-1.064975735" lat="53.51077451" source="epns"/>
+   <geo long="-1.057336311603833" lat="53.51521063975353" gazref="unlock:11097746" source="unlock"/>
+   <geo easting="462500" northing="402500" long="-1.0589" lat="53.5155" kepnref="14272" source="kepn"/>
+  </extension>
+ </mads>
+ 

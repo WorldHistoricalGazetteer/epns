@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000497">
+  <authority ID="epns-deep-05-b-name-subparish-000497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005480">Newsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000167" type="broader">
+   <geographic>Kirby Ravensworth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w388350">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005481">Neuhuson</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w388368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005482">Neusom(e), Neusom(e) in Broghton Lith</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8349700" lat="54.4853500" gazref="geonames:2641574" source="geonames"/>
+   <geo long="-1.837892096038439" lat="54.48959844430156" gazref="unlock:11230622" source="unlock"/>
+   <geo easting="410500" northing="510500" long="-1.83941" lat="54.4897" kepnref="6152" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w388350">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w388368">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="ny238">YD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w388350">Neuhuson</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388368">Neusome</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388368">Neusom</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388368">Neusome in Broghton Lith</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388368">Neusom in Broghton Lith</searchterm>
+  </extension>
+ </mads>
+ 

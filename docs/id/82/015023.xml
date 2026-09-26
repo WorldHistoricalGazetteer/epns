@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000027">
+  <authority ID="epns-deep-82-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015023">Stanton upon Hine Heath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000002" type="broader">
+   <geographic>Bradford North Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w582852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015024">Stantune</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w582870">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015025">Stanton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w582923">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015026">Stanton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w582935">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015027">Staunton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w582987">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015028">Staunton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w583016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015029">Standon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a606b47fc4463d000e58"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6407700" lat="52.8117400" gazref="geonames:2637037" source="geonames"/>
+   <geo long="-2.645510636231466" lat="52.81595433246136" gazref="unlock:11291187" source="unlock"/>
+   <geo easting="356500" northing="324500" long="-2.64686" lat="52.8163" kepnref="13664" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w582852">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w582870">
+    <attestation variantID="epns-deep-82-a-name-w582870">
+     <date end="1201" begin="1201" subtype="simple">1201</date>
+     <source style="" id="ss207">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w582923">
+    <date end="1600" begin="1201">1201-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w582935">
+    <attestation variantID="epns-deep-82-a-name-w582935">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="ss88">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-82-a-name-w582935">
+     <date end="1720" begin="1720" subtype="simple">1720</date>
+     <source style="italic" id="ss267">SBL</source>
+     <item>6517</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w582987">
+    <date end="1720" begin="1242">1242-1720</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w583016">
+    <date end="1285" begin="1284" subtype="simple">1284-5</date>
+    <source style="" id="ss85">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w582852">Stantune</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w582870">Stanton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w582923">Stantona</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w582923">Stanton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w582935">Staunton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w582987">Staunton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w583016">Standon</searchterm>
+  </extension>
+ </mads>
+ 

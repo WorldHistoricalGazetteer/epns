@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000092">
+  <authority ID="epns-deep-14-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002230">Foston on the Wolds</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000048" type="broader">
+   <geographic>Foston</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w140550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002231">Fodstone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002232">Fotston</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002233">Fosteton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002234">Fosceton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002235">Fostun, Foston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002236">Fostun juxta Gemeling'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w140726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002237">Fostun on le Wolde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3280300" lat="53.9821800" gazref="geonames:2649157" source="geonames"/>
+   <geo long="-0.314679352859737" lat="53.98353082174378" gazref="unlock:11147134" source="unlock"/>
+   <geo easting="510500" northing="455500" long="-0.316358" lat="53.9837" kepnref="8475" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w140550">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140568">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140586">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey371">YI</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140608">
+    <date end="1352" begin="1352" subtype="simple">1352</date>
+    <source style="" id="ey153">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140627">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey267">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140627">
+    <attestation variantID="epns-deep-14-b-name-w140627">
+     <date end="1272" begin="1216" subtype="regnal">t. Hy 3</date>
+     <source style="" id="ey39">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w140627">
+     <date end="1549" begin="1549" subtype="simple">1549</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140692">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="ey91">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w140726">
+    <date end="1609" begin="1609" subtype="simple">1609</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w140550">Fodstone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140568">Fotston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140586">Fosteton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140608">Fosceton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140627">Fostun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140627">Fostona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140627">Foston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140692">Fostun juxta Gemeling'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w140726">Fostun on le Wolde</searchterm>
+  </extension>
+ </mads>
+ 

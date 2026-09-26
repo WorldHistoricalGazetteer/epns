@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000049">
+  <authority ID="epns-deep-49-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014580">Englefield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000054" type="broader">
+   <geographic>Englefield</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w477665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014581">(on) Englafelda</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014582">Inglefelle, Englefel</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014583">Englefeldia</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014584">Englefeld(e), Englefeld', Englef', Englefeud'</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014585">Engelfed</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014586">Engilfeld, Engefeld, Englesfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w477922">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/014587">Eyngelfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b58"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1016400" lat="51.4425100" gazref="geonames:2649993" source="geonames"/>
+   <geo long="-1.100526203768461" lat="51.44754547917334" gazref="unlock:11140095" source="unlock"/>
+   <geo easting="462500" northing="172500" long="-1.10201" lat="51.448" kepnref="3072" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w477665">
+    <date end="871" begin="871" subtype="simple">871</date>
+    <copydate end="910" begin="890">c. 900</copydate>
+    <ms>A</ms>
+    <source style="" id="be17">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477701">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477731">
+    <attestation variantID="epns-deep-49-b-name-w477731">
+     <date end="1189" begin="1154" subtype="regnal">Hy 2</date>
+     <source style="italic" id="be7">AddCh</source>
+     <page>7200</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477794">
+    <date end="1600" begin="1154">Hy 2-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477843">
+    <date end="1189" begin="1154" subtype="regnal">Hy 2</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="be139">Gaimar</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477878">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w477922">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="" id="be6">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w477665">on Englafelda</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477665">Englafelda</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477701">Inglefelle</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477701">Englefel</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477731">Englefeldia</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477794">Englefelde</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477794">Englefeld</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477794">Englefeld'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477794">Englef'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477794">Englefeud'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477843">Engelfed</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477878">Engilfeld</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477878">Engefeld</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477878">Englesfeld</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w477922">Eyngelfeld</searchterm>
+  </extension>
+ </mads>
+ 

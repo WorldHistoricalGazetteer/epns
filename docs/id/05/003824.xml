@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000329">
+  <authority ID="epns-deep-05-b-name-subparish-000329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003824">Lazenby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000120" type="broader">
+   <geographic>Northallerton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w280275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003825">Leisenchi, Leisinghi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003826">Laisingbi, Laysingbi, Laysingby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003827">Laysingby by Northalverton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w280396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003828">Leisingebi, Leysingebi, Leysingeby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000556"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.468652479692646" lat="54.38966954649968" gazref="unlock:11192754" source="unlock"/>
+   <geo easting="434500" northing="499500" long="-1.47021" lat="54.3898" kepnref="5982" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w280275">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280311">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280358">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280396">
+    <date subtype="simple" begin="1203" end="1203">1203</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280396">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny11">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w280396">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w280275">Leisenchi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280275">Leisinghi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280311">Laisingbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280311">Laysingbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280311">Laysingby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280358">Laysingby by Northalverton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280396">Leisingebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280396">Leysingebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w280396">Leysingeby</searchterm>
+  </extension>
+ </mads>
+ 

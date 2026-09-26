@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000419">
+  <authority ID="epns-deep-05-b-name-subparish-000419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004701">Coverham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000145" type="broader">
+   <geographic>Coverham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w342920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004702">Covreham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w342938">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004703">Coverham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w342969">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004704">Couerhaim</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000452"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8412700" lat="54.2721900" gazref="geonames:2652217" source="geonames"/>
+   <geo long="-1.83873985964912" lat="54.27388391656773" gazref="unlock:11117811" source="unlock"/>
+   <geo kepnexref="0050" long="-1.84450" lat="54.27454.27068" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w342920">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w342938">
+    <attestation variantID="epns-deep-05-b-name-w342938">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny37">Cov</source>
+     <page>141</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w342969">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w342920">Covreham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w342938">Coverham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w342969">Couerhaim</searchterm>
+  </extension>
+ </mads>
+ 

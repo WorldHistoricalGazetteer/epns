@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000060">
+  <authority ID="epns-deep-40-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007649">Hasfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000011" type="broader">
+   <geographic>Westminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001982"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2543100" lat="51.9440200" gazref="geonames:2647367" source="geonames"/>
+   <geo long="-2.261877468" lat="51.94077901" source="epns"/>
+   <geo long="-2.254628701531459" lat="51.94529163970634" gazref="unlock:11167023" source="unlock"/>
+   <geo easting="382500" northing="227500" long="-2.25599" lat="51.9457" kepnref="6506" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000210">
+  <authority ID="epns-deep-02-b-name-subparish-000210">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004601">Wexham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000213" type="broader">
+   <geographic>Wexham</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w326565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004602">Wesham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w326583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004603">Wexham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w326678">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004604">Waxham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003db"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5524800" lat="51.5314100" gazref="geonames:7296179" source="geonames"/>
+   <geo long="-0.5650815245618049" lat="51.54113906970743" gazref="unlock:11319377" source="unlock"/>
+   <geo easting="499500" northing="183500" long="-0.566625" lat="51.5416" kepnref="11407" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w326565">
+    <date end="1211" begin="1211" subtype="simple">1211</date>
+    <source style="" id="bu2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1240" begin="1237" subtype="simple">1237-1240</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1449</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326583">
+    <date end="1440" begin="1440" subtype="simple">1440</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w326678">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w326565">Wesham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w326583">Wexham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w326678">Waxham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000080">
+  <authority ID="epns-deep-99-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001524">Hilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000079" type="broader">
+   <geographic>Hilton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w353311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001525">Hiltone</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w353342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001526">Hulton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000360"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1122200" lat="52.2790800" gazref="geonames:2646875" source="geonames"/>
+   <geo long="-0.1161089192516076" lat="52.28121023654247" gazref="unlock:11175604" source="unlock"/>
+   <geo easting="529500" northing="266500" long="-0.103085" lat="52.2814" kepnref="4206" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w353311">
+    <attestation variantID="epns-deep-99-b-name-w353311">
+     <date subtype="simple" begin="1196" end="1196">1196</date>
+     <source style="" id="bh66">FF</source>
+     <source style="" id="bh142">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w353342">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="italic" id="bh9">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w353311">Hiltone</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w353342">Hulton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000009">
+  <authority ID="epns-deep-81-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/003061">Cossington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001096"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0937800" lat="52.7247000" gazref="geonames:7291467" source="geonames"/>
+   <geo long="-1.10428137278967" lat="52.71543029097532" gazref="unlock:11116880" source="unlock"/>
+   <geo easting="460500" northing="313500" long="-1.10581" lat="52.7158" kepnref="8810" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000044">
+  <authority ID="epns-deep-05-b-name-subparish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000421">Farlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000021" type="broader">
+   <geographic>Sheriff Hutton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w33608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000422">Ferlintun, Farlintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000423">Ferlinton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33686">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000424">Ferlington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000425">Farlington, Farlyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33811">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000426">Farrelyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600059b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0666700" lat="54.1000000" gazref="geonames:2649676" source="geonames"/>
+   <geo long="-1.059429212917826" lat="54.09953599498078" gazref="unlock:11142179" source="unlock"/>
+   <geo easting="461500" northing="467500" long="-1.06102" lat="54.0997" kepnref="5714" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w33608">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33638">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33638">
+    <date subtype="simple" begin="1170" end="1185">1170-85</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1055</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33638">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="italic" id="ny89">Heal</source>
+    <page>127</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33686">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33770">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33770">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33811">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w33608">Ferlintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33608">Farlintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33638">Ferlintona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33638">Ferlinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33686">Ferlington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33770">Farlington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33770">Farlyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33811">Farrelyngton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000146">
+  <authority ID="epns-deep-02-a-name-parish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002865">Buckland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000013" type="broader">
+   <geographic>Aylesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300024a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7166700" lat="51.8000000" gazref="geonames:2654405" source="geonames"/>
+   <geo long="-0.716320649024305" lat="51.80368149605339" gazref="unlock:11091700" source="unlock"/>
+   <geo easting="488500" northing="212500" long="-0.717858" lat="51.8041" kepnref="11341" source="kepn"/>
+  </extension>
+ </mads>
+ 

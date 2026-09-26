@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000096">
+  <authority ID="epns-deep-40-a-name-parish-000096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011970">Hewelsfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000017" type="broader">
+   <geographic>St Briavels Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001989"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6270100" lat="51.7165800" gazref="geonames:2647011" source="geonames"/>
+   <geo long="-2.622473239" lat="51.71462148" source="epns"/>
+   <geo long="-2.629773461259664" lat="51.71907947105451" gazref="unlock:11170974" source="unlock"/>
+   <geo easting="356500" northing="202500" long="-2.63109" lat="51.7195" kepnref="6542" source="kepn"/>
+  </extension>
+ </mads>
+ 

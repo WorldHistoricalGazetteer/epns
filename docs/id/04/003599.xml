@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000143">
+  <authority ID="epns-deep-04-b-name-subparish-000143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003599">Staunton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000146" type="broader">
+   <geographic>Staunton</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w305982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003600">Stantun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003601">Stanton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003602">Staunton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3166700" lat="51.9666700" gazref="geonames:2637000" source="geonames"/>
+   <geo long="-2.312953871146346" lat="51.96313475020244" gazref="unlock:11291545" source="unlock"/>
+   <geo easting="378500" northing="229500" long="-2.31431" lat="51.9636" kepnref="5320" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w305982">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w305982">
+    <date end="978" begin="978" subtype="simple">978</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>619</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306034">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306051">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306051">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w305982">Stantun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306034">Stanton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306051">Staunton</searchterm>
+  </extension>
+ </mads>
+ 

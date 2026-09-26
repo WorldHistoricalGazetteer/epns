@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000104">
+  <authority ID="epns-deep-46-b-name-subparish-000104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/013419">Clotton Hoofield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000027" type="broader">
+   <geographic>Tarvin</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w686707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/013420">Clotton et Hulfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w686740">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/013421">Clotton Hulfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7140900" lat="53.1663200" gazref="geonames:7294377" source="geonames"/>
+   <geo long="-2.717998669" lat="53.16166844" source="epns"/>
+   <geo easting="352500" northing="363500" long="-2.71195" lat="53.1665" kepnref="11994" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w686707">
+    <date end="1372" begin="1372" subtype="simple">1372</date>
+    <source style="" id="ch384">MidCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w686740">
+    <date end="1391" begin="1391" subtype="simple">1391</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w686707">Clotton et Hulfeld</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w686740">Clotton Hulfeld</searchterm>
+  </extension>
+ </mads>
+ 

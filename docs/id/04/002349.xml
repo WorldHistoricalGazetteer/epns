@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000091">
+  <authority ID="epns-deep-04-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002349">Redmarley D'Abitot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000091" type="broader">
+   <geographic>Redmarley D'Abitot</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w202844">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002350">Reodemæreleage</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w202880">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002351">Rydemæreleage</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w202914">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002352">Ridmerlege, Ridmarleye, Rydmereleye</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w202979">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002353">Rudmerlege, Rudmerley, Rudmarleye</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w203050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002354">Dabitot</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005e3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3666700" lat="51.9833300" gazref="geonames:2639535" source="geonames"/>
+   <geo long="-2.356763782879502" lat="51.98099382897951" gazref="unlock:11254206" source="unlock"/>
+   <geo easting="375500" northing="231500" long="-2.35812" lat="51.9814" kepnref="5265" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w202844">
+    <date end="963" begin="963" subtype="simple">963</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1109</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202880">
+    <date end="978" begin="978" subtype="simple">978</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>619</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202914">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202914">
+    <date end="1323" begin="1323" subtype="simple">1323</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202914">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202979">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w202979">
+    <date end="1322" begin="1322" subtype="simple">1322</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w203050">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w202844">Reodemæreleage</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202880">Rydemæreleage</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202914">Ridmerlege</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202914">Ridmarleye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202914">Rydmereleye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202979">Rudmerlege</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202979">Rudmerley</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w202979">Rudmarleye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w203050">Dabitot</searchterm>
+  </extension>
+ </mads>
+ 

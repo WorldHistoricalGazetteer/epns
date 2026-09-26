@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000029">
+  <authority ID="epns-deep-96-a-name-parish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/001591">Foxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000003" type="broader">
+   <geographic>Thriplow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ea"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0586200" lat="52.1151000" gazref="geonames:2649116" source="geonames"/>
+   <geo long="0.0668310942592306" lat="52.11627697891804" gazref="unlock:11147753" source="unlock"/>
+   <geo easting="541500" northing="248500" long="0.0651909" lat="52.1167" kepnref="3999" source="kepn"/>
+  </extension>
+ </mads>
+ 

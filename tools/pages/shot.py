@@ -57,6 +57,21 @@ def serve(directory: Path, port: int):
         def log_message(self, *a):
             pass
 
+        def send_error(self, code, message=None, explain=None):
+            # GitHub Pages serves 404.html (status 404) for a missing path; emulate that so the
+            # identifier-tier check means the same thing locally as it does live.
+            page = Path(directory) / "404.html"
+            if code == 404 and page.exists():
+                body = page.read_bytes()
+                self.send_response(404)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                if self.command != "HEAD":
+                    self.wfile.write(body)
+                return
+            super().send_error(code, message, explain)
+
     socketserver.ThreadingTCPServer.allow_reuse_address = True
     httpd = socketserver.ThreadingTCPServer(("127.0.0.1", port), Quiet)
     httpd.daemon_threads = True
@@ -320,6 +335,64 @@ def check_formats(page, rep: Report):
     rep.add("formats: the parity comparator can fail (mutated copy differs)", ctl)
 
 
+def check_identifiers(page, rep: Report, url: str):
+    """The persistent-identifier tier: #u= routing by DEEP's county-wide serial, the per-record static
+    files a w3id would negotiate to, and the 404 page that carries a person to a record without one."""
+    if not wait_index(page):
+        rep.add("ids: name index loaded", False)
+        return
+    # #u=02/000002 is Bunsty Hundred (DEEP URI .../placename/02/000002); a field-name only in a county file
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("location.hash = ''; setTimeout(() => { location.hash = '#u=02/000002'; }, 30)")
+    ok = wait_render(page, before, 90_000)
+    txt = page.evaluate("document.getElementById('drawer').innerText")
+    rep.add("ids: #u=02/000002 opens Bunsty Hundred", ok and "Bunsty Hundred" in txt and "epns-deep-02-hu-subcounty-000001" in txt)
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("location.hash = '#u=28/000105'")
+    ok = wait_render(page, before, 90_000)
+    txt = page.evaluate("document.getElementById('drawer').innerText")
+    rep.add("ids: #u= reaches a field-name through its county file", ok and "Alder Wood" in txt, txt[:60].replace("\n", " | "))
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("location.hash = '#u=02/999999'")
+    wait_render(page, before, 30_000)
+    rep.add("ids: an unknown serial says so", "No record numbered" in page.evaluate("document.getElementById('drawer').innerText"))
+    # static files for a parish-level record
+    base = url if url.endswith("/") else url + "/"
+    import urllib.request
+    got = {}
+    def probe(ext, body):
+        if ext == "json":
+            d = json.loads(body)
+            return d.get("profile") == "place-centric" and len(d.get("spatialEntities", [])) == 1 and d["spatialEntities"][0]["label"] == "Bunsty Hundred"
+        if ext == "geojson":
+            d = json.loads(body)
+            return d.get("type") == "FeatureCollection" and len(d.get("features", [])) == 1 and d["features"][0]["properties"]["title"] == "Bunsty Hundred"
+        return body.startswith("<?xml") and 'ID="epns-deep-02-hu-subcounty-000001"' in body and "<attestation" in body
+    for ext in ("json", "geojson", "xml"):
+        try:
+            with urllib.request.urlopen(base + f"id/02/000002.{ext}", timeout=30) as resp:
+                body = resp.read().decode("utf-8")
+                got[ext] = (resp.status, probe(ext, body), "plato_commit=" in body or ext == "xml")
+        except Exception as e:  # noqa: BLE001
+            got[ext] = (getattr(e, "code", str(e)), False, False)
+    rep.add("ids: static PLATO / LPF / MADS files exist for a parish-level record", all(v[0] == 200 and v[1] and v[2] for v in got.values()), json.dumps(got))
+    # a record below parish level has no static machine file: 404 (an honest one), and the 404 page routes people
+    try:
+        urllib.request.urlopen(base + "id/28/000105.json", timeout=30)
+        rep.add("ids: no static machine file below parish level (404 expected)", False, "200")
+    except Exception as e:  # noqa: BLE001
+        rep.add("ids: no static machine file below parish level (404 expected)", getattr(e, "code", None) == 404, str(getattr(e, "code", e)))
+    page.goto(base + "id/28/000105.json", wait_until="load", timeout=60_000)
+    # the 404 page redirects to #u=28/000105; the app opens the record and rewrites the hash to its id
+    try:
+        page.wait_for_function("location.hash === '#id=28-e-fn-000001' && document.getElementById('drawer') && document.getElementById('drawer').innerText.includes('Alder Wood')", timeout=90_000)
+        rep.add("ids: the 404 page carries a person to the record", True)
+    except Exception:
+        rep.add("ids: the 404 page carries a person to the record", False, page.evaluate("location.href")[-50:])
+    page.goto(url, wait_until="load", timeout=60_000)
+    wait_ready(page)
+
+
 def check_browse(page, rep: Report):
     sel = page.query_selector("#nav-county")
     n = page.evaluate("document.getElementById('nav-county').options.length - 1")
@@ -410,7 +483,7 @@ def check_cache(page, rep: Report, url: str):
     rep.add("cache: core.json served from IndexedDB (no network request)", len(fetched) == 0, f"{len(fetched)} request(s)")
 
 
-CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "downloads": None, "cache": None}
+CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "ids": None, "downloads": None, "cache": None}
 
 
 def main():
@@ -457,6 +530,8 @@ def main():
                         fn(page, rep)
                     except Exception as e:  # a harness exception is a failure with a reason, not a crash
                         rep.add(f"{name}: harness exception", False, str(e)[:160])
+            if "ids" in wanted:
+                check_identifiers(page, rep, url)
             if "downloads" in wanted:
                 check_downloads(page, rep, url)
             if "cache" in wanted:

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000317">
+  <authority ID="epns-deep-05-b-name-subparish-000317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003756">Cotcliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000118" type="broader">
+   <geographic>Leake</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w274096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003757">Koteclyf</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w274114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003758">Cotcliffe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600051c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3574500" lat="54.3146000" gazref="geonames:7291833" source="geonames"/>
+   <geo long="-1.346591312543614" lat="54.31716379423759" gazref="unlock:11116926" source="unlock"/>
+   <geo easting="442500" northing="491500" long="-1.34816" lat="54.3173" kepnref="5970" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w274096">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w274114">
+    <date subtype="simple" begin="1581" end="1581">1581</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w274096">Koteclyf</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w274114">Cotcliffe</searchterm>
+  </extension>
+ </mads>
+ 

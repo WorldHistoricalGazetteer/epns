@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000249">
+  <authority ID="epns-deep-14-b-name-subparish-000249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005795">Melton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000141" type="broader">
+   <geographic>Welton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w377736">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005796">Metheltun</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w377759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005797">Melleton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w377779">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005798">Melton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00056e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5220860309816145" lat="53.72555561299442" gazref="unlock:11217022" source="unlock"/>
+   <geo easting="497500" northing="426500" long="-0.523727" lat="53.7258" kepnref="8627" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w377736">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="ey369">YD</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w377759">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w377779">
+    <date end="1214" begin="1214" subtype="simple">1214</date>
+    <source style="" id="ey2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w377779">
+    <attestation variantID="epns-deep-14-b-name-w377779">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="ey224">NomVill</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w377779">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w377736">Metheltun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w377759">Melleton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w377779">Melton</searchterm>
+  </extension>
+ </mads>
+ 

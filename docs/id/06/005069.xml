@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000146">
+  <authority ID="epns-deep-06-a-name-parish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/005069">Rusper</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000019" type="broader">
+   <geographic>Steyning Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bfb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2786500" lat="51.1214900" gazref="geonames:2638934" source="geonames"/>
+   <geo long="-0.2779341680900084" lat="51.12356698878771" gazref="unlock:11275649" source="unlock"/>
+   <geo easting="520500" northing="137500" long="-0.279494" lat="51.1241" kepnref="7011" source="kepn"/>
+  </extension>
+ </mads>
+ 

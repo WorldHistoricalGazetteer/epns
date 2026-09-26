@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-db-dbhundred-000001">
+  <authority ID="epns-deep-59-db-name-dbhundred-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000021">Ferendone Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000001" type="broader">
+   <geographic>Redlane Hundred and Gillingham Liberty</geographic>
+  </related>
+  <variant ID="epns-deep-59-db-name-w1967">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000022">Ferendone hundret</geographic>
+  </variant>
+  <variant ID="epns-deep-59-db-name-w2001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000023">Ferdon'</geographic>
+  </variant>
+  <variant ID="epns-deep-59-db-name-w2017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000024">Ferndone</geographic>
+  </variant>
+  <variant ID="epns-deep-59-db-name-w2039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000025">Ferendon'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328501fb47fc4099d000004"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-59-db-name-w1967">
+    <date end="1096" begin="1076" subtype="circa">c.1086</date>
+    <source style="" id="do303">GeldR</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-db-name-w2001">
+    <date end="1178" begin="1178" subtype="simple">1178</date>
+    <source style="" id="do515">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-db-name-w2017">
+    <date end="1178" begin="1178" subtype="simple">1178</date>
+    <source style="" id="do122">ChancR</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-db-name-w2039">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="do267">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-59-db-name-w1967">Ferendone hundret</searchterm>
+   <searchterm variantID="epns-deep-59-db-name-w2001">Ferdon'</searchterm>
+   <searchterm variantID="epns-deep-59-db-name-w2017">Ferndone</searchterm>
+   <searchterm variantID="epns-deep-59-db-name-w2039">Ferendon'</searchterm>
+  </extension>
+ </mads>
+ 

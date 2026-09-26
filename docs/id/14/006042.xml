@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000149">
+  <authority ID="epns-deep-14-a-name-parish-000149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006042">Market Weighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000007" type="broader">
+   <geographic>Holme Beacon Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6650500" lat="53.8631000" gazref="geonames:2643021" source="geonames"/>
+   <geo long="-0.6693591882883283" lat="53.86212797267031" gazref="unlock:11213756" source="unlock"/>
+   <geo easting="488500" northing="441500" long="-0.655788" lat="53.8622" kepnref="8641" source="kepn"/>
+  </extension>
+ </mads>
+ 

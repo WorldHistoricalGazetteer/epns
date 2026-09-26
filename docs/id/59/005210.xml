@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000019">
+  <authority ID="epns-deep-59-a-name-parish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/005210">Compton Abbas</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000002" type="broader">
+   <geographic>Sixpenny Handley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1885300" lat="50.9654900" gazref="geonames:2652486" source="geonames"/>
+   <geo long="-2.1851449" lat="50.96522866" source="epns"/>
+   <geo long="-2.178024030641111" lat="50.9652402623617" gazref="unlock:11114954" source="unlock"/>
+   <geo easting="387500" northing="118500" long="-2.17936" lat="50.9658" kepnref="11600" source="kepn"/>
+  </extension>
+ </mads>
+ 

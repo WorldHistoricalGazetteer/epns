@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000180">
+  <authority ID="epns-deep-04-b-name-subparish-000180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004808">Halesowen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000183" type="broader">
+   <geographic>Halesowen</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w396292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004809">Hala</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396306">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004810">Hales Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004811">Hales</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004812">Hales Owayn</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004813">Halesowing</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000593"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0493800" lat="52.4485900" gazref="geonames:2647639" source="geonames"/>
+   <geo long="-2.066220364573303" lat="52.44906914853547" gazref="unlock:11163790" source="unlock"/>
+   <geo easting="396500" northing="283500" long="-2.05291" lat="52.4495" kepnref="5358" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w396292">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396306">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iii</item>
+    <page>136</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396337">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="wo28">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396353">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396353">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="wo109">LyttCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396388">
+    <date end="1690" begin="1690" subtype="simple">1690</date>
+    <source style="" id="wo110">Marr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w396292">Hala</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396306">Hales Regis</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396337">Hales</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396353">Hales Owayn</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396388">Halesowing</searchterm>
+  </extension>
+ </mads>
+ 

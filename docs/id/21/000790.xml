@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000013">
+  <authority ID="epns-deep-21-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000790">Broughton Moor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000013" type="broader">
+   <geographic>Broughton Moor</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w32232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000791">Broghton more</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w32261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000792">mor a de Broctona</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w32296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000793">Broughton more</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000fb5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4681000" lat="54.6871900" gazref="geonames:2654498" source="geonames"/>
+   <geo long="-3.466114879653571" lat="54.68755901158394" gazref="unlock:11089776" source="unlock"/>
+   <geo kepnexref="0066" long="-3.469611" lat="54.68668" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w32232">
+    <date end="1197" begin="1177" subtype="circa">c. 1187</date>
+    <source style="" id="cu163">HolmC</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w32261">
+    <date end="1225" begin="1205" subtype="circa">c. 1215</date>
+    <source style="italic" id="cu164">HolmC</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w32296">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="italic" id="cu226">MinAcct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w32232">Broghton more</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w32261">mor a de Broctona</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w32296">Broughton more</searchterm>
+  </extension>
+ </mads>
+ 

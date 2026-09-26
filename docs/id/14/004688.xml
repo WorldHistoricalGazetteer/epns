@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000218">
+  <authority ID="epns-deep-14-b-name-subparish-000218">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004688">Low Catton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000125" type="broader">
+   <geographic>Low Catton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w308272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004689">Cattune</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w308358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004690">Nether Catton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w308383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004691">Low Catton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9262700" lat="53.9743900" gazref="geonames:2643544" source="geonames"/>
+   <geo long="-0.9250608940404028" lat="53.97256263028348" gazref="unlock:11206930" source="unlock"/>
+   <geo kepnexref="510" long="-0.926916" lat="53.977223" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w308272">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w308358">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w308383">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w308272">Cattune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w308358">Nether Catton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w308383">Low Catton</searchterm>
+  </extension>
+ </mads>
+ 

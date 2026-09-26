@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000049">
+  <authority ID="epns-deep-06-a-name-parish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001422">Westhampnett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000005" type="broader">
+   <geographic>Box and Stockbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c45"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7503300" lat="50.8481100" gazref="geonames:2634402" source="geonames"/>
+   <geo long="-0.7426597135131984" lat="50.85068182924044" gazref="unlock:11318723" source="unlock"/>
+   <geo easting="488500" northing="106500" long="-0.744157" lat="50.8513" kepnref="6910" source="kepn"/>
+  </extension>
+ </mads>
+ 

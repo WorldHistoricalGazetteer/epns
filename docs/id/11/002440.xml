@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000048">
+  <authority ID="epns-deep-11-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/002440">Kingswood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000048" type="broader">
+   <geographic>Kingswood</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w131612">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/002441">Kingeswode</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w131664">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/002442">Kingeswude</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000adf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2089100" lat="51.2932700" gazref="geonames:2645419" source="geonames"/>
+   <geo long="-0.214204305011942" lat="51.2934949134872" gazref="unlock:11187274" source="unlock"/>
+   <geo easting="524500" northing="155500" long="-0.216127" lat="51.285" kepnref="8288" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w131612">
+    <date end="1186" begin="1177" subtype="simple">1177-86</date>
+    <source style="" id="sr181">Merton</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w131612">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="sr105">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w131612">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <source style="italic" id="sr16">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w131664">
+    <date end="1194" begin="1194" subtype="simple">1194</date>
+    <source style="" id="sr232">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w131664">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <date end="1209" begin="1209" subtype="simple">1209</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w131612">Kingeswode</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w131664">Kingeswude</searchterm>
+  </extension>
+ </mads>
+ 

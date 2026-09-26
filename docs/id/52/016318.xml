@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000055">
+  <authority ID="epns-deep-52-a-name-parish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/016318">Bradford Peverell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000008" type="broader">
+   <geographic>St George Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d00299c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4912500" lat="50.7284500" gazref="geonames:7291272" source="geonames"/>
+   <geo long="-2.4832752" lat="50.73593891" source="epns"/>
+   <geo long="-2.48888786315919" lat="50.7305197318302" gazref="unlock:11084836" source="unlock"/>
+   <geo easting="365500" northing="92500" long="-2.49018" lat="50.7311" kepnref="11609" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000296">
+  <authority ID="epns-deep-14-b-name-subparish-000296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006640">Wallingfen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000163" type="broader">
+   <geographic>Eastrington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w427437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006641">Walefen</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w427455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006642">Walingfen</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w427483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006643">Wallyngfen</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w427503">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006644">Wallenfen</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d000493"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.687654120701586" lat="53.76344268279164" gazref="unlock:11312594" source="unlock"/>
+   <geo easting="488500" northing="429500" long="-0.659233" lat="53.7544" kepnref="8653" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w427437">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w427455">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <date end="1300" begin="1300" subtype="simple">1300</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w427483">
+    <date end="1556" begin="1556" subtype="simple">1556</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w427503">
+    <date end="1587" begin="1587" subtype="simple">1587</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w427437">Walefen</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w427455">Walingfen</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w427483">Wallyngfen</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w427503">Wallenfen</searchterm>
+  </extension>
+ </mads>
+ 

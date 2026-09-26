@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000025">
+  <authority ID="epns-deep-46-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003320">Lea</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000006" type="broader">
+   <geographic>Wybunbury</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w173101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003321">Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003322">(le) Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003323">the Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003324">Lee by Berterton</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003325">Lee juxta Wybunburye</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003326">Ley</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173260">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003327">Lea</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003328">Lea iuxta Wybunbury</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w173311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003329">Lea or Lee</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368fb47fc408560020ae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4256200" lat="53.0347600" gazref="geonames:7297567" source="geonames"/>
+   <geo long="-2.432448487" lat="53.02819526" source="epns"/>
+   <geo long="-2.439950128776095" lat="53.03266397412727" gazref="unlock:11192806" source="unlock"/>
+   <geo easting="370500" northing="348500" long="-2.44133" lat="53.033" kepnref="11917" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w173101">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="ch402">MRA</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173119">
+    <attestation variantID="epns-deep-46-b-name-w173119">
+     <date end="1281" begin="1281" subtype="simple">1281</date>
+     <date end="1287" begin="1287" subtype="simple">1287</date>
+     <source style="" id="ch138">Court</source>
+    </attestation>
+    <passim>et freq to</passim>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173156">
+    <date end="1621" begin="1621" subtype="simple">1621</date>
+    <copydate end="1656" begin="1656">1656</copydate>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173184">
+    <date end="1400" begin="1400" subtype="simple">1400</date>
+    <source style="" id="ch498">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173211">
+    <date end="1581" begin="1581" subtype="simple">1581</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173245">
+    <date end="1515" begin="1515" subtype="simple">1515</date>
+    <source style="italic" id="ch106">ChEx</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173260">
+    <date end="1579" begin="1558" subtype="simple">1558-79</date>
+    <source style="" id="ch98">ChancP</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173280">
+    <date end="1584" begin="1584" subtype="simple">1584</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w173311">
+    <date end="1860" begin="1860" subtype="simple">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w173101">Lee</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173119">le Lee</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173119">Lee</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173156">the Lee</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173184">Lee by Berterton</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173211">Lee juxta Wybunburye</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173245">Ley</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173260">Lea</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173280">Lea iuxta Wybunbury</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w173311">Lea or Lee</searchterm>
+  </extension>
+ </mads>
+ 

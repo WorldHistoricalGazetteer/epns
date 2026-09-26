@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000244">
+  <authority ID="epns-deep-16-b-name-subparish-000244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011660">Buttermere</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000283" type="broader">
+   <geographic>Buttermere</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w573231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011661">Butermere</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011662">(æt) Buter mere</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011663">Bwtermæræ</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011664">Butremare</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011665">Butremere</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011666">Buttermere</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011667">Buttermare</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011668">Botermere</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w573467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011669">Boturmere</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d91"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5115600" lat="51.3473900" gazref="geonames:2654155" source="geonames"/>
+   <geo long="-1.504537503038205" lat="51.35102875615858" gazref="unlock:11094753" source="unlock"/>
+   <geo easting="434500" northing="161500" long="-1.50597" lat="51.3515" kepnref="7434" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w573231">
+    <date subtype="simple" begin="863" end="863">863</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>508</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573261">
+    <date subtype="simple" begin="931" end="931">931</date>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <item>677</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573292">
+    <date subtype="regnal" begin="1066" end="1087">t. Wm 1</date>
+    <source style="" id="ws30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573314">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573333">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74" underspec="ib">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573333">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ws106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573333">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573333">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573378">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="" id="ws25">BCS</source>
+    <item>508, 1268</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573409">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573430">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573430">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ws289">Sarum</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w573467">
+    <date subtype="simple" begin="1440" end="1440">1440</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w573231">Butermere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573261">æt Buter mere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573261">Buter mere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573292">Bwtermæræ</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573314">Butremare</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573333">Butremere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573378">Buttermere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573409">Buttermare</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573430">Botermere</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w573467">Boturmere</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000494">
+  <authority ID="epns-deep-05-b-name-subparish-000494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005454">Gayles</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000167" type="broader">
+   <geographic>Kirby Ravensworth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w387195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005455">Austgail</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w387219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005456">Gales</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w387259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005457">Gailes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8102600" lat="54.4614100" gazref="geonames:7302939" source="geonames"/>
+   <geo long="-1.807141462922214" lat="54.46258925309377" gazref="unlock:11151294" source="unlock"/>
+   <geo easting="412500" northing="507500" long="-1.80866" lat="54.4627" kepnref="6149" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w387195">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>93</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387219">
+    <date subtype="simple" begin="1534" end="1534">1534</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387219">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387219">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387259">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387259">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w387195">Austgail</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w387219">Gales</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w387259">Gailes</searchterm>
+  </extension>
+ </mads>
+ 

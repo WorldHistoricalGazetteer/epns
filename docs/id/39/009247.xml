@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000094">
+  <authority ID="epns-deep-39-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/009247">Whiteshill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000091" type="broader">
+   <geographic>Whiteshill</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w444338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/009248">Whitehill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001bdc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.231854284" lat="51.76100224" source="epns"/>
+   <geo long="-2.22463127513646" lat="51.76551307973238" gazref="unlock:11321776" source="unlock"/>
+   <geo easting="384500" northing="207500" long="-2.22599" lat="51.766" kepnref="6418" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w444338">
+    <date subtype="simple" begin="1830" end="1830">1830</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w444338">Whitehill</searchterm>
+  </extension>
+ </mads>
+ 

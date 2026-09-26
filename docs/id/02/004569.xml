@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000208">
+  <authority ID="epns-deep-02-b-name-subparish-000208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004569">Slough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000211" type="broader">
+   <geographic>Slough</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w325141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004570">Slo</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004571">le Slowe</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004572">le Slough</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5954100" lat="51.5094900" gazref="geonames:2637627" source="geonames"/>
+   <geo long="-0.5662114638934481" lat="51.50518045610359" gazref="unlock:11285592" source="unlock"/>
+   <geo kepnexref="0003" long="-0.5970" lat="51.5164" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w325141">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="bu22">Cur(P)</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325162">
+    <date end="1437" begin="1437" subtype="simple">1437</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325181">
+    <date end="1443" begin="1443" subtype="simple">1443</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w325141">Slo</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325162">le Slowe</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325181">le Slough</searchterm>
+  </extension>
+ </mads>
+ 

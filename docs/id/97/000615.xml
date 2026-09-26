@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000010">
+  <authority ID="epns-deep-97-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000615">Coveney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000004" type="broader">
+   <geographic>Hundred of South Witchford</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1884800" lat="52.4166600" gazref="geonames:2652224" source="geonames"/>
+   <geo long="0.1839659049425692" lat="52.41992577383837" gazref="unlock:11117788" source="unlock"/>
+   <geo easting="548500" northing="282500" long="0.182299" lat="52.4203" kepnref="4101" source="kepn"/>
+  </extension>
+ </mads>
+ 

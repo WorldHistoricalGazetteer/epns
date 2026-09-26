@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000176">
+  <authority ID="epns-deep-12-a-name-parish-000176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007935">Woodham Mortimer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000009" type="broader">
+   <geographic>Dengie Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d6a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6233000" lat="51.7091100" gazref="geonames:2633647" source="geonames"/>
+   <geo long="0.6273138220985944" lat="51.70937229956325" gazref="unlock:11325921" source="unlock"/>
+   <geo easting="581500" northing="204500" long="0.625627" lat="51.7099" kepnref="12357" source="kepn"/>
+  </extension>
+ </mads>
+ 

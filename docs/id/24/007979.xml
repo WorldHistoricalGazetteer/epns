@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000107">
+  <authority ID="epns-deep-24-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007979">Widford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000093" type="broader">
+   <geographic>Swinbrook and Widford</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w305689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007980">Widiforde</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w305708">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007981">Wythiford'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w305728">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007982">Wydeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000873"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.601067777544326" lat="51.81001140771939" gazref="unlock:11322658" source="unlock"/>
+   <geo easting="428500" northing="212500" long="-1.588" lat="51.8104" kepnref="3727" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w305689">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ox54">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w305708">
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <source style="" id="ox42">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w305728">
+    <date subtype="simple" begin="1279" end="1280">1279-80</date>
+    <source style="" id="ox3">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w305689">Widiforde</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w305708">Wythiford'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w305728">Wydeford</searchterm>
+  </extension>
+ </mads>
+ 

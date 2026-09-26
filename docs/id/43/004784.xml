@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-b-subparish-000026">
+  <authority ID="epns-deep-43-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/004784">Murton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-a-parish-000011" type="broader">
+   <geographic>Appleby St Michael</geographic>
+  </related>
+  <variant ID="epns-deep-43-b-name-w248229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/004785">Morton</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w248300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/004786">Moreton</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w248334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/004787">Murton</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w248391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/004788">als. Mooreton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f001398"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4166700" lat="54.5833300" gazref="geonames:2641946" source="geonames"/>
+   <geo long="-2.42704" lat="54.5879" source="epns"/>
+   <geo long="-2.425590245444524" lat="54.58782593761465" gazref="unlock:11225300" source="unlock"/>
+   <geo easting="372500" northing="521500" long="-2.42704" lat="54.5879" kepnref="5149" source="kepn"/>
+   <attestation variantID="epns-deep-43-b-name-w248229">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="italic" id="we156">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248229">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="we23">Ass</source>
+    <item>19</item>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248229">
+    <attestation variantID="epns-deep-43-b-name-w248229">
+     <date end="1292" begin="1292" subtype="simple">1292</date>
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="italic" id="we23" underspec="ib">Ass</source>
+    </attestation>
+    <attestation variantID="epns-deep-43-b-name-w248229">
+     <date end="1292" begin="1292" subtype="simple">1292</date>
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="" id="we370">QW</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-43-b-name-w248229">
+     <date end="1547" begin="1547" subtype="simple">1547</date>
+     <source style="italic" id="we382">Rent</source>
+     <item>32</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248300">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248300">
+    <date end="1369" begin="1369" subtype="simple">1369</date>
+    <source style="" id="we76">Cliff</source>
+    <page>331</page>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248334">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <date end="1377" begin="1377" subtype="simple">1377</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248334">
+    <attestation variantID="epns-deep-43-b-name-w248334">
+     <date end="1392" begin="1392" subtype="simple">1392</date>
+     <source style="" id="we71">Cl</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-43-b-name-w248334">
+     <date end="1704" begin="1704" subtype="simple">1704</date>
+     <source style="" id="we449">Terr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w248391">
+    <date end="1613" begin="1613" subtype="simple">1613</date>
+    <source style="" id="we155">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-43-b-name-w248229">Morton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w248300">Moreton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w248334">Murton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w248391">Mooreton</searchterm>
+  </extension>
+ </mads>
+ 

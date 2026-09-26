@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000032">
+  <authority ID="epns-deep-08-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001673">Shirwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000032" type="broader">
+   <geographic>Shirwell</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w92704">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001674">Sirewilla</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w92730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001675">Sirewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w92748">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001676">Shirewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w92817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001677">Shyrewelle, Schirewelle and Schirewille</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w92860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001678">Sherewill</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w92879">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001679">Scherrewylle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a16"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0065100" lat="51.1181100" gazref="geonames:2637931" source="geonames"/>
+   <geo long="-4.007711269604938" lat="51.11901040553649" gazref="unlock:11283092" source="unlock"/>
+   <geo easting="259500" northing="137500" long="-4.00885" lat="51.1195" kepnref="15489" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w92704">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w92730">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w92748">
+    <attestation variantID="epns-deep-08-b-name-w92748">
+     <date end="1222" begin="1222" subtype="simple">1222</date>
+     <source style="" id="de24">Bracton</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-08-b-name-w92748">
+     <date end="1346" begin="1346" subtype="simple">1346</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w92817">
+    <date end="1346" begin="1222">1222-1346</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w92860">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w92879">
+    <date end="1437" begin="1437" subtype="simple">1437</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w92704">Sirewilla</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92730">Sirewelle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92748">Shirewelle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92817">Shyrewelle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92817">Schirewelle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92817">Schirewille</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92860">Sherewill</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w92879">Scherrewylle</searchterm>
+  </extension>
+ </mads>
+ 

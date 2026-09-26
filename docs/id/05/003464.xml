@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000281">
+  <authority ID="epns-deep-05-b-name-subparish-000281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003464">Carlton Husthwaite</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000107" type="broader">
+   <geographic>Husthwaite</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w254977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003465">Carleton, Karleton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w255015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003466">Carlton Husthwat</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004d1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2350500" lat="54.1880600" gazref="geonames:7291831" source="geonames"/>
+   <geo long="-1.241458502324981" lat="54.18171978242594" gazref="unlock:11098554" source="unlock"/>
+   <geo easting="449500" northing="476500" long="-1.24303" lat="54.1819" kepnref="5933" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w254977">
+    <attestation variantID="epns-deep-05-b-name-w254977">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w255015">
+    <date subtype="simple" begin="1516" end="1516">1516</date>
+    <source style="" id="ny62">Fabr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w254977">Carleton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w254977">Karleton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w255015">Carlton Husthwat</searchterm>
+  </extension>
+ </mads>
+ 

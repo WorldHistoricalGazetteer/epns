@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000025">
+  <authority ID="epns-deep-10-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000662">Byfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000025" type="broader">
+   <geographic>Byfield</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w40143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000663">Bivelde, Bifelde</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w40169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000664">Bifeilt</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w40193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000665">Bifeldia</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000533"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2456600" lat="52.1754600" gazref="geonames:2654137" source="geonames"/>
+   <geo long="-1.246772801923784" lat="52.17694544207748" gazref="unlock:11095152" source="unlock"/>
+   <geo easting="451500" northing="253500" long="-1.24826" lat="52.1774" kepnref="10894" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w40143">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w40169">
+    <date end="1139" begin="1121" subtype="simple">1121-39</date>
+    <source style="" id="nh109">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w40193">
+    <date end="1189" begin="1154" subtype="regnal">late Hy 2</date>
+    <source style="" id="nh26">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w40143">Bivelde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w40143">Bifelde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w40169">Bifeilt</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w40193">Bifeldia</searchterm>
+  </extension>
+ </mads>
+ 

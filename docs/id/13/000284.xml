@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000006">
+  <authority ID="epns-deep-13-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000284">Newton Regis</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000006" type="broader">
+   <geographic>Newton Regis</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w14371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000285">Newintone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000286">Niwentone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000287">Niwetone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000288">Newetone, Neutone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000289">Kyngesneuton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000290">Neuton Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w14530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000291">Kings Newton al. Newton in the Thistles</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5877800" lat="52.6660200" gazref="geonames:2641535" source="geonames"/>
+   <geo long="-1.593335172592716" lat="52.6641714713727" gazref="unlock:11231092" source="unlock"/>
+   <geo easting="427500" northing="307500" long="-1.5948" lat="52.6645" kepnref="4944" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w14371">
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <source style="" id="wa253">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14371">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14399">
+    <date end="1159" begin="1159" subtype="simple">1159</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14417">
+    <attestation variantID="epns-deep-13-b-name-w14417">
+     <date end="1189" begin="1189" subtype="simple">1189</date>
+     <source style="" id="wa213">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14465">
+    <date end="1600" begin="1189">1189-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14484">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14507">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="wa296">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14530">
+    <date end="1654" begin="1654" subtype="simple">1654</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w14530">
+    <date end="1674" begin="1674" subtype="simple">1674</date>
+    <date end="1676" begin="1676" subtype="simple">1676</date>
+    <source style="italic" id="wa80">Deed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w14371">Newintone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14399">Niwentone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14417">Niwetone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14465">Newetone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14465">Neutone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14484">Kyngesneuton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14507">Neuton Regis</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14530">Kings Newton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w14530">Newton in the Thistles</searchterm>
+  </extension>
+ </mads>
+ 

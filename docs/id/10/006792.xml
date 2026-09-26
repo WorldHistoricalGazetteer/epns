@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000299">
+  <authority ID="epns-deep-10-b-name-subparish-000299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006792">Deeping Gate</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000300" type="broader">
+   <geographic>Deeping Gate</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w372726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006793">Depynggate</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000555"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3051700" lat="52.6677800" gazref="geonames:7296210" source="geonames"/>
+   <geo long="-0.3064798834428302" lat="52.67075155704644" gazref="unlock:11128226" source="unlock"/>
+   <geo easting="514500" northing="309500" long="-0.3081" lat="52.6711" kepnref="11171" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w372726">
+    <date end="1390" begin="1390" subtype="simple">1390</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w372726">
+    <date end="1422" begin="1422" subtype="simple">1422</date>
+    <source style="italic" id="nh58">Ct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w372726">Depynggate</searchterm>
+  </extension>
+ </mads>
+ 

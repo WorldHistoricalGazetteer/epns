@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000137">
+  <authority ID="epns-deep-14-a-name-parish-000137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005465">Kingston upon Hull</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000006" type="broader">
+   <geographic>Hunsley Beacon Division</geographic>
+  </related>
+  <variant ID="epns-deep-14-a-name-w356294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005466">the parish of Holy Trinity</geographic>
+  </variant>
+  <variant ID="epns-deep-14-a-name-w356360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005467">capella Sancte Trinitatis</geographic>
+  </variant>
+  <variant ID="epns-deep-14-a-name-w356395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005468">ye Trinite kirke in Hull</geographic>
+  </variant>
+  <variant ID="epns-deep-14-a-name-w356448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005469">S. Maryes Church</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3352500" lat="53.7446000" gazref="geonames:2645425" source="geonames"/>
+   <geo long="-0.3392057349266491" lat="53.75013077638633" gazref="unlock:11187220" source="unlock"/>
+   <geo easting="509500" northing="428500" long="-0.341224" lat="53.7414" kepnref="8618" source="kepn"/>
+   <attestation variantID="epns-deep-14-a-name-w356294">
+    <date end="1546" begin="1546" subtype="simple">1546</date>
+    <source style="" id="ey368">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-a-name-w356360">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ey108">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-a-name-w356395">
+    <date end="1444" begin="1444" subtype="simple">1444</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-a-name-w356448">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="ey327">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-a-name-w356294">the parish of Holy Trinity</searchterm>
+   <searchterm variantID="epns-deep-14-a-name-w356360">capella Sancte Trinitatis</searchterm>
+   <searchterm variantID="epns-deep-14-a-name-w356395">ye Trinite kirke in Hull</searchterm>
+   <searchterm variantID="epns-deep-14-a-name-w356448">S. Maryes Church</searchterm>
+  </extension>
+ </mads>
+ 

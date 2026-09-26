@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000090">
+  <authority ID="epns-deep-28-a-name-parish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/015518">Tissington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000002" type="broader">
+   <geographic>Wirksworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0017cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7381900" lat="53.0668500" gazref="geonames:2635773" source="geonames"/>
+   <geo long="-1.738792566838093" lat="53.06915141420254" gazref="unlock:11301524" source="unlock"/>
+   <geo easting="417500" northing="352500" long="-1.74026" lat="53.0695" kepnref="3366" source="kepn"/>
+  </extension>
+ </mads>
+ 

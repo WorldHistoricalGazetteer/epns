@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000183">
+  <authority ID="epns-deep-08-a-name-parish-000183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010695">Malborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000012" type="broader">
+   <geographic>Stanborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8114000" lat="50.2432000" gazref="geonames:2643164" source="geonames"/>
+   <geo long="-3.816277580956979" lat="50.24066483068254" gazref="unlock:11211641" source="unlock"/>
+   <geo easting="270500" northing="39500" long="-3.81741" lat="50.2413" kepnref="15642" source="kepn"/>
+  </extension>
+ </mads>
+ 

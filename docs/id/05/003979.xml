@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000345">
+  <authority ID="epns-deep-05-b-name-subparish-000345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003979">East Rounton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000125" type="broader">
+   <geographic>Rounton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w291687">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003980">Rontun, Rantune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w291712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003981">Estrungeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000589"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3372800" lat="54.4305600" gazref="geonames:7296801" source="geonames"/>
+   <geo long="-1.344876753330436" lat="54.42501464095554" gazref="unlock:11136549" source="unlock"/>
+   <geo easting="441500" northing="503500" long="-1.36186" lat="54.4252" kepnref="5995" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w291687">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w291712">
+    <date subtype="simple" begin="1324" end="1324">1324</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w291687">Rontun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w291687">Rantune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w291712">Estrungeton</searchterm>
+  </extension>
+ </mads>
+ 

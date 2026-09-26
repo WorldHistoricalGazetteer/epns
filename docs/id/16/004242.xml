@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000090">
+  <authority ID="epns-deep-16-a-name-parish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004242">Trowbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000010" type="broader">
+   <geographic>Melksham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000d0f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2086100" lat="51.3188900" gazref="geonames:2635427" source="geonames"/>
+   <geo long="-2.20807841065057" lat="51.3159205232451" gazref="unlock:11306458" source="unlock"/>
+   <geo easting="385500" northing="157500" long="-2.20943" lat="51.3164" kepnref="7255" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000073">
+  <authority ID="epns-deep-27-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008488">Stoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000071" type="broader">
+   <geographic>Stoke</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w333501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008489">Stoche</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w333517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008490">Stok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w333565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008491">Stokes (in Peco)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w333638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008492">Stooke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001911"/>
+  </recordInfo>
+  <extension>
+   <geo easting="423500" northing="276500" long="-1.65613" lat="52.386" kepnref="3273" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w333501">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333517">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <date end="1236" begin="1236" subtype="simple">1236</date>
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333517">
+    <attestation variantID="epns-deep-27-b-name-w333517">
+     <date end="1265" begin="1265" subtype="simple">1265</date>
+     <source style="" id="db317">Misc</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333565">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <copydate end="1285" begin="1285">1285</copydate>
+    <source style="" id="db78">Ch</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333565">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="db192">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333565">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="db2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333565">
+    <date end="1324" begin="1324" subtype="simple">1324</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w333638">
+    <date end="1658" begin="1658" subtype="simple">1658</date>
+    <source style="" id="db128">DbA</source>
+    <item>xi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w333501">Stoche</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w333517">Stoke</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w333517">Stok</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w333565">Stokes in Peco</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w333565">Stokes</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w333638">Stooke</searchterm>
+  </extension>
+ </mads>
+ 

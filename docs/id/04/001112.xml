@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000035">
+  <authority ID="epns-deep-04-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001112">Stanford-on-Teme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000035" type="broader">
+   <geographic>Stanford-on-Teme</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w89730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001113">Stanforde</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w89750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001114">Stanforde Esturmi</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w89785">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001115">Stanforde upon Temede</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w89820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001116">Stanforde Wassebourn</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w89851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001117">Staunforde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005f3"/>
+  </recordInfo>
+  <extension>
+   <geo easting="370500" northing="266500" long="-2.43397" lat="52.2958" kepnref="5216" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w89730">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w89750">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="wo56">Fees</source>
+    <item>960</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w89785">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="" id="wo28">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w89820">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w89851">
+    <date end="1210" begin="1210" subtype="simple">1210</date>
+    <source style="" id="wo167">RBE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w89730">Stanforde</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w89750">Stanforde Esturmi</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w89785">Stanforde upon Temede</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w89820">Stanforde Wassebourn</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w89851">Staunforde</searchterm>
+  </extension>
+ </mads>
+ 

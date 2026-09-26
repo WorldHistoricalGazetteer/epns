@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000032">
+  <authority ID="epns-deep-79-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/002759">Aylsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000ce6"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2517800" lat="52.7951200" gazref="geonames:2656713" source="geonames"/>
+   <geo long="1.248750549" lat="52.79570405" source="epns"/>
+   <geo long="1.256491263475983" lat="52.79998992871159" gazref="unlock:11066212" source="unlock"/>
+   <geo easting="619500" northing="326500" long="1.25401" lat="52.7914" kepnref="9185" source="kepn"/>
+  </extension>
+ </mads>
+ 

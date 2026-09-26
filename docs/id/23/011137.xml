@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000130">
+  <authority ID="epns-deep-23-b-name-subparish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/011137">Weston on the Green</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000115" type="broader">
+   <geographic>Weston on the Green</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w494208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/011138">Westone</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w494257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/011139">Westona, Weston(e), Weston', Westune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e39b47fc40beb00088a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2287500" lat="51.8642500" gazref="geonames:2634313" source="geonames"/>
+   <geo easting="453500" northing="218500" long="-1.22448" lat="51.8625" kepnref="3635" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w494208">
+    <attestation variantID="epns-deep-23-b-name-w494208">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w494257">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w494208">Westone</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w494257">Westona</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w494257">Westone</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w494257">Weston</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w494257">Weston'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w494257">Westune</searchterm>
+  </extension>
+ </mads>
+ 

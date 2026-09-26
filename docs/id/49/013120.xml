@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000050">
+  <authority ID="epns-deep-49-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/013120">Tilehurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000008" type="broader">
+   <geographic>Reading Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001ae7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0437000" lat="51.4564700" gazref="geonames:2635833" source="geonames"/>
+   <geo long="-1.042780226934016" lat="51.45608108935104" gazref="unlock:11301016" source="unlock"/>
+   <geo easting="466500" northing="173500" long="-1.04427" lat="51.4566" kepnref="3068" source="kepn"/>
+  </extension>
+ </mads>
+ 

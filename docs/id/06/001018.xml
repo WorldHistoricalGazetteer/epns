@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000035">
+  <authority ID="epns-deep-06-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001018">Funtington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000035" type="broader">
+   <geographic>Funtington</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w86496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001019">Fundintune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w86519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001020">Funtigton, Funtington, Funtynton, Funtiton, Funtyton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w86591">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001021">Fontyngton, Fontington</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w86643">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001022">Funtyngdon</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w86665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001023">Fantiton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w86683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001024">Fountyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d02"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8633700" lat="50.8694100" gazref="geonames:2648986" source="geonames"/>
+   <geo long="-0.855852131623985" lat="50.86983425169711" gazref="unlock:11148937" source="unlock"/>
+   <geo easting="480500" northing="108500" long="-0.857337" lat="50.8704" kepnref="6896" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w86496">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="" id="su24">Bello</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w86519">
+    <attestation variantID="epns-deep-06-b-name-w86519">
+     <date subtype="simple" begin="1252" end="1252">1252</date>
+     <source style="" id="su37">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w86591">
+    <attestation variantID="epns-deep-06-b-name-w86591">
+     <date subtype="simple" begin="1288" end="1288">1288</date>
+     <source style="italic" id="su13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w86591">
+     <date subtype="simple" begin="1332" end="1332">1332</date>
+     <source style="" id="su271">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w86643">
+    <date subtype="simple" begin="1389" end="1389">1389</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w86665">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w86683">
+    <date subtype="simple" begin="1509" end="1509">1509</date>
+    <source style="" id="su151">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w86496">Fundintune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86519">Funtigton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86519">Funtington</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86519">Funtynton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86519">Funtiton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86519">Funtyton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86591">Fontyngton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86591">Fontington</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86643">Funtyngdon</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86665">Fantiton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w86683">Fountyngton</searchterm>
+  </extension>
+ </mads>
+ 

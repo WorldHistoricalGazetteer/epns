@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000094">
+  <authority ID="epns-deep-31-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/010259">Ravensthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000030" type="broader">
+   <geographic>Dewsbury</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w465264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/010260">Ravensbrook (v. foll.), Ravinsall</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w465337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/010261">Ravens Lodge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6608200" lat="53.6787100" gazref="geonames:6693756" source="geonames"/>
+   <geo long="-1.682065309" lat="53.67581663" source="epns"/>
+   <geo long="-1.659319747477976" lat="53.68024998064579" gazref="unlock:11253028" source="unlock"/>
+   <geo kepnexref="299" long="-1.661003" lat="53.678256" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w465264">
+    <date subtype="simple" begin="1544" end="1544">1544</date>
+    <source style="" id="wr712">TestLds</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w465337">
+    <date subtype="simple" begin="1817" end="1817">1817</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w465264">Ravensbrook</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w465264">Ravinsall</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w465337">Ravens Lodge</searchterm>
+  </extension>
+ </mads>
+ 

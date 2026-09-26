@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000031">
+  <authority ID="epns-deep-97-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002172">Leverington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000006" type="broader">
+   <geographic>Wisbech Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000711"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1367300" lat="52.6821100" gazref="geonames:2644566" source="geonames"/>
+   <geo long="0.1378133410105767" lat="52.68155290434626" gazref="unlock:11194379" source="unlock"/>
+   <geo easting="544500" northing="311500" long="0.13614" lat="52.6819" kepnref="4122" source="kepn"/>
+  </extension>
+ </mads>
+ 

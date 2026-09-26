@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000113">
+  <authority ID="epns-deep-34-b-name-subparish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011124">Grantley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w459037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011125">Grante-lege</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w459064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011126">Grentelai(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w459109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011127">Grantelei(a), Grantele(y), Grantelay</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w459254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011128">Graunt(e)ley</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w459303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/011129">Grantle, Grantlay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100621e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6451300" lat="54.1248900" gazref="geonames:2648207" source="geonames"/>
+   <geo long="-1.648029103" lat="54.12516699" source="epns"/>
+   <geo long="-1.640416526668642" lat="54.12065159453187" gazref="unlock:11171754" source="unlock"/>
+   <geo easting="423500" northing="469500" long="-1.64194" lat="54.1208" kepnref="14832" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w459037">
+    <date end="1040" begin="1020" subtype="circa">c. 1030</date>
+    <source style="" id="wr796">YCh</source>
+    <item>7</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459064">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459064">
+    <date end="1186" begin="1153" subtype="simple">1153-86</date>
+    <date end="1167" begin="1154" subtype="simple">1154-67</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459109">
+    <date end="1200" begin="1100" subtype="century">12</date>
+    <source style="italic" id="wr597">RegAlb</source>
+    <item>iii, 29d</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459109">
+    <date end="1135" begin="1130" subtype="simple">1130-5</date>
+    <source style="italic" id="wr597" underspec="ib">RegAlb</source>
+    <item>i, 36d</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459109">
+    <date end="1167" begin="1147" subtype="simple">1147- 67</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459109">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459109">
+    <attestation variantID="epns-deep-34-b-name-w459109">
+     <date end="1228" begin="1228" subtype="simple">1228</date>
+     <source style="" id="wr605">Rip</source>
+     <item>i</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w459109">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="" id="wr739">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459254">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459254">
+    <date end="1548" begin="1548" subtype="simple">1548</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459254">
+    <date end="1563" begin="1563" subtype="simple">1563</date>
+    <date end="1593" begin="1593" subtype="simple">1593</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459303">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <date end="1343" begin="1343" subtype="simple">1343</date>
+    <date end="1355" begin="1355" subtype="simple">1355</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w459303">
+    <date end="1468" begin="1468" subtype="simple">1468</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w459037">Grante-lege</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459064">Grentelaia</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459064">Grentelai</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459109">Granteleia</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459109">Grantelei</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459109">Granteley</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459109">Grantele</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459109">Grantelay</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459254">Graunteley</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459254">Grauntley</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459303">Grantle</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w459303">Grantlay</searchterm>
+  </extension>
+ </mads>
+ 

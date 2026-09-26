@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000006">
+  <authority ID="epns-deep-10-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000280">Charwelton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000001" type="broader">
+   <geographic>Fawsley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2210000" lat="52.1995800" gazref="geonames:2653308" source="geonames"/>
+   <geo long="-1.217208454334024" lat="52.19473631946224" gazref="unlock:11104061" source="unlock"/>
+   <geo easting="453500" northing="255500" long="-1.2187" lat="52.1952" kepnref="10875" source="kepn"/>
+  </extension>
+ </mads>
+ 

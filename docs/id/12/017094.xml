@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000375">
+  <authority ID="epns-deep-12-a-name-parish-000375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017094">Toppesfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000016" type="broader">
+   <geographic>Hinckford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5312900" lat="52.0081100" gazref="geonames:2635681" source="geonames"/>
+   <geo long="0.528204571728349" lat="52.00835095039265" gazref="unlock:11302831" source="unlock"/>
+   <geo easting="573500" northing="237500" long="0.526516" lat="52.0088" kepnref="12536" source="kepn"/>
+  </extension>
+ </mads>
+ 

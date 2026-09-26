@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000024">
+  <authority ID="epns-deep-43-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/009236">Askham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000002" type="broader">
+   <geographic>West Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f001372"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7531100" lat="54.6066800" gazref="geonames:2656903" source="geonames"/>
+   <geo long="-2.7523" lat="54.6043" source="epns"/>
+   <geo long="-2.750892789721825" lat="54.60422121050612" gazref="unlock:11064854" source="unlock"/>
+   <geo easting="351500" northing="523500" long="-2.7523" lat="54.6043" kepnref="5176" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000099">
+  <authority ID="epns-deep-46-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/012811">Bridge Trafford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000025" type="broader">
+   <geographic>Plemstall</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w658764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/012812">Trosford</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w658788">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/012813">Bregetrouford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8236200" lat="53.2384400" gazref="geonames:7294582" source="geonames"/>
+   <geo long="-2.824073783" lat="53.23290323" source="epns"/>
+   <geo long="-2.816668823489882" lat="53.23745040776318" gazref="unlock:11086979" source="unlock"/>
+   <geo easting="345500" northing="371500" long="-2.81801" lat="53.2377" kepnref="11990" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w658764">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ch163">DB</source>
+    <item>f.263</item>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w658788">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="italic" id="ch76">Bun</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w658764">Trosford</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w658788">Bregetrouford</searchterm>
+  </extension>
+ </mads>
+ 

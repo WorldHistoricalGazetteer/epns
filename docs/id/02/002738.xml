@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000142">
+  <authority ID="epns-deep-02-a-name-parish-000142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002738">Woodham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000012" type="broader">
+   <geographic>Waddesdon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000300"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9795600" lat="51.8628700" gazref="geonames:7298726" source="geonames"/>
+   <geo long="-0.976134674073158" lat="51.86018489003995" gazref="unlock:11325913" source="unlock"/>
+   <geo easting="470500" northing="218500" long="-0.977644" lat="51.8606" kepnref="11337" source="kepn"/>
+  </extension>
+ </mads>
+ 

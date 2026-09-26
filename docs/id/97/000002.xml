@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-hu-subcounty-000001">
+  <authority ID="epns-deep-97-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000002">The Two Hundreds of Ely</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-co-county-000001" type="broader">
+   <geographic>The Isle of Ely</geographic>
+  </related>
+  <variant ID="epns-deep-97-hu-name-w369462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000003">(into) þam twam hundredum</geographic>
+  </variant>
+  <variant ID="epns-deep-97-hu-name-w369502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000004">In Duob' Hvnd' de Ely qui conuenivnt apud Wiceforde</geographic>
+  </variant>
+  <variant ID="epns-deep-97-hu-name-w369563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000005">the two hundreds (with)in the isle of Ely</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735db47fc40c4f000773"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-97-hu-name-w369462">
+    <date subtype="simple" begin="970" end="970">970</date>
+    <source style="" id="ce29">BCS</source>
+    <item>1267</item>
+   </attestation>
+   <attestation variantID="epns-deep-97-hu-name-w369502">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ce116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-hu-name-w369563">
+    <date subtype="simple" begin="1233" end="1233">1233</date>
+    <copydate end="1328" begin="1328">1328</copydate>
+    <source style="" id="ce71">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-hu-name-w369462">into þam twam hundredum</searchterm>
+   <searchterm variantID="epns-deep-97-hu-name-w369462">þam twam hundredum</searchterm>
+   <searchterm variantID="epns-deep-97-hu-name-w369502">In Duob' Hvnd' de Ely qui conuenivnt apud Wiceforde</searchterm>
+   <searchterm variantID="epns-deep-97-hu-name-w369563">the two hundreds within the isle of Ely</searchterm>
+   <searchterm variantID="epns-deep-97-hu-name-w369563">the two hundreds in the isle of Ely</searchterm>
+  </extension>
+ </mads>
+ 

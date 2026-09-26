@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000096">
+  <authority ID="epns-deep-14-a-name-parish-000096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003660">Scrayingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000003" type="broader">
+   <geographic>Buckrose Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d00040f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8440200" lat="54.0341100" gazref="geonames:2638337" source="geonames"/>
+   <geo long="-0.8776368806316662" lat="54.0350536823663" gazref="unlock:11279500" source="unlock"/>
+   <geo easting="473500" northing="460500" long="-0.879249" lat="54.0353" kepnref="8546" source="kepn"/>
+  </extension>
+ </mads>
+ 

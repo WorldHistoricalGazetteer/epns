@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000107">
+  <authority ID="epns-deep-04-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002767">Whittington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000109" type="broader">
+   <geographic>Whittington</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w234120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002768">Hu(u)itingtun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w234154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002769">Hwitintune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w234185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002770">Widintun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w234203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002771">Witintona, Wytinton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w234297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002772">Whitenton, Whytinton, Whytyntone</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w234373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002773">Wiþindon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b00060d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1717600" lat="52.1746700" gazref="geonames:7297543" source="geonames"/>
+   <geo long="-2.182793330197163" lat="52.17021671616962" gazref="unlock:11322199" source="unlock"/>
+   <geo easting="387500" northing="252500" long="-2.18417" lat="52.1706" kepnref="5282" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w234120">
+    <date end="816" begin="816" subtype="simple">816</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>357</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234154">
+    <date end="989" begin="989" subtype="simple">989</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>670</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234185">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234203">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234203">
+    <date end="1245" begin="1225" subtype="circa">c. 1235</date>
+    <source style="italic" id="wo17">Bodl</source>
+    <item>18 b</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234203">
+    <date end="1255" begin="1235" subtype="circa">c. 1245</date>
+    <source style="italic" id="wo17" underspec="ib">Bodl</source>
+    <item>19</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234203">
+    <date end="1265" begin="1245" subtype="circa">c. 1255</date>
+    <source style="italic" id="wo17" underspec="ib">Bodl</source>
+    <item>28</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234297">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234297">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234297">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="italic" id="wo17">Bodl</source>
+    <item>58</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234297">
+    <date end="1365" begin="1365" subtype="simple">1365</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w234373">
+    <date end="1250" begin="1230" subtype="circa">c. 1240</date>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w234120">Huuitingtun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234120">Huitingtun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234154">Hwitintune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234185">Widintun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234203">Witintona</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234203">Wytinton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234297">Whitenton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234297">Whytinton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234297">Whytyntone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w234373">Wiþindon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000021">
+  <authority ID="epns-deep-05-b-name-subparish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000186">Sutton on the Forest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000009" type="broader">
+   <geographic>Sutton on the Forest</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w16068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000187">Su(d)tune, Suton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000188">Suttune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000189">Sutton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000190">Sutton(e) sub Galtris, Sutton(e) in Galtris</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000191">Sutton(e) in the Forest</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000192">Onegatesinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000193">Ouergate Sutton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16384">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000194">Ougate Sutton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w16408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000195">Sutton Ouvgate</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1166700" lat="54.0833300" gazref="geonames:2636476" source="geonames"/>
+   <geo easting="458500" northing="464500" long="-1.10747" lat="54.0731" kepnref="5671" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w16068">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16094">
+    <date subtype="simple" begin="1145" end="1153">1145-53</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>35</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16094">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16128">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny236">YCh</source>
+    <page>777</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16128">
+    <attestation variantID="epns-deep-05-b-name-w16128">
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16170">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16227">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16327">
+    <date subtype="simple" begin="1229" end="1229">1229</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16357">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16384">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w16408">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny67">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w16068">Sudtune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16068">Sutune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16068">Suton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16094">Suttune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16128">Suttone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16128">Sutton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16170">Suttone sub Galtris</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16170">Sutton sub Galtris</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16170">Suttone in Galtris</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16170">Sutton in Galtris</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16227">Suttone in the Forest</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16227">Sutton in the Forest</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16327">Onegatesinton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16357">Ouergate Sutton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16384">Ougate Sutton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w16408">Sutton Ouvgate</searchterm>
+  </extension>
+ </mads>
+ 

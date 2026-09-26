@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000272">
+  <authority ID="epns-deep-14-b-name-subparish-000272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006195">Everingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000153" type="broader">
+   <geographic>Everingham</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w401219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006196">Yferingaham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w401258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006197">Euringha'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w401277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006198">Hever(h)ingham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w401363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006199">Eueringeham, Everingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w401444">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006200">Eueringham, Everingham, Everyngham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00049b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7801600" lat="53.8737500" gazref="geonames:2649841" source="geonames"/>
+   <geo long="-0.7755200439332278" lat="53.87224770838766" gazref="unlock:11140924" source="unlock"/>
+   <geo easting="480500" northing="442500" long="-0.777138" lat="53.8725" kepnref="8649" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w401219">
+    <date end="982" begin="962" subtype="circa">c. 972</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="ey22">BCS</source>
+    <item>1279</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401258">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401277">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="ey299">RBE</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401277">
+    <date end="1182" begin="1170" subtype="simple">1170-82</date>
+    <source style="" id="ey367">YCh</source>
+    <item>49</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401277">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="ey55">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401277">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401277">
+    <date end="1263" begin="1243" subtype="circa">c. 1253</date>
+    <source style="italic" id="ey191">Malton</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401363">
+    <date end="1195" begin="1185" subtype="simple">1185-95</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401363">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401363">
+    <attestation variantID="epns-deep-14-b-name-w401363">
+     <date end="1244" begin="1244" subtype="simple">1244</date>
+     <source style="italic" id="ey17">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w401363">
+     <date end="1288" begin="1288" subtype="simple">1288</date>
+     <source style="" id="ey371">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401444">
+    <date end="1198" begin="1192" subtype="simple">1192-8</date>
+    <source style="" id="ey367">YCh</source>
+    <item>636</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w401444">
+    <attestation variantID="epns-deep-14-b-name-w401444">
+     <date end="1219" begin="1219" subtype="simple">1219</date>
+     <source style="italic" id="ey17">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w401444">
+     <date end="1583" begin="1583" subtype="simple">1583</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w401219">Yferingaham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401258">Euringha'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401277">Heverhingham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401277">Heveringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401363">Eueringeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401363">Everingeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401444">Eueringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401444">Everingham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w401444">Everyngham</searchterm>
+  </extension>
+ </mads>
+ 

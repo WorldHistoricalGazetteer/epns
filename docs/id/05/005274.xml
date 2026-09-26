@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000475">
+  <authority ID="epns-deep-05-b-name-subparish-000475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005274">North Cowton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000159" type="broader">
+   <geographic>Cowton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w375347">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005275">Coutona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w375374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005276">Coutona Magna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w375399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005277">North Coutona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000457"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5631100" lat="54.4304500" gazref="geonames:2641385" source="geonames"/>
+   <geo long="-1.560673300976677" lat="54.42599213641343" gazref="unlock:11232255" source="unlock"/>
+   <geo easting="430500" northing="503500" long="-1.53139" lat="54.426" kepnref="6129" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w375347">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w375374">
+    <date subtype="simple" begin="1273" end="1273">1273</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w375399">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w375347">Coutona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w375374">Coutona Magna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w375399">North Coutona</searchterm>
+  </extension>
+ </mads>
+ 

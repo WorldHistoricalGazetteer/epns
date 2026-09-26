@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000069">
+  <authority ID="epns-deep-99-a-name-parish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001314">Winwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000003" type="broader">
+   <geographic>Leightonstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3777400" lat="52.4130200" gazref="geonames:2633776" source="geonames"/>
+   <geo long="-0.3752689017706128" lat="52.41095088099132" gazref="unlock:11324401" source="unlock"/>
+   <geo easting="510500" northing="280500" long="-0.37687" lat="52.4114" kepnref="4197" source="kepn"/>
+  </extension>
+ </mads>
+ 

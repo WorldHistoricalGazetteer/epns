@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000167">
+  <authority ID="epns-deep-02-a-name-parish-000167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003402">Fingest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000016" type="broader">
+   <geographic>Desborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000276"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8791200" lat="51.6134900" gazref="geonames:2649424" source="geonames"/>
+   <geo long="-0.8805096446399244" lat="51.61651512177394" gazref="unlock:11144484" source="unlock"/>
+   <geo easting="477500" northing="191500" long="-0.88202" lat="51.617" kepnref="11363" source="kepn"/>
+  </extension>
+ </mads>
+ 

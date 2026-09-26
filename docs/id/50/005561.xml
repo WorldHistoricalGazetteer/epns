@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000032">
+  <authority ID="epns-deep-50-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/005561">Watchfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000003" type="broader">
+   <geographic>Shrivenham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001af3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6482100" lat="51.6132200" gazref="geonames:2634703" source="geonames"/>
+   <geo long="-1.646133790047525" lat="51.61232669705669" gazref="unlock:11314096" source="unlock"/>
+   <geo easting="425500" northing="190500" long="-1.63311" lat="51.6128" kepnref="3134" source="kepn"/>
+  </extension>
+ </mads>
+ 

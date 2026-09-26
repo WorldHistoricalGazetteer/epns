@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000017">
+  <authority ID="epns-deep-82-b-name-subparish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001573">Kenwick Park</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000002" type="broader">
+   <geographic>Cockshutt</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w73300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001574">Kenwyke Parke</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w73330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001575">Kenwicke Parke</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w73362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001576">Kenwicks Parke</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w73399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001577">Kenwicks Park</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a632b47fc4463d000ea6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.870493888" lat="52.86126837" source="epns"/>
+   <geo long="-2.868972929770289" lat="52.85948241669005" gazref="unlock:11185336" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w73300">
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="italic" id="ss267">SBL</source>
+    <page>1571</page>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w73330">
+    <date subtype="simple" begin="1634" end="1634">1634</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>20</page>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w73362">
+    <date subtype="simple" begin="1602" end="1602">1602</date>
+    <source style="" id="ss216">Peake</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w73362">
+    <date subtype="simple" begin="1672" end="1672">1672</date>
+    <source style="" id="ss124">HTR</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w73399">
+    <attestation variantID="epns-deep-82-b-name-w73399">
+     <date subtype="simple" begin="1686" end="1686">1686</date>
+     <source style="" id="ss231">PR(L)</source>
+     <page>7</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-82-b-name-w73399">
+     <date subtype="simple" begin="1839" end="1839">1839</date>
+     <source style="italic" id="ss292">TA</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w73300">Kenwyke Parke</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w73330">Kenwicke Parke</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w73362">Kenwicks Parke</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w73399">Kenwicks Park</searchterm>
+  </extension>
+ </mads>
+ 

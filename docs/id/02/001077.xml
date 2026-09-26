@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000072">
+  <authority ID="epns-deep-02-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001077">Beachampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000006" type="broader">
+   <geographic>Rowley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300023c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8747900" lat="52.0241900" gazref="geonames:2656126" source="geonames"/>
+   <geo long="-0.8704370984991454" lat="52.02107803411095" gazref="unlock:11072067" source="unlock"/>
+   <geo easting="477500" northing="236500" long="-0.871965" lat="52.0215" kepnref="11266" source="kepn"/>
+  </extension>
+ </mads>
+ 

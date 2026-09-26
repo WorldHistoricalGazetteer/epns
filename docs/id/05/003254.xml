@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000257">
+  <authority ID="epns-deep-05-b-name-subparish-000257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003254">Marton le Moor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000100" type="broader">
+   <geographic>Kirby Hill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w241670">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003255">Marton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003256">Marton' on the Moor</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003257">Marton' super Moram</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e9"/>
+  </recordInfo>
+  <extension>
+   <geo easting="437500" northing="470500" long="-1.42763" lat="54.129" kepnref="5909" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w241670">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241692">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241723">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w241670">Marton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241692">Marton' on the Moor</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241723">Marton' super Moram</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000036">
+  <authority ID="epns-deep-27-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004461">Flagg</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000033" type="broader">
+   <geographic>Flagg</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w180405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004462">Flagun</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004463">Flagg(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180500">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004464">Flagh</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004465">Flag(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180547">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004466">Flagehouse</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004467">Flage Housus</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004468">Flaghouses</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w180621">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004469">Flaghowses</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001872"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7970000" lat="53.2126700" gazref="geonames:2649338" source="geonames"/>
+   <geo long="-1.79782239454314" lat="53.21310669002986" gazref="unlock:11145172" source="unlock"/>
+   <geo easting="413500" northing="368500" long="-1.79929" lat="53.2134" kepnref="3236" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w180405">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180421">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="db86">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180421">
+    <date end="1240" begin="1220" subtype="circa">c.1230</date>
+    <source style="italic" id="db155">Dunst</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180421">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="italic" id="db23">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180421">
+    <attestation variantID="epns-deep-27-b-name-w180421">
+     <date end="1284" begin="1284" subtype="simple">1284</date>
+     <source style="italic" id="db244">HarlCh</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180500">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180516">
+    <date end="1389" begin="1389" subtype="simple">1389</date>
+    <source style="" id="db265">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180516">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="italic" id="db140">Derby</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180547">
+    <date end="1465" begin="1465" subtype="simple">1465</date>
+    <source style="" id="db265">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180569">
+    <date end="1477" begin="1477" subtype="simple">1477</date>
+    <source style="italic" id="db242">HardCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180595">
+    <date end="1532" begin="1529" subtype="simple">1529-32</date>
+    <source style="" id="db160">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180621">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w180621">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="db520">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w180405">Flagun</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180421">Flagge</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180421">Flagg</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180500">Flagh</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180516">Flage</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180516">Flag</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180547">Flagehouse</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180569">Flage Housus</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180595">Flaghouses</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w180621">Flaghowses</searchterm>
+  </extension>
+ </mads>
+ 

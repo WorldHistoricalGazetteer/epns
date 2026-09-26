@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000069">
+  <authority ID="epns-deep-14-a-name-parish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002819">Folkton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000002" type="broader">
+   <geographic>Dickering Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3879200" lat="54.2001900" gazref="geonames:2649254" source="geonames"/>
+   <geo long="-0.3825358302171989" lat="54.20021598794742" gazref="unlock:11146075" source="unlock"/>
+   <geo easting="505500" northing="479500" long="-0.384216" lat="54.2004" kepnref="8508" source="kepn"/>
+  </extension>
+ </mads>
+ 

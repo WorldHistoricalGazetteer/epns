@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000130">
+  <authority ID="epns-deep-06-a-name-parish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004236">Lancing</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000015" type="broader">
+   <geographic>Brightford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bbc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3224700" lat="50.8288200" gazref="geonames:2641319" source="geonames"/>
+   <geo long="-0.3169378264869099" lat="50.83632342478531" gazref="unlock:11232740" source="unlock"/>
+   <geo easting="518500" northing="104500" long="-0.318805" lat="50.8279" kepnref="6995" source="kepn"/>
+  </extension>
+ </mads>
+ 

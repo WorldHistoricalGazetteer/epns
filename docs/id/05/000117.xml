@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000013">
+  <authority ID="epns-deep-05-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000117">Haxby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000007" type="broader">
+   <geographic>Wigginton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w7992">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000118">Haxebi, Haxeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w8061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000119">Axebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w8075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000120">Haxby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0768000" lat="54.0163500" gazref="geonames:2647269" source="geonames"/>
+   <geo long="-1.076715923242884" lat="54.00977994711484" gazref="unlock:11167976" source="unlock"/>
+   <geo easting="460500" northing="457500" long="-1.0783" lat="54.01" kepnref="5665" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w7992">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7992">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ny87">HCY</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7992">
+    <date subtype="simple" begin="1223" end="1223">1223</date>
+    <source style="" id="ny35">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7992">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8061">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8075">
+    <attestation variantID="epns-deep-05-b-name-w8075">
+     <date subtype="simple" begin="1317" end="1317">1317</date>
+     <date subtype="simple" begin="1330" end="1330">1330</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w7992">Haxebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7992">Haxeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8061">Axebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8075">Haxby</searchterm>
+  </extension>
+ </mads>
+ 

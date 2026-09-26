@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000030">
+  <authority ID="epns-deep-07-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001397">Streat</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000030" type="broader">
+   <geographic>Streat</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w95537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001398">Estrat</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w95553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001399">Strates</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w95570">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001400">Strete</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w95610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001401">Stretes</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w95628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001402">Streete</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d88"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0795700" lat="50.9219300" gazref="geonames:7297426" source="geonames"/>
+   <geo long="-0.0719153516186887" lat="50.92247611993663" gazref="unlock:11294250" source="unlock"/>
+   <geo easting="535500" northing="115500" long="-0.0734907" lat="50.9231" kepnref="7049" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w95537">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w95553">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w95570">
+    <attestation variantID="epns-deep-07-b-name-w95570">
+     <date end="1271" begin="1271" subtype="simple">1271</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w95570">
+     <date end="1464" begin="1464" subtype="simple">1464</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w95610">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w95628">
+    <date end="1590" begin="1590" subtype="simple">1590</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w95537">Estrat</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w95553">Strates</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w95570">Strete</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w95610">Stretes</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w95628">Streete</searchterm>
+  </extension>
+ </mads>
+ 

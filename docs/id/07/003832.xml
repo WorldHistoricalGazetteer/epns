@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000078">
+  <authority ID="epns-deep-07-a-name-parish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003832">Buxted</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000021" type="broader">
+   <geographic>Loxfield Dorset Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b54"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1344100" lat="50.9900300" gazref="geonames:2654143" source="geonames"/>
+   <geo long="0.1304427019706704" lat="50.99091507049621" gazref="unlock:11094862" source="unlock"/>
+   <geo easting="549500" northing="123500" long="0.128842" lat="50.9915" kepnref="7094" source="kepn"/>
+  </extension>
+ </mads>
+ 

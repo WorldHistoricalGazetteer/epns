@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000111">
+  <authority ID="epns-deep-14-a-name-parish-000111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004174">Kirkburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000004" type="broader">
+   <geographic>Bainton Beacon Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003e3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5039700" lat="53.9833500" gazref="geonames:2645316" source="geonames"/>
+   <geo long="-0.4976269538797614" lat="53.98595755442344" gazref="unlock:11187831" source="unlock"/>
+   <geo easting="498500" northing="455500" long="-0.499283" lat="53.9862" kepnref="8571" source="kepn"/>
+  </extension>
+ </mads>
+ 

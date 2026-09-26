@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-g-forest-000001">
+  <authority ID="epns-deep-40-g-name-forest-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010822">The Forest of Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000017" type="broader">
+   <geographic>St Briavels Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-40-g-name-w482975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010823">Dana sylva</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w482994">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010824">Dane(i)um nemus</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w483017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010825">forest' de Dena, forest' de Dene</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w483152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010826">Denna foresta</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w483181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010827">forest' de Den'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w483207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010828">forest' de Dean(e), forest of Dean(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-g-name-w483292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010829">forest of Deen(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-g-name-w482975">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="go377">Ord</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w482994">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="go229">GM</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483017">
+    <date subtype="simple" begin="1100" end="1135">1100-35</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483017">
+    <attestation variantID="epns-deep-40-g-name-w483017">
+     <date subtype="simple" begin="1130" end="1195">1130-1195</date>
+     <source style="" id="go388">P</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483017">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <date subtype="simple" begin="1162" end="1162">1162</date>
+    <source style="" id="go430">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483017">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483017">
+    <attestation variantID="epns-deep-40-g-name-w483017">
+     <date subtype="simple" begin="1235" end="1235">1235</date>
+     <source style="" id="go225">Glouc</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-g-name-w483017">
+     <date subtype="simple" begin="1488" end="1488">1488</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483152">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483181">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483207">
+    <date subtype="century" begin="1400" end="1500">15</date>
+    <source style="italic" id="go600">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483207">
+    <attestation variantID="epns-deep-40-g-name-w483207">
+     <date subtype="simple" begin="1456" end="1456">1456</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-g-name-w483207">
+     <date subtype="simple" begin="1669" end="1669">1669</date>
+     <source style="italic" id="go99">Comm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483292">
+    <attestation variantID="epns-deep-40-g-name-w483292">
+     <date subtype="simple" begin="1460" end="1485">1460-1485</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-40-g-name-w483292">
+    <attestation variantID="epns-deep-40-g-name-w483292">
+     <date subtype="simple" begin="1531" end="1531">1531</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-g-name-w483292">
+     <date subtype="simple" begin="1669" end="1669">1669</date>
+     <source style="italic" id="go99">Comm</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-40-g-name-w482975">Dana sylva</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w482994">Daneium nemus</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w482994">Daneum nemus</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483017">forest' de Dena</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483017">forest' de Dene</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483152">Denna foresta</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483181">forest' de Den'</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483207">forest' de Deane</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483207">forest' de Dean</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483207">forest of Deane</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483207">forest of Dean</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483292">forest of Deene</searchterm>
+   <searchterm variantID="epns-deep-40-g-name-w483292">forest of Deen</searchterm>
+  </extension>
+ </mads>
+ 

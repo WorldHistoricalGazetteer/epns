@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000126">
+  <authority ID="epns-deep-05-b-name-subparish-000126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001220">Aislaby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000047" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w103408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001221">Aslache(s)bi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001222">Aselacbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103453">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001223">Aslakebi, Aslakeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001224">Aselakeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001225">Aslakesby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001226">Aslacby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001227">Asleby, Asleyby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103667">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001228">Aslabye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000541"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8129500" lat="54.2627300" gazref="geonames:7292079" source="geonames"/>
+   <geo long="-0.8101448739735019" lat="54.25913224032733" gazref="unlock:11057783" source="unlock"/>
+   <geo easting="477500" northing="485500" long="-0.811776" lat="54.2593" kepnref="5777" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w103408">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103430">
+    <date subtype="circa" begin="1150" end="1170">c. 1160</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103453">
+    <attestation variantID="epns-deep-05-b-name-w103453">
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w103453">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="ny100">KF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103501">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103501">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103501">
+    <date subtype="simple" begin="1250" end="1263">c. 1250-63</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>3</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103501">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103567">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103587">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103587">
+    <date subtype="simple" begin="1299" end="1299">1299</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103587">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103587">
+    <date subtype="simple" begin="1519" end="1519">1519</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103638">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103667">
+    <date subtype="simple" begin="1572" end="1572">1572</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w103408">Aslachesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103408">Aslachebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103430">Aselacbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103453">Aslakebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103453">Aslakeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103501">Aselakeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103567">Aslakesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103587">Aslacby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103638">Asleby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103638">Asleyby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103667">Aslabye</searchterm>
+  </extension>
+ </mads>
+ 

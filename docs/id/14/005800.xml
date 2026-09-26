@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000250">
+  <authority ID="epns-deep-14-b-name-subparish-000250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005800">Welton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000141" type="broader">
+   <geographic>Welton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w378063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005801">Wealletune</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w378090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005802">Welletuna(m), Welletune, Welleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w378199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005803">Welton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w378250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005804">Weleton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w378268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005805">Walleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00056f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5523200" lat="53.7321100" gazref="geonames:2634557" source="geonames"/>
+   <geo long="-0.5369266310256916" lat="53.73472775111431" gazref="unlock:11315899" source="unlock"/>
+   <geo easting="495500" northing="427500" long="-0.553721" lat="53.7352" kepnref="8626" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w378063">
+    <date end="1086" begin="1080" subtype="simple">1080-6</date>
+    <source style="" id="ey367">YCh</source>
+    <item>974</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378090">
+    <date end="1086" begin="1080" subtype="simple">1080-6</date>
+    <source style="" id="ey367">YCh</source>
+    <page>964</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378090">
+    <date end="974" begin="974" subtype="simple">974</date>
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378090">
+    <attestation variantID="epns-deep-14-b-name-w378090">
+     <date end="1128" begin="1109" subtype="simple">1109-28</date>
+     <source style="" id="ey367">YCh</source>
+     <page>966</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w378090">
+     <date end="1379" begin="1379" subtype="simple">1379</date>
+     <source style="" id="ey290">Poll</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378199">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378199">
+    <attestation variantID="epns-deep-14-b-name-w378199">
+     <date end="1249" begin="1249" subtype="simple">1249</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w378199">
+     <date end="1585" begin="1585" subtype="simple">1585</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378250">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w378268">
+    <date end="1281" begin="1279" subtype="simple">1279-81</date>
+    <source style="" id="ey297">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w378063">Wealletune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378090">Welletunam</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378090">Welletuna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378090">Welletune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378090">Welletone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378090">Welleton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378199">Welton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378250">Weleton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w378268">Walleton</searchterm>
+  </extension>
+ </mads>
+ 

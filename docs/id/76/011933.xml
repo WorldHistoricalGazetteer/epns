@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000054">
+  <authority ID="epns-deep-76-b-name-subparish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/011933">Cleedownton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000034" type="broader">
+   <geographic>Stoke St Milborough</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w527824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/011934">Hunton</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w527840">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/011935">Dunton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w527860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/011936">Dounton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64ab47fc4463d000f42"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.616214579" lat="52.42230618" source="epns"/>
+   <geo long="-2.610307575787904" lat="52.42053949739005" gazref="unlock:11108716" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w527824">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="ss250">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w527840">
+    <date end="1272" begin="1271" subtype="simple">1271-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w527860">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="ss30">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w527824">Hunton</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w527840">Dunton'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w527860">Dounton</searchterm>
+  </extension>
+ </mads>
+ 

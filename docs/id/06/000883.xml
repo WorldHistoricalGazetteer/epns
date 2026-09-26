@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000031">
+  <authority ID="epns-deep-06-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000883">Stoughton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000031" type="broader">
+   <geographic>Stoughton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w77989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000884">Estone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w78011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000885">Stocton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w78060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000886">Stohtun</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w78081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000887">Stoghton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w78109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000888">Stoktun</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w78126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000889">Stoketon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d87"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8611400" lat="50.8960500" gazref="geonames:2636780" source="geonames"/>
+   <geo long="-0.8551911823424089" lat="50.89680924146664" gazref="unlock:11293644" source="unlock"/>
+   <geo easting="480500" northing="111500" long="-0.856677" lat="50.8974" kepnref="6892" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w77989">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78011">
+    <attestation variantID="epns-deep-06-b-name-w78011">
+     <date subtype="regnal" begin="1135" end="1154">t. Steph</date>
+     <source style="" id="su103">France</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w78011">
+     <date subtype="simple" begin="1279" end="1279">1279</date>
+     <source style="" id="su44">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78060">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="su29">Box</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78081">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78081">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78109">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78126">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w78126">
+    <date subtype="simple" begin="1407" end="1407">1407</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w77989">Estone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78011">Stoctona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78011">Stocton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78060">Stohtun</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78081">Stoghton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78109">Stoktun</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78126">Stoketon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000095">
+  <authority ID="epns-deep-14-b-name-subparish-000095">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002263">Little Kelk</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000048" type="broader">
+   <geographic>Foston</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w142489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002264">Chelch(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w142508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002265">Parva Kelk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w142564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002266">Littelkelk</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w142587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002267">Litle Kelke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3299700" lat="54.0253100" gazref="geonames:6287950" source="geonames"/>
+   <geo long="-0.3128628890119585" lat="54.02845486020028" gazref="unlock:11196546" source="unlock"/>
+   <geo kepnexref="517" long="-0.320915" lat="54.030059" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w142489">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w142508">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w142508">
+    <attestation variantID="epns-deep-14-b-name-w142508">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w142508">
+     <date end="1342" begin="1342" subtype="simple">1342</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w142564">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w142587">
+    <date end="1530" begin="1530" subtype="simple">1530</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w142489">Chelche</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w142489">Chelch</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w142508">Parva Kelke</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w142508">Parva Kelk</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w142564">Littelkelk</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w142587">Litle Kelke</searchterm>
+  </extension>
+ </mads>
+ 

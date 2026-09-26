@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-b-subparish-000032">
+  <authority ID="epns-deep-52-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/010627">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-a-parish-000032" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-52-b-name-w619770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/010628">Prestun</geographic>
+  </variant>
+  <variant ID="epns-deep-52-b-name-w619788">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/010629">Preston(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852f9b47fc4099d002b81"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4166700" lat="50.6500000" gazref="geonames:2639922" source="geonames"/>
+   <geo long="-2.417293984" lat="50.64715507" source="epns"/>
+   <geo long="-2.417318001844596" lat="50.64985359460163" gazref="unlock:11249860" source="unlock"/>
+   <geo easting="370500" northing="83500" long="-2.41862" lat="50.6504" kepnref="11488" source="kepn"/>
+   <attestation variantID="epns-deep-52-b-name-w619770">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="do530">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-52-b-name-w619788">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="do263">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-52-b-name-w619788">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="do695">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-52-b-name-w619788">
+    <attestation variantID="epns-deep-52-b-name-w619788">
+     <date subtype="simple" begin="1317" end="1317">1317</date>
+     <source style="" id="do530">Pat</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-52-b-name-w619770">Prestun</searchterm>
+   <searchterm variantID="epns-deep-52-b-name-w619788">Prestone</searchterm>
+   <searchterm variantID="epns-deep-52-b-name-w619788">Preston</searchterm>
+  </extension>
+ </mads>
+ 

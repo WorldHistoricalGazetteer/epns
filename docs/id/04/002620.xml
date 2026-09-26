@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000102">
+  <authority ID="epns-deep-04-a-name-parish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002620">Tibberton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b000520"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1445000" lat="52.2141900" gazref="geonames:7291737" source="geonames"/>
+   <geo long="-2.139063302986833" lat="52.21523363990674" gazref="unlock:11300803" source="unlock"/>
+   <geo easting="390500" northing="257500" long="-2.14045" lat="52.2156" kepnref="5275" source="kepn"/>
+  </extension>
+ </mads>
+ 

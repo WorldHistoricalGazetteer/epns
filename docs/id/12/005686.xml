@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000120">
+  <authority ID="epns-deep-12-a-name-parish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005686">East Tilbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000007" type="broader">
+   <geographic>Barstable Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c09"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4171400" lat="51.4805300" gazref="geonames:2650325" source="geonames"/>
+   <geo long="0.4268335325146688" lat="51.47983743833701" gazref="unlock:11136651" source="unlock"/>
+   <geo easting="568500" northing="178500" long="0.425179" lat="51.4804" kepnref="12303" source="kepn"/>
+  </extension>
+ </mads>
+ 

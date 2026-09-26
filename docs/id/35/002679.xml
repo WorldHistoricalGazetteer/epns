@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000019">
+  <authority ID="epns-deep-35-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002679">Bracewell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000007" type="broader">
+   <geographic>Bracewell</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w87531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002680">Braisuelle</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002681">Braizwell</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002682">Braicewell(e), Braycewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002683">Braythwelle</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87696">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002684">Brathwell</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002685">Bracewell</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87781">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002686">Braswell</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w87827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002687">Brasewell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100609b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2095800" lat="53.9322500" gazref="geonames:2655017" source="geonames"/>
+   <geo long="-2.228461196" lat="53.92771352" source="epns"/>
+   <geo long="-2.205637402089392" lat="53.93225052225351" gazref="unlock:11084579" source="unlock"/>
+   <geo easting="386500" northing="448500" long="-2.20708" lat="53.9324" kepnref="14859" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w87531">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87551">
+    <date subtype="regnal" begin="1189" end="1199">Ric 1</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87573">
+    <date subtype="simple" begin="1147" end="1150">1147-50</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1471</page>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87573">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87573">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="wr24">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87573">
+    <attestation variantID="epns-deep-35-b-name-w87573">
+     <date subtype="simple" begin="1276" end="1276">1276</date>
+     <source style="" id="wr601">RH</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w87573">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87675">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87696">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>193d</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87720">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87720">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87720">
+    <attestation variantID="epns-deep-35-b-name-w87720">
+     <date subtype="simple" begin="1379" end="1379">1379</date>
+     <source style="" id="wr577">PT</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w87720">
+     <date subtype="simple" begin="1641" end="1641">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87781">
+    <date subtype="simple" begin="1427" end="1427">1427</date>
+    <source style="" id="wr711">Test</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87781">
+    <date subtype="simple" begin="1564" end="1564">1564</date>
+    <source style="" id="wr742">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87781">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="wr524">PRGis</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w87827">
+    <date subtype="simple" begin="1465" end="1465">1465</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w87531">Braisuelle</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87551">Braizwell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87573">Braicewelle</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87573">Braicewell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87573">Braycewelle</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87573">Braycewell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87675">Braythwelle</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87696">Brathwell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87720">Bracewell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87781">Braswell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w87827">Brasewell</searchterm>
+  </extension>
+ </mads>
+ 

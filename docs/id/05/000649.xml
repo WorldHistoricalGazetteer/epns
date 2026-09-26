@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000065">
+  <authority ID="epns-deep-05-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000649">Amotherby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000029" type="broader">
+   <geographic>Appleton le Street</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w55841">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000650">Aimundrebi, Edmundrebia</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w55874">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000651">Eimundrebi, Eimundreby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w55929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000652">Aymunderby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w56001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000653">Aymundresby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w56023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000654">Aymonderby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w56043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000655">Amonderby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8542800" lat="54.1498000" gazref="geonames:2657344" source="geonames"/>
+   <geo long="-0.8591686806669968" lat="54.15173853409929" gazref="unlock:11061824" source="unlock"/>
+   <geo easting="474500" northing="473500" long="-0.860789" lat="54.1519" kepnref="5717" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w55841">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w55874">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>86 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w55874">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="italic" id="ny121" underspec="ib">Malton</source>
+    <item>90</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w55929">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>76 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w55929">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w55929">
+    <attestation variantID="epns-deep-05-b-name-w55929">
+     <date subtype="simple" begin="1242" end="1242">1242</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w55929">
+     <date subtype="simple" begin="1415" end="1415">1415</date>
+     <source style="" id="ny62">Fabr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w56001">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w56023">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w56043">
+    <date subtype="simple" begin="1614" end="1614">1614</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w55841">Aimundrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w55841">Edmundrebia</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w55874">Eimundrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w55874">Eimundreby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w55929">Aymunderby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w56001">Aymundresby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w56023">Aymonderby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w56043">Amonderby</searchterm>
+  </extension>
+ </mads>
+ 

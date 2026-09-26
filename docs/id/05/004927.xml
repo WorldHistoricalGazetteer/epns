@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000435">
+  <authority ID="epns-deep-05-b-name-subparish-000435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004927">Carperby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w356279">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004928">Chirprebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w356298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004929">Kerperby(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600040c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9909000" lat="54.3033600" gazref="geonames:2653697" source="geonames"/>
+   <geo long="-1.992315911699825" lat="54.30095633777414" gazref="unlock:11099761" source="unlock"/>
+   <geo easting="400500" northing="489500" long="-1.9938" lat="54.3011" kepnref="6088" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w356279">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w356298">
+    <date subtype="simple" begin="1137" end="1146">1137-46</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>321</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w356298">
+    <attestation variantID="epns-deep-05-b-name-w356298">
+     <date subtype="simple" begin="1218" end="1218">1218</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w356298">
+     <date subtype="simple" begin="1420" end="1420">1420</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w356279">Chirprebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w356298">Kerperbya</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w356298">Kerperby</searchterm>
+  </extension>
+ </mads>
+ 

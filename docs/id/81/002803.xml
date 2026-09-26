@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000008">
+  <authority ID="epns-deep-81-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/002803">Burton on the Wolds</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00108d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1298800" lat="52.7857400" gazref="geonames:2654206" source="geonames"/>
+   <geo long="-1.117632822953439" lat="52.78745744548483" gazref="unlock:11094159" source="unlock"/>
+   <geo easting="459500" northing="321500" long="-1.11916" lat="52.7878" kepnref="8809" source="kepn"/>
+  </extension>
+ </mads>
+ 

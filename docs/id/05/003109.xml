@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000095">
+  <authority ID="epns-deep-05-a-name-parish-000095">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003109">Crathorne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000006" type="broader">
+   <geographic>Langbargh West Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0cb47fc40bc6000354"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3202200" lat="54.4615900" gazref="geonames:2652064" source="geonames"/>
+   <geo long="-1.313448774297616" lat="54.46079315360608" gazref="unlock:11120132" source="unlock"/>
+   <geo easting="444500" northing="507500" long="-1.31503" lat="54.4609" kepnref="5894" source="kepn"/>
+  </extension>
+ </mads>
+ 

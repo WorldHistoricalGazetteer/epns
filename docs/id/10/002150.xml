@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000093">
+  <authority ID="epns-deep-10-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002150">Duston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000093" type="broader">
+   <geographic>Duston</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w120486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002151">Duston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w120515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002152">Doston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00055d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9459800" lat="52.2495100" gazref="geonames:7301965" source="geonames"/>
+   <geo long="-0.9381811984097753" lat="52.23751426964327" gazref="unlock:11134771" source="unlock"/>
+   <geo easting="472500" northing="260500" long="-0.93971" lat="52.2379" kepnref="10963" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w120486">
+    <attestation variantID="epns-deep-10-b-name-w120486">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w120515">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="nh4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w120486">Dustone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w120486">Duston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w120515">Doston</searchterm>
+  </extension>
+ </mads>
+ 

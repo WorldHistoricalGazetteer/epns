@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000058">
+  <authority ID="epns-deep-72-a-name-parish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/009380">Worstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d77"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4129400" lat="52.7833000" gazref="geonames:2633528" source="geonames"/>
+   <geo long="1.410919322" lat="52.78215389" source="epns"/>
+   <geo long="1.418673081683167" lat="52.78642895331754" gazref="unlock:11327371" source="unlock"/>
+   <geo easting="630500" northing="326500" long="1.41685" lat="52.7868" kepnref="9688" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000091">
+  <authority ID="epns-deep-40-a-name-parish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011048">Coleford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000017" type="broader">
+   <geographic>St Briavels Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001939"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6179600" lat="51.7938700" gazref="geonames:7295175" source="geonames"/>
+   <geo long="-2.623462859" lat="51.7865542" source="epns"/>
+   <geo long="-2.616275190840977" lat="51.79108894923232" gazref="unlock:11113844" source="unlock"/>
+   <geo kepnexref="364" long="-2.617606" lat="51.791529" source="kepn"/>
+  </extension>
+ </mads>
+ 

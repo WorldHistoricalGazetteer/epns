@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000163">
+  <authority ID="epns-deep-12-b-name-subparish-000163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010123">Hatfield Peverel</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000216" type="broader">
+   <geographic>Hatfield Peverel</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w505353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010124">Hafelda, Hadfeldam</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010125">Hedfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010126">Hethfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010127">Hadfeld Peurell</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010128">Alia Hatfeud, Hatfeld Peuerel</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505591">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010129">Haffeld</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505618">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010130">Affeudpeverel</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w505644">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010131">Hatfell Peverell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e1c"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5948900" lat="51.7759100" gazref="geonames:2647343" source="geonames"/>
+   <geo long="0.6020068692486711" lat="51.7728958904757" gazref="unlock:11167225" source="unlock"/>
+   <geo easting="579500" northing="211500" long="0.60032" lat="51.7734" kepnref="12395" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w505353">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505381">
+    <date subtype="simple" begin="1155" end="1155">1155</date>
+    <source style="" id="ex349">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505399">
+    <date subtype="simple" begin="1263" end="1263">1263</date>
+    <source style="" id="ex202">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505433">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ex306">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505549">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505591">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="ex313">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505591">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505618">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="" id="ex150" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w505644">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w505353">Hafelda</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505353">Hadfeldam</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505381">Hedfeld</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505399">Hethfeld</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505433">Hadfeld Peurell</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505549">Alia Hatfeud</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505549">Hatfeld Peuerel</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505591">Haffeld</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505618">Affeudpeverel</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w505644">Hatfell Peverell</searchterm>
+  </extension>
+ </mads>
+ 

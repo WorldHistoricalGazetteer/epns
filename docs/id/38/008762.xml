@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000092">
+  <authority ID="epns-deep-38-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008762">Clapton Clapton on the Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000092" type="broader">
+   <geographic>Clapton on the Hill</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w397684">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008763">Clopton</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w397765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008764">Clopton super montem</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w397795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008765">Clopton super le Hill</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w397828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008766">Clapton</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w397856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008767">Clapton on the Hill</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w397886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008768">Clapton on Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ac8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7666700" lat="51.8500000" gazref="geonames:2652948" source="geonames"/>
+   <geo long="-1.767683942" lat="51.85092188" source="epns"/>
+   <geo long="-1.760400188364752" lat="51.85540404107108" gazref="unlock:11108036" source="unlock"/>
+   <geo easting="416500" northing="218500" long="-1.76177" lat="51.8648" kepnref="6282" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w397684">
+    <date subtype="simple" begin="1171" end="1183">1171-83</date>
+    <source style="" id="go3">AC</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397684">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="go172">Eyre</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397684">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397684">
+    <attestation variantID="epns-deep-38-b-name-w397684">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="italic" id="go471">SR</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w397684">
+     <date subtype="simple" begin="1611" end="1611">1611</date>
+     <source style="italic" id="go434">Rec</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397765">
+    <date subtype="simple" begin="1590" end="1590">1590</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397795">
+    <date subtype="simple" begin="1611" end="1611">1611</date>
+    <source style="italic" id="go181" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397828">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397828">
+    <date subtype="simple" begin="1679" end="1679">1679</date>
+    <source style="" id="go410">PR</source>
+    <page>17</page>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397856">
+    <date subtype="simple" begin="1641" end="1641">1641</date>
+    <source style="" id="go268">Inq</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w397886">
+    <date subtype="simple" begin="1678" end="1678">1678</date>
+    <source style="" id="go533">Will</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w397684">Clopton</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w397765">Clopton super montem</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w397795">Clopton super le Hill</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w397828">Clapton</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w397856">Clapton on the Hill</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w397886">Clapton on Hill</searchterm>
+  </extension>
+ </mads>
+ 

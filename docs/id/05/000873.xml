@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000094">
+  <authority ID="epns-deep-05-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000873">Great Edstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000040" type="broader">
+   <geographic>Great Edstone</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w75471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000874">Micheledestun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w75494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000875">Edestun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w75519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000876">Edeston'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w75586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000877">Edneston'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w75606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000878">Ed(d)iston'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w75636">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000879">Heddestone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600049b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9178287311111711" lat="54.25115810863325" gazref="unlock:11158706" source="unlock"/>
+   <geo easting="470500" northing="484500" long="-0.919446" lat="54.2513" kepnref="5744" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w75471">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75494">
+    <date subtype="simple" begin="1140" end="1140">1140</date>
+    <date subtype="simple" begin="1333" end="1333">1333</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75519">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75519">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>115</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75519">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny236">YCh</source>
+    <page>598</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75519">
+    <attestation variantID="epns-deep-05-b-name-w75519">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75586">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75606">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75606">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w75636">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w75471">Micheledestun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75494">Edestun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75519">Edeston'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75586">Edneston'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75606">Eddiston'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75606">Ediston'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w75636">Heddestone</searchterm>
+  </extension>
+ </mads>
+ 

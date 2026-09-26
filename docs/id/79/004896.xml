@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000052">
+  <authority ID="epns-deep-79-a-name-parish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/004896">Ingworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d2b"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2524600" lat="52.8182800" gazref="geonames:2646196" source="geonames"/>
+   <geo long="1.250090254" lat="52.81365614" source="epns"/>
+   <geo long="1.257834366171403" lat="52.81794187522972" gazref="unlock:11182662" source="unlock"/>
+   <geo easting="619500" northing="329500" long="1.25602" lat="52.8183" kepnref="9205" source="kepn"/>
+  </extension>
+ </mads>
+ 

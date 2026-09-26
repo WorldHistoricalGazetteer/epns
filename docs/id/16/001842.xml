@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000035">
+  <authority ID="epns-deep-16-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001842">Draycot Cerne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000036" type="broader">
+   <geographic>Draycot Cerne</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w98383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001843">Draicote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98401">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001844">Draycota</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001845">Draycot(e) and Draicota</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001846">Draycota juxta Northlangeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001847">Draycota Cerne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98547">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001848">Dracote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001849">Dreycota, Dreycote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w98606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001850">Dreighcote Serne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000db5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.108071337318984" lat="51.50490115733064" gazref="unlock:11131625" source="unlock"/>
+   <geo easting="392500" northing="178500" long="-2.10944" lat="51.5054" kepnref="7202" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w98383">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98401">
+    <attestation variantID="epns-deep-16-b-name-w98401">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="ws104">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98456">
+    <date end="1600" begin="1198">1198-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98481">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98522">
+    <date subtype="simple" begin="1345" end="1345">1345</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98547">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98564">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="ws40">Bracton</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98564">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ws280">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w98606">
+    <date subtype="simple" begin="1394" end="1394">1394</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w98383">Draicote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98401">Draycota</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98456">Draycote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98456">Draycot</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98456">Draicota</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98481">Draycota juxta Northlangeleye</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98522">Draycota Cerne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98547">Dracote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98564">Dreycota</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98564">Dreycote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w98606">Dreighcote Serne</searchterm>
+  </extension>
+ </mads>
+ 

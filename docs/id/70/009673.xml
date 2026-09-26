@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-a-parish-000015">
+  <authority ID="epns-deep-70-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009673">Kenley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-hu-subcounty-000002" type="broader">
+   <geographic>Condover Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-70-a-name-w376166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009674">Chenelie</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009675">Kenele</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009676">Chenelegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009677">Kenleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009678">Kenlegh', Kenlye, Kenley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009679">Kinelege</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009680">Kennel'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009681">Kendly</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009682">Kendley</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w376463">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/009683">Kinley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a601b47fc4463d000e35"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6333300" lat="52.6000000" gazref="geonames:2645820" source="geonames"/>
+   <geo long="-2.642334315109508" lat="52.60019205782672" gazref="unlock:11185079" source="unlock"/>
+   <geo easting="356500" northing="300500" long="-2.64368" lat="52.6005" kepnref="13499" source="kepn"/>
+   <attestation variantID="epns-deep-70-a-name-w376166">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376184">
+    <date end="1204" begin="1203" subtype="simple">1203-4</date>
+    <source style="italic" id="ss10">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376207">
+    <date end="1209" begin="1209" subtype="simple">1209</date>
+    <source style="" id="ss99">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376207">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="ss51">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376240">
+    <attestation variantID="epns-deep-70-a-name-w376240">
+     <date end="1204" begin="1203" subtype="simple">1203-4</date>
+     <source style="italic" id="ss10">Ass</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376294">
+    <date end="1600" begin="1203">1203-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376325">
+    <date end="1214" begin="1214" subtype="simple">1214</date>
+    <source style="" id="ss51">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376344">
+    <date end="1262" begin="1261" subtype="simple">1261-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376368">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>20</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376368">
+    <date end="1761" begin="1761" subtype="simple">1761</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>19</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376405">
+    <date end="1763" begin="1763" subtype="simple">1763</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>14</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376405">
+    <date end="1775" begin="1775" subtype="simple">1775</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>2</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376405">
+    <date end="1787" begin="1787" subtype="simple">1787</date>
+    <source style="italic" id="ss408">PRCardington</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w376463">
+    <date end="1737" begin="1737" subtype="simple">1737</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>19</page>
+   </attestation>
+   <searchterm variantID="epns-deep-70-a-name-w376166">Chenelie</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376184">Kenele</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376207">Chenelegh'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376240">Kenleg'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376294">Kenlegh'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376294">Kenlye</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376294">Kenleye</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376294">Kenley</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376325">Kinelege</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376344">Kennel'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376368">Kendly</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376405">Kendley</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w376463">Kinley</searchterm>
+  </extension>
+ </mads>
+ 

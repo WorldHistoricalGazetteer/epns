@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000019">
+  <authority ID="epns-deep-08-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001108">Morthoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000019" type="broader">
+   <geographic>Morthoe</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w64623">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001109">Morteho</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64686">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001110">Mortheho</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001111">Morthehou</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64710">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001112">Morthehow(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001113">Morthehoo</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001114">Mortaho</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001115">Marto</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w64778">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001116">Moorthoe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019d1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2080600" lat="51.1854400" gazref="geonames:2642174" source="geonames"/>
+   <geo easting="245500" northing="145500" long="-4.21216" lat="51.1878" kepnref="15476" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w64623 epns-deep-08-b-name-w64686 epns-deep-08-b-name-w64699 epns-deep-08-b-name-w64710 epns-deep-08-b-name-w64724">
+    <attestation variantID="epns-deep-08-b-name-w64623 epns-deep-08-b-name-w64686 epns-deep-08-b-name-w64699 epns-deep-08-b-name-w64710 epns-deep-08-b-name-w64724">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-08-b-name-w64623 epns-deep-08-b-name-w64686 epns-deep-08-b-name-w64699 epns-deep-08-b-name-w64710 epns-deep-08-b-name-w64724">
+     <date end="1450" begin="1450" subtype="simple">1450</date>
+     <source style="" id="de112">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w64735">
+    <date end="1258" begin="1258" subtype="simple">1258</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w64754">
+    <date end="1628" begin="1628" subtype="simple">1628</date>
+    <source style="" id="de15">Barum</source>
+    <item>1</item>
+    <page>62</page>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w64778">
+    <date end="1739" begin="1739" subtype="simple">1739</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w64623">Morteho</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64686">Mortheho</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64699">Morthehou</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64710">Morthehowe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64710">Morthehow</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64724">Morthehoo</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64735">Mortaho</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64754">Marto</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w64778">Moorthoe</searchterm>
+  </extension>
+ </mads>
+ 

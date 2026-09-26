@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000067">
+  <authority ID="epns-deep-86-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/018545">Stoke Abbott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000006" type="broader">
+   <geographic>Beaminster Hundred and Beaminster Forum &amp; Redhone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a5a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7776500" lat="50.8036400" gazref="geonames:2636867" source="geonames"/>
+   <geo long="-2.774912566" lat="50.80271841" source="epns"/>
+   <geo long="-2.773463974337488" lat="50.80092976084132" gazref="unlock:11292670" source="unlock"/>
+   <geo easting="345500" northing="100500" long="-2.77473" lat="50.8015" kepnref="11425" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000072">
+  <authority ID="epns-deep-23-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007768">Littlemore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000008" type="broader">
+   <geographic>Bullingdon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00070f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2240300" lat="51.7212300" gazref="geonames:2644284" source="geonames"/>
+   <geo long="-1.225463959182418" lat="51.71821445966075" gazref="unlock:11197322" source="unlock"/>
+   <geo easting="453500" northing="202500" long="-1.22694" lat="51.7187" kepnref="3593" source="kepn"/>
+  </extension>
+ </mads>
+ 

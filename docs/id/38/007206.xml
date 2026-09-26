@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000070">
+  <authority ID="epns-deep-38-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007206">Coln Rogers</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000070" type="broader">
+   <geographic>Coln Rogers</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w325845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007207">Culna(m), Culne</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w325885">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007208">Culne Sancti Andreæ</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w325916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007209">Culne Roger(i)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w325993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007210">Culne Rogers</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w326027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007211">Culne Roggers</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w326051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007212">Colne Roger(s)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w326092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007213">Cowln Rogers</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ad2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8762900" lat="51.7852700" gazref="geonames:2652538" source="geonames"/>
+   <geo long="-1.884026392" lat="51.77915787" source="epns"/>
+   <geo long="-1.876765775609076" lat="51.78364728427647" gazref="unlock:11114301" source="unlock"/>
+   <geo easting="408500" northing="209500" long="-1.87817" lat="51.7841" kepnref="6260" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w325845">
+    <attestation variantID="epns-deep-38-b-name-w325845">
+     <date subtype="simple" begin="1100" end="1284">1100-1284</date>
+     <source style="" id="go225">Glouc</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325885">
+    <date subtype="simple" begin="1138" end="1138">1138</date>
+    <source style="" id="go225" underspec="ib">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325916">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <source style="" id="go225" underspec="ib">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325916">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325916">
+    <attestation variantID="epns-deep-38-b-name-w325916">
+     <date subtype="simple" begin="1281" end="1281">1281</date>
+     <source style="" id="go159">Episc</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w325916">
+     <date subtype="simple" begin="1354" end="1354">1354</date>
+     <source style="" id="go84">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325993">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="go36">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w325993">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="go522">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w326027">
+    <date subtype="simple" begin="1331" end="1331">1331</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w326051">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <date subtype="simple" begin="1331" end="1331">1331</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w326051">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w326092">
+    <date subtype="simple" begin="1695" end="1695">1695</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w325845">Culnam</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325845">Culna</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325845">Culne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325885">Culne Sancti Andreæ</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325916">Culne Rogeri</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325916">Culne Roger</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w325993">Culne Rogers</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w326027">Culne Roggers</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w326051">Colne Rogers</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w326051">Colne Roger</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w326092">Cowln Rogers</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000435">
+  <authority ID="epns-deep-12-a-name-parish-000435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/019568">Chrishall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000019" type="broader">
+   <geographic>Uttlesford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000be9"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1029800" lat="52.0314300" gazref="geonames:7293550" source="geonames"/>
+   <geo long="0.1068070888773616" lat="52.03463122533674" gazref="unlock:11106836" source="unlock"/>
+   <geo easting="544500" northing="239500" long="0.105166" lat="52.0351" kepnref="12586" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000019">
+  <authority ID="epns-deep-06-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000555">Rogate</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000019" type="broader">
+   <geographic>Rogate</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w50296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000556">Ragata</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000557">la Ragat'</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000558">Rogate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50366">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000559">La Regate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000560">Reygate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50413">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000561">La Rugate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000562">Rougate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000563">Roughgate</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w50471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000564">Rowgate</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d65"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8506300" lat="51.0080800" gazref="geonames:2639216" source="geonames"/>
+   <geo long="-0.8525371908909672" lat="51.00470788959063" gazref="unlock:11272022" source="unlock"/>
+   <geo easting="480500" northing="123500" long="-0.854028" lat="51.0053" kepnref="6880" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w50296">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="italic" id="su142">Lewes</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50315">
+    <date subtype="simple" begin="1229" end="1229">1229</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50334">
+    <attestation variantID="epns-deep-06-b-name-w50334">
+     <date subtype="simple" begin="1203" end="1203">1203</date>
+     <date subtype="simple" begin="1275" end="1275">1275</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50366">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50366">
+    <date subtype="simple" begin="1261" end="1261">1261</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50395">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50413">
+    <date subtype="simple" begin="1261" end="1261">1261</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50433">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="su243">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50450">
+    <date subtype="simple" begin="1412" end="1412">1412</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50471">
+    <date subtype="simple" begin="1453" end="1453">1453</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w50471">
+    <date subtype="simple" begin="1515" end="1515">1515</date>
+    <source style="" id="su3">AD</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w50296">Ragata</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50315">la Ragat'</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50334">Rogate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50366">La Regate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50395">Reygate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50413">La Rugate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50433">Rougate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50450">Roughgate</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w50471">Rowgate</searchterm>
+  </extension>
+ </mads>
+ 

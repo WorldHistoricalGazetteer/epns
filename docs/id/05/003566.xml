@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000294">
+  <authority ID="epns-deep-05-b-name-subparish-000294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003566">Oldstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000109" type="broader">
+   <geographic>Kilburn</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w262908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003567">veterem locum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w262931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003568">Oldsteade</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1809900" lat="54.2219700" gazref="geonames:7298255" source="geonames"/>
+   <geo long="-1.179456961319901" lat="54.21726819906736" gazref="unlock:11236632" source="unlock"/>
+   <geo easting="453500" northing="480500" long="-1.18104" lat="54.2174" kepnref="5945" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w262908">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w262931">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>355</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w262908">veterem locum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w262931">Oldsteade</searchterm>
+  </extension>
+ </mads>
+ 

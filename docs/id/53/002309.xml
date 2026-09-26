@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-b-subparish-000010">
+  <authority ID="epns-deep-53-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002309">Parkstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-a-parish-000010" type="broader">
+   <geographic>Parkstone</geographic>
+  </related>
+  <variant ID="epns-deep-53-b-name-w96380">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002310">Parkeston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-53-b-name-w96437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002311">manor of (Kyneston or) Parkestone</geographic>
+  </variant>
+  <variant ID="epns-deep-53-b-name-w96484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002312">(camp' de) Parkyston</geographic>
+  </variant>
+  <variant ID="epns-deep-53-b-name-w96514">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002313">Parkston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-53-b-name-w96552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002314">Parkson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852f9b47fc4099d002b75"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9449200" lat="50.7299400" gazref="geonames:2640601" source="geonames"/>
+   <geo long="-1.946162833" lat="50.72073924" source="epns"/>
+   <geo long="-1.950411221864332" lat="50.72254033387897" gazref="unlock:11240775" source="unlock"/>
+   <geo easting="403500" northing="91500" long="-1.95177" lat="50.7231" kepnref="11458" source="kepn"/>
+   <attestation variantID="epns-deep-53-b-name-w96380">
+    <date end="1326" begin="1326" subtype="simple">1326</date>
+    <source style="" id="do273">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-53-b-name-w96380">
+    <attestation variantID="epns-deep-53-b-name-w96380">
+     <date end="1463" begin="1463" subtype="simple">1463</date>
+     <source style="italic" id="do459">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-53-b-name-w96380">
+     <date end="1543" begin="1543" subtype="simple">1543</date>
+     <source style="italic" id="do151">Ct</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-53-b-name-w96437">
+    <date end="1494" begin="1494" subtype="simple">1494</date>
+    <source style="" id="do380">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-53-b-name-w96484">
+    <date end="1529" begin="1529" subtype="simple">1529</date>
+    <source style="italic" id="do151">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-53-b-name-w96514">
+    <attestation variantID="epns-deep-53-b-name-w96514">
+     <date end="1596" begin="1576" subtype="circa">c. 1586</date>
+     <source style="" id="do713">Tres</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-53-b-name-w96552">
+    <date end="1774" begin="1774" subtype="simple">1774</date>
+    <source style="" id="do359">Hutch1</source>
+   </attestation>
+   <searchterm variantID="epns-deep-53-b-name-w96380">Parkestone</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96380">Parkeston</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96437">manor of Kyneston or Parkestone</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96437">manor of Parkestone</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96484">camp' de Parkyston</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96484">Parkyston</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96514">Parkstone</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96514">Parkston</searchterm>
+   <searchterm variantID="epns-deep-53-b-name-w96552">Parkson</searchterm>
+  </extension>
+ </mads>
+ 

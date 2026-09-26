@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000067">
+  <authority ID="epns-deep-07-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003021">South Heighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000016" type="broader">
+   <geographic>Flexborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c0e"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0782000" lat="50.8061900" gazref="geonames:7296626" source="geonames"/>
+   <geo long="0.06511307902836477" lat="50.80320143632042" gazref="unlock:11287527" source="unlock"/>
+   <geo easting="545500" northing="103500" long="0.0639231" lat="50.8128" kepnref="7084" source="kepn"/>
+  </extension>
+ </mads>
+ 

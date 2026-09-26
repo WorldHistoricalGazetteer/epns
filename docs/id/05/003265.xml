@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000259">
+  <authority ID="epns-deep-05-b-name-subparish-000259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003265">Cundall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000101" type="broader">
+   <geographic>Cundall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w242124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003266">Cundel, Goindel</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w242149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003267">Cundale, Kundale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w242206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003268">Cundall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000469"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3520800" lat="54.1470300" gazref="geonames:2651701" source="geonames"/>
+   <geo long="-1.349283065747455" lat="54.14639592376861" gazref="unlock:11124890" source="unlock"/>
+   <geo easting="442500" northing="472500" long="-1.35084" lat="54.1466" kepnref="5911" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w242124">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w242149">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>i</item>
+    <page>36 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w242149">
+    <date subtype="simple" begin="1457" end="1457">1457</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w242206">
+    <date subtype="simple" begin="1418" end="1418">1418</date>
+    <source style="italic" id="ny8">Archd</source>
+    <page>20</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w242124">Cundel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w242124">Goindel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w242149">Cundale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w242149">Kundale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w242206">Cundall</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000202">
+  <authority ID="epns-deep-10-b-name-subparish-000202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004402">Ashley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000202" type="broader">
+   <geographic>Ashley</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w239211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004403">Ascele</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w239227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004404">Estelai</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w239249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004405">Estlaia</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w239282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004406">Esselega</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w239344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004407">As(s)helega, Asselega, and Essele, Esselee</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000511"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8319600" lat="52.5114200" gazref="geonames:2656939" source="geonames"/>
+   <geo long="-0.8285689493342056" lat="52.50622690123187" gazref="unlock:11064565" source="unlock"/>
+   <geo easting="479500" northing="290500" long="-0.830121" lat="52.5066" kepnref="11072" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w239211">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w239227">
+    <date end="1109" begin="1109" subtype="simple">1109</date>
+    <source style="" id="nh95">Eynsham</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w239249">
+    <date end="1170" begin="1150" subtype="circa">c. 1160</date>
+    <source style="" id="nh250">Reg Antiquiss</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w239282">
+    <attestation variantID="epns-deep-10-b-name-w239282">
+     <date end="1195" begin="1195" subtype="simple">1195</date>
+     <source style="" id="nh215">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w239344">
+    <date end="1600" begin="1195">1195-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w239211">Ascele</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239227">Estelai</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239249">Estlaia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239282">Esselega</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239344">Asshelega</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239344">Ashelega</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239344">Asselega</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239344">Essele</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w239344">Esselee</searchterm>
+  </extension>
+ </mads>
+ 

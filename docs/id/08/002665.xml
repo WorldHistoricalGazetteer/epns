@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000047">
+  <authority ID="epns-deep-08-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002665">Huish</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000047" type="broader">
+   <geographic>Huish</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w140902">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002666">Ywis, Hywis</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w140953">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002667">Hywis(c)h, Hywys(s)h</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w140977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002668">Hywys(s)h juxta Merton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001988"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0776600" lat="50.8789200" gazref="geonames:7297596" source="geonames"/>
+   <geo long="-4.082896251189332" lat="50.88383765935319" gazref="unlock:11180822" source="unlock"/>
+   <geo easting="253500" northing="111500" long="-4.08402" lat="50.8844" kepnref="15504" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w140902">
+    <attestation variantID="epns-deep-08-b-name-w140902">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w140953">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w140977">
+    <date end="1410" begin="1410" subtype="simple">1410</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w140902">Ywis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140902">Hywis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140953">Hywisch</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140953">Hywish</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140953">Hywyssh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140953">Hywysh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140977">Hywyssh juxta Merton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w140977">Hywysh juxta Merton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000026">
+  <authority ID="epns-deep-13-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001544">Barston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000024" type="broader">
+   <geographic>Barston</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w80584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001545">Bercestone, Bertanestone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80618">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001546">Berestanestona</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001547">Berstan(e)ston</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001548">Berstonestun</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001549">Berstaston</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001550">Berstone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001551">Barston</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w80824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001552">Barson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287435b47fc40c5f000729"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6955000" lat="52.3999100" gazref="geonames:2656227" source="geonames"/>
+   <geo long="-1.698638334594741" lat="52.40374815755609" gazref="unlock:11071130" source="unlock"/>
+   <geo easting="420500" northing="278500" long="-1.70008" lat="52.4041" kepnref="4913" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w80584">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80618">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <source style="" id="wa297">Templars</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80648">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <source style="" id="wa58">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80648">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80648">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wa280">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80706">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="wa5">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80730">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="" id="wa280">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80752">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="" id="wa5">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80752">
+    <date end="1397" begin="1397" subtype="simple">1397</date>
+    <source style="" id="wa56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80752">
+    <date end="1436" begin="1436" subtype="simple">1436</date>
+    <source style="" id="wa139">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80752">
+    <date end="1500" begin="1500" subtype="simple">1500</date>
+    <source style="" id="wa151">KnowleG</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80806">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="" id="wa151" underspec="ib">KnowleG</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w80824">
+    <date end="1610" begin="1590" subtype="circa">c. 1600</date>
+    <source style="italic" id="wa401">Shakespeare, Hy IV, Part ii.</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w80584">Bercestone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80584">Bertanestone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80618">Berestanestona</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80648">Berstaneston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80648">Berstanston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80706">Berstonestun</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80730">Berstaston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80752">Berstone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80806">Barston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w80824">Barson</searchterm>
+  </extension>
+ </mads>
+ 

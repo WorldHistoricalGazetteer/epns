@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000077">
+  <authority ID="epns-deep-10-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001849">West Haddon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000077" type="broader">
+   <geographic>West Haddon</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w103010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001850">E(d)done</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w103028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001851">Westhaddon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w103062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001852">West Haddoun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7fb47fc40bba00062c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0780400" lat="52.3416800" gazref="geonames:2634407" source="geonames"/>
+   <geo long="-1.067899742368048" lat="52.33751748157422" gazref="unlock:11316933" source="unlock"/>
+   <geo easting="463500" northing="271500" long="-1.06942" lat="52.3379" kepnref="10947" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w103010">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w103028">
+    <attestation variantID="epns-deep-10-b-name-w103028">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w103062">
+    <date end="1388" begin="1388" subtype="simple">1388</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w103010">Eddone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w103010">Edone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w103028">Westhaddon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w103062">West Haddoun</searchterm>
+  </extension>
+ </mads>
+ 

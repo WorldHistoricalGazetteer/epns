@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-hu-subcounty-000015">
+  <authority ID="epns-deep-02-hu-name-subcounty-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003248">Risborough Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-co-county-000001" type="broader">
+   <geographic>Buckinghamshire</geographic>
+  </related>
+  <variant ID="epns-deep-02-hu-name-w223997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003249">Ris(e)berg</geographic>
+  </variant>
+  <variant ID="epns-deep-02-hu-name-w224053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003250">Rysebergh, Rysenberg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282eceb47fc407e3000310"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-02-hu-name-w223997">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-hu-name-w223997">
+    <date subtype="simple" begin="1155" end="1155">1155</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-hu-name-w223997">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-hu-name-w224053">
+    <date subtype="simple" begin="1262" end="1262">1262</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-hu-name-w223997">Riseberg</searchterm>
+   <searchterm variantID="epns-deep-02-hu-name-w223997">Risberg</searchterm>
+   <searchterm variantID="epns-deep-02-hu-name-w224053">Rysebergh</searchterm>
+   <searchterm variantID="epns-deep-02-hu-name-w224053">Rysenberg</searchterm>
+  </extension>
+ </mads>
+ 

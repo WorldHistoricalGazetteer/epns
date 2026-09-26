@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000043">
+  <authority ID="epns-deep-79-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/003789">Calthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d04"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.236610552" lat="52.83201357" source="epns"/>
+   <geo long="1.244356715613218" lat="52.8363001458307" gazref="unlock:11096841" source="unlock"/>
+   <geo easting="618500" northing="331500" long="1.24255" lat="52.8367" kepnref="9196" source="kepn"/>
+  </extension>
+ </mads>
+ 

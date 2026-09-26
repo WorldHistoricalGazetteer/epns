@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000004">
+  <authority ID="epns-deep-07-b-name-subparish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000218">Clayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000004" type="broader">
+   <geographic>Clayton</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w15972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000219">Glaitone, Glaytone</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w16014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000220">Claitune</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w16032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000221">Clayton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w16062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000222">Cleitun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w16094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000223">Cleiton, Cleyton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w16151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000224">Claetona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1543200" lat="50.9116900" gazref="geonames:2652902" source="geonames"/>
+   <geo long="-0.1433795316609817" lat="50.91464027310817" gazref="unlock:11108569" source="unlock"/>
+   <geo easting="530500" northing="114500" long="-0.144947" lat="50.9152" kepnref="7024" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w15972">
+    <date end="1073" begin="1073" subtype="simple">1073</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w15972">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16014">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16032">
+    <attestation variantID="epns-deep-07-b-name-w16032">
+     <date end="1284" begin="1284" subtype="simple">1284</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16062">
+    <date end="1118" begin="1107" subtype="simple">1107-18</date>
+    <source style="" id="su2">AC</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16062">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16094">
+    <attestation variantID="epns-deep-07-b-name-w16094">
+     <date end="1150" begin="1150" subtype="simple">1150</date>
+     <copydate end="1253" begin="1253">1253</copydate>
+     <source style="italic" id="su263">Sele</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w16094">
+     <date end="1347" begin="1347" subtype="simple">1347</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w16151">
+    <date end="1121" begin="1121" subtype="simple">1121</date>
+    <source style="italic" id="su4">AD</source>
+    <item>464</item>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w15972">Glaitone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w15972">Glaytone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16014">Claitune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16032">Claytone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16032">Clayton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16062">Cleitune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16062">Cleitun</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16094">Cleiton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16094">Cleyton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w16151">Claetona</searchterm>
+  </extension>
+ </mads>
+ 

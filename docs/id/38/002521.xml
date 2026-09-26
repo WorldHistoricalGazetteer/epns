@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000025">
+  <authority ID="epns-deep-38-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002521">Duntisbourne Rouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000025" type="broader">
+   <geographic>Duntisbourne Rouse</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w122650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002522">Dvntesborne</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w122671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002523">Duntesb(o)urn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w122711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002524">Duntesb(o)urn(e) Rus</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w122742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002525">Duntesb(o)urn(e) Rous</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w122800">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002526">Duntesb(o)urn(e) Militis</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w122856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002527">Dunsburn Rowse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001aec"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0354700" lat="51.7505600" gazref="geonames:7300571" source="geonames"/>
+   <geo long="-2.028976156" lat="51.7522352" source="epns"/>
+   <geo long="-2.021734281833799" lat="51.75673357151327" gazref="unlock:11134568" source="unlock"/>
+   <geo easting="398500" northing="206500" long="-2.02312" lat="51.7572" kepnref="6216" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w122650">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122671">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122671">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122711">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122742">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go25" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122742">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122742">
+    <date subtype="simple" begin="1474" end="1474">1474</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122800">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="go504">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122800">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122800">
+    <date subtype="simple" begin="1544" end="1544">1544</date>
+    <source style="" id="go310">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w122856">
+    <date subtype="simple" begin="1533" end="1533">1533</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w122650">Dvntesborne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122671">Duntesbourne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122671">Duntesbourn</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122671">Duntesburne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122671">Duntesburn</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122711">Duntesbourne Rus</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122711">Duntesbourn Rus</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122711">Duntesburne Rus</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122711">Duntesburn Rus</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122742">Duntesbourne Rous</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122742">Duntesbourn Rous</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122742">Duntesburne Rous</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122742">Duntesburn Rous</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122800">Duntesbourne Militis</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122800">Duntesbourn Militis</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122800">Duntesburne Militis</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122800">Duntesburn Militis</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w122856">Dunsburn Rowse</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000077">
+  <authority ID="epns-deep-09-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004100">St Leonards</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000077" type="broader">
+   <geographic>Exeter St Leonards</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w186579">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004101">parochia Scī Leonardi extᵃ Exon</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w186621">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004102">capella Sancti Leonardi</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w186657">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004103">Seyntleonardisdoune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00195c"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="0085" long="-3.524061" lat="50.71756" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w186579">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w186621">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w186657">
+    <date end="1501" begin="1501" subtype="simple">1501</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w186579">parochia Scī Leonardi extᵃ Exon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w186621">capella Sancti Leonardi</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w186657">Seyntleonardisdoune</searchterm>
+  </extension>
+ </mads>
+ 

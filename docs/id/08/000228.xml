@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000001">
+  <authority ID="epns-deep-08-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000228">Ashford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000001" type="broader">
+   <geographic>Braunton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0016e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1000000" lat="51.1000000" gazref="geonames:2656956" source="geonames"/>
+   <geo long="-4.092577598910083" lat="51.09953324866752" gazref="unlock:11064467" source="unlock"/>
+   <geo easting="253500" northing="135500" long="-4.0937" lat="51.1" kepnref="15458" source="kepn"/>
+  </extension>
+ </mads>
+ 

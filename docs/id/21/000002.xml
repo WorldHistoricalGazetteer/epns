@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-w-subcounty-000001">
+  <authority ID="epns-deep-21-w-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000002">Allerdale Below Derwent Ward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-co-county-000001" type="broader">
+   <geographic>Cumberland</geographic>
+  </related>
+  <variant ID="epns-deep-21-w-name-w36">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000003">Allerdall ward beneath the waiter of Darwen</geographic>
+  </variant>
+  <variant ID="epns-deep-21-w-name-w93">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000004">Allerdale Ward beneath Darwen</geographic>
+  </variant>
+  <variant ID="epns-deep-21-w-name-w142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000005">Allerdale ward below Derwent</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e7b47fc408f9000f90"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-21-w-name-w36">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-w-name-w93">
+    <date end="1640" begin="1640" subtype="simple">1640</date>
+    <source style="" id="cu159">HMC</source>
+    <item>x (iv)</item>
+   </attestation>
+   <attestation variantID="epns-deep-21-w-name-w142">
+    <date end="1671" begin="1671" subtype="simple">1671</date>
+    <source style="" id="cu123">Fleming</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-w-name-w36">Allerdall ward beneath the waiter of Darwen</searchterm>
+   <searchterm variantID="epns-deep-21-w-name-w93">Allerdale Ward beneath Darwen</searchterm>
+   <searchterm variantID="epns-deep-21-w-name-w142">Allerdale ward below Derwent</searchterm>
+  </extension>
+ </mads>
+ 

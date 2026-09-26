@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000013">
+  <authority ID="epns-deep-72-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/002229">Martham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000002" type="broader">
+   <geographic>West Flegg Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d38"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6363600" lat="52.7046400" gazref="geonames:2642959" source="geonames"/>
+   <geo long="1.626926726" lat="52.70377649" source="epns"/>
+   <geo long="1.63468672388346" lat="52.70803731082455" gazref="unlock:11214315" source="unlock"/>
+   <geo easting="645500" northing="318500" long="1.63284" lat="52.7084" kepnref="9235" source="kepn"/>
+  </extension>
+ </mads>
+ 

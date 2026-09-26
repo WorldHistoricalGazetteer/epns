@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000186">
+  <authority ID="epns-deep-08-b-name-subparish-000186">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010803">Moreleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000185" type="broader">
+   <geographic>Moreleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w545116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010804">Morlei</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w545161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010805">Morlegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w545175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010806">Moorley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019cf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7354700" lat="50.3618500" gazref="geonames:2642209" source="geonames"/>
+   <geo long="-3.736418363359513" lat="50.35882237539435" gazref="unlock:11222795" source="unlock"/>
+   <geo easting="276500" northing="52500" long="-3.73756" lat="50.3594" kepnref="15644" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w545116">
+    <attestation variantID="epns-deep-08-b-name-w545116">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w545161">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w545175">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w545116">Morlei</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w545161">Morleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w545161">Morlegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w545175">Moorley</searchterm>
+  </extension>
+ </mads>
+ 

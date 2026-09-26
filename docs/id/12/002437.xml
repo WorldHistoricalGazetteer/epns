@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000035">
+  <authority ID="epns-deep-12-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002437">Theydon Mount</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000048" type="broader">
+   <geographic>Theydon Mount</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w127401">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002438">Theyden Lessington</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w127628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002439">Theidon Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000eac"/>
+  </recordInfo>
+  <extension>
+   <geo easting="545500" northing="199500" long="0.102908" lat="51.6754" kepnref="12236" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w127401">
+    <date subtype="simple" begin="1282" end="1282">1282</date>
+    <source style="" id="ex313">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w127628">
+    <date subtype="simple" begin="1373" end="1373">1373</date>
+    <source style="" id="ex234">Londin</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w127401">Theyden Lessington</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w127628">Theidon Parva</searchterm>
+  </extension>
+ </mads>
+ 

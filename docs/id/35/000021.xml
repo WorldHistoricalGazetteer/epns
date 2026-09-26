@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-a-parish-000001">
+  <authority ID="epns-deep-35-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/000021">Keighley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-wp-subcounty-000001" type="broader">
+   <geographic>East Staincliffe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fbb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9066400" lat="53.8679100" gazref="geonames:2645889" source="geonames"/>
+   <geo long="-1.908771925" lat="53.85598515" source="epns"/>
+   <geo long="-1.901137786102577" lat="53.86946380668824" gazref="unlock:11184639" source="unlock"/>
+   <geo easting="405500" northing="440500" long="-1.91784" lat="53.8607" kepnref="14841" source="kepn"/>
+  </extension>
+ </mads>
+ 

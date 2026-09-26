@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000123">
+  <authority ID="epns-deep-45-b-name-subparish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015258">Brereton cum Smethwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000019" type="broader">
+   <geographic>Brereton</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w696593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015259">Brereton cum Smethwick</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f7d"/>
+  </recordInfo>
+  <extension>
+   <geo easting="390500" northing="369500" long="-2.14373" lat="53.2225" kepnref="11877" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w696593">
+    <date subtype="simple" begin="1724" end="1724">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w696593">Brereton cum Smethwick</searchterm>
+  </extension>
+ </mads>
+ 

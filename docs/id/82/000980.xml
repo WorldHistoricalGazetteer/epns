@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000013">
+  <authority ID="epns-deep-82-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000980">Yeaton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000001" type="broader">
+   <geographic>Baschurch</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w48846">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000981">Aitone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w48862">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000982">Eton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w48899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000983">Eaton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w48919">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000984">Yeaton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a62db47fc4463d000e8b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.840484999" lat="52.76887976" source="epns"/>
+   <geo long="-2.837538169782612" lat="52.76980070674628" gazref="unlock:11328454" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w48846">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w48862">
+    <date end="1272" begin="1271" subtype="simple">1271-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w48862">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w48862">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="ss115">HAC</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w48899">
+    <date end="1687" begin="1687" subtype="simple">1687</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>4</page>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w48919">
+    <attestation variantID="epns-deep-82-b-name-w48919">
+     <date end="1702" begin="1702" subtype="simple">1702</date>
+     <source style="" id="ss231">PR(L)</source>
+     <page>15</page>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w48846">Aitone</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w48862">Eton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w48899">Eaton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w48919">Yeaton</searchterm>
+  </extension>
+ </mads>
+ 

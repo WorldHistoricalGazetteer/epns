@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000084">
+  <authority ID="epns-deep-24-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006458">Idbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000075" type="broader">
+   <geographic>Idbury</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w248702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006459">Ideberie</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w248752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006460">Idebyre, Idebire, Idebur', Idebury, Ydebery, Ydebury</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w248819">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006461">Iddebir</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w248873">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006462">Iddebir', Iddebur(y), Yddebury</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w248918">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006463">Edebur'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w248936">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006464">Edbury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000810"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6589500" lat="51.8779600" gazref="geonames:2646299" source="geonames"/>
+   <geo long="-1.658617335742089" lat="51.87313670505725" gazref="unlock:11182120" source="unlock"/>
+   <geo easting="423500" northing="220500" long="-1.65998" lat="51.8826" kepnref="3710" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w248702">
+    <attestation variantID="epns-deep-24-b-name-w248702">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w248702">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="ox75">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w248752">
+    <date end="1428" begin="1086">1086-1428</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w248819">
+    <attestation variantID="epns-deep-24-b-name-w248819">
+     <date subtype="simple" begin="1241" end="1241">1241</date>
+     <source style="italic" id="ox15">Ass</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-24-b-name-w248819">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="ox75">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w248873">
+    <date end="1428" begin="1241">1241-1428</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w248918">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w248936">
+    <date subtype="simple" begin="1675" end="1675">1675</date>
+    <source style="" id="ox150">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w248702">Ideberie</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Idebyre</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Idebire</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Idebur'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Idebury</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Ydebery</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248752">Ydebury</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248819">Iddebir</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248873">Iddebir'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248873">Iddebury</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248873">Iddebur</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248873">Yddebury</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248918">Edebur'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w248936">Edbury</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000087">
+  <authority ID="epns-deep-46-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/011095">Frodsham Lordship</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000022" type="broader">
+   <geographic>Frodsham</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w569139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/011096">dominium de Frodessam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fb3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.719955687" lat="53.27852773" source="epns"/>
+   <geo kepnexref="436" long="-2.7196" lat="53.2905" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w569139">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="ch228">Facs</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w569139">dominium de Frodessam</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000151">
+  <authority ID="epns-deep-12-b-name-subparish-000151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009242">Sandon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000201" type="broader">
+   <geographic>Sandon</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w464488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009243">Sandun, Sandon(a), Sandone</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w464556">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009244">Saundone</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w464580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009245">Sondon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e87"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5375500" lat="51.7095600" gazref="geonames:7295113" source="geonames"/>
+   <geo easting="574500" northing="204500" long="0.524418" lat="51.7121" kepnref="12380" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w464488">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w464488">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ex107">CurR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w464488">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w464488">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w464556">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w464580">
+    <date subtype="simple" begin="1550" end="1550">1550</date>
+    <date subtype="simple" begin="1552" end="1552">1552</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w464488">Sandun</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w464488">Sandona</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w464488">Sandon</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w464488">Sandone</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w464556">Saundone</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w464580">Sondon</searchterm>
+  </extension>
+ </mads>
+ 

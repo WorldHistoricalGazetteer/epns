@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000045">
+  <authority ID="epns-deep-45-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007097">Marston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000010" type="broader">
+   <geographic>Great Budworth</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fc9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4972400" lat="53.2804400" gazref="geonames:7293036" source="geonames"/>
+   <geo long="-2.502427656949516" lat="53.27514876402321" gazref="unlock:11214255" source="unlock"/>
+   <geo easting="367500" northing="375500" long="-2.48882" lat="53.2755" kepnref="11805" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000030">
+  <authority ID="epns-deep-86-a-name-parish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/005881">Toller Fratrum</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000003" type="broader">
+   <geographic>Tollerford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a74"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6011200" lat="50.7770400" gazref="geonames:7293440" source="geonames"/>
+   <geo long="-2.597139467" lat="50.77408456" source="epns"/>
+   <geo long="-2.602824397659552" lat="50.77495517029642" gazref="unlock:11302062" source="unlock"/>
+   <geo easting="357500" northing="97500" long="-2.60411" lat="50.7755" kepnref="11631" source="kepn"/>
+  </extension>
+ </mads>
+ 

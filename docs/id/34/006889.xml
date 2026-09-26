@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000076">
+  <authority ID="epns-deep-34-b-name-subparish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/006889">Norwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000032" type="broader">
+   <geographic>Fewston</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w285996">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/006890">Northwode</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w286034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/006891">Northewood</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w286059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/006892">Norwood(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006109"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6793000" lat="53.9744500" gazref="geonames:7300256" source="geonames"/>
+   <geo long="-1.679880488" lat="53.96345954" source="epns"/>
+   <geo long="-1.672364354025917" lat="53.94995739869218" gazref="unlock:11233865" source="unlock"/>
+   <geo easting="419500" northing="448500" long="-1.70448" lat="53.9323" kepnref="14946" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w285996">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="wr799">YD</source>
+    <item>x</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w285996">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="wr577">PT</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w286034">
+    <date end="1573" begin="1573" subtype="simple">1573</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w286059">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="italic" id="wr689">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w286059">
+    <attestation variantID="epns-deep-34-b-name-w286059">
+     <date end="1566" begin="1566" subtype="simple">1566</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w286059">
+     <date end="1795" begin="1795" subtype="simple">1795</date>
+     <source style="" id="wr494">PRAdd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w285996">Northwode</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w286034">Northewood</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w286059">Norwoode</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w286059">Norwood</searchterm>
+  </extension>
+ </mads>
+ 

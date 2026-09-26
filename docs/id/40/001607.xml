@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000014">
+  <authority ID="epns-deep-40-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001607">Hawkesbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000002" type="broader">
+   <geographic>Grumbald's Ash Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001984"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3365000" lat="51.5808400" gazref="geonames:2647293" source="geonames"/>
+   <geo long="-2.346336632" lat="51.57188263" source="epns"/>
+   <geo long="-2.339154980105585" lat="51.57640051358476" gazref="unlock:11167697" source="unlock"/>
+   <geo easting="376500" northing="187500" long="-2.34056" lat="51.5859" kepnref="6460" source="kepn"/>
+  </extension>
+ </mads>
+ 

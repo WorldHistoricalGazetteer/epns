@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000137">
+  <authority ID="epns-deep-31-b-name-subparish-000137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/018106">Springhead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000038" type="broader">
+   <geographic>Rochdale</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w763720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/018107">Springhead</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006221"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.060354089" lat="53.5323945" source="epns"/>
+   <geo long="-2.067905555234148" lat="53.5368863914999" gazref="unlock:11289599" source="unlock"/>
+   <geo kepnexref="304" long="-2.056552" lat="53.543877" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w763720">
+    <date subtype="simple" begin="1825" end="1825">1825</date>
+    <source style="" id="wr554">PRSad</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w763720">Springhead</searchterm>
+  </extension>
+ </mads>
+ 

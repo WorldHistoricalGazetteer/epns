@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000085">
+  <authority ID="epns-deep-98-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002037">Eggington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000086" type="broader">
+   <geographic>Eggington</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w158372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002038">Ekendon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w158435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002039">Ekyndon, Ekindon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w158482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002040">Egynton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000339"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6152300" lat="51.9250700" gazref="geonames:7294316" source="geonames"/>
+   <geo long="-0.6112232602853269" lat="51.91939063784849" gazref="unlock:11138244" source="unlock"/>
+   <geo easting="495500" northing="225500" long="-0.612777" lat="51.9198" kepnref="4310" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w158372">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158372">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="bh55">Dunst</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158372">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="bh9">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158372">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158435">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158435">
+    <date subtype="simple" begin="1341" end="1341">1341</date>
+    <source style="" id="bh14">BHRS</source>
+    <item>viii</item>
+    <page>26</page>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w158482">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="bh144">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w158372">Ekendon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w158435">Ekyndon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w158435">Ekindon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w158482">Egynton</searchterm>
+  </extension>
+ </mads>
+ 

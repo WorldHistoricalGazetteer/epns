@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000043">
+  <authority ID="epns-deep-05-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000414">Whenby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000020" type="broader">
+   <geographic>Whenby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w32909">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000415">Quennebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w32927">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000416">Quenebi, Queneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w32974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000417">Quenby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000418">Qwheneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w33024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000419">Whenby(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0388200" lat="54.1213000" gazref="geonames:2634162" source="geonames"/>
+   <geo long="-1.028426154171809" lat="54.11726758179064" gazref="unlock:11319791" source="unlock"/>
+   <geo easting="463500" northing="469500" long="-1.03002" lat="54.1175" kepnref="5694" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w32909">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w32927">
+    <attestation variantID="epns-deep-05-b-name-w32927">
+     <date subtype="simple" begin="1202" end="1202">1202</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w32927">
+     <date subtype="simple" begin="1333" end="1333">1333</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w32974">
+    <date subtype="simple" begin="1338" end="1338">1338</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w32974">
+    <date subtype="simple" begin="1394" end="1394">1394</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33006">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33024">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <copydate end="1603" begin="1558">Eliz</copydate>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33024">
+    <date subtype="simple" begin="1454" end="1454">1454</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w33024">
+    <date subtype="simple" begin="1530" end="1530">1530</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w32909">Quennebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w32927">Quenebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w32927">Queneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w32974">Quenby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33006">Qwheneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33024">Whenbye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w33024">Whenby</searchterm>
+  </extension>
+ </mads>
+ 

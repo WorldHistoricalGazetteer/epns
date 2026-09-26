@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000067">
+  <authority ID="epns-deep-39-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/006914">Longford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000065" type="broader">
+   <geographic>Longford</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w347469">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/006915">Lang(e)ford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w347602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/006916">Long(e)ford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w347742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/006917">Long(e)ford(e) iuxta Gloucestre</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w347783">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/006918">Lonkeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b46"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2439500" lat="51.8840000" gazref="geonames:7295201" source="geonames"/>
+   <geo long="-2.24698336" lat="51.87786791" source="epns"/>
+   <geo long="-2.23974319532637" lat="51.88237963561821" gazref="unlock:11205932" source="unlock"/>
+   <geo easting="384500" northing="221500" long="-2.22662" lat="51.8918" kepnref="6392" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w347469">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <date subtype="simple" begin="1100" end="1135">1100-35</date>
+    <source style="italic" id="go510">Tewk</source>
+    <item>71d, 83d</item>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347469">
+    <date subtype="simple" begin="1107" end="1107">1107</date>
+    <copydate end="1300" begin="1300">1300</copydate>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347469">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="go2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347469">
+    <attestation variantID="epns-deep-39-b-name-w347469">
+     <date subtype="simple" begin="1210" end="1306">c. 1210-1306</date>
+     <source style="" id="go227">GlR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347469">
+    <attestation variantID="epns-deep-39-b-name-w347469">
+     <date subtype="simple" begin="1220" end="1220">1220</date>
+     <source style="" id="go175">Fees</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-39-b-name-w347469">
+     <date subtype="circa" begin="1550" end="1570">c. 1560</date>
+     <source style="italic" id="go491">Surv</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <date subtype="simple" begin="1137" end="1137">1137</date>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <attestation variantID="epns-deep-39-b-name-w347602">
+     <date subtype="simple" begin="1200" end="1310">c. 1200-1310</date>
+     <source style="" id="go227">GlR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <date subtype="circa" begin="1200" end="1220">c. 1210</date>
+    <source style="" id="go230">Godstow</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <date subtype="simple" begin="1216" end="1218">1216-18</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347602">
+    <attestation variantID="epns-deep-39-b-name-w347602">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="go174">FA</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-39-b-name-w347602">
+     <date subtype="simple" begin="1702" end="1702">1702</date>
+     <source style="" id="go410">PR</source>
+     <page>7</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347742">
+    <date subtype="simple" begin="1338" end="1338">1338</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w347783">
+    <date subtype="circa" begin="1200" end="1220">c. 1210</date>
+    <source style="" id="go230">Godstow</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w347469">Langeforde</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347469">Langeford</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347469">Langforde</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347469">Langford</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347602">Longeforde</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347602">Longeford</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347602">Longforde</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347602">Longford</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347742">Longeforde iuxta Gloucestre</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347742">Longeford iuxta Gloucestre</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347742">Longforde iuxta Gloucestre</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347742">Longford iuxta Gloucestre</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w347783">Lonkeford</searchterm>
+  </extension>
+ </mads>
+ 

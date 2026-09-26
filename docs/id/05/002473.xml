@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000194">
+  <authority ID="epns-deep-05-b-name-subparish-000194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002473">Kilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000074" type="broader">
+   <geographic>Skelton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w192841">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002474">Chiltun, Chilton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w192867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002475">Chiltona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w192891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002476">Kilton, Kylton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9097541788017166" lat="54.55669882687418" gazref="unlock:11186470" source="unlock"/>
+   <geo easting="470500" northing="518500" long="-0.911387" lat="54.5568" kepnref="5846" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w192841">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w192867">
+    <date subtype="ante" begin="1107" end="1157">a. 1157</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w192891">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="italic" id="ny12">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w192891">
+    <attestation variantID="epns-deep-05-b-name-w192891">
+     <date subtype="simple" begin="1292" end="1292">1292</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+    <attestation variantID="epns-deep-05-b-name-w192891">
+     <date subtype="simple" begin="1292" end="1292">1292</date>
+     <source style="" id="ny168">Percy</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w192841">Chiltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w192841">Chilton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w192867">Chiltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w192891">Kilton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w192891">Kylton</searchterm>
+  </extension>
+ </mads>
+ 

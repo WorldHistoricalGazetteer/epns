@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000005">
+  <authority ID="epns-deep-30-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000816">Sykehouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000003" type="broader">
+   <geographic>Fishlake</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w35565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000817">Sikehouse, Sykehouse</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w35640">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000818">Sike Howses</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w35661">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000819">Sikehowse</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w35700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000820">Syk house</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w35721">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000821">Sikhouse</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w35742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/000822">Sickhouse(s)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006110"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0493600" lat="53.6447800" gazref="geonames:2636354" source="geonames"/>
+   <geo long="-1.047071683" lat="53.63648916" source="epns"/>
+   <geo long="-1.03940753156801" lat="53.64092398289232" gazref="unlock:11296853" source="unlock"/>
+   <geo easting="463500" northing="417500" long="-1.04078" lat="53.6502" kepnref="14262" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w35565">
+    <date subtype="simple" begin="1404" end="1404">1404</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>76</page>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35565">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35565">
+    <attestation variantID="epns-deep-30-b-name-w35565">
+     <date subtype="simple" begin="1548" end="1548">1548</date>
+     <source style="" id="wr797">YChant</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35640">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="" id="wr797" underspec="ib">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35661">
+    <date subtype="simple" begin="1580" end="1580">1580</date>
+    <date subtype="simple" begin="1623" end="1623">1623</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35661">
+    <date subtype="simple" begin="1682" end="1682">1682</date>
+    <source style="italic" id="wr99">Comm</source>
+    <item>66</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35700">
+    <date subtype="simple" begin="1555" end="1555">1555</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35721">
+    <date subtype="simple" begin="1591" end="1591">1591</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w35742">
+    <date subtype="simple" begin="1620" end="1620">1620</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w35565">Sikehouse</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35565">Sykehouse</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35640">Sike Howses</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35661">Sikehowse</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35700">Syk house</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35721">Sikhouse</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35742">Sickhouses</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w35742">Sickhouse</searchterm>
+  </extension>
+ </mads>
+ 

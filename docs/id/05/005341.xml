@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000483">
+  <authority ID="epns-deep-05-b-name-subparish-000483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005341">Barton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000163" type="broader">
+   <geographic>Barton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w379277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005342">Barton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000414"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6470900" lat="54.4729300" gazref="geonames:2656216" source="geonames"/>
+   <geo long="-1.637349367621895" lat="54.47118713233231" gazref="unlock:11071180" source="unlock"/>
+   <geo easting="423500" northing="508500" long="-1.63889" lat="54.4713" kepnref="6137" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w379277">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w379277">
+    <attestation variantID="epns-deep-05-b-name-w379277">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>83 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w379277">Barton</searchterm>
+  </extension>
+ </mads>
+ 

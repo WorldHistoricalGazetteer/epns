@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000067">
+  <authority ID="epns-deep-21-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005769">Drigg</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000072" type="broader">
+   <geographic>Drigg and Carleton</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w246118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005770">Dreg</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005771">Dreg in Coupland</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005772">Drege otherwise Dregge</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005773">Dregg(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005774">le Dregg</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005775">Drigg</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w246314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/005776">Drigge al. Dregge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000fd0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4428200" lat="54.3776100" gazref="geonames:2650989" source="geonames"/>
+   <geo long="-3.439496775554796" lat="54.37326861076275" gazref="unlock:11131770" source="unlock"/>
+   <geo easting="306500" northing="498500" long="-3.44081" lat="54.3734" kepnref="4529" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w246118">
+    <date end="1199" begin="1175" subtype="simple">1175-99</date>
+    <source style="italic" id="cu95">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246118">
+    <attestation variantID="epns-deep-21-b-name-w246118">
+     <date end="1190" begin="1170" subtype="circa">c. 1180</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w246118">
+     <date end="1363" begin="1363" subtype="simple">1363</date>
+     <source style="" id="cu173">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246170">
+    <date end="1300" begin="1280" subtype="circa">c. 1290</date>
+    <source style="" id="cu369">StB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246202">
+    <date end="1557" begin="1557" subtype="simple">1557</date>
+    <source style="italic" id="cu253">Netherhall</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246242">
+    <attestation variantID="epns-deep-21-b-name-w246242">
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="italic" id="cu11">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w246242">
+     <date end="1514" begin="1514" subtype="simple">1514</date>
+     <source style="" id="cu24">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246280">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="cu11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246299">
+    <date end="1572" begin="1572" subtype="simple">1572</date>
+    <source style="" id="cu120">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w246314">
+    <date end="1579" begin="1579" subtype="simple">1579</date>
+    <source style="" id="cu120" underspec="ib">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w246118">Dreg</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246170">Dreg in Coupland</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246202">Drege otherwise Dregge</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246242">Dregge</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246242">Dregg</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246280">le Dregg</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246299">Drigg</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246314">Drigge</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w246314">Dregge</searchterm>
+  </extension>
+ </mads>
+ 

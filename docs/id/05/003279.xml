@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000102">
+  <authority ID="epns-deep-05-a-name-parish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003279">Topcliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000007" type="broader">
+   <geographic>Birdforth Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003d6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3882100" lat="54.1776900" gazref="geonames:2635683" source="geonames"/>
+   <geo long="-1.379365199355602" lat="54.18250926212536" gazref="unlock:11302798" source="unlock"/>
+   <geo easting="439500" northing="476500" long="-1.39624" lat="54.1828" kepnref="5913" source="kepn"/>
+  </extension>
+ </mads>
+ 

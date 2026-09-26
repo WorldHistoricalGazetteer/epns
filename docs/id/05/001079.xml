@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000112">
+  <authority ID="epns-deep-05-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001079">Harome</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000044" type="broader">
+   <geographic>Helmsley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w92447">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001080">Harun, Harem, Harum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w92476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001081">Harum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w92541">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001082">Harom(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w92568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001083">Haram</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w92592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001084">Harom</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0056800" lat="54.2296700" gazref="geonames:2647452" source="geonames"/>
+   <geo long="-1.010127700781058" lat="54.24296258057584" gazref="unlock:11166354" source="unlock"/>
+   <geo easting="464500" northing="482500" long="-1.01195" lat="54.2342" kepnref="5763" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w92447">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92476">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92476">
+    <date subtype="simple" begin="1192" end="1192">1192</date>
+    <source style="italic" id="ny103">Kirkham</source>
+    <page>70 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92476">
+    <date subtype="simple" begin="1471" end="1471">1471</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92541">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92541">
+    <date subtype="simple" begin="1572" end="1572">1572</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92568">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92568">
+    <date subtype="simple" begin="1614" end="1614">1614</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w92592">
+    <date subtype="simple" begin="1572" end="1572">1572</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w92447">Harun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92447">Harem</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92447">Harum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92476">Harum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92541">Harome</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92541">Harom</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92568">Haram</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w92592">Harom</searchterm>
+  </extension>
+ </mads>
+ 

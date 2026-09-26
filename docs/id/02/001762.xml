@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000104">
+  <authority ID="epns-deep-02-a-name-parish-000104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001762">Drayton Beauchamp</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000009" type="broader">
+   <geographic>Yardley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000269"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6964100" lat="51.7934700" gazref="geonames:7298701" source="geonames"/>
+   <geo long="-0.6873190707281347" lat="51.80336129101102" gazref="unlock:11131671" source="unlock"/>
+   <geo easting="490500" northing="212500" long="-0.688859" lat="51.8038" kepnref="11298" source="kepn"/>
+  </extension>
+ </mads>
+ 

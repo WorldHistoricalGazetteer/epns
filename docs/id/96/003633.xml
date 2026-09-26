@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000078">
+  <authority ID="epns-deep-96-a-name-parish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/003633">Little Wilbraham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000008" type="broader">
+   <geographic>Staine Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00071a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2569800" lat="52.2036600" gazref="geonames:2644220" source="geonames"/>
+   <geo long="0.2611142507723496" lat="52.20264223505683" gazref="unlock:11197166" source="unlock"/>
+   <geo easting="554500" northing="258500" long="0.259448" lat="52.2031" kepnref="4039" source="kepn"/>
+  </extension>
+ </mads>
+ 

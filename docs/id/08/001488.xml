@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000028">
+  <authority ID="epns-deep-08-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001488">Loxhore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000028" type="broader">
+   <geographic>Loxhore</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w85051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001489">Loches(s)ora</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001490">Lokesore</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001491">Lokkesore</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001492">Lockesore, Lockisore, and Lockishore</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001493">Logeshor'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85220">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001494">Overlockysore, Nitherlockysore</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w85260">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001495">Overalockissore juxta Shirewille</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019b1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9786000" lat="51.1303700" gazref="geonames:2643465" source="geonames"/>
+   <geo long="-3.979534408952899" lat="51.1284851608759" gazref="unlock:11209244" source="unlock"/>
+   <geo easting="261500" northing="138500" long="-3.98067" lat="51.129" kepnref="15485" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w85051">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85073">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85092">
+    <attestation variantID="epns-deep-08-b-name-w85092">
+     <date end="1244" begin="1244" subtype="simple">1244</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w85092">
+     <date end="1324" begin="1324" subtype="simple">1324</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85156">
+    <date end="1324" begin="1244">1244-1324</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85196">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85220">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w85260">
+    <date end="1339" begin="1339" subtype="simple">1339</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w85051">Lochessora</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85051">Lochesora</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85073">Lokesore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85092">Lokkesore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85156">Lockesore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85156">Lockisore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85156">Lockishore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85196">Logeshor'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85220">Overlockysore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85220">Nitherlockysore</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w85260">Overalockissore juxta Shirewille</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000085">
+  <authority ID="epns-deep-29-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009706">Castle Gresley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000078" type="broader">
+   <geographic>Castle Gresley</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w288840">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009707">Castelgresele</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w288863">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009708">Castelgreseley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w288912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009709">Cast. Graiesley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00182e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5857100" lat="52.7581100" gazref="geonames:7298172" source="geonames"/>
+   <geo long="-1.592414527322947" lat="52.76306617318427" gazref="unlock:11100894" source="unlock"/>
+   <geo easting="427500" northing="318500" long="-1.59389" lat="52.7634" kepnref="3493" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w288840">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w288863">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w288863">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="" id="db5">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w288863">
+    <date subtype="simple" begin="1488" end="1488">1488</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w288912">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w288840">Castelgresele</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w288863">Castelgreseleye</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w288863">Castelgreseley</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w288912">Cast. Graiesley</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000015">
+  <authority ID="epns-deep-49-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004908">Barkham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000018" type="broader">
+   <geographic>Barkham</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w178530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004909">(æt) Beorchamme</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178566">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004910">Beorcham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004911">Bercheham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178617">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004912">Berkeham, Berkehem</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004913">Berkeham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004914">Berkham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004915">Bercham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004916">Berkham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w178770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/004917">Bergham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b27"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8759000" lat="51.3980500" gazref="geonames:2656334" source="geonames"/>
+   <geo long="-0.8714120764364979" lat="51.40059870849093" gazref="unlock:11070092" source="unlock"/>
+   <geo easting="478500" northing="167500" long="-0.872915" lat="51.4011" kepnref="3039" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w178530">
+    <date end="952" begin="952" subtype="simple">952</date>
+    <copydate end="1600" begin="1500">16th</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>895</item>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178566">
+    <date end="952" begin="952" subtype="simple">952</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>895</item>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178598">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178617">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178647">
+    <date end="1243" begin="1242" subtype="simple">1242-3</date>
+    <source style="" id="be121" underspec="ib">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178647">
+    <date end="1517" begin="1517" subtype="simple">1517</date>
+    <source style="" id="be89">D Inc</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178681">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="be317">RSO</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178706">
+    <attestation variantID="epns-deep-49-b-name-w178706">
+     <date end="1243" begin="1242" subtype="simple">1242-3</date>
+     <source style="" id="be121">Fees</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178735">
+    <attestation variantID="epns-deep-49-b-name-w178735">
+     <date end="1243" begin="1242" subtype="simple">1242-3</date>
+     <source style="" id="be121">Fees</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w178770">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="" id="be121">Fees</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w178530">æt Beorchamme</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178530">Beorchamme</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178566">Beorcham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178598">Bercheham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178617">Berkeham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178617">Berkehem</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178647">Berkeham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178681">Berkham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178706">Bercham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178735">Berkham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w178770">Bergham</searchterm>
+  </extension>
+ </mads>
+ 

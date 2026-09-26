@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000019">
+  <authority ID="epns-deep-43-a-name-parish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007126">Crosby Ravensworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000002" type="broader">
+   <geographic>West Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f00137d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5881400" lat="54.5232700" gazref="geonames:2651891" source="geonames"/>
+   <geo long="-2.58088" lat="54.5244" source="epns"/>
+   <geo long="-2.579450169496353" lat="54.52427097073752" gazref="unlock:11122815" source="unlock"/>
+   <geo easting="362500" northing="514500" long="-2.58088" lat="54.5244" kepnref="5166" source="kepn"/>
+  </extension>
+ </mads>
+ 

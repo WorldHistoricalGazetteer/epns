@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000413">
+  <authority ID="epns-deep-05-b-name-subparish-000413">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004647">Middleham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000143" type="broader">
+   <geographic>Middleham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w340214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004648">Medelei, Medelai</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w340240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004649">Mid(d)elham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w340279">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004650">Midilham(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w340336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004651">Midelam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600053f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8166700" lat="54.2833300" gazref="geonames:2642615" source="geonames"/>
+   <geo long="-1.80798203126058" lat="54.28282717556672" gazref="unlock:11218420" source="unlock"/>
+   <geo easting="412500" northing="487500" long="-1.80949" lat="54.283" kepnref="6065" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w340214">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340240">
+    <attestation variantID="epns-deep-05-b-name-w340240">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340279">
+    <date subtype="circa" begin="1370" end="1390">c. 1380</date>
+    <source style="" id="ny214">SurvDu</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340279">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <date subtype="simple" begin="1481" end="1481">1481</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340279">
+    <date subtype="simple" begin="1459" end="1459">1459</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340336">
+    <date subtype="simple" begin="1530" end="1530">1530</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w340214">Medelei</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340214">Medelai</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340240">Middelham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340240">Midelham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340279">Midilhame</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340279">Midilham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340336">Midelam</searchterm>
+  </extension>
+ </mads>
+ 

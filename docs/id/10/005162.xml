@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000233">
+  <authority ID="epns-deep-10-b-name-subparish-000233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005162">Barnwell All Saints</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000233" type="broader">
+   <geographic>Barnwell All Saints</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w279117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005163">(æt) Byrnewilla(n)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w279160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005164">Bernewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w279230">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005165">Beornwelle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w279264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005166">Bernwell</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w279283">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005167">Kyngesbernewell(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00051a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="504500" northing="284500" long="-0.463796" lat="52.4485" kepnref="11103" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w279117">
+    <date end="990" begin="970" subtype="circa">c. 980</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="nh20">BCS</source>
+    <item>1130</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279160">
+    <date end="1060" begin="1060" subtype="simple">1060</date>
+    <copydate end="1350" begin="1350">1350</copydate>
+    <source style="" id="nh139">KCD</source>
+    <item>809</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279160">
+    <attestation variantID="epns-deep-10-b-name-w279160">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w279160">
+     <date end="1424" begin="1424" subtype="simple">1424</date>
+     <source style="" id="nh4">AD</source>
+     <item>iii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279230">
+    <date end="1077" begin="1077" subtype="simple">1077</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="nh48">ChronRams</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279264">
+    <date end="1322" begin="1322" subtype="simple">1322</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279283">
+    <date end="1344" begin="1344" subtype="simple">1344</date>
+    <source style="" id="nh221">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w279283">
+    <date end="1353" begin="1353" subtype="simple">1353</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w279117">æt Byrnewillan</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279117">æt Byrnewilla</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279117">Byrnewillan</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279117">Byrnewilla</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279160">Bernewelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279160">Bernewell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279230">Beornwelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279264">Bernwell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279283">Kyngesbernewelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w279283">Kyngesbernewell</searchterm>
+  </extension>
+ </mads>
+ 

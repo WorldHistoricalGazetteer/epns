@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000057">
+  <authority ID="epns-deep-13-a-name-parish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003016">Astley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000005" type="broader">
+   <geographic>Brinklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000613"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5427600" lat="52.4994000" gazref="geonames:2656879" source="geonames"/>
+   <geo long="-1.535898328420194" lat="52.50212374061411" gazref="unlock:11064966" source="unlock"/>
+   <geo easting="431500" northing="289500" long="-1.53737" lat="52.5025" kepnref="4825" source="kepn"/>
+  </extension>
+ </mads>
+ 

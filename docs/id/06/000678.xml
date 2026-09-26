@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-hu-subcounty-000003">
+  <authority ID="epns-deep-06-hu-name-subcounty-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000678">Westbourne Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-ra-abovesubcounty-000001" type="broader">
+   <geographic>Rape of Chichester</geographic>
+  </related>
+  <variant ID="epns-deep-06-hu-name-w63437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000679">Sengelton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c8d"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-06-hu-name-w63437">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-hu-name-w63437">Sengelton</searchterm>
+  </extension>
+ </mads>
+ 

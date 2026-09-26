@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000216">
+  <authority ID="epns-deep-12-a-name-parish-000216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010122">Hatfield Peverel</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000011" type="broader">
+   <geographic>Witham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c6a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5948900" lat="51.7759100" gazref="geonames:2647343" source="geonames"/>
+   <geo long="0.6020068692486711" lat="51.7728958904757" gazref="unlock:11167225" source="unlock"/>
+   <geo easting="579500" northing="211500" long="0.60032" lat="51.7734" kepnref="12395" source="kepn"/>
+  </extension>
+ </mads>
+ 

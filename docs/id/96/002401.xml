@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000052">
+  <authority ID="epns-deep-96-a-name-parish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002401">Hildersham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000005" type="broader">
+   <geographic>Chilford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000702"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2531100" lat="52.1125700" gazref="geonames:2646905" source="geonames"/>
+   <geo long="0.2565639240071878" lat="52.11279715067037" gazref="unlock:11173680" source="unlock"/>
+   <geo easting="554500" northing="248500" long="0.254902" lat="52.1132" kepnref="4016" source="kepn"/>
+  </extension>
+ </mads>
+ 

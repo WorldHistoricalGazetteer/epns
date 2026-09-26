@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-ct-countytown-000001">
+  <authority ID="epns-deep-98-ct-name-countytown-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000002">Bedford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-co-county-000001" type="broader">
+   <geographic>Bedfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-98-ct-name-w32">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000003">Bedanford</geographic>
+  </variant>
+  <variant ID="epns-deep-98-ct-name-w62">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000004">Bydanford</geographic>
+  </variant>
+  <variant ID="epns-deep-98-ct-name-w88">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000005">Bedeford</geographic>
+  </variant>
+  <variant ID="epns-deep-98-ct-name-w106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000006">Bedford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b09b47fc407a9000001"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4663200" lat="52.1345900" gazref="geonames:2656046" source="geonames"/>
+   <geo long="-0.458454493822241" lat="52.13330856833755" gazref="unlock:11073124" source="unlock"/>
+   <geo easting="504500" northing="249500" long="-0.474639" lat="52.1339" kepnref="4221" source="kepn"/>
+   <attestation variantID="epns-deep-98-ct-name-w32">
+    <date subtype="simple" begin="918" end="918">918</date>
+    <copydate end="935" begin="915">c. 925</copydate>
+    <ms>A</ms>
+    <source style="" id="bh6">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-ct-name-w62">
+    <date subtype="circa" begin="990" end="1010">c. 1000</date>
+    <source style="" id="bh214">Saints</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-ct-name-w88">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-ct-name-w106">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-ct-name-w32">Bedanford</searchterm>
+   <searchterm variantID="epns-deep-98-ct-name-w62">Bydanford</searchterm>
+   <searchterm variantID="epns-deep-98-ct-name-w88">Bedeford</searchterm>
+   <searchterm variantID="epns-deep-98-ct-name-w106">Bedford</searchterm>
+  </extension>
+ </mads>
+ 

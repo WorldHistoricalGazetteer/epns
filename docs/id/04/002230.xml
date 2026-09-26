@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000081">
+  <authority ID="epns-deep-04-b-name-subparish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002230">Rous Lench</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000081" type="broader">
+   <geographic>Rous Lench</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w194515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002231">æt Lenc</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194543">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002232">Lenc</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194561">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002233">Biscopesleng</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002234">Lenz</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002235">Bissopes Lench</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194645">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002236">Lelenz Ranđ</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002237">Lens</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002238">Lench Randolf</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w194716">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002239">Rous Lench</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9819700" lat="52.1784000" gazref="geonames:2639053" source="geonames"/>
+   <geo long="-1.978060317719782" lat="52.17934775960386" gazref="unlock:11273561" source="unlock"/>
+   <geo easting="401500" northing="253500" long="-1.97947" lat="52.1798" kepnref="5267" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w194515">
+    <date end="983" begin="983" subtype="simple">983</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>637</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194543">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194561">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194583">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194609">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194645">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194665">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="wo142">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194682">
+    <attestation variantID="epns-deep-04-b-name-w194682">
+     <date end="1230" begin="1230" subtype="simple">1230</date>
+     <source style="italic" id="wo57">FF</source>
+    </attestation>
+    <passim>to</passim>
+    <attestation variantID="epns-deep-04-b-name-w194682">
+     <date end="1431" begin="1431" subtype="simple">1431</date>
+     <source style="" id="wo55">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194716">
+    <date end="1445" begin="1445" subtype="simple">1445</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iii</item>
+    <page>498</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w194716">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w194515">æt Lenc</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194543">Lenc</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194561">Biscopesleng</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194583">Lenz</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194609">Bissopes Lench</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194645">Lelenz Ranđ</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194665">Lens</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194682">Lench Randolf</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w194716">Rous Lench</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000124">
+  <authority ID="epns-deep-09-a-name-parish-000124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006547">Kenton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000008" type="broader">
+   <geographic>Exminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017bb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4666700" lat="50.6333300" gazref="geonames:2645789" source="geonames"/>
+   <geo long="-3.478054677099691" lat="50.64122669442836" gazref="unlock:11185285" source="unlock"/>
+   <geo easting="295500" northing="83500" long="-3.47924" lat="50.6418" kepnref="15795" source="kepn"/>
+  </extension>
+ </mads>
+ 

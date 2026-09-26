@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000105">
+  <authority ID="epns-deep-11-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007500">Cranleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000105" type="broader">
+   <geographic>Cranleigh</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w418633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007501">Cranelega</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007502">Cranelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007503">Cranele</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007504">Craneley(e), Cranele(e), Cranelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007505">Cranlea</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418791">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007506">Cranleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007507">Cranley(e), Cranle(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007508">Crannelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w418907">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007509">Crandley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000abb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4837400" lat="51.1420900" gazref="geonames:2652082" source="geonames"/>
+   <geo long="-0.477631988328085" lat="51.13533144890934" gazref="unlock:11119992" source="unlock"/>
+   <geo easting="506500" northing="138500" long="-0.47917" lat="51.1359" kepnref="8345" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w418633">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="sr232">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418651">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418671">
+    <attestation variantID="epns-deep-11-b-name-w418671">
+     <date end="1241" begin="1241" subtype="simple">1241</date>
+     <source style="italic" id="sr16">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-11-b-name-w418671">
+     <date end="1553" begin="1553" subtype="simple">1553</date>
+     <source style="" id="sr276">SAC</source>
+     <item>iv</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418739">
+    <date end="1553" begin="1241">1241-1553</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418775">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="sr232">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418791">
+    <attestation variantID="epns-deep-11-b-name-w418791">
+     <date end="1241" begin="1241" subtype="simple">1241</date>
+     <date end="1261" begin="1261" subtype="simple">1261</date>
+     <source style="italic" id="sr16">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-11-b-name-w418791">
+     <date end="1871" begin="1871" subtype="simple">1871</date>
+     <source style="" id="sr226">O.S.</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418850">
+    <date end="1871" begin="1241">1241-1871</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418886">
+    <date end="1488" begin="1488" subtype="simple">1488</date>
+    <source style="" id="sr142">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w418907">
+    <date end="1657" begin="1657" subtype="simple">1657</date>
+    <source style="" id="sr406">Abinger ParReg</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w418633">Cranelega</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418651">Cranelegh</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418671">Cranele</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418739">Craneleye</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418739">Craneley</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418739">Cranelee</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418739">Cranele</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418739">Cranelegh</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418775">Cranlea</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418791">Cranleghe</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418850">Cranleye</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418850">Cranley</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418850">Cranlee</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418850">Cranle</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418886">Crannelegh</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w418907">Crandley</searchterm>
+  </extension>
+ </mads>
+ 

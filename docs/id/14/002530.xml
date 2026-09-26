@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000109">
+  <authority ID="epns-deep-14-b-name-subparish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002530">Easton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000058" type="broader">
+   <geographic>Bridlington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w162329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002531">Estone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002532">Eston(a), Estune</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002533">Estone juxta Bridlyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002534">Easton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00046d"/>
+  </recordInfo>
+  <extension>
+   <geo easting="515500" northing="468500" long="-0.235206" lat="54.0994" kepnref="8473" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w162329">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162345">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162345">
+    <attestation variantID="epns-deep-14-b-name-w162345">
+     <date end="1132" begin="1128" subtype="simple">1128-32</date>
+     <source style="" id="ey39">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w162345">
+     <date end="1552" begin="1552" subtype="simple">1552</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162422">
+    <date end="1348" begin="1348" subtype="simple">1348</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162422">
+    <date end="1375" begin="1375" subtype="simple">1375</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162467">
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w162329">Estone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162345">Estona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162345">Eston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162345">Estune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162422">Estone juxta Bridlyngton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162467">Easton</searchterm>
+  </extension>
+ </mads>
+ 

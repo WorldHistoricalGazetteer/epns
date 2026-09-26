@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000049">
+  <authority ID="epns-deep-04-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001466">Bredon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000049" type="broader">
+   <geographic>Bredon</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w121583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001467">Breodun in Hui</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001468">Breadun, Breodun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001469">Breodun in provincia Hwicciorum</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001470">Breodun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121738">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001471">Breoduninga gemære</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001472">Bridona</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001473">Bredon</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121849">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001474">Brudone</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121874">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001475">Breudon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000556"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1100000" lat="52.0304600" gazref="geonames:2654807" source="geonames"/>
+   <geo long="-2.109323920582915" lat="52.02644212863037" gazref="unlock:11086337" source="unlock"/>
+   <geo easting="392500" northing="236500" long="-2.11071" lat="52.0269" kepnref="5227" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w121583">
+    <date end="775" begin="775" subtype="simple">775</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>209</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121619">
+    <date end="780" begin="780" subtype="simple">780</date>
+    <source style="" id="wo12">BCS</source>
+    <item>234</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121649">
+    <date end="780" begin="780" subtype="simple">780</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>236</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121701">
+    <date end="841" begin="841" subtype="simple">841</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>134</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121701">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121738">
+    <date end="984" begin="984" subtype="simple">984</date>
+    <source style="" id="wo45">Earle</source>
+    <page>208</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121772">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121801">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wo56">Fees</source>
+    <item>37</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121801">
+    <date end="1295" begin="1295" subtype="simple">1295</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121849">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="italic" id="wo166">RBB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121874">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w121583">Breodun in Hui</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121619">Breadun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121619">Breodun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121649">Breodun in provincia Hwicciorum</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121701">Breodun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121738">Breoduninga gemære</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121772">Bridona</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121801">Bredon</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121849">Brudone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121874">Breudon</searchterm>
+  </extension>
+ </mads>
+ 

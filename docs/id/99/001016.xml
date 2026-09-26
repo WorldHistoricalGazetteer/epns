@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000049">
+  <authority ID="epns-deep-99-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001016">Bythorn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000049" type="broader">
+   <geographic>Bythorn</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w319163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001017">Bierne</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w319193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001018">Bitherne, Bytherne</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w319274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001019">Bytherne by Elyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w319323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001020">Byern(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w319351">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001021">Bithorne, Bythorn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000319"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4481200" lat="52.3707800" gazref="geonames:2654126" source="geonames"/>
+   <geo long="-0.4503311571046071" lat="52.36699881093733" gazref="unlock:11095257" source="unlock"/>
+   <geo easting="505500" northing="275500" long="-0.451922" lat="52.3674" kepnref="4177" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w319163">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319163">
+    <date subtype="circa" begin="1340" end="1360">c. 1350</date>
+    <source style="" id="bh163">Rams</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319193">
+    <date subtype="simple" begin="1127" end="1127">1127</date>
+    <copydate end="1360" begin="1340">c. 1350</copydate>
+    <source style="" id="bh163">Rams</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319193">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319193">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319193">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="bh3">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319193">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319274">
+    <date subtype="simple" begin="1357" end="1357">1357</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319274">
+    <date subtype="simple" begin="1437" end="1437">1437</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319274">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319323">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319323">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319351">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w319351">
+    <date subtype="simple" begin="1545" end="1545">1545</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w319163">Bierne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319193">Bitherne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319193">Bytherne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319274">Bytherne by Elyngton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319323">Byerne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319323">Byern</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319351">Bithorne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w319351">Bythorn</searchterm>
+  </extension>
+ </mads>
+ 

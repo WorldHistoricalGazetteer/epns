@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000102">
+  <authority ID="epns-deep-16-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005030">Norton Bavant</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000107" type="broader">
+   <geographic>Norton Bavant</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w248553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005031">Nortone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w248570">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005032">Northton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w248590">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005033">Northton Scidemor</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w248620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005034">Nortonbavent</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w248643">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005035">Norton Bavan</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e24"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1305900" lat="51.1869600" gazref="geonames:2641195" source="geonames"/>
+   <geo long="-2.135955708477474" lat="51.19012591966231" gazref="unlock:11233730" source="unlock"/>
+   <geo easting="390500" northing="143500" long="-2.13731" lat="51.1906" kepnref="7272" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w248553">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w248570">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w248590">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w248620">
+    <date subtype="simple" begin="1381" end="1381">1381</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w248643">
+    <date subtype="simple" begin="1675" end="1675">1675</date>
+    <source style="" id="ws225">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w248553">Nortone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w248570">Northton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w248590">Northton Scidemor</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w248620">Nortonbavent</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w248643">Norton Bavan</searchterm>
+  </extension>
+ </mads>
+ 

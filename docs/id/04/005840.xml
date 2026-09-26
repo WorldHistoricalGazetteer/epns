@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000215">
+  <authority ID="epns-deep-04-b-name-subparish-000215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005840">Northfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000203" type="broader">
+   <geographic>Northfield</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w470726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005841">Nordfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w470744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005842">Northfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w470775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005843">Nortfeld al. Norfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w470806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005844">Norfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005d0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9666700" lat="52.4166700" gazref="geonames:2641355" source="geonames"/>
+   <geo long="-1.963240832158613" lat="52.41311763306112" gazref="unlock:11233409" source="unlock"/>
+   <geo easting="402500" northing="279500" long="-1.96466" lat="52.4135" kepnref="5398" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w470726">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470744">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470775">
+    <date end="1338" begin="1338" subtype="simple">1338</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470806">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="wo176">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w470726">Nordfeld</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470744">Northfeld</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470775">Nortfeld</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470775">Norfeld</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470806">Norfeld</searchterm>
+  </extension>
+ </mads>
+ 

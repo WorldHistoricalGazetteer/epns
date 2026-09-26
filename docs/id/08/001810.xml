@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000035">
+  <authority ID="epns-deep-08-a-name-parish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001810">Hartland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000003" type="broader">
+   <geographic>Hartland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001794"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.4806200" lat="50.9938000" gazref="geonames:2647403" source="geonames"/>
+   <geo long="-4.486851216291521" lat="50.9928633633352" gazref="unlock:11166737" source="unlock"/>
+   <geo easting="225500" northing="124500" long="-4.48793" lat="50.9934" kepnref="15492" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000032">
+  <authority ID="epns-deep-47-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002903">Church Shocklach</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000005" type="broader">
+   <geographic>Shocklach</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w156989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002904">Chircheshokelache</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w157211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002905">Shok(e)lache iuxta Horton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002043"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8441000" lat="53.0395400" gazref="geonames:7298045" source="geonames"/>
+   <geo long="-2.850300694" lat="53.04392305" source="epns"/>
+   <geo easting="344500" northing="349500" long="-2.82918" lat="53.0399" kepnref="12048" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w156989">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w157211">
+    <date end="1506" begin="1506" subtype="simple">1506</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w157211">
+    <date end="1508" begin="1508" subtype="simple">1508</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w156989">Chircheshokelache</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w157211">Shokelache iuxta Horton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w157211">Shoklache iuxta Horton</searchterm>
+  </extension>
+ </mads>
+ 

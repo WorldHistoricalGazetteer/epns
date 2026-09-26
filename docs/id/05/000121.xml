@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000014">
+  <authority ID="epns-deep-05-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000121">Wigginton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000007" type="broader">
+   <geographic>Wigginton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w8360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000122">Wichistun, Wichintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w8390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000123">Wiginton', Wyginton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w8466">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000124">Wigington', Wygington'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w8518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000125">Wiggenton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0869600" lat="54.0191700" gazref="geonames:2633942" source="geonames"/>
+   <geo long="-1.09177895169878" lat="54.01888373277551" gazref="unlock:11322751" source="unlock"/>
+   <geo easting="459500" northing="458500" long="-1.09336" lat="54.0191" kepnref="5664" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w8360">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8390">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8390">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8390">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8390">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8390">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8466">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ny241">YI</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8466">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w8518">
+    <date subtype="simple" begin="1579" end="1579">1579</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w8360">Wichistun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8360">Wichintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8390">Wiginton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8390">Wyginton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8466">Wigington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8466">Wygington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w8518">Wiggenton</searchterm>
+  </extension>
+ </mads>
+ 

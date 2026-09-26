@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000012">
+  <authority ID="epns-deep-27-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001458">Shatton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000011" type="broader">
+   <geographic>Brough and Shatton</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w63353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001459">Scetune</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001460">Scatton'</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001461">Schatton(e), Shatton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63461">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001462">Nethershatton</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001463">Nether Shatton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001823"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.70710769956649" lat="53.33877597815204" gazref="unlock:11281678" source="unlock"/>
+   <geo easting="419500" northing="382500" long="-1.70859" lat="53.3391" kepnref="3212" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w63353">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63370">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63391">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="" id="db264">Ipm</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63391">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63391">
+    <attestation variantID="epns-deep-27-b-name-w63391">
+     <date end="1318" begin="1318" subtype="simple">1318</date>
+     <source style="" id="db128">DbA</source>
+     <item>xv</item>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63461">
+    <date end="1508" begin="1508" subtype="simple">1508</date>
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="italic" id="db193">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63490">
+    <attestation variantID="epns-deep-27-b-name-w63490">
+     <date end="1634" begin="1634" subtype="simple">1634</date>
+     <source style="italic" id="db39">Bemrose</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-27-b-name-w63490">
+     <date end="1852" begin="1852" subtype="simple">1852</date>
+     <source style="italic" id="db171">EnclA</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w63353">Scetune</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63370">Scatton'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63391">Schattone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63391">Schatton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63391">Shattone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63391">Shatton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63461">Nethershatton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63490">Nether Shatton</searchterm>
+  </extension>
+ </mads>
+ 

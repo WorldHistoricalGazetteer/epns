@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000013">
+  <authority ID="epns-deep-44-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/002537">Old Withington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000004" type="broader">
+   <geographic>Prestbury</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w105362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/002538">Widinton, Widenton</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w105395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/002539">Withinton</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w105521">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/002540">Oldewethynton</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w105546">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/002541">Old Withington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.284753893" lat="53.24440151" source="epns"/>
+   <geo easting="381500" northing="369500" long="-2.27853" lat="53.2222" kepnref="11706" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w105362">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <date end="1186" begin="1186" subtype="simple">1186</date>
+    <source style="" id="ch487">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w105395">
+    <date end="1210" begin="1210" subtype="simple">1210</date>
+    <source style="" id="ch174">Dieul</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w105521">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w105546">
+    <date end="1618" begin="1618" subtype="simple">1618</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w105362">Widinton</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w105362">Widenton</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w105395">Withinton</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w105521">Oldewethynton</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w105546">Old Withington</searchterm>
+  </extension>
+ </mads>
+ 

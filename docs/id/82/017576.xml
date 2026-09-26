@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000102">
+  <authority ID="epns-deep-82-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017576">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000030" type="broader">
+   <geographic>Wem</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w667385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017577">Hortune</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w667434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017578">Horton', Hortun', Horton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64db47fc4463d000f54"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.757624297" lat="52.8629412" source="epns"/>
+   <geo long="-2.750306087010704" lat="52.86928215436041" gazref="unlock:11179791" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w667385">
+    <attestation variantID="epns-deep-82-b-name-w667385">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w667434">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w667385">Hortune</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w667434">Horton'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w667434">Hortun'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w667434">Horton</searchterm>
+  </extension>
+ </mads>
+ 

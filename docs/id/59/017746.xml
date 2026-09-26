@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000060">
+  <authority ID="epns-deep-59-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/017746">Leweston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000007" type="broader">
+   <geographic>Sherborne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d002a06"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5174100" lat="50.9129800" gazref="geonames:7293424" source="geonames"/>
+   <geo long="-2.517786249" lat="50.90936773" source="epns"/>
+   <geo long="-2.505091590692297" lat="50.91931668411777" gazref="unlock:11194434" source="unlock"/>
+   <geo easting="364500" northing="113500" long="-2.50639" lat="50.9199" kepnref="11587" source="kepn"/>
+  </extension>
+ </mads>
+ 

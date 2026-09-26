@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000046">
+  <authority ID="epns-deep-23-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005166">Little Haseley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000041" type="broader">
+   <geographic>Great Haseley</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w250632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005167">Hæseleia, Hæsellea</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250674">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005168">Haselie</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005169">Hasele, Haselege, Haseleye</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005170">Haseleia Petri Oliueri</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005171">Parva Hasel, Parva Hassell</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005172">Little Haselee</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250872">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005173">Little Hasselegh</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005174">Little Hasellee</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005175">Little Hasele</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w250953">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005176">Little Heselee</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007f7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0744200" lat="51.7008800" gazref="geonames:2644317" source="geonames"/>
+   <geo long="-1.06660460193466" lat="51.69907501150247" gazref="unlock:11196398" source="unlock"/>
+   <geo kepnexref="252" long="-1.07293" lat="51.700944" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w250632">
+    <date end="1002" begin="1002" subtype="simple">1002</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="ox116">KCD</source>
+    <item>1296</item>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250674">
+    <attestation variantID="epns-deep-23-b-name-w250674">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-23-b-name-w250674">
+     <date end="1297" begin="1297" subtype="simple">1297</date>
+     <source style="" id="ox46">CornAcc</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250723">
+    <date end="1297" begin="1086">1086-1297</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250769">
+    <date end="1236" begin="1235" subtype="simple">1235-6</date>
+    <source style="" id="ox76">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250807">
+    <date end="1279" begin="1278" subtype="simple">1278-9</date>
+    <source style="" id="ox208">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250845">
+    <date end="1300" begin="1300" subtype="simple">1300</date>
+    <source style="" id="ox112">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250872">
+    <date end="1311" begin="1311" subtype="simple">1311</date>
+    <source style="" id="ox112">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250899">
+    <date end="1349" begin="1349" subtype="simple">1349</date>
+    <source style="" id="ox38">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250924">
+    <date end="1417" begin="1416" subtype="simple">1416-17</date>
+    <source style="italic" id="ox113">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w250953">
+    <date end="1391" begin="1391" subtype="simple">1391</date>
+    <source style="" id="ox42">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w250632">Hæseleia</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250632">Hæsellea</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250674">Haselie</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250723">Hasele</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250723">Haselege</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250723">Haseleye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250769">Haseleia Petri Oliueri</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250807">Parva Hasel</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250807">Parva Hassell</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250845">Little Haselee</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250872">Little Hasselegh</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250899">Little Hasellee</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250924">Little Hasele</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w250953">Little Heselee</searchterm>
+  </extension>
+ </mads>
+ 

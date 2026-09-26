@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000138">
+  <authority ID="epns-deep-13-b-name-subparish-000138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005824">Stoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000141" type="broader">
+   <geographic>Stoke and Biggin</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w302421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005825">Stoca, Stocha</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w302454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005826">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w302482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005827">Stoke</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w302499">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005828">Stoke juxta Coventre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.478137632253412" lat="52.40298049334434" gazref="unlock:11208805" source="unlock"/>
+   <geo easting="436500" northing="278500" long="-1.46491" lat="52.4033" kepnref="5040" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w302421">
+    <date end="1195" begin="1175" subtype="circa">c. 1185</date>
+    <copydate end="1348" begin="1348">1348</copydate>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w302454">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="wa46" underspec="ib">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w302454">
+    <date end="1250" begin="1250" subtype="simple">1250</date>
+    <source style="" id="wa108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w302482">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="wa192">Nott</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w302499">
+    <date end="1396" begin="1396" subtype="simple">1396</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w302421">Stoca</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w302421">Stocha</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w302454">Stokes</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w302482">Stoke</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w302499">Stoke juxta Coventre</searchterm>
+  </extension>
+ </mads>
+ 

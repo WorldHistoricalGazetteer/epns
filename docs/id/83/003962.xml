@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-b-subparish-000014">
+  <authority ID="epns-deep-83-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/003962">Elwick Hall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-a-parish-000006" type="broader">
+   <geographic>Elwick and Elwick Hall</geographic>
+  </related>
+  <variant ID="epns-deep-83-b-name-w165610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/003963">Elwick Hall</geographic>
+  </variant>
+  <variant ID="epns-deep-83-b-name-w165681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/003964">Ellewick Hall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853b3b47fc40a3800049b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.301983442" lat="54.68093383" source="epns"/>
+   <geo easting="445500" northing="532500" long="-1.29574" lat="54.6855" kepnref="7739" source="kepn"/>
+   <attestation variantID="epns-deep-83-b-name-w165610">
+    <date subtype="simple" begin="1751" end="1751">1751</date>
+    <source style="italic" id="dm113">Lond</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-b-name-w165610">
+    <date subtype="simple" begin="1838" end="1838">1838</date>
+    <source style="italic" id="dm142">NRC</source>
+    <item>box 10/34</item>
+   </attestation>
+   <attestation variantID="epns-deep-83-b-name-w165610">
+    <date subtype="simple" begin="1869" end="1869">1869</date>
+    <source style="italic" id="dm55">DX</source>
+    <item>915/56</item>
+   </attestation>
+   <attestation variantID="epns-deep-83-b-name-w165610">
+    <date subtype="simple" begin="1872" end="1872">1872</date>
+    <source style="" id="dm79">Gaz</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-b-name-w165681">
+    <date subtype="simple" begin="1820" end="1820">1820</date>
+    <source style="italic" id="dm142">NRC</source>
+    <item>box 11/19</item>
+   </attestation>
+   <searchterm variantID="epns-deep-83-b-name-w165610">Elwick Hall</searchterm>
+   <searchterm variantID="epns-deep-83-b-name-w165681">Ellewick Hall</searchterm>
+  </extension>
+ </mads>
+ 

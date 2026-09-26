@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000063">
+  <authority ID="epns-deep-96-a-name-parish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002904">Westley Waterless</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000006" type="broader">
+   <geographic>Radfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000753"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3667100" lat="52.1818300" gazref="geonames:2634362" source="geonames"/>
+   <geo long="0.3771289773490951" lat="52.18237438112456" gazref="unlock:11318848" source="unlock"/>
+   <geo easting="562500" northing="256500" long="0.37545" lat="52.1828" kepnref="4031" source="kepn"/>
+  </extension>
+ </mads>
+ 

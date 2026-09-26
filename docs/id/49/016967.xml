@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000072">
+  <authority ID="epns-deep-49-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/016967">Greenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000010" type="broader">
+   <geographic>Faircross Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001a9b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3043900" lat="51.3844700" gazref="geonames:7301520" source="geonames"/>
+   <geo long="-1.302948002081123" lat="51.38597420252128" gazref="unlock:11160296" source="unlock"/>
+   <geo easting="448500" northing="165500" long="-1.3044" lat="51.3865" kepnref="3090" source="kepn"/>
+  </extension>
+ </mads>
+ 

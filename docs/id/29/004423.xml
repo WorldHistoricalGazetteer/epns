@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000030">
+  <authority ID="epns-deep-29-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004423">Hilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000028" type="broader">
+   <geographic>Hilton</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w134307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004424">Hiltune</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w134324">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004425">Hilton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w134406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004426">Hulton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w134508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004427">Hylton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00188e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6281400" lat="52.8761900" gazref="geonames:7300219" source="geonames"/>
+   <geo long="-1.635977096839786" lat="52.87109438898823" gazref="unlock:11175600" source="unlock"/>
+   <geo easting="424500" northing="330500" long="-1.63745" lat="52.8714" kepnref="3446" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w134307">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134324">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134324">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="db116" underspec="ib">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134324">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134324">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134324">
+    <attestation variantID="epns-deep-29-b-name-w134324">
+     <date subtype="circa" begin="1250" end="1270">c. 1260</date>
+     <source style="italic" id="db121">Dale</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134406">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134406">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="db82">ChancR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134406">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134406">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="db128">DbA</source>
+    <item>xxxii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134406">
+    <attestation variantID="epns-deep-29-b-name-w134406">
+     <date subtype="simple" begin="1272" end="1272">1272</date>
+     <source style="" id="db21">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-29-b-name-w134406">
+     <date subtype="simple" begin="1466" end="1466">1466</date>
+     <source style="italic" id="db179">EveryCh</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="simple" begin="1250" end="1250">1250</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="simple" begin="1431" end="1431">1431</date>
+    <source style="" id="db182">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="simple" begin="1436" end="1436">1436</date>
+    <source style="italic" id="db179">EveryCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w134508">
+    <date subtype="simple" begin="1447" end="1447">1447</date>
+    <date subtype="simple" begin="1495" end="1495">1495</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w134307">Hiltune</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134324">Hiltone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134324">Hilton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134406">Hultone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134406">Hulton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134508">Hyltone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w134508">Hylton</searchterm>
+  </extension>
+ </mads>
+ 

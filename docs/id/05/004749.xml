@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000424">
+  <authority ID="epns-deep-05-b-name-subparish-000424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004749">Leyburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000147" type="broader">
+   <geographic>Wensley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w345991">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004750">Leborne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w346008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004751">Layburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w346065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004752">Laibrunn</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w346084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004753">Leibroun, Leybroun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w346122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004754">Labrun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8304100" lat="54.3100400" gazref="geonames:2644548" source="geonames"/>
+   <geo long="-1.823227926409057" lat="54.30981533191179" gazref="unlock:11194513" source="unlock"/>
+   <geo easting="411500" northing="490500" long="-1.82474" lat="54.31" kepnref="6078" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w345991">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346008">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346008">
+    <attestation variantID="epns-deep-05-b-name-w346008">
+     <date subtype="simple" begin="1252" end="1252">1252</date>
+     <source style="italic" id="ny12">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w346008">
+     <date subtype="simple" begin="1519" end="1519">1519</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346065">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346084">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346084">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346122">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w345991">Leborne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346008">Layburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346008">Layburn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346065">Laibrunn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346084">Leibroun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346084">Leybroun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346122">Labrun</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000021">
+  <authority ID="epns-deep-50-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/003887">Buscot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000003" type="broader">
+   <geographic>Shrivenham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001a68"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6670400" lat="51.6758900" gazref="geonames:2654183" source="geonames"/>
+   <geo long="-1.660106705540658" lat="51.67531425379054" gazref="unlock:11094359" source="unlock"/>
+   <geo easting="423500" northing="197500" long="-1.66153" lat="51.6758" kepnref="3122" source="kepn"/>
+  </extension>
+ </mads>
+ 

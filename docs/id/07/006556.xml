@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000116">
+  <authority ID="epns-deep-07-a-name-parish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006556">Penhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000032" type="broader">
+   <geographic>Netherfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000be5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4087300" lat="50.9226000" gazref="geonames:2640466" source="geonames"/>
+   <geo long="0.411937058396199" lat="50.92247498738882" gazref="unlock:11242600" source="unlock"/>
+   <geo easting="569500" northing="116500" long="0.410307" lat="50.9231" kepnref="7131" source="kepn"/>
+  </extension>
+ </mads>
+ 

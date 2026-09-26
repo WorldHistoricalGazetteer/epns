@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000128">
+  <authority ID="epns-deep-30-b-name-subparish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/017188">Lower Denby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000070" type="broader">
+   <geographic>Penistone</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w771533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/017189">Netherden(e)by(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w771576">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/017190">Neyther Denbye</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w771607">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/017191">Low Denby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.645160179707798" lat="53.56334755972376" gazref="unlock:11208038" source="unlock"/>
+   <geo easting="422500" northing="407500" long="-1.66176" lat="53.5636" kepnref="14385" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w771533">
+    <date subtype="simple" begin="1261" end="1261">1261</date>
+    <source style="" id="wr799">YD</source>
+    <item>iv</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w771533">
+    <date subtype="simple" begin="1588" end="1588">1588</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w771576">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="wr649">SheffCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w771607">
+    <date subtype="simple" begin="1822" end="1822">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w771533">Netherdenebye</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w771533">Netherdeneby</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w771533">Netherdenbye</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w771533">Netherdenby</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w771576">Neyther Denbye</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w771607">Low Denby</searchterm>
+  </extension>
+ </mads>
+ 

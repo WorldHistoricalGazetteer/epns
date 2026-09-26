@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000015">
+  <authority ID="epns-deep-10-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000491">Newnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000015" type="broader">
+   <geographic>Newnham</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w30114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000492">æt niwanham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000493">Newæham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30174">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000494">Neuenham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30246">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000495">Newenham, Niwenham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000496">Niweham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000497">Neuham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w30290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000498">Neweham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1439600" lat="52.2333600" gazref="geonames:7296703" source="geonames"/>
+   <geo long="-1.158008910417868" lat="52.2302953769002" gazref="unlock:11230507" source="unlock"/>
+   <geo easting="457500" northing="259500" long="-1.15951" lat="52.2307" kepnref="10884" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w30114">
+    <date end="1023" begin="1021" subtype="simple">1021-3</date>
+    <source style="" id="nh139">KCD</source>
+    <item>736</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30142">
+    <date end="1020" begin="1020" subtype="simple">1020</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="nh139">KCD</source>
+    <item>1316</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30174">
+    <attestation variantID="epns-deep-10-b-name-w30174">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="nh215">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w30174">
+     <date end="1476" begin="1476" subtype="simple">1476</date>
+     <source style="" id="nh4">AD</source>
+     <item>iii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30246">
+    <date end="1476" begin="1166">1166-1476</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30258">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30274">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <source style="" id="nh100">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w30290">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w30114">æt niwanham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30142">Newæham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30174">Neuenham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30246">Newenham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30246">Niwenham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30258">Niweham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30274">Neuham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w30290">Neweham</searchterm>
+  </extension>
+ </mads>
+ 

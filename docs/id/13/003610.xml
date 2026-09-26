@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000073">
+  <authority ID="epns-deep-13-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003610">Kings Newnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000075" type="broader">
+   <geographic>Kings Newnham</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w190436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003611">Neowenham</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003612">Newenham</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003613">Niweham</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003614">New(e)ham</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190577">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003615">Newham Kinges</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190600">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003616">Newenham Kynges</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w190628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003617">Kynges Newnam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f00078b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.33127975488784" lat="52.39324974835247" gazref="unlock:11186924" source="unlock"/>
+   <geo easting="445500" northing="277500" long="-1.33277" lat="52.3936" kepnref="4839" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w190436">
+    <date end="1043" begin="1043" subtype="simple">1043</date>
+    <copydate end="1700" begin="1600">17th</copydate>
+    <source style="" id="wa146">KCD</source>
+    <item>916</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190467">
+    <date end="1055" begin="1035" subtype="circa">c. 1045</date>
+    <copydate end="1700" begin="1600">17th</copydate>
+    <source style="" id="wa146">KCD</source>
+    <item>939</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190467">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="wa182">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190513">
+    <date end="1122" begin="1122" subtype="simple">1122</date>
+    <copydate end="1314" begin="1314">1314</copydate>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190537">
+    <date end="1180" begin="1160" subtype="circa">c. 1170</date>
+    <copydate end="1314" begin="1314">1314</copydate>
+    <source style="" id="wa46" underspec="ib">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190537">
+    <date end="1174" begin="1174" subtype="simple">1174</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190577">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wa261">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190600">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w190628">
+    <date end="1479" begin="1479" subtype="simple">1479</date>
+    <source style="" id="wa5">AD</source>
+    <item>v</item>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w190436">Neowenham</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190467">Newenham</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190513">Niweham</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190537">Neweham</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190537">Newham</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190577">Newham Kinges</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190600">Newenham Kynges</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w190628">Kynges Newnam</searchterm>
+  </extension>
+ </mads>
+ 

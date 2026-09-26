@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000093">
+  <authority ID="epns-deep-21-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008688">Sandwith</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000098" type="broader">
+   <geographic>Sandwith</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w372513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008689">Sandwath</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w372567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008690">Sandewath</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w372592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008691">Sandwith</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w372615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008692">Sandwaith(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9001029"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.598982383223491" lat="54.51508817313589" gazref="unlock:11277906" source="unlock"/>
+   <geo easting="296500" northing="514500" long="-3.60028" lat="54.5152" kepnref="4497" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w372513">
+    <attestation variantID="epns-deep-21-b-name-w372513">
+     <date end="1260" begin="1260" subtype="simple">1260</date>
+     <source style="italic" id="cu341">Rental</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w372513">
+     <date end="1607" begin="1607" subtype="simple">1607</date>
+     <source style="" id="cu89">DKR</source>
+     <item>xxxviii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372567">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="" id="cu57">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372592">
+    <date end="1547" begin="1509" subtype="regnal">t. Hy 8</date>
+    <source style="italic" id="cu8">AOMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372615">
+    <date end="1548" begin="1548" subtype="simple">1548</date>
+    <source style="italic" id="cu363">SP</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372615">
+    <date end="1548" begin="1548" subtype="simple">1548</date>
+    <source style="" id="cu74">CW</source>
+    <item>v</item>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w372513">Sandwath</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w372567">Sandewath</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w372592">Sandwith</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w372615">Sandwaithe</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w372615">Sandwaith</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000100">
+  <authority ID="epns-deep-24-a-name-parish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008612">Bodicote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000004" type="broader">
+   <geographic>Bloxham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3304600" lat="52.0361800" gazref="geonames:2655286" source="geonames"/>
+   <geo long="-1.32208072088515" lat="52.03353443086953" gazref="unlock:11081880" source="unlock"/>
+   <geo easting="446500" northing="238500" long="-1.32342" lat="52.043" kepnref="3734" source="kepn"/>
+  </extension>
+ </mads>
+ 

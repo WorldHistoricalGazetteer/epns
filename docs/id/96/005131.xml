@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000123">
+  <authority ID="epns-deep-96-a-name-parish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/005131">Oakington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000013" type="broader">
+   <geographic>Northstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00072a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0684900" lat="52.2604400" gazref="geonames:2641125" source="geonames"/>
+   <geo long="0.07351110578256134" lat="52.26004627996372" gazref="unlock:11234607" source="unlock"/>
+   <geo easting="541500" northing="264500" long="0.071864" lat="52.2605" kepnref="4085" source="kepn"/>
+  </extension>
+ </mads>
+ 

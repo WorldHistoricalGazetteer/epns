@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000056">
+  <authority ID="epns-deep-10-a-name-parish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001312">Middleton Cheney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000004" type="broader">
+   <geographic>King's Sutton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00046c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2624800" lat="52.0719900" gazref="geonames:7296726" source="geonames"/>
+   <geo long="-1.263178739221663" lat="52.06914819982888" gazref="unlock:11208598" source="unlock"/>
+   <geo easting="450500" northing="241500" long="-1.26466" lat="52.0696" kepnref="10926" source="kepn"/>
+  </extension>
+ </mads>
+ 

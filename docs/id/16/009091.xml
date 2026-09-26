@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000195">
+  <authority ID="epns-deep-16-b-name-subparish-000195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009091">Hilmarton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000221" type="broader">
+   <geographic>Hilmarton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w447072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009092">Helmerdingtun</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009093">Helmerintone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009094">Helmertune, Adhelmertone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009095">Helmerton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009096">Hilmerton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009097">Helmarton, Hilmarton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w447270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009098">Hill Martyn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000de0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9718700" lat="51.4765700" gazref="geonames:2646881" source="geonames"/>
+   <geo long="-1.963997445905901" lat="51.47796784557573" gazref="unlock:11175561" source="unlock"/>
+   <geo easting="402500" northing="175500" long="-1.96538" lat="51.4785" kepnref="7377" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w447072">
+    <date subtype="simple" begin="962" end="962">962</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>1081</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447107">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447129">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74" underspec="ib">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447159">
+    <attestation variantID="epns-deep-16-b-name-w447159">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="ws104">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w447159">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447203">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447203">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ws30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447231">
+    <date subtype="regnal" begin="1558" end="1603">t. Eliz</date>
+    <source style="" id="ws333">WM</source>
+    <item>xxi</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w447270">
+    <date subtype="simple" begin="1699" end="1699">1699</date>
+    <source style="" id="ws244">ParReg</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w447072">Helmerdingtun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447107">Helmerintone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447129">Helmertune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447129">Adhelmertone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447159">Helmerton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447203">Hilmerton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447231">Helmarton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447231">Hilmarton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w447270">Hill Martyn</searchterm>
+  </extension>
+ </mads>
+ 

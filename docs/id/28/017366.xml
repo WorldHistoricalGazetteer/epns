@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000103">
+  <authority ID="epns-deep-28-b-name-subparish-000103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017366">Codnor Park</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000100" type="broader">
+   <geographic>Codnor Park</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w631262">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017367">Codnor Park(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w631308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017368">the Parke of Codnor'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001845"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.350867209539279" lat="53.0586773325487" gazref="unlock:11111817" source="unlock"/>
+   <geo easting="443500" northing="351500" long="-1.35238" lat="53.059" kepnref="3376" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w631262">
+    <date subtype="simple" begin="1474" end="1474">1474</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w631262">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="italic" id="db313">Middleton</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w631308">
+    <date subtype="simple" begin="1596" end="1596">1596</date>
+    <source style="italic" id="db313" underspec="ib">Middleton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w631262">Codnor Parke</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w631262">Codnor Park</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w631308">the Parke of Codnor'</searchterm>
+  </extension>
+ </mads>
+ 

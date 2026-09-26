@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000038">
+  <authority ID="epns-deep-81-a-name-parish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/015711">Walton on the Wolds</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001101"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1149000" lat="52.7713800" gazref="geonames:7296316" source="geonames"/>
+   <geo long="-1.117996374980845" lat="52.76947846659356" gazref="unlock:11312900" source="unlock"/>
+   <geo easting="459500" northing="319500" long="-1.11953" lat="52.7698" kepnref="8837" source="kepn"/>
+  </extension>
+ </mads>
+ 

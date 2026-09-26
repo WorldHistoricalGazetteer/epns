@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000016">
+  <authority ID="epns-deep-35-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002540">Brogden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000006" type="broader">
+   <geographic>Barnoldswick</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w83396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002541">Brokden</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w83442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002542">Brokeden</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w83465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002543">Brockeden</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w83487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002544">Brogden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827ab47fc40c81006073"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.228363075" lat="53.909736" source="epns"/>
+   <geo long="-2.220822230669099" lat="53.92323472516617" gazref="unlock:11088525" source="unlock"/>
+   <geo easting="385500" northing="447500" long="-2.22227" lat="53.9234" kepnref="14856" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w83396">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>6</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83396">
+    <date subtype="circa" begin="1297" end="1317">c. 1307</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83396">
+    <date subtype="simple" begin="1427" end="1427">1427</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83442">
+    <date subtype="simple" begin="1564" end="1564">1564</date>
+    <source style="" id="wr742">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83465">
+    <date subtype="simple" begin="1657" end="1657">1657</date>
+    <source style="" id="wr524">PRGis</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83487">
+    <date subtype="simple" begin="1669" end="1669">1669</date>
+    <source style="" id="wr524" underspec="ib">PRGis</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w83487">
+    <date subtype="simple" begin="1698" end="1698">1698</date>
+    <source style="" id="wr31">Barn</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w83396">Brokden</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w83442">Brokeden</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w83465">Brockeden</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w83487">Brogden</searchterm>
+  </extension>
+ </mads>
+ 

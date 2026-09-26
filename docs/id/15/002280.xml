@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000033">
+  <authority ID="epns-deep-15-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002280">Shenley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000036" type="broader">
+   <geographic>Shenley</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w111136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002281">Scenlai, Scenlei, Senlai</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002282">Scenleam</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002283">Seneleam, Shen(e)leam, Scen(e)leam and Scenle, Scenleye, Scenlegh, Scenlee</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111304">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002284">Senesle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002285">Chenle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002286">Sanle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002287">Shendley</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w111382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002288">Shynley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2747900" lat="51.6932900" gazref="geonames:7291310" source="geonames"/>
+   <geo long="-0.2709867839519559" lat="51.69005860491857" gazref="unlock:11282307" source="unlock"/>
+   <geo easting="519500" northing="200500" long="-0.27257" lat="51.6905" kepnref="4597" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w111136">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111170">
+    <attestation variantID="epns-deep-15-b-name-w111170">
+     <date subtype="century" begin="1100" end="1200">12th</date>
+     <source style="" id="he121">Gesta</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111226">
+    <date end="1600" begin="1100">12th-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111304">
+    <date subtype="regnal" begin="1216" end="1272">early Hy 3</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111327">
+    <date subtype="century" begin="1200" end="1300">13th</date>
+    <source style="" id="he182">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111345">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="" id="he4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111364">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="italic" id="he298">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w111382">
+    <date subtype="simple" begin="1501" end="1501">1501</date>
+    <source style="" id="he92">ECP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w111136">Scenlai</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111136">Scenlei</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111136">Senlai</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111170">Scenleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Seneleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Sheneleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Shenleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Sceneleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Scenleam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Scenle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Scenleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Scenlegh</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111226">Scenlee</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111304">Senesle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111327">Chenle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111345">Sanle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111364">Shendley</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w111382">Shynley</searchterm>
+  </extension>
+ </mads>
+ 

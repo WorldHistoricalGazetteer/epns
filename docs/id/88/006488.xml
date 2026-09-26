@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-b-subparish-000028">
+  <authority ID="epns-deep-88-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006488">Knaptoft</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-a-parish-000022" type="broader">
+   <geographic>Knaptoft</geographic>
+  </related>
+  <variant ID="epns-deep-88-b-name-w355035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006489">Cnapetot</geographic>
+  </variant>
+  <variant ID="epns-deep-88-b-name-w355053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006490">Cnapetoft</geographic>
+  </variant>
+  <variant ID="epns-deep-88-b-name-w355151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006491">Knapetoft</geographic>
+  </variant>
+  <variant ID="epns-deep-88-b-name-w355267">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006492">Knaptoft(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cfbb47fc40adf001189"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0764800" lat="52.4904900" gazref="geonames:7295428" source="geonames"/>
+   <geo long="-1.079211558291893" lat="52.49945138265623" gazref="unlock:11188578" source="unlock"/>
+   <geo easting="462500" northing="289500" long="-1.08073" lat="52.4998" kepnref="8892" source="kepn"/>
+   <attestation variantID="epns-deep-88-b-name-w355035">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="le130">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355053">
+    <date end="1156" begin="1156" subtype="simple">1156</date>
+    <copydate end="1318" begin="1318">1318</copydate>
+    <source style="" id="le77">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355053">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="le216">GildR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355053">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="le120">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355053">
+    <attestation variantID="epns-deep-88-b-name-w355053">
+     <date end="1225" begin="1200" subtype="simple">e.13</date>
+     <source style="italic" id="le449">RTemple</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-88-b-name-w355053">
+     <date end="1250" begin="1220" subtype="simple">1220 × 50</date>
+     <source style="italic" id="le449" underspec="ib">RTemple</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355151">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="le193">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355151">
+    <attestation variantID="epns-deep-88-b-name-w355151">
+     <date end="1255" begin="1245" subtype="simple">1245 × 55</date>
+     <source style="italic" id="le449">RTemple</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-88-b-name-w355151">
+     <date end="1310" begin="1310" subtype="simple">1310</date>
+     <source style="" id="le216">GildR</source>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355151">
+    <attestation variantID="epns-deep-88-b-name-w355151">
+     <date end="1313" begin="1313" subtype="simple">1313</date>
+     <source style="italic" id="le268">LCDeeds</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-88-b-name-w355151">
+     <date end="1338" begin="1338" subtype="simple">1338</date>
+     <source style="" id="le382">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355267">
+    <attestation variantID="epns-deep-88-b-name-w355267">
+     <date end="1269" begin="1269" subtype="simple">1269</date>
+     <date end="1274" begin="1274" subtype="simple">1274</date>
+     <source style="" id="le247">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-88-b-name-w355267">
+     <date end="1352" begin="1352" subtype="simple">1352</date>
+     <source style="italic" id="le268">LCDeeds</source>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w355267">
+    <attestation variantID="epns-deep-88-b-name-w355267">
+     <date end="1335" begin="1335" subtype="simple">1335</date>
+     <source style="" id="le247">Ipm</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-88-b-name-w355035">Cnapetot</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w355053">Cnapetoft</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w355151">Knapetoft</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w355267">Knaptofte</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w355267">Knaptoft</searchterm>
+  </extension>
+ </mads>
+ 

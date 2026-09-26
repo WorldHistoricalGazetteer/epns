@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-a-parish-000021">
+  <authority ID="epns-deep-47-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006229">St Mary on the Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-hu-subcounty-000001" type="broader">
+   <geographic>Broxton Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-47-a-name-w339694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006230">Upton in Wyrehale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="459" long="-2.8911" lat="53.1863" source="kepn"/>
+   <attestation variantID="epns-deep-47-a-name-w339694">
+    <date end="1416" begin="1416" subtype="simple">1416</date>
+    <source style="" id="ch474">Orm2</source>
+    <item>ii</item>
+    <page>819</page>
+   </attestation>
+   <searchterm variantID="epns-deep-47-a-name-w339694">Upton in Wyrehale</searchterm>
+  </extension>
+ </mads>
+ 

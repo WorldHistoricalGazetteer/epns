@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000166">
+  <authority ID="epns-deep-08-a-name-parish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009513">Kingston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000011" type="broader">
+   <geographic>Ermington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017c1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9166700" lat="50.3166700" gazref="geonames:2645440" source="geonames"/>
+   <geo long="-3.917285117124938" lat="50.31100431638077" gazref="unlock:11187170" source="unlock"/>
+   <geo easting="263500" northing="47500" long="-3.91841" lat="50.3116" kepnref="15624" source="kepn"/>
+  </extension>
+ </mads>
+ 

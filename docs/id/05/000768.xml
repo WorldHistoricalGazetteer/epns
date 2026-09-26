@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000081">
+  <authority ID="epns-deep-05-b-name-subparish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000768">Wath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000032" type="broader">
+   <geographic>Hovingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w66369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000769">Wad</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w66382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000770">Wath</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9658925211261256" lat="54.17068028180302" gazref="unlock:11314663" source="unlock"/>
+   <geo easting="467500" northing="475500" long="-0.9675" lat="54.1709" kepnref="5732" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w66369">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66382">
+    <date subtype="simple" begin="1224" end="1230">1224-30</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w66369">Wad</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66382">Wath</searchterm>
+  </extension>
+ </mads>
+ 

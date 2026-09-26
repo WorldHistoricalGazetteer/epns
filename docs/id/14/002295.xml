@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000051">
+  <authority ID="epns-deep-14-a-name-parish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002295">Nafferton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000002" type="broader">
+   <geographic>Dickering Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003f3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3897600" lat="54.0191700" gazref="geonames:2641915" source="geonames"/>
+   <geo long="-0.389517101369539" lat="54.02051642588647" gazref="unlock:11226109" source="unlock"/>
+   <geo easting="505500" northing="459500" long="-0.391188" lat="54.0207" kepnref="8481" source="kepn"/>
+  </extension>
+ </mads>
+ 

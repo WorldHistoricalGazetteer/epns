@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000361">
+  <authority ID="epns-deep-05-b-name-subparish-000361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004127">Swainby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000129" type="broader">
+   <geographic>Pickhill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w302831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004128">Suanebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302848">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004129">Suenebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004130">Swayneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004131">Suanesby, Suanisby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w302972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004132">Sweinesby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600057e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.485625630191109" lat="54.26390629635881" gazref="unlock:11207592" source="unlock"/>
+   <geo easting="433500" northing="485500" long="-1.48717" lat="54.2641" kepnref="6013" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w302831">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302848">
+    <date subtype="simple" begin="1111" end="1122">1111-22</date>
+    <source style="italic" id="ny124">Mary Y</source>
+    <page>229</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302876">
+    <attestation variantID="epns-deep-05-b-name-w302876">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w302876">
+     <date subtype="simple" begin="1560" end="1560">1560</date>
+     <source style="" id="ny196">RichWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302932">
+    <date subtype="simple" begin="1196" end="1196">1196</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302932">
+    <date subtype="simple" begin="1313" end="1313">1313</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w302972">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <copydate end="1272" begin="1216">H 3</copydate>
+    <source style="" id="ny48">Dugd</source>
+    <item>vii</item>
+    <page>920</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w302831">Suanebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302848">Suenebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302876">Swayneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302932">Suanesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302932">Suanisby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w302972">Sweinesby</searchterm>
+  </extension>
+ </mads>
+ 

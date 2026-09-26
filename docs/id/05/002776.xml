@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000210">
+  <authority ID="epns-deep-05-b-name-subparish-000210">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002776">Ormesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000079" type="broader">
+   <geographic>Ormesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w210695">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002777">Ormesbi, Ormesby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002778">Ormysby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600055e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1833300" lat="54.5500000" gazref="geonames:2640913" source="geonames"/>
+   <geo long="-1.172796973645936" lat="54.54979491788048" gazref="unlock:11237103" source="unlock"/>
+   <geo easting="453500" northing="517500" long="-1.1744" lat="54.5499" kepnref="5859" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w210695">
+    <attestation variantID="epns-deep-05-b-name-w210695">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210731">
+    <date subtype="simple" begin="1414" end="1414">1414</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w210695">Ormesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210695">Ormesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210731">Ormysby</searchterm>
+  </extension>
+ </mads>
+ 

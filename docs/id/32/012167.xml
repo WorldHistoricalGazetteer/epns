@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-a-parish-000006">
+  <authority ID="epns-deep-32-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/012167">Calverley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-wp-subcounty-000001" type="broader">
+   <geographic>Morley Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005f7c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6882000" lat="53.8283200" gazref="geonames:2653962" source="geonames"/>
+   <geo long="-1.680977642" lat="53.81963982" source="epns"/>
+   <geo long="-1.688539863775238" lat="53.82415551256899" gazref="unlock:11096878" source="unlock"/>
+   <geo easting="420500" northing="436500" long="-1.69004" lat="53.8244" kepnref="14573" source="kepn"/>
+  </extension>
+ </mads>
+ 

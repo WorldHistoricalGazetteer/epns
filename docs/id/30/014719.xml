@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000108">
+  <authority ID="epns-deep-30-b-name-subparish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/014719">Notton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000063" type="broader">
+   <geographic>Royston</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w668677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/014720">Notone, Nortone</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w668702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/014721">Nottun', Notton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w668845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/014722">Nocton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006235"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4776100" lat="53.6118900" gazref="geonames:7291983" source="geonames"/>
+   <geo long="-1.486021273" lat="53.61221031" source="epns"/>
+   <geo easting="434500" northing="413500" long="-1.47993" lat="53.6169" kepnref="14366" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w668677">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="simple" begin="1170" end="1205">1170-1205</date>
+    <source style="" id="wr796">YCh</source>
+    <item>1713-15</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="italic" id="wr51">Bodl</source>
+    <item>98</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr6">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr55">Brett</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <date subtype="simple" begin="1246" end="1246">1246</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>30d</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668702">
+    <attestation variantID="epns-deep-30-b-name-w668702">
+     <date subtype="simple" begin="1249" end="1249">1249</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w668702">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668845">
+    <date subtype="simple" begin="1186" end="1186">1186</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668845">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w668845">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="wr24">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w668677">Notone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w668677">Nortone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w668702">Nottun'</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w668702">Nottona</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w668702">Notton</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w668845">Nocton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000233">
+  <authority ID="epns-deep-09-b-name-subparish-000233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011948">Dalwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000233" type="broader">
+   <geographic>Dalwood</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w542007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011949">Dalewude</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w542040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011950">Dalewde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w542059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011951">Daleuuode</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w542080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011952">Dalwde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w542140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011953">Dalwude, Dalwod(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w542160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011954">Dallad, Dalad</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00193f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.0712900" lat="50.7966100" gazref="geonames:2651542" source="geonames"/>
+   <geo long="-3.071448061354842" lat="50.79857348151741" gazref="unlock:11126909" source="unlock"/>
+   <geo easting="324500" northing="100500" long="-3.07268" lat="50.7991" kepnref="15904" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w542007">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542007">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="de42">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542040">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="de83">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542059">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542080">
+    <attestation variantID="epns-deep-09-b-name-w542080">
+     <date end="1201" begin="1201" subtype="simple">1201</date>
+     <source style="" id="de53">Cur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w542080">
+     <date end="1344" begin="1344" subtype="simple">1344</date>
+     <source style="" id="de34">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542140">
+    <date end="1344" begin="1201">1201-1344</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w542160">
+    <date end="1545" begin="1545" subtype="simple">1545</date>
+    <source style="" id="de308">Colyton ParReg</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w542007">Dalewude</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542040">Dalewde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542059">Daleuuode</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542080">Dalwde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542140">Dalwude</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542140">Dalwode</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542140">Dalwod</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542160">Dallad</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w542160">Dalad</searchterm>
+  </extension>
+ </mads>
+ 

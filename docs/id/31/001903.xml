@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000025">
+  <authority ID="epns-deep-31-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001903">South Elmsall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000007" type="broader">
+   <geographic>South Kirkby</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w86515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001904">Ermeshale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86534">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001905">Emsala</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001906">Elmeshale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86659">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001907">Suthelmeshal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001908">Southelmesale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001909">Suthelmessale</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86787">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001910">South Elmishall</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w86812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001911">Southelmesall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006261"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2803400" lat="53.5970900" gazref="geonames:2637435" source="geonames"/>
+   <geo long="-1.274706953" lat="53.59313723" source="epns"/>
+   <geo long="-1.282185039149785" lat="53.59767833940859" gazref="unlock:11287319" source="unlock"/>
+   <geo easting="448500" northing="412500" long="-1.26847" lat="53.6068" kepnref="14416" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w86515">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86534">
+    <date subtype="simple" begin="1137" end="1139">1137-9</date>
+    <source style="" id="wr796">YCh</source>
+    <item>1492</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86558">
+    <date subtype="simple" begin="1170" end="1180">1170-80</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <page>1782</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86558">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86659">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86692">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="wr161" underspec="ib">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86692">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86692">
+    <attestation variantID="epns-deep-31-b-name-w86692">
+     <date subtype="simple" begin="1328" end="1328">1328</date>
+     <source style="" id="wr29">Banco</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-31-b-name-w86692">
+     <date subtype="simple" begin="1366" end="1366">1366</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86757">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>74</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86787">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="wr311">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86812">
+    <date subtype="simple" begin="1378" end="1378">1378</date>
+    <source style="" id="wr799">YD</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w86812">
+    <date subtype="simple" begin="1522" end="1522">1522</date>
+    <source style="" id="wr711">Test</source>
+    <item>v</item>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w86515">Ermeshale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86534">Emsala</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86558">Elmeshale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86659">Suthelmeshale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86659">Suthelmeshal</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86692">Southelmesale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86757">Suthelmessale</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86787">South Elmishall</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w86812">Southelmesall</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000019">
+  <authority ID="epns-deep-05-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000163">Skelton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000008" type="broader">
+   <geographic>Overton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w11869">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000164">Sc(h)eltun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w11889">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000165">Escheltona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w11919">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000166">Skelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w11963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000167">Schelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w11999">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000168">Scheltunam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600056f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1333300" lat="54.0000000" gazref="geonames:2637747" source="geonames"/>
+   <geo long="-1.122681577533645" lat="54.00113516334896" gazref="unlock:11284591" source="unlock"/>
+   <geo easting="457500" northing="456500" long="-1.12426" lat="54.0013" kepnref="5670" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w11869">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11889">
+    <date subtype="simple" begin="1090" end="1095">1090-5</date>
+    <copydate end="1433" begin="1433">1433</copydate>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11919">
+    <date subtype="simple" begin="1181" end="1184">1181-4</date>
+    <source style="" id="ny236">YCh</source>
+    <page>423</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11919">
+    <attestation variantID="epns-deep-05-b-name-w11919">
+     <date subtype="simple" begin="1244" end="1244">1244</date>
+     <source style="italic" id="ny12">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11963">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11963">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w11999">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w11869">Scheltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w11869">Sceltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w11889">Escheltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w11919">Skelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w11963">Schelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w11999">Scheltunam</searchterm>
+  </extension>
+ </mads>
+ 

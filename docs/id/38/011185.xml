@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000132">
+  <authority ID="epns-deep-38-b-name-subparish-000132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011185">Milcote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000132" type="broader">
+   <geographic>Milcote</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w515142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011186">Mulecote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w515190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011187">Mulecote upon Avene, Mulecote upon Esture</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w515249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011188">Mel(e)cote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w515288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011189">Mulcote</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b54"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.736804987" lat="52.16556813" source="epns"/>
+   <geo long="-1.744090014864773" lat="52.17008077365144" gazref="unlock:11218888" source="unlock"/>
+   <geo kepnexref="354" long="-1.716294" lat="52.170422" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w515142">
+    <attestation variantID="epns-deep-38-b-name-w515142">
+     <date subtype="simple" begin="710" end="710">710</date>
+     <copydate end="1400" begin="1300">14th</copydate>
+     <source style="" id="go39">BCS</source>
+     <item>127</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w515142">
+     <date subtype="simple" begin="1325" end="1325">1325</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w515190">
+    <date subtype="simple" begin="1245" end="1245">1245</date>
+    <date subtype="simple" begin="1246" end="1246">1246</date>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w515249">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w515249">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w515249">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="go96">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w515288">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w515142">Mulecote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w515190">Mulecote upon Avene</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w515190">Mulecote upon Esture</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w515249">Melecote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w515249">Melcote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w515288">Mulcote</searchterm>
+  </extension>
+ </mads>
+ 

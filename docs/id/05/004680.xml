@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000418">
+  <authority ID="epns-deep-05-b-name-subparish-000418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004680">Carlton in Coverdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000145" type="broader">
+   <geographic>Coverham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w341955">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004681">Carleton in Coverdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000451"/>
+  </recordInfo>
+  <extension>
+   <geo easting="402500" northing="479500" long="-1.96315" lat="54.2112" kepnref="6071" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w341955">
+    <attestation variantID="epns-deep-05-b-name-w341955">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w341955">Carleton in Coverdale</searchterm>
+  </extension>
+ </mads>
+ 

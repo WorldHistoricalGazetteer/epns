@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000055">
+  <authority ID="epns-deep-08-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002945">Monkleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000055" type="broader">
+   <geographic>Monkleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w154404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002946">Lega</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w154418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002947">Legh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w154442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002948">Munckenelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w154465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002949">Monckeleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w154488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002950">Monekelegh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2029100" lat="50.9653000" gazref="geonames:2642333" source="geonames"/>
+   <geo long="-4.200364517792625" lat="50.96263444389662" gazref="unlock:11221657" source="unlock"/>
+   <geo easting="245500" northing="120500" long="-4.20147" lat="50.9632" kepnref="15512" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w154404">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w154418">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="" id="de147">Montacute</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w154442">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w154465">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w154488">
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w154404">Lega</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w154418">Legh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w154442">Munckenelegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w154465">Monckeleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w154488">Monekelegh</searchterm>
+  </extension>
+ </mads>
+ 

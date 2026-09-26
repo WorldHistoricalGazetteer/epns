@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000100">
+  <authority ID="epns-deep-09-a-name-parish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004979">Ogwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000006" type="broader">
+   <geographic>Wonford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001804"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6533000" lat="50.5189100" gazref="geonames:7300277" source="geonames"/>
+   <geo long="-3.6436384975467" lat="50.52207800294119" gazref="unlock:11136473" source="unlock"/>
+   <geo easting="284500" northing="70500" long="-3.6307" lat="50.5229" kepnref="15769" source="kepn"/>
+  </extension>
+ </mads>
+ 

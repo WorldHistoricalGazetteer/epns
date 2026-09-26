@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000387">
+  <authority ID="epns-deep-05-b-name-subparish-000387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004386">Langthorne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000134" type="broader">
+   <geographic>Bedale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w320406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004387">Langetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w320425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004388">Langethorn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w320480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004389">Langthorne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600041e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6067400" lat="54.3182500" gazref="geonames:7300699" source="geonames"/>
+   <geo long="-1.607945756159727" lat="54.31829612038391" gazref="unlock:11191740" source="unlock"/>
+   <geo easting="424500" northing="491500" long="-1.62485" lat="54.3185" kepnref="6039" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w320406">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320425">
+    <attestation variantID="epns-deep-05-b-name-w320425">
+     <date subtype="simple" begin="1086" end="1112">1086-1112</date>
+     <source style="italic" id="ny46">Dods</source>
+     <item>lxxvi</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w320425">
+     <date subtype="simple" begin="1350" end="1350">1350</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320480">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320480">
+    <date subtype="simple" begin="1514" end="1514">1514</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320480">
+    <date subtype="simple" begin="1562" end="1562">1562</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w320406">Langetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w320425">Langethorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w320425">Langethorn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w320480">Langthorne</searchterm>
+  </extension>
+ </mads>
+ 

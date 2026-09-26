@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000098">
+  <authority ID="epns-deep-14-a-name-parish-000098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003735">Bugthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000003" type="broader">
+   <geographic>Buckrose Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003a2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8226000" lat="54.0108200" gazref="geonames:2654370" source="geonames"/>
+   <geo long="-0.8323400915499563" lat="54.01664383844684" gazref="unlock:11092014" source="unlock"/>
+   <geo easting="477500" northing="458500" long="-0.818699" lat="54.0167" kepnref="8551" source="kepn"/>
+  </extension>
+ </mads>
+ 

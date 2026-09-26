@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000040">
+  <authority ID="epns-deep-40-b-name-subparish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/004384">Kingswood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000038" type="broader">
+   <geographic>Kingswood</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w182652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/004385">Kingeswod(e), Kyngeswod(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w182758">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/004386">Kyngesuuode extra Bristolle</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w182797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/004387">Kyngeswood</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w182818">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/004388">forest of Kyngiswod(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b36"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5083300" lat="51.4527800" gazref="geonames:2645418" source="geonames"/>
+   <geo long="-2.503777568" lat="51.45440909" source="epns"/>
+   <geo long="-2.511024435227626" lat="51.45887472535181" gazref="unlock:11187269" source="unlock"/>
+   <geo kepnexref="361" long="-2.563448" lat="51.63251" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w182652">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="go512">Theok</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182652">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="go439">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182652">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182652">
+    <attestation variantID="epns-deep-40-b-name-w182652">
+     <date end="1295" begin="1295" subtype="simple">1295</date>
+     <source style="italic" id="go600">MinAcct</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w182652">
+     <date end="1512" begin="1512" subtype="simple">1512</date>
+     <source style="" id="go101">Comp</source>
+     <page>157</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182758">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="go96">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182797">
+    <date end="1574" begin="1574" subtype="simple">1574</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182818">
+    <date end="1485" begin="1485" subtype="simple">1485</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w182818">
+    <date end="1600" begin="1500" subtype="century">16</date>
+    <source style="" id="go436">Rent</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w182652">Kingeswode</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182652">Kingeswod</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182652">Kyngeswode</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182652">Kyngeswod</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182758">Kyngesuuode extra Bristolle</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182797">Kyngeswood</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182818">forest of Kyngiswode</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w182818">forest of Kyngiswod</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000064">
+  <authority ID="epns-deep-02-a-name-parish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000971">Steeple Claydon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000005" type="broader">
+   <geographic>Lamua Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002d5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9832800" lat="51.9364300" gazref="geonames:2636967" source="geonames"/>
+   <geo long="-0.9890420997229421" lat="51.93223438968185" gazref="unlock:11291725" source="unlock"/>
+   <geo easting="469500" northing="226500" long="-0.990553" lat="51.9327" kepnref="11258" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000160">
+  <authority ID="epns-deep-12-a-name-parish-000160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/007308">North Fambridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000009" type="broader">
+   <geographic>Dengie Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000cd8"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6751000" lat="51.6427900" gazref="geonames:2641357" source="geonames"/>
+   <geo long="0.6814296763178855" lat="51.6451874020492" gazref="unlock:11232409" source="unlock"/>
+   <geo easting="585500" northing="197500" long="0.679739" lat="51.6457" kepnref="12339" source="kepn"/>
+  </extension>
+ </mads>
+ 

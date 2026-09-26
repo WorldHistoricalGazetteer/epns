@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000045">
+  <authority ID="epns-deep-79-a-name-parish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/004268">Colby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d09"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2951500" lat="52.8271600" gazref="geonames:7298992" source="geonames"/>
+   <geo long="1.295891731" lat="52.83038083" source="epns"/>
+   <geo long="1.303643286149423" lat="52.83466344680733" gazref="unlock:11113428" source="unlock"/>
+   <geo easting="622500" northing="331500" long="1.30183" lat="52.835" kepnref="9198" source="kepn"/>
+  </extension>
+ </mads>
+ 

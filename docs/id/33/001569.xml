@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-a-parish-000005">
+  <authority ID="epns-deep-33-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001569">Selby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-wp-subcounty-000001" type="broader">
+   <geographic>Barkston Ash Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005ff7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0666700" lat="53.7833300" gazref="geonames:2638235" source="geonames"/>
+   <geo long="-1.074167097" lat="53.78053375" source="epns"/>
+   <geo long="-1.06647937670975" lat="53.78497013878722" gazref="unlock:11280102" source="unlock"/>
+   <geo easting="461500" northing="431500" long="-1.06826" lat="53.7762" kepnref="14604" source="kepn"/>
+  </extension>
+ </mads>
+ 

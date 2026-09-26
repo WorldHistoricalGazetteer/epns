@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000025">
+  <authority ID="epns-deep-32-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004686">Norwood Green</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-ch-belowparish-000002" type="broader">
+   <geographic>Halifax Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w199268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004687">Norwde</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199284">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004688">Northwod(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004689">Northwood</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004690">Norwod(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199366">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004691">Norwod(e) grene</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004692">Norwood</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004693">Norwood grene</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w199451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004694">Norwood Green</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006140"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.802930444" lat="53.73001151" source="epns"/>
+   <geo long="-1.795329005806766" lat="53.73449461910236" gazref="unlock:11233863" source="unlock"/>
+   <geo kepnexref="330" long="-1.796832" lat="53.734718" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w199268">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199284">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wr757">WCR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199316">
+    <date end="1529" begin="1529" subtype="simple">1529</date>
+    <source style="" id="wr754">Watson</source>
+    <page>652</page>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199345">
+    <date end="1371" begin="1371" subtype="simple">1371</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199366">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199366">
+    <date end="1563" begin="1563" subtype="simple">1563</date>
+    <source style="" id="wr529">PRHfx</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199408">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199425">
+    <date end="1590" begin="1590" subtype="simple">1590</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w199451">
+    <date end="1742" begin="1742" subtype="simple">1742</date>
+    <source style="" id="wr106">Ct</source>
+    <page>48</page>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w199268">Norwde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199284">Northwode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199284">Northwod</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199316">Northwood</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199345">Norwode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199345">Norwod</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199366">Norwode grene</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199366">Norwod grene</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199408">Norwood</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199425">Norwood grene</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w199451">Norwood Green</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000087">
+  <authority ID="epns-deep-34-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008276">High Bishopside &amp; Low Bishopside</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w341308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008277">Bychopsyd</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008278">Bis(s)hopsyde, Bis(s)hopsid(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008279">Hye Bis(s)hopsyde, Hie Bis(s)hopsyde</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008280">High Bis(s)hopsyde</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008281">Lowe Bis(s)hopsyde</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008282">Bus(c)hopsyd, Bus(c)hopside</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341600">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008283">Hie Bus(c)hopside</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008284">Busshopesydd</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w341651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/008285">Lawebushoppside</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006204"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.755308207" lat="54.09846715" source="epns"/>
+   <geo long="-1.747634309882254" lat="54.10294697934967" gazref="unlock:11171307" source="unlock"/>
+   <geo easting="416500" northing="467500" long="-1.74914" lat="54.1031" kepnref="14807" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w341308">
+    <date end="1459" begin="1459" subtype="simple">1459</date>
+    <source style="" id="wr226">FountBurs</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341334">
+    <date end="1480" begin="1480" subtype="simple">1480</date>
+    <source style="" id="wr606">RipAct</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341334">
+    <date end="1496" begin="1496" subtype="simple">1496</date>
+    <source style="" id="wr228">FountRent</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341334">
+    <attestation variantID="epns-deep-34-b-name-w341334">
+     <date end="1507" begin="1507" subtype="simple">1507</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w341334">
+     <date end="1641" begin="1641" subtype="simple">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341430">
+    <date end="1576" begin="1576" subtype="simple">1576</date>
+    <date end="1641" begin="1641" subtype="simple">1641</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341487">
+    <date end="1693" begin="1693" subtype="simple">1693</date>
+    <source style="italic" id="wr609">RipQS</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341518">
+    <date end="1641" begin="1641" subtype="simple">1641</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341549">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wr739">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341549">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341600">
+    <date end="1587" begin="1587" subtype="simple">1587</date>
+    <source style="" id="wr779" underspec="ib">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341627">
+    <date end="1555" begin="1555" subtype="simple">1555</date>
+    <source style="" id="wr779" underspec="ib">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w341651">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="" id="wr779" underspec="ib">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w341308">Bychopsyd</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bisshopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bishopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bisshopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bisshopsid</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bishopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341334">Bishopsid</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341430">Hye Bisshopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341430">Hye Bishopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341430">Hie Bisshopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341430">Hie Bishopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341487">High Bisshopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341487">High Bishopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341518">Lowe Bisshopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341518">Lowe Bishopsyde</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341549">Buschopsyd</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341549">Bushopsyd</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341549">Buschopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341549">Bushopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341600">Hie Buschopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341600">Hie Bushopside</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341627">Busshopesydd</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w341651">Lawebushoppside</searchterm>
+   <searchterm madsID="epns-deep-34-b-subparish-000087">High Bishopside</searchterm>
+   <searchterm madsID="epns-deep-34-b-subparish-000087">Low Bishopside</searchterm>
+  </extension>
+ </mads>
+ 

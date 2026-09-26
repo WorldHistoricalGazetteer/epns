@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000093">
+  <authority ID="epns-deep-98-a-name-parish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002167">Leighton Buzzard</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000007" type="broader">
+   <geographic>Manshead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000288"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6580200" lat="51.9172200" gazref="geonames:2644652" source="geonames"/>
+   <geo long="-0.6548365548500603" lat="51.91989718745418" gazref="unlock:11193864" source="unlock"/>
+   <geo easting="492500" northing="225500" long="-0.656385" lat="51.9204" kepnref="4317" source="kepn"/>
+  </extension>
+ </mads>
+ 

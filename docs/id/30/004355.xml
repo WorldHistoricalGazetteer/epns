@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000038">
+  <authority ID="epns-deep-30-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004355">Stotfold</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000027" type="broader">
+   <geographic>Hooton Pagnell</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w206110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004356">Stodfald, Stotfalde, Stofald</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w206148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004357">Stodefald</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w206167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004358">Stodefold</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w206192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004359">Stodfold(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w206250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004360">Schipenes Stodfold</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w206278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/004361">Stotfold</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006168"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.290568583" lat="53.54828454" source="epns"/>
+   <geo long="-1.282945896934795" lat="53.5527351122912" gazref="unlock:11293627" source="unlock"/>
+   <geo easting="447500" northing="406500" long="-1.28449" lat="53.553" kepnref="14296" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w206110">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206148">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206167">
+    <date subtype="simple" begin="1379" end="1379">1379</date>
+    <source style="" id="wr577">PT</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206192">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206192">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206192">
+    <attestation variantID="epns-deep-30-b-name-w206192">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-30-b-name-w206192">
+     <date subtype="simple" begin="1592" end="1592">1592</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206250">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="wr311">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w206278">
+    <date subtype="simple" begin="1630" end="1630">1630</date>
+    <source style="" id="wr535">PRHtnP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w206110">Stodfald</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206110">Stotfalde</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206110">Stofald</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206148">Stodefald</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206167">Stodefold</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206192">Stodfolde</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206192">Stodfold</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206250">Schipenes Stodfold</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w206278">Stotfold</searchterm>
+  </extension>
+ </mads>
+ 

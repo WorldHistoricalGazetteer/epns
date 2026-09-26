@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000029">
+  <authority ID="epns-deep-18-a-name-parish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001096">Northolt</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000003" type="broader">
+   <geographic>Elthorne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a000020b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3677800" lat="51.5485500" gazref="geonames:2641290" source="geonames"/>
+   <geo long="-0.3629440339546318" lat="51.54748568504715" gazref="unlock:11233545" source="unlock"/>
+   <geo easting="512500" northing="185500" long="-0.378607" lat="51.5572" kepnref="4736" source="kepn"/>
+  </extension>
+ </mads>
+ 

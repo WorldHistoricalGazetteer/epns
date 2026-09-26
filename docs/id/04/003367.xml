@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000134">
+  <authority ID="epns-deep-04-b-name-subparish-000134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003367">Castle Morton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000136" type="broader">
+   <geographic>Castle Morton</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w288264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003368">Mortun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w288280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003369">Morton Folet</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w288302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003370">Castell Morton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000560"/>
+  </recordInfo>
+  <extension>
+   <geo easting="379500" northing="237500" long="-2.30024" lat="52.0355" kepnref="5296" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w288264">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="wo23">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w288280">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w288302">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w288264">Mortun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w288280">Morton Folet</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w288302">Castell Morton</searchterm>
+  </extension>
+ </mads>
+ 

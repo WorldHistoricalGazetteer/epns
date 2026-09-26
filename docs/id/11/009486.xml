@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000121">
+  <authority ID="epns-deep-11-a-name-parish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009486">Charlwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000013" type="broader">
+   <geographic>Reigate Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a12"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2258600" lat="51.1564400" gazref="geonames:2653319" source="geonames"/>
+   <geo long="-0.2194161696389377" lat="51.15866634289278" gazref="unlock:11103985" source="unlock"/>
+   <geo easting="524500" northing="141500" long="-0.220984" lat="51.1592" kepnref="8360" source="kepn"/>
+  </extension>
+ </mads>
+ 

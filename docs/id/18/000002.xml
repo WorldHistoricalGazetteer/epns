@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-hu-subcounty-000001">
+  <authority ID="epns-deep-18-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000002">Spelthorne Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-co-county-000001" type="broader">
+   <geographic>Middlesex</geographic>
+  </related>
+  <variant ID="epns-deep-18-hu-name-w35">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000003">Spelet(h)orne</geographic>
+  </variant>
+  <variant ID="epns-deep-18-hu-name-w77">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000004">Spelesthorn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-18-hu-name-w106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000005">Spellethorn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a57b47fc407a0000222"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-18-hu-name-w35">
+    <attestation variantID="epns-deep-18-hu-name-w35">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="mi70">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-18-hu-name-w35">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="mi98">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-18-hu-name-w77">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="mi219">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-hu-name-w106">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <source style="" id="mi219" underspec="ib">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-hu-name-w35">Spelethorne</searchterm>
+   <searchterm variantID="epns-deep-18-hu-name-w35">Speletorne</searchterm>
+   <searchterm variantID="epns-deep-18-hu-name-w77">Spelesthorne</searchterm>
+   <searchterm variantID="epns-deep-18-hu-name-w77">Spelesthorn</searchterm>
+   <searchterm variantID="epns-deep-18-hu-name-w106">Spellethorn</searchterm>
+  </extension>
+ </mads>
+ 

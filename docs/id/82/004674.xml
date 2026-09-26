@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000005">
+  <authority ID="epns-deep-82-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/004674">Hordley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000001" type="broader">
+   <geographic>Pimhill Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53f1a02cb47fc426160001b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9221500" lat="52.8711200" gazref="geonames:2646609" source="geonames"/>
+   <geo long="-2.918231665" lat="52.87079862" source="epns"/>
+   <geo long="-2.913718450485856" lat="52.86813726966791" gazref="unlock:11179269" source="unlock"/>
+   <geo easting="338500" northing="330500" long="-2.91504" lat="52.8685" kepnref="13488" source="kepn"/>
+   <note madsID="epns-deep-82-a-parish-000005">For historical forms, see the settlement of the same name.</note>
+  </extension>
+ </mads>
+ 

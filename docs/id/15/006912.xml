@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000107">
+  <authority ID="epns-deep-15-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006912">Eastwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000127" type="broader">
+   <geographic>Eastwick</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w341524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006913">Esteuuiche</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w341544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006914">Estwic'</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w341601">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006915">Estwic' and Estwik, Estwyk</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w341629">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006916">East Wyke</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w341648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006917">Estwyk atte Flore</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000787"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0817500" lat="51.7995700" gazref="geonames:7297611" source="geonames"/>
+   <geo long="0.08057355055733992" lat="51.78328530286507" gazref="unlock:11137543" source="unlock"/>
+   <geo easting="543500" northing="211500" long="0.0789459" lat="51.7838" kepnref="4684" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w341524">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w341544">
+    <attestation variantID="epns-deep-15-b-name-w341544">
+     <date subtype="simple" begin="1204" end="1212">1204-12</date>
+     <source style="" id="he112">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w341601">
+    <date end="1600" begin="1204">1204-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w341629">
+    <date subtype="simple" begin="1318" end="1318">1318</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w341648">
+    <date subtype="simple" begin="1342" end="1342">1342</date>
+    <source style="" id="he146">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w341648">
+    <date subtype="simple" begin="1391" end="1391">1391</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w341524">Esteuuiche</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341544">Estwic'</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341601">Estwic'</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341601">Estwik</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341601">Estwyk</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341629">East Wyke</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w341648">Estwyk atte Flore</searchterm>
+  </extension>
+ </mads>
+ 

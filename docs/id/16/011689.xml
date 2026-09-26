@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000245">
+  <authority ID="epns-deep-16-b-name-subparish-000245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011689">Chilton Foliat</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000284" type="broader">
+   <geographic>Chilton Foliat</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w575309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011690">Cilletone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w575328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011691">Chilton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w575369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011692">Chilton(e) Foliot</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w575396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011693">Chilton(e) Tieys</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w575422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011694">Cilton Roberti Foliot</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d99"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5391200" lat="51.4324500" gazref="geonames:2653152" source="geonames"/>
+   <geo long="-1.546820833612603" lat="51.4321345861816" gazref="unlock:11105006" source="unlock"/>
+   <geo easting="432500" northing="170500" long="-1.53386" lat="51.4326" kepnref="7435" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w575309">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w575328">
+    <date subtype="simple" begin="1155" end="1155">1155</date>
+    <source style="" id="ws272">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w575328">
+    <attestation variantID="epns-deep-16-b-name-w575328">
+     <date subtype="simple" begin="1166" end="1166">1166</date>
+     <source style="" id="ws240">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w575369">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ws50">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w575396">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="ws50">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w575422">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w575309">Cilletone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575328">Chiltone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575328">Chilton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575369">Chiltone Foliot</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575369">Chilton Foliot</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575396">Chiltone Tieys</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575396">Chilton Tieys</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w575422">Cilton Roberti Foliot</searchterm>
+  </extension>
+ </mads>
+ 

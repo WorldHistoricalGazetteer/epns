@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000134">
+  <authority ID="epns-deep-13-b-name-subparish-000134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005763">Offchurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000137" type="broader">
+   <geographic>Offchurch</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w299192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005764">Offechirch</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005765">Offechericħ</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005766">Offekirke</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005767">Offechireche</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005768">Offechurche</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005769">Offecherche</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005770">Affechirche</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299384">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005771">Ofchirche</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w299429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005772">Ofechirch</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007b4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4760300" lat="52.2874800" gazref="geonames:2641072" source="geonames"/>
+   <geo long="-1.464851077748752" lat="52.2860339946442" gazref="unlock:11235135" source="unlock"/>
+   <geo easting="435500" northing="265500" long="-1.48098" lat="52.2865" kepnref="5035" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w299192">
+    <date end="1139" begin="1139" subtype="simple">1139</date>
+    <source style="" id="wa259">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299192">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="wa108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299192">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="wa296">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299235">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299257">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="wa213" underspec="ib">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299277">
+    <date end="1209" begin="1209" subtype="simple">1209</date>
+    <source style="" id="wa108">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299303">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="" id="wa216">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299327">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <source style="" id="wa34">Bracton</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299327">
+    <date end="1257" begin="1257" subtype="simple">1257</date>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299362">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299384">
+    <attestation variantID="epns-deep-13-b-name-w299384">
+     <date end="1262" begin="1262" subtype="simple">1262</date>
+     <source style="italic" id="wa17">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w299384">
+     <date end="1386" begin="1386" subtype="simple">1386</date>
+     <source style="" id="wa5">AD</source>
+     <item>v</item>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w299429">
+    <date end="1267" begin="1267" subtype="simple">1267</date>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w299192">Offechirch</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299235">Offechericħ</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299257">Offekirke</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299277">Offechireche</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299303">Offechurche</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299327">Offecherche</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299362">Affechirche</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299384">Ofchirche</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w299429">Ofechirch</searchterm>
+  </extension>
+ </mads>
+ 

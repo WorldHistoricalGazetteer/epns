@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000035">
+  <authority ID="epns-deep-64-a-name-parish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/013127">Worlaby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f6a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4666700" lat="53.6000000" gazref="geonames:2633549" source="geonames"/>
+   <geo long="-0.4657273799186884" lat="53.60797491815639" gazref="unlock:11327228" source="unlock"/>
+   <geo easting="501500" northing="413500" long="-0.46737" lat="53.6082" kepnref="10856" source="kepn"/>
+  </extension>
+ </mads>
+ 

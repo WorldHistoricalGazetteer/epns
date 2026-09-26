@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000014">
+  <authority ID="epns-deep-27-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001545">Burbage</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000013" type="broader">
+   <geographic>Burbage</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w66649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001546">Burbache</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w66669">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001547">Burbage</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001825"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9325507697608" lat="53.24921857733144" gazref="unlock:11092521" source="unlock"/>
+   <geo easting="404500" northing="372500" long="-1.934" lat="53.2495" kepnref="3214" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w66649">
+    <date end="1417" begin="1417" subtype="simple">1417</date>
+    <source style="italic" id="db151">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w66669">
+    <date end="1482" begin="1482" subtype="simple">1482</date>
+    <source style="italic" id="db151">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w66669">
+    <attestation variantID="epns-deep-27-b-name-w66669">
+     <date end="1559" begin="1559" subtype="simple">1559</date>
+     <source style="" id="db286">Lanc</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w66649">Burbache</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w66669">Burbage</searchterm>
+  </extension>
+ </mads>
+ 

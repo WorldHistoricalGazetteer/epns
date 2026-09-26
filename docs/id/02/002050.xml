@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000116">
+  <authority ID="epns-deep-02-a-name-parish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002050">North Marston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000010" type="broader">
+   <geographic>Ashendon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002ba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8770200" lat="51.8990100" gazref="geonames:2641308" source="geonames"/>
+   <geo long="-0.8735961562877793" lat="51.89521715490871" gazref="unlock:11232829" source="unlock"/>
+   <geo easting="477500" northing="222500" long="-0.875119" lat="51.8957" kepnref="11310" source="kepn"/>
+  </extension>
+ </mads>
+ 

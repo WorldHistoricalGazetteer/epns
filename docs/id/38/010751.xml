@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000125">
+  <authority ID="epns-deep-38-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010751">Ebrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000009" type="broader">
+   <geographic>Kiftsgate Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300195d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7321700" lat="52.0582600" gazref="geonames:2650282" source="geonames"/>
+   <geo long="-1.722853051" lat="52.05763703" source="epns"/>
+   <geo long="-1.730119131691964" lat="52.06215056425535" gazref="unlock:11137698" source="unlock"/>
+   <geo easting="418500" northing="240500" long="-1.73155" lat="52.0626" kepnref="6311" source="kepn"/>
+  </extension>
+ </mads>
+ 

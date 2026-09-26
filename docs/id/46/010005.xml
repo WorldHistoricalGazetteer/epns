@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000080">
+  <authority ID="epns-deep-46-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010005">Weaverham cum Milton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000020" type="broader">
+   <geographic>Weaverham</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w502688">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010006">Weuerham cum Mulneton</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w502724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010007">Weaverham, with Milton, Gorstich and Sandiway</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w502783">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010008">Milton cum Weaverham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002085"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.584482133" lat="53.24330882" source="epns"/>
+   <geo easting="361500" northing="374500" long="-2.57867" lat="53.2661" kepnref="11971" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w502688">
+    <date end="1475" begin="1475" subtype="simple">1475</date>
+    <source style="italic" id="ch8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w502724">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w502783">
+    <date end="1831" begin="1831" subtype="simple">1831</date>
+    <source style="" id="ch72">Bry</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w502688">Weuerham cum Mulneton</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w502724">Weaverham</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w502724">with Milton</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w502724">Gorstich and Sandiway</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w502783">Milton cum Weaverham</searchterm>
+  </extension>
+ </mads>
+ 

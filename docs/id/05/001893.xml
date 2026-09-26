@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000163">
+  <authority ID="epns-deep-05-b-name-subparish-000163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001893">Harwood Dale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000061" type="broader">
+   <geographic>Hackness</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w152254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001894">Harewode</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w152290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001895">Harwod</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w152319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001896">Harwoddale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5305400" lat="54.3546100" gazref="geonames:7296899" source="geonames"/>
+   <geo long="-0.5153055903221135" lat="54.34575372945809" gazref="unlock:11166968" source="unlock"/>
+   <geo easting="496500" northing="495500" long="-0.516976" lat="54.3459" kepnref="5814" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w152254">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w152254">
+    <date subtype="simple" begin="1385" end="1385">1385</date>
+    <source style="" id="ny13">Baildon</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w152290">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w152290">
+    <date subtype="simple" begin="1395" end="1395">1395</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w152319">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w152254">Harewode</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w152290">Harwod</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w152319">Harwoddale</searchterm>
+  </extension>
+ </mads>
+ 

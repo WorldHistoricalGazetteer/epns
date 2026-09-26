@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-a-parish-000037">
+  <authority ID="epns-deep-53-a-name-parish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/006941">Winterborne Houghton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-hu-subcounty-000005" type="broader">
+   <geographic>Pimperne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a95"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2789300" lat="50.8432500" gazref="geonames:7293403" source="geonames"/>
+   <geo long="-2.255658444" lat="50.83828801" source="epns"/>
+   <geo long="-2.262765113765694" lat="50.83917208108582" gazref="unlock:11324257" source="unlock"/>
+   <geo easting="381500" northing="104500" long="-2.26409" lat="50.8397" kepnref="11548" source="kepn"/>
+  </extension>
+ </mads>
+ 

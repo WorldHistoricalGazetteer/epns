@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000156">
+  <authority ID="epns-deep-09-b-name-subparish-000156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007979">Morebath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000156" type="broader">
+   <geographic>Morebath</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w360735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007980">Morbath(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w360799">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007981">Morbathe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w360809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007982">Morba</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w360833">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007983">Morpath</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w360851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007984">Murbath</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019ce"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4916700" lat="51.0138900" gazref="geonames:2642217" source="geonames"/>
+   <geo long="-3.489742025145384" lat="51.0098383983551" gazref="unlock:11222768" source="unlock"/>
+   <geo easting="295500" northing="124500" long="-3.49093" lat="51.0104" kepnref="15827" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w360735">
+    <attestation variantID="epns-deep-09-b-name-w360735">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w360735">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w360799">
+    <date end="1316" begin="1086">1086-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w360809">
+    <date end="1179" begin="1179" subtype="simple">1179</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w360809">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w360833">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w360851">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="de172">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w360735">Morbatha</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w360735">Morbath</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w360799">Morbathe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w360809">Morba</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w360833">Morpath</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w360851">Murbath</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000033">
+  <authority ID="epns-deep-09-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001467">Winkleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000033" type="broader">
+   <geographic>Winkleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w69978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001468">Wincheleia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w70045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001469">Winche- Winkeleia, Wynkeleia and Winchelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w70093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001470">Wynkelegh Tracy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w70121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001471">Wenkelegh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a73"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9430000" lat="50.8558100" gazref="geonames:2633818" source="geonames"/>
+   <geo long="-3.939689431601188" lat="50.85932238528611" gazref="unlock:11324093" source="unlock"/>
+   <geo easting="262500" northing="108500" long="-3.95502" lat="50.8596" kepnref="15700" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w69978">
+    <attestation variantID="epns-deep-09-b-name-w69978">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w69978">
+     <date end="1426" begin="1426" subtype="simple">1426</date>
+     <source style="" id="de112">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w70045">
+    <date end="1426" begin="1086">1086-1426</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w70093">
+    <date end="1350" begin="1350" subtype="simple">1350</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w70121">
+    <date end="1282" begin="1282" subtype="simple">1282</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w69978">Wincheleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70045">Winche- Winkeleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70045">Wynkeleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70045">Wincheleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70045">Winchelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70093">Wynkelegh Tracy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w70121">Wenkelegh</searchterm>
+  </extension>
+ </mads>
+ 

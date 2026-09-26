@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000110">
+  <authority ID="epns-deep-06-b-name-subparish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003500">Littlehampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000110" type="broader">
+   <geographic>Littlehampton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w270422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003501">Hantone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w270455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003502">Hamton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w270499">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003503">Hampton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w270537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003504">Hampton juxta Arundell</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w270571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003505">Lyttelhampton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w270596">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003506">Hampton Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d33"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5378200" lat="50.8069100" gazref="geonames:2644319" source="geonames"/>
+   <geo long="-0.5449410560277852" lat="50.81240736045482" gazref="unlock:11197289" source="unlock"/>
+   <geo easting="502500" northing="102500" long="-0.546459" lat="50.813" kepnref="6972" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w270422">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270422">
+    <date subtype="circa" begin="1080" end="1100">c. 1090</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270455">
+    <date subtype="regnal" begin="1216" end="1272">t. Hy 3</date>
+    <source style="" id="su3">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270455">
+    <date subtype="simple" begin="1229" end="1229">1229</date>
+    <source style="" id="su44">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270455">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270499">
+    <attestation variantID="epns-deep-06-b-name-w270499">
+     <date subtype="simple" begin="1230" end="1230">1230</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w270499">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270537">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270571">
+    <date subtype="simple" begin="1482" end="1482">1482</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w270596">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <source style="" id="su156">MarC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w270422">Hantone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270455">Hamtone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270455">Hamton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270499">Hampton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270537">Hampton juxta Arundell</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270571">Lyttelhampton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w270596">Hampton Parva</searchterm>
+  </extension>
+ </mads>
+ 

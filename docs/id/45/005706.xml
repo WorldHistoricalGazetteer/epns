@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000033">
+  <authority ID="epns-deep-45-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005706">Anderton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000010" type="broader">
+   <geographic>Great Budworth</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w246966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005707">Andrelton'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w246985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005708">Aldreton'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w247003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005709">Alderton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w247023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005710">Aldreson'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w247044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005711">Anderton'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w247104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005712">Andirton', Andurton', Andreton'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w247139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005713">Henderton', Enderton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fbd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5333300" lat="53.2666700" gazref="geonames:2657325" source="geonames"/>
+   <geo long="-2.539863706" lat="53.27048905" source="epns"/>
+   <geo long="-2.532421959146368" lat="53.27501862397609" gazref="unlock:11062439" source="unlock"/>
+   <geo easting="364500" northing="375500" long="-2.5338" lat="53.2753" kepnref="11794" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w246966">
+    <date subtype="simple" begin="1182" end="1182">1182</date>
+    <source style="" id="ch487">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w246985">
+    <date subtype="simple" begin="1183" end="1183">1183</date>
+    <source style="" id="ch487">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247003">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="" id="ch388">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247023">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="" id="ch5">AD</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247044">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="" id="ch487">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247044">
+    <attestation variantID="epns-deep-45-b-name-w247044">
+     <date subtype="simple" begin="1287" end="1287">1287</date>
+     <source style="" id="ch138">Court</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247104">
+    <date end="1600" begin="1287">1287-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w247139">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <date subtype="simple" begin="1186" end="1186">1186</date>
+    <source style="" id="ch487">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w246966">Andrelton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w246985">Aldreton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247003">Alderton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247023">Aldreson'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247044">Anderton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247104">Andirton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247104">Andurton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247104">Andreton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247139">Henderton'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w247139">Enderton'</searchterm>
+  </extension>
+ </mads>
+ 

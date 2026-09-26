@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000006">
+  <authority ID="epns-deep-76-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000891">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000003" type="broader">
+   <geographic>Hadley</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w44127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000892">Hortune</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w44176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000893">Horton', Hortun', Horton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a63ab47fc4463d000edd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.469446001" lat="52.72687376" source="epns"/>
+   <geo long="-2.466484441457022" lat="52.72688645613569" gazref="unlock:11179792" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w44127">
+    <attestation variantID="epns-deep-76-b-name-w44127">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w44176">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w44127">Hortune</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w44176">Horton'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w44176">Hortun'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w44176">Horton</searchterm>
+  </extension>
+ </mads>
+ 

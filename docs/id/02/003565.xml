@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000173">
+  <authority ID="epns-deep-02-b-name-subparish-000173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003565">Ibstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000171" type="broader">
+   <geographic>Ibstone</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w247628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003566">Hibestanes</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w247648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003567">Ebestan</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w247665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003568">Ibbastana</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w247694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003569">Ibbestane</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w247912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003570">Ipston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300037e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9129000" lat="51.6364000" gazref="geonames:2646310" source="geonames"/>
+   <geo long="-0.9089627496989974" lat="51.63476837382144" gazref="unlock:11182060" source="unlock"/>
+   <geo easting="475500" northing="193500" long="-0.910471" lat="51.6353" kepnref="11367" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w247628">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w247648">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w247665">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <source style="italic" id="bu73">Mert</source>
+    <page>2437</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w247694">
+    <date end="1184" begin="1184" subtype="simple">1184</date>
+    <source style="italic" id="bu73">Mert</source>
+    <page>2548</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w247912">
+    <date end="1417" begin="1417" subtype="simple">1417</date>
+    <source style="" id="bu58">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w247628">Hibestanes</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w247648">Ebestan</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w247665">Ibbastana</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w247694">Ibbestane</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w247912">Ipston</searchterm>
+  </extension>
+ </mads>
+ 

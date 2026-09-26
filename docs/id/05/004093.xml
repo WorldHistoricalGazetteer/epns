@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000357">
+  <authority ID="epns-deep-05-b-name-subparish-000357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004093">Holme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000129" type="broader">
+   <geographic>Pickhill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w301440">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004094">Hulme</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w301472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004095">Hulmo</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w301488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004096">Holm(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w301521">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004097">Houm</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600057a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4525400" lat="54.2346900" gazref="geonames:7296128" source="geonames"/>
+   <geo long="-1.455273618334598" lat="54.23680759676117" gazref="unlock:11177543" source="unlock"/>
+   <geo easting="435500" northing="482500" long="-1.45682" lat="54.237" kepnref="6010" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w301440">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w301440">
+    <date subtype="simple" begin="1128" end="1135">1128-35</date>
+    <source style="" id="ny236">YCh</source>
+    <page>944</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w301472">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w301488">
+    <attestation variantID="epns-deep-05-b-name-w301488">
+     <date subtype="simple" begin="1088" end="1088">1088</date>
+     <source style="italic" id="ny120">LVD</source>
+     <item>50 d</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w301521">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny46">Dods</source>
+    <item>viii</item>
+    <page>154 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w301521">
+    <date subtype="simple" begin="1208" end="1210">1208-10</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w301440">Hulme</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w301472">Hulmo</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w301488">Holme</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w301488">Holm</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w301521">Houm</searchterm>
+  </extension>
+ </mads>
+ 

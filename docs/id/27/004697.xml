@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000040">
+  <authority ID="epns-deep-27-b-name-subparish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004697">Gratton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000037" type="broader">
+   <geographic>Gratton</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w189552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004698">Gratune</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w189569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004699">Gratton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w189628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004700">Gretton'</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w189672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004701">Greeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00187a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6967100" lat="53.1473500" gazref="geonames:7293244" source="geonames"/>
+   <geo long="-1.708454767756267" lat="53.14100170243593" gazref="unlock:11158239" source="unlock"/>
+   <geo easting="420500" northing="360500" long="-1.69498" lat="53.1413" kepnref="3240" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w189552">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189569">
+    <date end="1166" begin="1159" subtype="simple">1159-66</date>
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="db124">Darley</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189569">
+    <attestation variantID="epns-deep-27-b-name-w189569">
+     <date end="1275" begin="1255" subtype="circa">c. 1265</date>
+     <source style="italic" id="db38">BelCh</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189628">
+    <date end="1272" begin="1216" subtype="regnal">Hy 3</date>
+    <source style="" id="db124">Darley</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189628">
+    <date end="1343" begin="1343" subtype="simple">1343</date>
+    <source style="italic" id="db588">Woll</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189628">
+    <date end="1597" begin="1597" subtype="simple">1597</date>
+    <source style="" id="db286">Lanc</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w189672">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="db567">Val</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w189552">Gratune</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w189569">Grattone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w189569">Gratton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w189628">Gretton'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w189672">Greeton</searchterm>
+  </extension>
+ </mads>
+ 

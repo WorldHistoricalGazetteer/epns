@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000073">
+  <authority ID="epns-deep-06-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002335">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000073" type="broader">
+   <geographic>Sutton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w188036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002336">Suðtun</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w188069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002337">Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w188086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002338">Suthtuna</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w188114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002339">Sutton by Bygenyure</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d8a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6164100" lat="50.9318600" gazref="geonames:7296037" source="geonames"/>
+   <geo easting="497500" northing="115500" long="-0.613945" lat="50.9307" kepnref="6935" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w188036">
+    <date subtype="circa" begin="870" end="890">c. 880</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>553</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w188069">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w188086">
+    <date subtype="regnal" begin="1135" end="1154">t. Steph</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w188114">
+    <date subtype="simple" begin="1331" end="1331">1331</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w188036">Suðtun</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w188069">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w188086">Suthtuna</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w188114">Sutton by Bygenyure</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000505">
+  <authority ID="epns-deep-05-b-name-subparish-000505">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005602">Melsonby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000172" type="broader">
+   <geographic>Melsonby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w395119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005603">Malsenebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005604">Melsanebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005605">Malsambi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395221">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005606">Melsambi, Melsamby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005607">Melsanby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005608">Melsenbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005609">Melsamebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w395374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005610">Melsonbye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600053e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6948100" lat="54.4725300" gazref="geonames:2642767" source="geonames"/>
+   <geo long="-1.699076094097244" lat="54.47135656172674" gazref="unlock:11217015" source="unlock"/>
+   <geo easting="419500" northing="508500" long="-1.70061" lat="54.4715" kepnref="6160" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w395119">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395138">
+    <date subtype="simple" begin="1154" end="1169">1154-69</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>227</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395138">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395138">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>43 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395138">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395204">
+    <date subtype="simple" begin="1182" end="1182">1182</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395221">
+    <attestation variantID="epns-deep-05-b-name-w395221">
+     <date subtype="simple" begin="1189" end="1198">1189-98</date>
+     <source style="" id="ny238">YD</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w395221">
+     <date subtype="simple" begin="1400" end="1400">1400</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395273">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395273">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395273">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395315">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny312">FountC</source>
+    <page>317</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395315">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>54 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395354">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w395374">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w395119">Malsenebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395138">Melsanebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395204">Malsambi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395221">Melsambi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395221">Melsamby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395273">Melsanby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395315">Melsenbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395354">Melsamebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w395374">Melsonbye</searchterm>
+  </extension>
+ </mads>
+ 

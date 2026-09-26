@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000154">
+  <authority ID="epns-deep-10-a-name-parish-000154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003477">Hardwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000010" type="broader">
+   <geographic>Orlingbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000437"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7532100" lat="52.3202200" gazref="geonames:2647491" source="geonames"/>
+   <geo long="-0.7455492706982655" lat="52.31655093268936" gazref="unlock:11165804" source="unlock"/>
+   <geo easting="485500" northing="269500" long="-0.747104" lat="52.317" kepnref="11024" source="kepn"/>
+  </extension>
+ </mads>
+ 

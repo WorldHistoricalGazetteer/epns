@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000046">
+  <authority ID="epns-deep-10-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001089">Aynho</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000046" type="broader">
+   <geographic>Aynho</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w63908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001090">Aienho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001091">Aenho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001092">Aieynho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63964">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001093">Ayngho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001094">Ayno</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64000">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001095">Aynho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001096">Ainho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001097">Einho, Eynho</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001098">Einhoo, Einhou</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001099">Eyno</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w64166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001100">Enoo</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000515"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2521800" lat="51.9946600" gazref="geonames:2656711" source="geonames"/>
+   <geo long="-1.24979440603459" lat="51.99712873814047" gazref="unlock:11066219" source="unlock"/>
+   <geo easting="451500" northing="233500" long="-1.25128" lat="51.9976" kepnref="10916" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w63908">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63924">
+    <date end="1185" begin="1165" subtype="circa">c. 1175</date>
+    <source style="italic" id="nh161">Magd</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63944">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63964">
+    <date end="1319" begin="1319" subtype="simple">1319</date>
+    <source style="" id="nh172">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63982">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64000">
+    <date end="1243" begin="1243" subtype="simple">1243</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64023">
+    <date end="1195" begin="1175" subtype="circa">c. 1185</date>
+    <source style="italic" id="nh161">Magd</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64045">
+    <date end="1205" begin="1185" subtype="circa">c. 1195</date>
+    <source style="italic" id="nh161">Magd</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64045">
+    <attestation variantID="epns-deep-10-b-name-w64045">
+     <date end="1215" begin="1215" subtype="simple">1215</date>
+     <source style="" id="nh297">WellsR</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w64045">
+     <date end="1375" begin="1375" subtype="simple">1375</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64134">
+    <date end="1375" begin="1215">1215-1375</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64144">
+    <date end="1220" begin="1200" subtype="circa">c. 1210</date>
+    <source style="" id="nh95">Eynsham</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w64166">
+    <date end="1549" begin="1549" subtype="simple">1549</date>
+    <source style="italic" id="nh272">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w63908">Aienho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63924">Aenho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63944">Aieynho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63964">Ayngho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63982">Ayno</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64000">Aynho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64023">Ainho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64045">Einho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64045">Eynho</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64134">Einhoo</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64134">Einhou</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64144">Eyno</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w64166">Enoo</searchterm>
+  </extension>
+ </mads>
+ 

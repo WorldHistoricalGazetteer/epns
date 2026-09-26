@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000117">
+  <authority ID="epns-deep-02-a-name-parish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002055">Oving</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000010" type="broader">
+   <geographic>Ashendon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002bd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8602000" lat="51.8848100" gazref="geonames:2640757" source="geonames"/>
+   <geo long="-0.8592926675905725" lat="51.88608703857496" gazref="unlock:11238037" source="unlock"/>
+   <geo easting="478500" northing="221500" long="-0.860816" lat="51.8865" kepnref="11311" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000014">
+  <authority ID="epns-deep-28-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003079">Chesterfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000014" type="broader">
+   <geographic>Chesterfield</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w112250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003080">(ad) Cesterfelda</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w112288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003081">Cestrefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w112308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003082">Cestrefelt, Cestrefeud</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w112417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003083">Cestreford</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w112441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003084">Chestrefeld(e), Chesturfeld, Chesterfeld(e), Chesterfeud, Chesterfeild, Chesterfield</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w112595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003085">Chastrefeld, Chasturfeld, Chasterfeld, Chasterfild</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001837"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4166700" lat="53.2500000" gazref="geonames:2653225" source="geonames"/>
+   <geo long="-1.423071085331305" lat="53.2388517711396" gazref="unlock:11104588" source="unlock"/>
+   <geo easting="438500" northing="371500" long="-1.42458" lat="53.2391" kepnref="3295" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w112250">
+    <date subtype="simple" begin="955" end="955">955</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="db393">Peniarth</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112288">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112308">
+    <date subtype="simple" begin="1093" end="1093">1093</date>
+    <date subtype="simple" begin="1096" end="1096">1096</date>
+    <date subtype="simple" begin="1129" end="1138">1129-38</date>
+    <source style="" id="db459">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112308">
+    <date subtype="circa" begin="1135" end="1155">c. 1145</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="db547">Templars</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112308">
+    <date subtype="simple" begin="1146" end="1146">1146</date>
+    <date subtype="century" begin="1400" end="1500">15th</date>
+    <source style="" id="db459">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112417">
+    <date subtype="simple" begin="1165" end="1165">1165</date>
+    <source style="" id="db82">ChancR</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112441">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="" id="db456">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112441">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112441">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112441">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db544">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112441">
+    <attestation variantID="epns-deep-28-b-name-w112441">
+     <date subtype="simple" begin="1325" end="1325">1325</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112595">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112595">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112595">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="" id="db317">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w112595">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <date subtype="century" begin="1500" end="1600">16th</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w112250">ad Cesterfelda</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112250">Cesterfelda</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112288">Cestrefeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112308">Cestrefelt</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112308">Cestrefeud</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112417">Cestreford</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chestrefelde</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chestrefeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesturfeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesterfelde</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesterfeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesterfeud</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesterfeild</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112441">Chesterfield</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112595">Chastrefeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112595">Chasturfeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112595">Chasterfeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w112595">Chasterfild</searchterm>
+  </extension>
+ </mads>
+ 

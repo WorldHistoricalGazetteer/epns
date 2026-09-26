@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000090">
+  <authority ID="epns-deep-05-a-name-parish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003063">Seamer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000006" type="broader">
+   <geographic>Langbargh West Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003bd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2303000" lat="54.4839000" gazref="geonames:2638289" source="geonames"/>
+   <geo long="-1.235813017430986" lat="54.48729197904218" gazref="unlock:11279759" source="unlock"/>
+   <geo easting="449500" northing="510500" long="-1.2374" lat="54.4874" kepnref="5886" source="kepn"/>
+  </extension>
+ </mads>
+ 

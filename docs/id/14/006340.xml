@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000280">
+  <authority ID="epns-deep-14-b-name-subparish-000280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006340">Laytham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000158" type="broader">
+   <geographic>Aughton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w408878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006341">Ladon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w408896">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006342">Lathum</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w408955">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006343">Lathom</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w409001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006344">Laytham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00044c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8674935294161424" lat="53.84618244850557" gazref="unlock:11192737" source="unlock"/>
+   <geo easting="474500" northing="439500" long="-0.869099" lat="53.8464" kepnref="8658" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w408878">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w408896">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey322">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w408896">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w408896">
+    <attestation variantID="epns-deep-14-b-name-w408896">
+     <date end="1252" begin="1252" subtype="simple">1252</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w408896">
+     <date end="1350" begin="1350" subtype="simple">1350</date>
+     <source style="" id="ey153">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w408955">
+    <attestation variantID="epns-deep-14-b-name-w408955">
+     <date end="1211" begin="1199" subtype="simple">1199-1211</date>
+     <source style="" id="ey367">YCh</source>
+     <page>1133</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w408955">
+     <date end="1539" begin="1539" subtype="simple">1539</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w409001">
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w409001">
+    <date end="1582" begin="1582" subtype="simple">1582</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w408878">Ladone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w408878">Ladon</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w408896">Lathum</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w408955">Lathom</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w409001">Laytham</searchterm>
+  </extension>
+ </mads>
+ 

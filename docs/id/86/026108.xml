@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-li-liberty-000008">
+  <authority ID="epns-deep-86-li-name-liberty-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/026108">Loders Liberty &amp; Bothenhampton Liberty</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000008" type="broader">
+   <geographic>Godderthorn Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-86-li-name-w1340370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/026109">Liberty of Loders and Bothenhampton</geographic>
+  </variant>
+  <variant ID="epns-deep-86-li-name-w1340419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/026110">Liberty of Loders and Bothenhampton or Baunton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285020b47fc4099d000012"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-86-li-name-w1340370">
+    <date subtype="simple" begin="1664" end="1664">1664</date>
+    <source style="" id="do356">HTax</source>
+   </attestation>
+   <attestation variantID="epns-deep-86-li-name-w1340419">
+    <date subtype="simple" begin="1774" end="1774">1774</date>
+    <source style="" id="do359">Hutch1</source>
+   </attestation>
+   <attestation variantID="epns-deep-86-li-name-w1340419">
+    <date subtype="simple" begin="1863" end="1863">1863</date>
+    <source style="" id="do360">Hutch3</source>
+   </attestation>
+   <searchterm variantID="epns-deep-86-li-name-w1340370">Liberty of Loders and Bothenhampton</searchterm>
+   <searchterm variantID="epns-deep-86-li-name-w1340419">Liberty of Loders and Bothenhampton or Baunton</searchterm>
+  </extension>
+ </mads>
+ 

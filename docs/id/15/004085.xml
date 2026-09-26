@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000056">
+  <authority ID="epns-deep-15-b-name-subparish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004085">Aston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000063" type="broader">
+   <geographic>Aston</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w207717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004086">Eastune</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w207737">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004087">Eastonam</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w207759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004088">Eston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w207798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004089">Aston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w207825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004090">Asson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000769"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1500000" lat="51.8833300" gazref="geonames:2656871" source="geonames"/>
+   <geo long="-0.1472139242347556" lat="51.88602095541355" gazref="unlock:11065000" source="unlock"/>
+   <geo easting="527500" northing="222500" long="-0.14882" lat="51.8865" kepnref="4627" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w207717">
+    <date subtype="century" begin="1000" end="1100">11th</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w207737">
+    <date subtype="simple" begin="1136" end="1136">1136</date>
+    <source style="" id="he96">EHAS</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w207759">
+    <attestation variantID="epns-deep-15-b-name-w207759">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="he80">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w207759">
+     <date subtype="simple" begin="1362" end="1362">1362</date>
+     <source style="italic" id="he114">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w207798">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="italic" id="he298">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w207798">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w207825">
+    <date subtype="simple" begin="1611" end="1611">1611</date>
+    <source style="" id="he289">Sess</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w207717">Eastune</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207737">Eastonam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207759">Estone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207759">Eston</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207798">Astone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207798">Aston</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w207825">Asson</searchterm>
+  </extension>
+ </mads>
+ 

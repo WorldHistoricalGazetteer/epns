@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000162">
+  <authority ID="epns-deep-13-a-name-parish-000162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006740">Claverdon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f00064b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7126700" lat="52.2791900" gazref="geonames:2652920" source="geonames"/>
+   <geo long="-1.714151551100368" lat="52.27790917520471" gazref="unlock:11108299" source="unlock"/>
+   <geo easting="419500" northing="264500" long="-1.71559" lat="52.2783" kepnref="4862" source="kepn"/>
+  </extension>
+ </mads>
+ 

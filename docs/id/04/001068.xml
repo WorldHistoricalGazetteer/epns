@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000032">
+  <authority ID="epns-deep-04-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001068">Shelsley Beauchamp</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000001" type="broader">
+   <geographic>Doddingtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00050a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3949800" lat="52.2632400" gazref="geonames:2638058" source="geonames"/>
+   <geo long="-2.38837990239861" lat="52.26862510686554" gazref="unlock:11282258" source="unlock"/>
+   <geo easting="373500" northing="263500" long="-2.38974" lat="52.269" kepnref="5212" source="kepn"/>
+  </extension>
+ </mads>
+ 

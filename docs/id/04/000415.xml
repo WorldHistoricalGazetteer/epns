@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000009">
+  <authority ID="epns-deep-04-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000415">Bockleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000001" type="broader">
+   <geographic>Doddingtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00047e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5977400" lat="52.2505200" gazref="geonames:2655291" source="geonames"/>
+   <geo long="-2.593311846108504" lat="52.24979029933598" gazref="unlock:11081767" source="unlock"/>
+   <geo easting="359500" northing="261500" long="-2.59465" lat="52.2502" kepnref="5187" source="kepn"/>
+  </extension>
+ </mads>
+ 

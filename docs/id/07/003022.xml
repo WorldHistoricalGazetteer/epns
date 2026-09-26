@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000066">
+  <authority ID="epns-deep-07-b-name-subparish-000066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003022">South Heighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000067" type="broader">
+   <geographic>South Heighton</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w196690">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003023">Hectone</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w196707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003024">Sutheghton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w196727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003025">South Eghton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w196751">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003026">Haiton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w196769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003027">Hayton al. Heighton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d7b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0782000" lat="50.8061900" gazref="geonames:7296626" source="geonames"/>
+   <geo long="0.06511307902836477" lat="50.80320143632042" gazref="unlock:11287527" source="unlock"/>
+   <geo easting="545500" northing="103500" long="0.0639231" lat="50.8128" kepnref="7084" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w196690">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w196707">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w196727">
+    <date end="1362" begin="1362" subtype="simple">1362</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w196751">
+    <date end="1620" begin="1620" subtype="simple">1620</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w196769">
+    <date end="1735" begin="1735" subtype="simple">1735</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w196690">Hectone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w196707">Sutheghton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w196727">South Eghton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w196751">Haiton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w196769">Hayton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w196769">Heighton</searchterm>
+  </extension>
+ </mads>
+ 

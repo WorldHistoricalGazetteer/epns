@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000071">
+  <authority ID="epns-deep-13-b-name-subparish-000071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003565">Little Lawford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000073" type="broader">
+   <geographic>Little Lawford</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w188630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003566">Parva Lalleford</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w188730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003567">Litellalford</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w188755">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003568">Little Lawford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f000799"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3097300" lat="52.3896400" gazref="geonames:7293963" source="geonames"/>
+   <geo long="-1.316583729532064" lat="52.39316570234919" gazref="unlock:11196599" source="unlock"/>
+   <geo easting="446500" northing="277500" long="-1.31807" lat="52.3936" kepnref="4840" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w188630">
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <copydate end="1235" begin="1235">1235</copydate>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w188730">
+    <date end="1453" begin="1453" subtype="simple">1453</date>
+    <source style="" id="wa96">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w188755">
+    <date end="1548" begin="1548" subtype="simple">1548</date>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w188630">Parva Lalleford</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w188730">Litellalford</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w188755">Little Lawford</searchterm>
+  </extension>
+ </mads>
+ 

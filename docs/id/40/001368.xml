@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000011">
+  <authority ID="epns-deep-40-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001368">Boxwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000011" type="broader">
+   <geographic>Boxwell and Leighterton</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w57955">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001369">Box(e)well(e), Box(e)wella</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w58063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001370">Bocswelle</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w58090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001371">Bockeswell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001aad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.27450927" lat="51.62602687" source="epns"/>
+   <geo long="-2.267311927968503" lat="51.63054035629454" gazref="unlock:11084458" source="unlock"/>
+   <geo easting="381500" northing="192500" long="-2.26866" lat="51.631" kepnref="6457" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w57955">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w57955">
+    <date end="1189" begin="1154" subtype="simple">1154-89</date>
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w57955">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w57955">
+    <attestation variantID="epns-deep-40-b-name-w57955">
+     <date end="1260" begin="1240" subtype="circa">c. 1250</date>
+     <source style="" id="go44">Berk</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w57955">
+     <date end="1600" begin="1600" subtype="simple">1600</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w58063">
+    <date end="1220" begin="1200" subtype="circa">c. 1210</date>
+    <source style="" id="go227">GlR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w58090">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxewelle</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxewell</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxwelle</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxwell</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxewella</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w57955">Boxwella</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w58063">Bocswelle</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w58090">Bockeswell</searchterm>
+  </extension>
+ </mads>
+ 

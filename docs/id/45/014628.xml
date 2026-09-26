@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000018">
+  <authority ID="epns-deep-45-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014628">Sandbach</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000002" type="broader">
+   <geographic>Northwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3651000" lat="53.1390500" gazref="geonames:7299921" source="geonames"/>
+   <geo long="-2.37373511" lat="53.13627598" source="epns"/>
+   <geo long="-2.36629891919296" lat="53.14079523600854" gazref="unlock:11277554" source="unlock"/>
+   <geo kepnexref="443" long="-2.3677" lat="53.1411" source="kepn"/>
+  </extension>
+ </mads>
+ 

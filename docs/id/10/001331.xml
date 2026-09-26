@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000057">
+  <authority ID="epns-deep-10-a-name-parish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001331">Newbottle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000004" type="broader">
+   <geographic>King's Sutton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000473"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2232600" lat="52.0311600" gazref="geonames:7291359" source="geonames"/>
+   <geo long="-1.234768713528885" lat="52.02400784197656" gazref="unlock:11229773" source="unlock"/>
+   <geo easting="452500" northing="236500" long="-1.23625" lat="52.0244" kepnref="10927" source="kepn"/>
+  </extension>
+ </mads>
+ 

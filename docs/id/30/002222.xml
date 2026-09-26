@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000018">
+  <authority ID="epns-deep-30-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002222">Blaxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000010" type="broader">
+   <geographic>Finningley</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w104802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002223">Blacston</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w104821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002224">Blacstan</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w104839">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002225">Blak(e)stan(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w104875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002226">Blackston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w104930">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002227">Blackestone</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w104954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002228">Blakestone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100610d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9704500" lat="53.5036100" gazref="geonames:7291236" source="geonames"/>
+   <geo long="-0.9900103205" lat="53.49218493" source="epns"/>
+   <geo long="-0.9823664819516399" lat="53.49661625442914" gazref="unlock:11080909" source="unlock"/>
+   <geo easting="467500" northing="400500" long="-0.983943" lat="53.4969" kepnref="14275" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w104802">
+    <date subtype="simple" begin="1213" end="1213">1213</date>
+    <source style="" id="wr93">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104821">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104839">
+    <date subtype="simple" begin="1315" end="1315">1315</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104839">
+    <date subtype="simple" begin="1360" end="1360">1360</date>
+    <source style="" id="wr6">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104875">
+    <date subtype="simple" begin="1566" end="1566">1566</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104875">
+    <attestation variantID="epns-deep-30-b-name-w104875">
+     <date subtype="simple" begin="1573" end="1573">1573</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w104875">
+     <date subtype="simple" begin="1620" end="1620">1620</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104930">
+    <date subtype="simple" begin="1659" end="1659">1659</date>
+    <source style="" id="wr776">WillS</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w104954">
+    <date subtype="simple" begin="1771" end="1771">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w104802">Blacston</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104821">Blacstan</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104839">Blakestane</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104839">Blakestan</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104839">Blakstane</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104839">Blakstan</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104875">Blackstone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104875">Blackston</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104930">Blackestone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w104954">Blakestone</searchterm>
+  </extension>
+ </mads>
+ 

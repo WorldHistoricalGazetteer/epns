@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000016">
+  <authority ID="epns-deep-20-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002144">Hethersgill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000018" type="broader">
+   <geographic>Hethersgill</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w90283">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002145">Hedrisgill or Hederesgill</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w90318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002146">Hethersgill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000feb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8340200" lat="55.0004100" gazref="geonames:7298063" source="geonames"/>
+   <geo long="-2.820789529983978" lat="54.99923181013067" gazref="unlock:11170888" source="unlock"/>
+   <geo easting="347500" northing="567500" long="-2.8222" lat="54.9993" kepnref="4375" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w90283">
+    <date end="1509" begin="1509" subtype="simple">1509</date>
+    <source style="" id="cu204">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w90318">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w90283">Hedrisgill or Hederesgill</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w90318">Hethersgill</searchterm>
+  </extension>
+ </mads>
+ 

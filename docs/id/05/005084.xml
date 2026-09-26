@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000450">
+  <authority ID="epns-deep-05-b-name-subparish-000450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005084">Reeth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000151" type="broader">
+   <geographic>Grinton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w364216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005085">Rie</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w364229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005086">Reyth in le Swale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w364268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005087">Rith(e), Ryth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w364323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005088">Reth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w364361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005089">Ree</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w364388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005090">Reeth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9447500" lat="54.3874600" gazref="geonames:2639510" source="geonames"/>
+   <geo long="-1.946093908310386" lat="54.39082649735848" gazref="unlock:11254419" source="unlock"/>
+   <geo easting="403500" northing="499500" long="-1.94759" lat="54.391" kepnref="6103" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w364216">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364229">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>101</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364268">
+    <attestation variantID="epns-deep-05-b-name-w364268">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w364268">
+     <date subtype="simple" begin="1575" end="1575">1575</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364323">
+    <attestation variantID="epns-deep-05-b-name-w364323">
+     <date subtype="simple" begin="1401" end="1401">1401</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w364323">
+     <date subtype="simple" begin="1581" end="1581">1581</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364361">
+    <date subtype="simple" begin="1414" end="1414">1414</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364361">
+    <date subtype="simple" begin="1515" end="1515">1515</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w364388">
+    <attestation variantID="epns-deep-05-b-name-w364388">
+     <date subtype="century" begin="1600" end="1700">17</date>
+     <source style="" id="ny313">Grinton</source>
+    </attestation>
+    <passim>passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w364216">Rie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364229">Reyth in le Swale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364268">Rithe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364268">Rith</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364268">Rythe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364268">Ryth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364323">Rethe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364323">Reth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364361">Ree</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w364388">Reeth</searchterm>
+  </extension>
+ </mads>
+ 

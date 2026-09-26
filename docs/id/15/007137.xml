@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000111">
+  <authority ID="epns-deep-15-b-name-subparish-000111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007137">Standon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000131" type="broader">
+   <geographic>Standon</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w350103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007138">Standune</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w350137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007139">Standone</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w350157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007140">Standon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w350225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007141">Stondon</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w350255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007142">Standon al. Stondon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0188800" lat="51.8855500" gazref="geonames:2637094" source="geonames"/>
+   <geo long="0.01253202342288894" lat="51.88339647179695" gazref="unlock:11290828" source="unlock"/>
+   <geo easting="539500" northing="222500" long="0.0254274" lat="51.8836" kepnref="4688" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w350103">
+    <date subtype="simple" begin="944" end="946">944-6</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="" id="he23">BCS</source>
+    <item>812</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350137">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350157">
+    <date subtype="simple" begin="1194" end="1194">1194</date>
+    <source style="" id="he139">HMC</source>
+    <item>ix</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350157">
+    <attestation variantID="epns-deep-15-b-name-w350157">
+     <date subtype="simple" begin="1234" end="1234">1234</date>
+     <source style="" id="he49">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-15-b-name-w350157">
+     <date subtype="simple" begin="1307" end="1314">1307-14</date>
+     <source style="" id="he146">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350225">
+    <date subtype="regnal" begin="1216" end="1272">t. Hy 3</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350225">
+    <date subtype="simple" begin="1440" end="1440">1440</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w350255">
+    <date subtype="simple" begin="1724" end="1724">1724</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w350103">Standune</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350137">Standone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350157">Standone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350157">Standon</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350225">Stondon</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350255">Standon</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w350255">Stondon</searchterm>
+  </extension>
+ </mads>
+ 

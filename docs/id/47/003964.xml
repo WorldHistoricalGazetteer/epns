@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000047">
+  <authority ID="epns-deep-47-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003964">Golborne David</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000010" type="broader">
+   <geographic>Handley</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w215212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003965">Goldeburne Dauid</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w215321">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003966">-Davy</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w215349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003967">-Dave</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fd5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8144400" lat="53.1324700" gazref="geonames:7299938" source="geonames"/>
+   <geo long="-2.822180505" lat="53.13402411" source="epns"/>
+   <geo easting="345500" northing="359500" long="-2.81596" lat="53.1299" kepnref="12063" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w215212">
+    <date end="1383" begin="1383" subtype="simple">1383</date>
+    <source style="italic" id="ch127">CoLegh</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w215321">
+    <date end="1430" begin="1430" subtype="simple">1430</date>
+    <source style="italic" id="ch223">Eyre</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w215321">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w215349">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w215212">Goldeburne Dauid</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w215321">-Davy</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w215349">-Dave</searchterm>
+  </extension>
+ </mads>
+ 

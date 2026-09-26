@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000017">
+  <authority ID="epns-deep-05-b-name-subparish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000142">Rawcliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000008" type="broader">
+   <geographic>Overton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w9869">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000143">Roud(e)clife</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w9891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000144">Rout(h)ecliua, Routhecliue</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w9973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000145">Routheklif</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w9994">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000146">Routheclyff</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w10025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000147">Rauþeclif</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w10045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000148">Roucliff, Rouclyf(f)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w10128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000149">Roclyff</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600056d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1144400" lat="53.9849100" gazref="geonames:7299722" source="geonames"/>
+   <geo long="-1.107618126318897" lat="53.99203522216082" gazref="unlock:11253090" source="unlock"/>
+   <geo easting="458500" northing="455500" long="-1.1092" lat="53.9922" kepnref="5668" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w9869">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9891">
+    <date subtype="simple" begin="1170" end="1170">1170</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9891">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9891">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>47 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9891">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9973">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9994">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9994">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10025">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10045">
+    <date subtype="simple" begin="1309" end="1309">1309</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>565</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10045">
+    <date subtype="simple" begin="1318" end="1318">1318</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10045">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10045">
+    <date subtype="simple" begin="1342" end="1342">1342</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10045">
+    <date subtype="simple" begin="1364" end="1364">1364</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w10128">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>570</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w9869">Roudeclife</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9869">Roudclife</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9891">Routhecliua</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9891">Routecliua</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9891">Routhecliue</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9973">Routheklif</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9994">Routheclyff</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w10025">Rauþeclif</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w10045">Roucliff</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w10045">Rouclyff</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w10045">Rouclyf</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w10128">Roclyff</searchterm>
+  </extension>
+ </mads>
+ 

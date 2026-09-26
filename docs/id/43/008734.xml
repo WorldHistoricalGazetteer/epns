@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000023">
+  <authority ID="epns-deep-43-a-name-parish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/008734">Bampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000002" type="broader">
+   <geographic>West Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f001373"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7596300" lat="54.5575300" gazref="geonames:2656420" source="geonames"/>
+   <geo long="-2.75147" lat="54.5594" source="epns"/>
+   <geo long="-2.75006695239094" lat="54.55928585398094" gazref="unlock:11068932" source="unlock"/>
+   <geo easting="351500" northing="518500" long="-2.75147" lat="54.5594" kepnref="5170" source="kepn"/>
+  </extension>
+ </mads>
+ 

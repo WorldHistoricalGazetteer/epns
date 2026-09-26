@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000227">
+  <authority ID="epns-deep-17-b-name-subparish-000227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008001">Normanton on the Wolds</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000239" type="broader">
+   <geographic>Normanton on the Wolds</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w395527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008002">Normantone, Normantun</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w395558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008003">Normanton juxta Plumptre</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w395594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008004">Normanton juxta Plumtre</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w395637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008005">Normanton juxta Plumtree al. Normanton super le Woulds</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd40008c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0756300" lat="52.8901600" gazref="geonames:2641441" source="geonames"/>
+   <geo easting="462500" northing="333500" long="-1.07239" lat="52.8953" kepnref="2513" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w395527">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w395558">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w395594">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w395594">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ns267">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w395637">
+    <date end="1682" begin="1682" subtype="simple">1682</date>
+    <source style="italic" id="ns247">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w395527">Normantone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w395527">Normantun</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w395558">Normanton juxta Plumptre</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w395594">Normanton juxta Plumtre</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w395637">Normanton juxta Plumtree</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w395637">Normanton super le Woulds</searchterm>
+  </extension>
+ </mads>
+ 

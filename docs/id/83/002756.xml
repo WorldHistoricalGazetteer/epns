@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000003">
+  <authority ID="epns-deep-83-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/002756">Low Dinsdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000481"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4726200" lat="54.5009300" gazref="geonames:7300180" source="geonames"/>
+   <geo long="-1.475032807" lat="54.49305996" source="epns"/>
+   <geo long="-1.46725446916761" lat="54.49752147850099" gazref="unlock:11206998" source="unlock"/>
+   <geo easting="434500" northing="510500" long="-1.46893" lat="54.4887" kepnref="7591" source="kepn"/>
+  </extension>
+ </mads>
+ 

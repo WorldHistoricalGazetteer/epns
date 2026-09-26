@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000031">
+  <authority ID="epns-deep-13-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001795">Knowle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000029" type="broader">
+   <geographic>Knowle</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w93699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001796">Gnolla</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w93718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001797">la Cnolle</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w93747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001798">(la) Knoll(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w93794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001799">Knowl</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w93809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001800">Knole</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w93828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/001801">Knoll</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f00078e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7333300" lat="52.3833300" gazref="geonames:2645099" source="geonames"/>
+   <geo long="-1.74289628943401" lat="52.37687917451641" gazref="unlock:11189537" source="unlock"/>
+   <geo easting="418500" northing="277500" long="-1.72954" lat="52.3952" kepnref="4934" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w93699">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="wa30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93718">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93718">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93747">
+    <attestation variantID="epns-deep-13-b-name-w93747">
+     <date end="1262" begin="1262" subtype="simple">1262</date>
+     <source style="italic" id="wa17">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w93747">
+     <date end="1589" begin="1589" subtype="simple">1589</date>
+     <source style="" id="wa5">AD</source>
+     <item>v</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93794">
+    <date end="1540" begin="1540" subtype="simple">1540</date>
+    <source style="" id="wa30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93809">
+    <date end="1589" begin="1589" subtype="simple">1589</date>
+    <source style="" id="wa5">AD</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w93828">
+    <date end="1656" begin="1656" subtype="simple">1656</date>
+    <source style="" id="wa89">Dugdale</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w93699">Gnolla</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93718">la Cnolle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93747">la Knolle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93747">la Knoll</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93747">Knolle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93747">Knoll</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93794">Knowl</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93809">Knole</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w93828">Knoll</searchterm>
+  </extension>
+ </mads>
+ 

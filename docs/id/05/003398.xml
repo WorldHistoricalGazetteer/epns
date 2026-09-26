@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000275">
+  <authority ID="epns-deep-05-b-name-subparish-000275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003398">Sowerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000104" type="broader">
+   <geographic>Thirsk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w251033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003399">Sorebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w251049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003400">Sourebi, Soureby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005c9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3395200" lat="54.2121300" gazref="geonames:7300326" source="geonames"/>
+   <geo long="-1.332671746950916" lat="54.22720262397159" gazref="unlock:11288591" source="unlock"/>
+   <geo easting="443500" northing="481500" long="-1.33424" lat="54.2274" kepnref="5926" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w251033">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w251049">
+    <attestation variantID="epns-deep-05-b-name-w251049">
+     <date subtype="simple" begin="1228" end="1228">1228</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w251033">Sorebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w251049">Sourebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w251049">Soureby</searchterm>
+  </extension>
+ </mads>
+ 

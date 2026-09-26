@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000013">
+  <authority ID="epns-deep-10-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000455">Kilsby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000001" type="broader">
+   <geographic>Fawsley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000453"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1750500" lat="52.3337500" gazref="geonames:2645551" source="geonames"/>
+   <geo long="-1.170638548171645" lat="52.33828332805702" gazref="unlock:11186454" source="unlock"/>
+   <geo easting="456500" northing="271500" long="-1.17214" lat="52.3387" kepnref="10882" source="kepn"/>
+  </extension>
+ </mads>
+ 

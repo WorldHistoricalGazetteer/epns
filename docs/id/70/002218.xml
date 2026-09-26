@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000015">
+  <authority ID="epns-deep-70-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002218">Boycott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000005" type="broader">
+   <geographic>Pontesbury</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w81916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002219">Boycote</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w81945">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002220">Boycott</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w81975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002221">Boycot</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w81997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002222">Baycott</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a642b47fc4463d000f10"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.906480477" lat="52.66319977" source="epns"/>
+   <geo long="-2.909400541317244" lat="52.66138019361908" gazref="unlock:11084470" source="unlock"/>
+   <attestation variantID="epns-deep-70-b-name-w81916">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w81916">
+    <date subtype="simple" begin="1321" end="1321">1321</date>
+    <source style="" id="ss4">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w81945">
+    <attestation variantID="epns-deep-70-b-name-w81945">
+     <date subtype="simple" begin="1552" end="1552">1552</date>
+     <source style="" id="ss230">PR(H)</source>
+     <page>12</page>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w81975">
+    <date subtype="simple" begin="1697" end="1697">1697</date>
+    <source style="" id="ss172">Morden</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w81997">
+    <date subtype="simple" begin="1582" end="1582">1582</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>6808</item>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w81916">Boycote</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w81945">Boycott</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w81975">Boycot</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w81997">Baycott</searchterm>
+  </extension>
+ </mads>
+ 

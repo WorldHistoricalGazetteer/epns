@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-ra-abovesubcounty-000002">
+  <authority ID="epns-deep-06-ra-name-abovesubcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001839">Rape of Arundel</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-co-county-000001" type="broader">
+   <geographic>Sussex</geographic>
+  </related>
+  <variant ID="epns-deep-06-ra-name-w151733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001840">rapo de Harundel, in rapo de Harundel</geographic>
+  </variant>
+  <variant ID="epns-deep-06-ra-name-w151781">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001841">Arundel</geographic>
+  </variant>
+  <variant ID="epns-deep-06-ra-name-w151819">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001842">le Rape de Arundell</geographic>
+  </variant>
+  <variant ID="epns-deep-06-ra-name-w151857">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001843">le Rope d'Arundell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532871afb47fc40c36000002"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-06-ra-name-w151733">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w151781">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w151781">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="su237">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w151781">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="su95">Fees</source>
+    <item>71</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w151819">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="su248">Rolls Parlt</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w151857">
+    <date end="1380" begin="1380" subtype="simple">1380</date>
+    <source style="" id="su248" underspec="ib">Rolls Parlt</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-ra-name-w151733">rapo de Harundel</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w151733">in rapo de Harundel</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w151781">Arundel</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w151819">le Rape de Arundell</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w151857">le Rope d'Arundell</searchterm>
+  </extension>
+ </mads>
+ 

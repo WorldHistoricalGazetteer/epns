@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000031">
+  <authority ID="epns-deep-10-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000773">Woodford Halse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000031" type="broader">
+   <geographic>Woodford cum Membris</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w46584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000774">Wodeford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w46637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000775">Wudeford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w46649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000776">Wodeford juxta Hynton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7fb47fc40bba00063b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.203060638102503" lat="52.1676665724164" gazref="unlock:11325836" source="unlock"/>
+   <geo easting="454500" northing="252500" long="-1.20456" lat="52.1681" kepnref="10900" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w46584">
+    <attestation variantID="epns-deep-10-b-name-w46584">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w46637">
+    <date end="1600" begin="1100">12th-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w46649">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w46584">Wodeford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w46637">Wudeford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w46649">Wodeford juxta Hynton</searchterm>
+  </extension>
+ </mads>
+ 

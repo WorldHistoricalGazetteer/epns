@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-hu-subcounty-000009">
+  <authority ID="epns-deep-50-hu-name-subcounty-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012709">Moreton Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-co-county-000001" type="broader">
+   <geographic>Berkshire</geographic>
+  </related>
+  <variant ID="epns-deep-50-hu-name-w517506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012710">Morton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w517572">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012711">Morton', Mortone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w517590">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012712">Suthmorton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e37b47fc407ba001b12"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-50-hu-name-w517506">
+    <date end="1265" begin="1264" subtype="simple">1264-5</date>
+    <source style="" id="be176">InqMisc</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w517506">
+    <attestation variantID="epns-deep-50-hu-name-w517506">
+     <date end="1276" begin="1275" subtype="simple">1275-6</date>
+     <source style="" id="be307">RH</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w517572">
+    <date end="1600" begin="1275">1275-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w517590">
+    <date end="1284" begin="1283" subtype="simple">1283-4</date>
+    <source style="" id="be286">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-hu-name-w517506">Morton</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w517572">Morton'</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w517572">Mortone</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w517590">Suthmorton'</searchterm>
+  </extension>
+ </mads>
+ 

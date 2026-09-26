@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000002">
+  <authority ID="epns-deep-83-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/002103">Bishopton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000475"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4333300" lat="54.5833300" gazref="geonames:2655549" source="geonames"/>
+   <geo long="-1.442931251" lat="54.58279676" source="epns"/>
+   <geo long="-1.43513226135272" lat="54.5872561218999" gazref="unlock:11078133" source="unlock"/>
+   <geo easting="436500" northing="521500" long="-1.4367" lat="54.5874" kepnref="7724" source="kepn"/>
+  </extension>
+ </mads>
+ 

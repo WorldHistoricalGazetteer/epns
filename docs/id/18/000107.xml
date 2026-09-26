@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000005">
+  <authority ID="epns-deep-18-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000107">Hanworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000005" type="broader">
+   <geographic>Hanworth</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w7392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000108">Haneworde</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w7457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000109">Hanewrde, Hanewurthe, Haneworth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w7493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000110">Hanesworth</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w7532">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000111">Hanneworth</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w7561">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000112">Hanworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a0000231"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3833300" lat="51.4333300" gazref="geonames:2647514" source="geonames"/>
+   <geo easting="512500" northing="171500" long="-0.383066" lat="51.4313" kepnref="4717" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w7392">
+    <attestation variantID="epns-deep-18-b-name-w7392">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="mi70">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-18-b-name-w7392">
+     <date subtype="simple" begin="1359" end="1359">1359</date>
+     <source style="" id="mi108">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7457">
+    <date end="1359" begin="1086">1086-1359</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7493">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="mi322">Val</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7493">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="italic" id="mi18">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7532">
+    <date subtype="simple" begin="1389" end="1389">1389</date>
+    <source style="" id="mi27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7532">
+    <date subtype="simple" begin="1453" end="1453">1453</date>
+    <source style="" id="mi108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w7561">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="mi98">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w7392">Haneworde</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7457">Hanewrde</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7457">Hanewurthe</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7457">Haneworthe</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7457">Haneworth</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7493">Hanesworth</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7532">Hanneworth</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w7561">Hanworth</searchterm>
+  </extension>
+ </mads>
+ 

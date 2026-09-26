@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000016">
+  <authority ID="epns-deep-05-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000135">Overton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000008" type="broader">
+   <geographic>Overton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w9641">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000136">Ovretun, Overtun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w9667">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000137">Ouerton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w9694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000138">Orton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600056c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1631600" lat="54.0029200" gazref="geonames:7292062" source="geonames"/>
+   <geo long="-1.153375637593827" lat="53.9923662510471" gazref="unlock:11237966" source="unlock"/>
+   <geo easting="455500" northing="455500" long="-1.15495" lat="53.9926" kepnref="5666" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w9641">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9667">
+    <attestation variantID="epns-deep-05-b-name-w9667">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w9694">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w9641">Ovretun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9641">Overtun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9667">Ouerton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w9694">Orton</searchterm>
+  </extension>
+ </mads>
+ 

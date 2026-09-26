@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000128">
+  <authority ID="epns-deep-38-a-name-parish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010929">Lower Lemington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000009" type="broader">
+   <geographic>Kiftsgate Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6833300" lat="52.0000000" gazref="geonames:2643510" source="geonames"/>
+   <geo long="-1.686732620834399" lat="52.00809290274508" gazref="unlock:11208535" source="unlock"/>
+   <geo easting="421500" northing="234500" long="-1.68817" lat="52.0085" kepnref="7500" source="kepn"/>
+  </extension>
+ </mads>
+ 

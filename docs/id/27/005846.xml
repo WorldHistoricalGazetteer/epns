@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000051">
+  <authority ID="epns-deep-27-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005846">Hope Woodlands</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000048" type="broader">
+   <geographic>Hope Woodlands</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w232086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005847">Woodland</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w232148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005848">Woodland Hamblet</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001895"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8053400" lat="53.4213800" gazref="geonames:7298163" source="geonames"/>
+   <geo easting="413500" northing="392500" long="-1.79828" lat="53.4291" kepnref="3251" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w232086">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w232086">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="db520">Speed</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w232086">
+    <date end="1625" begin="1625" subtype="simple">1625</date>
+    <source style="italic" id="db463">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w232086">
+    <date end="1658" begin="1658" subtype="simple">1658</date>
+    <source style="" id="db128">DbA</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w232148">
+    <date end="1689" begin="1689" subtype="simple">1689</date>
+    <source style="" id="db128">DbA</source>
+    <item>xxvii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w232086">Woodland</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w232148">Woodland Hamblet</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000074">
+  <authority ID="epns-deep-07-b-name-subparish-000074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003404">Rotherfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000075" type="broader">
+   <geographic>Rotherfield</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w219770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003405">Ridrefelda</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w219821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003406">æt Hryðeranfelda</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w219864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003407">Hryðerafeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w219898">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003408">Reredfelle</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w219918">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003409">Retheresfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w219940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003410">Rederesfeld, Retherfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d66"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2194300" lat="51.0462800" gazref="geonames:2639095" source="geonames"/>
+   <geo long="0.2184508933449301" lat="51.04324422913778" gazref="unlock:11272993" source="unlock"/>
+   <geo easting="555500" northing="129500" long="0.216838" lat="51.0438" kepnref="7091" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w219770">
+    <date end="788" begin="788" subtype="simple">788</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>252</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219770">
+    <date end="790" begin="790" subtype="simple">790</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>259</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219821">
+    <date end="890" begin="870" subtype="circa">c. 880</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>553</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219864">
+    <date end="1040" begin="1020" subtype="circa">c. 1030</date>
+    <source style="italic" id="su283">Thorpe</source>
+    <page>558</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219898">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219918">
+    <date end="1089" begin="1089" subtype="simple">1089</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w219940">
+    <date end="1115" begin="1095" subtype="circa">c. 1105</date>
+    <source style="" id="su241">RegRoff</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w219770">Ridrefelda</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219821">æt Hryðeranfelda</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219864">Hryðerafeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219898">Reredfelle</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219918">Retheresfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219940">Rederesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w219940">Retherfeld</searchterm>
+  </extension>
+ </mads>
+ 

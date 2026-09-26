@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000033">
+  <authority ID="epns-deep-02-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000516">Astwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000032" type="broader">
+   <geographic>Astwood</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w37355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000517">Estwode</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w37374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000518">Estwude</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w37392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000519">Hastwude</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w37411">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000520">Astwode</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w37434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000521">Estwode by Neuport Paynel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000321"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6098000" lat="52.1174000" gazref="geonames:7299213" source="geonames"/>
+   <geo long="-0.605084734022951" lat="52.11714994639653" gazref="unlock:11065088" source="unlock"/>
+   <geo easting="495500" northing="247500" long="-0.606647" lat="52.1176" kepnref="11225" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w37355">
+    <date end="1154" begin="1151" subtype="simple">1151-4</date>
+    <source style="" id="bu47">Fr</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w37374">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w37392">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w37411">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="bu37">Fees</source>
+    <item>884</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w37434">
+    <date end="1341" begin="1341" subtype="simple">1341</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w37355">Estwode</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w37374">Estwude</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w37392">Hastwude</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w37411">Astwode</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w37434">Estwode by Neuport Paynel</searchterm>
+  </extension>
+ </mads>
+ 

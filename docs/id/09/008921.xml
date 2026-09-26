@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000170">
+  <authority ID="epns-deep-09-b-name-subparish-000170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008921">Cadbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000170" type="broader">
+   <geographic>Cadbury</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w402249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008922">Cadabiria</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w402268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008923">Cadeberia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w402338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008924">Cadebiri, Cadebyre, Cadebury and Kadebury</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w402383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008925">Chadebery</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00190c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5500000" lat="50.8333300" gazref="geonames:2654117" source="geonames"/>
+   <geo long="-3.540792915122692" lat="50.82929486549395" gazref="unlock:11095355" source="unlock"/>
+   <geo easting="290500" northing="105500" long="-3.55647" lat="50.8386" kepnref="15841" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w402249">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w402268">
+    <attestation variantID="epns-deep-09-b-name-w402268">
+     <date end="1093" begin="1093" subtype="simple">1093</date>
+     <source style="" id="de90">France</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w402268">
+     <date end="1356" begin="1356" subtype="simple">1356</date>
+     <source style="" id="de3">AD</source>
+     <item>iv</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w402338">
+    <date end="1356" begin="1093">1093-1356</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w402383">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w402249">Cadabiria</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402268">Cadeberia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402338">Cadebiri</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402338">Cadebyre</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402338">Cadebury</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402338">Kadebury</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w402383">Chadebery</searchterm>
+  </extension>
+ </mads>
+ 

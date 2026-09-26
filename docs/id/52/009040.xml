@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000027">
+  <authority ID="epns-deep-52-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/009040">Broadwey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000004" type="broader">
+   <geographic>Culliford Tree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4679400" lat="50.6506900" gazref="geonames:2654624" source="geonames"/>
+   <geo long="-2.47107226" lat="50.64964826" source="epns"/>
+   <geo long="-2.473901553435442" lat="50.64963723748901" gazref="unlock:11088208" source="unlock"/>
+   <geo kepnexref="380" long="-2.47166" lat="50.6507" source="kepn"/>
+  </extension>
+ </mads>
+ 

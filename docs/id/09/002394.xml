@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000049">
+  <authority ID="epns-deep-09-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002394">Templeton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000049" type="broader">
+   <geographic>Templeton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w110000">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002395">Temple</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w110030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002396">Templeton by Tiverton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w110067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002397">Templeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a44"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5833300" lat="50.9166700" gazref="geonames:2636111" source="geonames"/>
+   <geo long="-3.586428109833277" lat="50.9186249607525" gazref="unlock:11298644" source="unlock"/>
+   <geo easting="288500" northing="113500" long="-3.5873" lat="50.9102" kepnref="15716" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w110000">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w110000">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="de241">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w110030">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="de27">Buckland</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w110067">
+    <date end="1439" begin="1439" subtype="simple">1439</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w110000">Temple</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w110030">Templeton by Tiverton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w110067">Templeton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000081">
+  <authority ID="epns-deep-49-a-name-parish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/018748">Wasing</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000010" type="broader">
+   <geographic>Faircross Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001af2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1755400" lat="51.3749100" gazref="geonames:2634712" source="geonames"/>
+   <geo long="-1.173773389278695" lat="51.37614173768939" gazref="unlock:11313995" source="unlock"/>
+   <geo easting="457500" northing="164500" long="-1.17524" lat="51.3767" kepnref="3099" source="kepn"/>
+  </extension>
+ </mads>
+ 

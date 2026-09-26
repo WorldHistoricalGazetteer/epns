@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000050">
+  <authority ID="epns-deep-14-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002285">Ruston Parva</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000002" type="broader">
+   <geographic>Dickering Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d00040c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3735000" lat="54.0400900" gazref="geonames:2638929" source="geonames"/>
+   <geo long="-0.373557332426795" lat="54.03828112005618" gazref="unlock:11275706" source="unlock"/>
+   <geo easting="506500" northing="461500" long="-0.375231" lat="54.0385" kepnref="8480" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-db-dbhundred-000008">
+  <authority ID="epns-deep-38-db-name-dbhundred-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010252">Witley Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000009" type="broader">
+   <geographic>Kiftsgate Hundred (Upper Division)</geographic>
+  </related>
+  <variant ID="epns-deep-38-db-name-w470485">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010253">Witelai hundredum, Witelai hd', Witelai hvnd'</geographic>
+  </variant>
+  <variant ID="epns-deep-38-db-name-w470551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010254">Widelei h(vn)d', Wideles h(vn)d'</geographic>
+  </variant>
+  <variant ID="epns-deep-38-db-name-w470595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010255">Wichtele hdr'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab3000015"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-38-db-name-w470485">
+    <date end="1100" begin="1000" subtype="century">11</date>
+    <source style="" id="go247">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-db-name-w470485">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-db-name-w470551">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-db-name-w470595">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-db-name-w470485">Witelai hundredum</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470485">Witelai hd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470485">Witelai hvnd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470551">Widelei hvnd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470551">Widelei hd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470551">Wideles hvnd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470551">Wideles hd'</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w470595">Wichtele hdr'</searchterm>
+  </extension>
+ </mads>
+ 

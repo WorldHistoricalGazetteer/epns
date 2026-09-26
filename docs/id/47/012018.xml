@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000139">
+  <authority ID="epns-deep-47-b-name-subparish-000139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/012018">Heswall cum Oldfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000043" type="broader">
+   <geographic>Heswall</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w666990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/012019">Heswall cum Oldfield</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w667021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/012020">Heswall cum Oldfield</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fd8"/>
+  </recordInfo>
+  <extension>
+   <geo easting="327500" northing="382500" long="-3.09018" lat="53.3344" kepnref="12161" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w666990">
+    <date end="1831" begin="1831" subtype="simple">1831</date>
+    <source style="" id="ch72">Bry</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w667021">
+    <date end="1727" begin="1727" subtype="simple">1727</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w666990">Heswall cum Oldfield</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w667021">Heswall cum Oldfield</searchterm>
+  </extension>
+ </mads>
+ 

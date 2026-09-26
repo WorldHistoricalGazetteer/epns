@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-hu-subcounty-000001">
+  <authority ID="epns-deep-40-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000002">Thornbury Hundred (Lower Division)</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-co-county-000001" type="broader">
+   <geographic>Gloucestershire</geographic>
+  </related>
+  <variant ID="epns-deep-40-hu-name-w946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000003">Torneb'ihundred', Torneberihundred'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w1002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000004">hundr(ed)' de Tornebir'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w1042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000005">hundr(ed)' de Tornebur</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w1074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000006">hundr(ed)' de Thorn(e)byr'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w1111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000007">hundr(ed)' de Thorn(e)bury</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w1184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000008">hundr(ed)' de Thorn(e)bure</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285aa6b47fc40ab3001a76"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-hu-name-w946">
+    <date subtype="simple" begin="1169" end="1169">1169</date>
+    <date subtype="simple" begin="1178" end="1178">1178</date>
+    <date subtype="simple" begin="1180" end="1180">1180</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1002">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1042">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="go439">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1074">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1111">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="italic" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1111">
+    <attestation variantID="epns-deep-40-hu-name-w1111">
+     <date subtype="simple" begin="1322" end="1322">1322</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-hu-name-w1111">
+     <date subtype="simple" begin="1403" end="1403">1403</date>
+     <source style="" id="go396" underspec="ib">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w1184">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-hu-name-w946">Torneb'ihundred'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w946">Torneberihundred'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1002">hundred' de Tornebir'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1002">hundr' de Tornebir'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1042">hundred' de Tornebur</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1042">hundr' de Tornebur</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1074">hundred' de Thornebyr'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1074">hundred' de Thornbyr'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1074">hundr' de Thornebyr'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1074">hundr' de Thornbyr'</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1111">hundred' de Thornebury</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1111">hundred' de Thornbury</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1111">hundr' de Thornebury</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1111">hundr' de Thornbury</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1184">hundred' de Thornebure</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1184">hundred' de Thornbure</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1184">hundr' de Thornebure</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w1184">hundr' de Thornbure</searchterm>
+  </extension>
+ </mads>
+ 

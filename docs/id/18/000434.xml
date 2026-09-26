@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-hu-subcounty-000002">
+  <authority ID="epns-deep-18-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000434">Isleworth Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-co-county-000001" type="broader">
+   <geographic>Middlesex</geographic>
+  </related>
+  <variant ID="epns-deep-18-hu-name-w22786">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000435">Ystleswurð</geographic>
+  </variant>
+  <variant ID="epns-deep-18-hu-name-w22805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000436">Ysteleswurde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a56b47fc407a0000220"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-18-hu-name-w22786">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="mi219">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-hu-name-w22805">
+    <date end="1182" begin="1182" subtype="simple">1182</date>
+    <source style="" id="mi219" underspec="ib">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-hu-name-w22786">Ystleswurð</searchterm>
+   <searchterm variantID="epns-deep-18-hu-name-w22805">Ysteleswurde</searchterm>
+  </extension>
+ </mads>
+ 

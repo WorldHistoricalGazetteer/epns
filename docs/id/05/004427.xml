@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000393">
+  <authority ID="epns-deep-05-b-name-subparish-000393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004427">Hornby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000137" type="broader">
+   <geographic>Hornby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w323159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004428">Hornebi, Horneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w323206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004429">Hornby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6666700" lat="54.3333300" gazref="geonames:2646597" source="geonames"/>
+   <geo long="-1.653917909163422" lat="54.33641329180734" gazref="unlock:11179344" source="unlock"/>
+   <geo easting="422500" northing="493500" long="-1.65545" lat="54.3366" kepnref="6044" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w323159">
+    <attestation variantID="epns-deep-05-b-name-w323159">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w323159">
+     <date subtype="simple" begin="1361" end="1361">1361</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w323206">
+    <date subtype="simple" begin="1469" end="1469">1469</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w323159">Hornebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323159">Horneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323206">Hornby</searchterm>
+  </extension>
+ </mads>
+ 

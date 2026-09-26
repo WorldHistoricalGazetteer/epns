@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000192">
+  <authority ID="epns-deep-04-b-name-subparish-000192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004931">Ridgeacre Farm</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000183" type="broader">
+   <geographic>Halesowen</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w404208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004932">Rugacre, Rugaker</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w404252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004933">Rughaker</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w404270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004934">Rugeacre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b00059f"/>
+  </recordInfo>
+  <extension>
+   <geo easting="400500" northing="284500" long="-1.99405" lat="52.4585" kepnref="5370" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w404208">
+    <date end="1271" begin="1271" subtype="simple">1271</date>
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w404208">
+    <date end="1571" begin="1571" subtype="simple">1571</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w404252">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w404270">
+    <date end="1500" begin="1500" subtype="simple">1500</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo119">Nash</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w404208">Rugacre</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w404208">Rugaker</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w404252">Rughaker</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w404270">Rugeacre</searchterm>
+  </extension>
+ </mads>
+ 

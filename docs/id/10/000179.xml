@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000003">
+  <authority ID="epns-deep-10-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000179">Barby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000001" type="broader">
+   <geographic>Fawsley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2051000" lat="52.3284400" gazref="geonames:2656366" source="geonames"/>
+   <geo long="-1.200155517121494" lat="52.32949537916004" gazref="unlock:11069735" source="unlock"/>
+   <geo easting="454500" northing="270500" long="-1.20166" lat="52.3299" kepnref="11689" source="kepn"/>
+  </extension>
+ </mads>
+ 

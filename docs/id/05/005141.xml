@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000455">
+  <authority ID="epns-deep-05-b-name-subparish-000455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005141">Ainderby Steeple</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000153" type="broader">
+   <geographic>Ainderby Steeple</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w367429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005142">Eindrebi, Andrebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w367522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005143">Andrebi Fourneux</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w367550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005144">Aynderby w(i)th Stepil(l), Aynderby wythe Stepil(l)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4878300" lat="54.3239300" gazref="geonames:2657625" source="geonames"/>
+   <geo long="-1.484840902399071" lat="54.32682164587839" gazref="unlock:11057390" source="unlock"/>
+   <geo easting="433500" northing="492500" long="-1.48639" lat="54.327" kepnref="6108" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w367429">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w367522">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w367550">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w367429">Eindrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367429">Andrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367522">Andrebi Fourneux</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby with Stepill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby with Stepil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby wth Stepill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby wth Stepil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby wythe Stepill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367550">Aynderby wythe Stepil</searchterm>
+  </extension>
+ </mads>
+ 

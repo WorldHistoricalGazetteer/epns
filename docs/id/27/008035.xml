@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000067">
+  <authority ID="epns-deep-27-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008035">Peak Forest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000065" type="broader">
+   <geographic>Peak Forest</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w315235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008036">foresta de Pecco, foresta de Pecko</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w315307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008037">foresta de Peck</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w315332">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008038">foresta de Haut Peck</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w315367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008039">foreste del Peek</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w315396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008040">Peake Forest</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8310700" lat="53.3100700" gazref="geonames:2640547" source="geonames"/>
+   <geo long="-1.827376721894119" lat="53.3120413361402" gazref="unlock:11241367" source="unlock"/>
+   <geo easting="411500" northing="379500" long="-1.82884" lat="53.3123" kepnref="3267" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w315235">
+    <date end="1223" begin="1223" subtype="simple">1223</date>
+    <source style="" id="db89">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315235">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315235">
+    <attestation variantID="epns-deep-27-b-name-w315235">
+     <date end="1233" begin="1233" subtype="simple">1233</date>
+     <source style="" id="db293">Lib</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315307">
+    <date end="1277" begin="1277" subtype="simple">1277</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315332">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="italic" id="db288">LansdCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315367">
+    <date end="1383" begin="1383" subtype="simple">1383</date>
+    <source style="" id="db216">Gaunt</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w315396">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w315235">foresta de Pecco</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w315235">foresta de Pecko</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w315307">foresta de Peck</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w315332">foresta de Haut Peck</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w315367">foreste del Peek</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w315396">Peake Forest</searchterm>
+  </extension>
+ </mads>
+ 

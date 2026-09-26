@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000087">
+  <authority ID="epns-deep-35-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012716">Great Mitton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000023" type="broader">
+   <geographic>Great Mitton</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w475641">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012717">Mitune</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w475657">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012718">Miton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w475672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012719">Mitton, Mytton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w475780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012720">Magnam Mytton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w475808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012721">Mangna Mytton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w475837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012722">Mytton juxta Bashall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100612c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4351200" lat="53.8460900" gazref="geonames:2648055" source="geonames"/>
+   <geo long="-2.440739939" lat="53.83723248" source="epns"/>
+   <geo long="-2.433187731326291" lat="53.84175581108556" gazref="unlock:11159045" source="unlock"/>
+   <geo easting="371500" northing="439500" long="-2.4347" lat="53.8509" kepnref="14922" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w475641">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475657">
+    <date subtype="simple" begin="1435" end="1435">1435</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475672">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>60</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475672">
+    <date subtype="simple" begin="1206" end="1235">1206- 35</date>
+    <date subtype="circa" begin="1230" end="1250">c. 1240</date>
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="" id="wr96">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475672">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475672">
+    <attestation variantID="epns-deep-35-b-name-w475672">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w475672">
+     <date subtype="simple" begin="1656" end="1656">1656</date>
+     <source style="" id="wr564">PRWd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475780">
+    <date subtype="simple" begin="1103" end="1103">1103</date>
+    <source style="" id="wr773">Whit</source>
+    <page>20</page>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475808">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="wr92">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w475837">
+    <date subtype="simple" begin="1607" end="1607">1607</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w475641">Mitune</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475657">Miton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475672">Mitton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475672">Mytton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475780">Magnam Mytton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475808">Mangna Mytton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w475837">Mytton juxta Bashall</searchterm>
+  </extension>
+ </mads>
+ 

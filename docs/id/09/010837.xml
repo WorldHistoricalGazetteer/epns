@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000211">
+  <authority ID="epns-deep-09-b-name-subparish-000211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010837">Buckerell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000211" type="broader">
+   <geographic>Buckerell</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w491675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010838">Bucherel</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w491692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010839">Bukerell</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w491754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010840">Bukerel, Bukerelle</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w491774">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010841">Bokerel</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w491801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010842">etfreq</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w491843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010843">Bokerelle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001900"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2419900" lat="50.8011200" gazref="geonames:7300228" source="geonames"/>
+   <geo long="-3.241704670847719" lat="50.79688539930818" gazref="unlock:11091633" source="unlock"/>
+   <geo easting="312500" northing="100500" long="-3.24292" lat="50.7974" kepnref="15882" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w491675">
+    <date end="1165" begin="1165" subtype="simple">1165</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w491692">
+    <attestation variantID="epns-deep-09-b-name-w491692">
+     <date end="1230" begin="1221" subtype="simple">1221-30</date>
+     <source style="" id="de83">Fees</source>
+     <page>1443</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w491754">
+    <date end="1600" begin="1221">1221-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w491774">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="de103">HMC</source>
+    <item>iv</item>
+    <page>59</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w491801 epns-deep-09-b-name-w491843">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w491675">Bucherel</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491692">Bukerell</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491754">Bukerel</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491754">Bukerelle</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491774">Bokerel</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491801">etfreq</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w491843">Bokerelle</searchterm>
+  </extension>
+ </mads>
+ 

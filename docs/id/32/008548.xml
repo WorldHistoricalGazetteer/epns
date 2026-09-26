@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000038">
+  <authority ID="epns-deep-32-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008548">Mytholmroyd</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-ch-belowparish-000003" type="broader">
+   <geographic>Heptonstall Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w385638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008549">(le) Mithomrode</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w385676">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008550">(le) Mithumrode, (le) Mythumrode</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w385731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008551">Mithom(e) Royd(e), Mythom(e) Royd(e), Mythom(e)roid</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w385828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008552">Mithamroyd</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w385852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/008553">Mytholmroyd(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100614d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9825800" lat="53.7306500" gazref="geonames:2641922" source="geonames"/>
+   <geo long="-1.96968151" lat="53.7301697" source="epns"/>
+   <geo long="-1.977258699561935" lat="53.73466722206644" gazref="unlock:11225930" source="unlock"/>
+   <geo kepnexref="333" long="-1.982531" lat="53.730844" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w385638">
+    <attestation variantID="epns-deep-32-b-name-w385638">
+     <date end="1323" begin="1286" subtype="simple">1286-1323</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385676">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="wr189">Ext</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385676">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385731">
+    <date end="1478" begin="1478" subtype="simple">1478</date>
+    <source style="" id="wr711">Test</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385731">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <date end="1590" begin="1590" subtype="simple">1590</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385731">
+    <date end="1709" begin="1709" subtype="simple">1709</date>
+    <source style="" id="wr783">WMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385828">
+    <date end="1594" begin="1594" subtype="simple">1594</date>
+    <source style="" id="wr528">PRHept</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385852">
+    <date end="1622" begin="1622" subtype="simple">1622</date>
+    <source style="" id="wr528" underspec="ib">PRHept</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w385852">
+    <date end="1775" begin="1775" subtype="simple">1775</date>
+    <source style="" id="wr255">HAS</source>
+    <page>15, 316</page>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w385638">le Mithomrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385638">Mithomrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385676">le Mithumrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385676">Mithumrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385676">le Mythumrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385676">Mythumrode</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mithome Royde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mithome Royd</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mithom Royde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mithom Royd</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythome Royde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythome Royd</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythom Royde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythom Royd</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythomeroid</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385731">Mythomroid</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385828">Mithamroyd</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385852">Mytholmroyde</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w385852">Mytholmroyd</searchterm>
+  </extension>
+ </mads>
+ 

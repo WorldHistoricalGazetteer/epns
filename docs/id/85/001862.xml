@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol85mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-85-a-parish-000009">
+  <authority ID="epns-deep-85-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/85/001862">Dunholme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-85-wp-subcounty-000001" type="broader">
+   <geographic>Lawress Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000eef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4654100" lat="53.3006700" gazref="geonames:2650721" source="geonames"/>
+   <geo long="-0.4617012669862438" lat="53.30224716902481" gazref="unlock:11134193" source="unlock"/>
+   <geo easting="502500" northing="379500" long="-0.463331" lat="53.3025" kepnref="10655" source="kepn"/>
+  </extension>
+ </mads>
+ 

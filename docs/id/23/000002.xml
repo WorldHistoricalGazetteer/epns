@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-ct-countytown-000001">
+  <authority ID="epns-deep-23-ct-name-countytown-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000002">Oxford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-co-county-000001" type="broader">
+   <geographic>Oxfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-23-ct-name-w10">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000003">Oxnaforda</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w40">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000004">Oxenaforda</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w73">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000005">Oxeneford</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000006">Oxeneford', Oxeneforda, Oxenefordie</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000007">Oxineforþ'</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000008">Oxineford</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000009">Oxenfordie</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000010">Oxenfordia, Oxenford</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000011">Oxonia</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000012">Oxonie</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000013">Ocsenford</geographic>
+  </variant>
+  <variant ID="epns-deep-23-ct-name-w377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000014">Oxoneford'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286dedb47fc40beb000001"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2559600" lat="51.7522200" gazref="geonames:2640729" source="geonames"/>
+   <geo long="-1.25382375372379" lat="51.75436726325255" gazref="unlock:11238292" source="unlock"/>
+   <geo easting="451500" northing="206500" long="-1.2553" lat="51.7548" kepnref="3521" source="kepn"/>
+   <attestation variantID="epns-deep-23-ct-name-w10">
+    <date end="912" begin="912" subtype="simple">912</date>
+    <copydate end="935" begin="915">c. 925</copydate>
+    <ms>A</ms>
+    <source style="" id="ox13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w40">
+    <date end="1059" begin="1059" subtype="simple">1059</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="italic" id="ox228">St Denis</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w73">
+    <attestation variantID="epns-deep-23-ct-name-w73">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w122">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w161">
+    <date end="1140" begin="1120" subtype="circa">c. 1130</date>
+    <source style="italic" id="ox5">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w187">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ox38">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w206">
+    <attestation variantID="epns-deep-23-ct-name-w206">
+     <date end="1139" begin="1089" subtype="ante">a. 1139</date>
+     <copydate end="1290" begin="1270">c. 1280</copydate>
+     <source style="" id="ox216">S</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w270">
+    <date end="1600" begin="1089">a. 1139-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w292">
+    <attestation variantID="epns-deep-23-ct-name-w292">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="ox239">Templars</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w345">
+    <date end="1600" begin="1185">1185-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w353">
+    <date end="1200" begin="1180" subtype="circa">c. 1190</date>
+    <source style="italic" id="ox98">Harl</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-ct-name-w377">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="ox76">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-ct-name-w10">Oxnaforda</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w40">Oxenaforda</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w73">Oxeneford</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w122">Oxeneford'</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w122">Oxeneforda</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w122">Oxenefordie</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w161">Oxineforþ'</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w187">Oxineford</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w206">Oxenfordie</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w270">Oxenfordia</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w270">Oxenford</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w292">Oxonia</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w345">Oxonie</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w353">Ocsenford</searchterm>
+   <searchterm variantID="epns-deep-23-ct-name-w377">Oxoneford'</searchterm>
+  </extension>
+ </mads>
+ 

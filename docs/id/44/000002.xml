@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-hu-subcounty-000001">
+  <authority ID="epns-deep-44-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/000002">Macclesfield Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-co-county-000001" type="broader">
+   <geographic>Cheshire</geographic>
+  </related>
+  <variant ID="epns-deep-44-hu-name-w48">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/000003">Hamestan, Hamstan(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-44-hu-name-w78">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/000004">hundred' de Malcklesfeld'</geographic>
+  </variant>
+  <variant ID="epns-deep-44-hu-name-w115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/000005">hundred' de Macclesfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328365eb47fc40856001f31"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-44-hu-name-w48">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-hu-name-w78">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ch117">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-hu-name-w115">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="" id="ch303">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-hu-name-w48">Hamestan</searchterm>
+   <searchterm variantID="epns-deep-44-hu-name-w48">Hamstane</searchterm>
+   <searchterm variantID="epns-deep-44-hu-name-w48">Hamstan</searchterm>
+   <searchterm variantID="epns-deep-44-hu-name-w78">hundred' de Malcklesfeld'</searchterm>
+   <searchterm variantID="epns-deep-44-hu-name-w115">hundred' de Macclesfeld</searchterm>
+  </extension>
+ </mads>
+ 

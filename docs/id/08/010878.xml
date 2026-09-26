@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000188">
+  <authority ID="epns-deep-08-b-name-subparish-000188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010878">Salcombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000187" type="broader">
+   <geographic>Salcombe</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w548033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010879">Saltecumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w548098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010880">Saltcumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w548112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010881">Saltecombe, Saltcombe by Ethelton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w548156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010882">Salcume juxta Kinggesbrigg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a07"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7687400" lat="50.2374300" gazref="geonames:2638682" source="geonames"/>
+   <geo long="-3.774223316651086" lat="50.24131467275006" gazref="unlock:11277019" source="unlock"/>
+   <geo easting="273500" northing="38500" long="-3.77502" lat="50.2329" kepnref="15646" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w548033">
+    <attestation variantID="epns-deep-08-b-name-w548033">
+     <date end="1244" begin="1244" subtype="simple">1244</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w548033">
+     <date end="1464" begin="1464" subtype="simple">1464</date>
+     <source style="" id="de112">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w548098">
+    <date end="1464" begin="1244">1244-1464</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w548112">
+    <date end="1369" begin="1369" subtype="simple">1369</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w548156">
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w548033">Saltecumbe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w548098">Saltcumbe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w548112">Saltecombe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w548112">Saltcombe by Ethelton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w548156">Salcume juxta Kinggesbrigg</searchterm>
+  </extension>
+ </mads>
+ 

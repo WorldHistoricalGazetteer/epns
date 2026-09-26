@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-a-parish-000003">
+  <authority ID="epns-deep-21-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000081">Aspatria</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-w-subcounty-000001" type="broader">
+   <geographic>Allerdale Below Derwent Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000ec6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3278300" lat="54.7657400" gazref="geonames:2656891" source="geonames"/>
+   <geo long="-3.328878557708452" lat="54.76104919455" gazref="unlock:11064890" source="unlock"/>
+   <geo easting="314500" northing="541500" long="-3.33022" lat="54.7611" kepnref="4458" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000223">
+  <authority ID="epns-deep-09-b-name-subparish-000223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011535">Northleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000223" type="broader">
+   <geographic>Northleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w523917">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011536">Lega</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w523931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011537">Legh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w523945">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011538">Northleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w523966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011539">Northleghe juxta Honeton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w524001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011540">Norley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019e0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1500000" lat="50.7666700" gazref="geonames:2641316" source="geonames"/>
+   <geo long="-3.141514204042824" lat="50.76193298129864" gazref="unlock:11233521" source="unlock"/>
+   <geo easting="319500" northing="95500" long="-3.14252" lat="50.7535" kepnref="15894" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w523917">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w523931">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w523945">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w523966">
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524001">
+    <date end="1555" begin="1555" subtype="simple">1555</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w523917">Lega</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w523931">Legh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w523945">Northleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w523966">Northleghe juxta Honeton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w524001">Norley</searchterm>
+  </extension>
+ </mads>
+ 

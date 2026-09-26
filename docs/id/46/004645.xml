@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000037">
+  <authority ID="epns-deep-46-b-name-subparish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/004645">Dodcott cum Wilkesley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000008" type="broader">
+   <geographic>Audlem and Wrenbury</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w230510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/004646">Dodcot and Wilksley</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w230550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/004647">Dodcott cum Wilslea</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f5c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5741000" lat="52.9765900" gazref="geonames:7292999" source="geonames"/>
+   <geo easting="362500" northing="341500" long="-2.55981" lat="52.9695" kepnref="11928" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w230510">
+    <date end="1621" begin="1621" subtype="simple">1621</date>
+    <copydate end="1656" begin="1656">1656</copydate>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w230550">
+    <date end="1692" begin="1692" subtype="simple">1692</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w230510">Dodcot and Wilksley</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w230550">Dodcott cum Wilslea</searchterm>
+  </extension>
+ </mads>
+ 

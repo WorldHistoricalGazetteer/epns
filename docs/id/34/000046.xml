@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000001">
+  <authority ID="epns-deep-34-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000046">Nun Monkton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000001" type="broader">
+   <geographic>Nun Monkton</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w3336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000047">Monechetone, Monuchetone</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000048">Meneketon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000049">Muneketon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3447">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000050">Monketon, Munketon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3500">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000051">Nunne Munketon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3540">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000052">Nun Munketon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000053">Nunmonkton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000054">Nonmonkton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w3640">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000055">Nonne Mounckton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2261000" lat="54.0142600" gazref="geonames:2641155" source="geonames"/>
+   <geo long="-1.237020423" lat="54.00640841" source="epns"/>
+   <geo long="-1.229308116412965" lat="54.01085505071342" gazref="unlock:11234050" source="unlock"/>
+   <geo easting="450500" northing="457500" long="-1.23088" lat="54.0111" kepnref="14720" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w3336">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3370">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <date end="1168" begin="1168" subtype="simple">1168</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3416">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3416">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3447">
+    <date end="1153" begin="1147" subtype="simple">1147-53</date>
+    <source style="" id="wr796">YCh</source>
+    <item>535</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3447">
+    <attestation variantID="epns-deep-34-b-name-w3447">
+     <date end="1268" begin="1268" subtype="simple">1268</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3500">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3500">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="" id="wr28">Baild</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3540">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3540">
+    <date end="1368" begin="1368" subtype="simple">1368</date>
+    <source style="" id="wr28">Baild</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3540">
+    <attestation variantID="epns-deep-34-b-name-w3540">
+     <date end="1403" begin="1403" subtype="simple">1403</date>
+     <source style="" id="wr474">Pat</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3592">
+    <date end="1397" begin="1397" subtype="simple">1397</date>
+    <source style="" id="wr787">Works</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3615">
+    <date end="1433" begin="1433" subtype="simple">1433</date>
+    <source style="" id="wr711">Test</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w3640">
+    <date end="1613" begin="1613" subtype="simple">1613</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w3336">Monechetone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3336">Monuchetone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3370">Meneketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3416">Muneketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3447">Monketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3447">Munketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3500">Nunne Munketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3540">Nun Munketon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3592">Nunmonkton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3615">Nonmonkton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w3640">Nonne Mounckton</searchterm>
+  </extension>
+ </mads>
+ 

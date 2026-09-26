@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000125">
+  <authority ID="epns-deep-24-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/010301">Shutford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000005" type="broader">
+   <geographic>Banbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00073f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4463900" lat="52.0588800" gazref="geonames:7298298" source="geonames"/>
+   <geo long="-1.438367257834068" lat="52.06112141097621" gazref="unlock:11283615" source="unlock"/>
+   <geo easting="438500" northing="240500" long="-1.43983" lat="52.0616" kepnref="3759" source="kepn"/>
+  </extension>
+ </mads>
+ 

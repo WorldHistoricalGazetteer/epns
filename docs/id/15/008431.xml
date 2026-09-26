@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000150">
+  <authority ID="epns-deep-15-a-name-parish-000150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008431">Hertingfordbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000008" type="broader">
+   <geographic>Hertford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000700"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1052700" lat="51.7905700" gazref="geonames:2647042" source="geonames"/>
+   <geo long="-0.1074178059106357" lat="51.79545600854704" gazref="unlock:11170777" source="unlock"/>
+   <geo easting="531500" northing="212500" long="-0.0945322" lat="51.7957" kepnref="4703" source="kepn"/>
+  </extension>
+ </mads>
+ 

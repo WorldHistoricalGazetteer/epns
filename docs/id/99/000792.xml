@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000038">
+  <authority ID="epns-deep-99-a-name-parish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000792">Wood Walton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000002" type="broader">
+   <geographic>Hurstingstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2156900" lat="52.4122600" gazref="geonames:2633614" source="geonames"/>
+   <geo long="-0.2136124600825457" lat="52.40861834698792" gazref="unlock:11325467" source="unlock"/>
+   <geo easting="521500" northing="280500" long="-0.215233" lat="52.409" kepnref="4166" source="kepn"/>
+  </extension>
+ </mads>
+ 

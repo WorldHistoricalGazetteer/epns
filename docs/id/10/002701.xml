@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000117">
+  <authority ID="epns-deep-10-a-name-parish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002701">Hartwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000008" type="broader">
+   <geographic>Cleyley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00043e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8537600" lat="52.1461600" gazref="geonames:2647388" source="geonames"/>
+   <geo long="-0.8526418919809008" lat="52.1467948256153" gazref="unlock:11166901" source="unlock"/>
+   <geo easting="478500" northing="250500" long="-0.854177" lat="52.1472" kepnref="10987" source="kepn"/>
+  </extension>
+ </mads>
+ 

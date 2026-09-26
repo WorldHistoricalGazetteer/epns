@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000042">
+  <authority ID="epns-deep-05-b-name-subparish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000396">Dalby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000019" type="broader">
+   <geographic>Dalby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w31589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000397">Dalbi, Dalby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w31630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000398">Dalebi, Daleby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600046b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0333300" lat="54.1333300" gazref="geonames:2651605" source="geonames"/>
+   <geo long="-1.02800552702238" lat="54.13524204021576" gazref="unlock:11126313" source="unlock"/>
+   <geo easting="463500" northing="471500" long="-1.0296" lat="54.1354" kepnref="5693" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w31589">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w31589">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>6 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w31630">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>99</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w31630">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w31630">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w31589">Dalbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w31589">Dalby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w31630">Dalebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w31630">Daleby</searchterm>
+  </extension>
+ </mads>
+ 

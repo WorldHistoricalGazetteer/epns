@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000009">
+  <authority ID="epns-deep-07-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000628">Hurstpierpoint</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000009" type="broader">
+   <geographic>Hurstpierpoint</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w43395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000629">Herst</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w43410">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000630">Westherst</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w43430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000631">Herst Perepunt</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w43457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000632">Hirste Perpund</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d1d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1800700" lat="50.9338800" gazref="geonames:2646355" source="geonames"/>
+   <geo long="-0.1711129316616407" lat="50.93306676723652" gazref="unlock:11181700" source="unlock"/>
+   <geo easting="528500" northing="116500" long="-0.172678" lat="50.9336" kepnref="7028" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w43395">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w43410">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w43430">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w43457">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w43395">Herst</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w43410">Westherst</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w43430">Herst Perepunt</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w43457">Hirste Perpund</searchterm>
+  </extension>
+ </mads>
+ 

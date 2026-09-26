@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000159">
+  <authority ID="epns-deep-13-a-name-parish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006650">Billesley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f00062c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7882800" lat="52.2105000" gazref="geonames:2655670" source="geonames"/>
+   <geo long="-1.787788781037044" lat="52.20613335111492" gazref="unlock:11076946" source="unlock"/>
+   <geo easting="414500" northing="256500" long="-1.78922" lat="52.2065" kepnref="4859" source="kepn"/>
+  </extension>
+ </mads>
+ 

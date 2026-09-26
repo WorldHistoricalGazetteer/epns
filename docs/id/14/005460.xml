@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-ld-localdistrict-000001">
+  <authority ID="epns-deep-14-ld-name-localdistrict-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005460">Hullshire</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000006" type="broader">
+   <geographic>Hunsley Beacon Division</geographic>
+  </related>
+  <variant ID="epns-deep-14-ld-name-w355988">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005461">Comitatus Hull</geographic>
+  </variant>
+  <variant ID="epns-deep-14-ld-name-w356015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005462">the Countie of Kyngeston upon Hulle</geographic>
+  </variant>
+  <variant ID="epns-deep-14-ld-name-w356066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005463">Hull Shyer</geographic>
+  </variant>
+  <variant ID="epns-deep-14-ld-name-w356087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005464">Hullshire</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285444b47fc40a4d000002"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-14-ld-name-w355988">
+    <date subtype="simple" begin="1505" end="1505">1505</date>
+    <source style="" id="ey315">Sanct</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-ld-name-w356015">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="" id="ey368">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-ld-name-w356066">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="" id="ey368" underspec="ib">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-ld-name-w356087">
+    <date subtype="simple" begin="1828" end="1828">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-ld-name-w355988">Comitatus Hull</searchterm>
+   <searchterm variantID="epns-deep-14-ld-name-w356015">the Countie of Kyngeston upon Hulle</searchterm>
+   <searchterm variantID="epns-deep-14-ld-name-w356066">Hull Shyer</searchterm>
+   <searchterm variantID="epns-deep-14-ld-name-w356087">Hullshire</searchterm>
+  </extension>
+ </mads>
+ 

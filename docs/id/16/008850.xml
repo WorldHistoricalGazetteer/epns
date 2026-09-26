@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000215">
+  <authority ID="epns-deep-16-a-name-parish-000215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008850">Cherhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000021" type="broader">
+   <geographic>Calne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c26"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9509000" lat="51.4298900" gazref="geonames:2653253" source="geonames"/>
+   <geo long="-1.949645923219378" lat="51.43299966836316" gazref="unlock:11104415" source="unlock"/>
+   <geo easting="403500" northing="170500" long="-1.95103" lat="51.4335" kepnref="7370" source="kepn"/>
+  </extension>
+ </mads>
+ 

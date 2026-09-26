@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000051">
+  <authority ID="epns-deep-08-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002812">Littleham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000051" type="broader">
+   <geographic>Littleham</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w147215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002813">Liteham</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002814">Litelhama</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002815">Lit(t)leham</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002816">Litelham juxta Bidford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2333300" lat="50.9833300" gazref="geonames:2644321" source="geonames"/>
+   <geo long="-4.230116841707818" lat="50.9890540840804" gazref="unlock:11197284" source="unlock"/>
+   <geo easting="243500" northing="123500" long="-4.23122" lat="50.9896" kepnref="15508" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w147215">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147232">
+    <date end="1107" begin="1107" subtype="simple">1107</date>
+    <copydate end="1300" begin="1300">1300</copydate>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147258">
+    <date end="1177" begin="1177" subtype="simple">1177</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147258">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147289">
+    <date end="1361" begin="1361" subtype="simple">1361</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w147215">Liteham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147232">Litelhama</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147258">Littleham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147258">Litleham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147289">Litelham juxta Bidford</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000163">
+  <authority ID="epns-deep-08-b-name-subparish-000163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009368">Harford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000163" type="broader">
+   <geographic>Harford</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w481843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009369">Hereford(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w481903">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009370">Esthereford juxta Ermyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w481941">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009371">Esthereford juxta Uggeburgh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w481981">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009372">West Hereford</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w482005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009373">Herforde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001972"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9166700" lat="50.4166700" gazref="geonames:2647480" source="geonames"/>
+   <geo long="-3.921637711713866" lat="50.41887482098872" gazref="unlock:11166148" source="unlock"/>
+   <geo easting="263500" northing="59500" long="-3.92276" lat="50.4195" kepnref="15621" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w481843">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481843">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="de181">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481843">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>796</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481843">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481903">
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481941">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w481981">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w482005">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w482005">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w481843">Hereforda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w481843">Hereford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w481903">Esthereford juxta Ermyngton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w481941">Esthereford juxta Uggeburgh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w481981">West Hereford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w482005">Herforde</searchterm>
+  </extension>
+ </mads>
+ 

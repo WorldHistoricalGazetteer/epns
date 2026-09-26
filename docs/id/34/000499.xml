@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000009">
+  <authority ID="epns-deep-34-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000499">Kirk Hammerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000004" type="broader">
+   <geographic>Kirk Hammerton</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w23269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000500">Ambretone, Hanbretone</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w23300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000501">Hametona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w23325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000502">Hamertun, Hamertona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w23431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000503">Kirk(e) Hamertona, Kyrk(e) Hamertona</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w23531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000504">Kirk Hammerton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w23559">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000505">Kyrkhamb'ton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100618a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2917600" lat="53.9943500" gazref="geonames:2645277" source="geonames"/>
+   <geo long="-1.298355859" lat="53.98880421" source="epns"/>
+   <geo long="-1.290653341287403" lat="53.99325482659388" gazref="unlock:11187725" source="unlock"/>
+   <geo kepnexref="3406" long="-1.29221" lat="53.9935" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w23269">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23300">
+    <date end="1147" begin="1140" subtype="simple">1140-7</date>
+    <source style="" id="wr796">YCh</source>
+    <item>534</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23325">
+    <date end="1200" begin="1100" subtype="century">12</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23325">
+    <date end="1150" begin="1118" subtype="simple">1118-50</date>
+    <date end="1121" begin="1121" subtype="simple">1121</date>
+    <source style="" id="wr724">Tockw</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23325">
+    <date end="1153" begin="1147" subtype="simple">1147-53</date>
+    <source style="" id="wr150">Dugd</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23325">
+    <attestation variantID="epns-deep-34-b-name-w23325">
+     <date end="1224" begin="1217" subtype="simple">1217-24</date>
+     <source style="" id="wr217">Font</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w23325">
+     <date end="1539" begin="1539" subtype="simple">1539</date>
+     <source style="" id="wr680">Star</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23431">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23431">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23431">
+    <attestation variantID="epns-deep-34-b-name-w23431">
+     <date end="1226" begin="1226" subtype="simple">1226</date>
+     <date end="1240" begin="1240" subtype="simple">1240</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w23431">
+     <date end="1439" begin="1439" subtype="simple">1439</date>
+     <source style="" id="wr799">YD</source>
+     <item>vii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23531">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w23559">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wr739">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w23269">Ambretone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23269">Hanbretone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23300">Hametona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23325">Hamertun</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23325">Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23431">Kirke Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23431">Kirk Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23431">Kyrke Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23431">Kyrk Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23531">Kirk Hammerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w23559">Kyrkhamb'ton</searchterm>
+  </extension>
+ </mads>
+ 

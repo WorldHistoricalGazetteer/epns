@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000015">
+  <authority ID="epns-deep-33-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001419">Hambleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000004" type="broader">
+   <geographic>Brayton</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w65287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001420">(Alfcetel in) Há'</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w65320">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001421">Hameltun, Hamelton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w65497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001422">Amelthon</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w65515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001423">Hamulton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w65536">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001424">Hamylton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1666700" lat="53.7666700" gazref="geonames:2647580" source="geonames"/>
+   <geo long="-1.165399753" lat="53.77221416" source="epns"/>
+   <geo long="-1.157903069554688" lat="53.76766836446287" gazref="unlock:11164888" source="unlock"/>
+   <geo easting="455500" northing="430500" long="-1.15947" lat="53.7679" kepnref="14602" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w65287">
+    <date end="1060" begin="1040" subtype="circa">c. 1050</date>
+    <source style="" id="wr796">YCh</source>
+    <item>9</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <date end="1087" begin="1087" subtype="simple">1087</date>
+    <date end="1107" begin="1087" subtype="simple">1087-1107</date>
+    <date end="1154" begin="1154" subtype="simple">1154</date>
+    <source style="" id="wr640">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wr206">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <date end="1281" begin="1279" subtype="simple">1279- 81</date>
+    <source style="" id="wr581">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65320">
+    <attestation variantID="epns-deep-33-b-name-w65320">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="wr161">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w65320">
+     <date end="1546" begin="1546" subtype="simple">1546</date>
+     <source style="" id="wr797">YChant</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65497">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65515">
+    <date end="1308" begin="1308" subtype="simple">1308</date>
+    <source style="" id="wr347">Linds</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65536">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="wr577">PT</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65536">
+    <date end="1441" begin="1441" subtype="simple">1441</date>
+    <source style="" id="wr640">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w65536">
+    <date end="1557" begin="1557" subtype="simple">1557</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w65287">Alfcetel in Há'</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65287">Há'</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65320">Hameltun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65320">Hameltona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65320">Hamelton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65497">Amelthon</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65515">Hamulton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w65536">Hamylton</searchterm>
+  </extension>
+ </mads>
+ 

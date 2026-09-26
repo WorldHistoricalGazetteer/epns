@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000089">
+  <authority ID="epns-deep-30-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009437">Orgreave</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000057" type="broader">
+   <geographic>Rotherham</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w425369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009438">Nortgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w425388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009439">Orgraue, Orgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w425482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009440">Orgreaue</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w425502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009441">Orgraffe</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w425523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009442">Orgrayve</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006229"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3603800" lat="53.3761800" gazref="geonames:7290893" source="geonames"/>
+   <geo long="-1.368706966" lat="53.36892886" source="epns"/>
+   <geo long="-1.376024626189742" lat="53.38245323127743" gazref="unlock:11237067" source="unlock"/>
+   <geo easting="441500" northing="387500" long="-1.37755" lat="53.3827" kepnref="14347" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w425369">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425388">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="wr799">YD</source>
+    <item>xii</item>
+    <page>253</page>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425388">
+    <date subtype="simple" begin="1357" end="1357">1357</date>
+    <source style="" id="wr799" underspec="ib">YD</source>
+    <item>298</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425388">
+    <date subtype="simple" begin="1359" end="1359">1359</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425388">
+    <attestation variantID="epns-deep-30-b-name-w425388">
+     <date subtype="simple" begin="1379" end="1379">1379</date>
+     <source style="" id="wr577">PT</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-30-b-name-w425388">
+     <date subtype="simple" begin="1626" end="1626">1626</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425482">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="wr197">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425502">
+    <date subtype="simple" begin="1551" end="1551">1551</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w425523">
+    <date subtype="simple" begin="1554" end="1554">1554</date>
+    <source style="" id="wr779" underspec="ib">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w425369">Nortgrave</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w425388">Orgraue</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w425388">Orgrave</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w425482">Orgreaue</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w425502">Orgraffe</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w425523">Orgrayve</searchterm>
+  </extension>
+ </mads>
+ 

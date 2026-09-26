@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000148">
+  <authority ID="epns-deep-04-a-name-parish-000148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003644">Strensham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000003" type="broader">
+   <geographic>Hundred Of Pershore</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00051a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1439000" lat="52.0591900" gazref="geonames:2636666" source="geonames"/>
+   <geo long="-2.138588085325854" lat="52.06237806769886" gazref="unlock:11208823" source="unlock"/>
+   <geo easting="391500" northing="240500" long="-2.12538" lat="52.0628" kepnref="5321" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000061">
+  <authority ID="epns-deep-02-b-name-subparish-000061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000924">Westbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000060" type="broader">
+   <geographic>Westbury</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w65966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000925">Westberie</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w65985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000926">Westbiry</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w66011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000927">Westburg</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w66036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000928">Westburi</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0931400" lat="52.0169500" gazref="geonames:2634482" source="geonames"/>
+   <geo long="-1.089211320674004" lat="52.01398051951227" gazref="unlock:11317967" source="unlock"/>
+   <geo easting="462500" northing="235500" long="-1.09071" lat="52.0144" kepnref="11254" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w65966">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w65985">
+    <date end="1189" begin="1154" subtype="regnal">Hy ii</date>
+    <copydate end="1269" begin="1269">1269</copydate>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w66011">
+    <date end="1228" begin="1208" subtype="circa">c. 1218</date>
+    <source style="" id="bu117">WellsL</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w66036">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w65966">Westberie</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w65985">Westbiry</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w66011">Westburg</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w66036">Westburi</searchterm>
+  </extension>
+ </mads>
+ 

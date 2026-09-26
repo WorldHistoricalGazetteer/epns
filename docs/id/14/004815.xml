@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000224">
+  <authority ID="epns-deep-14-b-name-subparish-000224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004815">South Dalton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000129" type="broader">
+   <geographic>South Dalton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w316689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004816">Delton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w316705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004817">Dalton, Daltun</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w316744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004818">S(o)uth Dalton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00054f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5301000" lat="53.8955000" gazref="geonames:2637442" source="geonames"/>
+   <geo long="-0.5312811061076851" lat="53.89647655802559" gazref="unlock:11287251" source="unlock"/>
+   <geo easting="496500" northing="445500" long="-0.532929" lat="53.8967" kepnref="8602" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w316689">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w316705">
+    <attestation variantID="epns-deep-14-b-name-w316705">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="ey262">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w316744">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="ey16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w316744">
+    <attestation variantID="epns-deep-14-b-name-w316744">
+     <date end="1297" begin="1297" subtype="simple">1297</date>
+     <source style="" id="ey186">LS</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w316689">Delton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w316705">Dalton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w316705">Daltun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w316744">South Dalton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w316744">Suth Dalton</searchterm>
+  </extension>
+ </mads>
+ 

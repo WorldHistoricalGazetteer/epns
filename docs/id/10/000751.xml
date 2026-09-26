@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000030">
+  <authority ID="epns-deep-10-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000751">Chipping Warden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000030" type="broader">
+   <geographic>Chipping Warden</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w45318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000752">Waredon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w45348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000753">Wardon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w45374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000754">Westwardon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w45417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000755">Chepyng Wardoun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w45442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000756">Westwardyn al. Chepingwarden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00053c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2729000" lat="52.1353600" gazref="geonames:2653136" source="geonames"/>
+   <geo long="-1.27675069450124" lat="52.13217460960568" gazref="unlock:11106628" source="unlock"/>
+   <geo easting="449500" northing="248500" long="-1.27824" lat="52.1326" kepnref="10899" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w45318">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45318">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45348">
+    <attestation variantID="epns-deep-10-b-name-w45348">
+     <date end="1163" begin="1163" subtype="simple">1163</date>
+     <source style="" id="nh26">BM</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45374">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45374">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45374">
+    <date end="1349" begin="1349" subtype="simple">1349</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45417">
+    <date end="1389" begin="1389" subtype="simple">1389</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w45442">
+    <date end="1483" begin="1483" subtype="simple">1483</date>
+    <source style="" id="nh134">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w45318">Waredone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45318">Waredon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45348">Wardon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45374">Westwardon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45417">Chepyng Wardoun</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45442">Westwardyn</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w45442">Chepingwarden</searchterm>
+  </extension>
+ </mads>
+ 

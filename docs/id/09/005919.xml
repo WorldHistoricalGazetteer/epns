@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000112">
+  <authority ID="epns-deep-09-a-name-parish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005919">Moretonhampstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000007" type="broader">
+   <geographic>Teignbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7649500" lat="50.6607700" gazref="geonames:2642201" source="geonames"/>
+   <geo long="-3.76181371084569" lat="50.66426503287997" gazref="unlock:11222856" source="unlock"/>
+   <geo easting="275500" northing="85500" long="-3.76263" lat="50.6558" kepnref="15782" source="kepn"/>
+  </extension>
+ </mads>
+ 

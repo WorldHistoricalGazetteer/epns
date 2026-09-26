@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000016">
+  <authority ID="epns-deep-33-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001540">Thorpe Willoughby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000004" type="broader">
+   <geographic>Brayton</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w70326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001541">twegen þorpas</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001542">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001543">Thorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001544">Thorp(e) Wyleby</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001545">Thorp(e) Wilughby</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70536">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001546">Thorp(e) Welouby</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001547">Thorp(e) Willoghby</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w70595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001548">Thorp(e) Willowbie</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1256700" lat="53.7731500" gazref="geonames:7291774" source="geonames"/>
+   <geo long="-1.135054394" lat="53.77199908" source="epns"/>
+   <geo long="-1.127374639526357" lat="53.77643940867485" gazref="unlock:11300208" source="unlock"/>
+   <geo easting="457500" northing="430500" long="-1.12913" lat="53.7677" kepnref="14603" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w70326">
+    <date end="1040" begin="1020" subtype="circa">c. 1030</date>
+    <source style="" id="wr796">YCh</source>
+    <item>7</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70355">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70355">
+    <date end="1130" begin="1110" subtype="simple">1110-30</date>
+    <source style="" id="wr796">YCh</source>
+    <item>1622</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70387">
+    <date end="1130" begin="1110" subtype="simple">1110-30</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1622</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70387">
+    <attestation variantID="epns-deep-33-b-name-w70387">
+     <date end="1154" begin="1140" subtype="simple">1140-54</date>
+     <date end="1300" begin="1200" subtype="century">13</date>
+     <source style="" id="wr640">Selby</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70387">
+    <date end="1266" begin="1216" subtype="ante">a. 1266</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70387">
+    <date end="1281" begin="1279" subtype="simple">1279-81</date>
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="wr581">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70472">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70472">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70506">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="wr10">Aid</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70536">
+    <date end="1423" begin="1423" subtype="simple">1423</date>
+    <source style="" id="wr28">Baild</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70565">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wr197">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70595">
+    <date end="1586" begin="1586" subtype="simple">1586</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w70595">
+    <date end="1658" begin="1658" subtype="simple">1658</date>
+    <source style="" id="wr776">WillS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w70326">twegen þorpas</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70355">Torp</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70387">Thorpe</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70387">Thorp</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70472">Thorpe Wyleby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70472">Thorp Wyleby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70506">Thorpe Wilughby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70506">Thorp Wilughby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70536">Thorpe Welouby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70536">Thorp Welouby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70565">Thorpe Willoghby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70565">Thorp Willoghby</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70595">Thorpe Willowbie</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w70595">Thorp Willowbie</searchterm>
+  </extension>
+ </mads>
+ 

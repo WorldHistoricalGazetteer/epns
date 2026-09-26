@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000080">
+  <authority ID="epns-deep-10-a-name-parish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001882">Naseby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000005" type="broader">
+   <geographic>Guilsborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000470"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9892700" lat="52.3942200" gazref="geonames:2641874" source="geonames"/>
+   <geo long="-0.9932924844515721" lat="52.39085456124447" gazref="unlock:11227023" source="unlock"/>
+   <geo easting="468500" northing="277500" long="-0.994821" lat="52.3913" kepnref="10950" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000011">
+  <authority ID="epns-deep-49-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/003204">Remenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000003" type="broader">
+   <geographic>Beynhurst Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001ac8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8908400" lat="51.5518900" gazref="geonames:2639500" source="geonames"/>
+   <geo long="-0.8820553863377593" lat="51.5535804800091" gazref="unlock:11254539" source="unlock"/>
+   <geo easting="477500" northing="184500" long="-0.883564" lat="51.5541" kepnref="3033" source="kepn"/>
+  </extension>
+ </mads>
+ 

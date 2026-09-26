@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000119">
+  <authority ID="epns-deep-11-a-name-parish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009406">Buckland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000013" type="broader">
+   <geographic>Reigate Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a0a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2518300" lat="51.2437600" gazref="geonames:2654407" source="geonames"/>
+   <geo long="-0.244933265560973" lat="51.23999694609255" gazref="unlock:11091707" source="unlock"/>
+   <geo easting="521500" northing="150500" long="-0.26082" lat="51.2407" kepnref="8359" source="kepn"/>
+  </extension>
+ </mads>
+ 

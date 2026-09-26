@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000003">
+  <authority ID="epns-deep-13-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000066">Grendon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hud-belowsubcounty-000001" type="broader">
+   <geographic>Tamworth Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f00066c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5666700" lat="52.6000000" gazref="geonames:2647923" source="geonames"/>
+   <geo long="-1.594001368336496" lat="52.5922470059029" gazref="unlock:11160916" source="unlock"/>
+   <geo easting="427500" northing="299500" long="-1.59547" lat="52.5926" kepnref="4929" source="kepn"/>
+  </extension>
+ </mads>
+ 

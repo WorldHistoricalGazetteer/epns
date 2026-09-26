@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000088">
+  <authority ID="epns-deep-35-b-name-subparish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012794">Waddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000023" type="broader">
+   <geographic>Great Mitton</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w478286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012795">Widitun</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w478309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012796">Wadingtun, Wadington, Wadyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w478402">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012797">Wadinton, Wadynton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w478443">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012798">Waddington, Waddyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100612d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4145900" lat="53.8897700" gazref="geonames:2634922" source="geonames"/>
+   <geo long="-2.410784944" lat="53.88228372" source="epns"/>
+   <geo long="-2.418436857395991" lat="53.88675310067845" gazref="unlock:11311986" source="unlock"/>
+   <geo easting="372500" northing="443500" long="-2.41986" lat="53.887" kepnref="14926" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w478286">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478309">
+    <date subtype="circa" begin="1221" end="1241">c. 1231</date>
+    <source style="" id="wr580">Puds</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478309">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="wr92">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478309">
+    <attestation variantID="epns-deep-35-b-name-w478309">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w478309">
+     <date subtype="simple" begin="1438" end="1438">1438</date>
+     <source style="" id="wr799">YD</source>
+     <item>i</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478402">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478402">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478443">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478443">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w478443">
+    <attestation variantID="epns-deep-35-b-name-w478443">
+     <date subtype="simple" begin="1545" end="1545">1545</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w478443">
+     <date subtype="simple" begin="1641" end="1641">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w478286">Widitun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478309">Wadingtun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478309">Wadington</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478309">Wadyngton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478402">Wadinton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478402">Wadynton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478443">Waddington</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w478443">Waddyngton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000123">
+  <authority ID="epns-deep-38-b-name-subparish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010703">Clopton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000123" type="broader">
+   <geographic>Clopton</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w492804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010704">Cloptvne</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w492822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010705">Clopton</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w492902">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010706">Clopton subtus Mune</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w492931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010707">Clopton on the Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001acb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.751826746" lat="52.09366818" source="epns"/>
+   <geo long="-1.744501853358797" lat="52.09814918808556" gazref="unlock:11309828" source="unlock"/>
+   <geo easting="416500" northing="245500" long="-1.76048" lat="52.1076" kepnref="6309" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w492804">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492822">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492822">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="go388">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492822">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492822">
+    <attestation variantID="epns-deep-38-b-name-w492822">
+     <date subtype="simple" begin="1248" end="1248">1248</date>
+     <source style="italic" id="go25">Ass</source>
+     <item>4</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w492822">
+     <date subtype="simple" begin="1686" end="1686">1686</date>
+     <source style="" id="go410">PR</source>
+     <page>4</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492902">
+    <date subtype="simple" begin="1401" end="1401">1401</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w492931">
+    <date subtype="simple" begin="1590" end="1590">1590</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w492804">Cloptvne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w492822">Clopton</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w492902">Clopton subtus Mune</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w492931">Clopton on the Hill</searchterm>
+  </extension>
+ </mads>
+ 

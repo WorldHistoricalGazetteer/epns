@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000003">
+  <authority ID="epns-deep-52-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/001512">Studland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000001" type="broader">
+   <geographic>Rowbarrow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a60"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9531600" lat="50.6427100" gazref="geonames:2636597" source="geonames"/>
+   <geo long="-1.95049647" lat="50.64159599" source="epns"/>
+   <geo long="-1.950496455584332" lat="50.6415964323372" gazref="unlock:11294914" source="unlock"/>
+   <geo easting="403500" northing="82500" long="-1.95185" lat="50.6422" kepnref="11574" source="kepn"/>
+  </extension>
+ </mads>
+ 

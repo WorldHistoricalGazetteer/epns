@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000117">
+  <authority ID="epns-deep-05-b-name-subparish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001126">Rievaulx</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000044" type="broader">
+   <geographic>Helmsley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w96352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001127">Rievalle, Ryevalle, Rieualle</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001128">Riesuals</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001129">Rivall(e), Ryvall(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001130">Rivallis</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001131">Rievallis, Ryevallis</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001132">Ryvaus</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001133">Rywaus</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001134">Riweus, Ryfuowis</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w96672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001135">Ryvaux</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004be"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1202600" lat="54.2582100" gazref="geonames:2639362" source="geonames"/>
+   <geo long="-1.117156919925156" lat="54.26177133392711" gazref="unlock:11255923" source="unlock"/>
+   <geo easting="457500" northing="485500" long="-1.11875" lat="54.2619" kepnref="5767" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w96352">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="" id="ny236">YCh</source>
+    <page>401</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96352">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96416">
+    <date subtype="simple" begin="1161" end="1161">1161</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96433">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96433">
+    <attestation variantID="epns-deep-05-b-name-w96433">
+     <date subtype="simple" begin="1226" end="1226">1226</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et freq. to</passim>
+    <attestation variantID="epns-deep-05-b-name-w96433">
+     <date subtype="simple" begin="1299" end="1299">1299</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96493">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96512">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96512">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96551">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96551">
+    <date subtype="simple" begin="1324" end="1324">1324</date>
+    <date subtype="simple" begin="1326" end="1326">1326</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96551">
+    <date subtype="simple" begin="1491" end="1491">1491</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96594">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96594">
+    <date subtype="circa" begin="1300" end="1320">c. 1310</date>
+    <source style="italic" id="ny22">Bodl</source>
+    <item>a. i. 58</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96633">
+    <date subtype="simple" begin="1375" end="1375">1375</date>
+    <source style="italic" id="ny301">Barbour's Bruce</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w96672">
+    <date subtype="simple" begin="1390" end="1390">1390</date>
+    <date subtype="simple" begin="1486" end="1486">1486</date>
+    <date subtype="simple" begin="1497" end="1497">1497</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w96352">Rievalle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96352">Ryevalle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96352">Rieualle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96416">Riesuals</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96433">Rivalle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96433">Rivall</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96433">Ryvalle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96433">Ryvall</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96493">Rivallis</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96512">Rievallis</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96512">Ryevallis</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96551">Ryvaus</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96594">Rywaus</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96633">Riweus</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96633">Ryfuowis</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w96672">Ryvaux</searchterm>
+  </extension>
+ </mads>
+ 

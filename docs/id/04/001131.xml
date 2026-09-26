@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000036">
+  <authority ID="epns-deep-04-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001131">Stockton-on-Teme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000036" type="broader">
+   <geographic>Stockton-on-Teme</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w90772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001132">Stoctun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w90804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001133">Stotune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w90821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001134">Stocton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w90849">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001135">Stocketon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005f6"/>
+  </recordInfo>
+  <extension>
+   <geo easting="371500" northing="267500" long="-2.41939" lat="52.3049" kepnref="5217" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w90772">
+    <date end="967" begin="947" subtype="circa">c. 957</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1007</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w90804">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w90821">
+    <attestation variantID="epns-deep-04-b-name-w90821">
+     <date end="1194" begin="1194" subtype="simple">1194</date>
+     <source style="" id="wo36">Cur</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w90849">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w90772">Stoctun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w90804">Stotune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w90821">Stocton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w90849">Stocketon</searchterm>
+  </extension>
+ </mads>
+ 

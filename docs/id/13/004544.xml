@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000112">
+  <authority ID="epns-deep-13-a-name-parish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004544">Stockton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3605500" lat="52.2718100" gazref="geonames:2636878" source="geonames"/>
+   <geo long="-1.362484181553335" lat="52.267542849119" gazref="unlock:11292591" source="unlock"/>
+   <geo easting="443500" northing="263500" long="-1.36396" lat="52.2679" kepnref="4997" source="kepn"/>
+  </extension>
+ </mads>
+ 

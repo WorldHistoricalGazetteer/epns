@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000105">
+  <authority ID="epns-deep-82-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017921">Newtown</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000030" type="broader">
+   <geographic>Wem</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w676452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017922">Neuton by Wemme</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w676477">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017923">Newton vill</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w676505">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017924">Newtowne</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w676551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017925">Newtown</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w676575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/017926">Newton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64db47fc4463d000f57"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.766790257" lat="52.87726738" source="epns"/>
+   <geo long="-2.765320427211742" lat="52.87817697354491" gazref="unlock:11231181" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w676452">
+    <date subtype="simple" begin="1373" end="1373">1373</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w676477">
+    <date subtype="simple" begin="1586" end="1587">1586-7</date>
+    <source style="italic" id="ss400">RentSur</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w676505">
+    <attestation variantID="epns-deep-82-b-name-w676505">
+     <date subtype="simple" begin="1588" end="1589">1588-9</date>
+     <source style="italic" id="ss400" underspec="ib">RentSur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-82-b-name-w676505">
+     <date subtype="simple" begin="1695" end="1695">1695</date>
+     <source style="" id="ss231">PR(L)</source>
+     <page>9</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w676551">
+    <attestation variantID="epns-deep-82-b-name-w676551">
+     <date subtype="simple" begin="1652" end="1652">1652</date>
+     <source style="" id="ss231" underspec="ib">PR(L)</source>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w676575">
+    <date subtype="simple" begin="1673" end="1673">1673</date>
+    <date subtype="simple" begin="1726" end="1726">1726</date>
+    <source style="" id="ss231" underspec="ib">PR(L)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w676452">Neuton by Wemme</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w676477">Newton vill</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w676505">Newtowne</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w676551">Newtown</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w676575">Newton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000070">
+  <authority ID="epns-deep-23-a-name-parish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007616">Horspath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000008" type="broader">
+   <geographic>Bullingdon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006f9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1738000" lat="51.7384000" gazref="geonames:2646564" source="geonames"/>
+   <geo long="-1.167230709876513" lat="51.73580094947771" gazref="unlock:11179775" source="unlock"/>
+   <geo easting="457500" northing="204500" long="-1.16871" lat="51.7363" kepnref="3591" source="kepn"/>
+  </extension>
+ </mads>
+ 

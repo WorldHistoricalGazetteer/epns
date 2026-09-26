@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000137">
+  <authority ID="epns-deep-16-b-name-subparish-000137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006504">East Tisbury and West Tisbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000152" type="broader">
+   <geographic>East and West Tisbury</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w318908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006505">Tyssesburg, Dyssesburg</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w318970">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006506">(to) Tyssebyrig</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006507">(æt) Tissebiri</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006508">Tisseberie</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006509">Tissebiri</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006510">Tyssebiri and Tissebury, Tissebir'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006511">Tussebur'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w319181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/006512">Tussebury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dba"/>
+  </recordInfo>
+  <extension>
+   <geo easting="394500" northing="129500" long="-2.07985" lat="51.0648" kepnref="7303" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w318908">
+    <date subtype="circa" begin="790" end="810">c. 800</date>
+    <source style="italic" id="ws36">Willibald, Life of St Boniface</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w318970">
+    <date subtype="circa" begin="905" end="925">c. 915</date>
+    <source style="" id="ws25">BCS</source>
+    <item>591</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319002">
+    <date subtype="simple" begin="984" end="984">984</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws153">KCD</source>
+    <item>641</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319039">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319059">
+    <attestation variantID="epns-deep-16-b-name-w319059">
+     <date subtype="simple" begin="1218" end="1218">1218</date>
+     <source style="" id="ws241">Pap</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w319059">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319125">
+    <date end="1316" begin="1218">1218-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319161">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319181">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <date subtype="simple" begin="1309" end="1309">1309</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w319181">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w318908">Tyssesburg</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w318908">Dyssesburg</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w318970">to Tyssebyrig</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w318970">Tyssebyrig</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319002">æt Tissebiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319002">Tissebiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319039">Tisseberie</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319059">Tissebiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319125">Tyssebiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319125">Tissebury</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319125">Tissebir'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319161">Tussebur'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w319181">Tussebury</searchterm>
+   <searchterm madsID="epns-deep-16-b-subparish-000137">East Tisbury</searchterm>
+   <searchterm madsID="epns-deep-16-b-subparish-000137">West Tisbury</searchterm>
+  </extension>
+ </mads>
+ 

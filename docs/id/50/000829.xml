@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000007">
+  <authority ID="epns-deep-50-a-name-parish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000829">Hungerford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000001" type="broader">
+   <geographic>Kintbury Eagle Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001aa2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5155600" lat="51.4151300" gazref="geonames:2646411" source="geonames"/>
+   <geo long="-1.518237749734338" lat="51.41403521395806" gazref="unlock:11181147" source="unlock"/>
+   <geo easting="433500" northing="168500" long="-1.51967" lat="51.4145" kepnref="3109" source="kepn"/>
+  </extension>
+ </mads>
+ 

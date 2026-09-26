@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000039">
+  <authority ID="epns-deep-15-a-name-parish-000039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002389">Chipping Barnet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000003" type="broader">
+   <geographic>Cashio Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace0006e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2000000" lat="51.6500000" gazref="geonames:2656295" source="geonames"/>
+   <geo long="-0.2001067955022153" lat="51.65302068299127" gazref="unlock:11106617" source="unlock"/>
+   <geo easting="524500" northing="196500" long="-0.201697" lat="51.6535" kepnref="4603" source="kepn"/>
+  </extension>
+ </mads>
+ 

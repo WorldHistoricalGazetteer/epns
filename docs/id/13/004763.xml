@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000121">
+  <authority ID="epns-deep-13-a-name-parish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004763">Allesley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Stoneleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f00060c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5715700" lat="52.4260500" gazref="geonames:2657480" source="geonames"/>
+   <geo long="-1.566072018730482" lat="52.43030945084968" gazref="unlock:11058477" source="unlock"/>
+   <geo easting="429500" northing="281500" long="-1.56754" lat="52.4307" kepnref="5017" source="kepn"/>
+  </extension>
+ </mads>
+ 

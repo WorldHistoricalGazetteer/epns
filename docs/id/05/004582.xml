@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000410">
+  <authority ID="epns-deep-05-b-name-subparish-000410">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004582">Hutton Hang</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000140" type="broader">
+   <geographic>Finghall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w334602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004583">Hotun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004584">Hohton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004585">Hoton Hang(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004586">Hunton, Hanger, Hutonhang</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000489"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7411500" lat="54.2950500" gazref="geonames:7291651" source="geonames"/>
+   <geo long="-1.731117112807075" lat="54.29166861757355" gazref="unlock:11181818" source="unlock"/>
+   <geo easting="417500" northing="488500" long="-1.73264" lat="54.2918" kepnref="6062" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w334602">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334620">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334638">
+    <attestation variantID="epns-deep-05-b-name-w334638">
+     <date subtype="simple" begin="1280" end="1280">1280</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w334638">
+     <date subtype="simple" begin="1328" end="1328">1328</date>
+     <source style="" id="ny14">Banco</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334685">
+    <date subtype="simple" begin="1535" end="1539">1535-9</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>577-8</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w334602">Hotune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334602">Hotun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334620">Hohton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334638">Hoton Hange</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334638">Hoton Hang</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334685">Hunton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334685">Hanger</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334685">Hutonhang</searchterm>
+  </extension>
+ </mads>
+ 

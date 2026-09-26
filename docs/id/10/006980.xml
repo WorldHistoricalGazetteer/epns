@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000309">
+  <authority ID="epns-deep-10-b-name-subparish-000309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006980">Paston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000310" type="broader">
+   <geographic>Paston</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w383371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006981">Pastun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w383396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006982">Paston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w383425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006983">Paxtona</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w383443">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006984">Pastune hawe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2500000" lat="52.6000000" gazref="geonames:2640584" source="geonames"/>
+   <geo long="-0.2350988190497474" lat="52.60676666488171" gazref="unlock:11241022" source="unlock"/>
+   <geo easting="519500" northing="302500" long="-0.236725" lat="52.6071" kepnref="11181" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w383371">
+    <date end="963" begin="963" subtype="simple">963</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <ms>E</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w383396">
+    <attestation variantID="epns-deep-10-b-name-w383396">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="nh215">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w383425">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <source style="" id="nh100">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w383443">
+    <date end="1307" begin="1272" subtype="regnal">t. Ed 1</date>
+    <source style="" id="nh26">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w383371">Pastun</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w383396">Paston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w383425">Paxtona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w383443">Pastune hawe</searchterm>
+  </extension>
+ </mads>
+ 

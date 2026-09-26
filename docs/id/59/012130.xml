@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000040">
+  <authority ID="epns-deep-59-a-name-parish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/012130">Buckland Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000005" type="broader">
+   <geographic>Buckland Newton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029a5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4401600" lat="50.8462400" gazref="geonames:2654398" source="geonames"/>
+   <geo long="-2.444633763" lat="50.84581522" source="epns"/>
+   <geo long="-2.433286456381743" lat="50.8476571190198" gazref="unlock:11091747" source="unlock"/>
+   <geo easting="369500" northing="105500" long="-2.43459" lat="50.8482" kepnref="11441" source="kepn"/>
+  </extension>
+ </mads>
+ 

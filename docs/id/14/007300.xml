@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000331">
+  <authority ID="epns-deep-14-b-name-subparish-000331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007300">Grimston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000175" type="broader">
+   <geographic>Dunnington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w473270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007301">Grimestone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w473290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007302">Grimston'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00048c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.016952588339304" lat="53.95537120540089" gazref="unlock:11161348" source="unlock"/>
+   <geo easting="464500" northing="451500" long="-1.01854" lat="53.9556" kepnref="8705" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w473270">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w473290">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="italic" id="ey116">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w473270">Grimestone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w473290">Grimston'</searchterm>
+  </extension>
+ </mads>
+ 

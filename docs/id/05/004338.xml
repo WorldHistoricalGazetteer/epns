@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000382">
+  <authority ID="epns-deep-05-b-name-subparish-000382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004338">Aiskew</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000134" type="broader">
+   <geographic>Bedale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w317743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004339">Echescol</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317761">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004340">Aikescogh, Aykescogh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317813">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004341">Aykescouk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004342">Aykescoch'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317862">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004343">Aykeschogh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317882">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004344">Ayscough, Aiscogh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317918">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004345">Askew(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w317948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004346">Ascugh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000419"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5815200" lat="54.2931900" gazref="geonames:8224205" source="geonames"/>
+   <geo long="-1.577473531865855" lat="54.29122825458474" gazref="unlock:11057778" source="unlock"/>
+   <geo easting="427500" northing="488500" long="-1.57901" lat="54.2914" kepnref="6035" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w317743">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317761">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>79 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317761">
+    <date subtype="simple" begin="1318" end="1318">1318</date>
+    <source style="italic" id="ny195" underspec="ib">RichReg</source>
+    <item>107</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317813">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317837">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="italic" id="ny194">Rich</source>
+    <page>26</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317862">
+    <date subtype="simple" begin="1352" end="1352">1352</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317882">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317882">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317918">
+    <date subtype="simple" begin="1516" end="1516">1516</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317918">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w317948">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w317743">Echescol</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317761">Aikescogh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317761">Aykescogh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317813">Aykescouk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317837">Aykescoch'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317862">Aykeschogh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317882">Ayscough</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317882">Aiscogh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317918">Askewe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317918">Askew</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w317948">Ascugh</searchterm>
+  </extension>
+ </mads>
+ 

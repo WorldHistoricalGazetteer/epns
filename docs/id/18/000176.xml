@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000008">
+  <authority ID="epns-deep-18-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000176">Shepperton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000008" type="broader">
+   <geographic>Shepperton</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w10797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000177">(in) Scepertune</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w10858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000178">(in) Sceapertune</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w10895">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000179">Scepirton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w10948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000180">Scepirtune</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w10983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000181">Scepertone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000182">Shepertone, Schepertone, Sepertone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000183">Nether Scepertone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000184">Shiperton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000185">Shippar(d)ton, Shipar(d)ton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000186">Schapertone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w11198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000187">Shuppar(d)ton, Shupar(d)ton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a0000246"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4488900" lat="51.3954600" gazref="geonames:2638039" source="geonames"/>
+   <geo long="-0.4546224822865584" lat="51.3958433632317" gazref="unlock:11282432" source="unlock"/>
+   <geo easting="508500" northing="167500" long="-0.441805" lat="51.3962" kepnref="4720" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w10797">
+    <date subtype="simple" begin="959" end="959">959</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <source style="" id="mi22">BCS</source>
+    <item>1050</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10797">
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="mi149">KCD</source>
+    <item>824</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10858">
+    <date subtype="simple" begin="1042" end="1066">1042-66</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="mi331">WDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10895">
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="mi149">KCD</source>
+    <item>858</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10895">
+    <date subtype="regnal" begin="1066" end="1087">t. Wm 1</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="italic" id="mi329">WAM</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10948">
+    <date subtype="regnal" begin="1042" end="1066">t. Edw Conf</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="mi329" underspec="ib">WAM</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w10983">
+    <attestation variantID="epns-deep-18-b-name-w10983">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="mi70">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-18-b-name-w10983">
+     <date subtype="simple" begin="1393" end="1393">1393</date>
+     <source style="" id="mi144">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11051">
+    <date end="1393" begin="1086">1086-1393</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11087">
+    <date subtype="simple" begin="1490" end="1490">1490</date>
+    <source style="" id="mi108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11114">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="" id="mi233">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11134">
+    <date subtype="simple" begin="1650" end="1650">1650</date>
+    <source style="italic" id="mi224">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11177">
+    <date subtype="simple" begin="1534" end="1534">1534</date>
+    <source style="" id="mi178">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w11198">
+    <date subtype="simple" begin="1650" end="1650">1650</date>
+    <source style="italic" id="mi224">ParlSurv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w10797">in Scepertune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10797">Scepertune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10858">in Sceapertune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10858">Sceapertune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10895">Scepirton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10948">Scepirtune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w10983">Scepertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11051">Shepertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11051">Schepertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11051">Sepertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11087">Nether Scepertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11114">Shiperton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11134">Shippardton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11134">Shipparton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11134">Shipardton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11134">Shiparton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11177">Schapertone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11198">Shuppardton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11198">Shupparton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11198">Shupardton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w11198">Shuparton</searchterm>
+  </extension>
+ </mads>
+ 

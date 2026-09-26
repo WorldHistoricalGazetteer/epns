@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000056">
+  <authority ID="epns-deep-15-a-name-parish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003797">Codicote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000003" type="broader">
+   <geographic>Cashio Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace0006e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2367000" lat="51.8505200" gazref="geonames:2652656" source="geonames"/>
+   <geo long="-0.2357656862677873" lat="51.8514104303327" gazref="unlock:11111804" source="unlock"/>
+   <geo easting="521500" northing="218500" long="-0.23736" lat="51.8519" kepnref="4604" source="kepn"/>
+  </extension>
+ </mads>
+ 

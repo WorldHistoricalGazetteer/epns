@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000472">
+  <authority ID="epns-deep-05-b-name-subparish-000472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005250">Hornby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000158" type="broader">
+   <geographic>Great Smeaton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w374016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005251">Horenbodebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005252">Hornbotebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005253">Hornebi, Horneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005254">Hornby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600049e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4387900" lat="54.4427000" gazref="geonames:7296069" source="geonames"/>
+   <geo long="-1.437113022486303" lat="54.4434560222905" gazref="unlock:11179342" source="unlock"/>
+   <geo easting="436500" northing="505500" long="-1.43868" lat="54.4436" kepnref="6127" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w374016">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374037">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374063">
+    <attestation variantID="epns-deep-05-b-name-w374063">
+     <date subtype="simple" begin="1199" end="1199">1199</date>
+     <source style="" id="ny33">ChR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w374063">
+     <date subtype="simple" begin="1367" end="1367">1367</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374111">
+    <attestation variantID="epns-deep-05-b-name-w374111">
+     <date subtype="simple" begin="1421" end="1421">1421</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w374016">Horenbodebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374037">Hornbotebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374063">Hornebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374063">Horneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374111">Hornby</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000453">
+  <authority ID="epns-deep-05-b-name-subparish-000453">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005124">Newby Wiske</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000152" type="broader">
+   <geographic>Kirby Wiske</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w366683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005125">Neuby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w366706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005126">Neuby super Wisk</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4368700" lat="54.2838900" gazref="geonames:2641681" source="geonames"/>
+   <geo long="-1.439320643657585" lat="54.28167674960532" gazref="unlock:11229877" source="unlock"/>
+   <geo easting="436500" northing="487500" long="-1.44088" lat="54.2818" kepnref="6106" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w366683">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366706">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w366683">Neuby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366706">Neuby super Wisk</searchterm>
+  </extension>
+ </mads>
+ 

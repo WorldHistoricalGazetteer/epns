@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000015">
+  <authority ID="epns-deep-72-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/002851">Rollesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000002" type="broader">
+   <geographic>West Flegg Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d4c"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6205300" lat="52.6875200" gazref="geonames:2639206" source="geonames"/>
+   <geo long="1.609931305" lat="52.67730955" source="epns"/>
+   <geo long="1.63244882491756" lat="52.6811195292359" gazref="unlock:11272099" source="unlock"/>
+   <geo easting="644500" northing="315500" long="1.61584" lat="52.682" kepnref="9237" source="kepn"/>
+  </extension>
+ </mads>
+ 

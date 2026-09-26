@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000057">
+  <authority ID="epns-deep-47-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004792">Foulk Stapleford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000014" type="broader">
+   <geographic>Tarvin</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w253330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004793">Stapelford iuxta Haregrave</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w253369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004794">Fouk Stapelford</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w253858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004795">Fouk Stapelton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002064"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7619800" lat="53.1659900" gazref="geonames:7293029" source="geonames"/>
+   <geo long="-2.77782609" lat="53.16129278" source="epns"/>
+   <geo easting="348500" northing="363500" long="-2.77178" lat="53.1661" kepnref="12073" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w253330">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w253369">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w253858">
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="" id="ch61">BPR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w253330">Stapelford iuxta Haregrave</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w253369">Fouk Stapelford</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w253858">Fouk Stapelton</searchterm>
+  </extension>
+ </mads>
+ 

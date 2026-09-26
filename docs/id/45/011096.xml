@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000082">
+  <authority ID="epns-deep-45-b-name-subparish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011096">Witton cum Twambrook</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-cy-chapelry-000005" type="broader">
+   <geographic>Witton Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w495323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011097">Witton cum Twambrook</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w495356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011098">Witton cum Twembrook</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w495390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011099">Wytton et Twembrok'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo easting="366500" northing="374500" long="-2.50371" lat="53.2664" kepnref="11839" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w495323">
+    <date subtype="simple" begin="1860" end="1860">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w495356">
+    <date subtype="simple" begin="1819" end="1819">1819</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w495390">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w495323">Witton cum Twambrook</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w495356">Witton cum Twembrook</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w495390">Wytton et Twembrok'</searchterm>
+  </extension>
+ </mads>
+ 

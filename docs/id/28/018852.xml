@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000110">
+  <authority ID="epns-deep-28-a-name-parish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018852">Elvaston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000003" type="broader">
+   <geographic>Morleyston and Litchurch</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c001716"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3797300" lat="52.8880400" gazref="geonames:7294872" source="geonames"/>
+   <geo long="-1.383147378892698" lat="52.88803140329221" gazref="unlock:11139849" source="unlock"/>
+   <geo easting="441500" northing="332500" long="-1.38465" lat="52.8884" kepnref="3386" source="kepn"/>
+  </extension>
+ </mads>
+ 

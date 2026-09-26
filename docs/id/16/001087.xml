@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-hu-subcounty-000005">
+  <authority ID="epns-deep-16-hu-name-subcounty-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001087">Malmesbury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-co-county-000001" type="broader">
+   <geographic>Wiltshire</geographic>
+  </related>
+  <variant ID="epns-deep-16-hu-name-w58482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001088">Hundredum de Malmesbury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886ddb47fc40d38000d4f"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-16-hu-name-w58482">
+    <date end="1228" begin="1226" subtype="simple">1226-8</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-hu-name-w58482">Hundredum de Malmesbury</searchterm>
+  </extension>
+ </mads>
+ 

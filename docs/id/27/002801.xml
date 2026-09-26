@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000020">
+  <authority ID="epns-deep-27-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002801">Chelmorton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0016e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8309400" lat="53.2286500" gazref="geonames:2653267" source="geonames"/>
+   <geo long="-1.827738409212306" lat="53.2221435868202" gazref="unlock:11104340" source="unlock"/>
+   <geo easting="411500" northing="369500" long="-1.8292" lat="53.2224" kepnref="3221" source="kepn"/>
+  </extension>
+ </mads>
+ 

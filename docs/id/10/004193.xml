@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000192">
+  <authority ID="epns-deep-10-b-name-subparish-000192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004193">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000192" type="broader">
+   <geographic>Horton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w227771">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004194">Horton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w227800">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004195">Horton outside Northampton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w227839">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004196">Hortun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w227865">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004197">Horton juxta Haclynton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w227898">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004198">Hurton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00059d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8047500" lat="52.1825100" gazref="geonames:2646546" source="geonames"/>
+   <geo long="-0.8078432461768075" lat="52.18231837861442" gazref="unlock:11179795" source="unlock"/>
+   <geo easting="481500" northing="254500" long="-0.809385" lat="52.1827" kepnref="11062" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w227771">
+    <attestation variantID="epns-deep-10-b-name-w227771">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w227800">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w227839">
+    <date end="1224" begin="1224" subtype="simple">1224</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w227839">
+    <date end="1236" begin="1236" subtype="simple">1236</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w227865">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w227898">
+    <date end="1304" begin="1301" subtype="simple">1301-4</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w227771">Hortone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w227771">Horton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w227800">Horton outside Northampton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w227839">Hortun</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w227865">Horton juxta Haclynton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w227898">Hurton</searchterm>
+  </extension>
+ </mads>
+ 

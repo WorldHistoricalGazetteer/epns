@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000108">
+  <authority ID="epns-deep-08-b-name-subparish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005570">Thornbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000108" type="broader">
+   <geographic>Thornbury</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w281537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005571">Torneberia</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005572">Tornebury</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005573">Thornebiria</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005574">Thornbir'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a47"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2666700" lat="50.8500000" gazref="geonames:2636003" source="geonames"/>
+   <geo long="-4.266270099144641" lat="50.85343541352793" gazref="unlock:11299657" source="unlock"/>
+   <geo easting="240500" northing="108500" long="-4.26737" lat="50.854" kepnref="15565" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w281537">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281557">
+    <date end="1193" begin="1193" subtype="simple">1193</date>
+    <source style="" id="de174">Oliver</source>
+    <page>95</page>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281583">
+    <date end="1224" begin="1224" subtype="simple">1224</date>
+    <source style="" id="de24">Bracton</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281609">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>781</item>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w281537">Torneberia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281557">Tornebury</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281583">Thornebiria</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281609">Thornbir'</searchterm>
+  </extension>
+ </mads>
+ 

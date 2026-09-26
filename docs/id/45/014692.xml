@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000120">
+  <authority ID="epns-deep-45-b-name-subparish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014692">Bradwall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000018" type="broader">
+   <geographic>Sandbach</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w672568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014693">Bradwall et Hollins</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w672601">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014694">Bradwall cum Hollins</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3794200" lat="53.1684400" gazref="geonames:7299889" source="geonames"/>
+   <geo long="-2.366528533821629" lat="53.16776464290635" gazref="unlock:11084987" source="unlock"/>
+   <geo easting="375500" northing="363500" long="-2.36793" lat="53.168" kepnref="11874" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w672568">
+    <date subtype="circa" begin="1652" end="1672">c.1662</date>
+    <source style="italic" id="ch641">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w672601">
+    <date subtype="simple" begin="1819" end="1819">1819</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w672568">Bradwall et Hollins</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w672601">Bradwall cum Hollins</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000020">
+  <authority ID="epns-deep-96-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/001198">Comberton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000002" type="broader">
+   <geographic>Wetherley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006d0"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0190500" lat="52.1870900" gazref="geonames:2652502" source="geonames"/>
+   <geo long="0.02630373895029482" lat="52.18892380346625" gazref="unlock:11114632" source="unlock"/>
+   <geo easting="538500" northing="256500" long="0.0246651" lat="52.1894" kepnref="3990" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000099">
+  <authority ID="epns-deep-16-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004855">Westbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000104" type="broader">
+   <geographic>Westbury</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w240387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004856">Westberie, Wesberie</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w240416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004857">Westbiri</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w240442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004858">Westberia</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w240499">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004859">Westbury, Westburi, Westbery, Westbiri, Westbiry</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w240551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004860">Westbury(e) under the playne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w240593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004861">Westbury(e) subtus le Playne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e6b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1875000" lat="51.2600000" gazref="geonames:2634483" source="geonames"/>
+   <geo long="-2.193463616235089" lat="51.25299561075814" gazref="unlock:11317977" source="unlock"/>
+   <geo easting="387500" northing="151500" long="-2.18052" lat="51.2625" kepnref="7267" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w240387">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w240416">
+    <date subtype="simple" begin="1115" end="1115">1115</date>
+    <source style="" id="ws288">StOsmund</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w240442">
+    <attestation variantID="epns-deep-16-b-name-w240442">
+     <date subtype="simple" begin="1139" end="1139">1139</date>
+     <source style="" id="ws290">SarumCh</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w240499">
+    <date end="1600" begin="1139">1139-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w240551">
+    <date subtype="simple" begin="1518" end="1529">1518-29</date>
+    <source style="" id="ws88">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w240593">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="italic" id="ws276">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w240387">Westberie</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240387">Wesberie</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240416">Westbiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240442">Westberia</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240499">Westbury</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240499">Westburi</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240499">Westbery</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240499">Westbiri</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240499">Westbiry</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240551">Westburye under the playne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240551">Westbury under the playne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240593">Westburye subtus le Playne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w240593">Westbury subtus le Playne</searchterm>
+  </extension>
+ </mads>
+ 

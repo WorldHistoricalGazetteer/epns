@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000068">
+  <authority ID="epns-deep-24-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005115">Westwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000062" type="broader">
+   <geographic>Westwell</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w192602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005116">Westwelle</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w192653">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005117">Westwell', Westuell'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w192677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005118">Westewell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e39b47fc40beb00088b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6770000" lat="51.7881000" gazref="geonames:2634237" source="geonames"/>
+   <geo long="-1.67372933562256" lat="51.79225127823256" gazref="unlock:11319169" source="unlock"/>
+   <geo easting="422500" northing="210500" long="-1.67516" lat="51.7927" kepnref="3697" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w192602">
+    <attestation variantID="epns-deep-24-b-name-w192602">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w192653">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w192677">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w192602">Westwelle</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w192653">Westwell'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w192653">Westuell'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w192677">Westewell</searchterm>
+  </extension>
+ </mads>
+ 

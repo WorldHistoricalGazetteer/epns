@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-hu-subcounty-000004">
+  <authority ID="epns-deep-24-hu-name-subcounty-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008286">Bloxham Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-co-county-000001" type="broader">
+   <geographic>Oxfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-24-hu-name-w320317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008287">Blockisham, Blokesha'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w320383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008288">Blo(c)kesham, Blochesham</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w320422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008289">Bloxham</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w320473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008290">Bloxsham, Bloxam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e25b47fc40beb00077c"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-24-hu-name-w320317">
+    <attestation variantID="epns-deep-24-hu-name-w320317">
+     <date end="1175" begin="1174" subtype="simple">1174-5</date>
+     <source style="" id="ox168">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-hu-name-w320317">
+     <date end="1276" begin="1275" subtype="simple">1275-6</date>
+     <source style="" id="ox208">RH</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w320383">
+    <date end="1276" begin="1174">1174-1276</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w320422">
+    <attestation variantID="epns-deep-24-hu-name-w320422">
+     <date end="1276" begin="1275" subtype="simple">1275-6</date>
+     <source style="" id="ox208">RH</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w320473">
+    <date end="1600" begin="1275">1275-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-hu-name-w320317">Blockisham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320317">Blokesha'</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320383">Blockesham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320383">Blokesham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320383">Blochesham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320422">Bloxham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320473">Bloxsham</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w320473">Bloxam</searchterm>
+  </extension>
+ </mads>
+ 

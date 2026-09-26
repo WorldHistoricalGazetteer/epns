@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000274">
+  <authority ID="epns-deep-05-b-name-subparish-000274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003393">Sand Hutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000104" type="broader">
+   <geographic>Thirsk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w250898">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003394">Hot(t)une</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w250917">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003395">Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w250932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003396">Sande-Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w250958">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003397">Sand-Hutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005c8"/>
+  </recordInfo>
+  <extension>
+   <geo easting="438500" northing="482500" long="-1.4108" lat="54.2368" kepnref="5925" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w250898">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w250917">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w250932">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny72">FountA</source>
+    <page>52</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w250958">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w250898">Hottune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250898">Hotune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250917">Hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250932">Sande-Hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250958">Sand-Hutton</searchterm>
+  </extension>
+ </mads>
+ 

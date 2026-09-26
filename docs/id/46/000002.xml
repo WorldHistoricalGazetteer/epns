@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-hu-subcounty-000001">
+  <authority ID="epns-deep-46-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/000002">Nantwich Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-co-county-000001" type="broader">
+   <geographic>Cheshire</geographic>
+  </related>
+  <variant ID="epns-deep-46-hu-name-w41">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/000003">Warmundestrou Hd'</geographic>
+  </variant>
+  <variant ID="epns-deep-46-hu-name-w68">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/000004">Warmondstrow</geographic>
+  </variant>
+  <variant ID="epns-deep-46-hu-name-w100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/000005">hundred' de Wich Malbanc', hundred' de Wich Maubanc</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328365eb47fc40856001f32"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-46-hu-name-w41">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-hu-name-w68">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <copydate end="1380" begin="1380">1380</copydate>
+    <source style="" id="ch303">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-hu-name-w100">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-hu-name-w41">Warmundestrou Hd'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w68">Warmondstrow</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w100">hundred' de Wich Malbanc'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w100">hundred' de Wich Maubanc</searchterm>
+  </extension>
+ </mads>
+ 

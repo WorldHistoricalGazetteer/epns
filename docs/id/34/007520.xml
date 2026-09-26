@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000083">
+  <authority ID="epns-deep-34-b-name-subparish-000083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/007520">Thornthwaite</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000033" type="broader">
+   <geographic>Hampsthwaite</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w314449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/007521">Tornthueit</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w314471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/007522">Thorn(e)thwait(e), Thorn(e)thwayt</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w314555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/007523">Thornewhett</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006158"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.740463847" lat="54.02652689" source="epns"/>
+   <geo long="-1.73285924188589" lat="54.02201725011783" gazref="unlock:11299924" source="unlock"/>
+   <geo easting="417500" northing="458500" long="-1.73437" lat="54.0222" kepnref="14802" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w314449">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w314471">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w314471">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="wr577">PT</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w314471">
+    <date end="1651" begin="1651" subtype="simple">1651</date>
+    <source style="italic" id="wr473">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w314555">
+    <date end="1657" begin="1657" subtype="simple">1657</date>
+    <source style="" id="wr531">PRHmp</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w314449">Tornthueit</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornethwaite</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornethwait</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornthwaite</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornthwait</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornethwayt</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314471">Thornthwayt</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w314555">Thornewhett</searchterm>
+  </extension>
+ </mads>
+ 

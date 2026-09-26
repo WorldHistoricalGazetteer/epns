@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000239">
+  <authority ID="epns-deep-16-b-name-subparish-000239">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011323">Everleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000276" type="broader">
+   <geographic>Everleigh</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w555986">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011324">Eburleagh, Eburleah</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011325">Everlais</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011326">Everlay</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011327">Everlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011328">Everle, Everleye</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011329">Everelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011330">Est Everlee</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011331">West Everlee</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w556213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011332">Myddell Everley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dc4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7094700" lat="51.2814500" gazref="geonames:2649840" source="geonames"/>
+   <geo long="-1.706051036641387" lat="51.2797651084085" gazref="unlock:11135914" source="unlock"/>
+   <geo easting="420500" northing="153500" long="-1.70745" lat="51.2803" kepnref="7429" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w555986">
+    <date subtype="simple" begin="704" end="704">704</date>
+    <copydate end="1135" begin="1115">c. 1125</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>108</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556029">
+    <date subtype="regnal" begin="1100" end="1135">t. Hy 1</date>
+    <copydate end="1318" begin="1318">1318</copydate>
+    <source style="" id="ws50">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556063">
+    <date subtype="simple" begin="1172" end="1172">1172</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556079">
+    <attestation variantID="epns-deep-16-b-name-w556079">
+     <date subtype="simple" begin="1249" end="1249">1249</date>
+     <source style="italic" id="ws19">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556133">
+    <date end="1600" begin="1249">1249-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556151">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556167">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556191">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w556213">
+    <date subtype="simple" begin="1563" end="1563">1563</date>
+    <source style="italic" id="ws108" underspec="ib">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w555986">Eburleagh</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w555986">Eburleah</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556029">Everlais</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556063">Everlay</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556079">Everlegh</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556133">Everle</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556133">Everleye</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556151">Everelegh</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556167">Est Everlee</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556191">West Everlee</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w556213">Myddell Everley</searchterm>
+  </extension>
+ </mads>
+ 

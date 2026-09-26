@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000509">
+  <authority ID="epns-deep-05-b-name-subparish-000509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005646">Ovington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000173" type="broader">
+   <geographic>Forcett</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w397633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005647">Ulfeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005648">Olueton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005649">Ulvington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397714">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005650">Ouinton, Ovington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600048d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7982400" lat="54.5279100" gazref="geonames:7302937" source="geonames"/>
+   <geo long="-1.791392788721111" lat="54.52547904834393" gazref="unlock:11238044" source="unlock"/>
+   <geo easting="413500" northing="514500" long="-1.79292" lat="54.5256" kepnref="6164" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w397633">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397650">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397677">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397677">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397677">
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397714">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397714">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w397633">Ulfeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397650">Olueton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397677">Ulvington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397714">Ouinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397714">Ovington</searchterm>
+  </extension>
+ </mads>
+ 

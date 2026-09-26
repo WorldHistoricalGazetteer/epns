@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000092">
+  <authority ID="epns-deep-35-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013454">Bowland Forest, Lower Division</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000024" type="broader">
+   <geographic>Slaidburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w500701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013455">chacea de Bouland, foresta de Bouland</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w500759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013456">chace of Bow(e)land</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w500806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013457">the for(r)est of Bolland</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w500851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013458">Bowland-Forest Upper and Lower</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100625d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.517613591" lat="53.90883757" source="epns"/>
+   <geo easting="365500" northing="453500" long="-2.52748" lat="53.9764" kepnref="14930" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w500701">
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <date subtype="simple" begin="1423" end="1423">1423</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w500759">
+    <date subtype="simple" begin="1415" end="1415">1415</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w500759">
+    <date subtype="simple" begin="1652" end="1652">1652</date>
+    <source style="italic" id="wr473">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w500806">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <date subtype="simple" begin="1650" end="1650">1650</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w500851">
+    <date subtype="simple" begin="1822" end="1822">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w500701">chacea de Bouland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500701">foresta de Bouland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500759">chace of Boweland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500759">chace of Bowland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500806">the forrest of Bolland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500806">the forest of Bolland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w500851">Bowland-Forest Upper and Lower</searchterm>
+   <searchterm madsID="epns-deep-35-b-subparish-000092">Bowland Forest</searchterm>
+   <searchterm madsID="epns-deep-35-b-subparish-000092">Lower Division</searchterm>
+  </extension>
+ </mads>
+ 

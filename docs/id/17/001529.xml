@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000035">
+  <authority ID="epns-deep-17-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001529">Laneham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000039" type="broader">
+   <geographic>Laneham</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w84550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001530">Lanun</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w84588">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001531">Lanum</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w84662">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001532">Lanom</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w84696">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001533">Laneham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w84714">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001534">Lanam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd40008b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7965800" lat="53.2766800" gazref="geonames:2644959" source="geonames"/>
+   <geo long="-0.7925419298666565" lat="53.27908429954766" gazref="unlock:11191201" source="unlock"/>
+   <geo easting="480500" northing="376500" long="-0.794131" lat="53.2794" kepnref="2339" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w84550">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84550">
+    <date end="1194" begin="1194" subtype="simple">1194</date>
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84550">
+    <date end="1253" begin="1253" subtype="simple">1253</date>
+    <source style="" id="ns49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84588">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84588">
+    <attestation variantID="epns-deep-17-b-name-w84588">
+     <date end="1207" begin="1191" subtype="simple">1191-1207</date>
+     <source style="" id="ns127">Hastings</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-17-b-name-w84588">
+     <date end="1324" begin="1324" subtype="simple">1324</date>
+     <source style="" id="ns137">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84662">
+    <date end="1267" begin="1267" subtype="simple">1267</date>
+    <source style="" id="ns213">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84662">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ns96">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84662">
+    <date end="1504" begin="1504" subtype="simple">1504</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84696">
+    <date end="1543" begin="1543" subtype="simple">1543</date>
+    <source style="italic" id="ns102" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w84714">
+    <date end="1606" begin="1606" subtype="simple">1606</date>
+    <source style="italic" id="ns102" underspec="ib">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w84550">Lanun</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w84588">Lanum</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w84662">Lanom</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w84696">Laneham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w84714">Lanam</searchterm>
+  </extension>
+ </mads>
+ 

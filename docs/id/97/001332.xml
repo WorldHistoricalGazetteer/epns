@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000025">
+  <authority ID="epns-deep-97-a-name-parish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001332">Chatteris</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000005" type="broader">
+   <geographic>Hundred of North Witchford</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0500600" lat="52.4540500" gazref="geonames:2653298" source="geonames"/>
+   <geo long="0.05295229089372006" lat="52.44925160471334" gazref="unlock:11104156" source="unlock"/>
+   <geo easting="539500" northing="286500" long="0.051717" lat="52.4586" kepnref="4115" source="kepn"/>
+  </extension>
+ </mads>
+ 

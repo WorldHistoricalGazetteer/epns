@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000019">
+  <authority ID="epns-deep-02-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000308">Water Eaton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000018" type="broader">
+   <geographic>Water Eaton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w22118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000309">Etone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w22168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000310">Ettone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w22198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000311">Wattar Yeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003d2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7218800" lat="51.9869700" gazref="geonames:8468720" source="geonames"/>
+   <geo long="-0.7257454751609531" lat="51.98363268887516" gazref="unlock:11314134" source="unlock"/>
+   <geo easting="487500" northing="232500" long="-0.727289" lat="51.9841" kepnref="11211" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w22118">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22118">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1351</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22118">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22118">
+    <date end="1469" begin="1469" subtype="simple">1469</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22168">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <source style="" id="bu103">Rot Dom</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22168">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w22198">
+    <date end="1534" begin="1534" subtype="simple">1534</date>
+    <source style="" id="bu68">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w22118">Etone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w22168">Ettone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w22198">Wattar Yeton</searchterm>
+  </extension>
+ </mads>
+ 

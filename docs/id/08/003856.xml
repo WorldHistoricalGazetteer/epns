@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000075">
+  <authority ID="epns-deep-08-b-name-subparish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003856">Westleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000075" type="broader">
+   <geographic>Westleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w196549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003857">Leia</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w196563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003858">Weslega</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w196580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003859">Westlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w196598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003860">Westlegh juxta Bideford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a6b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1833300" lat="51.0333300" gazref="geonames:2634366" source="geonames"/>
+   <geo long="-4.175263500947251" lat="51.03506180512079" gazref="unlock:11318828" source="unlock"/>
+   <geo easting="247500" northing="128500" long="-4.17638" lat="51.0356" kepnref="15532" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w196549">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w196563">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w196580">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w196598">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w196549">Leia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w196563">Weslega</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w196580">Westlegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w196598">Westlegh juxta Bideford</searchterm>
+  </extension>
+ </mads>
+ 

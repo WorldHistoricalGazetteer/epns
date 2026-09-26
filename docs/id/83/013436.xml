@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000021">
+  <authority ID="epns-deep-83-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/013436">Stockton-on-Tees</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000487"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3187000" lat="54.5684800" gazref="geonames:2636876" source="geonames"/>
+   <geo long="-1.326957238695073" lat="54.57771492689694" gazref="unlock:11292616" source="unlock"/>
+   <geo easting="444500" northing="519500" long="-1.31322" lat="54.5688" kepnref="7760" source="kepn"/>
+  </extension>
+ </mads>
+ 

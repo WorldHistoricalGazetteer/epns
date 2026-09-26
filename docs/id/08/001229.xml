@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-hu-subcounty-000002">
+  <authority ID="epns-deep-08-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001229">Shirwell Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-08-hu-name-w71884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001230">Scireuuelle, Scireuuille</geographic>
+  </variant>
+  <variant ID="epns-deep-08-hu-name-w71925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001231">Hundr de Schirewille</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018b5"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-08-hu-name-w71884">
+    <date subtype="simple" begin="1084" end="1084">1084</date>
+    <source style="" id="de94">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w71925">
+    <date subtype="simple" begin="1169" end="1169">1169</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-hu-name-w71884">Scireuuelle</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w71884">Scireuuille</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w71925">Hundr de Schirewille</searchterm>
+  </extension>
+ </mads>
+ 

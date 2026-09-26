@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol71mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-71-a-parish-000026">
+  <authority ID="epns-deep-71-a-name-parish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/007661">North Thoresby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-71-wp-subcounty-000002" type="broader">
+   <geographic>Haverstoe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f30"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0557500" lat="53.4665100" gazref="geonames:2641244" source="geonames"/>
+   <geo long="-0.04892894511963815" lat="53.46703986423601" gazref="unlock:11233116" source="unlock"/>
+   <geo easting="529500" northing="398500" long="-0.0506153" lat="53.4673" kepnref="10605" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000058">
+  <authority ID="epns-deep-05-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000552">Foston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000025" type="broader">
+   <geographic>Foston</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w46809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000553">Fostun(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w46836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000554">Foston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w46888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000555">Fotestun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w46907">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000556">Fotston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600048e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9394100" lat="54.0784700" gazref="geonames:7296879" source="geonames"/>
+   <geo long="-0.937559800971008" lat="54.08054359815763" gazref="unlock:11147122" source="unlock"/>
+   <geo easting="469500" northing="465500" long="-0.939167" lat="54.0807" kepnref="5708" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w46809">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w46809">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w46836">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny124">MaryY</source>
+    <page>168</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w46836">
+    <attestation variantID="epns-deep-05-b-name-w46836">
+     <date subtype="simple" begin="1145" end="1161">1145-61</date>
+     <source style="" id="ny236">YCh</source>
+     <page>1050</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w46888">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w46907">
+    <date subtype="simple" begin="1233" end="1233">1233</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w46809">Fostuna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w46809">Fostun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w46836">Fostone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w46836">Foston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w46888">Fotestun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w46907">Fotston</searchterm>
+  </extension>
+ </mads>
+ 

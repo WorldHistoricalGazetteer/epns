@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000071">
+  <authority ID="epns-deep-20-b-name-subparish-000071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/008534">Hutton Soil</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000076" type="broader">
+   <geographic>Hutton Soil</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w354852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/008535">Hutton Soylle</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w354888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/008536">Soill</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w354909">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/008537">Soyle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000ff5"/>
+  </recordInfo>
+  <extension>
+   <geo easting="343500" northing="526500" long="-2.87671" lat="54.6305" kepnref="4436" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w354852">
+    <date end="1578" begin="1578" subtype="simple">1578</date>
+    <source style="" id="cu324">PR (Greystoke)</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w354888">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w354909">
+    <date end="1685" begin="1685" subtype="simple">1685</date>
+    <source style="" id="cu75">CW (OS)</source>
+    <item>i</item>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w354852">Hutton Soylle</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w354888">Soill</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w354909">Soyle</searchterm>
+  </extension>
+ </mads>
+ 

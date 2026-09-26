@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000437">
+  <authority ID="epns-deep-05-b-name-subparish-000437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004972">Newbiggin</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w358474">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004973">Neubigging(e), Newbigging(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600040e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0081200" lat="54.2576200" gazref="geonames:7291660" source="geonames"/>
+   <geo long="-2.007677400522019" lat="54.26500318361093" gazref="unlock:11229666" source="unlock"/>
+   <geo easting="399500" northing="485500" long="-2.00916" lat="54.2652" kepnref="6090" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w358474">
+    <date subtype="simple" begin="1230" end="1250">c. 1230-50</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w358474">Neubigginge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w358474">Neubigging</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w358474">Newbigginge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w358474">Newbigging</searchterm>
+  </extension>
+ </mads>
+ 

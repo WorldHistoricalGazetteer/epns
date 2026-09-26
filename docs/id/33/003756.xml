@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000043">
+  <authority ID="epns-deep-33-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003756">Towton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000016" type="broader">
+   <geographic>Saxton</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w165195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003757">Touetun, Toueton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w165286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003758">Toneton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w165323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003759">Toveton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w165352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003760">Towton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w165406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003761">Touton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w165422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/003762">Toughton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006240"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2640600" lat="53.8503800" gazref="geonames:2635584" source="geonames"/>
+   <geo long="-1.270363845" lat="53.84481262" source="epns"/>
+   <geo long="-1.262684964806036" lat="53.84926158428151" gazref="unlock:11303954" source="unlock"/>
+   <geo easting="448500" northing="439500" long="-1.26424" lat="53.8495" kepnref="14629" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w165195">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165195">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="wr111">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165195">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165195">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="wr24">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165195">
+    <attestation variantID="epns-deep-33-b-name-w165195">
+     <date end="1269" begin="1269" subtype="simple">1269</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w165195">
+     <date end="1341" begin="1341" subtype="simple">1341</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165286">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165323">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165323">
+    <date end="1339" begin="1339" subtype="simple">1339</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165352">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="wr577">PT</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165352">
+    <attestation variantID="epns-deep-33-b-name-w165352">
+     <date end="1540" begin="1540" subtype="simple">1540</date>
+     <source style="" id="wr712">TestLds</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w165352">
+     <date end="1641" begin="1641" subtype="simple">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165406">
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="" id="wr197">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w165422">
+    <date end="1486" begin="1486" subtype="simple">1486</date>
+    <source style="" id="wr199">Fabr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w165195">Touetun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165195">Toueton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165286">Toneton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165323">Toveton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165352">Towton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165406">Touton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w165422">Toughton</searchterm>
+  </extension>
+ </mads>
+ 

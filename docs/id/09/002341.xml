@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000048">
+  <authority ID="epns-deep-09-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002341">Stoodleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000048" type="broader">
+   <geographic>Stoodleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w107429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002342">Estodleia, Estolleia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107466">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002343">Stodlei, Stollei</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107491">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002344">Stodleg(he)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002345">Eststodlegh, Weststodlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107576">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002346">Est Stodelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107600">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002347">Stowdeleighe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107625">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002348">Stouleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w107646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002349">Studley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a38"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5362700" lat="50.9588000" gazref="geonames:2636794" source="geonames"/>
+   <geo long="-3.530718402811647" lat="50.955344857247" gazref="unlock:11293526" source="unlock"/>
+   <geo easting="292500" northing="118500" long="-3.5319" lat="50.9559" kepnref="15715" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w107429">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107466">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107491">
+    <attestation variantID="epns-deep-09-b-name-w107491">
+     <date end="1205" begin="1205" subtype="simple">1205</date>
+     <source style="" id="de84">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w107491">
+     <date end="1373" begin="1373" subtype="simple">1373</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107535">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>760</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107576">
+    <date end="1326" begin="1326" subtype="simple">1326</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107600">
+    <date end="1550" begin="1550" subtype="simple">1550</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107625">
+    <date end="1264" begin="1264" subtype="simple">1264</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w107646">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="de172">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w107429">Estodleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107429">Estolleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107466">Stodlei</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107466">Stollei</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107491">Stodleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107491">Stodleg</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107535">Eststodlegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107535">Weststodlegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107576">Est Stodelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107600">Stowdeleighe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107625">Stouleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w107646">Studley</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000467">
+  <authority ID="epns-deep-05-b-name-subparish-000467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005215">Whitwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000156" type="broader">
+   <geographic>Bolton on Swale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w371507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005216">Witeuuella</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w371527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005217">Wittewell</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w371559">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005218">Whitwell(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000428"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5540300" lat="54.3886800" gazref="geonames:7300737" source="geonames"/>
+   <geo long="-1.561057423745734" lat="54.39004078563649" gazref="unlock:11322277" source="unlock"/>
+   <geo easting="428500" northing="499500" long="-1.5626" lat="54.3902" kepnref="6121" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w371507">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w371527">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny40">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w371527">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>67</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w371559">
+    <attestation variantID="epns-deep-05-b-name-w371559">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w371507">Witeuuella</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w371527">Wittewell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w371559">Whitwelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w371559">Whitwell</searchterm>
+  </extension>
+ </mads>
+ 

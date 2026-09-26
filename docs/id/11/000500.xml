@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000008">
+  <authority ID="epns-deep-11-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000500">Merton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000001" type="broader">
+   <geographic>Brixton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287108b47fc40c23000a4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1891900" lat="51.4108000" gazref="geonames:3333171" source="geonames"/>
+   <geo long="-0.1952819496677886" lat="51.41012303301549" gazref="unlock:11217532" source="unlock"/>
+   <geo easting="525500" northing="169500" long="-0.196863" lat="51.4106" kepnref="8248" source="kepn"/>
+  </extension>
+ </mads>
+ 

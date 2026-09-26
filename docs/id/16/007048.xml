@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000163">
+  <authority ID="epns-deep-16-a-name-parish-000163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007048">Semley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000017" type="broader">
+   <geographic>Chalke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000ce8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1558500" lat="51.0413500" gazref="geonames:2638208" source="geonames"/>
+   <geo long="-2.149771759362114" lat="51.03722617288739" gazref="unlock:11280239" source="unlock"/>
+   <geo easting="389500" northing="126500" long="-2.15112" lat="51.0378" kepnref="7318" source="kepn"/>
+  </extension>
+ </mads>
+ 

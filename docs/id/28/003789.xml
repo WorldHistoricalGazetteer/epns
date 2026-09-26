@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000018">
+  <authority ID="epns-deep-28-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003789">Dronfield Woodhouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000019" type="broader">
+   <geographic>Dronfield Woodhouse</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w145563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003790">Wodh(o)us</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w145594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003791">Wod(e)hous(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w145658">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003792">Wod(e)howse</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w145684">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003793">Wod(e)h(o)uses</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w145772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003794">Dranfeild Woodhouse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00185d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.497255856066202" lat="53.30211707494485" gazref="unlock:11131878" source="unlock"/>
+   <geo easting="433500" northing="378500" long="-1.49876" lat="53.3024" kepnref="3300" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w145563">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <date subtype="regnal" begin="1272" end="1307">Ed 1</date>
+    <source style="italic" id="db34">Beau</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145594">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="" id="db128">DbA</source>
+    <item>iii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145594">
+    <attestation variantID="epns-deep-28-b-name-w145594">
+     <date subtype="simple" begin="1313" end="1313">1313</date>
+     <source style="" id="db129">DbCh</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145658">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="italic" id="db315">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145684">
+    <date subtype="ante" begin="1240" end="1290">a. 1290</date>
+    <source style="" id="db238">Hall viii</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145684">
+    <date subtype="simple" begin="1275" end="1300">late 13th</date>
+    <source style="" id="db129">DbCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145684">
+    <attestation variantID="epns-deep-28-b-name-w145684">
+     <date subtype="simple" begin="1325" end="1325">1325</date>
+     <source style="" id="db128">DbA</source>
+     <item>iii</item>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w145772">
+    <date subtype="simple" begin="1633" end="1633">1633</date>
+    <source style="" id="db128">DbA</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w145563">Wodhous</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145563">Wodhus</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145594">Wodehouse</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145594">Wodehous</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145594">Wodhouse</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145594">Wodhous</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145658">Wodehowse</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145658">Wodhowse</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145684">Wodehouses</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145684">Wodehuses</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145684">Wodhouses</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145684">Wodhuses</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w145772">Dranfeild Woodhouse</searchterm>
+  </extension>
+ </mads>
+ 

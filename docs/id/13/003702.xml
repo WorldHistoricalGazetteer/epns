@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000079">
+  <authority ID="epns-deep-13-a-name-parish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003702">Stretton Baskerville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000005" type="broader">
+   <geographic>Brinklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3960900" lat="52.5228300" gazref="geonames:7292684" source="geonames"/>
+   <geo long="-1.373584623433606" lat="52.51935806140363" gazref="unlock:11294400" source="unlock"/>
+   <geo easting="442500" northing="291500" long="-1.37507" lat="52.5197" kepnref="4846" source="kepn"/>
+  </extension>
+ </mads>
+ 

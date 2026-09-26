@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000363">
+  <authority ID="epns-deep-05-b-name-subparish-000363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004142">Carthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000130" type="broader">
+   <geographic>Burneston</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w303794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004143">Caretorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w303812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004144">Karethorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w303852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004145">Carthorp, Karthorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w303903">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004146">Carethropp</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600043e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5286600" lat="54.2486900" gazref="geonames:2653632" source="geonames"/>
+   <geo long="-1.531890849705043" lat="54.24611793527875" gazref="unlock:11100376" source="unlock"/>
+   <geo easting="430500" northing="483500" long="-1.53343" lat="54.2463" kepnref="6015" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w303794">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w303812">
+    <attestation variantID="epns-deep-05-b-name-w303812">
+     <date subtype="simple" begin="1246" end="1246">1246</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w303812">
+     <date subtype="simple" begin="1322" end="1322">1322</date>
+     <source style="" id="ny1">Abbr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w303852">
+    <attestation variantID="epns-deep-05-b-name-w303852">
+     <date subtype="simple" begin="1161" end="1170">1161-70</date>
+     <source style="italic" id="ny124">Mary Y</source>
+     <page>231 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w303903">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w303794">Caretorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w303812">Karethorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w303852">Carthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w303852">Karthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w303903">Carethropp</searchterm>
+  </extension>
+ </mads>
+ 

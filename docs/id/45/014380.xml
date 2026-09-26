@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000117">
+  <authority ID="epns-deep-45-b-name-subparish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014380">Tetton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000017" type="broader">
+   <geographic>Warmingham</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w659575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014381">Tadetune</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w659593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014382">Tettona</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w659611">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014383">Tetton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w659647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014384">Tetton iuxta Ettelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w659689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014385">Tetton et Wermyncham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600207b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.433802696" lat="53.1630425" source="epns"/>
+   <geo easting="371500" northing="363500" long="-2.42776" lat="53.1679" kepnref="11871" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w659575">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w659593">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="" id="ch141">Cre</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w659611">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w659647">
+    <date subtype="simple" begin="1407" end="1407">1407</date>
+    <copydate end="1471" begin="1471">1471</copydate>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w659689">
+    <date subtype="simple" begin="1417" end="1417">1417</date>
+    <source style="" id="ch115" underspec="ib">ChRR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w659575">Tadetune</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w659593">Tettona</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w659611">Tetton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w659647">Tetton iuxta Ettelegh</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w659689">Tetton et Wermyncham</searchterm>
+  </extension>
+ </mads>
+ 

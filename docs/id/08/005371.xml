@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000104">
+  <authority ID="epns-deep-08-b-name-subparish-000104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005371">St Giles on the Heath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000104" type="broader">
+   <geographic>St Giles on the Heath</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w272715">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005372">capella Sancti Egidii</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w272773">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005373">parochia Sancti Egidii</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w272808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005374">St Gylses en le Hethe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w272851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005375">St Gyles in le Hethe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a29"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.315053055433467" lat="50.69056572804397" gazref="unlock:11276500" source="unlock"/>
+   <geo easting="235500" northing="90500" long="-4.33029" lat="50.6908" kepnref="15561" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w272715">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="de122">Launceston</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w272715">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w272773">
+    <date end="1532" begin="1532" subtype="simple">1532</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w272808">
+    <date end="1585" begin="1585" subtype="simple">1585</date>
+    <source style="italic" id="de62">Deeds Enrolled</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w272851">
+    <date end="1585" begin="1585" subtype="simple">1585</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w272715">capella Sancti Egidii</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w272773">parochia Sancti Egidii</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w272808">St Gylses en le Hethe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w272851">St Gyles in le Hethe</searchterm>
+  </extension>
+ </mads>
+ 

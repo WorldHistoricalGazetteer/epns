@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000022">
+  <authority ID="epns-deep-47-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002180">Tushingham cum Grindley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000001" type="broader">
+   <geographic>Malpas</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w116055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002181">Tushingham cum Grindley</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w116090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002182">Tussyncham et Grenley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001ff7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7065300" lat="53.0026400" gazref="geonames:7299958" source="geonames"/>
+   <geo long="-2.715459951" lat="53.00884891" source="epns"/>
+   <geo easting="352500" northing="345500" long="-2.70928" lat="53.0047" kepnref="12105" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w116055">
+    <date end="1741" begin="1741" subtype="simple">1741</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w116090">
+    <date end="1473" begin="1473" subtype="simple">1473</date>
+    <source style="italic" id="ch113" underspec="ib">Chol</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w116055">Tushingham cum Grindley</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w116090">Tussyncham et Grenley</searchterm>
+  </extension>
+ </mads>
+ 

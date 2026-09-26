@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000136">
+  <authority ID="epns-deep-45-b-name-subparish-000136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017750">Somerford, olim Somerford cum Radnor, Somerford Radnor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000021" type="broader">
+   <geographic>Astbury</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w812913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017751">Somerford et Radnore</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w812944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017752">Somerford Radnor</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w812981">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017753">Somerford cum Radnor</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f56"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2610200" lat="53.1788300" gazref="geonames:7294573" source="geonames"/>
+   <geo long="-2.26931572" lat="53.17251795" source="epns"/>
+   <geo long="-2.276825632811021" lat="53.17699686178263" gazref="unlock:11286678" source="unlock"/>
+   <geo easting="380500" northing="365500" long="-2.29326" lat="53.1862" kepnref="11890" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w812913">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w812944">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="italic" id="ch162" underspec="ib">Dav</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w812944">
+    <date subtype="simple" begin="1842" end="1842">1842</date>
+    <source style="italic" id="ch649">TA</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w812981">
+    <date subtype="simple" begin="1831" end="1831">1831</date>
+    <source style="" id="ch72">Bry</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w812913">Somerford et Radnore</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w812944">Somerford Radnor</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w812981">Somerford cum Radnor</searchterm>
+   <searchterm madsID="epns-deep-45-b-subparish-000136">Somerford</searchterm>
+   <searchterm madsID="epns-deep-45-b-subparish-000136">olim Somerford cum Radnor</searchterm>
+   <searchterm madsID="epns-deep-45-b-subparish-000136">Somerford Radnor</searchterm>
+  </extension>
+ </mads>
+ 

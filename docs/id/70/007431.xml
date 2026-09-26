@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000064">
+  <authority ID="epns-deep-70-b-name-subparish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/007431">Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000010" type="broader">
+   <geographic>Condover</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w285421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/007432">Nortone</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w285438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/007433">Norton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a633b47fc4463d000eaf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.74649962" lat="52.64723263" source="epns"/>
+   <attestation variantID="epns-deep-70-b-name-w285421">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w285438">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="ss30">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w285438">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <source style="" id="ss250">RH</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w285421">Nortone</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w285438">Norton</searchterm>
+  </extension>
+ </mads>
+ 

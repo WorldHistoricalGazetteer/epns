@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000464">
+  <authority ID="epns-deep-05-b-name-subparish-000464">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005198">Kiplin</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000156" type="broader">
+   <geographic>Bolton on Swale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w370144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005199">Chipeling</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005200">Kypplyng</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370221">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005201">Kepling</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005202">Kiplyng, Kyplyng</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005203">Kipeling, Kypeling</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005204">Kyplin</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000425"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5629000" lat="54.3734400" gazref="geonames:7291843" source="geonames"/>
+   <geo long="-1.57664346082101" lat="54.37211999177147" gazref="unlock:11187585" source="unlock"/>
+   <geo easting="427500" northing="497500" long="-1.57819" lat="54.3723" kepnref="6118" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w370144">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370163">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370163">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370163">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>101</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370221">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="ny151">OblR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370240">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>144</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370240">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="italic" id="ny51" underspec="ib">Easby</source>
+    <item>146</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370240">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370297">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370297">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370334">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w370144">Chipeling</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370163">Kypplyng</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370221">Kepling</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370240">Kiplyng</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370240">Kyplyng</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370297">Kipeling</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370297">Kypeling</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370334">Kyplin</searchterm>
+  </extension>
+ </mads>
+ 

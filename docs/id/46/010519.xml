@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000083">
+  <authority ID="epns-deep-46-b-name-subparish-000083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010519">Kingswood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000021" type="broader">
+   <geographic>Delamere Forest</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w533803">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010520">Kingswood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f9e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.704366826" lat="53.24266076" source="epns"/>
+   <geo easting="353500" northing="372500" long="-2.69831" lat="53.2475" kepnref="11974" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w533803">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="italic" id="ch210">EnclA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w533803">Kingswood</searchterm>
+  </extension>
+ </mads>
+ 

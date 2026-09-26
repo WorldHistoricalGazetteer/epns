@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000040">
+  <authority ID="epns-deep-79-a-name-parish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/003632">Brampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000cfb"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2833300" lat="52.7666700" gazref="geonames:2654917" source="geonames"/>
+   <geo long="1.276341698" lat="52.76796124" source="epns"/>
+   <geo long="1.298879836666244" lat="52.77183434650605" gazref="unlock:11085577" source="unlock"/>
+   <geo easting="622500" northing="324500" long="1.29707" lat="52.7722" kepnref="9193" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000510">
+  <authority ID="epns-deep-05-b-name-subparish-000510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005652">Caldwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000174" type="broader">
+   <geographic>Stanwick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w397998">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005653">Caldewell</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005654">Caudwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005b4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7500000" lat="54.5166700" gazref="geonames:2654010" source="geonames"/>
+   <geo long="-1.745092076061161" lat="54.51640237236554" gazref="unlock:11096585" source="unlock"/>
+   <geo easting="416500" northing="513500" long="-1.74662" lat="54.5165" kepnref="6165" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w397998">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398017">
+    <date subtype="simple" begin="1564" end="1564">1564</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w397998">Caldewell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398017">Caudwell</searchterm>
+  </extension>
+ </mads>
+ 

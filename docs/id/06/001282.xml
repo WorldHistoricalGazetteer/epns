@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000045">
+  <authority ID="epns-deep-06-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001282">Merston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000045" type="broader">
+   <geographic>Merston</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w105824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001283">Mersitone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w105843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001284">Merseton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w105899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001285">Mers(h)ton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w105946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001286">Merschtone al. Weston</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w105978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001287">Marston</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001288">Merson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d3c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7323100" lat="50.8218800" gazref="geonames:2642710" source="geonames"/>
+   <geo long="-0.7294331448843772" lat="50.8145626343505" gazref="unlock:11217508" source="unlock"/>
+   <geo easting="489500" northing="103500" long="-0.730687" lat="50.8241" kepnref="6906" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w105824">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105843">
+    <date subtype="simple" begin="1155" end="1155">1155</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105843">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1387" begin="1387">1387</copydate>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105843">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105899">
+    <attestation variantID="epns-deep-06-b-name-w105899">
+     <date subtype="simple" begin="1274" end="1274">1274</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w105899">
+     <date subtype="simple" begin="1414" end="1414">1414</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105946">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105978">
+    <date subtype="simple" begin="1569" end="1569">1569</date>
+    <source style="" id="su297">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w105978">
+    <date subtype="simple" begin="1676" end="1676">1676</date>
+    <source style="italic" id="su129">Inst PRO</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106019">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <date subtype="simple" begin="1595" end="1595">1595</date>
+    <source style="" id="su297">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w105824">Mersitone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105843">Mersetona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105843">Merseton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105899">Mershtone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105899">Mershton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105899">Merstone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105899">Merston</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105946">Merschtone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105946">Weston</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w105978">Marston</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106019">Merson</searchterm>
+  </extension>
+ </mads>
+ 

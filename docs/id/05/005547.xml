@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000502">
+  <authority ID="epns-deep-05-b-name-subparish-000502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005547">Arkengarthdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000170" type="broader">
+   <geographic>Arkengarthdale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w391994">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005548">Arkillesgarth, Arkillesgardh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w392043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005549">Arkil, Arkelgarth</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w392085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005550">Arclegarthdaile</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w392117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005551">Archengarthdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000404"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.992294074771631" lat="54.41780260520782" gazref="unlock:11063644" source="unlock"/>
+   <geo easting="400500" northing="502500" long="-1.99379" lat="54.4179" kepnref="6157" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w391994">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ny220">VCH</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391994">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w392043">
+    <attestation variantID="epns-deep-05-b-name-w392043">
+     <date subtype="century" begin="1200" end="1300">13</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>121</page>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w392085">
+    <date subtype="simple" begin="1557" end="1557">1557</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w392117">
+    <date subtype="simple" begin="1671" end="1671">1671</date>
+    <source style="" id="ny313">Grinton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w391994">Arkillesgarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391994">Arkillesgardh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w392043">Arkil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w392043">Arkelgarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w392085">Arclegarthdaile</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w392117">Archengarthdale</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000118">
+  <authority ID="epns-deep-04-b-name-subparish-000118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003000">Broughton Hackett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000120" type="broader">
+   <geographic>Broughton Hackett</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w255730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003001">Broctun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003002">Broctune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003003">Brochtona</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003004">Brocton Inardi</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003005">Broctone</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003006">Broctone Haket</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003007">Broctone Beuchamp</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255943">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003008">Broghton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003009">Browghton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w255981">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003010">Haggetts Broughton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00055e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1093300" lat="52.1900100" gazref="geonames:7292792" source="geonames"/>
+   <geo long="-2.109720433734805" lat="52.18829024956015" gazref="unlock:11089757" source="unlock"/>
+   <geo easting="392500" northing="254500" long="-2.11111" lat="52.1887" kepnref="5295" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w255730">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255762">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255762">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255801">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255832">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255861">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo56">Fees</source>
+    <item>139</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255886">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255912">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255943">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255962">
+    <date end="1514" begin="1514" subtype="simple">1514</date>
+    <source style="" id="wo106">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w255981">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iv</item>
+    <page>44</page>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w255730">Broctun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255762">Broctune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255801">Brochtona</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255832">Brocton Inardi</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255861">Broctone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255886">Broctone Haket</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255912">Broctone Beuchamp</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255943">Broghton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255962">Browghton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w255981">Haggetts Broughton</searchterm>
+  </extension>
+ </mads>
+ 

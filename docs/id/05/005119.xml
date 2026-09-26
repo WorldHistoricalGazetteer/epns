@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000452">
+  <authority ID="epns-deep-05-b-name-subparish-000452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005119">Maunby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000152" type="broader">
+   <geographic>Kirby Wiske</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w366450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005120">Mannebi, Mannesbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w366477">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005121">Magnebi, Magneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w366532">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005122">Maghen(e)by</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w366577">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005123">Maun(e)by</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004fd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4643700" lat="54.2715200" gazref="geonames:2642899" source="geonames"/>
+   <geo long="-1.454799606508225" lat="54.27275929228765" gazref="unlock:11214730" source="unlock"/>
+   <geo easting="435500" northing="486500" long="-1.45635" lat="54.2729" kepnref="6105" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w366450">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366477">
+    <attestation variantID="epns-deep-05-b-name-w366477">
+     <date subtype="simple" begin="1157" end="1157">1157</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>82</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w366477">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny118">LS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366532">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366532">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366532">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="ny238">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366577">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366577">
+    <date subtype="simple" begin="1362" end="1362">1362</date>
+    <source style="" id="ny2">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w366577">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>87 d</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w366450">Mannebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366450">Mannesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366477">Magnebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366477">Magneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366532">Magheneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366532">Maghenby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366577">Mauneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w366577">Maunby</searchterm>
+  </extension>
+ </mads>
+ 

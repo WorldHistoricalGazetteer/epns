@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000012">
+  <authority ID="epns-deep-31-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000652">Goole Fields</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000003" type="broader">
+   <geographic>Snaith</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w33024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000653">Goole Field Houses</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8775700" lat="53.6657200" gazref="geonames:7295046" source="geonames"/>
+   <geo long="-0.864631959" lat="53.67085684" source="epns"/>
+   <geo long="-0.8569424982358465" lat="53.67527982646478" gazref="unlock:11156340" source="unlock"/>
+   <geo kepnexref="294" long="-0.882096" lat="53.658882" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w33024">
+    <date subtype="simple" begin="1771" end="1771">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w33024">Goole Field Houses</searchterm>
+  </extension>
+ </mads>
+ 

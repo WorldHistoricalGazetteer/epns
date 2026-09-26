@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000005">
+  <authority ID="epns-deep-39-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000217">Cutsdean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000001" type="broader">
+   <geographic>Kiftsgate Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001945"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8741900" lat="51.9697600" gazref="geonames:2651664" source="geonames"/>
+   <geo long="-1.868982112" lat="51.9679728" source="epns"/>
+   <geo long="-1.876248445727025" lat="51.97247736617953" gazref="unlock:11125152" source="unlock"/>
+   <geo kepnexref="355" long="-1.87766" lat="51.9729" source="kepn"/>
+  </extension>
+ </mads>
+ 

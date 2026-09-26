@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000098">
+  <authority ID="epns-deep-96-a-name-parish-000098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004319">Gamlingay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000011" type="broader">
+   <geographic>Longstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ec"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1930300" lat="52.1556100" gazref="geonames:2648899" source="geonames"/>
+   <geo long="-0.1944825845370605" lat="52.15653960980594" gazref="unlock:11149788" source="unlock"/>
+   <geo easting="524500" northing="252500" long="-0.181484" lat="52.1567" kepnref="4060" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000209">
+  <authority ID="epns-deep-05-b-name-subparish-000209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002770">Normanby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000079" type="broader">
+   <geographic>Ormesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w210514">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002771">Norðmannabi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002772">Northmanby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002773">Normanebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210604">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002774">Normannesbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210624">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002775">Normanby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600055d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.14168859084838" lat="54.55856643655569" gazref="unlock:11231856" source="unlock"/>
+   <geo easting="455500" northing="518500" long="-1.14329" lat="54.5587" kepnref="5862" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w210514">
+    <date subtype="circa" begin="1040" end="1060">c. 1050</date>
+    <source style="" id="ny90">HSC</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210539">
+    <date subtype="simple" begin="1222" end="1240">1222-40</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210564">
+    <attestation variantID="epns-deep-05-b-name-w210564">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w210564">
+     <date subtype="simple" begin="1252" end="1252">1252</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210604">
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210624">
+    <date subtype="simple" begin="1191" end="1199">1191-9</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w210514">Norðmannabi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210539">Northmanby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210564">Normanebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210604">Normannesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210624">Normanby</searchterm>
+  </extension>
+ </mads>
+ 

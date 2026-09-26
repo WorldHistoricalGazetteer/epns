@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000015">
+  <authority ID="epns-deep-45-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011394">Davenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000002" type="broader">
+   <geographic>Northwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ee7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5103700" lat="53.2334100" gazref="geonames:2651487" source="geonames"/>
+   <geo long="-2.509445256" lat="53.23466313" source="epns"/>
+   <geo long="-2.516882780202191" lat="53.23013728165504" gazref="unlock:11127531" source="unlock"/>
+   <geo easting="366500" northing="371500" long="-2.50339" lat="53.2395" kepnref="11842" source="kepn"/>
+  </extension>
+ </mads>
+ 

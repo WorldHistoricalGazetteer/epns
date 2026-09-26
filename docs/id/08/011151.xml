@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000193">
+  <authority ID="epns-deep-08-a-name-parish-000193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011151">Buckland-Tout-Saints</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000013" type="broader">
+   <geographic>Coleridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001722"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7606700" lat="50.3059600" gazref="geonames:7291177" source="geonames"/>
+   <geo long="-3.74816056335062" lat="50.29568079324087" gazref="unlock:11091758" source="unlock"/>
+   <geo easting="275500" northing="45500" long="-3.7493" lat="50.2963" kepnref="15652" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-hu-subcounty-000005">
+  <authority ID="epns-deep-06-hu-name-subcounty-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001071">Box and Stockbridge Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-ra-abovesubcounty-000001" type="broader">
+   <geographic>Rape of Chichester</geographic>
+  </related>
+  <variant ID="epns-deep-06-hu-name-w89817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001072">Boxebrugg et Stok, and Boxe et Stocckebregg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c5d"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-06-hu-name-w89817">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-hu-name-w89817">Boxebrugg et Stok</searchterm>
+   <searchterm variantID="epns-deep-06-hu-name-w89817">Boxe et Stocckebregg</searchterm>
+  </extension>
+ </mads>
+ 

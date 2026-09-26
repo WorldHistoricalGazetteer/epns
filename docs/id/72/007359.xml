@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000044">
+  <authority ID="epns-deep-72-a-name-parish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/007359">Horning</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d26"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4649100" lat="52.7071500" gazref="geonames:2646588" source="geonames"/>
+   <geo long="1.477763833" lat="52.69026086" source="epns"/>
+   <geo long="1.47144917842562" lat="52.70393976803475" gazref="unlock:11179410" source="unlock"/>
+   <geo easting="634500" northing="317500" long="1.46962" lat="52.7043" kepnref="9674" source="kepn"/>
+  </extension>
+ </mads>
+ 

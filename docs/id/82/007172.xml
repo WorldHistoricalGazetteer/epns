@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000010">
+  <authority ID="epns-deep-82-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007172">Little Ness</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000001" type="broader">
+   <geographic>Pimhill Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w285807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007173">Nesse</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w285822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007174">Nesse Alayn</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w285846">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007175">Nesse Parva</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w285869">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007176">Little Nesse</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w285908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007177">Little Ness</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a602b47fc4463d000e3a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8796200" lat="52.7712600" gazref="geonames:2644282" source="geonames"/>
+   <geo long="-2.882003625019156" lat="52.76947846659356" gazref="unlock:11196779" source="unlock"/>
+   <geo easting="339500" northing="319500" long="-2.89814" lat="52.7697" kepnref="13578" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w285807">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w285822">
+    <date end="1272" begin="1271" subtype="simple">1271-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w285846">
+    <date end="1285" begin="1284" subtype="simple">1284-5</date>
+    <source style="" id="ss85">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w285869">
+    <attestation variantID="epns-deep-82-a-name-w285869">
+     <date end="1635" begin="1635" subtype="simple">1635</date>
+     <source style="italic" id="ss267">SBL</source>
+     <item>10293</item>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w285908">
+    <date end="1782" begin="1782" subtype="simple">1782</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>4149</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w285807">Nesse</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w285822">Nesse Alayn</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w285846">Nesse Parva</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w285869">Little Nesse</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w285908">Little Ness</searchterm>
+  </extension>
+ </mads>
+ 

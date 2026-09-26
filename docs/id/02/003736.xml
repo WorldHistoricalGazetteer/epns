@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000176">
+  <authority ID="epns-deep-02-a-name-parish-000176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003736">Turville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000016" type="broader">
+   <geographic>Desborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8932000" lat="51.6138100" gazref="geonames:2635326" source="geonames"/>
+   <geo long="-0.894951769238897" lat="51.61665195078925" gazref="unlock:11307262" source="unlock"/>
+   <geo easting="476500" northing="191500" long="-0.896461" lat="51.6171" kepnref="11372" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000041">
+  <authority ID="epns-deep-05-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000384">Marton in the Forest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000018" type="broader">
+   <geographic>Marton le Forest</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w29615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000385">Martun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w29631">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000386">Marton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w29668">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000387">Marton(a) in Galtres</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w29705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000388">Mareton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000534"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0775900" lat="54.1049800" gazref="geonames:2642939" source="geonames"/>
+   <geo easting="459500" northing="468500" long="-1.09141" lat="54.109" kepnref="5692" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w29615">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w29631">
+    <date subtype="simple" begin="1160" end="1175">1160-75</date>
+    <source style="" id="ny236">YCh</source>
+    <page>656</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w29668">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w29705">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <date subtype="simple" begin="1172" end="1172">1172</date>
+    <date subtype="simple" begin="1178" end="1178">1178</date>
+    <date subtype="simple" begin="1179" end="1179">1179</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w29615">Martun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w29631">Martona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w29631">Marton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w29668">Martona in Galtres</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w29668">Marton in Galtres</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w29705">Mareton'</searchterm>
+  </extension>
+ </mads>
+ 

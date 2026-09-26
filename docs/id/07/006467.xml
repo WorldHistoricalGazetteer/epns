@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000114">
+  <authority ID="epns-deep-07-a-name-parish-000114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006467">Dallington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000032" type="broader">
+   <geographic>Netherfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b68"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3578700" lat="50.9470400" gazref="geonames:2651580" source="geonames"/>
+   <geo long="0.3564330010422162" lat="50.95059369036113" gazref="unlock:11126646" source="unlock"/>
+   <geo easting="565500" northing="119500" long="0.354808" lat="50.9512" kepnref="7129" source="kepn"/>
+  </extension>
+ </mads>
+ 

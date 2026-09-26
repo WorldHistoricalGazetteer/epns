@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000246">
+  <authority ID="epns-deep-14-b-name-subparish-000246">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005760">West Ella</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000140" type="broader">
+   <geographic>North Ferriby</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w375399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005761">Westeluelle</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375420">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005762">Westeluele, Westelegh, Westeley</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005763">West Ellay</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005764">Westella</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000513"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4756538169652806" lat="53.75194403089061" gazref="unlock:11316683" source="unlock"/>
+   <geo easting="500500" northing="429500" long="-0.477302" lat="53.7522" kepnref="8716" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w375399">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375420">
+    <attestation variantID="epns-deep-14-b-name-w375420">
+     <date end="1333" begin="1333" subtype="simple">1333</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375473">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375494">
+    <date end="1594" begin="1594" subtype="simple">1594</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w375399">Westeluelle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375420">Westeluele</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375420">Westelegh</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375420">Westeley</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375473">West Ellay</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375494">Westella</searchterm>
+  </extension>
+ </mads>
+ 

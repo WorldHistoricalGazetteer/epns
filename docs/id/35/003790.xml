@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000027">
+  <authority ID="epns-deep-35-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003790">Bank Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000010" type="broader">
+   <geographic>Gargrave</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w129740">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003791">Neuton(e), Neutune</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003792">Neutune in Craven(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003793">Colde Neutune</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003794">New(e)ton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003795">Cauld New(e)ton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129939">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003796">New(e)ton in Craven</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w129982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003797">Ban(c)k(e) New(e)ton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w130063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003798">Banknewton als. Coldnewton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006116"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1567100" lat="53.9740600" gazref="geonames:7291811" source="geonames"/>
+   <geo long="-2.137224566" lat="53.97279637" source="epns"/>
+   <geo long="-2.129614988124063" lat="53.97730054895401" gazref="unlock:11069250" source="unlock"/>
+   <geo easting="391500" northing="453500" long="-2.13107" lat="53.9775" kepnref="14867" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w129740">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129740">
+    <attestation variantID="epns-deep-35-b-name-w129740">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w129740">
+     <date subtype="simple" begin="1350" end="1350">1350</date>
+     <source style="" id="wr580">Puds</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129798">
+    <date subtype="simple" begin="1237" end="1237">1237</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129798">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129845">
+    <date subtype="simple" begin="1266" end="1266">1266</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129845">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129884">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129884">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="wr197">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129912">
+    <date subtype="simple" begin="1399" end="1399">1399</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129939">
+    <date subtype="simple" begin="1401" end="1401">1401</date>
+    <source style="" id="wr580" underspec="ib">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129939">
+    <date subtype="simple" begin="1475" end="1475">1475</date>
+    <source style="" id="wr799">YD</source>
+    <item>ix</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129982">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="" id="wr797">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129982">
+    <date subtype="simple" begin="1560" end="1560">1560</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w129982">
+    <attestation variantID="epns-deep-35-b-name-w129982">
+     <date subtype="simple" begin="1564" end="1564">1564</date>
+     <source style="" id="wr742">Visit</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w129982">
+     <date subtype="simple" begin="1641" end="1641">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w130063">
+    <date subtype="simple" begin="1608" end="1608">1608</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w129740">Neutone</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129740">Neuton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129740">Neutune</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129798">Neutune in Cravene</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129798">Neutune in Craven</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129845">Colde Neutune</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129884">Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129884">Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129912">Cauld Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129912">Cauld Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129939">Neweton in Craven</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129939">Newton in Craven</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Bancke Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Bancke Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Banck Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Banck Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Banke Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Banke Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Bank Neweton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w129982">Bank Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w130063">Banknewton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w130063">Coldnewton</searchterm>
+  </extension>
+ </mads>
+ 

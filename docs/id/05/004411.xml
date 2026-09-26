@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000391">
+  <authority ID="epns-deep-05-b-name-subparish-000391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004411">Kirkby Fleetham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000136" type="broader">
+   <geographic>Kirkby Fleetham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w322052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004412">Chirchebi, Cherchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w322082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004413">Fletham et Kirkeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w322115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004414">Kirkeby, Kyrkeby cum Fletham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w322226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004415">Fleteha(m)'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w322300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004416">Fletham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000501"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5657000" lat="54.3462500" gazref="geonames:2645311" source="geonames"/>
+   <geo long="-1.56153639169267" lat="54.34510129271779" gazref="unlock:11187842" source="unlock"/>
+   <geo easting="428500" northing="494500" long="-1.56308" lat="54.3453" kepnref="6042" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w322052">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322082">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>67 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322115">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322226">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322226">
+    <date subtype="simple" begin="1086" end="1112">1086-c. 1112</date>
+    <source style="italic" id="ny46">Dods</source>
+    <item>lxxvi</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322226">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322226">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>87 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w322300">
+    <attestation variantID="epns-deep-05-b-name-w322300">
+     <date subtype="simple" begin="1270" end="1270">1270</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w322300">
+     <date subtype="simple" begin="1400" end="1400">1400</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w322052">Chirchebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322052">Cherchebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322082">Fletham et Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322115">Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322115">Kyrkeby cum Fletham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322226">Fleteham'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322226">Fleteha'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w322300">Fletham</searchterm>
+  </extension>
+ </mads>
+ 

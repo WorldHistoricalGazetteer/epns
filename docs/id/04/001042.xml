@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000031">
+  <authority ID="epns-deep-04-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001042">Lower Sapey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000031" type="broader">
+   <geographic>Lower Sapey</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w83281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001043">æt Sapian</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w83311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001044">Sapie</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w83338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001045">Sapy</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w83369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001046">Sapi Pichard</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w83397">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001047">Nethersapi</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w83419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001048">Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4419400" lat="52.2485100" gazref="geonames:7297516" source="geonames"/>
+   <geo long="-2.446730405495201" lat="52.24144450713318" gazref="unlock:11208753" source="unlock"/>
+   <geo easting="369500" northing="260500" long="-2.44808" lat="52.2418" kepnref="5202" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w83281">
+    <date end="781" begin="781" subtype="simple">781</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>240</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83311">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83311">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="" id="wo62">FineR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83338">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="wo56">Fees</source>
+    <item>140</item>
+    <page>527</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83369">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="wo56">Fees</source>
+    <item>959</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83397">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w83419">
+    <date end="1362" begin="1362" subtype="simple">1362</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w83281">æt Sapian</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w83311">Sapie</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w83338">Sapy</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w83369">Sapi Pichard</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w83397">Nethersapi</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w83419">Parva</searchterm>
+  </extension>
+ </mads>
+ 

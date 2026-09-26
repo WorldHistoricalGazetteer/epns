@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000006">
+  <authority ID="epns-deep-49-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/001314">Winkfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000001" type="broader">
+   <geographic>Ripplesmere Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001afb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6982500" lat="51.4422800" gazref="geonames:2633819" source="geonames"/>
+   <geo long="-0.6976565420057774" lat="51.4437622439359" gazref="unlock:11324078" source="unlock"/>
+   <geo easting="490500" northing="172500" long="-0.699181" lat="51.4443" kepnref="3028" source="kepn"/>
+  </extension>
+ </mads>
+ 

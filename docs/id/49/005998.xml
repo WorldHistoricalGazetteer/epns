@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000022">
+  <authority ID="epns-deep-49-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005998">Shinfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000005" type="broader">
+   <geographic>Charlton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001acd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9453400" lat="51.4054200" gazref="geonames:2637968" source="geonames"/>
+   <geo long="-0.943075803371374" lat="51.4102599283199" gazref="unlock:11282869" source="unlock"/>
+   <geo easting="473500" northing="168500" long="-0.944571" lat="51.4108" kepnref="3043" source="kepn"/>
+  </extension>
+ </mads>
+ 

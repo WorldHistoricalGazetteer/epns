@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000259">
+  <authority ID="epns-deep-10-a-name-parish-000259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005653">Rushden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000016" type="broader">
+   <geographic>Higham Ferrers Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000498"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5992300" lat="52.2913900" gazref="geonames:2638946" source="geonames"/>
+   <geo long="-0.5997260035004639" lat="52.28793630966545" gazref="unlock:11275514" source="unlock"/>
+   <geo easting="495500" northing="266500" long="-0.601296" lat="52.2883" kepnref="11131" source="kepn"/>
+  </extension>
+ </mads>
+ 

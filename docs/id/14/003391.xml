@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000150">
+  <authority ID="epns-deep-14-b-name-subparish-000150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003391">Knapton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000085" type="broader">
+   <geographic>Wintringham</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w221256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003392">Cnapeton(a), Knapeton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w221346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003393">Cnapton(a), Knapton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w221399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003394">Knapton(a) in Herfordlith</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w221438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003395">Est Knapton(a), West Knapton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w221481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003396">Senapeton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000584"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6500000" lat="54.1666700" gazref="geonames:2645164" source="geonames"/>
+   <geo long="-0.6595723999978808" lat="54.16766034554227" gazref="unlock:11317175" source="unlock"/>
+   <geo easting="488500" northing="475500" long="-0.645905" lat="54.1677" kepnref="8528" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w221256">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221256">
+    <date end="1191" begin="1191" subtype="simple">1191</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221256">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="italic" id="ey116">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221256">
+    <attestation variantID="epns-deep-14-b-name-w221256">
+     <date end="1201" begin="1201" subtype="simple">1201</date>
+     <source style="" id="ey55">ChR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w221256">
+     <date end="1345" begin="1345" subtype="simple">1345</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221346">
+    <attestation variantID="epns-deep-14-b-name-w221346">
+     <date end="1217" begin="1190" subtype="simple">1190-1217</date>
+     <source style="italic" id="ey191">Malton</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221399">
+    <date end="1366" begin="1366" subtype="simple">1366</date>
+    <source style="italic" id="ey191">Malton</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221438">
+    <date end="1552" begin="1552" subtype="simple">1552</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w221481">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w221256">Cnapetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221256">Cnapeton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221256">Knapetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221256">Knapeton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221346">Cnaptona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221346">Cnapton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221346">Knaptona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221346">Knapton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221399">Knaptona in Herfordlith</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221399">Knapton in Herfordlith</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221438">Est Knaptona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221438">Est Knapton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221438">West Knaptona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221438">West Knapton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w221481">Senapeton'</searchterm>
+  </extension>
+ </mads>
+ 

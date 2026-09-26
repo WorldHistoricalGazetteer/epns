@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000016">
+  <authority ID="epns-deep-40-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001966">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000015" type="broader">
+   <geographic>Horton</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w81265">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001967">Horedone</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w81283">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001968">Hortune, Horton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w81403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001969">Heorton</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w81421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001970">Herton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b2b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3525000" lat="51.5583300" gazref="geonames:2646547" source="geonames"/>
+   <geo long="-2.346268316" lat="51.56289039" source="epns"/>
+   <geo long="-2.33902119377271" lat="51.55841601692335" gazref="unlock:11179799" source="unlock"/>
+   <geo easting="375500" northing="184500" long="-2.35479" lat="51.5588" kepnref="6461" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w81265">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81283">
+    <date end="1085" begin="1065" subtype="circa">c. 1075</date>
+    <copydate end="1367" begin="1367">1367</copydate>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81283">
+    <date end="1125" begin="1105" subtype="circa">c. 1115</date>
+    <copydate end="1333" begin="1333">1333</copydate>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81283">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81283">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81283">
+    <attestation variantID="epns-deep-40-b-name-w81283">
+     <date end="1271" begin="1271" subtype="simple">1271</date>
+     <source style="" id="go2">Abbr</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w81283">
+     <date end="1646" begin="1646" subtype="simple">1646</date>
+     <source style="italic" id="go434">Rec</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81403">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="go504">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81421">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w81421">
+    <date end="1360" begin="1360" subtype="simple">1360</date>
+    <date end="1374" begin="1374" subtype="simple">1374</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w81265">Horedone</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81283">Hortune</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81283">Hortona</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81283">Horton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81403">Heorton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81421">Hertone</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w81421">Herton</searchterm>
+  </extension>
+ </mads>
+ 

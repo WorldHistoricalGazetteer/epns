@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000489">
+  <authority ID="epns-deep-05-b-name-subparish-000489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005383">Easby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000165" type="broader">
+   <geographic>Easby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w381513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005384">Asebi, Aseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005385">Esebi, Eseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005386">Esseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381622">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005387">Easby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000476"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7130100" lat="54.3988000" gazref="geonames:2650522" source="geonames"/>
+   <geo long="-1.715007396479576" lat="54.39949039797876" gazref="unlock:11135500" source="unlock"/>
+   <geo easting="418500" northing="500500" long="-1.71653" lat="54.3996" kepnref="6141" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w381513">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381513">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>18 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381557">
+    <attestation variantID="epns-deep-05-b-name-w381557">
+     <date subtype="simple" begin="1151" end="1151">1151</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>2</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w381557">
+     <date subtype="simple" begin="1400" end="1400">1400</date>
+     <source style="" id="ny165">Pap</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381606">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381622">
+    <date subtype="simple" begin="1557" end="1557">1557</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w381513">Asebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381513">Aseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381557">Esebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381557">Eseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381606">Esseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381622">Easby</searchterm>
+  </extension>
+ </mads>
+ 

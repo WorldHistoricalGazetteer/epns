@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000374">
+  <authority ID="epns-deep-05-b-name-subparish-000374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004262">Healey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000132" type="broader">
+   <geographic>Mashamshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w313462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004263">Helagh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w313493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004264">Helaugh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w313510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004265">Healey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600053a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7333300" lat="54.2166700" gazref="geonames:2647231" source="geonames"/>
+   <geo long="-1.716246651609161" lat="54.21972763680187" gazref="unlock:11168784" source="unlock"/>
+   <geo easting="418500" northing="480500" long="-1.71777" lat="54.2199" kepnref="6027" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w313462">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w313462">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w313493">
+    <date subtype="simple" begin="1406" end="1406">1406</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w313510">
+    <date subtype="simple" begin="1561" end="1561">1561</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w313462">Helagh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w313493">Helaugh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w313510">Healey</searchterm>
+  </extension>
+ </mads>
+ 

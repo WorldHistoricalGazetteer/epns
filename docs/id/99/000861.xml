@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000041">
+  <authority ID="epns-deep-99-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000861">Woodhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000041" type="broader">
+   <geographic>Woodhurst</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w309904">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000862">Wdeherst</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w309922">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000863">Wdehirst</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w309940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000864">Wodehyrst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003d5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0666700" lat="52.3666700" gazref="geonames:2633638" source="geonames"/>
+   <geo long="-0.06824240651685053" lat="52.37036203731094" gazref="unlock:11326207" source="unlock"/>
+   <geo easting="531500" northing="276500" long="-0.0698778" lat="52.3708" kepnref="4169" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w309904">
+    <date subtype="simple" begin="1209" end="1209">1209</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w309922">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w309940">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w309904">Wdeherst</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w309922">Wdehirst</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w309940">Wodehyrst</searchterm>
+  </extension>
+ </mads>
+ 

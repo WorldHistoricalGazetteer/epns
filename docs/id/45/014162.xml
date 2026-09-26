@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000113">
+  <authority ID="epns-deep-45-b-name-subparish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014162">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000016" type="broader">
+   <geographic>Middlewich</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w650481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014163">Sudtune, Sutone</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014164">Sutton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014165">Suttone</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014166">Sutton iuxta Oc(c)leston</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650643">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014167">Sutton iuxta Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650673">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014168">Sutton iuxta Medlewich</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w650709">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014169">Sotton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.44885471" lat="53.17197677" source="epns"/>
+   <geo easting="370500" northing="364500" long="-2.44281" lat="53.1768" kepnref="11867" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w650481">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650506">
+    <attestation variantID="epns-deep-45-b-name-w650506">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <copydate end="1338" begin="1338">1338</copydate>
+     <source style="" id="ch674">VR</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650560">
+    <date end="1600" begin="1291">1291-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650569">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650643">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="" id="ch141">Cre</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650673">
+    <date subtype="simple" begin="1521" end="1521">1521</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w650709">
+    <date subtype="simple" begin="1592" end="1592">1592</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w650481">Sudtune</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650481">Sutone</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650506">Sutton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650560">Suttone</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650569">Sutton iuxta Occleston</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650569">Sutton iuxta Ocleston</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650643">Sutton iuxta Neuton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650673">Sutton iuxta Medlewich</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w650709">Sotton</searchterm>
+  </extension>
+ </mads>
+ 

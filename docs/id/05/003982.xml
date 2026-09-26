@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-hon-abovesubcounty-000001">
+  <authority ID="epns-deep-05-hon-name-abovesubcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003982">the Honour of Richmondshire</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-co-county-000001" type="broader">
+   <geographic>North Riding of Yorkshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-hon-name-w291800">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003983">shira de Richmond</geographic>
+  </variant>
+  <variant ID="epns-deep-05-hon-name-w291828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003984">Richemundesir(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-hon-name-w291856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003985">honore de Richemund, Rychemund</geographic>
+  </variant>
+  <variant ID="epns-deep-05-hon-name-w291897">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003986">Richemondskyre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286aecb47fc40bc6000001"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-05-hon-name-w291800">
+    <date end="1174" begin="1174" subtype="simple">1174</date>
+    <source style="" id="ny87">HCY</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-hon-name-w291828">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-hon-name-w291856">
+    <date end="1218" begin="1218" subtype="simple">1218</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-hon-name-w291897">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-hon-name-w291800">shira de Richmond</searchterm>
+   <searchterm variantID="epns-deep-05-hon-name-w291828">Richemundesira</searchterm>
+   <searchterm variantID="epns-deep-05-hon-name-w291828">Richemundesir</searchterm>
+   <searchterm variantID="epns-deep-05-hon-name-w291856">honore de Richemund</searchterm>
+   <searchterm variantID="epns-deep-05-hon-name-w291856">Rychemund</searchterm>
+   <searchterm variantID="epns-deep-05-hon-name-w291897">Richemondskyre</searchterm>
+  </extension>
+ </mads>
+ 

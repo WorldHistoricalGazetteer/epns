@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000088">
+  <authority ID="epns-deep-96-a-name-parish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004081">Histon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000010" type="broader">
+   <geographic>Chesterton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000704"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1064300" lat="52.2516600" gazref="geonames:2646828" source="geonames"/>
+   <geo long="0.102372378037991" lat="52.2505428280281" gazref="unlock:11175934" source="unlock"/>
+   <geo easting="543500" northing="263500" long="0.100722" lat="52.251" kepnref="4053" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000003">
+  <authority ID="epns-deep-20-b-name-subparish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000412">Bellbank</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000003" type="broader">
+   <geographic>Bellbank</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w19786">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000413">Belbancke</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w19805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000414">Belbank</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w19829">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000415">The Belbank</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w19856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000416">the Bellbanck</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w19884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/000417">Billbank</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000fa0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.743624384393007" lat="55.05365255155601" gazref="unlock:11074678" source="unlock"/>
+   <geo easting="352500" northing="573500" long="-2.74505" lat="55.0537" kepnref="4363" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w19786">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="cu204">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w19805">
+    <date end="1570" begin="1550" subtype="circa">c. 1560</date>
+    <source style="italic" id="cu191">LanerA</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w19829">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w19856">
+    <date end="1618" begin="1618" subtype="simple">1618</date>
+    <source style="" id="cu240">Naworth</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w19884">
+    <date end="1777" begin="1777" subtype="simple">1777</date>
+    <source style="" id="cu243">NB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w19786">Belbancke</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w19805">Belbank</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w19829">The Belbank</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w19856">the Bellbanck</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w19884">Billbank</searchterm>
+  </extension>
+ </mads>
+ 

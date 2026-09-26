@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000035">
+  <authority ID="epns-deep-32-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007470">Luddenden Foot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-ch-belowparish-000002" type="broader">
+   <geographic>Halifax Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w330002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007471">Luddingdeneforth, Luddyngdeneforth</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w330047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007472">Luddendenfoote</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w330081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007473">Ludington foote</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w330109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007474">Luddingden Foot</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w330133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/007475">Foot</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100614a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9458200" lat="53.7187300" gazref="geonames:2643437" source="geonames"/>
+   <geo long="-1.93938889" lat="53.71217995" source="epns"/>
+   <geo long="-1.931805217552581" lat="53.71667172597675" gazref="unlock:11209398" source="unlock"/>
+   <geo kepnexref="332" long="-1.938593" lat="53.718246" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w330002">
+    <date end="1307" begin="1307" subtype="simple">1307</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w330047">
+    <date end="1601" begin="1601" subtype="simple">1601</date>
+    <source style="" id="wr255">HAS</source>
+    <page>23, 40</page>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w330081">
+    <date end="1640" begin="1640" subtype="simple">1640</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w330109">
+    <date end="1771" begin="1771" subtype="simple">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w330133">
+    <date end="1775" begin="1775" subtype="simple">1775</date>
+    <source style="" id="wr754">Watson</source>
+    <page>69</page>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w330002">Luddingdeneforth</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w330002">Luddyngdeneforth</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w330047">Luddendenfoote</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w330081">Ludington foote</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w330109">Luddingden Foot</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w330133">Foot</searchterm>
+  </extension>
+ </mads>
+ 

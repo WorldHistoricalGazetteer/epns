@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000139">
+  <authority ID="epns-deep-05-b-name-subparish-000139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001459">Wilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000049" type="broader">
+   <geographic>Thornton Dale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w120424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001460">Wiltun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w120471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001461">Wilton(am), Wylton(am)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w120526">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001462">Willeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6756600" lat="54.2274500" gazref="geonames:7291097" source="geonames"/>
+   <geo long="-0.6728727140455328" lat="54.23073187196681" gazref="unlock:11323474" source="unlock"/>
+   <geo easting="486500" northing="482500" long="-0.674519" lat="54.2309" kepnref="5789" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w120424">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w120424">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iv</item>
+    <page>276</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w120424">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w120471">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w120471">
+    <attestation variantID="epns-deep-05-b-name-w120471">
+     <date subtype="simple" begin="1180" end="1180">1180</date>
+     <source style="" id="ny236">YCh</source>
+     <page>610</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w120526">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w120424">Wiltune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120424">Wiltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120471">Wiltonam</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120471">Wilton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120471">Wyltonam</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120471">Wylton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w120526">Willeton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000031">
+  <authority ID="epns-deep-28-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006290">South Normanton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000031" type="broader">
+   <geographic>South Normanton</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w241518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006291">Normentune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w241538">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006292">Normantun, Normanton(a), Normanton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w241647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006293">Normanton(e) als Sowth Normanton</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w241693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006294">Northmunton</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w241715">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006295">Sowth-, Southnormanton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001906"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3426200" lat="53.1063700" gazref="geonames:2637358" source="geonames"/>
+   <geo long="-1.335253637136751" lat="53.10354245284535" gazref="unlock:11287805" source="unlock"/>
+   <geo easting="444500" northing="356500" long="-1.33677" lat="53.1038" kepnref="3312" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w241518">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241538">
+    <date subtype="ante" begin="1116" end="1166">a. 1166</date>
+    <source style="italic" id="db8">AddCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241538">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="db456">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241538">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241538">
+    <attestation variantID="epns-deep-28-b-name-w241538">
+     <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+     <source style="italic" id="db589">WollCh</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241647">
+    <date subtype="simple" begin="1563" end="1563">1563</date>
+    <source style="italic" id="db588">Woll</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241693">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db544">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241715">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="db128">DbA</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w241715">
+    <date subtype="simple" begin="1592" end="1592">1592</date>
+    <source style="italic" id="db588">Woll</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w241518">Normentune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241538">Normantun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241538">Normantona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241538">Normanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241538">Normantone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241538">Normanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241647">Normantone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241647">Normanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241647">Sowth Normanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241693">Northmunton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241715">Sowth-</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w241715">Southnormanton</searchterm>
+  </extension>
+ </mads>
+ 

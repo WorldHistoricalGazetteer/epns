@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000231">
+  <authority ID="epns-deep-14-b-name-subparish-000231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005182">Storkhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000133" type="broader">
+   <geographic>Beverley</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w339648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005183">Estorch</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w339665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005184">Storck'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w339682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005185">Stork(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w339746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005186">Stork-Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00045a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="505500" northing="441500" long="-0.397398" lat="53.859" kepnref="8609" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w339648">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w339665">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey186">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w339682">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="ey91">Ebor</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w339682">
+    <attestation variantID="epns-deep-14-b-name-w339682">
+     <date end="1321" begin="1321" subtype="simple">1321</date>
+     <source style="" id="ey32">BevAct</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w339682">
+     <date end="1577" begin="1577" subtype="simple">1577</date>
+     <source style="" id="ey34">BevRec</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w339746">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w339648">Estorch</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w339665">Storck'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w339682">Storke</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w339682">Stork</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w339746">Stork-Hill</searchterm>
+  </extension>
+ </mads>
+ 

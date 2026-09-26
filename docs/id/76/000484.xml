@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-a-parish-000002">
+  <authority ID="epns-deep-76-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000484">Eyton upon the Weald Moors</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-althu-subcounty-000001" type="broader">
+   <geographic>Telford New Town</geographic>
+  </related>
+  <variant ID="epns-deep-76-a-name-w27490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000485">Etone</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27505">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000486">Eton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000487">Eiton</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000488">Eyton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000489">Eyton</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000490">Eyeton</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000491">Ayton</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w27668">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/000492">Iton Wilmore</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a5ffb47fc4463d000e25"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5166700" lat="52.7333300" gazref="geonames:2649768" source="geonames"/>
+   <geo long="-2.511014798219725" lat="52.7356936618211" gazref="unlock:11141269" source="unlock"/>
+   <geo easting="365500" northing="314500" long="-2.51227" lat="52.727" kepnref="13443" source="kepn"/>
+   <attestation variantID="epns-deep-76-a-name-w27490">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27505">
+    <date end="1292" begin="1291" subtype="simple">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27523">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="ss51">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27523">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="ss250">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27552">
+    <attestation variantID="epns-deep-76-a-name-w27552">
+     <date end="1231" begin="1231" subtype="simple">1231</date>
+     <source style="" id="ss37">Cl</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27599">
+    <date end="1600" begin="1231">1231-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27606">
+    <date end="1517" begin="1517" subtype="simple">1517</date>
+    <source style="italic" id="ss282">SRO</source>
+    <page>327</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27627">
+    <date end="1342" begin="1342" subtype="simple">1342</date>
+    <date end="1349" begin="1349" subtype="simple">9</date>
+    <source style="" id="ss214">Pat</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27627">
+    <date end="1737" begin="1737" subtype="simple">1737</date>
+    <date end="1740" begin="1740" subtype="simple">40</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>8</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w27668">
+    <date end="1589" begin="1589" subtype="simple">1589</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>9</page>
+   </attestation>
+   <searchterm variantID="epns-deep-76-a-name-w27490">Etone</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27505">Eton'</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27523">Eiton</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27552">Eyton'</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27599">Eyton</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27606">Eyeton</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27627">Ayton</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w27668">Iton Wilmore</searchterm>
+  </extension>
+ </mads>
+ 

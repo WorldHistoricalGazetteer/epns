@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000062">
+  <authority ID="epns-deep-79-a-name-parish-000062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/005752">Skeyton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d58"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.3347400" lat="52.7859500" gazref="geonames:7301917" source="geonames"/>
+   <geo long="1.321419855" lat="52.77570108" source="epns"/>
+   <geo long="1.329163887621995" lat="52.7799821611321" gazref="unlock:11284733" source="unlock"/>
+   <geo easting="624500" northing="325500" long="1.32735" lat="52.7804" kepnref="9215" source="kepn"/>
+  </extension>
+ </mads>
+ 

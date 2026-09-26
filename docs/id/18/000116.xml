@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000006">
+  <authority ID="epns-deep-18-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000116">Laleham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000001" type="broader">
+   <geographic>Spelthorne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a0000209"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4893600" lat="51.4095900" gazref="geonames:2645016" source="geonames"/>
+   <geo long="-0.4830653563858782" lat="51.40520839557519" gazref="unlock:11190539" source="unlock"/>
+   <geo easting="505500" northing="168500" long="-0.484613" lat="51.4057" kepnref="4718" source="kepn"/>
+  </extension>
+ </mads>
+ 

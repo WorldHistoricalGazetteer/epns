@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000093">
+  <authority ID="epns-deep-13-a-name-parish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004026">Frankton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000665"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3775400" lat="52.3285500" gazref="geonames:2649095" source="geonames"/>
+   <geo long="-1.376255142794451" lat="52.33055633454876" gazref="unlock:11147907" source="unlock"/>
+   <geo easting="442500" northing="270500" long="-1.37774" lat="52.331" kepnref="4981" source="kepn"/>
+  </extension>
+ </mads>
+ 

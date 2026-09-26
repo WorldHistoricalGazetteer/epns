@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000011">
+  <authority ID="epns-deep-82-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007346">Petton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000001" type="broader">
+   <geographic>Pimhill Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w291015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007347">Pectone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007348">Pecton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007349">Pecton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007350">Peton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007351">Peton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007352">Petone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007353">Petton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w291217">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/007354">Petton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a604b47fc4463d000e4b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8333300" lat="52.8333300" gazref="geonames:2640334" source="geonames"/>
+   <geo long="-2.838748079184195" lat="52.83272761744741" gazref="unlock:11244687" source="unlock"/>
+   <geo easting="343500" northing="326500" long="-2.84008" lat="52.833" kepnref="13600" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w291015">
+    <attestation variantID="epns-deep-82-a-name-w291015">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291061">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291072">
+    <date end="1307" begin="1306" subtype="simple">1306-7</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291099">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="ss51">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291099">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291129">
+    <date end="1300" begin="1300" subtype="simple">1300</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291145">
+    <date end="1307" begin="1307" subtype="simple">1307</date>
+    <date end="1317" begin="1317" subtype="simple">17</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291167">
+    <attestation variantID="epns-deep-82-a-name-w291167">
+     <date end="1255" begin="1255" subtype="simple">1255</date>
+     <source style="" id="ss250">RH</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w291217">
+    <date end="1600" begin="1255">1255-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w291015">Pectone</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291061">Pectona</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291061">Pecton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291072">Pecton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291099">Peton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291129">Peton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291145">Petone</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291167">Petton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w291217">Petton</searchterm>
+  </extension>
+ </mads>
+ 

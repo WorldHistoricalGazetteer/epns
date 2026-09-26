@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DEEP — not found</title>
+  <link rel="icon" type="image/svg+xml" href="/deep/favicon.svg" />
+  <style>
+    body { margin: 0; font-family: Georgia, serif; background: #f6f3ec; color: #1d2433; }
+    main { max-width: 640px; margin: 10vh auto; padding: 0 1.2rem; line-height: 1.55; }
+    code { font-size: .9em; } a { color: #2a6f97; }
+    .small { font-family: system-ui, sans-serif; font-size: .82rem; color: #6b6452; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Not found</h1>
+  <p id="msg">There is nothing at this address.</p>
+  <p class="small"><a id="home" href="./">Open the map</a></p>
+  <script>
+    /* Static machine representations (/id/<county>/<serial>.json|.geojson|.xml) exist for records at
+       parish level and above. For a minor name or field-name the address is genuinely absent (this
+       page answers HTTP 404), but a person arriving here can still be taken to the record, whose page
+       generates the same three formats in the browser. */
+    (function () {
+      var base = location.pathname.replace(/\/id\/.*$/, '/').replace(/[^\/]*$/, '');
+      var home = document.getElementById('home'); home.href = base;
+      var m = /\/id\/(\d{2})\/(\d{6})(?:\.(json|geojson|xml|html))?$/.exec(location.pathname);
+      if (!m) return;
+      var target = base + '#u=' + m[1] + '/' + m[2];
+      document.getElementById('msg').innerHTML = 'No static <code>' + (m[3] || 'file') + '</code> representation is published for record <code>' +
+        m[1] + '/' + m[2] + '</code>: those exist for the 15,587 records at parish level and above. Taking you to the record on the map, where its PLATO, LPF and MADS views are generated on the page…';
+      setTimeout(function () { location.replace(target); }, 1200);
+    })();
+  </script>
+</main>
+</body>
+</html>

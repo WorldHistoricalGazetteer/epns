@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000033">
+  <authority ID="epns-deep-11-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001710">Hook</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000033" type="broader">
+   <geographic>Hook</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w93433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001711">Hoke</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w93457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001712">La Hoke</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w93490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001713">terra del Hoc</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w93517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001714">Houke</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w93533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001715">Hook</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000ad9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3065000" lat="51.3680300" gazref="geonames:2646653" source="geonames"/>
+   <geo easting="517500" northing="164500" long="-0.313489" lat="51.3674" kepnref="8273" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w93433">
+    <attestation variantID="epns-deep-11-b-name-w93433">
+     <date end="1227" begin="1227" subtype="simple">1227</date>
+     <source style="" id="sr47">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w93457">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w93457">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="sr335">Winton</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w93490">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="sr181">Merton</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w93517">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w93533">
+    <date end="1680" begin="1680" subtype="simple">1680</date>
+    <source style="" id="sr140">Index Villaris</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w93433">Hoke</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w93457">La Hoke</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w93490">terra del Hoc</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w93517">Houke</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w93533">Hook</searchterm>
+  </extension>
+ </mads>
+ 

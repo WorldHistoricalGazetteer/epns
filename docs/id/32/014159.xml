@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000055">
+  <authority ID="epns-deep-32-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014159">Clayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-a-parish-000007" type="broader">
+   <geographic>Bradford</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w621044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014160">Claiton(e), Claitun</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w621093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014161">Clayton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w621176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014162">Clayton in Bradeforthdale</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w621212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014163">Claton in Bradforthdale</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w621247">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/014164">Cleyton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100609d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8166700" lat="53.7666700" gazref="geonames:2652900" source="geonames"/>
+   <geo long="-1.833070591" lat="53.77500274" source="epns"/>
+   <geo long="-1.825501516931189" lat="53.77049873288158" gazref="unlock:11108578" source="unlock"/>
+   <geo easting="411500" northing="431500" long="-1.82695" lat="53.7797" kepnref="14583" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w621044">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621044">
+    <date end="1225" begin="1200" subtype="simple">e. 13</date>
+    <source style="" id="wr18">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621044">
+    <date end="1588" begin="1588" subtype="simple">1588</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621093">
+    <date end="1193" begin="1177" subtype="simple">1177-93</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1515</page>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621093">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621093">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621093">
+    <attestation variantID="epns-deep-32-b-name-w621093">
+     <date end="1303" begin="1303" subtype="simple">1303</date>
+     <source style="" id="wr310">KF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-32-b-name-w621093">
+     <date end="1549" begin="1549" subtype="simple">1549</date>
+     <source style="" id="wr799">YD</source>
+     <item>i</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621176">
+    <date end="1369" begin="1369" subtype="simple">1369</date>
+    <source style="" id="wr18">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621212">
+    <date end="1386" begin="1386" subtype="simple">1386</date>
+    <source style="" id="wr18" underspec="ib">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w621247">
+    <date end="1526" begin="1526" subtype="simple">1526</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w621044">Claitone</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621044">Claiton</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621044">Claitun</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621093">Claytona</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621093">Clayton</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621176">Clayton in Bradeforthdale</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621212">Claton in Bradforthdale</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w621247">Cleyton</searchterm>
+  </extension>
+ </mads>
+ 

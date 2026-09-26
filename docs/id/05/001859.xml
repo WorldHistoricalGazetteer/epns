@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000161">
+  <authority ID="epns-deep-05-b-name-subparish-000161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001859">Broxa</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000061" type="broader">
+   <geographic>Hackness</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w150241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001860">Brokesay(e), Brokeseye</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w150303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001861">Brochesei</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w150329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001862">Broxhay</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w150348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001863">Brokessay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5441700" lat="54.3099100" gazref="geonames:2654482" source="geonames"/>
+   <geo long="-0.5473327596164075" lat="54.31018695865367" gazref="unlock:11090209" source="unlock"/>
+   <geo easting="494500" northing="491500" long="-0.548998" lat="54.3104" kepnref="5813" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w150241">
+    <attestation variantID="epns-deep-05-b-name-w150241">
+     <date subtype="simple" begin="1090" end="1096">1090-6</date>
+     <source style="" id="ny236">YCh</source>
+     <page>855</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w150241">
+     <date subtype="simple" begin="1335" end="1335">1335</date>
+     <source style="italic" id="ny68">ForP</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w150303">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w150329">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="italic" id="ny68">ForP</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w150348">
+    <date subtype="simple" begin="1395" end="1395">1395</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w150241">Brokesaye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w150241">Brokesay</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w150241">Brokeseye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w150303">Brochesei</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w150329">Broxhay</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w150348">Brokessay</searchterm>
+  </extension>
+ </mads>
+ 

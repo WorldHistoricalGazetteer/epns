@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000033">
+  <authority ID="epns-deep-44-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/008369">Lyme Handley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000007" type="broader">
+   <geographic>Prestbury</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w378826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/008370">Lyme Hanley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002025"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0471300" lat="53.3330900" gazref="geonames:7293006" source="geonames"/>
+   <geo long="-2.06007455" lat="53.33462425" source="epns"/>
+   <geo easting="396500" northing="382500" long="-2.05401" lat="53.3394" kepnref="11726" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w378826">
+    <date end="1478" begin="1478" subtype="simple">1478</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w378826">Lyme Hanley</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000240">
+  <authority ID="epns-deep-09-b-name-subparish-000240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012303">Stockland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000240" type="broader">
+   <geographic>Stockland</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w557511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012304">Stokelonde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w557547">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012305">Stocland</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w557569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012306">Stocland</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w557621">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012307">Stokland, Stoclond(e), Stoclaund(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w557658">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012308">Stokeland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a2d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.0734200" lat="50.8368000" gazref="geonames:2636886" source="geonames"/>
+   <geo long="-3.072271457555247" lat="50.8345414295415" gazref="unlock:11292514" source="unlock"/>
+   <geo easting="324500" northing="104500" long="-3.0735" lat="50.8351" kepnref="15911" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w557511">
+    <date end="939" begin="939" subtype="simple">939</date>
+    <source style="" id="de17">BCS</source>
+    <item>739</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w557547">
+    <date end="998" begin="998" subtype="simple">998</date>
+    <source style="" id="de117">KCD</source>
+    <item>701</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w557569">
+    <attestation variantID="epns-deep-09-b-name-w557569">
+     <date end="1202" begin="1202" subtype="simple">1202</date>
+     <source style="" id="de1">Abbr</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w557621">
+    <date end="1600" begin="1202">1202-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w557658">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="de83">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w557658">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="" id="de109">Inq aqd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w557511">Stokelonde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557547">Stocland</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557569">Stocland</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557621">Stokland</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557621">Stoclonde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557621">Stoclond</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557621">Stoclaunde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557621">Stoclaund</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w557658">Stokeland</searchterm>
+  </extension>
+ </mads>
+ 

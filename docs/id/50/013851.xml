@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000089">
+  <authority ID="epns-deep-50-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013851">North Moreton and South Moreton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000100" type="broader">
+   <geographic>North and South Moreton</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w557405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013852">Mortun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013853">Mortune</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013854">Mortun', Mortona, Morton'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013855">Mordon'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013856">Northmorton', Sudmorton'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013857">Northmorton', Suthmorton'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w557604">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/013858">Southmorton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b87"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1913300" lat="51.6012800" gazref="geonames:2641300" source="geonames"/>
+   <geo long="-1.184138554784186" lat="51.60103263816809" gazref="unlock:11232874" source="unlock"/>
+   <geo easting="456500" northing="189500" long="-1.18561" lat="51.6015" kepnref="3192" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w557405">
+    <date subtype="circa" begin="885" end="905">c. 895</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>565</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557435">
+    <attestation variantID="epns-deep-50-b-name-w557435">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="be84">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557486">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557513">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="be256">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557531">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557567">
+    <date subtype="simple" begin="1242" end="1243">1242-3</date>
+    <source style="" id="be121" underspec="ib">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557604">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="be128">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w557604">
+    <date subtype="simple" begin="1517" end="1517">1517</date>
+    <source style="" id="be89">D Inc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w557405">Mortun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557435">Mortune</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557486">Mortun'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557486">Mortona</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557486">Morton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557513">Mordon'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557531">Northmorton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557531">Sudmorton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557567">Northmorton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557567">Suthmorton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w557604">Southmorton</searchterm>
+   <searchterm madsID="epns-deep-50-b-subparish-000089">North Moreton</searchterm>
+   <searchterm madsID="epns-deep-50-b-subparish-000089">South Moreton</searchterm>
+  </extension>
+ </mads>
+ 

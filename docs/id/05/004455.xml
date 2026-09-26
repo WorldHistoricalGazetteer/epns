@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000398">
+  <authority ID="epns-deep-05-b-name-subparish-000398">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004455">West Appleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000139" type="broader">
+   <geographic>Catterick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w325224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004456">Westapelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w325259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004457">Mikelapleton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w325310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004458">Apleton, Apelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w325336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004459">Est Apelton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w325373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004460">Parva Apelton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000443"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.66922689703583" lat="54.34544447266594" gazref="unlock:11316290" source="unlock"/>
+   <geo easting="421500" northing="494500" long="-1.67076" lat="54.3456" kepnref="6051" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w325224">
+    <date subtype="simple" begin="1142" end="1153">1142-53</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>72</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w325259">
+    <date subtype="century" begin="1300" end="1400">14</date>
+    <source style="" id="ny220">VCH</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w325310">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w325336">
+    <date subtype="simple" begin="1142" end="1153">1142-53</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>72</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w325373">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w325224">Westapelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w325259">Mikelapleton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w325310">Apleton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w325310">Apelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w325336">Est Apelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w325373">Parva Apelton</searchterm>
+  </extension>
+ </mads>
+ 

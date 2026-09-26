@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000156">
+  <authority ID="epns-deep-05-b-name-subparish-000156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001748">Scarborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000059" type="broader">
+   <geographic>Scarborough</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w140580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001749">Escardeburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001750">Scardeburc(h), Scardeburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001751">Scarðeborc</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140709">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001752">Scartheburg(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001753">Scareburgh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001754">Skarbrugh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w140785">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001755">Scarbrowgh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000595"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4044300" lat="54.2796600" gazref="geonames:2638419" source="geonames"/>
+   <geo long="-0.4100789153938274" lat="54.2814876962257" gazref="unlock:11278793" source="unlock"/>
+   <geo easting="504500" northing="488500" long="-0.396407" lat="54.2815" kepnref="5806" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w140580">
+    <date subtype="simple" begin="1155" end="1163">1155-63</date>
+    <source style="" id="ny236">YCh</source>
+    <page>364</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140580">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140619">
+    <date subtype="simple" begin="1159" end="1190">1159-1190</date>
+    <date subtype="simple" begin="1505" end="1505">1505</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140685">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140709">
+    <attestation variantID="epns-deep-05-b-name-w140709">
+     <date subtype="simple" begin="1208" end="1208">1208</date>
+     <source style="italic" id="ny12">Ass</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140742">
+    <date subtype="simple" begin="1414" end="1414">1414</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140764">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w140785">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w140580">Escardeburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140619">Scardeburch</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140619">Scardeburc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140619">Scardeburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140685">Scarðeborc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140709">Scartheburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140709">Scartheburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140742">Scareburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140764">Skarbrugh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w140785">Scarbrowgh</searchterm>
+  </extension>
+ </mads>
+ 

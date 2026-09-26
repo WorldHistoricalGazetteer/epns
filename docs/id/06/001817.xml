@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000061">
+  <authority ID="epns-deep-06-b-name-subparish-000061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001817">North and South Ambersham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000061" type="broader">
+   <geographic>Ambersham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w149650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001818">Embresham, Æmbresham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w149693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001819">Ambresham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w149732">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001820">Ambersome</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w149754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001821">Amersham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000c98"/>
+  </recordInfo>
+  <extension>
+   <geo easting="491500" northing="120500" long="-0.698045" lat="50.9767" kepnref="6923" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w149650">
+    <date subtype="simple" begin="963" end="963">963</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>1114</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w149693">
+    <attestation variantID="epns-deep-06-b-name-w149693">
+     <date subtype="simple" begin="1166" end="1166">1166</date>
+     <source style="" id="su199">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w149693">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="" id="su44">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w149732">
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <source style="" id="su297">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w149754">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="su255">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w149650">Embresham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w149650">Æmbresham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w149693">Ambresham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w149732">Ambersome</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w149754">Amersham</searchterm>
+  </extension>
+ </mads>
+ 

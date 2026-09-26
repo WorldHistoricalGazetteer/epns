@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-b-subparish-000009">
+  <authority ID="epns-deep-43-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/001279">Winton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-a-parish-000001" type="broader">
+   <geographic>Kirkby Stephen</geographic>
+  </related>
+  <variant ID="epns-deep-43-b-name-w66181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/001280">Winton(ia), Wynton(ia), -tuna</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w66337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/001281">Wenton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013e6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3311600" lat="54.4904800" gazref="geonames:2633778" source="geonames"/>
+   <geo long="-2.33339" lat="54.4894" source="epns"/>
+   <geo long="-2.331932880048331" lat="54.48925147356105" gazref="unlock:11324378" source="unlock"/>
+   <geo easting="378500" northing="510500" long="-2.33339" lat="54.4894" kepnref="5133" source="kepn"/>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <date end="1097" begin="1090" subtype="simple">1090-7</date>
+    <source style="" id="we221">Kend</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <date end="1157" begin="1157" subtype="simple">1157</date>
+    <source style="" id="we489">YCh</source>
+    <page>354</page>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <date end="1199" begin="1189" subtype="regnal">Ric i</date>
+    <copydate end="1308" begin="1308">1308</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <attestation variantID="epns-deep-43-b-name-w66181">
+     <date end="1202" begin="1179" subtype="simple">1179-1202</date>
+     <source style="" id="we336">P</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <date end="1223" begin="1223" subtype="simple">1223</date>
+    <source style="" id="we90">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66181">
+    <attestation variantID="epns-deep-43-b-name-w66181">
+     <date end="1256" begin="1256" subtype="simple">1256</date>
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="italic" id="we23">Ass</source>
+    </attestation>
+    <attestation variantID="epns-deep-43-b-name-w66181">
+     <date end="1256" begin="1256" subtype="simple">1256</date>
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="" id="we208">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-43-b-name-w66181">
+     <date end="1663" begin="1663" subtype="simple">1663</date>
+     <source style="italic" id="we106">Dep</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w66337">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="we336">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-43-b-name-w66181">Wintonia</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w66181">Winton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w66181">Wyntonia</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w66181">Wynton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w66181">-tuna</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w66337">Wenton'</searchterm>
+  </extension>
+ </mads>
+ 

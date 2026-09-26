@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000053">
+  <authority ID="epns-deep-24-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004524">Grafton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000050" type="broader">
+   <geographic>Grafton and Radcot</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w169929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004525">Graptone</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w169947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004526">Graftona</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w169996">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004527">Graftun', Grafton', Grafton</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w170027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004528">Graffton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.616489169905272" lat="51.70215674907576" gazref="unlock:11157220" source="unlock"/>
+   <geo easting="427500" northing="200500" long="-1.60345" lat="51.7026" kepnref="3685" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w169929">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ox54">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w169947">
+    <attestation variantID="epns-deep-24-b-name-w169947">
+     <date subtype="simple" begin="1130" end="1130">1130</date>
+     <source style="" id="ox168">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w169996">
+    <date end="1600" begin="1130">1130-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w170027">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="ox205">RegAntiquiss</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w169929">Graptone</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w169947">Graftona</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w169996">Graftun'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w169996">Grafton'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w169996">Grafton</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w170027">Graffton'</searchterm>
+  </extension>
+ </mads>
+ 

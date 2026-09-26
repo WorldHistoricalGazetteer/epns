@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000008">
+  <authority ID="epns-deep-99-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000125">Old Fletton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000008" type="broader">
+   <geographic>Fletton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w249367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000126">Fletun</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w249383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000127">Flettuna</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w249437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000128">Fletton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w249467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000129">Flutone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000345"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2372635918977108" lat="52.55284709892396" gazref="unlock:11235576" source="unlock"/>
+   <geo easting="519500" northing="297500" long="-0.238527" lat="52.5622" kepnref="4138" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w249367">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w249383">
+    <date subtype="circa" begin="1115" end="1135">c. 1125</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="bh216">Lib Niger de St Petroburg</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w249437">
+    <attestation variantID="epns-deep-99-b-name-w249437">
+     <date subtype="simple" begin="1227" end="1227">1227</date>
+     <source style="italic" id="bh9">Ass</source>
+    </attestation>
+    <passim>et passim)</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w249467">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w249367">Fletun</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w249383">Flettuna</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w249437">Fletton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w249467">Flutone</searchterm>
+  </extension>
+ </mads>
+ 

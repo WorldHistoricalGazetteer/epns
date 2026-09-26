@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000043">
+  <authority ID="epns-deep-12-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002271">Stapleford Tawney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000003" type="broader">
+   <geographic>Ongar Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d1d"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1666700" lat="51.6666700" gazref="geonames:2637019" source="geonames"/>
+   <geo long="0.1767996983290271" lat="51.67361837087665" gazref="unlock:11291319" source="unlock"/>
+   <geo easting="550500" northing="198500" long="0.174735" lat="51.6651" kepnref="12247" source="kepn"/>
+  </extension>
+ </mads>
+ 

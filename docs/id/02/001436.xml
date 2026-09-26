@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000091">
+  <authority ID="epns-deep-02-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001436">Aston Abbots</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000090" type="broader">
+   <geographic>Aston Abbots</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w100076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001437">Estone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w100131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001438">Aston</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w100162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001439">Aston Abbatis</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300031e"/>
+  </recordInfo>
+  <extension>
+   <geo easting="484500" northing="220500" long="-0.773904" lat="51.8767" kepnref="11284" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w100076">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100076">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="bu21">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100076">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100076">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1450</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100131">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="bu37">Fees</source>
+    <item>878</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100131">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w100162">
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w100076">Estone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w100131">Aston</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w100162">Aston Abbatis</searchterm>
+  </extension>
+ </mads>
+ 

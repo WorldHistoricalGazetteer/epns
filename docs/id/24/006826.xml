@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000090">
+  <authority ID="epns-deep-24-b-name-subparish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006826">Lyneham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000079" type="broader">
+   <geographic>Lyneham</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w260549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006827">Lineham</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w260575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006828">Lyneham</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w260592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006829">Linham</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w260674">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006830">Lynham, Leynham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000827"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5873300" lat="51.8854200" gazref="geonames:7292166" source="geonames"/>
+   <geo long="-1.600431365636511" lat="51.88194548913783" gazref="unlock:11210142" source="unlock"/>
+   <geo easting="427500" northing="220500" long="-1.60187" lat="51.8824" kepnref="3713" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w260549">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ox54">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w260549">
+    <date subtype="simple" begin="1216" end="1216">1216</date>
+    <source style="" id="ox42">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w260575">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="ox42">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w260592">
+    <date subtype="simple" begin="1137" end="1139">1137-9</date>
+    <source style="italic" id="ox302">Farrer, Early Yorkshire Charters</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w260674">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w260549">Lineham</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w260575">Lyneham</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w260592">Linham</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w260674">Lynham</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w260674">Leynham</searchterm>
+  </extension>
+ </mads>
+ 

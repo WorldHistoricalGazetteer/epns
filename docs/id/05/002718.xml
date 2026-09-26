@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000205">
+  <authority ID="epns-deep-05-b-name-subparish-000205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002718">Kirkleatham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000078" type="broader">
+   <geographic>Kirkleatham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w208312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002719">Westlidun, Westlid(e), Weslide, Westlidum, Westude</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w208372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002720">Livum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w208389">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002721">Lisum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w208406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002722">Kyrkelidun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w208425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002723">Kirkledom</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600050c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0818100" lat="54.5884800" gazref="geonames:2645255" source="geonames"/>
+   <geo long="-1.079229364502722" lat="54.58507196358554" gazref="unlock:11188066" source="unlock"/>
+   <geo easting="459500" northing="521500" long="-1.08084" lat="54.5852" kepnref="5857" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w208312">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w208372">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w208389">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w208406">
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w208425">
+    <date subtype="simple" begin="1491" end="1491">1491</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Westlidun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Westlide</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Westlid</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Weslide</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Westlidum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208312">Westude</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208372">Livum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208389">Lisum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208406">Kyrkelidun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w208425">Kirkledom</searchterm>
+  </extension>
+ </mads>
+ 

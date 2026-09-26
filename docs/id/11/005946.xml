@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000090">
+  <authority ID="epns-deep-11-b-name-subparish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005946">Seale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000090" type="broader">
+   <geographic>Seale</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w323689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005947">Sela</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005948">Sele</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005949">Sele juxta Farnham</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323778">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005950">Zeyle</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005951">Seele</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323813">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005952">Seale</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w323825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005953">Seall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000b00"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7168600" lat="51.2223100" gazref="geonames:2638297" source="geonames"/>
+   <geo long="-0.718325963150795" lat="51.21915855699793" gazref="unlock:11279747" source="unlock"/>
+   <geo easting="489500" northing="147500" long="-0.71984" lat="51.2197" kepnref="8330" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w323689">
+    <date end="1210" begin="1210" subtype="simple">1210</date>
+    <source style="italic" id="sr267">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323707">
+    <date end="1218" begin="1218" subtype="simple">1218</date>
+    <date end="1257" begin="1257" subtype="simple">1257</date>
+    <source style="italic" id="sr267" underspec="ib">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323707">
+    <attestation variantID="epns-deep-11-b-name-w323707">
+     <date end="1225" begin="1225" subtype="simple">1225</date>
+     <source style="italic" id="sr16">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323750">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323778">
+    <date end="1488" begin="1488" subtype="simple">1488</date>
+    <source style="" id="sr298">SrWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323798">
+    <date end="1525" begin="1525" subtype="simple">1525</date>
+    <source style="" id="sr295">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323813">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="italic" id="sr264">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w323825">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="italic" id="sr264">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w323689">Sela</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323707">Sele</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323750">Sele juxta Farnham</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323778">Zeyle</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323798">Seele</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323813">Seale</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w323825">Seall</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000137">
+  <authority ID="epns-deep-09-a-name-parish-000137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007023">Ipplepen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000009" type="broader">
+   <geographic>Haytor Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6390000" lat="50.4891900" gazref="geonames:2646062" source="geonames"/>
+   <geo long="-3.642390380986421" lat="50.48611662795887" gazref="unlock:11183188" source="unlock"/>
+   <geo easting="283500" northing="66500" long="-3.64355" lat="50.4867" kepnref="15808" source="kepn"/>
+  </extension>
+ </mads>
+ 

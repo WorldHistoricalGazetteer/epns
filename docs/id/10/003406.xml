@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000149">
+  <authority ID="epns-deep-10-a-name-parish-000149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003406">Brixworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000010" type="broader">
+   <geographic>Orlingbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9035000" lat="52.3291200" gazref="geonames:2654660" source="geonames"/>
+   <geo long="-0.9066848027781165" lat="52.3271439567259" gazref="unlock:11087593" source="unlock"/>
+   <geo easting="474500" northing="270500" long="-0.908221" lat="52.3275" kepnref="11019" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-feat-feature-000001">
+  <authority ID="epns-deep-40-feat-name-feature-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010830">Offa's Dike</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000017" type="broader">
+   <geographic>St Briavels Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-40-feat-name-w484050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010831">Offedich(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-feat-name-w484202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010832">le Dikes in Mayleskoyt</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-feat-name-w484050">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-feat-name-w484050">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="go5">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-feat-name-w484202">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="go194">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-feat-name-w484050">Offediche</searchterm>
+   <searchterm variantID="epns-deep-40-feat-name-w484050">Offedich</searchterm>
+   <searchterm variantID="epns-deep-40-feat-name-w484202">le Dikes in Mayleskoyt</searchterm>
+  </extension>
+ </mads>
+ 

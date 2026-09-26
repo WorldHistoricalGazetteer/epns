@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000333">
+  <authority ID="epns-deep-12-a-name-parish-000333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/014969">Belchamp Walter</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000016" type="broader">
+   <geographic>Hinckford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bbe"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6517400" lat="52.0383400" gazref="geonames:7293487" source="geonames"/>
+   <geo long="0.6462381792518264" lat="52.03273909497992" gazref="unlock:11074496" source="unlock"/>
+   <geo easting="581500" northing="240500" long="0.644535" lat="52.0332" kepnref="12497" source="kepn"/>
+  </extension>
+ </mads>
+ 

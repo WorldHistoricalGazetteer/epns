@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000003">
+  <authority ID="epns-deep-27-b-name-subparish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000299">Aston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000003" type="broader">
+   <geographic>Aston</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w12501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000300">Estune</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w12517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000301">Eston'</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w12573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000302">Eston</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w12605">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000303">Aston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c0017ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7233300" lat="53.3537600" gazref="geonames:7293267" source="geonames"/>
+   <geo long="-1.722069168882995" lat="53.34780149150443" gazref="unlock:11064992" source="unlock"/>
+   <geo easting="418500" northing="383500" long="-1.72355" lat="53.3481" kepnref="3201" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w12501">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12517">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12517">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="db196">FineR</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12517">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12517">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="db2">Abbr</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12573">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="italic" id="db295">LichChart</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12573">
+    <date end="1272" begin="1216" subtype="regnal">Hy 3</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12605">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w12605">
+    <attestation variantID="epns-deep-27-b-name-w12605">
+     <date end="1294" begin="1294" subtype="simple">1294</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w12501">Estune</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w12517">Eston'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w12573">Eston</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w12605">Aston</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000068">
+  <authority ID="epns-deep-14-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001680">Hempholme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000037" type="broader">
+   <geographic>Leven</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w105426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001681">Hempholm(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w105475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001682">Hemphome</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w105493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001683">Henepeholm</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w105516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001684">Hempeholme</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004fd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3469475179130354" lat="53.93902949941263" gazref="unlock:11169835" source="unlock"/>
+   <geo easting="508500" northing="450500" long="-0.34862" lat="53.9393" kepnref="8451" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w105426">
+    <date end="1190" begin="1175" subtype="simple">1175-90</date>
+    <source style="" id="ey367">YCh</source>
+    <page>1410</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w105426">
+    <date end="1664" begin="1664" subtype="simple">1664</date>
+    <source style="" id="ey76">Deposition</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w105475">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w105493">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w105516">
+    <date end="1588" begin="1588" subtype="simple">1588</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w105426">Hempholme</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w105426">Hempholm</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w105475">Hemphome</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w105493">Henepeholm</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w105516">Hempeholme</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000340">
+  <authority ID="epns-deep-12-b-name-subparish-000340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020698">Clavering</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000455" type="broader">
+   <geographic>Clavering</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w1002209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020699">Clæfring</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020700">Clauelinga</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020701">Clauering(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020702">Clavering(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020703">Claveryng(g)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020704">Claveringes</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020705">Clafringes</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1002471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020706">Cleavering</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000dc3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1430800" lat="51.9654000" gazref="geonames:2652919" source="geonames"/>
+   <geo long="0.1470708809801644" lat="51.96195797013744" gazref="unlock:11108307" source="unlock"/>
+   <geo kepnexref="0174" long="0.143287" lat="51.966269" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w1002209">
+    <date subtype="circa" begin="1040" end="1060">c. 1050</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ex210">KCD</source>
+    <item>1354</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002243">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002263">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <source style="" id="ex82">Colch</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002263">
+    <date subtype="simple" begin="1159" end="1159">1159</date>
+    <source style="" id="ex306">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002299">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002299">
+    <date subtype="simple" begin="1209" end="1209">1209</date>
+    <source style="italic" id="ex182">HarlCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002299">
+    <date subtype="regnal" begin="1216" end="1272">t. Hy 3</date>
+    <source style="" id="ex349">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002349">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="ex355">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002349">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002349">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="" id="ex234">Londin</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002395">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ex423">WalthamCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002395">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002395">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="ex234">Londin</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002451">
+    <date subtype="century" begin="1200" end="1300">13th</date>
+    <source style="" id="ex39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1002471">
+    <date subtype="simple" begin="1699" end="1699">1699</date>
+    <source style="" id="ex189">Herts</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w1002209">Clæfring</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002243">Clauelinga</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002263">Claueringa</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002263">Clauering</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002299">Claveringe</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002299">Clavering</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002349">Claveryngg</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002349">Claveryng</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002395">Claveringes</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002451">Clafringes</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1002471">Cleavering</searchterm>
+  </extension>
+ </mads>
+ 

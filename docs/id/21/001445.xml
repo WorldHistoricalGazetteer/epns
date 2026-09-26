@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-a-parish-000020">
+  <authority ID="epns-deep-21-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001445">Flimby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-w-subcounty-000001" type="broader">
+   <geographic>Allerdale Below Derwent Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f03"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5209200" lat="54.6895600" gazref="geonames:2649304" source="geonames"/>
+   <geo long="-3.512640465435663" lat="54.68698714116295" gazref="unlock:11145526" source="unlock"/>
+   <geo easting="302500" northing="533500" long="-3.51396" lat="54.6871" kepnref="4475" source="kepn"/>
+  </extension>
+ </mads>
+ 

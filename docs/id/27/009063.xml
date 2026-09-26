@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000079">
+  <authority ID="epns-deep-27-b-name-subparish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009063">Winster</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000077" type="broader">
+   <geographic>Winster</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w355417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009064">Winsterne</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w355436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009065">Winesterna</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w355486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009066">Vinesterna</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w355530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009067">Win(e)ster, Wynster</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w355617">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/009068">Winstre, Wynstre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00193e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6425800" lat="53.1418000" gazref="geonames:2633806" source="geonames"/>
+   <geo long="-1.633701080807041" lat="53.14079523600854" gazref="unlock:11324218" source="unlock"/>
+   <geo easting="424500" northing="360500" long="-1.63518" lat="53.1411" kepnref="3279" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w355417">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355436">
+    <date end="1126" begin="1121" subtype="simple">1121-6</date>
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <source style="" id="db459">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355436">
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <copydate end="1329" begin="1329">1329</copydate>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355486">
+    <date end="1126" begin="1120" subtype="simple">1120-6</date>
+    <source style="" id="db459">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355486">
+    <date end="1126" begin="1120" subtype="simple">1120-6</date>
+    <copydate end="1329" begin="1329">1329</copydate>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355530">
+    <date end="1200" begin="1175" subtype="simple">late 12th</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355530">
+    <date end="1211" begin="1211" subtype="simple">1211</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355530">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355530">
+    <attestation variantID="epns-deep-27-b-name-w355530">
+     <date end="1260" begin="1260" subtype="simple">1260</date>
+     <source style="" id="db491">Selden</source>
+     <item>xlviii</item>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355617">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="db62">BurtCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355617">
+    <date end="1271" begin="1271" subtype="simple">1271</date>
+    <source style="" id="db21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w355617">
+    <attestation variantID="epns-deep-27-b-name-w355617">
+     <date end="1309" begin="1309" subtype="simple">1309</date>
+     <source style="" id="db129">DbCh</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-27-b-name-w355617">
+     <date end="1758" begin="1758" subtype="simple">1758</date>
+     <source style="" id="db45">Bowen</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w355417">Winsterne</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355436">Winesterna</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355486">Vinesterna</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355530">Winester</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355530">Winster</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355530">Wynster</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355617">Winstre</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w355617">Wynstre</searchterm>
+  </extension>
+ </mads>
+ 

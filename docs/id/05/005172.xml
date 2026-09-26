@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000460">
+  <authority ID="epns-deep-05-b-name-subparish-000460">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005172">Yafforth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000154" type="broader">
+   <geographic>Danby Wiske</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w369181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005173">Eiford</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005174">Iaforde, Iaforbe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005175">Jaford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369266">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005176">Jafford</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005177">Yafford</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369341">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005178">Yafforthe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600046f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4735700" lat="54.3452600" gazref="geonames:2633426" source="geonames"/>
+   <geo long="-1.469232268071205" lat="54.34473066431809" gazref="unlock:11328208" source="unlock"/>
+   <geo easting="434500" northing="494500" long="-1.47079" lat="54.3449" kepnref="6113" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w369181">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369181">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny220">VCH</source>
+    <item>i</item>
+    <page>174</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369212">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369238">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369238">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369266">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369266">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369295">
+    <attestation variantID="epns-deep-05-b-name-w369295">
+     <date subtype="simple" begin="1283" end="1283">1283</date>
+     <source style="italic" id="ny194">Rich</source>
+     <page>34</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w369295">
+     <date subtype="simple" begin="1530" end="1530">1530</date>
+     <source style="" id="ny224">Visit</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369341">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w369181">Eiford</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369212">Iaforde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369212">Iaforbe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369238">Jaforde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369238">Jaford</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369266">Jafford</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369295">Yafford</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369341">Yafforthe</searchterm>
+  </extension>
+ </mads>
+ 

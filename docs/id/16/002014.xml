@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000041">
+  <authority ID="epns-deep-16-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002014">Sutton Benger</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000044" type="broader">
+   <geographic>Sutton Benger</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w105727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002015">(at) Suttune</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105760">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002016">Sutton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002017">Sutton(e) Berengeres</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002018">Sutton(e) juxta Bradenstoke</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002019">Sutton(e) Benger</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105905">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002020">Sutton(e) Leonard juxta Christmalford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w105958">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002021">Sudtone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e55"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0801500" lat="51.5068500" gazref="geonames:2636490" source="geonames"/>
+   <geo long="-2.079252349082835" lat="51.50492416774341" gazref="unlock:11295825" source="unlock"/>
+   <geo easting="394500" northing="178500" long="-2.08062" lat="51.5054" kepnref="7209" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w105727">
+    <date subtype="simple" begin="854" end="854">854</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>470</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105760">
+    <date subtype="simple" begin="956" end="956">956</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <page>922</page>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105760">
+    <date subtype="simple" begin="1115" end="1115">1115</date>
+    <source style="" id="ws288">Osmund</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105805">
+    <date subtype="simple" begin="1377" end="1377">1377</date>
+    <source style="" id="ws147">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105837">
+    <date subtype="simple" begin="1415" end="1415">1415</date>
+    <source style="" id="ws22">Aubrey</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105878">
+    <date subtype="simple" begin="1488" end="1488">1488</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105905">
+    <date subtype="simple" begin="1497" end="1497">1497</date>
+    <source style="" id="ws22">Aubrey</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w105958">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w105727">at Suttune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105727">Suttune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105760">Suttone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105760">Sutton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105805">Suttone Berengeres</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105805">Sutton Berengeres</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105837">Suttone juxta Bradenstoke</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105837">Sutton juxta Bradenstoke</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105878">Suttone Benger</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105878">Sutton Benger</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105905">Suttone Leonard juxta Christmalford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105905">Sutton Leonard juxta Christmalford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w105958">Sudtone</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000041">
+  <authority ID="epns-deep-98-a-name-parish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001005">Cranfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000004" type="broader">
+   <geographic>Redbornstoke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000242"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6088400" lat="52.0686900" gazref="geonames:2652087" source="geonames"/>
+   <geo long="-0.6064860684782769" lat="52.07220527836171" gazref="unlock:11119958" source="unlock"/>
+   <geo easting="495500" northing="242500" long="-0.608047" lat="52.0726" kepnref="4263" source="kepn"/>
+  </extension>
+ </mads>
+ 

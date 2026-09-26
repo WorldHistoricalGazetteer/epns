@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000065">
+  <authority ID="epns-deep-49-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/016968">Greenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000072" type="broader">
+   <geographic>Greenham</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w557120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/016969">Greneham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w557166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/016970">Grenham</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w557197">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/016971">Grenham Hospitalium</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b65"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3043900" lat="51.3844700" gazref="geonames:7301520" source="geonames"/>
+   <geo long="-1.302948002081123" lat="51.38597420252128" gazref="unlock:11160296" source="unlock"/>
+   <geo easting="448500" northing="165500" long="-1.3044" lat="51.3865" kepnref="3090" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w557120">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w557120">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w557120">
+    <date end="1517" begin="1517" subtype="simple">1517</date>
+    <source style="" id="be89">D Inc</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w557166">
+    <attestation variantID="epns-deep-49-b-name-w557166">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="be315">RR</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w557197">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w557120">Greneham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w557166">Grenham</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w557197">Grenham Hospitalium</searchterm>
+  </extension>
+ </mads>
+ 

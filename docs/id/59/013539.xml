@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000042">
+  <authority ID="epns-deep-59-a-name-parish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/013539">Pulham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000005" type="broader">
+   <geographic>Buckland Newton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a42"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4090800" lat="50.8753500" gazref="geonames:7291569" source="geonames"/>
+   <geo long="-2.41932267297564" lat="50.87468875222759" gazref="unlock:11317547" source="unlock"/>
+   <geo easting="370500" northing="108500" long="-2.42063" lat="50.8752" kepnref="11443" source="kepn"/>
+  </extension>
+ </mads>
+ 

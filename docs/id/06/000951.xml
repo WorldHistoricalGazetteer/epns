@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000033">
+  <authority ID="epns-deep-06-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000951">Bosham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000033" type="broader">
+   <geographic>Bosham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w82334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000952">Bosanhamm</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000953">Bosanham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000954">Bosenham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000955">Boseham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000956">Bosham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000957">Bosam</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000958">Bossom</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w82603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000959">Bozam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cb5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8538400" lat="50.8308800" gazref="geonames:2655143" source="geonames"/>
+   <geo long="-0.856731818296887" lat="50.83386739470462" gazref="unlock:11083391" source="unlock"/>
+   <geo easting="480500" northing="104500" long="-0.858215" lat="50.8344" kepnref="6894" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w82334">
+    <date subtype="circa" begin="740" end="760">c. 750</date>
+    <source style="" id="su22">Bede</source>
+    <source style="" id="su408">Moore MS</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82368">
+    <date subtype="century" begin="700" end="800">8th</date>
+    <source style="" id="su22">Bede</source>
+    <source style="" id="su409">other MSS</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82368">
+    <date subtype="circa" begin="990" end="1010">c. 1000</date>
+    <source style="" id="su10">ASBede</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82368">
+    <date subtype="simple" begin="1049" end="1049">1049</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <ms>C</ms>
+    <source style="" id="su11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82441">
+    <date subtype="simple" begin="1046" end="1046">1046</date>
+    <date subtype="simple" begin="1048" end="1048">1048</date>
+    <copydate end="1160" begin="1140">c. 1150</copydate>
+    <ms>E</ms>
+    <source style="" id="su11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82478">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82478">
+    <date subtype="simple" begin="1121" end="1121">1121</date>
+    <source style="" id="su2">AC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82478">
+    <attestation variantID="epns-deep-06-b-name-w82478">
+     <date subtype="simple" begin="1156" end="1156">1156</date>
+     <source style="" id="su237">RBE</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w82478">
+     <date subtype="simple" begin="1407" end="1407">1407</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82539">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82539">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82565">
+    <date subtype="simple" begin="1462" end="1462">1462</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82581">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="su273">SRS</source>
+    <item>29</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w82603">
+    <date subtype="simple" begin="1628" end="1628">1628</date>
+    <source style="italic" id="su502">Pat</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w82334">Bosanhamm</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82368">Bosanham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82441">Bosenham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82478">Boseham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82539">Bosham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82565">Bosam</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82581">Bossom</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w82603">Bozam</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000031">
+  <authority ID="epns-deep-12-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002211">Stapleford Abbots and Stapleford Tawney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000041" type="broader">
+   <geographic>Stapleford Abbots and Tawney</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w115727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002212">Staplefordam, Staplefort</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002213">Stafford</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002214">Stabelfoot</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002215">Abbatis</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002216">Will'</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002217">Magna</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002218">Staplford Abbatis Sancti Edmundi</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w115993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002219">Taenny</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w116012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002220">Tany</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w116031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002221">Taweny</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w116053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/002222">Tuke quondam voc. Stapleford Abbottes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e99"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1750100" lat="51.6315000" gazref="geonames:2637020" source="geonames"/>
+   <geo easting="550500" northing="196500" long="0.173875" lat="51.6472" kepnref="12234" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w115727">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115802">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ex306">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115825">
+    <date subtype="simple" begin="1749" end="1749">1749</date>
+    <source style="" id="ex137">ER</source>
+    <item>xx</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115888">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115908">
+    <date subtype="simple" begin="1238" end="1238">1238</date>
+    <source style="italic" id="ex385">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115925">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ex200">Inq aqd</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115947">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w115993">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w116012">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="italic" id="ex19" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w116031">
+    <date subtype="circa" begin="1470" end="1490">c. 1480</date>
+    <source style="" id="ex129">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w116053">
+    <date subtype="regnal" begin="1509" end="1547">t. Hy 8</date>
+    <source style="italic" id="ex16">AOMB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w115727">Staplefordam</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115727">Staplefort</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115802">Stafford</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115825">Stabelfoot</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115888">Abbatis</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115908">Will'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115925">Magna</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115947">Staplford Abbatis Sancti Edmundi</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w115993">Taenny</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w116012">Tany</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w116031">Taweny</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w116053">Tuke quondam voc. Stapleford Abbottes</searchterm>
+   <searchterm madsID="epns-deep-12-b-subparish-000031">Stapleford Abbots</searchterm>
+   <searchterm madsID="epns-deep-12-b-subparish-000031">Stapleford Tawney</searchterm>
+  </extension>
+ </mads>
+ 

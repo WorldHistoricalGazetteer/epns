@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000243">
+  <authority ID="epns-deep-13-b-name-subparish-000243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009934">Little Compton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000253" type="broader">
+   <geographic>Little Compton</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w512290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009935">Contone parva</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w512313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009936">Cumpthone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w512339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009937">Parva Compton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w512368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009938">Compton in Floribus</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f000798"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6201000" lat="51.9703400" gazref="geonames:2644346" source="geonames"/>
+   <geo long="-1.614190571937203" lat="51.97191043702102" gazref="unlock:11196105" source="unlock"/>
+   <geo easting="426500" northing="230500" long="-1.61563" lat="51.9723" kepnref="4816" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w512290">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w512313">
+    <date end="1272" begin="1216" subtype="regnal">t. Hy 3</date>
+    <source style="" id="wa182">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w512339">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="wa319">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w512368">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wa305">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w512290">Contone parva</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w512313">Cumpthone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w512339">Parva Compton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w512368">Compton in Floribus</searchterm>
+  </extension>
+ </mads>
+ 

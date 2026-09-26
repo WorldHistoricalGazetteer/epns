@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000005">
+  <authority ID="epns-deep-13-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000265">Middleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000005" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w13436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000266">Mideltone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w13455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000267">Middelton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w13508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000268">Middleton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w13519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000269">Middelton juxta Drayton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w13553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000270">Middeltun</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w13575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000271">Middilton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7333300" lat="52.5833300" gazref="geonames:2642597" source="geonames"/>
+   <geo easting="417500" northing="298500" long="-1.74314" lat="52.584" kepnref="4941" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w13436">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w13455">
+    <attestation variantID="epns-deep-13-b-name-w13455">
+     <date end="1175" begin="1175" subtype="simple">1175</date>
+     <source style="" id="wa213">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w13508">
+    <date end="1600" begin="1175">1175-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w13519">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w13553">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w13575">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="wa138">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w13436">Mideltone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w13455">Middelton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w13508">Middleton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w13519">Middelton juxta Drayton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w13553">Middeltun</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w13575">Middilton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-a-parish-000002">
+  <authority ID="epns-deep-47-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002510">Tilston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-hu-subcounty-000001" type="broader">
+   <geographic>Broxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283655b47fc40856001f20"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8087800" lat="53.0570100" gazref="geonames:2635813" source="geonames"/>
+   <geo long="-2.81326506081235" lat="53.05766868188628" gazref="unlock:11301197" source="unlock"/>
+   <geo easting="346500" northing="351500" long="-2.79969" lat="53.0581" kepnref="12044" source="kepn"/>
+  </extension>
+ </mads>
+ 

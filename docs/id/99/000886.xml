@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000043">
+  <authority ID="epns-deep-99-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000886">Wyton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000002" type="broader">
+   <geographic>Hurstingstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1166700" lat="52.3333300" gazref="geonames:2633431" source="geonames"/>
+   <geo long="-0.1284879075429727" lat="52.33536200154801" gazref="unlock:11328046" source="unlock"/>
+   <geo easting="527500" northing="272500" long="-0.130115" lat="52.3358" kepnref="4171" source="kepn"/>
+  </extension>
+ </mads>
+ 

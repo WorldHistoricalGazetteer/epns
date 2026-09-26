@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000024">
+  <authority ID="epns-deep-16-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001359">Crudwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hudb-belowsubcounty-000001" type="broader">
+   <geographic>Chedglow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c41"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0695900" lat="51.6331800" gazref="geonames:2651810" source="geonames"/>
+   <geo long="-2.065022178886705" lat="51.63082661050977" gazref="unlock:11123974" source="unlock"/>
+   <geo easting="395500" northing="192500" long="-2.0664" lat="51.6313" kepnref="7189" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000299">
+  <authority ID="epns-deep-05-b-name-subparish-000299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003631">Sutton under Whitestone Cliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000111" type="broader">
+   <geographic>Felixkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w266297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003632">Sudtune, Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w266323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003633">Sutton subtus Whitstanclif</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000484"/>
+  </recordInfo>
+  <extension>
+   <geo easting="448500" northing="482500" long="-1.25739" lat="54.2359" kepnref="5950" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w266297">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w266323">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny28">BylE</source>
+    <page>68</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w266297">Sudtune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w266297">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w266323">Sutton subtus Whitstanclif</searchterm>
+  </extension>
+ </mads>
+ 

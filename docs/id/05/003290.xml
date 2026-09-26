@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000262">
+  <authority ID="epns-deep-05-b-name-subparish-000262">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003290">Baldersby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000102" type="broader">
+   <geographic>Topcliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w244416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003291">Baldrebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w244434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003292">Balderbi, Balderby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w244487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003293">Baldersby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005d5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4563800" lat="54.2019200" gazref="geonames:2656597" source="geonames"/>
+   <geo long="-1.455746593046573" lat="54.20085568337869" gazref="unlock:11067628" source="unlock"/>
+   <geo easting="435500" northing="478500" long="-1.4573" lat="54.201" kepnref="5915" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w244416">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w244434">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w244434">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w244487">
+    <date subtype="simple" begin="1648" end="1648">1648</date>
+    <source style="" id="ny307">Pickhill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w244416">Baldrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w244434">Balderbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w244434">Balderby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w244487">Baldersby</searchterm>
+  </extension>
+ </mads>
+ 

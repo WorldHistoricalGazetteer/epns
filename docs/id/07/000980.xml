@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000017">
+  <authority ID="epns-deep-07-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000980">Pyecombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000002" type="broader">
+   <geographic>Poynings Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bf1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1587300" lat="50.8968900" gazref="geonames:7297493" source="geonames"/>
+   <geo long="-0.1583083121524641" lat="50.89688802936097" gazref="unlock:11251115" source="unlock"/>
+   <geo easting="528500" northing="112500" long="-0.174085" lat="50.8977" kepnref="7036" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000075">
+  <authority ID="epns-deep-98-b-name-subparish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001853">Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000075" type="broader">
+   <geographic>Sutton</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w140514">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001854">Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w140531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001855">Sutton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w140560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001856">Sotton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w140593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001857">Sutton juxta Bicleswade</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w140626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001858">Soutton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w140650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001859">Sutton Latymer</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2138000" lat="52.1107800" gazref="geonames:2636500" source="geonames"/>
+   <geo easting="522500" northing="247500" long="-0.212504" lat="52.1123" kepnref="4298" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w140514">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140531">
+    <attestation variantID="epns-deep-98-b-name-w140531">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140560">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140560">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="" id="bh68">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140593">
+    <date subtype="simple" begin="1311" end="1311">1311</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140626">
+    <date subtype="simple" begin="1315" end="1315">1315</date>
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w140650">
+    <date subtype="simple" begin="1380" end="1380">1380</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w140514">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140531">Suttone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140531">Sutton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140560">Sotton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140593">Sutton juxta Bicleswade</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140626">Soutton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w140650">Sutton Latymer</searchterm>
+  </extension>
+ </mads>
+ 

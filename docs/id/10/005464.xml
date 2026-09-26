@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000249">
+  <authority ID="epns-deep-10-b-name-subparish-000249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005464">Woodford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000249" type="broader">
+   <geographic>Woodford</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w295108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005465">Wodeford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w295170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005466">W(u)deford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w295182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005467">Wodeford juxta Trapston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w295216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005468">Woddeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7fb47fc40bba00063a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5809900" lat="52.3823100" gazref="geonames:2633657" source="geonames"/>
+   <geo long="-0.5819085849777456" lat="52.3866348338918" gazref="unlock:11325817" source="unlock"/>
+   <geo easting="496500" northing="277500" long="-0.583485" lat="52.387" kepnref="11120" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w295108">
+    <attestation variantID="epns-deep-10-b-name-w295108">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w295108">
+     <date end="1353" begin="1353" subtype="simple">1353</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w295170">
+    <date end="1353" begin="1086">1086-1353</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w295182">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w295216">
+    <date end="1403" begin="1403" subtype="simple">1403</date>
+    <source style="" id="nh4">AD</source>
+    <item>v</item>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w295108">Wodeford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w295170">Wudeford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w295170">Wdeford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w295182">Wodeford juxta Trapston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w295216">Woddeford</searchterm>
+  </extension>
+ </mads>
+ 

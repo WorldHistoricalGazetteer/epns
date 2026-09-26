@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000046">
+  <authority ID="epns-deep-16-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002132">Castle Combe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000049" type="broader">
+   <geographic>Castle Combe</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w111452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002133">Come</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w111466">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002134">Cumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w111515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002135">Castelc(o)umbe</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w111566">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/002136">Chastelcombe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d93"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2289700" lat="51.4928900" gazref="geonames:2653597" source="geonames"/>
+   <geo long="-2.223302780939505" lat="51.49574587432978" gazref="unlock:11100756" source="unlock"/>
+   <geo easting="384500" northing="177500" long="-2.22465" lat="51.4962" kepnref="7214" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w111452">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111466">
+    <date subtype="simple" begin="1186" end="1186">1186</date>
+    <source style="" id="ws272">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111466">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111466">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111466">
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111515">
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <copydate end="1383" begin="1383">1383</copydate>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111515">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="ws50">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111515">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111566">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w111566">
+    <date subtype="simple" begin="1422" end="1422">1422</date>
+    <source style="italic" id="ws9">Add</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w111452">Come</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w111466">Cumbe</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w111515">Castelcoumbe</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w111515">Castelcumbe</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w111566">Chastelcombe</searchterm>
+  </extension>
+ </mads>
+ 

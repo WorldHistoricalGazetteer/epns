@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000014">
+  <authority ID="epns-deep-05-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000296">Easingwold</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000001" type="broader">
+   <geographic>Bulmer Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0cb47fc40bc600035e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1922500" lat="54.1191000" gazref="geonames:2650517" source="geonames"/>
+   <geo long="-1.181411044901037" lat="54.11840525282757" gazref="unlock:11135547" source="unlock"/>
+   <geo easting="453500" northing="469500" long="-1.18299" lat="54.1186" kepnref="5686" source="kepn"/>
+  </extension>
+ </mads>
+ 

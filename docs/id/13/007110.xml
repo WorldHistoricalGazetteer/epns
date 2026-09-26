@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000174">
+  <authority ID="epns-deep-13-b-name-subparish-000174">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007110">Preston Bagot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000177" type="broader">
+   <geographic>Preston Bagot</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w367265">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007111">Prestetone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w367285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007112">Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w367319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007113">Preston Bagot</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w367342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007114">Bagotes Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w367370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007115">Preston in Wodeland</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w367405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007116">Preston Whyteleye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7477900" lat="52.2898000" gazref="geonames:2639910" source="geonames"/>
+   <geo long="-1.743417075865387" lat="52.28696772060831" gazref="unlock:11249867" source="unlock"/>
+   <geo easting="417500" northing="265500" long="-1.74485" lat="52.2874" kepnref="4877" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w367265">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w367285">
+    <attestation variantID="epns-deep-13-b-name-w367285">
+     <date end="1195" begin="1175" subtype="circa">c. 1185</date>
+     <source style="" id="wa114">France</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w367319">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="wa108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w367342">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w367370">
+    <date end="1311" begin="1311" subtype="simple">1311</date>
+    <source style="" id="wa319">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w367405">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wa280">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w367265">Prestetone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w367285">Preston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w367319">Preston Bagot</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w367342">Bagotes Preston</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w367370">Preston in Wodeland</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w367405">Preston Whyteleye</searchterm>
+  </extension>
+ </mads>
+ 

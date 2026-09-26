@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000091">
+  <authority ID="epns-deep-09-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004464">South Tawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000091" type="broader">
+   <geographic>South Tawton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w204290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004465">Tauetona</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w204462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004466">Suthtaunton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a23"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9097700" lat="50.7338000" gazref="geonames:2637312" source="geonames"/>
+   <geo long="-3.906158390004875" lat="50.73395076292981" gazref="unlock:11287968" source="unlock"/>
+   <geo easting="265500" northing="94500" long="-3.90729" lat="50.7345" kepnref="15758" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w204290">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w204462">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w204462">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w204290">Tauetona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w204462">Suthtaunton</searchterm>
+  </extension>
+ </mads>
+ 

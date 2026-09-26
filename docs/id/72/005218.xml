@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000028">
+  <authority ID="epns-deep-72-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/005218">Palling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d45"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6010000" lat="52.7855800" gazref="geonames:2640669" source="geonames"/>
+   <geo long="1.588509381" lat="52.77690952" source="epns"/>
+   <geo long="1.596279094518403" lat="52.78117267679772" gazref="unlock:11279645" source="unlock"/>
+   <geo easting="642500" northing="326500" long="1.59443" lat="52.7816" kepnref="9466" source="kepn"/>
+  </extension>
+ </mads>
+ 

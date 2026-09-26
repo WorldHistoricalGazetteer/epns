@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000305">
+  <authority ID="epns-deep-05-b-name-subparish-000305">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003664">Cowesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000114" type="broader">
+   <geographic>Cowesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w268371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003665">Cahosbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003666">Cousebi, Couseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003667">Causeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003668">Couesby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w268505">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003669">Coosby by Trysk</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000455"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2869400" lat="54.3022400" gazref="geonames:2652203" source="geonames"/>
+   <geo long="-1.285410543649702" lat="54.29883999321908" gazref="unlock:11118033" source="unlock"/>
+   <geo easting="446500" northing="489500" long="-1.28699" lat="54.299" kepnref="5955" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w268371">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268388">
+    <attestation variantID="epns-deep-05-b-name-w268388">
+     <date subtype="simple" begin="1199" end="1199">1199</date>
+     <source style="" id="ny40">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w268388">
+     <date subtype="simple" begin="1407" end="1407">1407</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268442">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268442">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268442">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268442">
+    <date subtype="simple" begin="1333" end="1333">1333</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268486">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w268505">
+    <date subtype="simple" begin="1476" end="1476">1476</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w268371">Cahosbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268388">Cousebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268388">Couseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268442">Causeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268486">Couesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w268505">Coosby by Trysk</searchterm>
+  </extension>
+ </mads>
+ 

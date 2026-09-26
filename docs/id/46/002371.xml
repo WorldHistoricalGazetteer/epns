@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-a-parish-000006">
+  <authority ID="epns-deep-46-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/002371">Wybunbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-hu-subcounty-000001" type="broader">
+   <geographic>Nantwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283655b47fc40856001f2d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4520700" lat="53.0454200" gazref="geonames:2633466" source="geonames"/>
+   <geo long="-2.447546154" lat="53.04611989" source="epns"/>
+   <geo long="-2.454957807527133" lat="53.04159776516154" gazref="unlock:11327745" source="unlock"/>
+   <geo easting="369500" northing="349500" long="-2.45634" lat="53.0419" kepnref="11923" source="kepn"/>
+  </extension>
+ </mads>
+ 

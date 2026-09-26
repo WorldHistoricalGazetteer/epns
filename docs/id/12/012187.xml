@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000277">
+  <authority ID="epns-deep-12-a-name-parish-000277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012187">Lawford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000014" type="broader">
+   <geographic>Tendring Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c8f"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.0333300" lat="51.9333300" gazref="geonames:2644791" source="geonames"/>
+   <geo long="1.033863479436031" lat="51.94243509808913" gazref="unlock:11192503" source="unlock"/>
+   <geo easting="608500" northing="230500" long="1.03151" lat="51.9339" kepnref="12446" source="kepn"/>
+  </extension>
+ </mads>
+ 

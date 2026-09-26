@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000525">
+  <authority ID="epns-deep-05-b-name-subparish-000525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005786">Cotherstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000182" type="broader">
+   <geographic>Romaldkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w406384">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005787">Codrestune, Codreston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w406415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005788">Cothereston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w406478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005789">Cud(e)reston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w406510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005790">Cotherston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000581"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9824100" lat="54.5708900" gazref="geonames:2652279" source="geonames"/>
+   <geo long="-1.976795847611076" lat="54.57059617352897" gazref="unlock:11117022" source="unlock"/>
+   <geo easting="401500" northing="519500" long="-1.9783" lat="54.5707" kepnref="6180" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w406384">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406415">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406415">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406415">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406415">
+    <date subtype="simple" begin="1354" end="1354">1354</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406478">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406478">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406510">
+    <attestation variantID="epns-deep-05-b-name-w406510">
+     <date subtype="circa" begin="1240" end="1260">c. 1250</date>
+     <source style="" id="ny238">YD</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w406384">Codrestune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406384">Codreston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406415">Cothereston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406478">Cudereston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406478">Cudreston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406510">Cotherston</searchterm>
+  </extension>
+ </mads>
+ 

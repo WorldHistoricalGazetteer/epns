@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000013">
+  <authority ID="epns-deep-02-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000249">Warrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000001" type="broader">
+   <geographic>Bunsty Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002eb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6875900" lat="52.1844600" gazref="geonames:2634740" source="geonames"/>
+   <geo long="-0.6908533368826697" lat="52.18107814174476" gazref="unlock:11313811" source="unlock"/>
+   <geo easting="489500" northing="254500" long="-0.692409" lat="52.1815" kepnref="11206" source="kepn"/>
+  </extension>
+ </mads>
+ 

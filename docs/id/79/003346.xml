@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000037">
+  <authority ID="epns-deep-79-a-name-parish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/003346">Belaugh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000cf3"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.3923000" lat="52.7169700" gazref="geonames:7291910" source="geonames"/>
+   <geo long="1.375755768" lat="52.71120245" source="epns"/>
+   <geo long="1.383493262096187" lat="52.71548010192924" gazref="unlock:11074484" source="unlock"/>
+   <geo easting="628500" northing="318500" long="1.38167" lat="52.7159" kepnref="9190" source="kepn"/>
+  </extension>
+ </mads>
+ 

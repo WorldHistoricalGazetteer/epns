@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000083">
+  <authority ID="epns-deep-40-b-name-subparish-000083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009879">Bulley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000081" type="broader">
+   <geographic>Bulley</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w440198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009880">Bvlelege</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009881">Bulilega</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009882">Boleleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009883">Bulleg(a), Bulley(a), Bullegh</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009884">Buuleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009885">Buleh</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w440400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009886">Bolleg', Bolley(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ab7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3466900" lat="51.8756300" gazref="geonames:2654349" source="geonames"/>
+   <geo long="-2.348611117" lat="51.86861874" source="epns"/>
+   <geo long="-2.341382664257911" lat="51.87313670505725" gazref="unlock:11092190" source="unlock"/>
+   <geo easting="376500" northing="219500" long="-2.34273" lat="51.8736" kepnref="6527" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w440198">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440216">
+    <date end="1186" begin="1186" subtype="simple">1186</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440233">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440251">
+    <attestation variantID="epns-deep-40-b-name-w440251">
+     <date end="1200" begin="1100" subtype="century">12</date>
+     <date end="1300" begin="1200" subtype="century">13</date>
+     <source style="" id="go225">Glouc</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440251">
+    <date end="1115" begin="1095" subtype="circa">c. 1105</date>
+    <date end="1138" begin="1138" subtype="simple">1138</date>
+    <source style="" id="go227">GlR</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440251">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440251">
+    <attestation variantID="epns-deep-40-b-name-w440251">
+     <date end="1220" begin="1220" subtype="simple">1220</date>
+     <source style="" id="go175">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w440251">
+     <date end="1592" begin="1592" subtype="simple">1592</date>
+     <source style="italic" id="go120">Dep</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440364">
+    <date end="1236" begin="1236" subtype="simple">1236</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440383">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="go2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440400">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w440400">
+    <attestation variantID="epns-deep-40-b-name-w440400">
+     <date end="1281" begin="1281" subtype="simple">1281</date>
+     <source style="" id="go96">Cl</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-b-name-w440400">
+     <date end="1437" begin="1437" subtype="simple">1437</date>
+     <source style="" id="go275">IpmR</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w440198">Bvlelege</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440216">Bulilega</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440233">Boleleg'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440251">Bullega</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440251">Bulleg</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440251">Bulleya</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440251">Bulley</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440251">Bullegh</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440364">Buuleg'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440383">Buleh</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440400">Bolleg'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440400">Bolleye</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w440400">Bolley</searchterm>
+  </extension>
+ </mads>
+ 

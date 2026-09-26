@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000053">
+  <authority ID="epns-deep-05-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000524">Harton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000023" type="broader">
+   <geographic>Bossall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w44404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000525">Heretun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w44424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000526">Harton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w44455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000527">Haretona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600042c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9383100" lat="54.0435600" gazref="geonames:7296883" source="geonames"/>
+   <geo long="-0.9232062277394253" lat="54.04445953907116" gazref="unlock:11166817" source="unlock"/>
+   <geo easting="470500" northing="461500" long="-0.924814" lat="54.0447" kepnref="5703" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w44404">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w44424">
+    <attestation variantID="epns-deep-05-b-name-w44424">
+     <date subtype="simple" begin="1293" end="1293">1293</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w44455">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w44404">Heretune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w44404">Heretun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w44424">Hartona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w44424">Harton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w44455">Haretona</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000012">
+  <authority ID="epns-deep-09-a-name-parish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000614">Swimbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000001" type="broader">
+   <geographic>South Molton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00185a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9707300" lat="51.0528000" gazref="geonames:2636393" source="geonames"/>
+   <geo long="-3.990727166293848" lat="51.05634087454402" gazref="unlock:11296467" source="unlock"/>
+   <geo easting="261500" northing="130500" long="-3.9776" lat="51.0571" kepnref="15679" source="kepn"/>
+  </extension>
+ </mads>
+ 

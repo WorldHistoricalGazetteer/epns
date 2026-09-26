@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000105">
+  <authority ID="epns-deep-11-a-name-parish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007499">Cranleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000011" type="broader">
+   <geographic>Blackheath Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a1e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4837400" lat="51.1420900" gazref="geonames:2652082" source="geonames"/>
+   <geo long="-0.477631988328085" lat="51.13533144890934" gazref="unlock:11119992" source="unlock"/>
+   <geo easting="506500" northing="138500" long="-0.47917" lat="51.1359" kepnref="8345" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000144">
+  <authority ID="epns-deep-28-b-name-subparish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021907">Stanton by Dale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000139" type="broader">
+   <geographic>Stanton by Dale</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w798310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021908">Stanton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w798400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021909">Stanton(e) iuxta Sandiacre</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w798458">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021910">Stanton(e) iuxta la Dale</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w798513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021911">Staunton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w798581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021912">Staunton(e) iuxta Sandiacre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00190e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3093100" lat="52.9373200" gazref="geonames:2637046" source="geonames"/>
+   <geo easting="446500" northing="338500" long="-1.30949" lat="52.9419" kepnref="3415" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w798310">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798310">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798310">
+    <date subtype="circa" begin="1180" end="1200">c. 1190</date>
+    <source style="" id="db124">Darley</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798310">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <date subtype="simple" begin="1239" end="1239">1239</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798310">
+    <attestation variantID="epns-deep-28-b-name-w798310">
+     <date subtype="simple" begin="1243" end="1243">1243</date>
+     <source style="" id="db186">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798400">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798400">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <date subtype="simple" begin="1339" end="1339">1339</date>
+    <source style="italic" id="db244">HarlCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798458">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="db522">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798458">
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <source style="italic" id="db8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798458">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="db182">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798513">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798513">
+    <date subtype="simple" begin="1265" end="1265">1265</date>
+    <source style="" id="db317">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798513">
+    <attestation variantID="epns-deep-28-b-name-w798513">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="db544">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w798513">
+     <date subtype="simple" begin="1335" end="1335">1335</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798581">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w798581">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="italic" id="db244">HarlCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w798310">Stantone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798310">Stanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798400">Stantone iuxta Sandiacre</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798400">Stanton iuxta Sandiacre</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798458">Stantone iuxta la Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798458">Stanton iuxta la Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798513">Stauntone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798513">Staunton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798581">Stauntone iuxta Sandiacre</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w798581">Staunton iuxta Sandiacre</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000231">
+  <authority ID="epns-deep-16-b-name-subparish-000231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011072">North Newnton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000268" type="broader">
+   <geographic>North Newnton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w543791">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011073">norþ niwetune</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011074">Newetone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011075">Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011076">Norpneuton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543883">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011077">Neweton juxta Uphaven</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011078">Nywantun</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011079">Newenton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011080">Nywynton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w543998">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011081">Newington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e20"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8319200" lat="51.3221100" gazref="geonames:7299359" source="geonames"/>
+   <geo long="-1.8206218967006" lat="51.31596799388328" gazref="unlock:11232904" source="unlock"/>
+   <geo easting="412500" northing="157500" long="-1.82201" lat="51.3165" kepnref="7421" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w543791">
+    <date subtype="simple" begin="892" end="892">892</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>567</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543825">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543845">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="ws106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543861">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543883">
+    <date subtype="simple" begin="1356" end="1356">1356</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543916">
+    <date subtype="simple" begin="934" end="934">934</date>
+    <copydate end="1310" begin="1290">c. 1300</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>699</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543948">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543948">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543980">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w543998">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="italic" id="ws302" underspec="ib">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w543791">norþ niwetune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543825">Newetone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543845">Neuton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543861">Norpneuton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543883">Neweton juxta Uphaven</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543916">Nywantun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543948">Newenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543980">Nywynton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w543998">Newington</searchterm>
+  </extension>
+ </mads>
+ 

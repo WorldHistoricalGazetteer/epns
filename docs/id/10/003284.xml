@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000141">
+  <authority ID="epns-deep-10-b-name-subparish-000141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003284">Orton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000141" type="broader">
+   <geographic>Orton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w179054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003285">Overton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w179095">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003286">Oreton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005cf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8235700" lat="52.4035800" gazref="geonames:7295736" source="geonames"/>
+   <geo long="-0.8164917705805615" lat="52.40719980863377" gazref="unlock:11237195" source="unlock"/>
+   <geo easting="480500" northing="279500" long="-0.818042" lat="52.4076" kepnref="11011" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w179054">
+    <attestation variantID="epns-deep-10-b-name-w179054">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w179054">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w179095">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w179095">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w179095">
+    <date end="1306" begin="1306" subtype="simple">1306</date>
+    <source style="" id="nh1">Abbr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w179054">Overtone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w179054">Overton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w179095">Oretone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w179095">Oreton</searchterm>
+  </extension>
+ </mads>
+ 

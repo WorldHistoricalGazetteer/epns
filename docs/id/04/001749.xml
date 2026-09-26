@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000060">
+  <authority ID="epns-deep-04-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001749">Cropthorne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00049a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0031900" lat="52.1029000" gazref="geonames:7297529" source="geonames"/>
+   <geo long="-2.007299986295226" lat="52.09842579864316" gazref="unlock:11122778" source="unlock"/>
+   <geo easting="399500" northing="244500" long="-2.0087" lat="52.0988" kepnref="5237" source="kepn"/>
+  </extension>
+ </mads>
+ 

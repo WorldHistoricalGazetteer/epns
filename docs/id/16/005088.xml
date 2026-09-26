@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000109">
+  <authority ID="epns-deep-16-a-name-parish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005088">Upton Scudamore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000013" type="broader">
+   <geographic>Warminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000d12"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1933300" lat="51.2300000" gazref="geonames:2635082" source="geonames"/>
+   <geo long="-2.193350486999833" lat="51.2260170341561" gazref="unlock:11310819" source="unlock"/>
+   <geo easting="386500" northing="147500" long="-2.1947" lat="51.2265" kepnref="7275" source="kepn"/>
+  </extension>
+ </mads>
+ 

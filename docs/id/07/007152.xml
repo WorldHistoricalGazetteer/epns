@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000123">
+  <authority ID="epns-deep-07-b-name-subparish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007152">Battle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000124" type="broader">
+   <geographic>Battle</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w427092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007153">ecclesia, abbas (de) Bello</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007154">La Batailge</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007155">(La) Bataille</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007156">Battaile</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007157">mynster at þære Bataille</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007158">Bellum</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w427311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007159">Batell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ca5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4841700" lat="50.9173200" gazref="geonames:2656161" source="geonames"/>
+   <geo long="0.4830152450552047" lat="50.9209843237912" gazref="unlock:11071663" source="unlock"/>
+   <geo easting="574500" northing="116500" long="0.481378" lat="50.9216" kepnref="7139" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w427092">
+    <attestation variantID="epns-deep-07-b-name-w427092">
+     <date end="1082" begin="1082" subtype="simple">1082</date>
+     <source style="" id="su27">BM</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w427092">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427147">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427168">
+    <attestation variantID="epns-deep-07-b-name-w427168">
+     <date end="1251" begin="1251" subtype="simple">1251</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w427168">
+     <date end="1379" begin="1379" subtype="simple">1379</date>
+     <source style="" id="su206">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427214">
+    <date end="1592" begin="1592" subtype="simple">1592</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427235">
+    <date end="1094" begin="1094" subtype="simple">1094</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <ms>E</ms>
+    <source style="" id="su11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427282">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="" id="su504">Winton</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427282">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="su176">NI</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427311">
+    <date end="1468" begin="1468" subtype="simple">1468</date>
+    <source style="" id="su3">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w427311">
+    <date end="1504" begin="1504" subtype="simple">1504</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w427092">ecclesia</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427092">abbas de Bello</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427092">abbas Bello</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427147">La Batailge</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427168">La Bataille</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427168">Bataille</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427214">Battaile</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427235">mynster at þære Bataille</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427282">Bellum</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w427311">Batell</searchterm>
+  </extension>
+ </mads>
+ 

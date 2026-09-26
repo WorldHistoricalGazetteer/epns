@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000162">
+  <authority ID="epns-deep-02-a-name-parish-000162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003251">Bledlow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000015" type="broader">
+   <geographic>Risborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000240"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8771900" lat="51.7122200" gazref="geonames:2655360" source="geonames"/>
+   <geo long="-0.8780692347239464" lat="51.71541098299795" gazref="unlock:11081066" source="unlock"/>
+   <geo easting="477500" northing="202500" long="-0.879584" lat="51.7159" kepnref="11357" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000010">
+  <authority ID="epns-deep-15-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000501">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000010" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w26506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000502">Prestun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w26541">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000503">Preston(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2856000" lat="51.9089100" gazref="geonames:2639917" source="geonames"/>
+   <geo long="-0.2917760673298199" lat="51.90619453062051" gazref="unlock:11249862" source="unlock"/>
+   <geo kepnexref="0158" long="-0.285301" lat="51.909014" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w26506">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <source style="" id="he317">Templars</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w26506">
+    <date subtype="simple" begin="1416" end="1416">1416</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w26541">
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w26541">
+    <attestation variantID="epns-deep-15-b-name-w26541">
+     <date subtype="simple" begin="1253" end="1253">1253</date>
+     <source style="" id="he49">Ch</source>
+    </attestation>
+    <passim>et freq.</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w26506">Prestune</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w26506">Prestun</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w26541">Prestone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w26541">Preston</searchterm>
+  </extension>
+ </mads>
+ 

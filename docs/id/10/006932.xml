@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000307">
+  <authority ID="epns-deep-10-b-name-subparish-000307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006932">Newborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000308" type="broader">
+   <geographic>Newborough</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w380680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006933">Newborough</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2233300" lat="52.6389000" gazref="geonames:2641708" source="geonames"/>
+   <geo long="-0.2192434614081454" lat="52.63350511014094" gazref="unlock:11229766" source="unlock"/>
+   <geo easting="520500" northing="305500" long="-0.220873" lat="52.6339" kepnref="11179" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w380680">
+    <date end="1823" begin="1823" subtype="simple">1823</date>
+    <source style="italic" id="nh249">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w380680">Newborough</searchterm>
+  </extension>
+ </mads>
+ 

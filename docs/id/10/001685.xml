@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000069">
+  <authority ID="epns-deep-10-a-name-parish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001685">Long Buckby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000005" type="broader">
+   <geographic>Guilsborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00045f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0811300" lat="52.3026000" gazref="geonames:2643714" source="geonames"/>
+   <geo long="-1.083319851815516" lat="52.30167194969625" gazref="unlock:11205297" source="unlock"/>
+   <geo easting="462500" northing="267500" long="-1.08483" lat="52.3021" kepnref="10939" source="kepn"/>
+  </extension>
+ </mads>
+ 

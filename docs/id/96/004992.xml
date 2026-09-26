@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000118">
+  <authority ID="epns-deep-96-a-name-parish-000118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004992">Impington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000013" type="broader">
+   <geographic>Northstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000708"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1180900" lat="52.2452500" gazref="geonames:7298853" source="geonames"/>
+   <geo long="0.1170122534366632" lat="52.2502811107129" gazref="unlock:11182300" source="unlock"/>
+   <geo easting="544500" northing="263500" long="0.115361" lat="52.2507" kepnref="4079" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000042">
+  <authority ID="epns-deep-23-a-name-parish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005290">Nettlebed</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000005" type="broader">
+   <geographic>Ewelme Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00071e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9896300" lat="51.5754700" gazref="geonames:2641763" source="geonames"/>
+   <geo long="-0.9970404472621388" lat="51.57260510394946" gazref="unlock:11228262" source="unlock"/>
+   <geo easting="469500" northing="186500" long="-0.998536" lat="51.5731" kepnref="3563" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000050">
+  <authority ID="epns-deep-33-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004443">Clifford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000020" type="broader">
+   <geographic>Bramham</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w197615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004444">Cliford</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w197632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004445">Clifford(e), Clyfford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w197776">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004446">Clyfford(e) in Elmette</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w197810">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004447">Clifforth(e), Clyfforth(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060aa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3598900" lat="53.8963700" gazref="geonames:7298557" source="geonames"/>
+   <geo long="-1.360876953" lat="53.89027425" source="epns"/>
+   <geo long="-1.353199288975296" lat="53.89472898953931" gazref="unlock:11109195" source="unlock"/>
+   <geo kepnexref="318" long="-1.35461" lat="53.9039" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w197615">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1180" begin="1160" subtype="simple">1160-80</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1035</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1190" begin="1175" subtype="simple">1175-90</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <page>1026</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="wr91">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="wr796">YCh</source>
+    <item>ix</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>22</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197632">
+    <attestation variantID="epns-deep-33-b-name-w197632">
+     <date end="1221" begin="1221" subtype="simple">1221</date>
+     <source style="" id="wr111">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w197632">
+     <date end="1620" begin="1620" subtype="simple">1620</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197776">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197810">
+    <date end="1343" begin="1343" subtype="simple">1343</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197810">
+    <date end="1457" begin="1457" subtype="simple">1457</date>
+    <source style="" id="wr226">FountB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w197810">
+    <attestation variantID="epns-deep-33-b-name-w197810">
+     <date end="1502" begin="1502" subtype="simple">1502</date>
+     <source style="" id="wr294">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-33-b-name-w197810">
+     <date end="1657" begin="1657" subtype="simple">1657</date>
+     <source style="" id="wr791">WYD</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w197615">Cliford</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197632">Clifforde</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197632">Clifford</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197632">Clyfforde</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197632">Clyfford</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197776">Clyfforde in Elmette</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197776">Clyfford in Elmette</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197810">Clifforthe</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197810">Clifforth</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197810">Clyfforthe</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w197810">Clyfforth</searchterm>
+  </extension>
+ </mads>
+ 

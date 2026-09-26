@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000112">
+  <authority ID="epns-deep-09-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005920">Moretonhampstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000112" type="broader">
+   <geographic>Moretonhampstead</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w268889">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005921">Morton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w268928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005922">Morton(a) subtus Dertemor</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w268966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005923">Morton(a) juxta Northbovy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w269002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005924">Morton Hampsted</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w269030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005925">Morton Hempstede</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w269056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005926">Mourtonhampstede</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w269084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005927">Moreton al. Moreton Hampstead</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w269126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005928">Moureton in the More</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019d0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7649500" lat="50.6607700" gazref="geonames:2642201" source="geonames"/>
+   <geo long="-3.76181371084569" lat="50.66426503287997" gazref="unlock:11222856" source="unlock"/>
+   <geo easting="275500" northing="85500" long="-3.76263" lat="50.6558" kepnref="15782" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w268889">
+    <attestation variantID="epns-deep-09-b-name-w268889">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w268889">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="de258">Tax</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w268928">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w268966">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w269002">
+    <date end="1493" begin="1493" subtype="simple">1493</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w269030">
+    <date end="1514" begin="1514" subtype="simple">1514</date>
+    <source style="italic" id="de48">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w269056">
+    <date end="1514" begin="1514" subtype="simple">1514</date>
+    <source style="italic" id="de48">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w269084">
+    <date end="1692" begin="1692" subtype="simple">1692</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w269126">
+    <date end="1446" begin="1446" subtype="simple">1446</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w268889">Mortona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w268889">Morton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w268928">Mortona subtus Dertemor</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w268928">Morton subtus Dertemor</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w268966">Mortona juxta Northbovy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w268966">Morton juxta Northbovy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269002">Morton Hampsted</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269030">Morton Hempstede</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269056">Mourtonhampstede</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269084">Moreton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269084">Moreton Hampstead</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w269126">Moureton in the More</searchterm>
+  </extension>
+ </mads>
+ 

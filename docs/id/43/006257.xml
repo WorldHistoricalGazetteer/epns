@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000017">
+  <authority ID="epns-deep-43-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/006257">Cliburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000002" type="broader">
+   <geographic>West Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f00137a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6403200" lat="54.6149300" gazref="geonames:2652855" source="geonames"/>
+   <geo long="-2.64409" lat="54.6139" source="epns"/>
+   <geo long="-2.64266628318707" lat="54.6138320667195" gazref="unlock:11109076" source="unlock"/>
+   <geo easting="358500" northing="524500" long="-2.64409" lat="54.6139" kepnref="5158" source="kepn"/>
+  </extension>
+ </mads>
+ 

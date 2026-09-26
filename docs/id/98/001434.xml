@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000057">
+  <authority ID="epns-deep-98-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001434">Eastcotts</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000057" type="broader">
+   <geographic>Eastcotts</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w115285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001435">Cotes</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w115310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001436">Estcotes</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w115338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001437">Escotes</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w115355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001438">Escotts</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000334"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4168300" lat="52.0965700" gazref="geonames:7292842" source="geonames"/>
+   <geo long="-0.4444746568223947" lat="52.11514023713852" gazref="unlock:11136841" source="unlock"/>
+   <geo easting="506500" northing="247500" long="-0.446056" lat="52.1156" kepnref="4280" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w115285">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="bh108">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w115285">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w115310">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w115310">
+    <date subtype="simple" begin="1393" end="1393">1393</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w115338">
+    <date subtype="simple" begin="1382" end="1382">1382</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w115355">
+    <date subtype="simple" begin="1780" end="1780">1780</date>
+    <source style="" id="bh97">Jury</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w115285">Cotes</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w115310">Estcotes</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w115338">Escotes</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w115355">Escotts</searchterm>
+  </extension>
+ </mads>
+ 

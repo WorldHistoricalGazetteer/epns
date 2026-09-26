@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000288">
+  <authority ID="epns-deep-05-b-name-subparish-000288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003510">Thorpe le Willows</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000108" type="broader">
+   <geographic>Coxwold</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w257652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003511">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w257666">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003512">Thorp</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600045e"/>
+  </recordInfo>
+  <extension>
+   <geo easting="457500" northing="476500" long="-1.12047" lat="54.1811" kepnref="5939" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w257652">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w257666">
+    <attestation variantID="epns-deep-05-b-name-w257666">
+     <date subtype="circa" begin="1132" end="1152">c. 1142</date>
+     <source style="" id="ny48">Dugd</source>
+     <item>v</item>
+     <page>352</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w257652">Torp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w257666">Thorp</searchterm>
+  </extension>
+ </mads>
+ 

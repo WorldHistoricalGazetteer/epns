@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000042">
+  <authority ID="epns-deep-39-a-name-parish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/003484">Deerhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000005" type="broader">
+   <geographic>Deerhurst Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001948"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1898800" lat="51.9665900" gazref="geonames:2651412" source="geonames"/>
+   <geo long="-2.189209906" lat="51.95890188" source="epns"/>
+   <geo long="-2.181950896106146" lat="51.96341002818541" gazref="unlock:11128293" source="unlock"/>
+   <geo easting="387500" northing="229500" long="-2.18332" lat="51.9638" kepnref="6368" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000073">
+  <authority ID="epns-deep-31-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/006172">Newland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000023" type="broader">
+   <geographic>Normanton</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w278187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/006173">Noua terra</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w278216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/006174">Neuland</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w278235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/006175">New(e)land(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.454745873" lat="53.69297608" source="epns"/>
+   <geo long="-1.447114227011643" lat="53.69743702773951" gazref="unlock:11230263" source="unlock"/>
+   <geo easting="436500" northing="422500" long="-1.44864" lat="53.6977" kepnref="14467" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w278187">
+    <date subtype="simple" begin="1240" end="1250">1240-50</date>
+    <source style="italic" id="wr51">Bodl</source>
+    <item>101</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w278216">
+    <date subtype="simple" begin="1357" end="1357">1357</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w278235">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w278235">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="wr277">Holinshed</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w278235">
+    <date subtype="simple" begin="1638" end="1638">1638</date>
+    <source style="" id="wr645">SessnR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w278187">Noua terra</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w278216">Neuland</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w278235">Newelande</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w278235">Neweland</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w278235">Newlande</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w278235">Newland</searchterm>
+  </extension>
+ </mads>
+ 

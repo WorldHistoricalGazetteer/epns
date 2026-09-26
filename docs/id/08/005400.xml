@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000105">
+  <authority ID="epns-deep-08-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005400">Sampford Courtenay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000105" type="broader">
+   <geographic>Sampford Courtenay</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w274121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005401">Sanfort</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w274138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005402">Sanford</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w274165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005403">Sandfort</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w274189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005404">Saunforde Curtenay</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w274219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005405">Sampford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a09"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9425200" lat="50.7942600" gazref="geonames:2638618" source="geonames"/>
+   <geo long="-3.937082878073236" lat="50.79640363338142" gazref="unlock:11277380" source="unlock"/>
+   <geo easting="263500" northing="101500" long="-3.93822" lat="50.7969" kepnref="15562" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w274121">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w274138">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w274138">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w274165">
+    <date end="1093" begin="1093" subtype="simple">1093</date>
+    <source style="" id="de90">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w274189">
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w274219">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w274121">Sanfort</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w274138">Sanford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w274165">Sandfort</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w274189">Saunforde Curtenay</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w274219">Sampford</searchterm>
+  </extension>
+ </mads>
+ 

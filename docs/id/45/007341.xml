@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000048">
+  <authority ID="epns-deep-45-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007341">Tabley Inferior</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000010" type="broader">
+   <geographic>Great Budworth</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w312401">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007342">Stablei</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w312418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007343">Parva Tabbeley</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w312462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007344">Nether Tabley</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w312487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007345">Nethertalbelegh, Nether Tabell'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w312571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/007346">Nethre Tabell', Nethir Tabell', Nethur Tabell', Neither Tabell'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fcc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4228900" lat="53.2908200" gazref="geonames:7293014" source="geonames"/>
+   <geo long="-2.435076474" lat="53.28889713" source="epns"/>
+   <geo easting="371500" northing="376500" long="-2.42893" lat="53.2847" kepnref="11808" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w312401">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312418">
+    <date subtype="simple" begin="1200" end="1225">e13</date>
+    <copydate end="1295" begin="1295">1295</copydate>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312418">
+    <date subtype="circa" begin="1260" end="1280">c.1270</date>
+    <source style="" id="ch650">Tab</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312462">
+    <date subtype="circa" begin="1260" end="1280">c.1270</date>
+    <source style="" id="ch650" underspec="ib">Tab</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312487">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="ch650" underspec="ib">Tab</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312487">
+    <attestation variantID="epns-deep-45-b-name-w312487">
+     <date subtype="simple" begin="1296" end="1296">1296</date>
+     <source style="" id="ch474">Orm2</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w312571">
+    <date end="1600" begin="1296">1296-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w312401">Stablei</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312418">Parva Tabbeley</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312462">Nether Tabley</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312487">Nethertalbelegh</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312487">Nether Tabell'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312571">Nethre Tabell'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312571">Nethir Tabell'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312571">Nethur Tabell'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w312571">Neither Tabell'</searchterm>
+  </extension>
+ </mads>
+ 

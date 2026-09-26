@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000074">
+  <authority ID="epns-deep-07-a-name-parish-000074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003325">Frant</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000019" type="broader">
+   <geographic>Rotherfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b91"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2719100" lat="51.0977000" gazref="geonames:2649093" source="geonames"/>
+   <geo long="0.27811627730744" lat="51.09606389001388" gazref="unlock:11147913" source="unlock"/>
+   <geo easting="558500" northing="135500" long="0.262225" lat="51.0969" kepnref="7090" source="kepn"/>
+  </extension>
+ </mads>
+ 

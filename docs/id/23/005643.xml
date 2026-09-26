@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000046">
+  <authority ID="epns-deep-23-a-name-parish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/005643">Warborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000005" type="broader">
+   <geographic>Ewelme Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000763"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1369100" lat="51.6386400" gazref="geonames:2634797" source="geonames"/>
+   <geo long="-1.140144125495107" lat="51.63668886424385" gazref="unlock:11313106" source="unlock"/>
+   <geo easting="459500" northing="193500" long="-1.14163" lat="51.6372" kepnref="3567" source="kepn"/>
+  </extension>
+ </mads>
+ 

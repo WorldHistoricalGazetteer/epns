@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000050">
+  <authority ID="epns-deep-09-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002418">Thelbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000050" type="broader">
+   <geographic>Thelbridge</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w111046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002419">Talebrua</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002420">Talebrige</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002421">Tallebrig</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002422">Thelebrig</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002423">Thelebrug(ge), Thelebrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002424">T(h)ellebrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002425">Thelbrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w111272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002426">Delbridge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a46"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7166700" lat="50.9000000" gazref="geonames:2636037" source="geonames"/>
+   <geo long="-3.727976348378491" lat="50.8986270106335" gazref="unlock:11299258" source="unlock"/>
+   <geo easting="278500" northing="112500" long="-3.72914" lat="50.8992" kepnref="15717" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w111046">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111071">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111089">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111115">
+    <attestation variantID="epns-deep-09-b-name-w111115">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>758</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w111115">
+     <date end="1328" begin="1328" subtype="simple">1328</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111185">
+    <date end="1328" begin="1242">1242-1328</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111213">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111213">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111251">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w111272">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="de241">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w111046">Talebrua</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111071">Talebrige</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111089">Tallebrig</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111115">Thelebrig</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111185">Thelebrugge</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111185">Thelebrug</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111185">Thelebrigge</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111213">Thellebrigge</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111213">Tellebrigge</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111251">Thelbrigge</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w111272">Delbridge</searchterm>
+  </extension>
+ </mads>
+ 

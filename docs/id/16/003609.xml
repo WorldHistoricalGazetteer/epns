@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000070">
+  <authority ID="epns-deep-16-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003609">Bradford on Avon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000074" type="broader">
+   <geographic>Bradford on Avon</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w182752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003610">(æt) Bradanforda be Afne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w182797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003611">Bradanford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w182853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003612">(æt) Bradeforda</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w182890">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003613">Bradeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w182932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003614">Bradford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w182955">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003615">Brodeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d81"/>
+  </recordInfo>
+  <extension>
+   <geo easting="382500" northing="160500" long="-2.25262" lat="51.3433" kepnref="7241" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w182752">
+    <date subtype="simple" begin="652" end="652">652</date>
+    <copydate end="910" begin="890">c. 900</copydate>
+    <ms>A</ms>
+    <source style="" id="ws17">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182797">
+    <date subtype="simple" begin="705" end="705">705</date>
+    <copydate end="1135" begin="1115">c. 1125</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>114</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182797">
+    <date subtype="simple" begin="955" end="955">955</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <page>912</page>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182853">
+    <date subtype="simple" begin="1001" end="1001">1001</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws153">KCD</source>
+    <item>706</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182890">
+    <attestation variantID="epns-deep-16-b-name-w182890">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ws74">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w182890">
+     <date subtype="simple" begin="1244" end="1244">1244</date>
+     <source style="" id="ws56">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182932">
+    <date subtype="simple" begin="1415" end="1415">1415</date>
+    <source style="" id="ws144">Inq aqd</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182955">
+    <date subtype="simple" begin="1340" end="1340">1340</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182955">
+    <date subtype="simple" begin="1412" end="1412">1412</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w182955">
+    <date subtype="simple" begin="1485" end="1485">1485</date>
+    <source style="italic" id="ws68">Ct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w182752">æt Bradanforda be Afne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182752">Bradanforda be Afne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182797">Bradanford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182853">æt Bradeforda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182853">Bradeforda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182890">Bradeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182932">Bradford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w182955">Brodeford</searchterm>
+  </extension>
+ </mads>
+ 

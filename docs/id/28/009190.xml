@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000050">
+  <authority ID="epns-deep-28-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009190">Walton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000048" type="broader">
+   <geographic>Walton</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w344225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009191">Waletune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009192">Waletona, Waleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009193">Waleton(e) iuxta Cestrefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009194">Valeton</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009195">Walenthone, Walenthona</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009196">Walletona</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w344466">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/009197">Walton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00192d"/>
+  </recordInfo>
+  <extension>
+   <geo easting="436500" northing="369500" long="-1.45478" lat="53.2213" kepnref="3328" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w344225">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344243">
+    <date subtype="simple" begin="1183" end="1183">1183</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344243">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344243">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344243">
+    <attestation variantID="epns-deep-28-b-name-w344243">
+     <date subtype="simple" begin="1224" end="1224">1224</date>
+     <source style="" id="db459">RegAnt</source>
+    </attestation>
+    <passim>et freq to</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344326">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344364">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="db465">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344383">
+    <date subtype="simple" begin="1101" end="1108">1101-8</date>
+    <source style="" id="db461">RegLich</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344383">
+    <date subtype="ante" begin="1058" end="1108">a. 1108</date>
+    <source style="" id="db149">Dugd</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344436">
+    <date subtype="simple" begin="1200" end="1225">e. 13th</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344466">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344466">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344466">
+    <date subtype="circa" begin="1262" end="1282">c. 1272</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w344466">
+    <attestation variantID="epns-deep-28-b-name-w344466">
+     <date subtype="simple" begin="1278" end="1278">1278</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w344225">Waletune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344243">Waletona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344243">Waletone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344243">Waleton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344326">Waletone iuxta Cestrefeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344326">Waleton iuxta Cestrefeld</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344364">Valeton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344383">Walenthone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344383">Walenthona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344436">Walletona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344466">Waltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w344466">Walton</searchterm>
+  </extension>
+ </mads>
+ 

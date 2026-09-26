@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000119">
+  <authority ID="epns-deep-05-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001166">Great Habton, Little Habton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000045" type="broader">
+   <geographic>Kirby Misperton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w98827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001167">Habetun, Ab(b)etune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w98856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001168">Habeton, parva Habeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w98933">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001169">Habbeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w98997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001170">Habbenton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001171">Great Habton, parua Habton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001172">Great Hapton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8447500" lat="54.1775100" gazref="geonames:2648094" source="geonames"/>
+   <geo long="-0.8431069950296536" lat="54.17855239844522" gazref="unlock:11158802" source="unlock"/>
+   <geo easting="475500" northing="476500" long="-0.84473" lat="54.1787" kepnref="5770" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w98827">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98856">
+    <date subtype="simple" begin="1163" end="1185">c. 1163-85</date>
+    <source style="" id="ny236">YCh</source>
+    <page>781</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98856">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98856">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98856">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98933">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>97</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98933">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98933">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98933">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98933">
+    <date subtype="simple" begin="1333" end="1333">1333</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w98997">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99016">
+    <date subtype="simple" begin="1365" end="1365">1365</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99052">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w98827">Habetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98827">Abbetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98827">Abetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98856">Habeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98856">parva Habeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98933">Habbeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w98997">Habbenton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99016">Great Habton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99016">parua Habton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99052">Great Hapton</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000119">Great Habton</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000119">Little Habton</searchterm>
+  </extension>
+ </mads>
+ 

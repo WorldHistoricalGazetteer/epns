@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000047">
+  <authority ID="epns-deep-02-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000691">Walton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000046" type="broader">
+   <geographic>Walton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w49838">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000692">Waldone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w49875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000693">Walton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w49910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000694">Walton Marescalli</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003d0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6940300" lat="52.0169400" gazref="geonames:7299931" source="geonames"/>
+   <geo easting="488500" northing="236500" long="-0.7117" lat="52.0199" kepnref="11239" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w49838">
+    <date end="1228" begin="1208" subtype="circa">c. 1218</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w49838">
+    <date end="1235" begin="1215" subtype="circa">c. 1225</date>
+    <source style="" id="bu118" underspec="ib">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w49875">
+    <date end="1235" begin="1215" subtype="circa">c. 1225</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w49875">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w49910">
+    <date end="1237" begin="1237" subtype="simple">1237</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1451</page>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w49838">Waldone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w49875">Waltone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w49875">Walton</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w49910">Walton Marescalli</searchterm>
+  </extension>
+ </mads>
+ 

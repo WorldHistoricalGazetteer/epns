@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000035">
+  <authority ID="epns-deep-38-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003087">Ashley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000035" type="broader">
+   <geographic>Ashley</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w148268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003088">Esselie</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w148285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003089">Esselega</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w148315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003090">Asseleye</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w148335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003091">Ayssele</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w148353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003092">Assheleye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001a91"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1000000" lat="51.6500000" gazref="geonames:2656941" source="geonames"/>
+   <geo long="-2.101175543" lat="51.64428876" source="epns"/>
+   <geo long="-2.09395804962059" lat="51.64879161813253" gazref="unlock:11064569" source="unlock"/>
+   <attestation variantID="epns-deep-38-b-name-w148268">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w148285">
+    <date subtype="simple" begin="1196" end="1196">1196</date>
+    <source style="" id="go108">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w148285">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="go2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w148315">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="" id="go50">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w148335">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w148353">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="go25" underspec="ib">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w148268">Esselie</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w148285">Esselega</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w148315">Asseleye</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w148335">Ayssele</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w148353">Assheleye</searchterm>
+  </extension>
+ </mads>
+ 

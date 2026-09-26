@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000002">
+  <authority ID="epns-deep-05-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000024">Heworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000002" type="broader">
+   <geographic>Osbaldwick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w2233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000025">Heuuorde, Heuuarde</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w2261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000026">Heword</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w2278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000027">Hewrd(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w2333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000028">Hewrth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w2353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000029">Heworth(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000561"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0328000" lat="53.9795100" gazref="geonames:7287931" source="geonames"/>
+   <geo long="-1.062467161781532" lat="53.96472415646959" gazref="unlock:11171004" source="unlock"/>
+   <geo easting="461500" northing="452500" long="-1.06405" lat="53.9649" kepnref="5655" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w2233">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2261">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ny87">HCY</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2278">
+    <date subtype="simple" begin="1148" end="1159">c. 1148-59</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1060</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2278">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2278">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2333">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w2353">
+    <attestation variantID="epns-deep-05-b-name-w2353">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w2233">Heuuorde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2233">Heuuarde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2261">Heword</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2278">Hewrde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2278">Hewrd</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2333">Hewrthe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2333">Hewrth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2353">Heworthe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w2353">Heworth</searchterm>
+  </extension>
+ </mads>
+ 

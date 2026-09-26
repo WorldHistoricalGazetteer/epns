@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000193">
+  <authority ID="epns-deep-13-a-name-parish-000193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007734">Loxley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000009" type="broader">
+   <geographic>Pathlow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000696"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6231400" lat="52.1748300" gazref="geonames:2643464" source="geonames"/>
+   <geo long="-1.6271048558625" lat="52.16976901526903" gazref="unlock:11209248" source="unlock"/>
+   <geo easting="424500" northing="253500" long="-1.6431" lat="52.1792" kepnref="5011" source="kepn"/>
+  </extension>
+ </mads>
+ 

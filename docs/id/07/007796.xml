@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000135">
+  <authority ID="epns-deep-07-b-name-subparish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007796">Bodiam</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000136" type="broader">
+   <geographic>Bodiam</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w464836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007797">Bodehā</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w464852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007798">Bodeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w464882">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007799">Bodiham, Bodyham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w464936">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007800">Bodyhamme</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w465002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007801">Bodinhan</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w465039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007802">Bodingham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w465058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007803">Budeham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w465076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007804">Bodgiham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cb2"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5380600" lat="51.0062500" gazref="geonames:6943308" source="geonames"/>
+   <geo long="0.5442885513448669" lat="51.0006209974644" gazref="unlock:11081878" source="unlock"/>
+   <geo easting="578500" northing="126500" long="0.543132" lat="51.0102" kepnref="7151" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w464836">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464852">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="su24">Bello</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464852">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464882">
+    <attestation variantID="epns-deep-07-b-name-w464882">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="su237">RBE</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w464882">
+     <date end="1592" begin="1592" subtype="simple">1592</date>
+     <source style="" id="su157">MarL</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464936">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464936">
+    <date end="1300" begin="1275" subtype="simple">late 13th</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464936">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464936">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w464936">
+    <date end="1382" begin="1382" subtype="simple">1382</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w465002">
+    <date end="1190" begin="1170" subtype="circa">c. 1180</date>
+    <source style="" id="su420">HMC Rutland</source>
+    <item>iv</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w465039">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w465058">
+    <date end="1319" begin="1319" subtype="simple">1319</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w465076">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="su269">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w464836">Bodehā</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w464852">Bodeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w464882">Bodiham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w464882">Bodyham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w464936">Bodyhamme</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w465002">Bodinhan</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w465039">Bodingham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w465058">Budeham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w465076">Bodgiham</searchterm>
+  </extension>
+ </mads>
+ 

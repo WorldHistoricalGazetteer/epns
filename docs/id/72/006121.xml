@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000035">
+  <authority ID="epns-deep-72-a-name-parish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/006121">Bacton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000ce8"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4542300" lat="52.8412600" gazref="geonames:7299439" source="geonames"/>
+   <geo long="1.460312683" lat="52.84368652" source="epns"/>
+   <geo long="1.483624383571351" lat="52.856497494974" gazref="unlock:11066684" source="unlock"/>
+   <geo easting="634500" northing="333500" long="1.48107" lat="52.8479" kepnref="9665" source="kepn"/>
+  </extension>
+ </mads>
+ 

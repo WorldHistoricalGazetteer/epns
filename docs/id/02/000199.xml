@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000010">
+  <authority ID="epns-deep-02-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000199">Stoke Goldington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000010" type="broader">
+   <geographic>Stoke Goldington</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w13760">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000200">Stoches</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w13777">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000201">Stoch Petri de golđ</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w13805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000202">Stoke</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w13827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000203">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w13858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000204">Stok</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w13873">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000205">Stoke Goldington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7781400" lat="52.1313300" gazref="geonames:2636852" source="geonames"/>
+   <geo long="-0.7800704951803901" lat="52.12808241196875" gazref="unlock:11292725" source="unlock"/>
+   <geo easting="483500" northing="248500" long="-0.781613" lat="52.1285" kepnref="11203" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w13760">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13777">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13805">
+    <date end="1225" begin="1205" subtype="circa">c. 1215</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13827">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="bu37">Fees</source>
+    <item>461</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13827">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13858">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w13873">
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w13760">Stoches</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w13777">Stoch Petri de golđ</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w13805">Stoke</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w13827">Stokes</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w13858">Stok</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w13873">Stoke Goldington</searchterm>
+  </extension>
+ </mads>
+ 

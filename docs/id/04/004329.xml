@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000165">
+  <authority ID="epns-deep-04-b-name-subparish-000165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004329">Offenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000168" type="broader">
+   <geographic>Offenham</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w359455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004330">Offeham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004331">Vffaham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004332">Uffenham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359585">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004333">Afanhamme</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359605">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004334">Offenham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004335">Offam</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004336">Hoffenham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w359675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004337">Uffenam, Uffnam, Uphnam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9234700" lat="52.1122000" gazref="geonames:2641071" source="geonames"/>
+   <geo long="-1.919667884706723" lat="52.11638181945608" gazref="unlock:11235139" source="unlock"/>
+   <geo easting="405500" northing="246500" long="-1.92108" lat="52.1168" kepnref="5341" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w359455">
+    <date end="709" begin="709" subtype="simple">709</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>125</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359501">
+    <date end="714" begin="714" subtype="simple">714</date>
+    <copydate end="1600" begin="1500">16th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>130</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359529">
+    <date end="870" begin="850" subtype="circa">c. 860</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>289 (iii. 395)</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359529">
+    <date end="1392" begin="1392" subtype="simple">1392</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359585">
+    <date end="1058" begin="1058" subtype="simple">1058</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359605">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359605">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359632">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="" id="wo23">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359647">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359647">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="wo123">NI</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359675">
+    <date end="1584" begin="1584" subtype="simple">1584</date>
+    <source style="" id="wo110">Marr</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359675">
+    <date end="1590" begin="1590" subtype="simple">1590</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w359675">
+    <date end="1677" begin="1677" subtype="simple">1677</date>
+    <source style="" id="wo110">Marr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w359455">Offeham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359501">Vffaham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359529">Uffenham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359585">Afanhamme</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359605">Offenham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359632">Offam</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359647">Hoffenham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359675">Uffenam</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359675">Uffnam</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w359675">Uphnam</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000082">
+  <authority ID="epns-deep-15-a-name-parish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005067">Welwyn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000004" type="broader">
+   <geographic>Broadwater Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace00074f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2135900" lat="51.8331000" gazref="geonames:2634553" source="geonames"/>
+   <geo long="-0.2219612557194329" lat="51.83321653151032" gazref="unlock:11315925" source="unlock"/>
+   <geo easting="523500" northing="216500" long="-0.209051" lat="51.8335" kepnref="4645" source="kepn"/>
+  </extension>
+ </mads>
+ 

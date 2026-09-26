@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000146">
+  <authority ID="epns-deep-28-b-name-subparish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/022297">Weston upon Trent</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000141" type="broader">
+   <geographic>Weston upon Trent</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w809884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/022298">(into) Westune, Westun</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w809920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/022299">Westune, Weston(e), Westona</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w810026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/022300">Westona super Trent</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001935"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4011900" lat="52.8483500" gazref="geonames:2634302" source="geonames"/>
+   <geo easting="440500" northing="328500" long="-1.40001" lat="52.8525" kepnref="3417" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w809884">
+    <date subtype="simple" begin="1009" end="1009">1009</date>
+    <source style="italic" id="db485">SaltCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w809920">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w809920">
+    <date subtype="simple" begin="1075" end="1100">late 11th</date>
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <date subtype="simple" begin="1200" end="1225">e. 13th</date>
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="" id="db580">Werb</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w809920">
+    <attestation variantID="epns-deep-28-b-name-w809920">
+     <date subtype="simple" begin="1250" end="1250">1250</date>
+     <source style="" id="db78">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w810026">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w810026">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w810026">
+    <attestation variantID="epns-deep-28-b-name-w810026">
+     <date subtype="simple" begin="1388" end="1388">1388</date>
+     <source style="" id="db86">Cl</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w809884">into Westune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809884">Westune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809884">Westun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809920">Westune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809920">Westone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809920">Weston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w809920">Westona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w810026">Westona super Trent</searchterm>
+  </extension>
+ </mads>
+ 

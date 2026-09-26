@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-hu-subcounty-000015">
+  <authority ID="epns-deep-40-hu-name-subcounty-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009875">Duchy of Lancaster Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-co-county-000001" type="broader">
+   <geographic>Gloucestershire</geographic>
+  </related>
+  <variant ID="epns-deep-40-hu-name-w440093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009876">hd. of Lancastre</geographic>
+  </variant>
+  <variant ID="epns-deep-40-hu-name-w440122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009877">hd. of the duchery of Lancaster</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285aa6b47fc40ab3001a64"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-hu-name-w440093">
+    <date subtype="simple" begin="1403" end="1403">1403</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-hu-name-w440122">
+    <date subtype="simple" begin="1539" end="1539">1539</date>
+    <date subtype="simple" begin="1542" end="1542">1542</date>
+    <source style="" id="go396" underspec="ib">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-hu-name-w440093">hd. of Lancastre</searchterm>
+   <searchterm variantID="epns-deep-40-hu-name-w440122">hd. of the duchery of Lancaster</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000048">
+  <authority ID="epns-deep-21-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/003420">Westward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000049" type="broader">
+   <geographic>Westward</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w143714">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/003421">le Westwarde in Allerdale</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w143754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/003422">boscus de Allerdale called the Westwarde</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w143817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/003423">le Westward</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w143839">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/003424">Westwarde in Allerdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f900104e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1305900" lat="54.7934600" gazref="geonames:2634241" source="geonames"/>
+   <geo long="-3.127623803707886" lat="54.79005157559101" gazref="unlock:11319157" source="unlock"/>
+   <geo easting="327500" northing="544500" long="-3.12899" lat="54.7901" kepnref="4508" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w143714">
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="italic" id="cu41">Carliol</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w143754">
+    <date end="1365" begin="1365" subtype="simple">1365</date>
+    <copydate end="1578" begin="1578">1578</copydate>
+    <source style="italic" id="cu62">Cocker</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w143817">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w143839">
+    <date end="1381" begin="1381" subtype="simple">1381</date>
+    <source style="" id="cu57">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w143714">le Westwarde in Allerdale</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w143754">boscus de Allerdale called the Westwarde</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w143817">le Westward</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w143839">Westwarde in Allerdale</searchterm>
+  </extension>
+ </mads>
+ 

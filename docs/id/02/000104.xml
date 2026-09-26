@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000005">
+  <authority ID="epns-deep-02-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000104">Lathbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000001" type="broader">
+   <geographic>Bunsty Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7213200" lat="52.0988100" gazref="geonames:2644826" source="geonames"/>
+   <geo long="-0.7224173907355212" lat="52.10049549972499" gazref="unlock:11192218" source="unlock"/>
+   <geo easting="487500" northing="245500" long="-0.723966" lat="52.1009" kepnref="11198" source="kepn"/>
+  </extension>
+ </mads>
+ 

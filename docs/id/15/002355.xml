@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000034">
+  <authority ID="epns-deep-15-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002355">Arkley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000037" type="broader">
+   <geographic>Arkley</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w115354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002356">Arkeleyslond</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w115377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002357">Arcleylond, Arcleylane</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w115421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002358">Arkelelane</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w115442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002359">Arkeley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000766"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2293560448732941" lat="51.64447216036746" gazref="unlock:11063669" source="unlock"/>
+   <geo kepnexref="0162" long="-0.2311" lat="51.6477" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w115354">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="he6">Add</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w115377">
+    <date subtype="simple" begin="1436" end="1436">1436</date>
+    <date subtype="simple" begin="1457" end="1457">1457</date>
+    <source style="italic" id="he45">Cassio</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w115421">
+    <date subtype="simple" begin="1485" end="1485">1485</date>
+    <source style="italic" id="he45" underspec="ib">Cassio</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w115442">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="italic" id="he303">Star Chamber</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w115354">Arkeleyslond</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w115377">Arcleylond</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w115377">Arcleylane</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w115421">Arkelelane</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w115442">Arkeley</searchterm>
+  </extension>
+ </mads>
+ 

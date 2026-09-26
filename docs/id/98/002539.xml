@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000109">
+  <authority ID="epns-deep-98-a-name-parish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002539">Flitton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000008" type="broader">
+   <geographic>Flitt Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a900025a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4579500" lat="52.0107500" gazref="geonames:2649296" source="geonames"/>
+   <geo long="-0.4627829005357609" lat="52.00747114997964" gazref="unlock:11145596" source="unlock"/>
+   <geo easting="505500" northing="236500" long="-0.46405" lat="52.0169" kepnref="4332" source="kepn"/>
+  </extension>
+ </mads>
+ 

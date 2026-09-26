@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000066">
+  <authority ID="epns-deep-06-a-name-parish-000066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001921">Kirdford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000008" type="broader">
+   <geographic>Rotherbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bbb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5497000" lat="51.0298700" gazref="geonames:2645328" source="geonames"/>
+   <geo long="-0.5524509846754549" lat="51.02835651579903" gazref="unlock:11187685" source="unlock"/>
+   <geo easting="501500" northing="126500" long="-0.553976" lat="51.0289" kepnref="6928" source="kepn"/>
+  </extension>
+ </mads>
+ 

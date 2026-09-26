@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000232">
+  <authority ID="epns-deep-05-b-name-subparish-000232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003048">Stainton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000089" type="broader">
+   <geographic>Stainton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w229436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003049">Steintun, Esteintona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005b2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2568200" lat="54.5200400" gazref="geonames:2637118" source="geonames"/>
+   <geo long="-1.250592079962221" lat="54.52333732172519" gazref="unlock:11290517" source="unlock"/>
+   <geo easting="448500" northing="514500" long="-1.25218" lat="54.5235" kepnref="5881" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w229436">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w229436">Steintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w229436">Esteintona</searchterm>
+  </extension>
+ </mads>
+ 

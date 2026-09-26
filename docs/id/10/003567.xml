@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000161">
+  <authority ID="epns-deep-10-a-name-parish-000161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003567">Orlingbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000010" type="broader">
+   <geographic>Orlingbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00047b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7383600" lat="52.3421000" gazref="geonames:2640919" source="geonames"/>
+   <geo long="-0.7301091011613583" lat="52.34336133147058" gazref="unlock:11237089" source="unlock"/>
+   <geo easting="486500" northing="272500" long="-0.731666" lat="52.3438" kepnref="11031" source="kepn"/>
+  </extension>
+ </mads>
+ 

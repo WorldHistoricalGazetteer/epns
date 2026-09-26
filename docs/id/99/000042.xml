@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000004">
+  <authority ID="epns-deep-99-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000042">Conington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000001" type="broader">
+   <geographic>Normancross Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a900023e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2707500" lat="52.4583900" gazref="geonames:2652459" source="geonames"/>
+   <geo long="-0.270635606034584" lat="52.45442704688571" gazref="unlock:11115185" source="unlock"/>
+   <geo easting="517500" northing="285500" long="-0.272251" lat="52.4548" kepnref="4134" source="kepn"/>
+  </extension>
+ </mads>
+ 

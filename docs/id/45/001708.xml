@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000010">
+  <authority ID="epns-deep-45-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001708">Partington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000003" type="broader">
+   <geographic>Bowdon</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w68245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001709">Partinton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w68271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001710">Partynton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w68292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001711">Partington, Partyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w68334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001712">Pertinton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w68357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001713">Pertyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f78"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4281500" lat="53.4188400" gazref="geonames:2640593" source="geonames"/>
+   <geo long="-2.436359862" lat="53.41474908" source="epns"/>
+   <geo long="-2.42888199855761" lat="53.41927220165486" gazref="unlock:11240951" source="unlock"/>
+   <geo easting="371500" northing="391500" long="-2.43028" lat="53.4195" kepnref="11772" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w68245">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ch138">Court</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w68271">
+    <date subtype="simple" begin="1321" end="1321">1321</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w68292">
+    <date subtype="simple" begin="1417" end="1417">1417</date>
+    <date subtype="simple" begin="1443" end="1443">1443</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w68334">
+    <date subtype="simple" begin="1309" end="1309">1309</date>
+    <source style="" id="ch299">InqAqd</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w68357">
+    <date subtype="simple" begin="1422" end="1422">1422</date>
+    <source style="italic" id="ch8">AddCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w68245">Partinton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w68271">Partynton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w68292">Partington</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w68292">Partyngton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w68334">Pertinton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w68357">Pertyngton</searchterm>
+  </extension>
+ </mads>
+ 

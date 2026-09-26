@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000087">
+  <authority ID="epns-deep-39-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008451">Hardwicke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000084" type="broader">
+   <geographic>Hardwicke</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w414635">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008452">Herdewik(e), Herdewice, Herdewyk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008453">Herdewyk(e) iuxta Longeneye</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414787">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008454">Herdwik(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008455">Herdenewyk</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008456">Heredewyk'</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008457">(la) Hardewike, Hardewyk</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w414911">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008458">Hardwi(c)ke, Hardwyke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b16"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3033600" lat="51.8140600" gazref="geonames:7290793" source="geonames"/>
+   <geo long="-2.304610417" lat="51.80579674" source="epns"/>
+   <geo long="-2.311832000658451" lat="51.80128254045145" gazref="unlock:11165843" source="unlock"/>
+   <geo easting="380500" northing="212500" long="-2.28424" lat="51.8108" kepnref="6411" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w414635">
+    <date subtype="simple" begin="1175" end="1200">l. 12</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414635">
+    <date subtype="simple" begin="1189" end="1199">1189-99</date>
+    <source style="italic" id="go237">Guise</source>
+    <page>3</page>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414635">
+    <date subtype="simple" begin="1216" end="1216">1216</date>
+    <source style="" id="go97">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414635">
+    <attestation variantID="epns-deep-39-b-name-w414635">
+     <date subtype="simple" begin="1248" end="1248">1248</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-39-b-name-w414635">
+     <date subtype="simple" begin="1469" end="1469">1469</date>
+     <source style="" id="go227">GlR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414745">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="go36">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414787">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414787">
+    <date subtype="simple" begin="1542" end="1542">1542</date>
+    <source style="italic" id="go600">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414822">
+    <date subtype="simple" begin="1263" end="1263">1263</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414843">
+    <date subtype="simple" begin="1385" end="1385">1385</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414864">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="go227">GlR</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414864">
+    <date subtype="simple" begin="1378" end="1378">1378</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414911">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w414911">
+    <attestation variantID="epns-deep-39-b-name-w414911">
+     <date subtype="simple" begin="1535" end="1535">1535</date>
+     <source style="" id="go522">VE</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-39-b-name-w414911">
+     <date subtype="simple" begin="1704" end="1704">1704</date>
+     <source style="" id="go410">PR</source>
+     <page>2</page>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w414635">Herdewike</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414635">Herdewik</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414635">Herdewice</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414635">Herdewyke</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414635">Herdewyk</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414745">Herdewyke iuxta Longeneye</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414745">Herdewyk iuxta Longeneye</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414787">Herdwike</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414787">Herdwik</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414822">Herdenewyk</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414843">Heredewyk'</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414864">la Hardewike</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414864">Hardewike</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414864">Hardewyk</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414911">Hardwicke</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414911">Hardwike</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w414911">Hardwyke</searchterm>
+  </extension>
+ </mads>
+ 

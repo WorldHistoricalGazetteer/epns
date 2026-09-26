@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-a-parish-000073">
+  <authority ID="epns-deep-29-a-name-parish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009510">Croxall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-hu-subcounty-000002" type="broader">
+   <geographic>Repton and Gresley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0016f9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7063600" lat="52.7202600" gazref="geonames:2651830" source="geonames"/>
+   <geo long="-1.71128008174981" lat="52.71846177481552" gazref="unlock:11123703" source="unlock"/>
+   <geo easting="419500" northing="313500" long="-1.71274" lat="52.7188" kepnref="3489" source="kepn"/>
+  </extension>
+ </mads>
+ 

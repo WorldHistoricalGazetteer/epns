@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000089">
+  <authority ID="epns-deep-35-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012873">Easington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000024" type="broader">
+   <geographic>Slaidburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w481185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012874">Esintune</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w481203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012875">Hesington</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w481222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012876">Esington, Esyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w481280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012877">Esyngton in Bolland</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w481309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/012878">Essington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100625a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.45711283" lat="53.94503874" source="epns"/>
+   <geo long="-2.449543006356038" lat="53.94956308948115" gazref="unlock:11135533" source="unlock"/>
+   <geo easting="370500" northing="450500" long="-2.45096" lat="53.9498" kepnref="14928" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w481185">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481203">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481222">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481222">
+    <attestation variantID="epns-deep-35-b-name-w481222">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w481222">
+     <date subtype="simple" begin="1370" end="1370">1370</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481280">
+    <date subtype="simple" begin="1546" end="1546">1546</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481309">
+    <date subtype="simple" begin="1362" end="1362">1362</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481309">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w481309">
+    <date subtype="simple" begin="1675" end="1675">1675</date>
+    <source style="italic" id="wr130">Dep</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w481185">Esintune</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w481203">Hesington</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w481222">Esington</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w481222">Esyngton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w481280">Esyngton in Bolland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w481309">Essington</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000119">
+  <authority ID="epns-deep-08-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006154">Lamerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000119" type="broader">
+   <geographic>Lamerton</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w310504">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006155">lamburnan, of lamburnan (dat.)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w310552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006156">Lambretona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w310572">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006157">Lamberton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w310626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006158">Lamerton'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w310661">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006159">Lammerton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019a5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1896700" lat="50.5716000" gazref="geonames:2644988" source="geonames"/>
+   <geo long="-4.195997768569736" lat="50.56693849335895" gazref="unlock:11190773" source="unlock"/>
+   <geo easting="244500" northing="76500" long="-4.19709" lat="50.5675" kepnref="15576" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w310504">
+    <date end="980" begin="960" subtype="circa">c. 970</date>
+    <source style="" id="de17">BCS</source>
+    <item>1247</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310552">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310572">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310572">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310572">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310572">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310626">
+    <attestation variantID="epns-deep-08-b-name-w310626">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>756</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w310661">
+    <date end="1749" begin="1749" subtype="simple">1749</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w310504">lamburnan</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310504">of lamburnan</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310552">Lambretona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310572">Lambertone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310572">Lamberton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310626">Lamerton'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w310661">Lammerton</searchterm>
+  </extension>
+ </mads>
+ 

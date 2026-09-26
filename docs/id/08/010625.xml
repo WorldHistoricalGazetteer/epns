@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000181">
+  <authority ID="epns-deep-08-b-name-subparish-000181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010625">Kingsbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000181" type="broader">
+   <geographic>Kingsbridge and Dodbrooke</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w537084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010626">cinges bricge, to cinges bricge</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w537143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010627">Kingesbrig'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w537163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010628">burg' de Kingesbrig'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e00199e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7763800" lat="50.2845100" gazref="geonames:2645486" source="geonames"/>
+   <geo long="-3.775894500888422" lat="50.28626515718236" gazref="unlock:11186999" source="unlock"/>
+   <geo easting="273500" northing="44500" long="-3.77703" lat="50.2869" kepnref="15639" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w537084">
+    <date end="962" begin="962" subtype="simple">962</date>
+    <source style="" id="de259">Thorndon Hall Charter</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w537143">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w537163">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w537084">cinges bricge</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w537084">to cinges bricge</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w537143">Kingesbrig'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w537163">burg' de Kingesbrig'</searchterm>
+  </extension>
+ </mads>
+ 

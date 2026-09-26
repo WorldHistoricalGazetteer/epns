@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000120">
+  <authority ID="epns-deep-06-a-name-parish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003771">Thakeham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000013" type="broader">
+   <geographic>East Easewrithe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c23"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4231500" lat="50.9443700" gazref="geonames:2636067" source="geonames"/>
+   <geo long="-0.4268844314763704" lat="50.94578734443921" gazref="unlock:11298916" source="unlock"/>
+   <geo easting="510500" northing="117500" long="-0.428421" lat="50.9464" kepnref="6982" source="kepn"/>
+  </extension>
+ </mads>
+ 

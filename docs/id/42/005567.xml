@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000036">
+  <authority ID="epns-deep-42-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005567">Grayrigg</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-ch-belowparish-000007" type="broader">
+   <geographic>Grayrigg Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w292326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005568">Grarig(e), Grarigg(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w292484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005569">Graring</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w292510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005570">Grarick</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w292537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005571">Gray(e)rig, Grey(e)rig, -rigg(e), -rygge</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w292645">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005572">Grerygge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6507600" lat="54.3680000" gazref="geonames:2648184" source="geonames"/>
+   <geo long="-2.65567" lat="54.3712" source="epns"/>
+   <geo long="-2.654264554693361" lat="54.3710894637142" gazref="unlock:11158337" source="unlock"/>
+   <geo easting="357500" northing="497500" long="-2.65567" lat="54.3712" kepnref="5103" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <copydate end="1294" begin="1294">1294</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <date subtype="simple" begin="1160" end="1170">1160-70</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>214</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <date subtype="simple" begin="1190" end="1200">1190- 1200</date>
+    <source style="" id="we80">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <date subtype="simple" begin="1205" end="1216">1205-16</date>
+    <source style="" id="we304">NthCh</source>
+    <page>138</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <date subtype="simple" begin="1214" end="1220">1214-20</date>
+    <copydate end="1294" begin="1294">1294</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292326">
+    <attestation variantID="epns-deep-42-b-name-w292326">
+     <date subtype="simple" begin="1274" end="1274">1274</date>
+     <source style="" id="we208">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w292326">
+     <date subtype="simple" begin="1597" end="1597">1597</date>
+     <source style="" id="we511">PR(K)</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292484">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="we336">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292510">
+    <date subtype="simple" begin="1558" end="1579">1558— 79</date>
+    <source style="" id="we65">ChancP</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292537">
+    <date subtype="simple" begin="1398" end="1398">1398</date>
+    <source style="italic" id="we5">AD</source>
+    <item>E. 236</item>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292537">
+    <attestation variantID="epns-deep-42-b-name-w292537">
+     <date subtype="simple" begin="1431" end="1431">1431</date>
+     <date subtype="simple" begin="1436" end="1436">1436</date>
+     <source style="" id="we221">Kend</source>
+     <item>i</item>
+     <page>215</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w292537">
+     <date subtype="simple" begin="1758" end="1758">1758</date>
+     <source style="" id="we357">PR(KL)</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w292645">
+    <date subtype="simple" begin="1439" end="1439">1439</date>
+    <source style="" id="we158">Fine</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w292326">Grarige</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292326">Grarig</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292326">Grarigge</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292326">Grarigg</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292484">Graring</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292510">Grarick</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">Grayerig</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">Grayrig</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">Greyerig</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">Greyrig</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">-rigge</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">-rigg</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292537">-rygge</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w292645">Grerygge</searchterm>
+  </extension>
+ </mads>
+ 

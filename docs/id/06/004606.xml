@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000138">
+  <authority ID="epns-deep-06-b-name-subparish-000138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004606">Albourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000138" type="broader">
+   <geographic>Albourne</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w348962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004607">Aleburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w349006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004608">Alebourn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w349035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004609">Albourne</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w349055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004610">Awborne</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w349075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004611">Aburne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000c92"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1988000" lat="50.9345600" gazref="geonames:7287909" source="geonames"/>
+   <geo long="-0.1995629551775467" lat="50.9335089954299" gazref="unlock:11057885" source="unlock"/>
+   <geo easting="526500" northing="116500" long="-0.201124" lat="50.9341" kepnref="7003" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w348962">
+    <attestation variantID="epns-deep-06-b-name-w348962">
+     <date subtype="simple" begin="1176" end="1177">1176-7</date>
+     <source style="" id="su199">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w348962">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w349006">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w349035">
+    <date subtype="simple" begin="1401" end="1401">1401</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w349055">
+    <date subtype="simple" begin="1593" end="1593">1593</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w349075">
+    <date subtype="simple" begin="1699" end="1699">1699</date>
+    <source style="" id="su273">SRS</source>
+    <item>9</item>
+    <page>134</page>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w348962">Aleburne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w348962">Aleburn</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w349006">Alebourne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w349006">Alebourn</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w349035">Albourne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w349055">Awborne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w349075">Aburne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000322">
+  <authority ID="epns-deep-05-b-name-subparish-000322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003787">Nether Silton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000118" type="broader">
+   <geographic>Leake</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w276319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003788">Silftune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003789">Silton Paynill</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003790">Silton Paynel</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003791">Nether Silton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000521"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2994700" lat="54.3245100" gazref="geonames:2641775" source="geonames"/>
+   <geo long="-1.300319524975069" lat="54.32589276946132" gazref="unlock:11227878" source="unlock"/>
+   <geo easting="445500" northing="492500" long="-1.30189" lat="54.3261" kepnref="5974" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w276319">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276337">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276362">
+    <date subtype="regnal" begin="1272" end="1307">E 1</date>
+    <source style="italic" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276385">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w276319">Silftune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276337">Silton Paynill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276362">Silton Paynel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276385">Nether Silton</searchterm>
+  </extension>
+ </mads>
+ 

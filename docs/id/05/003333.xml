@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000267">
+  <authority ID="epns-deep-05-b-name-subparish-000267">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003333">Rainton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000102" type="broader">
+   <geographic>Topcliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w247195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003334">Reineton, Rainincton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003335">Renyngton, Renington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003336">Renningeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003337">Reignington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003338">Reniton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003339">Ranyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003340">Raynyngton, Raynington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w247475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003341">Raynton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.425460085773915" lat="54.17374934635819" gazref="unlock:11252206" source="unlock"/>
+   <geo easting="437500" northing="475500" long="-1.42701" lat="54.1739" kepnref="5920" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w247195">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247225">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82, 84 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247225">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247299">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247326">
+    <date subtype="simple" begin="1213" end="1213">1213</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247349">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247369">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247369">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>86 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247369">
+    <date subtype="simple" begin="1527" end="1527">1527</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247422">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247422">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247422">
+    <date subtype="simple" begin="1548" end="1548">1548</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w247475">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="ny222">Ve</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w247195">Reineton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247195">Rainincton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247225">Renyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247225">Renington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247299">Renningeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247326">Reignington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247349">Reniton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247369">Ranyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247422">Raynyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247422">Raynington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w247475">Raynton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-a-parish-000060">
+  <authority ID="epns-deep-53-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/012760">Tarrant Gunville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-hu-subcounty-000007" type="broader">
+   <geographic>Cranborne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a69"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1069200" lat="50.9146800" gazref="geonames:2636207" source="geonames"/>
+   <geo long="-2.105272526" lat="50.91316638" source="epns"/>
+   <geo long="-2.106691042986361" lat="50.91136693118557" gazref="unlock:11298001" source="unlock"/>
+   <geo easting="392500" northing="112500" long="-2.10804" lat="50.9119" kepnref="11476" source="kepn"/>
+  </extension>
+ </mads>
+ 

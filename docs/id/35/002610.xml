@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000018">
+  <authority ID="epns-deep-35-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002610">Salterforth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000006" type="broader">
+   <geographic>Barnoldswick</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w85573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002611">Salterford</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w85597">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002612">Salterforth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827ab47fc40c81006075"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1707400" lat="53.9045500" gazref="geonames:2638647" source="geonames"/>
+   <geo long="-2.182651531" lat="53.90082536" source="epns"/>
+   <geo long="-2.175059932434318" lat="53.90533243781798" gazref="unlock:11277229" source="unlock"/>
+   <geo easting="388500" northing="445500" long="-2.17651" lat="53.9055" kepnref="14858" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w85573">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w85597">
+    <date subtype="simple" begin="1626" end="1626">1626</date>
+    <source style="" id="wr524">PRGis</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w85597">
+    <date subtype="simple" begin="1699" end="1699">1699</date>
+    <source style="" id="wr31">Barn</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w85573">Salterford</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w85597">Salterforth</searchterm>
+  </extension>
+ </mads>
+ 

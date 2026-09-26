@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000111">
+  <authority ID="epns-deep-02-b-name-subparish-000111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001943">Slapton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000110" type="broader">
+   <geographic>Slapton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w133544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001944">Slapetone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w133563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001945">Slaptone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003b6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6441200" lat="51.8778400" gazref="geonames:2637667" source="geonames"/>
+   <geo long="-0.6416549660491031" lat="51.87478329088911" gazref="unlock:11285136" source="unlock"/>
+   <geo easting="493500" northing="220500" long="-0.643203" lat="51.8752" kepnref="11304" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w133544">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w133563">
+    <date end="1223" begin="1223" subtype="simple">1223</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w133563">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <item>145</item>
+    <page>1</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w133563">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w133563">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w133544">Slapetone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w133563">Slaptone</searchterm>
+  </extension>
+ </mads>
+ 

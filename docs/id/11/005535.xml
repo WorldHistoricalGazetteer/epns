@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000088">
+  <authority ID="epns-deep-11-a-name-parish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/005535">Farnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000009" type="broader">
+   <geographic>Farnham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a2e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7958700" lat="51.2143300" gazref="geonames:2649660" source="geonames"/>
+   <geo long="-0.7901459275945043" lat="51.21092976065046" gazref="unlock:11142281" source="unlock"/>
+   <geo easting="484500" northing="146500" long="-0.791651" lat="51.2115" kepnref="8328" source="kepn"/>
+  </extension>
+ </mads>
+ 

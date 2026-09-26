@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000073">
+  <authority ID="epns-deep-35-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010800">Gisburn Forest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000020" type="broader">
+   <geographic>Gisburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w403005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010801">foresta de Giseburn, foresta de Gyseburn</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w403070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010802">forrest of Gisbourne, Forrest of Gysborne</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w403140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010803">Forest</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w403167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010804">Gisburne Forrest</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100611d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3380500" lat="54.0029400" gazref="geonames:7295946" source="geonames"/>
+   <geo long="-2.381503788" lat="54.00822429" source="epns"/>
+   <geo long="-2.389175723074094" lat="54.01269543857835" gazref="unlock:11152781" source="unlock"/>
+   <geo easting="374500" northing="457500" long="-2.3906" lat="54.0129" kepnref="14911" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w403005">
+    <date subtype="simple" begin="1150" end="1269">c. 1150-1269</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>7</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w403070">
+    <date subtype="simple" begin="1560" end="1560">1560</date>
+    <source style="" id="wr407">NCWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w403070">
+    <date subtype="simple" begin="1626" end="1626">1626</date>
+    <source style="" id="wr503">PRBlt</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w403140">
+    <date subtype="simple" begin="1568" end="1568">1568</date>
+    <date subtype="simple" begin="1620" end="1620">1620</date>
+    <source style="" id="wr524">PRGis</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w403167">
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w403005">foresta de Giseburn</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w403005">foresta de Gyseburn</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w403070">forrest of Gisbourne</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w403070">Forrest of Gysborne</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w403140">Forest</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w403167">Gisburne Forrest</searchterm>
+  </extension>
+ </mads>
+ 

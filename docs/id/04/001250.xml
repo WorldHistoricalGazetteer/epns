@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-hu-subcounty-000002">
+  <authority ID="epns-deep-04-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001250">Oswaldslow Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-co-county-000001" type="broader">
+   <geographic>Worcestershire</geographic>
+  </related>
+  <variant ID="epns-deep-04-hu-name-w99949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001251">Oswaldeslaw, Oswoldeslau</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w99983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001252">Oswaldeslawes Hundred</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w100019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001253">Oswaldestane</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w100040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001254">Oswoldeslowe</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w100063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001255">Osewaldesle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0eb47fc40d6b00053a"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-04-hu-name-w99949">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w99983">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w100019">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w100040">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w100063">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="wo170">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-hu-name-w99949">Oswaldeslaw</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w99949">Oswoldeslau</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w99983">Oswaldeslawes Hundred</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w100019">Oswaldestane</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w100040">Oswoldeslowe</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w100063">Osewaldesle</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000107">
+  <authority ID="epns-deep-08-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005557">Tetcott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000107" type="broader">
+   <geographic>Tetcott</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w280976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005558">Tetecot(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005559">Tettecot(e)'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005560">Teticote</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005561">Tetticot'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w281098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005562">Tedecot'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a45"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.3671500" lat="50.7449500" gazref="geonames:2636082" source="geonames"/>
+   <geo long="-4.360200927069364" lat="50.74363124616223" gazref="unlock:11298827" source="unlock"/>
+   <geo easting="233500" northing="96500" long="-4.36128" lat="50.7442" kepnref="15564" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w280976">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w280976">
+    <date end="1217" begin="1217" subtype="simple">1217</date>
+    <source style="" id="de189">PatR</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281007">
+    <attestation variantID="epns-deep-08-b-name-w281007">
+     <date end="1238" begin="1238" subtype="simple">1238</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w281007">
+     <date end="1346" begin="1346" subtype="simple">1346</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281051">
+    <date end="1212" begin="1210" subtype="simple">1210-12</date>
+    <source style="" id="de225">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281073">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>794</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w281098">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <source style="" id="de42">ClR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w280976">Tetecota</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w280976">Tetecot</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281007">Tettecote'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281007">Tettecot'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281051">Teticote</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281073">Tetticot'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w281098">Tedecot'</searchterm>
+  </extension>
+ </mads>
+ 

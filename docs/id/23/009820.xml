@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000099">
+  <authority ID="epns-deep-23-a-name-parish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/009820">Hethe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000009" type="broader">
+   <geographic>Ploughley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1372600" lat="51.9604000" gazref="geonames:2647025" source="geonames"/>
+   <geo long="-1.133964843898889" lat="51.96036596632391" gazref="unlock:11170879" source="unlock"/>
+   <geo easting="459500" northing="229500" long="-1.13546" lat="51.9608" kepnref="3619" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000044">
+  <authority ID="epns-deep-15-b-name-subparish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003198">St Peters</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000050" type="broader">
+   <geographic>St Peters</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w164011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003199">ecclesia Sancti Petri</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w164048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003200">ecclesia Beati Petri</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w164084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003201">cimiterie Saint Piere</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w164116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003202">Seint Petres</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w164146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003203">Seynt Peters</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w164171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003204">parish of Senpeters</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007c9"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="0164" long="-0.335004" lat="51.755515" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w164011">
+    <date subtype="simple" begin="1119" end="1146">1119-46</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w164048">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="" id="he121" underspec="ib">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w164084">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="he121" underspec="ib">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w164116">
+    <date subtype="simple" begin="1487" end="1487">1487</date>
+    <source style="" id="he89">Dugd</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w164146">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="italic" id="he268">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w164171">
+    <date subtype="simple" begin="1654" end="1654">1654</date>
+    <source style="" id="he220">ParReg (Aldenham)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w164011">ecclesia Sancti Petri</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w164048">ecclesia Beati Petri</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w164084">cimiterie Saint Piere</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w164116">Seint Petres</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w164146">Seynt Peters</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w164171">parish of Senpeters</searchterm>
+  </extension>
+ </mads>
+ 

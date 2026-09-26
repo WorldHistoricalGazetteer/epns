@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000026">
+  <authority ID="epns-deep-17-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001340">Dunham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000030" type="broader">
+   <geographic>Dunham</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w76480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001341">Duneham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001342">Doneham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76554">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001343">Dune</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001344">Dunham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001345">Donham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76631">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001346">Dounham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001347">Dunham super Trent</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w76682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/001348">Dunham Marsh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd4000869"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7666700" lat="53.2666700" gazref="geonames:2650723" source="geonames"/>
+   <geo long="-0.778058879686093" lat="53.26095598266549" gazref="unlock:11134181" source="unlock"/>
+   <geo easting="481500" northing="374500" long="-0.779649" lat="53.2613" kepnref="2332" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w76480">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76480">
+    <date end="1156" begin="1156" subtype="simple">1156</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76480">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="ns24">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76480">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76524">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="ns137">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76524">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76554">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76568">
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <source style="" id="ns246">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76568">
+    <attestation variantID="epns-deep-17-b-name-w76568">
+     <date end="1157" begin="1157" subtype="simple">1157</date>
+     <date end="1159" begin="1159" subtype="simple">1159</date>
+     <source style="" id="ns206">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76609">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <source style="" id="ns246">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76631">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="ns17">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76651">
+    <date end="1410" begin="1410" subtype="simple">1410</date>
+    <source style="" id="ns299">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w76682">
+    <date end="1597" begin="1597" subtype="simple">1597</date>
+    <source style="" id="ns74">DKR</source>
+    <item>xxxviii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w76480">Duneham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76524">Doneham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76554">Dune</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76568">Dunham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76609">Donham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76631">Dounham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76651">Dunham super Trent</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w76682">Dunham Marsh</searchterm>
+  </extension>
+ </mads>
+ 

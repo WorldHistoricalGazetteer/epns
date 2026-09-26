@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000208">
+  <authority ID="epns-deep-04-b-name-subparish-000208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005497">Church Lench</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000196" type="broader">
+   <geographic>Church Lench</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w445860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005498">æt Lench</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w445894">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005499">Chirichlench, Ciricleinc</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w445947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005500">Lenche Roculf</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w445970">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005501">Lench Rokulf</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000566"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9653100" lat="52.1591600" gazref="geonames:2653029" source="geonames"/>
+   <geo long="-1.963448605133241" lat="52.1613611720252" gazref="unlock:11107150" source="unlock"/>
+   <geo easting="402500" northing="251500" long="-1.96485" lat="52.1618" kepnref="5383" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w445860">
+    <date end="865" begin="860" subtype="simple">860-5</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>511</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w445894">
+    <date end="1054" begin="1054" subtype="simple">1054</date>
+    <date end="1070" begin="1070" subtype="simple">1070</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="wo27">ChronEve</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w445947">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w445970">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w445860">æt Lench</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w445894">Chirichlench</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w445894">Ciricleinc</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w445947">Lenche Roculf</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w445970">Lench Rokulf</searchterm>
+  </extension>
+ </mads>
+ 

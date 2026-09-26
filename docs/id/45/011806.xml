@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000091">
+  <authority ID="epns-deep-45-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011806">Shurlach cum Bradford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000015" type="broader">
+   <geographic>Davenham</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w532231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011807">Shurlach cum Bradford</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w532263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011808">Syrlache et Badeford</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w532296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011809">Schorlach et Bradforth'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w532329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/011810">Shurlache et Bradford'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f98"/>
+  </recordInfo>
+  <extension>
+   <geo easting="367500" northing="372500" long="-2.48851" lat="53.2485" kepnref="11892" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w532231">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w532263">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="" id="ch301">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w532296">
+    <date subtype="regnal" begin="1327" end="1377">E3</date>
+    <source style="italic" id="ch641">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w532329">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w532231">Shurlach cum Bradford</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w532263">Syrlache et Badeford</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w532296">Schorlach et Bradforth'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w532329">Shurlache et Bradford'</searchterm>
+  </extension>
+ </mads>
+ 

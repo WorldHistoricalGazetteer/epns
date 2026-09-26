@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000170">
+  <authority ID="epns-deep-04-b-name-subparish-000170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004550">Broom</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000173" type="broader">
+   <geographic>Broom</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w374766">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004551">Brome</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w374780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004552">Broome</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00055d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1500000" lat="52.4000000" gazref="geonames:2654556" source="geonames"/>
+   <geo easting="390500" northing="278500" long="-2.14105" lat="52.4044" kepnref="5346" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w374766">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w374780">
+    <date end="1343" begin="1343" subtype="simple">1343</date>
+    <source style="" id="wo109">LyttCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w374766">Brome</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w374780">Broome</searchterm>
+  </extension>
+ </mads>
+ 

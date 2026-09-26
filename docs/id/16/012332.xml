@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-hu-subcounty-000031">
+  <authority ID="epns-deep-16-hu-name-subcounty-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012332">Amesbury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-co-county-000001" type="broader">
+   <geographic>Wiltshire</geographic>
+  </related>
+  <variant ID="epns-deep-16-hu-name-w607335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012333">Hundred de Am(m)resberie, Ambresberia</geographic>
+  </variant>
+  <variant ID="epns-deep-16-hu-name-w607386">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012334">Ambresberi ħdr</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886ddb47fc40d38000d3c"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-16-hu-name-w607335">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ws100">ExonDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-hu-name-w607386">
+    <date end="1159" begin="1159" subtype="simple">1159</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-hu-name-w607335">Hundred de Ammresberie</searchterm>
+   <searchterm variantID="epns-deep-16-hu-name-w607335">Hundred de Amresberie</searchterm>
+   <searchterm variantID="epns-deep-16-hu-name-w607335">Ambresberia</searchterm>
+   <searchterm variantID="epns-deep-16-hu-name-w607386">Ambresberi ħdr</searchterm>
+  </extension>
+ </mads>
+ 

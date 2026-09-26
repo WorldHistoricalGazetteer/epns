@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000055">
+  <authority ID="epns-deep-34-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005087">Walkingham Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000023" type="broader">
+   <geographic>Walkingham Hill (extra parochial)</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w208671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005088">Walching(e)ha'</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w208695">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005089">Walkhinham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w208727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005090">Walkingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w208763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005091">Walkingham, Walkyngham</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w208853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005092">Walkingham Hyll</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006294"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.480600459" lat="54.05265149" source="epns"/>
+   <geo long="-1.47301929476915" lat="54.04812551301129" gazref="unlock:11312447" source="unlock"/>
+   <geo easting="434500" northing="461500" long="-1.47456" lat="54.0483" kepnref="14775" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w208671">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208695">
+    <date end="1185" begin="1173" subtype="simple">1173-85</date>
+    <source style="" id="wr796">YCh</source>
+    <item>513</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208727">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208727">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>21</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208763">
+    <date end="1239" begin="1239" subtype="simple">1239</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208763">
+    <attestation variantID="epns-deep-34-b-name-w208763">
+     <date end="1302" begin="1250" subtype="simple">1250- 1302</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208763">
+    <date end="1305" begin="1285" subtype="circa">c. 1295</date>
+    <source style="" id="wr189">Ext</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208763">
+    <attestation variantID="epns-deep-34-b-name-w208763">
+     <date end="1320" begin="1320" subtype="simple">1320</date>
+     <source style="" id="wr75">Calv</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w208853">
+    <date end="1534" begin="1534" subtype="simple">1534</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w208671">Walchingeha'</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208671">Walchingha'</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208695">Walkhinham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208727">Walkingeham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208763">Walkingham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208763">Walkyngham</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w208853">Walkingham Hyll</searchterm>
+  </extension>
+ </mads>
+ 

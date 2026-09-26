@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000067">
+  <authority ID="epns-deep-05-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000678">Broughton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000029" type="broader">
+   <geographic>Appleton le Street</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w57981">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000679">Broctun(e), Brostone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000680">Broctuna, Brocton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000681">Brochton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000682">Broutton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000683">Broghton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000400"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8224400" lat="54.1460700" gazref="geonames:7292081" source="geonames"/>
+   <geo long="-0.8285493186115155" lat="54.15144452184304" gazref="unlock:11089710" source="unlock"/>
+   <geo easting="476500" northing="473500" long="-0.830173" lat="54.1516" kepnref="5718" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w57981">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58011">
+    <attestation variantID="epns-deep-05-b-name-w58011">
+     <date subtype="simple" begin="1145" end="1153">1145-53</date>
+     <source style="italic" id="ny113">Leon</source>
+     <item>35</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w58011">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58067">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58085">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58103">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58103">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w57981">Broctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w57981">Broctun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w57981">Brostone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58011">Broctuna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58011">Brocton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58067">Brochton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58085">Broutton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58103">Broghton</searchterm>
+  </extension>
+ </mads>
+ 

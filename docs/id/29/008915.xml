@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000072">
+  <authority ID="epns-deep-29-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/008915">Boundary</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000065" type="broader">
+   <geographic>Boundary</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w262446">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/008916">Bondary or Burton Road</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001815"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.503490100886548" lat="52.76272734100528" gazref="unlock:11083786" source="unlock"/>
+   <geo kepnexref="276" long="-1.49" lat="52.77" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w262446">
+    <date subtype="simple" begin="1857" end="1857">1857</date>
+    <source style="" id="db582">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w262446">Bondary or Burton Road</searchterm>
+  </extension>
+ </mads>
+ 

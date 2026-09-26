@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-hu-subcounty-000007">
+  <authority ID="epns-deep-07-hu-name-subcounty-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001604">Barcombe Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-ra-abovesubcounty-000001" type="broader">
+   <geographic>Rape of Lewes</geographic>
+  </related>
+  <variant ID="epns-deep-07-hu-name-w109372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001605">Bercha(m)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w109391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001606">Bercompe</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w109409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001607">Bercamp</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c58"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-07-hu-name-w109372">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w109391">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w109409">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-hu-name-w109372">Bercham</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w109372">Bercha</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w109391">Bercompe</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w109409">Bercamp</searchterm>
+  </extension>
+ </mads>
+ 

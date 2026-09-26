@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000023">
+  <authority ID="epns-deep-02-b-name-subparish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000372">Newton Longville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000022" type="broader">
+   <geographic>Newton Longville</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w26273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000373">Neutone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w26290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000374">Newentona</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w26464">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000375">Newenton</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w26483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000376">Newnton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300039d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7659500" lat="51.9760000" gazref="geonames:2641545" source="geonames"/>
+   <geo long="-0.7696694471835148" lat="51.97510749936342" gazref="unlock:11230977" source="unlock"/>
+   <geo easting="484500" northing="231500" long="-0.771207" lat="51.9756" kepnref="11215" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w26273">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w26290">
+    <date end="1158" begin="1152" subtype="simple">1152-8</date>
+    <source style="" id="bu79">NLC</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w26464">
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w26483">
+    <date end="1526" begin="1526" subtype="simple">1526</date>
+    <source style="" id="bu69">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w26483">
+    <date end="1607" begin="1607" subtype="simple">1607</date>
+    <date end="1693" begin="1693" subtype="simple">1693</date>
+    <date end="1703" begin="1703" subtype="simple">1703</date>
+    <source style="italic" id="bu110">Terr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w26273">Neutone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w26290">Newentona</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w26464">Newenton</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w26483">Newnton</searchterm>
+  </extension>
+ </mads>
+ 

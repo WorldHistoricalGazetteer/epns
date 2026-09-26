@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000050">
+  <authority ID="epns-deep-10-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001200">Culworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000050" type="broader">
+   <geographic>Culworth</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w69884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001201">Culeorde</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w69902">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001202">Culwurda</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w69964">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001203">Culworth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w69977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001204">Culleworth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w69999">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001205">Colewyth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w70021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001206">Coleworth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w70065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001207">Coleswrth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w70086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001208">Collewrth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w70107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001209">Colleworth</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w70127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001210">Colworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000550"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2052300" lat="52.1175700" gazref="geonames:2651719" source="geonames"/>
+   <geo long="-1.204022923270438" lat="52.11372262305539" gazref="unlock:11124800" source="unlock"/>
+   <geo easting="454500" northing="246500" long="-1.20552" lat="52.1141" kepnref="10920" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w69884">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w69902">
+    <attestation variantID="epns-deep-10-b-name-w69902">
+     <date end="1184" begin="1184" subtype="simple">1184</date>
+     <source style="" id="nh215">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w69902">
+     <date end="1371" begin="1371" subtype="simple">1371</date>
+     <source style="" id="nh4">AD</source>
+     <item>i</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w69964">
+    <date end="1371" begin="1184">1184-1371</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w69977">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="nh4">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w69999">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70021">
+    <attestation variantID="epns-deep-10-b-name-w70021">
+     <date begin="" end="" subtype="no date">n.d</date>
+     <source style="" id="nh4">AD</source>
+     <item>i</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w70021">
+     <date end="1376" begin="1376" subtype="simple">1376</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70065">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70086">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="nh4">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70107">
+    <date end="1380" begin="1380" subtype="simple">1380</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70127">
+    <date end="1331" begin="1331" subtype="simple">1331</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w70127">
+    <date end="1378" begin="1378" subtype="simple">1378</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w69884">Culeorde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w69902">Culwurda</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w69964">Culworthe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w69964">Culworth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w69977">Culleworth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w69999">Colewyth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w70021">Coleworth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w70065">Coleswrth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w70086">Collewrth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w70107">Colleworth</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w70127">Colworth</searchterm>
+  </extension>
+ </mads>
+ 

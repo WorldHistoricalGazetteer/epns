@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000010">
+  <authority ID="epns-deep-05-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000089">Huntington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000005" type="broader">
+   <geographic>Huntington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w6070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000090">Huntindune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000091">Huntingtuna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000092">Huntingdon, Huntyngdon</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000093">Huntendune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000094">Huntingdon(a), Huntyngton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000095">Huntinton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000096">Huntingedon'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000097">Huntinyndon, Huntyndon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ce"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0500000" lat="54.0000000" gazref="geonames:2646386" source="geonames"/>
+   <geo long="-1.061861557153218" lat="53.99168677601618" gazref="unlock:11181378" source="unlock"/>
+   <geo easting="462500" northing="456500" long="-1.04799" lat="54.0008" kepnref="5660" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w6070">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6090">
+    <date subtype="simple" begin="1145" end="1153">1145-53</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>35</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6090">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6128">
+    <attestation variantID="epns-deep-05-b-name-w6128">
+     <date subtype="simple" begin="1159" end="1159">1159</date>
+     <source style="" id="ny236">YCh</source>
+     <page>1059</page>
+    </attestation>
+    <passim>;</passim>
+    <attestation variantID="epns-deep-05-b-name-w6128">
+     <date subtype="simple" begin="1266" end="1266">1266</date>
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <date subtype="simple" begin="1295" end="1295">1295</date>
+     <date subtype="simple" begin="1317" end="1317">1317</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6196">
+    <date subtype="circa" begin="1150" end="1170">c. 1160</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6223">
+    <attestation variantID="epns-deep-05-b-name-w6223">
+     <date subtype="regnal" begin="1154" end="1189">H 2</date>
+     <source style="italic" id="ny123">MaryH</source>
+     <item>6 d</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6277">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6277">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6277">
+    <date subtype="simple" begin="1237" end="1237">1237</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6277">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6333">
+    <date subtype="simple" begin="1187" end="1187">1187</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6354">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6354">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w6070">Huntindune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6090">Huntingtuna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6128">Huntingdon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6128">Huntyngdon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6196">Huntendune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6223">Huntingdona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6223">Huntingdon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6223">Huntyngtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6223">Huntyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6277">Huntintona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6277">Huntinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6333">Huntingedon'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6354">Huntinyndon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6354">Huntyndon</searchterm>
+  </extension>
+ </mads>
+ 

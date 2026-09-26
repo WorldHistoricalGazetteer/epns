@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000224">
+  <authority ID="epns-deep-09-b-name-subparish-000224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011557">Offwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000224" type="broader">
+   <geographic>Offwell</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w524905">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011558">Offawilla</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w524924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011559">Offewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w524968">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011560">Offewyll</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w524987">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011561">Offewille juxta Honeton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w525021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011562">Uffewell</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w525040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011563">Uffewill(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w525088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011564">Uffewyll</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1452800" lat="50.7905200" gazref="geonames:2641065" source="geonames"/>
+   <geo long="-3.142171104286588" lat="50.78890849562042" gazref="unlock:11235179" source="unlock"/>
+   <geo easting="319500" northing="99500" long="-3.14339" lat="50.7895" kepnref="15895" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w524905">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524924">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524924">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524924">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524968">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w524987">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w525021">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w525040">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>785</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w525040">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w525040">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w525088">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w524905">Offawilla</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w524924">Offewelle</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w524924">Offewell</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w524968">Offewyll</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w524987">Offewille juxta Honeton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w525021">Uffewell</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w525040">Uffewille</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w525040">Uffewill</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w525088">Uffewyll</searchterm>
+  </extension>
+ </mads>
+ 

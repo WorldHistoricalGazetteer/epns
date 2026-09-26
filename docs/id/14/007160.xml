@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000325">
+  <authority ID="epns-deep-14-b-name-subparish-000325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007160">Deighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000170" type="broader">
+   <geographic>Escrick</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w461891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007161">Diston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w461910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007162">Dicton, Dikton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w461968">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007163">Dichton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w461993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007164">Ditton'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w462033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007165">Dython</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w462055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007166">Dighton, Dyghton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w462104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007167">Deighton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w462127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007168">Digton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d000498"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0500000" lat="53.9000000" gazref="geonames:2651405" source="geonames"/>
+   <geo long="-1.04886131959895" lat="53.89270363443768" gazref="unlock:11128343" source="unlock"/>
+   <geo easting="462500" northing="444500" long="-1.05045" lat="53.8929" kepnref="8699" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w461891">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461910">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461910">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <source style="" id="ey16">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461910">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461910">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461968">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461968">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="ey306">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461993">
+    <date end="1193" begin="1190" subtype="simple">1190-3</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461993">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="ey306">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w461993">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="ey297">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w462033">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="italic" id="ey356">Warter</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w462055">
+    <attestation variantID="epns-deep-14-b-name-w462055">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w462055">
+     <date end="1400" begin="1400" subtype="simple">1400</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w462104">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w462127">
+    <date end="1342" begin="1342" subtype="simple">1342</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w461891">Distone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w461891">Diston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w461910">Dicton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w461910">Dikton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w461968">Dichton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w461993">Ditton'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w462033">Dython</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w462055">Dighton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w462055">Dyghton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w462104">Deighton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w462127">Digton'</searchterm>
+  </extension>
+ </mads>
+ 

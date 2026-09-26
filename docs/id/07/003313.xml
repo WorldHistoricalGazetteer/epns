@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000072">
+  <authority ID="epns-deep-07-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003313">Crowborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000073" type="broader">
+   <geographic>Crowborough</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w213482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003314">super montem de Cranbergh</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w213525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003315">Crowbergh</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w213549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003316">Croweborowghe Gate, Crowbarowe</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w213591">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003317">Crowbarrowe</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w213621">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003318">Crowboro Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cd3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1617100" lat="51.0604400" gazref="geonames:2651852" source="geonames"/>
+   <geo long="0.1618471826427667" lat="51.05329995878879" gazref="unlock:11123474" source="unlock"/>
+   <geo kepnexref="0031" long="0.16553" lat="51.06051" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w213482">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="su253">SAC</source>
+    <item>26</item>
+    <page>14</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w213525">
+    <date end="1390" begin="1390" subtype="simple">1390</date>
+    <source style="italic" id="su163">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w213549">
+    <date end="1564" begin="1564" subtype="simple">1564</date>
+    <source style="italic" id="su77">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w213591">
+    <date end="1587" begin="1587" subtype="simple">1587</date>
+    <source style="italic" id="su54">Ct</source>
+    <source style="" id="su50">C.P.</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w213621">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="su269">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w213482">super montem de Cranbergh</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w213525">Crowbergh</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w213549">Croweborowghe Gate</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w213549">Crowbarowe</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w213591">Crowbarrowe</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w213621">Crowboro Hill</searchterm>
+  </extension>
+ </mads>
+ 

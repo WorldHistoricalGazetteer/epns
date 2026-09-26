@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000020">
+  <authority ID="epns-deep-59-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/005404">Fontmell Magna</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000002" type="broader">
+   <geographic>Sixpenny Handley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029de"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1901400" lat="50.9511100" gazref="geonames:2649247" source="geonames"/>
+   <geo long="-2.192210154" lat="50.95172722" source="epns"/>
+   <geo long="-2.192191663813671" lat="50.94723109668912" gazref="unlock:11146236" source="unlock"/>
+   <geo easting="386500" northing="116500" long="-2.19353" lat="50.9478" kepnref="11602" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000070">
+  <authority ID="epns-deep-23-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007072">Blackthorn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000063" type="broader">
+   <geographic>Blackthorn</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w330989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007073">Blaketorn</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007074">Blakethurn', Blakethurn(e), Blakethorn', Blakethorn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007075">Blakehurne</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007076">Blakehoren</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007077">Blachetorn</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007078">Blakeburn</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w331203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/007079">Blackthorne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0985900" lat="51.8686500" gazref="geonames:2655441" source="geonames"/>
+   <geo long="-1.092120223962262" lat="51.87012935062803" gazref="unlock:11079882" source="unlock"/>
+   <geo easting="462500" northing="219500" long="-1.09362" lat="51.8706" kepnref="3584" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w330989">
+    <attestation variantID="epns-deep-23-b-name-w330989">
+     <date end="1190" begin="1190" subtype="simple">1190</date>
+     <source style="" id="ox168">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-23-b-name-w330989">
+     <date end="1309" begin="1309" subtype="simple">1309</date>
+     <source style="" id="ox38">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331037">
+    <date end="1309" begin="1190">1190-1309</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331104">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="ox112">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331127">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331152">
+    <date end="1192" begin="1192" subtype="simple">1192</date>
+    <source style="" id="ox168">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331152">
+    <date end="1193" begin="1193" subtype="simple">1193</date>
+    <source style="" id="ox168">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331183">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w331203">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w330989">Blaketorn</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethurn'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethurne</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethurn</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethorn'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethorne</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331037">Blakethorn</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331104">Blakehurne</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331127">Blakehoren</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331152">Blachetorn</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331183">Blakeburn</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w331203">Blackthorne</searchterm>
+  </extension>
+ </mads>
+ 

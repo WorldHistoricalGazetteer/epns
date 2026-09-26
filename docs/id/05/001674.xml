@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000150">
+  <authority ID="epns-deep-05-b-name-subparish-000150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001674">East Ayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000057" type="broader">
+   <geographic>Seamer</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w134555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001675">Atun(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4748300" lat="54.2548000" gazref="geonames:6620306" source="geonames"/>
+   <geo long="-0.4724976673365542" lat="54.2553266318587" gazref="unlock:11135591" source="unlock"/>
+   <geo easting="499500" northing="485500" long="-0.474169" lat="54.2555" kepnref="5801" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w134555">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w134555">Atune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w134555">Atun</searchterm>
+  </extension>
+ </mads>
+ 

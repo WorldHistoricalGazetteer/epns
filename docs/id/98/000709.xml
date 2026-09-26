@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-hu-subcounty-000003">
+  <authority ID="epns-deep-98-hu-name-subcounty-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000709">Barford Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-co-county-000001" type="broader">
+   <geographic>Bedfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-98-hu-name-w55946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000710">Bereford(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b25b47fc407a90002f2"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-98-hu-name-w55946">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-hu-name-w55946">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-hu-name-w55946">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-hu-name-w55946">Bereforde</searchterm>
+   <searchterm variantID="epns-deep-98-hu-name-w55946">Bereford</searchterm>
+  </extension>
+ </mads>
+ 

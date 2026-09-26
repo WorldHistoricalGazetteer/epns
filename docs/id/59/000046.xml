@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000001">
+  <authority ID="epns-deep-59-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000046">Bourton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000001" type="broader">
+   <geographic>Redlane Hundred and Gillingham Liberty</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d00299a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3277800" lat="51.0744400" gazref="geonames:2655092" source="geonames"/>
+   <geo long="-2.33116548" lat="51.07102665" source="epns"/>
+   <geo long="-2.335460812063138" lat="51.07281360826035" gazref="unlock:11083910" source="unlock"/>
+   <geo easting="377500" northing="130500" long="-2.32251" lat="51.0734" kepnref="11558" source="kepn"/>
+  </extension>
+ </mads>
+ 

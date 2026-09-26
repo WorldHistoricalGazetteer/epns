@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-a-parish-000122">
+  <authority ID="epns-deep-17-a-name-parish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005100">Stapleford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-wpd-belowsubcounty-000005" type="broader">
+   <geographic>South Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286bedb47fc40bd40007ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2666700" lat="52.9166700" gazref="geonames:2637022" source="geonames"/>
+   <geo long="-1.248606097992698" lat="52.93220933890223" gazref="unlock:11291297" source="unlock"/>
+   <geo easting="450500" northing="337500" long="-1.25013" lat="52.9325" kepnref="28" source="kepn"/>
+  </extension>
+ </mads>
+ 

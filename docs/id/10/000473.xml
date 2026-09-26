@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000014">
+  <authority ID="epns-deep-10-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000473">Litchborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000014" type="broader">
+   <geographic>Litchborough</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w29072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000474">Liceberge</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000475">Lickesberga</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000476">Lichesberga</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000477">Lychesberga and Lichesberg, Lichesbar(e)we, Lichesber(e)we, Lichesbarue</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000478">Lichebarue</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000479">Lychebarue, Lycchebarue and Licheberg, Licheber(e)we, Lichebarwe</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000480">Lecchesbarewe</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000481">Lechebarwe</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000482">Lecchebarewe</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w29461">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000483">Lecheborowe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0752400" lat="52.1835900" gazref="geonames:2644388" source="geonames"/>
+   <geo long="-1.071098872450637" lat="52.18468481115021" gazref="unlock:11195783" source="unlock"/>
+   <geo easting="463500" northing="254500" long="-1.07261" lat="52.1851" kepnref="10883" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w29072">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29091">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="nh215">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29115">
+    <attestation variantID="epns-deep-10-b-name-w29115">
+     <date end="1184" begin="1184" subtype="simple">1184</date>
+     <source style="" id="nh215">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w29115">
+     <date end="1366" begin="1366" subtype="simple">1366</date>
+     <source style="" id="nh4">AD</source>
+     <item>iii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29198">
+    <date end="1366" begin="1184">1184-1366</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29259">
+    <attestation variantID="epns-deep-10-b-name-w29259">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w29259">
+     <date end="1366" begin="1366" subtype="simple">1366</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29336">
+    <date end="1366" begin="1100">12th-1366</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29392">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29416">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29436">
+    <date end="1356" begin="1356" subtype="simple">1356</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w29461">
+    <date end="1522" begin="1522" subtype="simple">1522</date>
+    <source style="" id="nh155">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w29072">Liceberge</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29091">Lickesberga</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29115">Lichesberga</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lychesberga</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesberg</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesbarewe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesbarwe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesberewe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesberwe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29198">Lichesbarue</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29259">Lichebarue</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Lychebarue</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Lycchebarue</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Licheberg</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Licheberewe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Licheberwe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29336">Lichebarwe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29392">Lecchesbarewe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29416">Lechebarwe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29436">Lecchebarewe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w29461">Lecheborowe</searchterm>
+  </extension>
+ </mads>
+ 

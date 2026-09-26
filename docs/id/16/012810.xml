@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000271">
+  <authority ID="epns-deep-16-b-name-subparish-000271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012810">Woodford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000315" type="broader">
+   <geographic>Woodford</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w633914">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012811">(to þæm ealdan) wuduforda</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w633961">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012812">Wodeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012813">Wudeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012814">Wodeford Maior</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012815">Netherwodeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012816">Wodeford Magna, Wodeford Parva</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012817">Wodeford Minor</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012818">Litelwodeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634186">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012819">Upwodford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w634202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012820">Grete, Lytle Woodford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e7a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8362800" lat="51.1235300" gazref="geonames:7296301" source="geonames"/>
+   <geo long="-1.835645974283608" lat="51.12713817916514" gazref="unlock:11218352" source="unlock"/>
+   <geo easting="411500" northing="136500" long="-1.83703" lat="51.1277" kepnref="7466" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w633914">
+    <date subtype="simple" begin="972" end="972">972</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>1286</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w633961">
+    <attestation variantID="epns-deep-16-b-name-w633961">
+     <date subtype="simple" begin="1120" end="1120">1120</date>
+     <source style="" id="ws290">SarumCh</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w633961">
+     <date subtype="simple" begin="1332" end="1332">1332</date>
+     <source style="italic" id="ws302">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634029">
+    <date end="1332" begin="1120">1120-1332</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634039">
+    <date subtype="circa" begin="1240" end="1260">c. 1250</date>
+    <source style="italic" id="ws278">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634070">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634096">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634137">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634163">
+    <date subtype="simple" begin="1422" end="1422">1422</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634186">
+    <date subtype="simple" begin="1524" end="1524">1524</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w634202">
+    <date subtype="simple" begin="1525" end="1525">1525</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w633914">to þæm ealdan wuduforda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w633914">wuduforda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w633961">Wodeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634029">Wudeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634039">Wodeford Maior</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634070">Netherwodeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634096">Wodeford Magna</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634096">Wodeford Parva</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634137">Wodeford Minor</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634163">Litelwodeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634186">Upwodford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634202">Grete</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w634202">Lytle Woodford</searchterm>
+  </extension>
+ </mads>
+ 

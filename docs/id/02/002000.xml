@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000114">
+  <authority ID="epns-deep-02-b-name-subparish-000114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002000">Grendon Underwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000113" type="broader">
+   <geographic>Grendon Underwood</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w138261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002001">Grennedone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w138281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002002">Grenedone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w138302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002003">Grendon</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w138319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002004">Gryndon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000369"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0169200" lat="51.8832200" gazref="geonames:2647922" source="geonames"/>
+   <geo long="-1.004778865089311" lat="51.87841522296928" gazref="unlock:11160931" source="unlock"/>
+   <geo easting="468500" northing="220500" long="-1.00629" lat="51.8789" kepnref="11307" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w138261">
+    <date end="1186" begin="1186" subtype="simple">1186</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w138281">
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w138302">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w138319">
+    <date end="1626" begin="1626" subtype="simple">1626</date>
+    <source style="" id="bu115">Vern</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w138261">Grennedone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w138281">Grenedone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w138302">Grendon</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w138319">Gryndon</searchterm>
+  </extension>
+ </mads>
+ 

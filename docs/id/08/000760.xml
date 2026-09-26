@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000012">
+  <authority ID="epns-deep-08-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000760">Filleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000012" type="broader">
+   <geographic>Filleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w45620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000761">Fileleia</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000762">Fyleleia, Fylelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000763">Fillelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000764">Fileslee</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000765">Fylylegh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000766">Fillilegh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45783">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000767">Philleigh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w45806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000768">Felelegh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001963"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9041100" lat="51.0359200" gazref="geonames:2649456" source="geonames"/>
+   <geo long="-3.904050180518491" lat="51.03080271402989" gazref="unlock:11144336" source="unlock"/>
+   <geo easting="266500" northing="127500" long="-3.90519" lat="51.0313" kepnref="15469" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w45620">
+    <attestation variantID="epns-deep-08-b-name-w45620">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w45620">
+     <date end="1297" begin="1297" subtype="simple">1297</date>
+     <source style="" id="de188">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45682">
+    <date end="1297" begin="1086">1086-1297</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45705">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45725">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45744">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45763">
+    <date end="1278" begin="1278" subtype="simple">1278</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45783">
+    <date end="1736" begin="1736" subtype="simple">1736</date>
+    <source style="" id="de80">Exmoor</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w45806">
+    <date end="1441" begin="1441" subtype="simple">1441</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w45620">Fileleia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45682">Fyleleia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45682">Fyleleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45682">Fylelegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45705">Fillelegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45725">Fileslee</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45744">Fylylegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45763">Fillilegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45783">Philleigh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w45806">Felelegh</searchterm>
+  </extension>
+ </mads>
+ 

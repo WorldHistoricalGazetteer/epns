@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000097">
+  <authority ID="epns-deep-15-a-name-parish-000097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005677">Kelshall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000005" type="broader">
+   <geographic>Odsey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000709"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0647200" lat="52.0100300" gazref="geonames:2645850" source="geonames"/>
+   <geo long="-0.06920191416048424" lat="52.01066905779362" gazref="unlock:11184873" source="unlock"/>
+   <geo easting="532500" northing="236500" long="-0.0708219" lat="52.0111" kepnref="4656" source="kepn"/>
+  </extension>
+ </mads>
+ 

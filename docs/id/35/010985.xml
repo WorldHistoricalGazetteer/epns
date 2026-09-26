@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000074">
+  <authority ID="epns-deep-35-b-name-subparish-000074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010985">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000020" type="broader">
+   <geographic>Gisburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w408977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010986">Hortun, Horton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w409065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010987">Horton in Crauen, Horton in Craven</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100611e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2260600" lat="53.9556600" gazref="geonames:7295947" source="geonames"/>
+   <geo long="-2.228559424" lat="53.94569099" source="epns"/>
+   <geo long="-2.22096466135569" lat="53.95020094610337" gazref="unlock:11179790" source="unlock"/>
+   <geo easting="385500" northing="450500" long="-2.22241" lat="53.9504" kepnref="14912" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w408977">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w408977">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>21d</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w408977">
+    <date subtype="simple" begin="1165" end="1189">1165-89</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w408977">
+    <attestation variantID="epns-deep-35-b-name-w408977">
+     <date subtype="simple" begin="1175" end="1200">l. 12</date>
+     <source style="italic" id="wr631">Sawl</source>
+     <item>2</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w408977">
+     <date subtype="simple" begin="1379" end="1379">1379</date>
+     <source style="" id="wr577">PT</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w409065">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w409065">
+    <attestation variantID="epns-deep-35-b-name-w409065">
+     <date subtype="simple" begin="1342" end="1342">1342</date>
+     <source style="italic" id="wr23">Ass</source>
+     <item>11</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w409065">
+     <date subtype="simple" begin="1606" end="1606">1606</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w408977">Hortun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w408977">Horton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w409065">Horton in Crauen</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w409065">Horton in Craven</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000024">
+  <authority ID="epns-deep-06-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000706">Compton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000024" type="broader">
+   <geographic>Compton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w64534">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000707">Cumtun</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w64555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000708">Contone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w64572">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000709">Cuntuna, Cuntune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w64606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000710">Cumtun'</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w64625">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000711">Cumpton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ccf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8964200" lat="50.9269500" gazref="geonames:2652493" source="geonames"/>
+   <geo long="-0.8972089506040614" lat="50.92419501031668" gazref="unlock:11114949" source="unlock"/>
+   <geo easting="477500" northing="114500" long="-0.898691" lat="50.9248" kepnref="6885" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w64534">
+    <date subtype="simple" begin="1015" end="1015">1015</date>
+    <source style="" id="su136">KCD</source>
+    <item>722</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w64555">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w64572">
+    <date subtype="simple" begin="1164" end="1164">1164</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w64572">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w64606">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="su95">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w64625">
+    <date subtype="simple" begin="1224" end="1224">1224</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w64534">Cumtun</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w64555">Contone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w64572">Cuntuna</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w64572">Cuntune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w64606">Cumtun'</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w64625">Cumpton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000329">
+  <authority ID="epns-deep-12-b-name-subparish-000329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020001">Rickling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000444" type="broader">
+   <geographic>Rickling</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w970817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020002">Richelingā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020003">Riclinges, Rigeling</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020004">Rikelinges</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020005">Rykeling(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970917">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020006">Rikeling</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020007">Rekeling'</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970951">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020008">Rekelyng</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w970978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020009">Rikenyge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e7d"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1761611638387768" lat="51.96142373182986" gazref="unlock:11255645" source="unlock"/>
+   <geo easting="550500" northing="231500" long="0.189058" lat="51.9616" kepnref="12595" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w970817">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970837">
+    <date subtype="simple" begin="1214" end="1214">1214</date>
+    <source style="" id="ex74">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970867">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970887">
+    <date subtype="simple" begin="1238" end="1238">1238</date>
+    <source style="italic" id="ex385">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970887">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970917">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="ex150" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970931">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970951">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ex355">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970951">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w970978">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w970817">Richelingā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970837">Riclinges</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970837">Rigeling</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970867">Rikelinges</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970887">Rykelinge</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970887">Rykeling</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970917">Rikeling</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970931">Rekeling'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970951">Rekelyng</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w970978">Rikenyge</searchterm>
+  </extension>
+ </mads>
+ 

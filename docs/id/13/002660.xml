@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000046">
+  <authority ID="epns-deep-13-a-name-parish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002660">Mancetter</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hud-belowsubcounty-000004" type="broader">
+   <geographic>Atherstone Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000698"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5274400" lat="52.5703000" gazref="geonames:2643124" source="geonames"/>
+   <geo long="-1.535234328630461" lat="52.56505817041224" gazref="unlock:11211892" source="unlock"/>
+   <geo easting="432500" northing="296500" long="-1.52195" lat="52.5654" kepnref="4937" source="kepn"/>
+  </extension>
+ </mads>
+ 

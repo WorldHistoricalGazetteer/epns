@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000128">
+  <authority ID="epns-deep-05-b-name-subparish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001235">Cropton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000047" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w104330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001236">Croptun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001237">Cropton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001238">Cropetun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001239">Croppeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000543"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8389900" lat="54.2913000" gazref="geonames:2651897" source="geonames"/>
+   <geo long="-0.8398343040650997" lat="54.2953771400306" gazref="unlock:11122779" source="unlock"/>
+   <geo easting="475500" northing="489500" long="-0.841463" lat="54.2956" kepnref="5779" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w104330">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104330">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104358">
+    <attestation variantID="epns-deep-05-b-name-w104358">
+     <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104392">
+    <date subtype="circa" begin="1250" end="1270">c. 1260</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>3</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104419">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w104330">Croptune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104330">Croptun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104358">Croptona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104358">Cropton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104392">Cropetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104419">Croppeton</searchterm>
+  </extension>
+ </mads>
+ 

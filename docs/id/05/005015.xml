@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000443">
+  <authority ID="epns-deep-05-b-name-subparish-000443">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005015">Downholme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000150" type="broader">
+   <geographic>Downholme</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w360888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005016">Dune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360902">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005017">Dunum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005018">Dounoum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005019">Downhum</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000470"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8264800" lat="54.3765600" gazref="geonames:2651026" source="geonames"/>
+   <geo long="-1.82295778418832" lat="54.37273244248443" gazref="unlock:11131381" source="unlock"/>
+   <geo easting="411500" northing="497500" long="-1.82447" lat="54.3729" kepnref="6096" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w360888">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360902">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny122">Marrick</source>
+    <item>120</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360902">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360902">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360902">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360960">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360977">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w360888">Dune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360902">Dunum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360960">Dounoum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360977">Downhum</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000065">
+  <authority ID="epns-deep-14-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001629">Rise</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000034" type="broader">
+   <geographic>Rise</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w102204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001630">Risun, Rison</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w102226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001631">Rise, Ryse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w102289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001632">Rise in Holdernesse, Rise in Holdernes</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w102366">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001633">Rys</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w102396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001634">Risse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w102418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001635">Ryes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00052f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2463100" lat="53.8630200" gazref="geonames:2639316" source="geonames"/>
+   <geo long="-0.2433714338419428" lat="53.86563789682369" gazref="unlock:11256362" source="unlock"/>
+   <geo easting="515500" northing="442500" long="-0.245053" lat="53.8659" kepnref="8729" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w102204">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102226">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="italic" id="ey234">Nunkeel</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102226">
+    <attestation variantID="epns-deep-14-b-name-w102226">
+     <date end="1275" begin="1255" subtype="circa">c. 1265</date>
+     <source style="" id="ey159">KF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w102226">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102289">
+    <date end="1360" begin="1360" subtype="simple">1360</date>
+    <date end="1366" begin="1366" subtype="simple">1366</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102289">
+    <date end="1475" begin="1475" subtype="simple">1475</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102289">
+    <date end="1499" begin="1499" subtype="simple">1499</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102366">
+    <date end="1197" begin="1180" subtype="simple">1180-97</date>
+    <date end="1310" begin="1286" subtype="simple">1286-1310</date>
+    <source style="" id="ey202">Melsa</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102396">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ey224">NomVill</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w102418">
+    <date end="1512" begin="1512" subtype="simple">1512</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w102204">Risun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102204">Rison</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102226">Rise</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102226">Ryse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102289">Rise in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102289">Rise in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102366">Rys</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102396">Risse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w102418">Ryes</searchterm>
+  </extension>
+ </mads>
+ 

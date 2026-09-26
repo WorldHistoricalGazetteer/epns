@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000035">
+  <authority ID="epns-deep-29-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004957">Hulland Ward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000033" type="broader">
+   <geographic>Hulland Ward</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w151587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004958">ward of Holand</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w151623">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004959">Holande Warde</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w151649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004960">Holond Ward</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w151671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/004961">warda de Holand</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00189b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5994200" lat="53.0062300" gazref="geonames:7294835" source="geonames"/>
+   <geo long="-1.619781645211473" lat="53.02387965648912" gazref="unlock:11180872" source="unlock"/>
+   <geo easting="425500" northing="347500" long="-1.62126" lat="53.0242" kepnref="3451" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w151587">
+    <date subtype="simple" begin="1262" end="1262">1262</date>
+    <source style="" id="db453">RadCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w151587">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w151623">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w151649">
+    <date subtype="simple" begin="1387" end="1387">1387</date>
+    <source style="italic" id="db98">Cor</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w151671">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w151587">ward of Holand</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w151623">Holande Warde</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w151649">Holond Ward</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w151671">warda de Holand</searchterm>
+  </extension>
+ </mads>
+ 

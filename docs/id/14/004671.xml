@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000216">
+  <authority ID="epns-deep-14-b-name-subparish-000216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004671">Full Sutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000124" type="broader">
+   <geographic>Full Sutton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w307522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004672">Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w307539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004673">Suttune, Sutton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w307586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004674">Sotton'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w307633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004675">Fulsutton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w307680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004676">Fulesutton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w307704">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004677">Foul(e)sutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8675800" lat="53.9886900" gazref="geonames:2648993" source="geonames"/>
+   <geo long="-0.863595154765161" lat="53.9899755973975" gazref="unlock:11148833" source="unlock"/>
+   <geo easting="474500" northing="455500" long="-0.865207" lat="53.9902" kepnref="8594" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w307522">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307539">
+    <attestation variantID="epns-deep-14-b-name-w307539">
+     <date end="1157" begin="1156" subtype="simple">1156-7</date>
+     <source style="" id="ey367">YCh</source>
+     <item>354</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307586">
+    <date end="1342" begin="1342" subtype="simple">1342</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307633">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307633">
+    <attestation variantID="epns-deep-14-b-name-w307633">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w307633">
+     <date end="1587" begin="1587" subtype="simple">1587</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307680">
+    <date end="1234" begin="1234" subtype="simple">1234</date>
+    <source style="" id="ey91">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307704">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="ey160">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w307704">
+    <attestation variantID="epns-deep-14-b-name-w307704">
+     <date end="1310" begin="1310" subtype="simple">1310</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w307704">
+     <date end="1390" begin="1390" subtype="simple">1390</date>
+     <source style="italic" id="ey200">Meaux</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w307522">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307539">Suttune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307539">Suttona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307539">Sutton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307586">Sotton'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307633">Fulsutton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307680">Fulesutton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307704">Foulesutton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w307704">Foulsutton</searchterm>
+  </extension>
+ </mads>
+ 

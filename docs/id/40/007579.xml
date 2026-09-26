@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000059">
+  <authority ID="epns-deep-40-a-name-parish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007579">Corse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000011" type="broader">
+   <geographic>Westminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001940"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3000000" lat="51.9333300" gazref="geonames:2652323" source="geonames"/>
+   <geo long="-2.320007594" lat="51.9316435" source="epns"/>
+   <geo long="-2.312766159482935" lat="51.93615969290842" gazref="unlock:11116665" source="unlock"/>
+   <geo easting="378500" northing="226500" long="-2.31412" lat="51.9366" kepnref="6505" source="kepn"/>
+  </extension>
+ </mads>
+ 

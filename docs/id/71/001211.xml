@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol71mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-71-a-parish-000005">
+  <authority ID="epns-deep-71-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/001211">Ludborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-71-wp-subcounty-000001" type="broader">
+   <geographic>Ludborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f21"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0518700" lat="53.4405800" gazref="geonames:2643440" source="geonames"/>
+   <geo long="-0.05016435190021019" lat="53.44008689983018" gazref="unlock:11209388" source="unlock"/>
+   <geo easting="529500" northing="395500" long="-0.0518493" lat="53.4404" kepnref="10711" source="kepn"/>
+  </extension>
+ </mads>
+ 

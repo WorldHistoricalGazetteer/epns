@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000194">
+  <authority ID="epns-deep-02-b-name-subparish-000194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004320">Penn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000197" type="broader">
+   <geographic>Penn</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w308619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004321">Penna de Tapeslawa</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w308646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004322">Lapenne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6769000" lat="51.6312300" gazref="geonames:2640448" source="geonames"/>
+   <geo long="-0.6778100733898417" lat="51.63239288464108" gazref="unlock:11242865" source="unlock"/>
+   <geo easting="491500" northing="193500" long="-0.679345" lat="51.6329" kepnref="11391" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w308619">
+    <date end="1188" begin="1188" subtype="simple">1188</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w308646">
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="italic" id="bu38">FF</source>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w308646">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <source style="" id="bu21">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w308646">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="bu13">Bract</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w308619">Penna de Tapeslawa</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w308646">Lapenne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000305">
+  <authority ID="epns-deep-14-b-name-subparish-000305">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006765">Knedlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000164" type="broader">
+   <geographic>Howden</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w435956">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006766">Cnyllingatún</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w435990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006767">Cledinton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w436009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006768">Knedlington, Knedlyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w436066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006769">Knedelington</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w436113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006770">Knydlyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004d1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8849100" lat="53.7427200" gazref="geonames:2645160" source="geonames"/>
+   <geo long="-0.8853166141850063" lat="53.74746452089418" gazref="unlock:11188631" source="unlock"/>
+   <geo easting="473500" northing="428500" long="-0.886915" lat="53.7477" kepnref="8680" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w435956">
+    <date end="959" begin="959" subtype="simple">959</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="ey367">YCh</source>
+    <item>4</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w435990">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w436009">
+    <attestation variantID="epns-deep-14-b-name-w436009">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+    <attestation variantID="epns-deep-14-b-name-w436009">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w436009">
+     <date end="1551" begin="1551" subtype="simple">1551</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w436066">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ey224">NomVill</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w436066">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w436066">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="ey290">Poll</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w436113">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w435956">Cnyllingatún</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w435990">Cledinton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w436009">Knedlington</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w436009">Knedlyngton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w436066">Knedelington</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w436113">Knydlyngton</searchterm>
+  </extension>
+ </mads>
+ 

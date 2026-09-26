@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-a-parish-000004">
+  <authority ID="epns-deep-44-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/001343">Prestbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-hu-subcounty-000001" type="broader">
+   <geographic>Macclesfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f08"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1500000" lat="53.2833300" gazref="geonames:2639925" source="geonames"/>
+   <geo long="-2.142542065519115" lat="53.29410153053956" gazref="unlock:11249830" source="unlock"/>
+   <geo easting="390500" northing="377500" long="-2.14397" lat="53.2944" kepnref="11693" source="kepn"/>
+  </extension>
+ </mads>
+ 

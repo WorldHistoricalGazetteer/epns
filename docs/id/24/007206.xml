@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000084">
+  <authority ID="epns-deep-24-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007206">Over Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000003" type="broader">
+   <geographic>Chadlington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000729"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5358300" lat="51.9576600" gazref="geonames:7297030" source="geonames"/>
+   <geo long="-1.541582145023428" lat="51.95366645079447" gazref="unlock:11237807" source="unlock"/>
+   <geo easting="431500" northing="228500" long="-1.54303" lat="51.9541" kepnref="3718" source="kepn"/>
+  </extension>
+ </mads>
+ 

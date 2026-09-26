@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000181">
+  <authority ID="epns-deep-12-a-name-parish-000181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/008098">Blackmore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000010" type="broader">
+   <geographic>Chelmsford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bc6"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3186500" lat="51.6925600" gazref="geonames:2655466" source="geonames"/>
+   <geo long="0.3222331271982902" lat="51.68881975000621" gazref="unlock:11079692" source="unlock"/>
+   <geo easting="560500" northing="201500" long="0.320582" lat="51.6893" kepnref="12361" source="kepn"/>
+  </extension>
+ </mads>
+ 

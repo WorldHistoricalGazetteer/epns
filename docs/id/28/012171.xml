@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000068">
+  <authority ID="epns-deep-28-a-name-parish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012171">Elton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000002" type="broader">
+   <geographic>Wirksworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c001715"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6700100" lat="53.1454100" gazref="geonames:2650037" source="geonames"/>
+   <geo long="-1.663602444490744" lat="53.14088345324828" gazref="unlock:11139825" source="unlock"/>
+   <geo easting="422500" northing="360500" long="-1.66508" lat="53.1412" kepnref="3348" source="kepn"/>
+  </extension>
+ </mads>
+ 

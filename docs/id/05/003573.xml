@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000295">
+  <authority ID="epns-deep-05-b-name-subparish-000295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003573">Old Byland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000110" type="broader">
+   <geographic>Old Byland</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w263289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003574">Begeland</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w263307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003575">Veteri Bella Landa</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w263335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003576">Old Bylande</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000559"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1570500" lat="54.2666200" gazref="geonames:2641032" source="geonames"/>
+   <geo long="-1.163212713382213" lat="54.26209977635742" gazref="unlock:11235400" source="unlock"/>
+   <geo easting="455500" northing="485500" long="-1.14945" lat="54.2622" kepnref="5946" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w263289">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w263307">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w263335">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v.</item>
+    <page>355</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w263289">Begeland</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w263307">Veteri Bella Landa</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w263335">Old Bylande</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000025">
+  <authority ID="epns-deep-76-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/006479">Broome</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000018" type="broader">
+   <geographic>Cardington</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w288219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/006480">Brame</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w288234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/006481">Brome</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w288313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/006482">Broom</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a62fb47fc4463d000e92"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.699588846" lat="52.57918742" source="epns"/>
+   <geo long="-2.701107887436407" lat="52.58187671440805" gazref="unlock:11089313" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w288219">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288234">
+    <date end="1256" begin="1255" subtype="simple">1255-6</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288234">
+    <date end="1262" begin="1261" subtype="simple">1261-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288234">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ss130">InqMisc</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288234">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288234">
+    <date end="1689" begin="1689" subtype="simple">1689</date>
+    <source style="" id="ss230">PR(H)</source>
+    <page>16</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w288313">
+    <date end="1770" begin="1770" subtype="simple">1770</date>
+    <source style="italic" id="ss408">PRCardington</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w288219">Brame</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w288234">Brome</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w288313">Broom</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000011">
+  <authority ID="epns-deep-45-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008416">Grappenhall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000001" type="broader">
+   <geographic>Bucklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ef1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5467500" lat="53.3720400" gazref="geonames:6693989" source="geonames"/>
+   <geo long="-2.556143246" lat="53.36930263" source="epns"/>
+   <geo long="-2.54857059984295" lat="53.36484396882244" gazref="unlock:11158158" source="unlock"/>
+   <geo easting="363500" northing="386500" long="-2.55007" lat="53.3741" kepnref="12196" source="kepn"/>
+  </extension>
+ </mads>
+ 

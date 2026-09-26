@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000146">
+  <authority ID="epns-deep-10-a-name-parish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003371">Sulby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000009" type="broader">
+   <geographic>Rothwell Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0299200" lat="52.4221500" gazref="geonames:7296706" source="geonames"/>
+   <geo long="-1.03659174909053" lat="52.42718115731057" gazref="unlock:11295229" source="unlock"/>
+   <geo easting="465500" northing="281500" long="-1.03812" lat="52.4276" kepnref="11016" source="kepn"/>
+  </extension>
+ </mads>
+ 

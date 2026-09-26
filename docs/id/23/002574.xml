@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000016">
+  <authority ID="epns-deep-23-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/002574">Kidmore End</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000002" type="broader">
+   <geographic>Binfield Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-23-a-name-w138540">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/002575">Kydmer end</geographic>
+  </variant>
+  <variant ID="epns-deep-23-a-name-w138566">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/002576">Kidmere End</geographic>
+  </variant>
+  <variant ID="epns-deep-23-a-name-w138589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/002577">Kidmore End, Kidmore end Lane</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000703"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0038700" lat="51.5055200" gazref="geonames:7296998" source="geonames"/>
+   <geo long="-0.998423132806188" lat="51.50966762009092" gazref="unlock:11185798" source="unlock"/>
+   <geo kepnexref="247" long="-0.995257" lat="51.509971" source="kepn"/>
+   <attestation variantID="epns-deep-23-a-name-w138540">
+    <date end="1552" begin="1551" subtype="simple">1551-2</date>
+    <source style="italic" id="ox236">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-a-name-w138566">
+    <date end="1704" begin="1704" subtype="simple">1704</date>
+    <source style="italic" id="ox27">Bodl</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-a-name-w138589">
+    <date end="1713" begin="1713" subtype="simple">1713</date>
+    <source style="italic" id="ox27">Bodl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-a-name-w138540">Kydmer end</searchterm>
+   <searchterm variantID="epns-deep-23-a-name-w138566">Kidmere End</searchterm>
+   <searchterm variantID="epns-deep-23-a-name-w138589">Kidmore End</searchterm>
+   <searchterm variantID="epns-deep-23-a-name-w138589">Kidmore end Lane</searchterm>
+  </extension>
+ </mads>
+ 

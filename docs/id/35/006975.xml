@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000047">
+  <authority ID="epns-deep-35-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006975">Linton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000014" type="broader">
+   <geographic>Linton</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w248275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006976">Lipton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w248291">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006977">Linton, Lynton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w248400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006978">Lynton in Craven</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0204800" lat="54.0566400" gazref="geonames:7291494" source="geonames"/>
+   <geo long="-2.015276803" lat="54.05377196" source="epns"/>
+   <geo long="-2.007639228618092" lat="54.0582683723749" gazref="unlock:11195643" source="unlock"/>
+   <geo easting="399500" northing="462500" long="-2.00912" lat="54.0585" kepnref="14885" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w248275">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248291">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="italic" id="wr631">Sawl</source>
+    <item>2d</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248291">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <copydate end="1271" begin="1271">1271</copydate>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248291">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248291">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="wr476">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248291">
+    <attestation variantID="epns-deep-35-b-name-w248291">
+     <date subtype="simple" begin="1225" end="1225">1225</date>
+     <source style="" id="wr217">Font</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w248291">
+     <date subtype="simple" begin="1626" end="1626">1626</date>
+     <source style="" id="wr546">PRLnt</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248400">
+    <date subtype="simple" begin="1334" end="1334">1334</date>
+    <date subtype="simple" begin="1355" end="1355">1355</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w248400">
+    <attestation variantID="epns-deep-35-b-name-w248400">
+     <date subtype="simple" begin="1403" end="1403">1403</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w248400">
+     <date subtype="simple" begin="1434" end="1434">1434</date>
+     <source style="" id="wr711">Test</source>
+     <item>ii</item>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w248275">Lipton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w248291">Linton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w248291">Lynton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w248400">Lynton in Craven</searchterm>
+  </extension>
+ </mads>
+ 

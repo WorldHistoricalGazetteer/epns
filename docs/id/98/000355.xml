@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000020">
+  <authority ID="epns-deep-98-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000355">Felmersham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000002" type="broader">
+   <geographic>Willey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000257"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5502900" lat="52.2064600" gazref="geonames:7301692" source="geonames"/>
+   <geo long="-0.5437474714330908" lat="52.20633039907854" gazref="unlock:11142988" source="unlock"/>
+   <geo easting="499500" northing="257500" long="-0.545321" lat="52.2068" kepnref="4242" source="kepn"/>
+  </extension>
+ </mads>
+ 

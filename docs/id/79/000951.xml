@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000011">
+  <authority ID="epns-deep-79-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/000951">Gresham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d18"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2205100" lat="52.9003100" gazref="geonames:7295604" source="geonames"/>
+   <geo long="1.211608941" lat="52.89565303" source="epns"/>
+   <geo long="1.219364322264755" lat="52.89994107796949" gazref="unlock:11160961" source="unlock"/>
+   <geo easting="616500" northing="338500" long="1.21755" lat="52.9003" kepnref="9163" source="kepn"/>
+  </extension>
+ </mads>
+ 

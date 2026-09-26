@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000108">
+  <authority ID="epns-deep-13-b-name-subparish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004545">Stockton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000112" type="broader">
+   <geographic>Stockton</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w238460">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004546">Stocton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w238477">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004547">Stockton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w238495">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004548">Stocton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w238571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004549">Stokton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w238580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004550">Stoketon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007d9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3605500" lat="52.2718100" gazref="geonames:2636878" source="geonames"/>
+   <geo long="-1.362484181553335" lat="52.267542849119" gazref="unlock:11292591" source="unlock"/>
+   <geo easting="443500" northing="263500" long="-1.36396" lat="52.2679" kepnref="4997" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w238460">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wa108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w238477">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w238495">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="wa296">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w238495">
+    <attestation variantID="epns-deep-13-b-name-w238495">
+     <date end="1320" begin="1320" subtype="simple">1320</date>
+     <source style="" id="wa5">AD</source>
+     <item>iii</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-13-b-name-w238495">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="" id="wa305">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w238571">
+    <date end="1535" begin="1320">1320-1535</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w238580">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="wa168">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w238460">Stocton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w238477">Stockton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w238495">Stocton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w238571">Stokton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w238580">Stoketon</searchterm>
+  </extension>
+ </mads>
+ 

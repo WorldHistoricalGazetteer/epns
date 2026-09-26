@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol78mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-78-a-parish-000016">
+  <authority ID="epns-deep-78-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/78/013412">Sproxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-78-hu-subcounty-000001" type="broader">
+   <geographic>Framland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7311100" lat="52.8097100" gazref="geonames:2637180" source="geonames"/>
+   <geo long="-0.7313633901562635" lat="52.81092951685971" gazref="unlock:11289712" source="unlock"/>
+   <geo easting="485500" northing="324500" long="-0.73294" lat="52.8113" kepnref="8745" source="kepn"/>
+  </extension>
+ </mads>
+ 

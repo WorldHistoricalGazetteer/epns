@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000253">
+  <authority ID="epns-deep-16-b-name-subparish-000253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012069">Pewsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000294" type="broader">
+   <geographic>Pewsey</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w593343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012070">(æt) Pefesigge</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593384">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012071">Pevesige</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012072">Pevesie, Pevesei</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593432">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012073">Pevesia</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012074">Pevesi</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012075">Peveseye</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593534">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012076">Peueseye</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012077">Peuesy</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012078">Pusye</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w593575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012079">Pewse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e2a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7654500" lat="51.3385500" gazref="geonames:2640327" source="geonames"/>
+   <geo long="-1.763082381889096" lat="51.34284410491947" gazref="unlock:11244758" source="unlock"/>
+   <geo easting="416500" northing="160500" long="-1.76448" lat="51.3433" kepnref="7446" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w593343">
+    <date subtype="circa" begin="870" end="890">c. 880</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>553</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593384">
+    <date subtype="simple" begin="940" end="940">940</date>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <item>748</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593406">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593432">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593456">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ws241">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593473">
+    <attestation variantID="epns-deep-16-b-name-w593473">
+     <date subtype="simple" begin="1261" end="1261">1261</date>
+     <source style="" id="ws106">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w593473">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593534">
+    <date end="1316" begin="1261">1261-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593544">
+    <date subtype="simple" begin="1324" end="1324">1324</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593560">
+    <date subtype="simple" begin="1378" end="1378">1378</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w593575">
+    <date subtype="simple" begin="1524" end="1524">1524</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w593343">æt Pefesigge</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593343">Pefesigge</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593384">Pevesige</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593406">Pevesie</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593406">Pevesei</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593432">Pevesia</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593456">Pevesi</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593473">Peveseye</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593534">Peueseye</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593544">Peuesy</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593560">Pusye</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w593575">Pewse</searchterm>
+  </extension>
+ </mads>
+ 

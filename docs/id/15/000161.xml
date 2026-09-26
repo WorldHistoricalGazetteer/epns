@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000002">
+  <authority ID="epns-deep-15-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000161">Holwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000002" type="broader">
+   <geographic>Holwell</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w8121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000162">Holewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w8219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000163">Hollewelle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace00079c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3038200" lat="51.9862400" gazref="geonames:2646690" source="geonames"/>
+   <geo long="-0.3032566656676856" lat="51.98729555129969" gazref="unlock:11177973" source="unlock"/>
+   <geo easting="516500" northing="233500" long="-0.304849" lat="51.9877" kepnref="4574" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w8121">
+    <date subtype="simple" begin="969" end="969">969</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="he68">Crawford</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w8121">
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <source style="italic" id="he65">CottCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w8121">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w8121">
+    <attestation variantID="epns-deep-15-b-name-w8121">
+     <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+     <copydate end="1317" begin="1317">1317</copydate>
+     <source style="" id="he49">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w8121">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="he110">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w8219">
+    <date subtype="simple" begin="1427" end="1427">1427</date>
+    <source style="" id="he139">HMC</source>
+    <item>ix</item>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w8121">Holewelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w8219">Hollewelle</searchterm>
+  </extension>
+ </mads>
+ 

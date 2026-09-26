@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-hu-subcounty-000001">
+  <authority ID="epns-deep-39-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000002">Kiftsgate Hundred (Lower Division)</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-co-county-000001" type="broader">
+   <geographic>Gloucestershire</geographic>
+  </related>
+  <variant ID="epns-deep-39-hu-name-w1876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000003">manerium de Winchecumb' cum hundredis de Holeford, Grestan' et Kiftesgate</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285aa6b47fc40ab3001a6a"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-39-hu-name-w1876">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="go96">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-hu-name-w1876">manerium de Winchecumb' cum hundredis de Holeford</searchterm>
+   <searchterm variantID="epns-deep-39-hu-name-w1876">Grestan' et Kiftesgate</searchterm>
+  </extension>
+ </mads>
+ 

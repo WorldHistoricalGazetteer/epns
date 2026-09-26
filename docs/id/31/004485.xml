@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000058">
+  <authority ID="epns-deep-31-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004485">West Hardwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000017" type="broader">
+   <geographic>Wragby</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w200136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004486">Harduic, Arduwic</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004487">Hardewic(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004488">Hartwic</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004489">Herdewic(a), Herdewyk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004490">West Herdewyk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200351">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004491">Erdewyk</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004492">Herdvic, Herdwic</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004493">Herthewyke, Herthewic(k)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w200484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004494">West Hardwike, Hardwick(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810062b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3721200" lat="53.6607900" gazref="geonames:7294171" source="geonames"/>
+   <geo long="-1.379549273" lat="53.65665279" source="epns"/>
+   <geo long="-1.371916297215926" lat="53.66110895312389" gazref="unlock:11316972" source="unlock"/>
+   <geo easting="446500" northing="418500" long="-1.29779" lat="53.6609" kepnref="14442" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w200136">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200162">
+    <date subtype="simple" begin="1108" end="1114">1108-14</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1465</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200162">
+    <date subtype="simple" begin="1189" end="1189">1189</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>4</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200205">
+    <date subtype="circa" begin="1146" end="1166">c. 1156</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200229">
+    <date subtype="simple" begin="1119" end="1135">1119-35</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>7d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200229">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="italic" id="wr424" underspec="ib">Nost</source>
+    <item>5d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200229">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200229">
+    <date subtype="simple" begin="1334" end="1334">1334</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200309">
+    <date subtype="simple" begin="1390" end="1390">1390</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>67d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200309">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200351">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200370">
+    <date subtype="simple" begin="1159" end="1170">1159-70</date>
+    <source style="" id="wr796">YCh</source>
+    <item>1595-6</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200370">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>106</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200423">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200423">
+    <date subtype="simple" begin="1275" end="1300">l. 13</date>
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>66d</item>
+    <page>172</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200484">
+    <date subtype="simple" begin="1559" end="1559">1559</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200484">
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w200484">
+    <date subtype="simple" begin="1615" end="1615">1615</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w200136">Harduic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200136">Arduwic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200162">Hardewich</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200162">Hardewic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200205">Hartwic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200229">Herdewica</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200229">Herdewic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200229">Herdewyke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200229">Herdewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200309">West Herdewyke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200309">West Herdewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200351">Erdewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200370">Herdvic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200370">Herdwic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200423">Herthewyke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200423">Herthewick</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200423">Herthewic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200484">West Hardwike</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200484">Hardwicke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w200484">Hardwick</searchterm>
+  </extension>
+ </mads>
+ 

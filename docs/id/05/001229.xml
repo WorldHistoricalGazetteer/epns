@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000127">
+  <authority ID="epns-deep-05-b-name-subparish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001229">Cawthorn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000047" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w103906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001230">Caltorn(e), Carltorna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w103950">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001231">Calthorn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001232">Kaldthorn</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001233">Cawlthorne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w104048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001234">Cawthorne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000542"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8000000" lat="54.2833300" gazref="geonames:2653464" source="geonames"/>
+   <geo easting="477500" northing="489500" long="-0.810741" lat="54.2952" kepnref="5778" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w103906">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103906">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103950">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w103950">
+    <attestation variantID="epns-deep-05-b-name-w103950">
+     <date subtype="circa" begin="1180" end="1200">c. 1190</date>
+     <source style="" id="ny81">Guis</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w103950">
+     <date subtype="simple" begin="1572" end="1572">1572</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104009">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104028">
+    <date subtype="simple" begin="1561" end="1561">1561</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w104048">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w103906">Caltorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103906">Caltorn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103906">Carltorna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103950">Calthorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w103950">Calthorn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104009">Kaldthorn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104028">Cawlthorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w104048">Cawthorne</searchterm>
+  </extension>
+ </mads>
+ 

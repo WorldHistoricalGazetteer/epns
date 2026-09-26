@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000028">
+  <authority ID="epns-deep-44-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006986">Yeardsley cum Whaley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000006" type="broader">
+   <geographic>Taxal</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w318884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006987">Hirdeslewaylie</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w318915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006988">(vill' de) Urdeslegh Waylegh</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w318963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006989">Yerdesley Wayley</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w318993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006990">Hurdesle et Wayley, Yurdesle et Wayley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002069"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2" lat="53.33463937" source="epns"/>
+   <geo easting="399500" northing="381500" long="-2.00896" lat="53.3304" kepnref="11721" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w318884">
+    <date end="1348" begin="1348" subtype="simple">1348</date>
+    <source style="italic" id="ch386">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w318915">
+    <attestation variantID="epns-deep-44-b-name-w318915">
+     <date end="1358" begin="1358" subtype="simple">1358</date>
+     <source style="italic" id="ch386" underspec="ib">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w318963">
+    <date end="1620" begin="1620" subtype="simple">1620</date>
+    <source style="italic" id="ch641">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w318993">
+    <date end="1400" begin="1400" subtype="simple">1400</date>
+    <source style="italic" id="ch314">JRC</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w318993">
+    <date end="1400" begin="1400" subtype="simple">1400</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w318884">Hirdeslewaylie</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w318915">vill' de Urdeslegh Waylegh</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w318915">Urdeslegh Waylegh</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w318963">Yerdesley Wayley</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w318993">Hurdesle et Wayley</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w318993">Yurdesle et Wayley</searchterm>
+  </extension>
+ </mads>
+ 

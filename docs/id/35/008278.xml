@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-ld-localdistrict-000004">
+  <authority ID="epns-deep-35-ld-name-localdistrict-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/008278">Malhamdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000017" type="broader">
+   <geographic>Kirkby Malham</geographic>
+  </related>
+  <variant ID="epns-deep-35-ld-name-w306522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/008279">Malghedale</geographic>
+  </variant>
+  <variant ID="epns-deep-35-ld-name-w306560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/008280">Malhamdale</geographic>
+  </variant>
+  <variant ID="epns-deep-35-ld-name-w306594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/008281">Malhamdayle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328780fb47fc40c8100000f"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-35-ld-name-w306522">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="wr91">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-ld-name-w306522">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="wr53">BltComp</source>
+    <item>24</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-ld-name-w306560">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-ld-name-w306560">
+    <date subtype="simple" begin="1719" end="1719">1719</date>
+    <source style="italic" id="wr810">Yorke</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-ld-name-w306594">
+    <date subtype="simple" begin="1645" end="1645">1645</date>
+    <source style="italic" id="wr656">Skp</source>
+    <page>10</page>
+   </attestation>
+   <searchterm variantID="epns-deep-35-ld-name-w306522">Malghedale</searchterm>
+   <searchterm variantID="epns-deep-35-ld-name-w306560">Malhamdale</searchterm>
+   <searchterm variantID="epns-deep-35-ld-name-w306594">Malhamdayle</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000352">
+  <authority ID="epns-deep-12-a-name-parish-000352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016246">Great Henny</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000016" type="broader">
+   <geographic>Hinckford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c51"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7217300" lat="52.0076300" gazref="geonames:7293492" source="geonames"/>
+   <geo long="0.7174154301262567" lat="52.00413544859377" gazref="unlock:11158842" source="unlock"/>
+   <geo easting="586500" northing="237500" long="0.715705" lat="52.0046" kepnref="12514" source="kepn"/>
+  </extension>
+ </mads>
+ 

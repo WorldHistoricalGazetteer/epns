@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000033">
+  <authority ID="epns-deep-08-a-name-parish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001723">Stoke Rivers</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000002" type="broader">
+   <geographic>Shirwell Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001853"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9525200" lat="51.1016700" gazref="geonames:2636836" source="geonames"/>
+   <geo long="-3.949831369110597" lat="51.10200172318989" gazref="unlock:11292788" source="unlock"/>
+   <geo easting="263500" northing="135500" long="-3.95097" lat="51.1025" kepnref="15490" source="kepn"/>
+  </extension>
+ </mads>
+ 

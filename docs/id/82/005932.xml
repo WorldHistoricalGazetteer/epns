@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000043">
+  <authority ID="epns-deep-82-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005932">Alderton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000008" type="broader">
+   <geographic>Myddle</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w235312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005933">Elureton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w235333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005934">Alverton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w235356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005935">Alverton super Bylemars</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w235392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005936">Allerton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w235423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/005937">Alderton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a640b47fc4463d000f03"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.747815751" lat="52.81085748" source="epns"/>
+   <geo long="-2.749222317293528" lat="52.80635428577745" gazref="unlock:11058076" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w235312">
+    <date subtype="circa" begin="1170" end="1190">c.1180</date>
+    <source style="" id="ss265">SAS</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w235333">
+    <date subtype="simple" begin="1195" end="1196">1195-6</date>
+    <source style="" id="ss79">Eyton</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w235356">
+    <date subtype="simple" begin="1280" end="1290">1280-90</date>
+    <source style="" id="ss79" underspec="ib">Eyton</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w235392">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="ss79">Eyton</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w235392">
+    <date subtype="simple" begin="1495" end="1495">1495</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w235423">
+    <date subtype="simple" begin="1624" end="1624">1624</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>3407</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w235312">Elureton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w235333">Alverton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w235356">Alverton super Bylemars</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w235392">Allerton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w235423">Alderton</searchterm>
+  </extension>
+ </mads>
+ 

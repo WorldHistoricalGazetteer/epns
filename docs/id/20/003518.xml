@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000031">
+  <authority ID="epns-deep-20-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003518">Westlinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000036" type="broader">
+   <geographic>Westlinton</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w145422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003519">Westlevington</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w145499">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003520">Levyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w145510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003521">Westleventon</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w145546">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003522">West Linton</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w145571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003523">West Lenton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f900104c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9578200" lat="54.9631100" gazref="geonames:7294232" source="geonames"/>
+   <geo long="-2.945210833133225" lat="54.97136582553944" gazref="unlock:11318856" source="unlock"/>
+   <geo easting="339500" northing="564500" long="-2.94661" lat="54.9714" kepnref="4394" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w145422">
+    <attestation variantID="epns-deep-20-b-name-w145422">
+     <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+     <source style="italic" id="cu190">Laner</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-20-b-name-w145422">
+     <date end="1682" begin="1682" subtype="simple">1682</date>
+     <source style="italic" id="cu258">Norfolk</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w145499">
+    <date end="1682" begin="1190">c. 1200-1682</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w145510">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w145510">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="cu278">Ogilby</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w145546">
+    <date end="1583" begin="1583" subtype="simple">1583</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w145571">
+    <date end="1589" begin="1589" subtype="simple">1589</date>
+    <source style="italic" id="cu205">LRMB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w145422">Westlevington</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w145499">Levyngton</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w145510">Westleventon</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w145546">West Linton</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w145571">West Lenton</searchterm>
+  </extension>
+ </mads>
+ 

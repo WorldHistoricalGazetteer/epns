@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000034">
+  <authority ID="epns-deep-45-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005754">Appleton formerly Hull Appleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000010" type="broader">
+   <geographic>Great Budworth</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w249058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005755">Appelton et Hulle</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w249087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005756">Hull et Apulton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w249116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005757">Hulle-Appleton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w249144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005758">Hull Appleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fbe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5718300" lat="53.3524000" gazref="geonames:2657227" source="geonames"/>
+   <geo long="-2.555792288" lat="53.34233487" source="epns"/>
+   <geo long="-2.548339788908852" lat="53.34686543008753" gazref="unlock:11062945" source="unlock"/>
+   <geo easting="363500" northing="383500" long="-2.54972" lat="53.3471" kepnref="11795" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w249058">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w249087">
+    <date subtype="circa" begin="1310" end="1330">c.1320</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w249116">
+    <date subtype="simple" begin="1563" end="1563">1563</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w249144">
+    <date subtype="simple" begin="1860" end="1860">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w249058">Appelton et Hulle</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w249087">Hull et Apulton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w249116">Hulle-Appleton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w249144">Hull Appleton</searchterm>
+  </extension>
+ </mads>
+ 

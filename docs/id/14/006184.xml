@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000271">
+  <authority ID="epns-deep-14-b-name-subparish-000271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006184">Hayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000152" type="broader">
+   <geographic>Hayton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w400622">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006185">Haiton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w400641">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006186">Haitun, Haiton(e), Haytun</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w400718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006187">Heyton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004b6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7500000" lat="53.9000000" gazref="geonames:2647250" source="geonames"/>
+   <geo long="-0.7442982991376811" lat="53.89889372886658" gazref="unlock:11168326" source="unlock"/>
+   <geo easting="482500" northing="445500" long="-0.745921" lat="53.8991" kepnref="8648" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w400622">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w400641">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="italic" id="ey356">Warter</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w400641">
+    <attestation variantID="epns-deep-14-b-name-w400641">
+     <date end="1203" begin="1203" subtype="simple">1203</date>
+     <source style="" id="ey16">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w400641">
+     <date end="1542" begin="1542" subtype="simple">1542</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w400718">
+    <attestation variantID="epns-deep-14-b-name-w400718">
+     <date end="1247" begin="1247" subtype="simple">1247</date>
+     <source style="" id="ey57">Cl</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w400718">
+     <date end="1532" begin="1532" subtype="simple">1532</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w400622">Haitone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400622">Haiton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400641">Haitun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400641">Haitone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400641">Haiton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400641">Haytun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w400718">Heyton</searchterm>
+  </extension>
+ </mads>
+ 

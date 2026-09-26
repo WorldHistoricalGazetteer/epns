@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-hu-subcounty-000002">
+  <authority ID="epns-deep-28-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/010418">Wirksworth Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-co-county-000001" type="broader">
+   <geographic>Derbyshire</geographic>
+  </related>
+  <variant ID="epns-deep-28-hu-name-w385869">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/010419">Hammenstan Wapen, Hamelestan Wapentac</geographic>
+  </variant>
+  <variant ID="epns-deep-28-hu-name-w387827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/010420">coram toto Wapen Wyrkes' apud Pikedeston'</geographic>
+  </variant>
+  <variant ID="epns-deep-28-hu-name-w387972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/010421">Wapentakfeld'</geographic>
+  </variant>
+  <variant ID="epns-deep-28-hu-name-w387999">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/010422">Wapentacke Feildes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cdbb47fc4095c0017f0"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-28-hu-name-w385869">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-hu-name-w387827">
+    <date end="1220" begin="1200" subtype="circa">c. 1210</date>
+    <source style="italic" id="db280">Kniveton</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-hu-name-w387972">
+    <date end="1415" begin="1415" subtype="simple">1415</date>
+    <source style="italic" id="db152">DuLaMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-hu-name-w387999">
+    <date end="1630" begin="1630" subtype="simple">1630</date>
+    <source style="italic" id="db153">DuLaSC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-hu-name-w385869">Hammenstan Wapen</searchterm>
+   <searchterm variantID="epns-deep-28-hu-name-w385869">Hamelestan Wapentac</searchterm>
+   <searchterm variantID="epns-deep-28-hu-name-w387827">coram toto Wapen Wyrkes' apud Pikedeston'</searchterm>
+   <searchterm variantID="epns-deep-28-hu-name-w387972">Wapentakfeld'</searchterm>
+   <searchterm variantID="epns-deep-28-hu-name-w387999">Wapentacke Feildes</searchterm>
+  </extension>
+ </mads>
+ 

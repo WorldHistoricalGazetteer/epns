@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000024">
+  <authority ID="epns-deep-27-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002913">Buxworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000021" type="broader">
+   <geographic>Chinley, Buxworth and Brownside</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w125681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002914">Buggisworth(e), Bugg(e)sworth(e), Bugg(e)sword</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w125769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002915">Boggesw(o)rth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w125806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002916">Bougesworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00183b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9669400" lat="53.3360800" gazref="geonames:7576538" source="geonames"/>
+   <geo long="-1.962449440567978" lat="53.33912949589148" gazref="unlock:11094871" source="unlock"/>
+   <geo easting="402500" northing="382500" long="-1.9639" lat="53.3394" kepnref="3223" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w125681">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="db465">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125681">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125681">
+    <attestation variantID="epns-deep-27-b-name-w125681">
+     <date end="1306" begin="1306" subtype="simple">1306</date>
+     <source style="" id="db21">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125769">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125769">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125806">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggisworthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggisworth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggesworthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggesworth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggsworthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggsworth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggesword</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125681">Buggsword</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125769">Boggesworthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125769">Boggesworth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125769">Boggeswrthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125769">Boggeswrth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125806">Bougesworth</searchterm>
+  </extension>
+ </mads>
+ 

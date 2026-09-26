@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000084">
+  <authority ID="epns-deep-10-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001964">Welford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000084" type="broader">
+   <geographic>Welford</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w111364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001965">Wellesford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w111384">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001966">Welleford(ia), Welleforde</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w111454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001967">Welliford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w111475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001968">Weleford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w111520">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001969">Welford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w111537">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001970">Wileford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7fb47fc40bba000628"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0500000" lat="52.4166700" gazref="geonames:2634589" source="geonames"/>
+   <geo long="-1.051491031356055" lat="52.41831019719579" gazref="unlock:11315501" source="unlock"/>
+   <geo easting="464500" northing="280500" long="-1.05301" lat="52.4187" kepnref="10954" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w111364">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111384">
+    <attestation variantID="epns-deep-10-b-name-w111384">
+     <date end="1158" begin="1155" subtype="simple">1155-8</date>
+     <copydate end="1329" begin="1329">1329</copydate>
+     <source style="" id="nh44">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w111384">
+     <date end="1483" begin="1483" subtype="simple">1483</date>
+     <source style="" id="nh4">AD</source>
+     <item>iv</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111454">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111475">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111475">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="nh63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111475">
+    <date end="1223" begin="1223" subtype="simple">1223</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111520">
+    <date end="1347" begin="1347" subtype="simple">1347</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111537">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="nh63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w111537">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="nh31">Bracton</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w111364">Wellesford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111384">Wellefordia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111384">Welleford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111384">Welleforde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111454">Welliford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111475">Weleford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111520">Welford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w111537">Wileford</searchterm>
+  </extension>
+ </mads>
+ 

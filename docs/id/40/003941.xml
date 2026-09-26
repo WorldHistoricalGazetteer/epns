@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000035">
+  <authority ID="epns-deep-40-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003941">Wick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000034" type="broader">
+   <geographic>Wick and Abson</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w162427">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003942">Wik(e), Wika, Wyke, Wica</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w162523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003943">Berde(s)wyk</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w162563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003944">We(e)ke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001bde"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4236100" lat="51.4530600" gazref="geonames:2633984" source="geonames"/>
+   <geo long="-2.431726905" lat="51.44570387" source="epns"/>
+   <geo easting="370500" northing="173500" long="-2.42598" lat="51.4597" kepnref="6480" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w162427">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <source style="" id="go219">GlastonInq</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162427">
+    <date end="1200" begin="1175" subtype="simple">l. 12</date>
+    <source style="" id="go44">Berk</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162427">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162427">
+    <attestation variantID="epns-deep-40-b-name-w162427">
+     <date end="1253" begin="1253" subtype="simple">1253</date>
+     <source style="" id="go84">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w162427">
+     <date end="1587" begin="1587" subtype="simple">1587</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162523">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="go65">BrKal</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162523">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w162563">
+    <date end="1588" begin="1588" subtype="simple">1588</date>
+    <date end="1595" begin="1595" subtype="simple">1595</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w162427">Wike</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162427">Wik</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162427">Wika</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162427">Wyke</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162427">Wica</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162523">Berdeswyk</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162523">Berdewyk</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162563">Weeke</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w162563">Weke</searchterm>
+  </extension>
+ </mads>
+ 

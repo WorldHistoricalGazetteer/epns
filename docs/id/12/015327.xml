@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000254">
+  <authority ID="epns-deep-12-b-name-subparish-000254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015327">Bures</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000340" type="broader">
+   <geographic>Bures</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w758272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/015328">Buro, Bura</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000db3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7748800" lat="51.9724000" gazref="geonames:2654313" source="geonames"/>
+   <geo long="0.7739580676727135" lat="51.97583367014359" gazref="unlock:11092591" source="unlock"/>
+   <geo easting="590500" northing="234500" long="0.772242" lat="51.9763" kepnref="12504" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w758272">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w758272">Buro</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w758272">Bura</searchterm>
+  </extension>
+ </mads>
+ 

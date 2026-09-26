@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000126">
+  <authority ID="epns-deep-46-b-name-subparish-000126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/015761">Tilstone Fearnall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000032" type="broader">
+   <geographic>Bunbury</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w800780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/015762">Tilston Farnhale</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w800810">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/015763">Tidleston et Farnall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6434800" lat="53.1397600" gazref="geonames:7299957" source="geonames"/>
+   <geo long="-2.657757739" lat="53.13504586" source="epns"/>
+   <geo long="-2.650351820572034" lat="53.13958275354692" gazref="unlock:11301199" source="unlock"/>
+   <geo easting="355500" northing="360500" long="-2.66666" lat="53.1398" kepnref="12017" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w800780">
+    <date end="1427" begin="1427" subtype="simple">1427</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w800810">
+    <date end="1475" begin="1475" subtype="simple">1475</date>
+    <source style="italic" id="ch8">AddCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w800780">Tilston Farnhale</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w800810">Tidleston et Farnall</searchterm>
+  </extension>
+ </mads>
+ 

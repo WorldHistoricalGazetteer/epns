@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000080">
+  <authority ID="epns-deep-24-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006005">Church Enstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000071" type="broader">
+   <geographic>Enstone</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w226022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006006">Churchenstane</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w226047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/006007">Church Enston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.454595610892701" lat="51.9263198679314" gazref="unlock:11106973" source="unlock"/>
+   <geo easting="437500" northing="224500" long="-1.45616" lat="51.9178" kepnref="3706" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w226022">
+    <date subtype="simple" begin="1415" end="1415">1415</date>
+    <source style="" id="ox55">Dean</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w226047">
+    <date subtype="simple" begin="1587" end="1587">1587</date>
+    <source style="" id="ox3">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w226022">Churchenstane</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w226047">Church Enston</searchterm>
+  </extension>
+ </mads>
+ 

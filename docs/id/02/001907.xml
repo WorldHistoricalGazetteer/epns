@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000109">
+  <authority ID="epns-deep-02-a-name-parish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001907">Pitstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000009" type="broader">
+   <geographic>Yardley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6398700" lat="51.8283000" gazref="geonames:2640244" source="geonames"/>
+   <geo long="-0.628498927525155" lat="51.8296677711666" gazref="unlock:11246073" source="unlock"/>
+   <geo easting="494500" northing="214500" long="-0.63032" lat="51.8211" kepnref="11303" source="kepn"/>
+  </extension>
+ </mads>
+ 

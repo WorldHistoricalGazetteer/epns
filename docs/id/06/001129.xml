@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000040">
+  <authority ID="epns-deep-06-b-name-subparish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001129">Boxgrove</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000040" type="broader">
+   <geographic>Boxgrove</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w94963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001130">Bosgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w94991">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001131">Bosegrave</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w95017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001132">Boxgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w95045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001133">Boxgrove</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w95064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001134">Boisgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w95088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001135">Bosegroue, Bosgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w95120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001136">Boxgrave al. Bosgrave</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cb7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7136000" lat="50.8588400" gazref="geonames:2655043" source="geonames"/>
+   <geo long="-0.7140055221484878" lat="50.85936352648735" gazref="unlock:11084438" source="unlock"/>
+   <geo easting="490500" northing="107500" long="-0.715506" lat="50.8599" kepnref="6901" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w94963">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w94963">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w94991">
+    <date subtype="simple" begin="1288" end="1288">1288</date>
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w95017">
+    <attestation variantID="epns-deep-06-b-name-w95017">
+     <date subtype="simple" begin="1225" end="1225">1225</date>
+     <source style="" id="su27">BM</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w95045">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w95064">
+    <date subtype="circa" begin="1260" end="1280">c. 1270</date>
+    <source style="" id="su107">Gerv</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w95088">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="" id="su297">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w95120">
+    <date subtype="simple" begin="1587" end="1587">1587</date>
+    <source style="italic" id="su502">Pat</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w94963">Bosgrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w94991">Bosegrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95017">Boxgrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95045">Boxgrove</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95064">Boisgrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95088">Bosegroue</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95088">Bosgrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95120">Boxgrave</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w95120">Bosgrave</searchterm>
+  </extension>
+ </mads>
+ 

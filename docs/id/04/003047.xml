@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000121">
+  <authority ID="epns-deep-04-b-name-subparish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003047">Defford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000123" type="broader">
+   <geographic>Defford</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w258690">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003048">Deopanforda</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w258733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003049">Depeford</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w258772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003050">Depford</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w258801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003051">Dufford</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w258843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003052">Defforde</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w258861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003053">Desseforde sur le Bourne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000574"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1216700" lat="52.0870000" gazref="geonames:2651408" source="geonames"/>
+   <geo long="-2.124074664156069" lat="52.08936913526436" gazref="unlock:11128329" source="unlock"/>
+   <geo easting="392500" northing="243500" long="-2.11086" lat="52.0898" kepnref="5298" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w258690">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258733">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258733">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258772">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258801">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="italic" id="wo166">RBB</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258801">
+    <date end="1320" begin="1320" subtype="simple">1320</date>
+    <source style="" id="wo28">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258843">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w258861">
+    <date end="1393" begin="1393" subtype="simple">1393</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w258690">Deopanforda</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w258733">Depeford</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w258772">Depford</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w258801">Dufford</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w258843">Defforde</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w258861">Desseforde sur le Bourne</searchterm>
+  </extension>
+ </mads>
+ 

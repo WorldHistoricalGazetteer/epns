@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000099">
+  <authority ID="epns-deep-47-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008275">Netherpool</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000034" type="broader">
+   <geographic>Eastham</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w457644">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008276">Pulle</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w457660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008277">Nethere Pulle</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w457686">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008278">ville de Netherpulle en manoir de Pulle</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w457736">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008279">Pulle, called Nether-Pole</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w457775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/008280">Poole</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fa4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.915303481" lat="53.2951686" source="epns"/>
+   <geo easting="339500" northing="378500" long="-2.90924" lat="53.3" kepnref="12120" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w457644">
+    <date end="1225" begin="1200" subtype="simple">e13</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w457660">
+    <date end="1307" begin="1307" subtype="simple">1307</date>
+    <source style="" id="ch301">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w457686">
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="italic" id="ch314">JRC</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w457736">
+    <date end="1539" begin="1539" subtype="simple">1539</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w457775">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ch474" underspec="ib">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w457644">Pulle</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w457660">Nethere Pulle</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w457686">ville de Netherpulle en manoir de Pulle</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w457736">Pulle</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w457736">called Nether-Pole</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w457775">Poole</searchterm>
+  </extension>
+ </mads>
+ 

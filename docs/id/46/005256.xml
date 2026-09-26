@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000039">
+  <authority ID="epns-deep-46-b-name-subparish-000039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/005256">Marbury cum Quoisley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000010" type="broader">
+   <geographic>Marbury Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w264021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/005257">Marbury cum Quoisley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001ffa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6523600" lat="53.0067600" gazref="geonames:7294347" source="geonames"/>
+   <geo easting="356500" northing="345500" long="-2.64968" lat="53.005" kepnref="11930" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w264021">
+    <date end="1837" begin="1837" subtype="simple">1837</date>
+    <source style="italic" id="ch649">TA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w264021">Marbury cum Quoisley</searchterm>
+  </extension>
+ </mads>
+ 

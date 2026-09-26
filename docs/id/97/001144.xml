@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000016">
+  <authority ID="epns-deep-97-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001144">Welches Dam</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000018" type="broader">
+   <geographic>Welches Dam</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w432630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001145">Welshes Dam</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w432656">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001146">Welsh his dam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f000802"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1563294714169348" lat="52.45640402433268" gazref="unlock:11315482" source="unlock"/>
+   <geo easting="547500" northing="286500" long="0.16937" lat="52.4565" kepnref="4109" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w432630">
+    <date end="1651" begin="1651" subtype="simple">1651</date>
+    <source style="italic" id="ce9">AdvProc</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w432656">
+    <date end="1652" begin="1652" subtype="simple">1652</date>
+    <source style="italic" id="ce9" underspec="ib">AdvProc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w432630">Welshes Dam</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w432656">Welsh his dam</searchterm>
+  </extension>
+ </mads>
+ 

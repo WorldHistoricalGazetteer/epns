@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000325">
+  <authority ID="epns-deep-12-a-name-parish-000325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/014659">Wivenhoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000015" type="broader">
+   <geographic>Lexden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d65"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.9579600" lat="51.8555300" gazref="geonames:2633717" source="geonames"/>
+   <geo long="0.9704053126696625" lat="51.86310167739681" gazref="unlock:11324762" source="unlock"/>
+   <geo easting="603500" northing="221500" long="0.953581" lat="51.855" kepnref="12491" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000376">
+  <authority ID="epns-deep-05-b-name-subparish-000376">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004295">Masham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000132" type="broader">
+   <geographic>Mashamshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w315454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004296">Massan</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w315470">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004297">Masham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w315510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004298">Massham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w315553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004299">Mesham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w315569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004300">Masseham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w315613">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004301">Massam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600053c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6571800" lat="54.2227000" gazref="geonames:2642921" source="geonames"/>
+   <geo long="-1.654895697689768" lat="54.21956756988914" gazref="unlock:11214569" source="unlock"/>
+   <geo easting="422500" northing="480500" long="-1.65642" lat="54.2197" kepnref="6021" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w315454">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315470">
+    <attestation variantID="epns-deep-05-b-name-w315470">
+     <date subtype="simple" begin="1153" end="1153">1153</date>
+     <source style="italic" id="ny97">Jerv</source>
+     <page>20</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w315470">
+     <date subtype="simple" begin="1328" end="1328">1328</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315510">
+    <attestation variantID="epns-deep-05-b-name-w315510">
+     <date subtype="simple" begin="1163" end="1163">1163</date>
+     <source style="" id="ny236">YCh</source>
+     <page>82</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w315510">
+     <date subtype="simple" begin="1468" end="1468">1468</date>
+     <source style="" id="ny71">Fount</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315553">
+    <date subtype="simple" begin="1233" end="1233">1233</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315569">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315569">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315569">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w315613">
+    <attestation variantID="epns-deep-05-b-name-w315613">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w315613">
+     <date subtype="simple" begin="1530" end="1530">1530</date>
+     <source style="" id="ny224">Visit</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w315454">Massan</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w315470">Masham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w315510">Massham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w315553">Mesham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w315569">Masseham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w315613">Massam</searchterm>
+  </extension>
+ </mads>
+ 

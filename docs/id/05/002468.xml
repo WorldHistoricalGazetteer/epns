@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000193">
+  <authority ID="epns-deep-05-b-name-subparish-000193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002468">Saltburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000073" type="broader">
+   <geographic>Brotton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w192581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002469">Salteburnam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000439"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9736700" lat="54.5823700" gazref="geonames:2638650" source="geonames"/>
+   <geo long="-0.9709217801072423" lat="54.58419954726423" gazref="unlock:11277205" source="unlock"/>
+   <geo easting="466500" northing="521500" long="-0.972548" lat="54.5843" kepnref="5844" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w192581">
+    <date subtype="simple" begin="1180" end="1190">1180-90</date>
+    <source style="" id="ny236">YCh</source>
+    <page>767</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w192581">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w192581">Salteburnam</searchterm>
+  </extension>
+ </mads>
+ 

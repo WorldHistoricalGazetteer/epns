@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000068">
+  <authority ID="epns-deep-05-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000684">Hildenley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000029" type="broader">
+   <geographic>Appleton le Street</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w58188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000685">(H)ildingeslei</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000686">Hildingle</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w58245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000687">Hildinglaye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000401"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.859909449432447" lat="54.12477836473634" gazref="unlock:11173674" source="unlock"/>
+   <geo easting="474500" northing="470500" long="-0.861528" lat="54.125" kepnref="5719" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w58188">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58212">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>87</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58212">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w58245">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w58188">Hildingeslei</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58188">ildingeslei</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58212">Hildingle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w58245">Hildinglaye</searchterm>
+  </extension>
+ </mads>
+ 

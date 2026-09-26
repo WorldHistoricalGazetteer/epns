@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000369">
+  <authority ID="epns-deep-05-b-name-subparish-000369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004215">Burton on Ure</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000132" type="broader">
+   <geographic>Mashamshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w309814">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004216">Burton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w309833">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004217">Burton(e) super Yor</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w309862">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004218">Little Burton, Little Burton on Yore</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000535"/>
+  </recordInfo>
+  <extension>
+   <geo easting="423500" northing="480500" long="-1.64109" lat="54.2197" kepnref="6022" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w309814">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w309833">
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w309862">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w309862">
+    <date subtype="simple" begin="1483" end="1483">1483</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w309814">Burtone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w309814">Burton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w309833">Burtone super Yor</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w309833">Burton super Yor</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w309862">Little Burton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w309862">Little Burton on Yore</searchterm>
+  </extension>
+ </mads>
+ 

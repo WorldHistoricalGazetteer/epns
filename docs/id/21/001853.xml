@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000026">
+  <authority ID="epns-deep-21-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001853">Holme St Cuthbert</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000026" type="broader">
+   <geographic>Holme St Cuthbert</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w75711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001854">Sanct Cuthbert Chappell</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w75746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001855">St Cuthbert quarter</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000ff0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.392880350420522" lat="54.81426162231475" gazref="unlock:11177650" source="unlock"/>
+   <geo easting="310500" northing="545500" long="-3.3936" lat="54.7964" kepnref="4483" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w75711">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="italic" id="cu8">AOMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w75746">
+    <date end="1605" begin="1605" subtype="simple">1605</date>
+    <source style="italic" id="cu205">LRMB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w75711">Sanct Cuthbert Chappell</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w75746">St Cuthbert quarter</searchterm>
+  </extension>
+ </mads>
+ 

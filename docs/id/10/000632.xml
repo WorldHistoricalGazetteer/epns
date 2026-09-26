@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000023">
+  <authority ID="epns-deep-10-a-name-parish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000632">Aston le Walls</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000002" type="broader">
+   <geographic>Chipping Warden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2827500" lat="52.1511400" gazref="geonames:7301967" source="geonames"/>
+   <geo long="-1.276459351363353" lat="52.15015622904846" gazref="unlock:11065046" source="unlock"/>
+   <geo easting="449500" northing="250500" long="-1.27795" lat="52.1506" kepnref="10892" source="kepn"/>
+  </extension>
+ </mads>
+ 

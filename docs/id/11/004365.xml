@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000071">
+  <authority ID="epns-deep-11-b-name-subparish-000071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004365">Thorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000071" type="broader">
+   <geographic>Thorpe</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w230952">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004366">Thorpe, Torpe</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w230971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004367">Thorp</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w231028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004368">æt Đorpe</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w231058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004369">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w231124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004370">Thorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w231134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004371">Throp</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w231150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/004372">Tharpe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000b0e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5356700" lat="51.4059500" gazref="geonames:2635954" source="geonames"/>
+   <geo easting="502500" northing="168500" long="-0.527728" lat="51.4063" kepnref="8311" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w230952">
+    <date end="675" begin="675" subtype="simple">675</date>
+    <source style="" id="sr23">BCS</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w230971">
+    <date end="889" begin="889" subtype="simple">889</date>
+    <date end="933" begin="933" subtype="simple">933</date>
+    <date end="967" begin="967" subtype="simple">967</date>
+    <source style="" id="sr23">BCS</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231028">
+    <date end="1062" begin="1062" subtype="simple">1062</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="sr147">KCD</source>
+    <item>812</item>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231058">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231058">
+    <attestation variantID="epns-deep-11-b-name-w231058">
+     <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+     <copydate end="1285" begin="1285">1285</copydate>
+     <source style="" id="sr47">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231124">
+    <date end="1600" begin="1154">t. Hy 2-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231134">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w231150">
+    <date end="1715" begin="1715" subtype="simple">1715</date>
+    <source style="italic" id="sr107">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w230952">Thorpe</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w230952">Torpe</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w230971">Thorp</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231028">æt Đorpe</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231058">Torp</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231124">Thorpe</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231124">Thorp</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231134">Throp</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w231150">Tharpe</searchterm>
+  </extension>
+ </mads>
+ 

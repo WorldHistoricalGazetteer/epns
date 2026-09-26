@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000115">
+  <authority ID="epns-deep-45-b-name-subparish-000115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014224">Elton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000017" type="broader">
+   <geographic>Warmingham</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w654244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014225">Elton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w654267">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014226">Elton juxta Wyrmyncham</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w654302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014227">Helton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002079"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.41849473" lat="53.127137" source="epns"/>
+   <geo long="-2.411064836119177" lat="53.13165905159327" gazref="unlock:11139836" source="unlock"/>
+   <geo easting="372500" northing="359500" long="-2.41246" lat="53.132" kepnref="11869" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w654244">
+    <attestation variantID="epns-deep-45-b-name-w654244">
+     <date subtype="simple" begin="1289" end="1289">1289</date>
+     <source style="" id="ch117">Cl</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w654267">
+    <date subtype="simple" begin="1385" end="1385">1385</date>
+    <source style="" id="ch301">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w654302">
+    <date subtype="simple" begin="1290" end="1290">1290</date>
+    <source style="" id="ch301">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w654244">Elton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w654267">Elton juxta Wyrmyncham</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w654302">Helton</searchterm>
+  </extension>
+ </mads>
+ 

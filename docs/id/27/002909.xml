@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000023">
+  <authority ID="epns-deep-27-b-name-subparish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002909">Brownside</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000021" type="broader">
+   <geographic>Chinley, Buxworth and Brownside</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w125574">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002910">Brownside</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w125595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002911">Bronsydy</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w125619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/002912">Brownesyde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00183a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="404500" northing="384500" long="-1.93384" lat="53.3574" kepnref="3224" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w125574">
+    <date end="1483" begin="1461" subtype="regnal">Ed 4</date>
+    <source style="italic" id="db151">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125595">
+    <date end="1519" begin="1519" subtype="simple">1519</date>
+    <source style="italic" id="db151" underspec="ib">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125619">
+    <date end="1547" begin="1509" subtype="regnal">Hy 8</date>
+    <date end="1603" begin="1558" subtype="regnal">Eliz</date>
+    <source style="italic" id="db151" underspec="ib">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w125619">
+    <date end="1585" begin="1585" subtype="simple">1585</date>
+    <source style="italic" id="db193">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w125574">Brownside</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125595">Bronsydy</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w125619">Brownesyde</searchterm>
+  </extension>
+ </mads>
+ 

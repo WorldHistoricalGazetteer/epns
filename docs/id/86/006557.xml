@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-li-liberty-000002">
+  <authority ID="epns-deep-86-li-name-liberty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/006557">Alton Pancras Liberty</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000004" type="broader">
+   <geographic>Cerne, Totcome &amp; Modbury Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-86-li-name-w324555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/006558">Allton pancras Libtye, Liberty of Alton Pancras</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285020b47fc4099d00000b"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-86-li-name-w324555">
+    <date subtype="simple" begin="1664" end="1664">1664</date>
+    <source style="" id="do356">HTax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-86-li-name-w324555">Allton pancras Libtye</searchterm>
+   <searchterm variantID="epns-deep-86-li-name-w324555">Liberty of Alton Pancras</searchterm>
+  </extension>
+ </mads>
+ 

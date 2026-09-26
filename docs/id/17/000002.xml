@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-ct-countytown-000001">
+  <authority ID="epns-deep-17-ct-name-countytown-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000002">Nottingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-co-county-000001" type="broader">
+   <geographic>Nottinghamshire</geographic>
+  </related>
+  <variant ID="epns-deep-17-ct-name-w461">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000003">Snotengaham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000004">Snotengeham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000005">Snotingaham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000006">Snotingham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000007">Snotingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w783">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000008">Snotn, Snoti</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w811">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000009">Snot</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000010">Notingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000011">Notingaham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w914">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000012">Nothingaham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000013">Notingham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w1019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000014">Nottingham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-ct-name-w1045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000015">Nottingegame, Nottinggame</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286bbab47fc40bd4000001"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1504700" lat="52.9536000" gazref="geonames:2641170" source="geonames"/>
+   <geo long="-1.158644033031565" lat="52.96756868077252" gazref="unlock:11233925" source="unlock"/>
+   <geo easting="457500" northing="339500" long="-1.14564" lat="52.9498" kepnref="2541" source="kepn"/>
+   <attestation variantID="epns-deep-17-ct-name-w461">
+    <date end="868" begin="868" subtype="simple">868</date>
+    <copydate end="905" begin="885">c. 895</copydate>
+    <ms>A</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w461">
+    <date end="1010" begin="990" subtype="circa">c. 1000</date>
+    <source style="" id="ns14">Asser</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w461">
+    <date end="868" begin="868" subtype="simple">868</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <ms>C, D</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w535">
+    <date end="940" begin="925" subtype="regnal">t. Athelstan</date>
+    <source style="" id="ns52">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="922" begin="922" subtype="simple">922</date>
+    <date end="924" begin="924" subtype="simple">924</date>
+    <copydate end="935" begin="915">c. 925</copydate>
+    <ms>A</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="942" begin="942" subtype="simple">942</date>
+    <copydate end="960" begin="940">c. 950</copydate>
+    <ms>A</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="985" begin="965" subtype="circa">c. 975</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="ns12">ASCharters</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="863" begin="863" subtype="simple">863</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <ms>B</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="868" begin="868" subtype="simple">868</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <ms>D</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="1067" begin="1067" subtype="simple">1067</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <ms>B</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w569">
+    <date end="868" begin="868" subtype="simple">868</date>
+    <copydate end="1130" begin="1110">c. 1120</copydate>
+    <ms>E</ms>
+    <source style="" id="ns11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w746">
+    <date end="868" begin="868" subtype="simple">868</date>
+    <copydate end="1130" begin="1110">c. 1120</copydate>
+    <ms>E</ms>
+    <source style="" id="ns11" underspec="ib">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w762">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w783">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="" id="ns52">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w811">
+    <date end="1154" begin="1135" subtype="regnal">t. Stephen</date>
+    <source style="" id="ns52" underspec="ib">Coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w832">
+    <date end="1130" begin="1130" subtype="simple">1130</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w832">
+    <attestation variantID="epns-deep-17-ct-name-w832">
+     <date end="1154" begin="1154" subtype="simple">1154</date>
+     <source style="" id="ns246">RBE</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-17-ct-name-w832">
+     <date end="1230" begin="1230" subtype="simple">1230</date>
+     <source style="" id="ns29">Bracton</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w887">
+    <date end="1155" begin="1135" subtype="circa">c. 1145</date>
+    <source style="" id="ns111">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w914">
+    <date end="1158" begin="1158" subtype="simple">1158</date>
+    <source style="italic" id="ns83">DurhamDandC</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w944">
+    <date end="1154" begin="1135" subtype="regnal">t. Stephen</date>
+    <copydate end="1316" begin="1316">1316</copydate>
+    <source style="" id="ns42">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w944">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1301" begin="1301">1301</copydate>
+    <source style="" id="ns42" underspec="ib">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w944">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="ns59">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w944">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="ns98">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w1019">
+    <date end="1174" begin="1172" subtype="simple">1172-4</date>
+    <source style="" id="ns27">BorRec</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-ct-name-w1045">
+    <date end="1624" begin="1624" subtype="simple">1624</date>
+    <source style="" id="ns31">Browne</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-ct-name-w461">Snotengaham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w535">Snotengeham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w569">Snotingaham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w746">Snotingham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w762">Snotingeham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w783">Snotn</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w783">Snoti</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w811">Snot</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w832">Notingeham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w887">Notingaham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w914">Nothingaham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w944">Notingham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w1019">Nottingham</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w1045">Nottingegame</searchterm>
+   <searchterm variantID="epns-deep-17-ct-name-w1045">Nottinggame</searchterm>
+  </extension>
+ </mads>
+ 

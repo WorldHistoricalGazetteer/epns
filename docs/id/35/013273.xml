@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000091">
+  <authority ID="epns-deep-35-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013273">Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000024" type="broader">
+   <geographic>Slaidburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w494668">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013274">Neutone, Neuton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w494731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013275">Neuton(a) in Bogheland</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w494765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013276">Newton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w494785">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013277">Newton in Bowland</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w494828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/013278">Newton in Bolland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100625c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4666700" lat="53.9500000" gazref="geonames:2641562" source="geonames"/>
+   <geo long="-2.472349362" lat="53.9449798" source="epns"/>
+   <geo easting="369500" northing="450500" long="-2.4662" lat="53.9497" kepnref="14929" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w494668">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494668">
+    <attestation variantID="epns-deep-35-b-name-w494668">
+     <date subtype="simple" begin="1220" end="1230">1220-30</date>
+     <source style="" id="wr799">YD</source>
+     <item>i</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w494668">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="wr740">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494731">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="wr311">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494765">
+    <date subtype="simple" begin="1367" end="1367">1367</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494785">
+    <date subtype="simple" begin="1379" end="1379">1379</date>
+    <source style="" id="wr577">PT</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494785">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w494828">
+    <attestation variantID="epns-deep-35-b-name-w494828">
+     <date subtype="simple" begin="1546" end="1546">1546</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w494828">
+     <date subtype="simple" begin="1767" end="1767">1767</date>
+     <source style="" id="wr539">PRIng</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w494668">Neutone</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494668">Neutona</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494668">Neuton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494731">Neutona in Bogheland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494731">Neuton in Bogheland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494765">Newton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494785">Newton in Bowland</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w494828">Newton in Bolland</searchterm>
+  </extension>
+ </mads>
+ 

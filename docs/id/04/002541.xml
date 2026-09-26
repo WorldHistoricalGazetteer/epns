@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000096">
+  <authority ID="epns-deep-04-b-name-subparish-000096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002541">Bradley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000098" type="broader">
+   <geographic>Stock-and-Bradley</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w217423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002542">Bradanlæh</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002543">Bradanlæg(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002544">Bradanleage</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002545">Bradinleah</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002546">Bradelege</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002547">Bradeleye juxta Feckeham</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002548">Bradeley et Stokke</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w217694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002549">Stoke Bradley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005f5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0166700" lat="52.2333300" gazref="geonames:2654986" source="geonames"/>
+   <geo long="-2.021975150595372" lat="52.25127906460843" gazref="unlock:11084899" source="unlock"/>
+   <geo easting="398500" northing="260500" long="-2.02337" lat="52.2427" kepnref="5272" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w217423">
+    <date end="740" begin="720" subtype="circa">c. 730</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>153</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217456">
+    <date end="789" begin="789" subtype="simple">789</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>256</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217456">
+    <date end="962" begin="962" subtype="simple">962</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1087</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217510">
+    <date end="803" begin="803" subtype="simple">803</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>308</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217549">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217573">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217592">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217665">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w217694">
+    <date end="1418" begin="1418" subtype="simple">1418</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w217423">Bradanlæh</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217456">Bradanlæge</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217456">Bradanlæg</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217510">Bradanleage</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217549">Bradinleah</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217573">Bradelege</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217592">Bradeleye juxta Feckeham</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217665">Bradeley et Stokke</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w217694">Stoke Bradley</searchterm>
+  </extension>
+ </mads>
+ 

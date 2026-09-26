@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000258">
+  <authority ID="epns-deep-14-b-name-subparish-000258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005928">North Cave</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000145" type="broader">
+   <geographic>North Cave</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w386157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005929">Cave, Caua</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w386177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005930">Cava, Caue, Cave</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w386224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005931">Nort Cave</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w386248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005932">North Cave</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w386289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005933">Nor Cave</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w386325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005934">Northcave upon the Wolde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000510"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6496500" lat="53.7801200" gazref="geonames:2641404" source="geonames"/>
+   <geo long="-0.6415728199901986" lat="53.78090893989496" gazref="unlock:11232162" source="unlock"/>
+   <geo easting="489500" northing="432500" long="-0.643202" lat="53.7811" kepnref="8635" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w386157">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386177">
+    <attestation variantID="epns-deep-14-b-name-w386177">
+     <date end="1148" begin="1135" subtype="simple">1135-48</date>
+     <source style="" id="ey367">YCh</source>
+     <item>1123</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386224">
+    <date end="1148" begin="1148" subtype="simple">1148</date>
+    <source style="" id="ey367" underspec="ib">YCh</source>
+    <item>179</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386248">
+    <attestation variantID="epns-deep-14-b-name-w386248">
+     <date end="1158" begin="1148" subtype="simple">1148-58</date>
+     <source style="" id="ey367" underspec="ib">YCh</source>
+     <page>1125</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386289">
+    <date end="1156" begin="1156" subtype="simple">1156</date>
+    <source style="italic" id="ey174">LeonardN</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386289">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w386325">
+    <date end="1585" begin="1585" subtype="simple">1585</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w386157">Cave</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386157">Caua</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386177">Cava</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386177">Caue</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386177">Cave</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386224">Nort Cave</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386248">North Cave</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386289">Nor Cave</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w386325">Northcave upon the Wolde</searchterm>
+  </extension>
+ </mads>
+ 

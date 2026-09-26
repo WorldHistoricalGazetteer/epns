@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000029">
+  <authority ID="epns-deep-47-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002838">Grafton, Grafton Hall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000003" type="broader">
+   <geographic>Grafton</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w152859">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002839">Grafton</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w152904">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002840">Grafton Hall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8273300" lat="53.0585600" gazref="geonames:7294597" source="geonames"/>
+   <geo long="-2.83555873" lat="53.05301791" source="epns"/>
+   <geo long="-2.81326506081235" lat="53.05766868188628" gazref="unlock:11157227" source="unlock"/>
+   <geo easting="345500" northing="351500" long="-2.8146" lat="53.058" kepnref="12045" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w152859">
+    <date end="1319" begin="1319" subtype="simple">1319</date>
+    <date end="1320" begin="1320" subtype="simple">1320</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w152904">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w152859">Grafton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w152904">Grafton Hall</searchterm>
+   <searchterm madsID="epns-deep-47-b-subparish-000029">Grafton</searchterm>
+   <searchterm madsID="epns-deep-47-b-subparish-000029">Grafton Hall</searchterm>
+  </extension>
+ </mads>
+ 

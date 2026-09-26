@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000099">
+  <authority ID="epns-deep-21-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/009040">Nether Wasdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000104" type="broader">
+   <geographic>Nether Wasdale</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w387386">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/009041">Netherwacedal, Netherwasdale</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w387424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/009042">Netherwashedale</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w387467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/009043">Netherwasdaill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9001015"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.348920062081677" lat="54.42824823153526" gazref="unlock:11227917" source="unlock"/>
+   <geo easting="312500" northing="504500" long="-3.35025" lat="54.4284" kepnref="4553" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w387386">
+    <date end="1338" begin="1338" subtype="simple">1338</date>
+    <source style="" id="cu57">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w387424">
+    <date end="1540" begin="1540" subtype="simple">1540</date>
+    <source style="italic" id="cu226">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w387424">
+    <date end="1570" begin="1570" subtype="simple">1570</date>
+    <source style="italic" id="cu113">ExchKR</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w387467">
+    <date end="1552" begin="1552" subtype="simple">1552</date>
+    <source style="" id="cu74">CW</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w387386">Netherwacedal</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w387386">Netherwasdale</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w387424">Netherwashedale</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w387467">Netherwasdaill</searchterm>
+  </extension>
+ </mads>
+ 

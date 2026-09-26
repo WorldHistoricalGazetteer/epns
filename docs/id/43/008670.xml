@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-b-subparish-000047">
+  <authority ID="epns-deep-43-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/008670">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-a-parish-000022" type="broader">
+   <geographic>Clifton</geographic>
+  </related>
+  <variant ID="epns-deep-43-b-name-w452221">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/008671">Clifton, Clyfton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013ae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7232400" lat="54.6333100" gazref="geonames:2652838" source="geonames"/>
+   <geo long="-2.72182" lat="54.6315" source="epns"/>
+   <geo long="-2.720407035974091" lat="54.63137052028704" gazref="unlock:11109233" source="unlock"/>
+   <geo easting="353500" northing="526500" long="-2.72182" lat="54.6315" kepnref="5169" source="kepn"/>
+   <attestation variantID="epns-deep-43-b-name-w452221">
+    <date end="1202" begin="1196" subtype="simple">1196-1202</date>
+    <source style="" id="we336">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w452221">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="italic" id="we487">Wyb</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w452221">
+    <date end="1258" begin="1258" subtype="simple">1258</date>
+    <source style="" id="we338">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w452221">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="we23">Ass</source>
+    <item>17</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w452221">
+    <attestation variantID="epns-deep-43-b-name-w452221">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="we446">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-43-b-name-w452221">
+     <date end="1703" begin="1703" subtype="simple">1703</date>
+     <source style="" id="we296">NicVisit</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-43-b-name-w452221">Clifton</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w452221">Clyfton</searchterm>
+  </extension>
+ </mads>
+ 

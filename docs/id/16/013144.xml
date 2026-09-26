@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000322">
+  <authority ID="epns-deep-16-a-name-parish-000322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013144">Laverstock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000033" type="broader">
+   <geographic>Alderbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c95"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7730300" lat="51.0871700" gazref="geonames:7296282" source="geonames"/>
+   <geo long="-1.778737466152693" lat="51.07308552608397" gazref="unlock:11192434" source="unlock"/>
+   <geo easting="415500" northing="130500" long="-1.78013" lat="51.0736" kepnref="7472" source="kepn"/>
+  </extension>
+ </mads>
+ 

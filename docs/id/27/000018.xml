@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000001">
+  <authority ID="epns-deep-27-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000018">Abney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000001" type="broader">
+   <geographic>Abney</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w1164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000019">Habenai</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000020">Abbeneia</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000021">Abbeney(a), Abbeneye</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1247">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000022">Abbenay(e), Abbenaia</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000023">Abeney</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000024">Abney(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w1368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/000025">Abnay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c0017f1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.707292328316412" lat="53.31180714739533" gazref="unlock:11055956" source="unlock"/>
+   <geo easting="419500" northing="379500" long="-1.70877" lat="53.3121" kepnref="3199" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w1164">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1181">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1198">
+    <attestation variantID="epns-deep-27-b-name-w1198">
+     <date end="1228" begin="1228" subtype="simple">1228</date>
+     <source style="" id="db192">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w1198">
+     <date end="1431" begin="1431" subtype="simple">1431</date>
+     <source style="" id="db182">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1247">
+    <date end="1229" begin="1229" subtype="simple">1229</date>
+    <source style="italic" id="db476">Rufford</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1247">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="db82">ChancR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1301">
+    <date end="1272" begin="1216" subtype="regnal">Hy 3</date>
+    <source style="italic" id="db589">WollCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1325">
+    <date end="1416" begin="1416" subtype="simple">1416</date>
+    <source style="italic" id="db439">Potter</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1325">
+    <date end="1440" begin="1440" subtype="simple">1440</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w1368">
+    <date end="1423" begin="1423" subtype="simple">1423</date>
+    <source style="italic" id="db439">Potter</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w1164">Habenai</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1181">Abbeneia</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1198">Abbeneya</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1198">Abbeney</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1198">Abbeneye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1247">Abbenaye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1247">Abbenay</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1247">Abbenaia</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1301">Abeney</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1325">Abneye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1325">Abney</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w1368">Abnay</searchterm>
+  </extension>
+ </mads>
+ 

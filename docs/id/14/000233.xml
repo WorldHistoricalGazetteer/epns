@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000007">
+  <authority ID="epns-deep-14-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000233">Sunk Island</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000006" type="broader">
+   <geographic>Sunk Island</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w18732">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000234">Sunk Island</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000553"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0840700" lat="53.6516800" gazref="geonames:2636522" source="geonames"/>
+   <geo long="-0.08600401013319987" lat="53.64745667559863" gazref="unlock:11295529" source="unlock"/>
+   <geo easting="526500" northing="419500" long="-0.0872876" lat="53.6567" kepnref="8406" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w18732">
+    <date end="1678" begin="1678" subtype="simple">1678</date>
+    <source style="italic" id="ey193">Map</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w18732">Sunk Island</searchterm>
+  </extension>
+ </mads>
+ 

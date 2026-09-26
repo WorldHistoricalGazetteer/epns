@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000059">
+  <authority ID="epns-deep-27-b-name-subparish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007054">Ludworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000056" type="broader">
+   <geographic>Ludworth</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w279039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007055">Lodeuorde</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w279058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007056">Loddeworth</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w279079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007057">Ludewurda, Ludew(u)rthe</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w279136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/007058">Luddeworthe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.007524361190876" lat="53.42004197835467" gazref="unlock:11209447" source="unlock"/>
+   <geo easting="399500" northing="391500" long="-2.00897" lat="53.4203" kepnref="3259" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w279039">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w279058">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w279079">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <date end="1186" begin="1186" subtype="simple">1186</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w279079">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w279079">
+    <date end="1272" begin="1216" subtype="regnal">Hy 3</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w279136">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w279039">Lodeuorde</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w279058">Loddeworth</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w279079">Ludewurda</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w279079">Ludewurthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w279079">Ludewrthe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w279136">Luddeworthe</searchterm>
+  </extension>
+ </mads>
+ 

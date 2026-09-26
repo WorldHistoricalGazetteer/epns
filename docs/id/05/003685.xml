@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000116">
+  <authority ID="epns-deep-05-a-name-parish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003685">Hawnby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000007" type="broader">
+   <geographic>Birdforth Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0cb47fc40bc6000372"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1674100" lat="54.3010200" gazref="geonames:2647279" source="geonames"/>
+   <geo long="-1.162483892343352" lat="54.29804910759485" gazref="unlock:11167890" source="unlock"/>
+   <geo easting="454500" northing="489500" long="-1.16407" lat="54.2982" kepnref="5958" source="kepn"/>
+  </extension>
+ </mads>
+ 

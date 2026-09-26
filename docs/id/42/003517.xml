@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000025">
+  <authority ID="epns-deep-42-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003517">Stainton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000005" type="broader">
+   <geographic>Heversham</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w189080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003518">Steintun, Steynton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w189127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003519">Alde Stainton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w189154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003520">Staintun, Stayntun, Staynton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w189294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003521">Stainton in Kendale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7215800" lat="54.2775700" gazref="geonames:7292029" source="geonames"/>
+   <geo long="-2.73072" lat="54.263" source="epns"/>
+   <geo long="-2.729320363953603" lat="54.26279773261381" gazref="unlock:11290519" source="unlock"/>
+   <geo easting="352500" northing="485500" long="-2.73072" lat="54.263" kepnref="5094" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w189080">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="we101">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189080">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="italic" id="we23">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189080">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="we71">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189127">
+    <date subtype="simple" begin="1461" end="1461">1461</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189154">
+    <date subtype="simple" begin="1180" end="1200">1180-1200</date>
+    <source style="" id="we221">Kend</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189154">
+    <date subtype="simple" begin="1204" end="1215">1204-15</date>
+    <source style="" id="we221">Kend</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189154">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189154">
+    <attestation variantID="epns-deep-42-b-name-w189154">
+     <date subtype="simple" begin="1354" end="1354">1354</date>
+     <source style="" id="we272">Misc</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w189154">
+     <date subtype="simple" begin="1657" end="1657">1657</date>
+     <source style="italic" id="we83">Comm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w189294">
+    <attestation variantID="epns-deep-42-b-name-w189294">
+     <date subtype="simple" begin="1275" end="1290">1275-90</date>
+     <source style="" id="we221">Kend</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-42-b-name-w189294">
+     <date subtype="simple" begin="1495" end="1495">1495</date>
+     <source style="" id="we221">Kend</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w189080">Steintun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189080">Steynton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189127">Alde Stainton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189154">Staintun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189154">Stayntun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189154">Staynton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w189294">Stainton in Kendale</searchterm>
+  </extension>
+ </mads>
+ 

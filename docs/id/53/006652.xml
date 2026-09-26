@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-a-parish-000034">
+  <authority ID="epns-deep-53-a-name-parish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/006652">Tarrant Keynston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-hu-subcounty-000005" type="broader">
+   <geographic>Pimperne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a6b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1166700" lat="50.8333300" gazref="geonames:2636205" source="geonames"/>
+   <geo long="-2.106518678" lat="50.83582138" source="epns"/>
+   <geo easting="392500" northing="104500" long="-2.10787" lat="50.84" kepnref="11545" source="kepn"/>
+  </extension>
+ </mads>
+ 

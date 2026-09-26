@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000003">
+  <authority ID="epns-deep-18-b-name-subparish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000065">Feltham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000003" type="broader">
+   <geographic>Feltham</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w4935">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000066">Feltham</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w5019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000067">Feltam</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w5052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000068">Feltehā</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w5069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000069">Feltesham, Fultesham</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w5100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000070">Feltem</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w5130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000071">Felton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a000022c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4138800" lat="51.4462000" gazref="geonames:2649571" source="geonames"/>
+   <geo long="-0.4096418979978678" lat="51.44920186009082" gazref="unlock:11143002" source="unlock"/>
+   <geo easting="510500" northing="172500" long="-0.411512" lat="51.4407" kepnref="4714" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w4935">
+    <date subtype="simple" begin="969" end="969">969</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <source style="" id="mi59">Crawford</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w4935">
+    <date subtype="simple" begin="969" end="969">969</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="mi22">BCS</source>
+    <item>1264</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w4935">
+    <attestation variantID="epns-deep-18-b-name-w4935">
+     <date subtype="simple" begin="1100" end="1135">1100-35</date>
+     <copydate end="1330" begin="1330">1330</copydate>
+     <source style="" id="mi43">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5019">
+    <date subtype="simple" begin="1655" end="1655">1655</date>
+    <source style="" id="mi405">ParReg (Hillingdon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5052">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="mi70">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5069">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="italic" id="mi18">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5100">
+    <date subtype="simple" begin="1668" end="1668">1668</date>
+    <source style="" id="mi413">ParReg (Sunbury)</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5130">
+    <date subtype="simple" begin="1626" end="1626">1626</date>
+    <source style="" id="mi291">SP</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w5130">
+    <date subtype="simple" begin="1675" end="1675">1675</date>
+    <source style="" id="mi216">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w4935">Feltham</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5019">Feltam</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5052">Feltehā</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5069">Feltesham</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5069">Fultesham</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5100">Feltem</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w5130">Felton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000077">
+  <authority ID="epns-deep-50-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012125">Chilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000084" type="broader">
+   <geographic>Chilton</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w498068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012126">(emb) cylda tun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w498107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012127">Cildatun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w498154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012128">Cilletone, Ciltone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w498182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012129">Chiltune</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w498219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012130">Chiltone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w498274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012131">Chilton', Chylton', Chiltun, Chilton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b41"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2941600" lat="51.5678900" gazref="geonames:2653155" source="geonames"/>
+   <geo long="-1.300201439452762" lat="51.56581175839697" gazref="unlock:11104995" source="unlock"/>
+   <geo easting="448500" northing="185500" long="-1.30166" lat="51.5663" kepnref="3180" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w498068">
+    <date subtype="circa" begin="885" end="905">c. 895</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>565</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w498107">
+    <date subtype="simple" begin="1015" end="1015">1015</date>
+    <date subtype="simple" begin="1052" end="1052">1052</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be185">KCD</source>
+    <item>1310</item>
+    <page>796</page>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w498154">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w498182">
+    <date subtype="regnal" begin="1066" end="1100">William</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be3">Abingdon</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w498219">
+    <attestation variantID="epns-deep-50-b-name-w498219">
+     <date subtype="simple" begin="1218" end="1221">1218-21</date>
+     <source style="" id="be245">Os</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w498274">
+    <date end="1600" begin="1218">1218-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w498068">emb cylda tun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498068">cylda tun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498107">Cildatun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498154">Cilletone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498154">Ciltone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498182">Chiltune</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498219">Chiltone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498274">Chilton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498274">Chylton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498274">Chiltun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w498274">Chilton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-ct-countytown-000001">
+  <authority ID="epns-deep-10-ct-name-countytown-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000002">Northampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-co-county-000001" type="broader">
+   <geographic>Northamptonshire</geographic>
+  </related>
+  <variant ID="epns-deep-10-ct-name-w52">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000003">Hamtun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-ct-name-w96">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000004">Norðhamtun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-ct-name-w126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000005">Norhthamtun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-ct-name-w152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000006">Norhamptoun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a35b47fc40bba000001"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8833300" lat="52.2500000" gazref="geonames:2641430" source="geonames"/>
+   <geo long="-0.8940290738996758" lat="52.24610062532547" gazref="unlock:11233278" source="unlock"/>
+   <geo easting="475500" northing="260500" long="-0.895786" lat="52.2375" kepnref="11151" source="kepn"/>
+   <attestation variantID="epns-deep-10-ct-name-w52">
+    <date end="917" begin="917" subtype="simple">917</date>
+    <copydate end="1000" begin="900">10th</copydate>
+    <ms>A</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-ct-name-w52">
+    <date end="1140" begin="1140" subtype="simple">1140</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <ms>E</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-ct-name-w96">
+    <date end="1065" begin="1065" subtype="simple">1065</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <ms>C</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-ct-name-w126">
+    <date end="1122" begin="1122" subtype="simple">1122</date>
+    <ms>E</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-ct-name-w152">
+    <date end="1310" begin="1290" subtype="circa">c. 1300</date>
+    <source style="italic" id="nh119">Harl</source>
+    <page>2253</page>
+   </attestation>
+   <searchterm variantID="epns-deep-10-ct-name-w52">Hamtun</searchterm>
+   <searchterm variantID="epns-deep-10-ct-name-w96">Norðhamtun</searchterm>
+   <searchterm variantID="epns-deep-10-ct-name-w126">Norhthamtun</searchterm>
+   <searchterm variantID="epns-deep-10-ct-name-w152">Norhamptoun</searchterm>
+  </extension>
+ </mads>
+ 

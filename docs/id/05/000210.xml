@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000024">
+  <authority ID="epns-deep-05-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000210">Newton upon Ouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000010" type="broader">
+   <geographic>Newton on Ouse</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w17723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000211">Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000212">Neweton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17779">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000213">Niwenton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000214">Niweton' super Vsam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600054e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2166700" lat="54.0333300" gazref="geonames:2641526" source="geonames"/>
+   <geo easting="451500" northing="459500" long="-1.21528" lat="54.0289" kepnref="5673" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w17723">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17739">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17739">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17739">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17779">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17797">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w17723">Neuton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17739">Newetone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17739">Neweton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17779">Niwenton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17797">Niweton' super Vsam</searchterm>
+  </extension>
+ </mads>
+ 

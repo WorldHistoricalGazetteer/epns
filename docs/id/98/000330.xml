@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000018">
+  <authority ID="epns-deep-98-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000330">Carlton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000018" type="broader">
+   <geographic>Carlton</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w28441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000331">Carlentone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w28461">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000332">Carlinton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w28497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000333">Carleton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w28525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000334">Cherlton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w28544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000335">Carlton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a900031e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6070400" lat="52.1880100" gazref="geonames:2653770" source="geonames"/>
+   <geo long="-0.6028349417891111" lat="52.1890606453883" gazref="unlock:11098530" source="unlock"/>
+   <geo easting="495500" northing="255500" long="-0.604401" lat="52.1895" kepnref="4240" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w28441">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w28461">
+    <date subtype="circa" begin="1165" end="1185">c. 1175</date>
+    <source style="" id="bh14">BHRS</source>
+    <item>ii</item>
+    <page>131</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w28497">
+    <attestation variantID="epns-deep-98-b-name-w28497">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="bh66">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w28525">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w28544">
+    <attestation variantID="epns-deep-98-b-name-w28544">
+     <date subtype="simple" begin="1240" end="1240">1240</date>
+     <source style="" id="bh8">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w28441">Carlentone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w28461">Carlinton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w28497">Carleton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w28525">Cherlton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w28544">Carlton</searchterm>
+  </extension>
+ </mads>
+ 

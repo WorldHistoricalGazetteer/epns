@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000014">
+  <authority ID="epns-deep-52-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/005230">East Lulworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000003" type="broader">
+   <geographic>Winfrith Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029d2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1989100" lat="50.6378800" gazref="geonames:2650385" source="geonames"/>
+   <geo long="-2.197994636" lat="50.63694138" source="epns"/>
+   <geo long="-2.190941715620535" lat="50.64145051850812" gazref="unlock:11136320" source="unlock"/>
+   <geo easting="386500" northing="82500" long="-2.19227" lat="50.642" kepnref="11668" source="kepn"/>
+  </extension>
+ </mads>
+ 

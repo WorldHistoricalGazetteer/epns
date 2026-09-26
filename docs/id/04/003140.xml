@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000125">
+  <authority ID="epns-deep-04-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003140">Flyford Flavell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000127" type="broader">
+   <geographic>Flyford Flavell</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w265279">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003141">Fleferth</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003142">Flæferð</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003143">æt Fleferht</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003144">Flavel</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265446">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003145">Flefrith</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265474">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003146">Fleford</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w265493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003147">Fleford Flavell, Fleford Fluvell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000588"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0298000" lat="52.1835700" gazref="geonames:7292799" source="geonames"/>
+   <geo long="-2.021944107671065" lat="52.18833922078993" gazref="unlock:11145789" source="unlock"/>
+   <geo easting="398500" northing="255500" long="-2.02335" lat="52.1977" kepnref="5302" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w265279">
+    <date end="930" begin="930" subtype="simple">930</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>667</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265308">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265340">
+    <date end="1002" begin="1002" subtype="simple">1002</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>1295</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo56">Fees</source>
+    <item>139</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo167">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="wo208">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265374">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265446">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265446">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265474">
+    <date end="1420" begin="1420" subtype="simple">1420</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w265493">
+    <date end="1600" begin="1500" subtype="century">16th</date>
+    <date end="1700" begin="1600" subtype="century">17th</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iv</item>
+    <page>83</page>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w265279">Fleferth</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265308">Flæferð</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265340">æt Fleferht</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265374">Flavel</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265446">Flefrith</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265474">Fleford</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265493">Fleford Flavell</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w265493">Fleford Fluvell</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000198">
+  <authority ID="epns-deep-02-a-name-parish-000198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004338">Seer Green</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000017" type="broader">
+   <geographic>Burnham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6059200" lat="51.6179600" gazref="geonames:7521859" source="geonames"/>
+   <geo long="-0.6061327992492336" lat="51.61357794270158" gazref="unlock:11280033" source="unlock"/>
+   <geo easting="496500" northing="191500" long="-0.607675" lat="51.6141" kepnref="11392" source="kepn"/>
+  </extension>
+ </mads>
+ 

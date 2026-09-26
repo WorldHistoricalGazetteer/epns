@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000080">
+  <authority ID="epns-deep-38-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007779">Salperton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000080" type="broader">
+   <geographic>Salperton</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w350373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007780">Salpretvne</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w350393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007781">Salpretone</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w350413">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007782">Salpertune, Salperton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w350541">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007783">Salpartona</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w350563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007784">Salportona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b8d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8898300" lat="51.8826500" gazref="geonames:2638654" source="geonames"/>
+   <geo long="-1.898300546" lat="51.87808315" source="epns"/>
+   <geo long="-1.891025411603169" lat="51.88257338966481" gazref="unlock:11277147" source="unlock"/>
+   <geo easting="407500" northing="220500" long="-1.89243" lat="51.883" kepnref="6270" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w350373">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350393">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="go424">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="simple" begin="1169" end="1169">1169</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <source style="" id="go506">Templar</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="circa" begin="1200" end="1220">c. 1210</date>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="italic" id="go25">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350413">
+    <attestation variantID="epns-deep-38-b-name-w350413">
+     <date subtype="simple" begin="1241" end="1241">1241</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w350413">
+     <date subtype="simple" begin="1535" end="1535">1535</date>
+     <source style="" id="go522">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350541">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w350563">
+    <date subtype="simple" begin="1321" end="1321">1321</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w350373">Salpretvne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350393">Salpretone</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350413">Salpertune</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350413">Salpertone</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350413">Salperton</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350541">Salpartona</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w350563">Salportona</searchterm>
+  </extension>
+ </mads>
+ 

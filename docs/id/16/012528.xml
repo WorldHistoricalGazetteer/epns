@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000307">
+  <authority ID="epns-deep-16-a-name-parish-000307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012528">Durrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000031" type="broader">
+   <geographic>Amesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7718500" lat="51.1987100" gazref="geonames:2650615" source="geonames"/>
+   <geo long="-1.778134899969481" lat="51.19898755715951" gazref="unlock:11134734" source="unlock"/>
+   <geo easting="415500" northing="144500" long="-1.77953" lat="51.1995" kepnref="7457" source="kepn"/>
+  </extension>
+ </mads>
+ 

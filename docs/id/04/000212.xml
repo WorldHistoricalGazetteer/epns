@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000002">
+  <authority ID="epns-deep-04-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000212">Acton Beauchamp</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000002" type="broader">
+   <geographic>Acton Beauchamp</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w12909">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000213">Aactune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w12940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000214">Actune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00053f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4488800" lat="52.1484500" gazref="geonames:7293151" source="geonames"/>
+   <geo long="-2.475063610350708" lat="52.15141869716762" gazref="unlock:11056503" source="unlock"/>
+   <geo easting="367500" northing="250500" long="-2.47641" lat="52.1518" kepnref="5181" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w12909">
+    <date end="727" begin="727" subtype="simple">727</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>146</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w12940">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w12940">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w12909">Aactune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w12940">Actune</searchterm>
+  </extension>
+ </mads>
+ 

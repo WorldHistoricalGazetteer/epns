@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000524">
+  <authority ID="epns-deep-05-b-name-subparish-000524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005782">Gilmonby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000181" type="broader">
+   <geographic>Bowes</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w406098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005783">Gil(le)maneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w406132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005784">Gilmanby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600042f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0089600" lat="54.5007000" gazref="geonames:7294668" source="geonames"/>
+   <geo long="-2.00772282936539" lat="54.50768280687927" gazref="unlock:11152621" source="unlock"/>
+   <geo easting="399500" northing="512500" long="-2.00922" lat="54.5078" kepnref="6188" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w406098">
+    <date subtype="simple" begin="1146" end="1161">1146-61</date>
+    <source style="italic" id="ny124">MaryY</source>
+    <page>36 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406132">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406132">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>572</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w406132">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w406098">Gillemaneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406098">Gilmaneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w406132">Gilmanby</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000049">
+  <authority ID="epns-deep-82-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006654">Felton Butler</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000009" type="broader">
+   <geographic>Great Ness</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w265421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006655">Feltone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w265438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006656">Felton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w265490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006657">Felton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a639b47fc4463d000ed7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.897955753" lat="52.75227511" source="epns"/>
+   <geo long="-2.896455985720074" lat="52.75138838701677" gazref="unlock:11143013" source="unlock"/>
+   <geo easting="334500" northing="325500" long="-2.97345" lat="52.823" kepnref="13710" source="kepn"/>
+   <attestation variantID="epns-deep-82-b-name-w265421">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w265438">
+    <attestation variantID="epns-deep-82-b-name-w265438">
+     <date end="1241" begin="1241" subtype="simple">1241</date>
+     <source style="" id="ss88">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w265490">
+    <date end="1600" begin="1241">1241-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w265421">Feltone</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w265438">Felton'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w265490">Felton</searchterm>
+  </extension>
+ </mads>
+ 

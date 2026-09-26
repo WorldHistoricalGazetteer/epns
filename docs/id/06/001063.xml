@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000037">
+  <authority ID="epns-deep-06-b-name-subparish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001063">West Thorney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000037" type="broader">
+   <geographic>West Thorney</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w89295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001064">þorneg</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w89324">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001065">Tornei</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w89340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001066">Westthorneye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000dac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9104900" lat="50.8159100" gazref="geonames:2634252" source="geonames"/>
+   <geo long="-0.913946341957084" lat="50.81642621615624" gazref="unlock:11317707" source="unlock"/>
+   <geo easting="476500" northing="102500" long="-0.915423" lat="50.817" kepnref="6898" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w89295">
+    <date subtype="simple" begin="1052" end="1052">1052</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <ms>D</ms>
+    <source style="" id="su11">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w89324">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w89340">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w89295">þorneg</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w89324">Tornei</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w89340">Westthorneye</searchterm>
+  </extension>
+ </mads>
+ 

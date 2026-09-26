@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000070">
+  <authority ID="epns-deep-27-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008232">Great Rowsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000068" type="broader">
+   <geographic>Great Rowsley</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w323018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008233">Reuslege</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008234">Rolvesle</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008235">Roulesl', Roulisl', Roulisley(e), Roulisleg', Roulisle(y)gh, Roulislie, Roulisly</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323200">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008236">Rullesle</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008237">Rowelysleye</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008238">Rollesley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008239">Rowsley</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008240">Rowesley</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008241">Magna Roulesley</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w323382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008242">Mechell Rollesley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00187d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6166700" lat="53.1833300" gazref="geonames:2648031" source="geonames"/>
+   <geo easting="425500" northing="366500" long="-1.61976" lat="53.195" kepnref="3270" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w323018">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323036">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323055">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323055">
+    <attestation variantID="epns-deep-27-b-name-w323055">
+     <date end="1250" begin="1230" subtype="circa">c. 1240</date>
+     <date end="1249" begin="1249" subtype="simple">1249</date>
+     <source style="italic" id="db38">BelCh</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w323055">
+     <date end="1373" begin="1373" subtype="simple">1373</date>
+     <source style="" id="db265">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323200">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323219">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323241">
+    <date end="1386" begin="1386" subtype="simple">1386</date>
+    <source style="" id="db128">DbA</source>
+    <item>xxiii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323241">
+    <attestation variantID="epns-deep-27-b-name-w323241">
+     <date end="1394" begin="1394" subtype="simple">1394</date>
+     <source style="italic" id="db589">WollCh</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w323241">
+     <date end="1578" begin="1578" subtype="simple">1578</date>
+     <source style="italic" id="db588">Woll</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323314">
+    <date end="1550" begin="1550" subtype="simple">1550</date>
+    <source style="" id="db128">DbA</source>
+    <item>xvi</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323336">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="db520">Speed</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323357">
+    <date end="1370" begin="1370" subtype="simple">1370</date>
+    <source style="italic" id="db193">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w323382">
+    <date end="1486" begin="1486" subtype="simple">1486</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w323018">Reuslege</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323036">Rolvesle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulesl'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisl'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisleye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisley</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisleg'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisleygh</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulislegh</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulislie</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323055">Roulisly</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323200">Rullesle</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323219">Rowelysleye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323241">Rollesleye</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323241">Rollesley</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323314">Rowsley</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323336">Rowesley</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323357">Magna Roulesley</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w323382">Mechell Rollesley</searchterm>
+  </extension>
+ </mads>
+ 

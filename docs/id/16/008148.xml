@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000202">
+  <authority ID="epns-deep-16-a-name-parish-000202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008148">West Lavington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Rowborough Regis Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000d1b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0025200" lat="51.2842300" gazref="geonames:6286315" source="geonames"/>
+   <geo long="-1.99283186204824" lat="51.27114099792805" gazref="unlock:11317203" source="unlock"/>
+   <geo kepnexref="227" long="-1.9942" lat="51.2806" source="kepn"/>
+  </extension>
+ </mads>
+ 

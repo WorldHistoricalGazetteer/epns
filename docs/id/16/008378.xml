@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000182">
+  <authority ID="epns-deep-16-b-name-subparish-000182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008378">Worton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000207" type="broader">
+   <geographic>Worton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w411118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008379">Wrton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w411150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008380">Wurton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w411198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008381">Worton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w411244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008382">Worton(e) by Poterne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w411275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008383">Wourton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w411301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008384">Woorton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e7d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0411100" lat="51.3161100" gazref="geonames:2633513" source="geonames"/>
+   <geo long="-2.035875711262354" lat="51.31609985729695" gazref="unlock:11327437" source="unlock"/>
+   <geo easting="397500" northing="156500" long="-2.03724" lat="51.3076" kepnref="7360" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w411118">
+    <date subtype="simple" begin="1173" end="1173">1173</date>
+    <source style="" id="ws290">SarumCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411118">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ws30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411150">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="ws240">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411150">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ws287">StNicholas</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411150">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411198">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="ws290">SarumCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411198">
+    <attestation variantID="epns-deep-16-b-name-w411198">
+     <date subtype="simple" begin="1249" end="1249">1249</date>
+     <source style="italic" id="ws19">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411244">
+    <date subtype="simple" begin="1419" end="1419">1419</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411275">
+    <date subtype="regnal" begin="1558" end="1603">t. Eliz</date>
+    <source style="" id="ws333">WM</source>
+    <item>xxi</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411301">
+    <date subtype="regnal" begin="1558" end="1603">t. Eliz</date>
+    <source style="" id="ws333" underspec="ib">WM</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w411301">
+    <date subtype="simple" begin="1622" end="1622">1622</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w411118">Wrtona</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411118">Wrton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411150">Wurton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411198">Wortone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411198">Worton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411244">Wortone by Poterne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411244">Worton by Poterne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411275">Wourton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w411301">Woorton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000132">
+  <authority ID="epns-deep-05-a-name-parish-000132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004210">Mashamshire</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000010" type="broader">
+   <geographic>Hang East Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-05-a-name-w309598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004211">Mashamshire, Mashamshyre</geographic>
+  </variant>
+  <variant ID="epns-deep-05-a-name-w309656">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004212">Massamshire</geographic>
+  </variant>
+  <variant ID="epns-deep-05-a-name-w309709">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004213">Massamsir'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-a-name-w309734">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004214">Masshamshire</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc600039e"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="0049" long="-1.65642" lat="54.2197" source="kepn"/>
+   <attestation variantID="epns-deep-05-a-name-w309598">
+    <date subtype="simple" begin="1142" end="1196">1142-96</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>596</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-a-name-w309598">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-a-name-w309656">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>572</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-a-name-w309656">
+    <date subtype="simple" begin="1300" end="1325">e. 14</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>87 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-a-name-w309709">
+    <date subtype="simple" begin="1224" end="1230">1224-30</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-a-name-w309734">
+    <date subtype="simple" begin="1468" end="1468">1468</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-a-name-w309598">Mashamshire</searchterm>
+   <searchterm variantID="epns-deep-05-a-name-w309598">Mashamshyre</searchterm>
+   <searchterm variantID="epns-deep-05-a-name-w309656">Massamshire</searchterm>
+   <searchterm variantID="epns-deep-05-a-name-w309709">Massamsir'</searchterm>
+   <searchterm variantID="epns-deep-05-a-name-w309734">Masshamshire</searchterm>
+  </extension>
+ </mads>
+ 

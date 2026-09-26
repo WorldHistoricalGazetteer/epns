@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000077">
+  <authority ID="epns-deep-15-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005419">Ashwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000090" type="broader">
+   <geographic>Ashwell</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w272110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005420">Æscewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w272133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005421">Asceuuelle, Esceuuelle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000767"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1539800" lat="52.0386600" gazref="geonames:2656911" source="geonames"/>
+   <geo long="-0.1554749960982588" lat="52.03903038492186" gazref="unlock:11064786" source="unlock"/>
+   <geo easting="526500" northing="239500" long="-0.157086" lat="52.0395" kepnref="4649" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w272110">
+    <date subtype="circa" begin="1050" end="1070">c. 1060</date>
+    <source style="italic" id="he338">WDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w272133">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w272110">Æscewelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w272133">Asceuuelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w272133">Esceuuelle</searchterm>
+  </extension>
+ </mads>
+ 

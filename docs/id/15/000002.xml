@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-hu-subcounty-000001">
+  <authority ID="epns-deep-15-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000002">Hitchin Half-Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-co-county-000001" type="broader">
+   <geographic>Hertfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-15-hu-name-w41">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000003">Half Hundret de Hiz</geographic>
+  </variant>
+  <variant ID="epns-deep-15-hu-name-w70">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000004">Hiche</geographic>
+  </variant>
+  <variant ID="epns-deep-15-hu-name-w94">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000005">Huche</geographic>
+  </variant>
+  <variant ID="epns-deep-15-hu-name-w113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000006">Hycchalf hundred</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b95b47fc40ace00075e"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-15-hu-name-w41">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-hu-name-w70">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="he214">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-hu-name-w70">
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="" id="he266">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-hu-name-w94">
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="" id="he207">Orig</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-hu-name-w113">
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="" id="he110">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-hu-name-w41">Half Hundret de Hiz</searchterm>
+   <searchterm variantID="epns-deep-15-hu-name-w70">Hiche</searchterm>
+   <searchterm variantID="epns-deep-15-hu-name-w94">Huche</searchterm>
+   <searchterm variantID="epns-deep-15-hu-name-w113">Hycchalf hundred</searchterm>
+  </extension>
+ </mads>
+ 

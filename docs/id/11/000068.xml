@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000001">
+  <authority ID="epns-deep-11-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000068">Barnes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000001" type="broader">
+   <geographic>Barnes</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w6170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000069">Berne</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w6205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000070">Berna</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w6226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000071">La Berne</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w6244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000072">Bernes</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w6302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/000073">Barnes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000a9f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2483900" lat="51.4735200" gazref="geonames:2656296" source="geonames"/>
+   <geo long="-0.235977388223896" lat="51.47369756001655" gazref="unlock:11070456" source="unlock"/>
+   <geo easting="522500" northing="176500" long="-0.237556" lat="51.4742" kepnref="8241" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w6170">
+    <date end="939" begin="939" subtype="simple">939</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="sr23">BCS</source>
+    <item>737</item>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6170">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6205">
+    <date end="1181" begin="1181" subtype="simple">1181</date>
+    <source style="" id="sr304">StP DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6226">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6244">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="sr304">StP DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6244">
+    <date end="1273" begin="1273" subtype="simple">1273</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6244">
+    <attestation variantID="epns-deep-11-b-name-w6244">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="sr316">Tax</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-11-b-name-w6244">
+     <date end="1505" begin="1505" subtype="simple">1505</date>
+     <source style="" id="sr106">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w6302">
+    <date end="1387" begin="1387" subtype="simple">1387</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w6170">Berne</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w6205">Berna</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w6226">La Berne</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w6244">Bernes</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w6302">Barnes</searchterm>
+  </extension>
+ </mads>
+ 

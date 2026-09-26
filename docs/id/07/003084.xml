@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000069">
+  <authority ID="epns-deep-07-b-name-subparish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003084">Denton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000070" type="broader">
+   <geographic>Denton</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w200271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003085">Denton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w200308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003086">Denton by Bisshopeston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w200342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003087">Dem(p)ton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cd8"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0602500" lat="50.8018700" gazref="geonames:2651361" source="geonames"/>
+   <geo long="0.06511307902836477" lat="50.80320143632042" gazref="unlock:11128786" source="unlock"/>
+   <geo easting="545500" northing="102500" long="0.063527" lat="50.8038" kepnref="7087" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w200271">
+    <attestation variantID="epns-deep-07-b-name-w200271">
+     <date end="801" begin="801" subtype="simple">801</date>
+     <copydate end="1400" begin="1300">14th</copydate>
+     <source style="" id="su21">BCS</source>
+     <item>302</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w200308">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w200342">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w200271">Denton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w200308">Denton by Bisshopeston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w200342">Dempton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w200342">Demton</searchterm>
+  </extension>
+ </mads>
+ 

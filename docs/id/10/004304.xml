@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000199">
+  <authority ID="epns-deep-10-a-name-parish-000199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004304">Whiston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000013" type="broader">
+   <geographic>Wymersley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7571100" lat="52.2378400" gazref="geonames:2634144" source="geonames"/>
+   <geo long="-0.7624731596532374" lat="52.23580284293951" gazref="unlock:11320139" source="unlock"/>
+   <geo easting="484500" northing="260500" long="-0.764022" lat="52.2362" kepnref="11069" source="kepn"/>
+  </extension>
+ </mads>
+ 

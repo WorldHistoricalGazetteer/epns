@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000271">
+  <authority ID="epns-deep-05-b-name-subparish-000271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003372">Hutton Sessay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000103" type="broader">
+   <geographic>Sessay</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w250121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003373">Hottune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w250138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003374">Hotun juxta Tresk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w250165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003375">Hotton et Cessay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000599"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.272103851846478" lat="54.18190886513772" gazref="unlock:11181847" source="unlock"/>
+   <geo easting="447500" northing="476500" long="-1.27367" lat="54.1821" kepnref="5997" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w250121">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w250138">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w250165">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w250121">Hottune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250138">Hotun juxta Tresk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w250165">Hotton et Cessay</searchterm>
+  </extension>
+ </mads>
+ 

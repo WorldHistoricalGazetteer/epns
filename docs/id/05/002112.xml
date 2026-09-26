@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000171">
+  <authority ID="epns-deep-05-b-name-subparish-000171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002112">Helredale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000064" type="broader">
+   <geographic>Whitby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w166283">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002113">Hellerdale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w166309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002114">Helredale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w166346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002115">Ellerdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005ed"/>
+  </recordInfo>
+  <extension>
+   <geo easting="490500" northing="510500" long="-0.604678" lat="54.4818" kepnref="5823" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w166283">
+    <date subtype="simple" begin="1145" end="1148">1145-8</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w166309">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231" underspec="ib">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w166309">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>66 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w166346">
+    <date subtype="simple" begin="1351" end="1351">1351</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w166283">Hellerdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w166309">Helredale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w166346">Ellerdale</searchterm>
+  </extension>
+ </mads>
+ 

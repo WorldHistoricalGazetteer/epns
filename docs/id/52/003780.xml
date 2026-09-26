@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000010">
+  <authority ID="epns-deep-52-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/003780">Steeple</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000002" type="broader">
+   <geographic>Hasler Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a55"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1347200" lat="50.6361500" gazref="geonames:7295007" source="geonames"/>
+   <geo long="-2.124427893" lat="50.62714992" source="epns"/>
+   <geo long="-2.120199835618903" lat="50.63255111323232" gazref="unlock:11291719" source="unlock"/>
+   <geo easting="391500" northing="81500" long="-2.12153" lat="50.6331" kepnref="11520" source="kepn"/>
+  </extension>
+ </mads>
+ 

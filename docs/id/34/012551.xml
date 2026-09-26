@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000121">
+  <authority ID="epns-deep-34-b-name-subparish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012551">Stonebeck Up</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000035" type="broader">
+   <geographic>Kirkby Malzeard</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w507472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012552">Stainbeck upp</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w507498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012553">Stainbeck up</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w507523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012554">Stonebeck up</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w507550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012555">Steanbeck up</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810061a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9240000" lat="54.1712400" gazref="geonames:7296849" source="geonames"/>
+   <geo long="-1.938734001" lat="54.16161993" source="epns"/>
+   <geo easting="403500" northing="475500" long="-1.94786" lat="54.1753" kepnref="14839" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w507472">
+    <date end="1641" begin="1641" subtype="simple">1641</date>
+    <source style="" id="wr590">Rates</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w507498">
+    <date end="1761" begin="1761" subtype="simple">1761</date>
+    <source style="" id="wr509">PRChp</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w507523">
+    <date end="1685" begin="1685" subtype="simple">1685</date>
+    <source style="italic" id="wr810">Yorke</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w507550">
+    <date end="1752" begin="1752" subtype="simple">1752</date>
+    <source style="italic" id="wr810" underspec="ib">Yorke</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w507472">Stainbeck upp</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w507498">Stainbeck up</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w507523">Stonebeck up</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w507550">Steanbeck up</searchterm>
+  </extension>
+ </mads>
+ 

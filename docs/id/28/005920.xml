@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000028">
+  <authority ID="epns-deep-28-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/005920">Morton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000029" type="broader">
+   <geographic>Morton</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w228442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/005921">(æt) Mortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w228478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/005922">(into) Mortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w228524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/005923">(mid) Mortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w228571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/005924">Morton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018c8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3880400" lat="53.1434600" gazref="geonames:7294863" source="geonames"/>
+   <geo long="-1.394497187592329" lat="53.13981923876153" gazref="unlock:11223078" source="unlock"/>
+   <geo easting="440500" northing="360500" long="-1.39601" lat="53.1401" kepnref="3310" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w228442">
+    <date subtype="simple" begin="956" end="956">956</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="db393">Peniarth</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w228478">
+    <date subtype="circa" begin="992" end="1012">c. 1002</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <source style="" id="db25">ASWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w228524">
+    <date subtype="simple" begin="1004" end="1004">1004</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="db393">Peniarth</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w228524">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w228571">
+    <date subtype="simple" begin="1186" end="1186">1186</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w228571">
+    <attestation variantID="epns-deep-28-b-name-w228571">
+     <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+     <source style="" id="db459">RegAnt</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w228442">æt Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228442">æt Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228442">Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228442">Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228478">into Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228478">into Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228478">Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228478">Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228524">mid Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228524">mid Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228524">Mortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228524">Mortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228571">Mortone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w228571">Morton</searchterm>
+  </extension>
+ </mads>
+ 

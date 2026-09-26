@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000380">
+  <authority ID="epns-deep-05-b-name-subparish-000380">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004321">Thirn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000133" type="broader">
+   <geographic>Thornton Watlass</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w316832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004322">Thirn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w316899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004323">Thirun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w316921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004324">Thryn</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w316936">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004325">Therne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005d2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6651800" lat="54.2673300" gazref="geonames:7291531" source="geonames"/>
+   <geo long="-1.669802975224476" lat="54.27353967770994" gazref="unlock:11299419" source="unlock"/>
+   <geo easting="421500" northing="486500" long="-1.67133" lat="54.2737" kepnref="6033" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w316832">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316832">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316832">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316832">
+    <date subtype="simple" begin="1551" end="1551">1551</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316899">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>37 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316921">
+    <date subtype="simple" begin="1406" end="1406">1406</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w316936">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w316832">Thirne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w316832">Thirn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w316899">Thirun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w316921">Thryn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w316936">Therne</searchterm>
+  </extension>
+ </mads>
+ 

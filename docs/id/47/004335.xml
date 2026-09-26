@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000052">
+  <authority ID="epns-deep-47-b-name-subparish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004335">Newton by Tattenhall, Newton Farm, Newton House &amp; Newton Lane</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000012" type="broader">
+   <geographic>Tattenhall</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w232509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004336">Newton iuxta Tatenhall</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w232574">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004337">Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w232694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004338">Neubold iuxta Tatenhale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002066"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.762391577" lat="53.13442192" source="epns"/>
+   <geo easting="349500" northing="360500" long="-2.75635" lat="53.1393" kepnref="12068" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w232509">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="ch107">ChF</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w232574">
+    <date end="1505" begin="1505" subtype="simple">1505</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w232694">
+    <date end="1374" begin="1374" subtype="simple">1374</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w232509">Newton iuxta Tatenhall</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w232574">Neuton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w232694">Neubold iuxta Tatenhale</searchterm>
+  </extension>
+ </mads>
+ 

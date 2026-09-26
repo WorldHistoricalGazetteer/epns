@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000069">
+  <authority ID="epns-deep-02-b-name-subparish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001032">Poundon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000068" type="broader">
+   <geographic>Poundon</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w73005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001033">Paundon</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w73027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001034">Pondon</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w73044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001035">Powendone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0611500" lat="51.9235500" gazref="geonames:2639955" source="geonames"/>
+   <geo long="-1.061949412736533" lat="51.92384579430754" gazref="unlock:11249566" source="unlock"/>
+   <geo easting="464500" northing="225500" long="-1.06345" lat="51.9243" kepnref="11262" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w73005">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="italic" id="bu43">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w73027">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="bu109">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w73044">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w73005">Paundon</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w73027">Pondon</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w73044">Powendone</searchterm>
+  </extension>
+ </mads>
+ 

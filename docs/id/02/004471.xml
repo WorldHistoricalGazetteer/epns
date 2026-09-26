@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000203">
+  <authority ID="epns-deep-02-b-name-subparish-000203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004471">Gerrard's Cross</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000206" type="broader">
+   <geographic>Gerrard's Cross</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w319005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004472">Jarrets Cross</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000361"/>
+  </recordInfo>
+  <extension>
+   <geo easting="499500" northing="187500" long="-0.565495" lat="51.5776" kepnref="11400" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w319005">
+    <date end="1761" begin="1761" subtype="simple">1761</date>
+    <source style="" id="bu198">Roque</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w319005">Jarrets Cross</searchterm>
+  </extension>
+ </mads>
+ 

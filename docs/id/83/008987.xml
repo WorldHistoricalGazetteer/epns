@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000015">
+  <authority ID="epns-deep-83-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008987">Long Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <variant ID="epns-deep-83-a-name-w351097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008988">the cawsey in Longnewton</geographic>
+  </variant>
+  <variant ID="epns-deep-83-a-name-w351146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008989">Ecclesia de Longa Neutone</geographic>
+  </variant>
+  <variant ID="epns-deep-83-a-name-w351184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008990">Ecclesia de Langeneuton'</geographic>
+  </variant>
+  <variant ID="epns-deep-83-a-name-w351219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008991">Ecclesia de Langneuton'</geographic>
+  </variant>
+  <variant ID="epns-deep-83-a-name-w351252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008992">Ecclesia de Langnewton'</geographic>
+  </variant>
+  <variant ID="epns-deep-83-a-name-w351288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/008993">White Horse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000480"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4166700" lat="54.5333300" gazref="geonames:2643655" source="geonames"/>
+   <geo long="-1.412630945" lat="54.53771338" source="epns"/>
+   <geo easting="438500" northing="516500" long="-1.40641" lat="54.5423" kepnref="7747" source="kepn"/>
+   <attestation variantID="epns-deep-83-a-name-w351097">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <source style="" id="dm257">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-a-name-w351146">
+    <date subtype="simple" begin="1235" end="1236">1235×6</date>
+    <source style="" id="dm12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-a-name-w351184">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="dm213">RPD</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-a-name-w351219">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="dm213" underspec="ib">RPD</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-a-name-w351252">
+    <date subtype="simple" begin="1438" end="1439">1438×9</date>
+    <source style="" id="dm253">Vis</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-a-name-w351288">
+    <date subtype="simple" begin="1828" end="1828">1828</date>
+    <source style="" id="dm165">Pigot</source>
+   </attestation>
+   <searchterm variantID="epns-deep-83-a-name-w351097">the cawsey in Longnewton</searchterm>
+   <searchterm variantID="epns-deep-83-a-name-w351146">Ecclesia de Longa Neutone</searchterm>
+   <searchterm variantID="epns-deep-83-a-name-w351184">Ecclesia de Langeneuton'</searchterm>
+   <searchterm variantID="epns-deep-83-a-name-w351219">Ecclesia de Langneuton'</searchterm>
+   <searchterm variantID="epns-deep-83-a-name-w351252">Ecclesia de Langnewton'</searchterm>
+   <searchterm variantID="epns-deep-83-a-name-w351288">White Horse</searchterm>
+  </extension>
+ </mads>
+ 

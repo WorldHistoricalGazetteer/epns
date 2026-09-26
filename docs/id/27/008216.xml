@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000067">
+  <authority ID="epns-deep-27-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/008216">Rowland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c00179e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6822700" lat="53.2445100" gazref="geonames:7298157" source="geonames"/>
+   <geo long="-1.67774523564459" lat="53.24880214182653" gazref="unlock:11273803" source="unlock"/>
+   <geo easting="421500" northing="372500" long="-1.67923" lat="53.2491" kepnref="3269" source="kepn"/>
+  </extension>
+ </mads>
+ 

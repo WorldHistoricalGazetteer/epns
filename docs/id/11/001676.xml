@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-hu-subcounty-000003">
+  <authority ID="epns-deep-11-hu-name-subcounty-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001676">Kingston Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-co-county-000001" type="broader">
+   <geographic>Surrey</geographic>
+  </related>
+  <variant ID="epns-deep-11-hu-name-w92056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001677">Chingestun</geographic>
+  </variant>
+  <variant ID="epns-deep-11-hu-name-w92076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/001678">Chingeston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328710ab47fc40c23000a91"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-11-hu-name-w92056">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-hu-name-w92076">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="sr232">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-hu-name-w92056">Chingestun</searchterm>
+   <searchterm variantID="epns-deep-11-hu-name-w92076">Chingeston</searchterm>
+  </extension>
+ </mads>
+ 

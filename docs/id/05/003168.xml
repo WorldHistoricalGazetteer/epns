@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000250">
+  <authority ID="epns-deep-05-b-name-subparish-000250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003168">Potto</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000098" type="broader">
+   <geographic>Whorlton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w235946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003169">Pothow(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w235989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003170">Pottowe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w236015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003171">Potto</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2701200" lat="54.4229300" gazref="geonames:2639965" source="geonames"/>
+   <geo long="-1.267810037331697" lat="54.42457212695305" gazref="unlock:11249408" source="unlock"/>
+   <geo easting="447500" northing="503500" long="-1.26939" lat="54.4247" kepnref="5903" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w235946">
+    <attestation variantID="epns-deep-05-b-name-w235946">
+     <date subtype="simple" begin="1202" end="1202">1202</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w235946">
+     <date subtype="simple" begin="1385" end="1385">1385</date>
+     <source style="" id="ny13">Baildon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235989">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235989">
+    <date subtype="simple" begin="1354" end="1354">1354</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w236015">
+    <date subtype="simple" begin="1548" end="1548">1548</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w236015">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w235946">Pothowe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235946">Pothow</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235989">Pottowe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w236015">Potto</searchterm>
+  </extension>
+ </mads>
+ 

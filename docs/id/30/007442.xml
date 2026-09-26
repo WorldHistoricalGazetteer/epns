@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000064">
+  <authority ID="epns-deep-30-b-name-subparish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/007442">St John's</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000042" type="broader">
+   <geographic>St John's Parish</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w336286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/007443">Saint Johnestown</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w336314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/007444">villa Sancti Johannis</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w336353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/007445">Saynt Johnes</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w336377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/007446">St John's</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100626f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.218248386" lat="53.37702822" source="epns"/>
+   <geo kepnexref="3401" long="-1.19716" lat="53.3816" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w336286">
+    <date subtype="simple" begin="1481" end="1481">1481</date>
+    <source style="" id="wr199">Fabr</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w336314">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>34</page>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w336353">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w336377">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w336377">
+    <date subtype="simple" begin="1771" end="1771">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w336286">Saint Johnestown</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w336314">villa Sancti Johannis</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w336353">Saynt Johnes</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w336377">St John's</searchterm>
+  </extension>
+ </mads>
+ 

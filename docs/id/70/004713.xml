@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000041">
+  <authority ID="epns-deep-70-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004713">Westley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000006" type="broader">
+   <geographic>Westbury</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w163472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004714">Westlegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w163494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004715">Westley</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w163525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004716">Westley under Cause</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w163573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004717">Woosley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a650b47fc4463d000f67"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.941830343" lat="52.65663038" source="epns"/>
+   <geo long="-2.938777681616723" lat="52.65216006828516" gazref="unlock:11318836" source="unlock"/>
+   <attestation variantID="epns-deep-70-b-name-w163472">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w163494">
+    <attestation variantID="epns-deep-70-b-name-w163494">
+     <date subtype="simple" begin="1562" end="1562">1562</date>
+     <source style="italic" id="ss267">SBL</source>
+     <item>13455</item>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w163525">
+    <date subtype="simple" begin="1649" end="1649">1649</date>
+    <date subtype="simple" begin="1667" end="1667">67</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>13379, 9945</item>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w163573">
+    <date subtype="simple" begin="1672" end="1672">1672</date>
+    <source style="" id="ss124">HTR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w163472">Westlegh'</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w163494">Westley</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w163525">Westley under Cause</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w163573">Woosley</searchterm>
+  </extension>
+ </mads>
+ 

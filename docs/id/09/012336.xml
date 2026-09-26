@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000241">
+  <authority ID="epns-deep-09-a-name-parish-000241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012336">Thorncombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000019" type="broader">
+   <geographic>Axminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001867"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8878800" lat="50.8258600" gazref="geonames:2635999" source="geonames"/>
+   <geo long="-2.88749751003878" lat="50.82709932808832" gazref="unlock:11299676" source="unlock"/>
+   <geo easting="337500" northing="103500" long="-2.88875" lat="50.8277" kepnref="15912" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000195">
+  <authority ID="epns-deep-10-b-name-subparish-000195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004244">Piddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000195" type="broader">
+   <geographic>Piddington</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w230457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004245">Pidentone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004246">Pidinton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230562">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004247">Pidynton, Pidyngton, Pidington, and Pydinton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004248">Pytyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230622">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004249">Pedinton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230654">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004250">Pedyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004251">Pydelington</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004252">Podinton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004253">Podington</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w230761">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004254">Pudinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005d9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8268100" lat="52.1834100" gazref="geonames:2640304" source="geonames"/>
+   <geo long="-0.8224675690946817" lat="52.18246525333274" gazref="unlock:11245052" source="unlock"/>
+   <geo easting="480500" northing="254500" long="-0.824008" lat="52.1829" kepnref="11065" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w230457">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230457">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230489">
+    <attestation variantID="epns-deep-10-b-name-w230489">
+     <date end="1204" begin="1204" subtype="simple">1204</date>
+     <source style="italic" id="nh101">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w230489">
+     <date end="1405" begin="1405" subtype="simple">1405</date>
+     <source style="" id="nh4">AD</source>
+     <item>v</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230562">
+    <date end="1405" begin="1204">1204-1405</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230602">
+    <date end="1350" begin="1350" subtype="simple">1350</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230622">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230622">
+    <date end="1203" begin="1203" subtype="simple">1203</date>
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230654">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230654">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230654">
+    <date end="1509" begin="1485" subtype="regnal">t. Hy 7</date>
+    <source style="italic" id="nh170">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230702">
+    <date end="1253" begin="1253" subtype="simple">1253</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230724">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230742">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w230761">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w230457">Pidentone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230489">Pidinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230562">Pidynton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230562">Pidyngton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230562">Pidington</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230562">Pydinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230602">Pytyngton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230622">Pedinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230654">Pedyngton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230702">Pydelington</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230724">Podinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230742">Podington</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w230761">Pudinton</searchterm>
+  </extension>
+ </mads>
+ 

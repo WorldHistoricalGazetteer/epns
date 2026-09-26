@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000113">
+  <authority ID="epns-deep-04-a-name-parish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002860">Alderminster</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000003" type="broader">
+   <geographic>Hundred Of Pershore</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00046b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6667600" lat="52.1371400" gazref="geonames:2657542" source="geonames"/>
+   <geo long="-1.656627745908734" lat="52.13389243398438" gazref="unlock:11058041" source="unlock"/>
+   <geo easting="423500" northing="248500" long="-1.65807" lat="52.1343" kepnref="5287" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000122">
+  <authority ID="epns-deep-16-b-name-subparish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005785">Kilmington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000130" type="broader">
+   <geographic>Kilmington</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w283971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005786">Chelmetone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w283991">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005787">Cilemetone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005788">Chilmatona</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005789">Culminton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005790">Culmyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005791">Culmynton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005792">Kulmeton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005793">Colemeton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w284192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005794">Kylmyngton al. Culmyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3269400" lat="51.1269400" gazref="geonames:2645591" source="geonames"/>
+   <geo long="-2.321560219936538" lat="51.12681160071153" gazref="unlock:11186287" source="unlock"/>
+   <geo easting="377500" northing="136500" long="-2.32289" lat="51.1273" kepnref="7506" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w283971">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w283991">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74" underspec="ib">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284007">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws100">ExonDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284031">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284031">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284059">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ws312">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284059">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284059">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284059">
+    <date subtype="simple" begin="1544" end="1544">1544</date>
+    <source style="" id="ws174">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284110">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284110">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284139">
+    <date subtype="regnal" begin="1216" end="1272">t. Hy 3</date>
+    <source style="italic" id="ws304">Stowe</source>
+    <page>798</page>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284169">
+    <date subtype="regnal" begin="1272" end="1307">t. Ed 1</date>
+    <source style="italic" id="ws111">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w284192">
+    <date subtype="simple" begin="1403" end="1403">1403</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w283971">Chelmetone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w283991">Cilemetone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284007">Chilmatona</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284031">Culminton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284059">Culmyngton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284110">Culmynton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284139">Kulmeton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284169">Colemeton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284192">Kylmyngton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w284192">Culmyngton</searchterm>
+  </extension>
+ </mads>
+ 

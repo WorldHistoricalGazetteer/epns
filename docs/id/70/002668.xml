@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000021">
+  <authority ID="epns-deep-70-b-name-subparish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002668">Hinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000005" type="broader">
+   <geographic>Pontesbury</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w95102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002669">Henton</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w95119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002670">Hunton</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w95135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002671">Hynton</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w95188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/002672">Hinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a643b47fc4463d000f16"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.872527064" lat="52.66615191" source="epns"/>
+   <geo long="-2.880010974026132" lat="52.67059307486782" gazref="unlock:11175772" source="unlock"/>
+   <attestation variantID="epns-deep-70-b-name-w95102">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w95119">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w95135">
+    <attestation variantID="epns-deep-70-b-name-w95135">
+     <date subtype="simple" begin="1555" end="1555">1555</date>
+     <source style="italic" id="ss267">SBL</source>
+     <item>3653</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w95188">
+    <date end="1600" begin="1555">1555-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w95102">Henton</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w95119">Hunton</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w95135">Hynton</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w95188">Hinton</searchterm>
+  </extension>
+ </mads>
+ 

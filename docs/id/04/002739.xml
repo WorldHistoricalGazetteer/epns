@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000107">
+  <authority ID="epns-deep-04-a-name-parish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002739">Little Washbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0166700" lat="52.0000000" gazref="geonames:2644227" source="geonames"/>
+   <geo long="-2.00728388698984" lat="51.99951745158125" gazref="unlock:11197131" source="unlock"/>
+   <geo kepnexref="0017" long="-2.00868" lat="51.9999" source="kepn"/>
+  </extension>
+ </mads>
+ 

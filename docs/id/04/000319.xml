@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000006">
+  <authority ID="epns-deep-04-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000319">Astley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000006" type="broader">
+   <geographic>Astley</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w24214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000320">Æstlæh</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w24234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000321">Eslei</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w24249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000322">Estlege</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000546"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3166700" lat="52.3000000" gazref="geonames:2656878" source="geonames"/>
+   <geo long="-2.31535727061905" lat="52.30480805732635" gazref="unlock:11064965" source="unlock"/>
+   <geo easting="378500" northing="267500" long="-2.31673" lat="52.3052" kepnref="5184" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w24214">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w24234">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w24249">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w24214">Æstlæh</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w24234">Eslei</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w24249">Estlege</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000055">
+  <authority ID="epns-deep-13-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003017">Astley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000057" type="broader">
+   <geographic>Astley</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w154775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003018">Estleia</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154792">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003019">Estlega</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154863">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003020">Estle, Estley, Estlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003021">Estele</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003022">Hestele</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003023">Esteley</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w154949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003024">Astlege</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w155000">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003025">Astley(e), Astlegh, Astle</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w155029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003026">Asteleye</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w155061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003027">Ashley</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w155080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003028">Asley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287435b47fc40c5f00071c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5427600" lat="52.4994000" gazref="geonames:2656879" source="geonames"/>
+   <geo long="-1.535898328420194" lat="52.50212374061411" gazref="unlock:11064966" source="unlock"/>
+   <geo easting="431500" northing="289500" long="-1.53737" lat="52.5025" kepnref="4825" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w154775">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154792">
+    <attestation variantID="epns-deep-13-b-name-w154792">
+     <date end="1239" begin="1189" subtype="post">p. 1189</date>
+     <source style="" id="wa75">Dane</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-13-b-name-w154792">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="wa105">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154863">
+    <date end="1316" begin="1189">p. 1189-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154887">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <copydate end="1348" begin="1348">1348</copydate>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154915">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154931">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w154949">
+    <attestation variantID="epns-deep-13-b-name-w154949">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="wa107">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w155000">
+    <date end="1600" begin="1242">1242-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w155029">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="wa5">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w155029">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wa138">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w155061">
+    <date end="1621" begin="1621" subtype="simple">1621</date>
+    <source style="" id="wa221">PCC</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w155080">
+    <date end="1627" begin="1627" subtype="simple">1627</date>
+    <source style="" id="wa272">Sess</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w154775">Estleia</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154792">Estlega</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154863">Estle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154863">Estley</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154863">Estlegh</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154887">Estele</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154915">Hestele</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154931">Esteley</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w154949">Astlege</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155000">Astleye</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155000">Astley</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155000">Astlegh</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155000">Astle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155029">Asteleye</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155061">Ashley</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w155080">Asley</searchterm>
+  </extension>
+ </mads>
+ 

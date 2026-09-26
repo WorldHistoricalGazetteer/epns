@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000001">
+  <authority ID="epns-deep-32-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000034">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-a-parish-000001" type="broader">
+   <geographic>Dewsbury</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w5144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000035">Clifton(e), Clyfton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w5257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000036">Clifton juxta Hertesheved</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w5295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000037">Clifton super Calder, Clifton (up)on Calder, Clifton (up)on Caldyr</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w5395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000038">Clifton on Kelder</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.757608348" lat="53.70296093" source="epns"/>
+   <geo long="-1.765207961872048" lat="53.69848275296508" gazref="unlock:11109237" source="unlock"/>
+   <geo easting="415500" northing="422500" long="-1.7667" lat="53.6987" kepnref="14529" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <date end="1225" begin="1200" subtype="simple">e. 13</date>
+    <source style="" id="wr18">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>xii</item>
+    <page>230</page>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5144">
+    <attestation variantID="epns-deep-32-b-name-w5144">
+     <date end="1297" begin="1297" subtype="simple">1297</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-32-b-name-w5144">
+     <date end="1624" begin="1624" subtype="simple">1624</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5257">
+    <date end="1329" begin="1329" subtype="simple">1329</date>
+    <source style="" id="wr18">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5295">
+    <date end="1408" begin="1408" subtype="simple">1408</date>
+    <source style="" id="wr18">Arm</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5295">
+    <date end="1526" begin="1526" subtype="simple">1526</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5295">
+    <date end="1581" begin="1581" subtype="simple">1581</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w5395">
+    <date end="1608" begin="1608" subtype="simple">1608</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w5144">Cliftone</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5144">Clifton</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5144">Clyftone</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5144">Clyfton</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5257">Clifton juxta Hertesheved</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5295">Clifton super Calder</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5295">Clifton upon Calder</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5295">Clifton on Calder</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5295">Clifton upon Caldyr</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5295">Clifton on Caldyr</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w5395">Clifton on Kelder</searchterm>
+  </extension>
+ </mads>
+ 

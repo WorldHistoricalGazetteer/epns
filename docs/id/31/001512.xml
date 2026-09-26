@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-a-parish-000005">
+  <authority ID="epns-deep-31-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/001512">Owston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-wp-subcounty-000001" type="broader">
+   <geographic>Osgoldcross Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fe4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1521800" lat="53.5938100" gazref="geonames:7291240" source="geonames"/>
+   <geo long="-1.1689465" lat="53.59244943" source="epns"/>
+   <geo easting="455500" northing="411500" long="-1.16286" lat="53.5971" kepnref="14412" source="kepn"/>
+  </extension>
+ </mads>
+ 

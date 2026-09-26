@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-a-parish-000006">
+  <authority ID="epns-deep-33-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/001856">Wistow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-wp-subcounty-000001" type="broader">
+   <geographic>Barkston Ash Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81006027"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1000000" lat="53.8166700" gazref="geonames:2633754" source="geonames"/>
+   <geo long="-1.119128966" lat="53.80784051" source="epns"/>
+   <geo long="-1.096253962659975" lat="53.81216630207218" gazref="unlock:11324504" source="unlock"/>
+   <geo easting="459500" northing="435500" long="-1.09783" lat="53.8124" kepnref="14605" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000089">
+  <authority ID="epns-deep-99-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001742">Tetworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000088" type="broader">
+   <geographic>Tetworth</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w368837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001743">Tethewurða</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w368860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001744">Tetteworth</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w368893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001745">Tetteswrthe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003bc"/>
+  </recordInfo>
+  <extension>
+   <geo easting="521500" northing="253500" long="-0.224957" lat="52.1664" kepnref="4215" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w368837">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w368860">
+    <attestation variantID="epns-deep-99-b-name-w368860">
+     <date subtype="simple" begin="1209" end="1209">1209</date>
+     <source style="italic" id="bh70">For</source>
+    </attestation>
+    <passim>et passim)</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w368893">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <copydate end="1360" begin="1340">c. 1350</copydate>
+    <source style="" id="bh163">Rams</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w368893">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="" id="bh161">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w368837">Tethewurða</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w368860">Tetteworth</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w368893">Tetteswrthe</searchterm>
+  </extension>
+ </mads>
+ 

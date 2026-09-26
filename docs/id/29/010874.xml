@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000100">
+  <authority ID="epns-deep-29-b-name-subparish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010874">Ravenstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000092" type="broader">
+   <geographic>Ravenstone</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w328431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010875">Ravenestorp</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w328452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010876">Ravenestun</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w328472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010877">Rauen(e)ston(e), Raveneston(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018ec"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4058200" lat="52.7211100" gazref="geonames:2639596" source="geonames"/>
+   <geo long="-1.400364678996318" lat="52.7172971926862" gazref="unlock:11253035" source="unlock"/>
+   <geo kepnexref="280" long="-1.40186" lat="52.7176" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w328431">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328452">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328472">
+    <date subtype="circa" begin="1115" end="1135">c. 1125</date>
+    <source style="" id="db292">LeiSur</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328472">
+    <date subtype="simple" begin="1189" end="1189">1189</date>
+    <source style="" id="db2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328472">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328472">
+    <date subtype="simple" begin="1290" end="1290">1290</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w328472">
+    <attestation variantID="epns-deep-29-b-name-w328472">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="db544">Tax</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w328431">Ravenestorp</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328452">Ravenestun</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Rauenestone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Raueneston</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Rauenstone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Rauenston</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Ravenestone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w328472">Raveneston</searchterm>
+  </extension>
+ </mads>
+ 

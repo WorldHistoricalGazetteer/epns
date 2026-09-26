@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000058">
+  <authority ID="epns-deep-86-a-name-parish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/013723">Broadwindsor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000006" type="broader">
+   <geographic>Beaminster Hundred and Beaminster Forum &amp; Redhone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029a2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8000900" lat="50.8201400" gazref="geonames:2654623" source="geonames"/>
+   <geo long="-2.797909359" lat="50.8196515" source="epns"/>
+   <geo long="-2.802153036531035" lat="50.81872352388937" gazref="unlock:11088210" source="unlock"/>
+   <geo easting="343500" northing="102500" long="-2.80342" lat="50.8193" kepnref="11436" source="kepn"/>
+  </extension>
+ </mads>
+ 

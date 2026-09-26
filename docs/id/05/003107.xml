@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000241">
+  <authority ID="epns-deep-05-b-name-subparish-000241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003107">Appleton Wiske</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000094" type="broader">
+   <geographic>Appleton Wiske</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w232602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003108">Ap(p)elton(a), Apletune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000403"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3954300" lat="54.4451000" gazref="geonames:7291828" source="geonames"/>
+   <geo long="-1.390984472174763" lat="54.43424411376509" gazref="unlock:11062947" source="unlock"/>
+   <geo easting="439500" northing="504500" long="-1.39255" lat="54.4344" kepnref="5893" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w232602">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w232602">Appeltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232602">Appelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232602">Apeltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232602">Apelton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232602">Apletune</searchterm>
+  </extension>
+ </mads>
+ 

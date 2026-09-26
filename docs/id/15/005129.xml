@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000072">
+  <authority ID="epns-deep-15-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005129">Weston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000083" type="broader">
+   <geographic>Weston</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w259705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005130">Westone</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w259722">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005131">Weston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w259760">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005132">Weston by Baudak</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w259789">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005133">Weston Argentine</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007de"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1703500" lat="51.9547100" gazref="geonames:2634327" source="geonames"/>
+   <geo easting="526500" northing="230500" long="-0.160405" lat="51.9586" kepnref="4646" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w259705">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w259722">
+    <attestation variantID="epns-deep-15-b-name-w259722">
+     <date subtype="simple" begin="1138" end="1148">1138-48</date>
+     <source style="" id="he317">Templars</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w259760">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="he146">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w259789">
+    <date subtype="simple" begin="1579" end="1587">1579-87</date>
+    <source style="" id="he92">ECP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w259705">Westone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w259722">Westone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w259722">Weston</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w259760">Weston by Baudak</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w259789">Weston Argentine</searchterm>
+  </extension>
+ </mads>
+ 

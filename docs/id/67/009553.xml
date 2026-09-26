@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000041">
+  <authority ID="epns-deep-67-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009553">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000041" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w502972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009554">Prestetona</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w502991">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009555">Preston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w503107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009556">Preston(e) on the Hulle</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w503143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009557">Prestun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d000411"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7143700" lat="52.6126400" gazref="geonames:2639914" source="geonames"/>
+   <geo long="-0.7075535970732532" lat="52.61286479395087" gazref="unlock:11249847" source="unlock"/>
+   <geo easting="487500" northing="302500" long="-0.709125" lat="52.6132" kepnref="3006" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w502972">
+    <date subtype="simple" begin="1130" end="1130">1130</date>
+    <source style="" id="rd264">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w502991">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="rd267">PatR</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w502991">
+    <date subtype="simple" begin="1217" end="1217">1217</date>
+    <source style="" id="rd63">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w502991">
+    <attestation variantID="epns-deep-67-b-name-w502991">
+     <date subtype="simple" begin="1222" end="1222">1222</date>
+     <source style="italic" id="rd208">MiD</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w502991">
+     <date subtype="simple" begin="1260" end="1260">1260</date>
+     <source style="italic" id="rd314">Rut</source>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w502991">
+    <date subtype="simple" begin="1263" end="1263">1263</date>
+    <source style="italic" id="rd19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w502991">
+    <attestation variantID="epns-deep-67-b-name-w502991">
+     <date subtype="simple" begin="1270" end="1270">1270</date>
+     <source style="italic" id="rd314">Rut</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-67-b-name-w502991">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="rd334">Speed</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w503107">
+    <date subtype="simple" begin="1397" end="1397">1397</date>
+    <source style="" id="rd266">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w503143">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="rd139">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w502972">Prestetona</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w502991">Prestone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w502991">Preston</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w503107">Prestone on the Hulle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w503107">Preston on the Hulle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w503143">Prestun</searchterm>
+  </extension>
+ </mads>
+ 

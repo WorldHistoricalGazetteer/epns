@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-hu-subcounty-000005">
+  <authority ID="epns-deep-09-hu-name-subcounty-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003162">West Budleigh Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-09-hu-name-w145089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003163">hundred of Westbuddelegh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018bb"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-09-hu-name-w145089">
+    <date subtype="simple" begin="1333" end="1333">1333</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-hu-name-w145089">hundred of Westbuddelegh</searchterm>
+  </extension>
+ </mads>
+ 

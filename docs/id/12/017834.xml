@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000392">
+  <authority ID="epns-deep-12-a-name-parish-000392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017834">Good Easter</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000017" type="broader">
+   <geographic>Dunmow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c22"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3550000" lat="51.7852600" gazref="geonames:2648335" source="geonames"/>
+   <geo long="0.3562819273065528" lat="51.78707445928122" gazref="unlock:11156246" source="unlock"/>
+   <geo easting="562500" northing="212500" long="0.354622" lat="51.7876" kepnref="12549" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000185">
+  <authority ID="epns-deep-16-a-name-parish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007787">Great Wishford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hudb-belowsubcounty-000005" type="broader">
+   <geographic>Branch Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c6f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8884200" lat="51.1189800" gazref="geonames:2647991" source="geonames"/>
+   <geo long="-1.892833266262975" lat="51.11821146897529" gazref="unlock:11159379" source="unlock"/>
+   <geo easting="408500" northing="135500" long="-1.87992" lat="51.1187" kepnref="7336" source="kepn"/>
+  </extension>
+ </mads>
+ 

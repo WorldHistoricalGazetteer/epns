@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000102">
+  <authority ID="epns-deep-14-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002372">Langtoft</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000053" type="broader">
+   <geographic>Langtoft</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w149857">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002373">Lang(h)etou</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002374">Langetoft</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002375">Langtoft(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149988">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002376">Langtoft(e) on the Woold</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004f9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4571100" lat="54.0898300" gazref="geonames:7293464" source="geonames"/>
+   <geo long="-0.4482103389314925" lat="54.0842160283257" gazref="unlock:11191748" source="unlock"/>
+   <geo easting="500500" northing="466500" long="-0.465158" lat="54.0846" kepnref="8484" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w149857">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149878">
+    <attestation variantID="epns-deep-14-b-name-w149878">
+     <date end="1170" begin="1164" subtype="simple">1164-70</date>
+     <source style="italic" id="ey301">RegAlb</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w149878">
+     <date end="1386" begin="1386" subtype="simple">1386</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149929">
+    <date end="1400" begin="1300" subtype="century">14th</date>
+    <source style="italic" id="ey316">Sawley</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149929">
+    <attestation variantID="epns-deep-14-b-name-w149929">
+     <date end="1343" begin="1343" subtype="simple">1343</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w149929">
+     <date end="1521" begin="1521" subtype="simple">1521</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149988">
+    <date end="1584" begin="1584" subtype="simple">1584</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w149857">Langhetou</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149857">Langetou</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149878">Langetoft</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149929">Langtofte</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149929">Langtoft</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149988">Langtofte on the Woold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149988">Langtoft on the Woold</searchterm>
+  </extension>
+ </mads>
+ 

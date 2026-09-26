@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000012">
+  <authority ID="epns-deep-05-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000106">Strensall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000006" type="broader">
+   <geographic>Strensall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w7065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000107">Strenshale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w7085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000108">Strensale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w7131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000109">Strenehal'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w7150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000110">Streneshal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w7209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000111">Strenesale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w7264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000112">Strensall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005c1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0351200" lat="54.0399900" gazref="geonames:2636667" source="geonames"/>
+   <geo long="-1.030313303725088" lat="54.03638182503946" gazref="unlock:11294362" source="unlock"/>
+   <geo easting="463500" northing="460500" long="-1.03191" lat="54.0366" kepnref="5663" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w7065">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7085">
+    <attestation variantID="epns-deep-05-b-name-w7085">
+     <date subtype="simple" begin="1127" end="1128">1127-8</date>
+     <source style="" id="ny236">YCh</source>
+     <page>785</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w7085">
+     <date subtype="simple" begin="1319" end="1319">1319</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7131">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7150">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7150">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ny11">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7150">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7150">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7209">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7209">
+    <date subtype="simple" begin="1299" end="1299">1299</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7209">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <source style="italic" id="ny53">Ebor</source>
+    <page>196 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7264">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w7264">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w7065">Strenshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7085">Strensale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7131">Strenehal'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7150">Streneshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7150">Streneshal</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7209">Strenesale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w7264">Strensall</searchterm>
+  </extension>
+ </mads>
+ 

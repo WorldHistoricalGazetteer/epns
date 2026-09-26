@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000102">
+  <authority ID="epns-deep-04-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002659">Tredington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000104" type="broader">
+   <geographic>Tredington</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w224946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002660">Tredin(c)gtun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w225002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002661">Tyrdintun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w225033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002662">Tredinctun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w225073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002663">Tredintun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w225126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002664">Tredinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b000603"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6496100" lat="52.0919700" gazref="geonames:7301508" source="geonames"/>
+   <geo long="-1.627779785770568" lat="52.08884682111032" gazref="unlock:11304496" source="unlock"/>
+   <geo easting="425500" northing="243500" long="-1.62922" lat="52.0893" kepnref="5277" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w224946">
+    <date end="757" begin="757" subtype="simple">757</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>183</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w224946">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="wo12">BCS</source>
+    <item>1320</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225002">
+    <date end="964" begin="964" subtype="simple">964</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1135</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225033">
+    <date end="978" begin="978" subtype="simple">978</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>620</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225033">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225073">
+    <date end="991" begin="991" subtype="simple">991</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>676</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225073">
+    <date end="1212" begin="1203" subtype="simple">1203-12</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225126">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225126">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wo56">Fees</source>
+    <item>38</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w225126">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w224946">Tredincgtun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w224946">Tredingtun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w225002">Tyrdintun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w225033">Tredinctun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w225073">Tredintun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w225126">Tredinton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000076">
+  <authority ID="epns-deep-45-b-name-subparish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010668">Weston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000013" type="broader">
+   <geographic>Runcorn</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w466242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010669">Westone</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010670">Westona</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466299">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010671">Weston</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010672">Weston iuxta Haghton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010673">Weston iuxta Frodesam</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010674">Weston iuxta Runkore</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010675">Westan</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w466451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010676">Windy Weston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600203f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7333300" lat="53.3166700" gazref="geonames:2634320" source="geonames"/>
+   <geo long="-2.750581189" lat="53.31429886" source="epns"/>
+   <geo easting="350500" northing="380500" long="-2.74451" lat="53.3191" kepnref="11832" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w466242">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466259">
+    <date subtype="simple" begin="1154" end="1160">1154-60</date>
+    <copydate end="1329" begin="1329">1329</copydate>
+    <source style="" id="ch93">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466259">
+    <date subtype="simple" begin="1170" end="1170">1170</date>
+    <source style="" id="ch228">Facs</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466299">
+    <attestation variantID="epns-deep-45-b-name-w466299">
+     <date subtype="simple" begin="1260" end="1260">1260</date>
+     <source style="" id="ch138">Court</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466328">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466363">
+    <date subtype="simple" begin="1324" end="1324">1324</date>
+    <source style="italic" id="ch180">Dow</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466395">
+    <date subtype="simple" begin="1353" end="1353">1353</date>
+    <source style="" id="ch61">BPR</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466426">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="ch138">Court</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w466451">
+    <date subtype="simple" begin="1678" end="1678">1678</date>
+    <date subtype="simple" begin="1709" end="1709">1709</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w466242">Westone</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466259">Westona</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466299">Weston</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466328">Weston iuxta Haghton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466363">Weston iuxta Frodesam</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466395">Weston iuxta Runkore</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466426">Westan</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w466451">Windy Weston</searchterm>
+  </extension>
+ </mads>
+ 

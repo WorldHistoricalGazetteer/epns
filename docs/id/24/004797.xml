@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000059">
+  <authority ID="epns-deep-24-b-name-subparish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004797">Kelmscot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000054" type="broader">
+   <geographic>Kelmscot</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w180090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004798">Kelmescote</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w180131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004799">Kylmescote, Kelmecote</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w180163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004800">Kemscot</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w180184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004801">Kelmscott</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000814"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.631034081601303" lat="51.69321107492193" gazref="unlock:11184853" source="unlock"/>
+   <geo easting="425500" northing="199500" long="-1.63246" lat="51.6937" kepnref="3689" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w180090">
+    <attestation variantID="epns-deep-24-b-name-w180090">
+     <date subtype="simple" begin="1234" end="1234">1234</date>
+     <source style="" id="ox77">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w180090">
+     <date subtype="simple" begin="1340" end="1340">1340</date>
+     <source style="" id="ox42">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w180131">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w180163">
+    <date subtype="simple" begin="1675" end="1675">1675</date>
+    <source style="" id="ox150">Ogilby</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w180184">
+    <date subtype="simple" begin="1761" end="1761">1761</date>
+    <source style="" id="ox210">Rocque</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w180090">Kelmescote</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w180131">Kylmescote</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w180131">Kelmecote</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w180163">Kemscot</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w180184">Kelmscott</searchterm>
+  </extension>
+ </mads>
+ 

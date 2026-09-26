@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000166">
+  <authority ID="epns-deep-14-b-name-subparish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003644">Menethorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000095" type="broader">
+   <geographic>Westow</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w235409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003645">Mennistorp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003646">Menigt(h)orp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003647">Meningt(h)orp, Menyngt(h)orp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003648">Menytrop</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003649">Menythorp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235578">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003650">Meynthorp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w235597">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003651">Meincethorp</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000575"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8300693527264696" lat="54.09752463370928" gazref="unlock:11217118" source="unlock"/>
+   <geo easting="476500" northing="467500" long="-0.83169" lat="54.0977" kepnref="8544" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w235409">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235429">
+    <date end="1225" begin="1200" subtype="simple">early 13th</date>
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="ey191">Malton</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235467">
+    <attestation variantID="epns-deep-14-b-name-w235467">
+     <date end="1219" begin="1219" subtype="simple">1219</date>
+     <source style="italic" id="ey17">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w235467">
+     <date end="1348" begin="1348" subtype="simple">1348</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235527">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="" id="ey265">Pat</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235550">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey186">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235550">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="ey159">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235578">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="ey160">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w235597">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w235409">Mennistorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235429">Menigthorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235429">Menigtorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235467">Meningthorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235467">Meningtorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235467">Menyngthorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235467">Menyngtorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235527">Menytrop</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235550">Menythorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235578">Meynthorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w235597">Meincethorp</searchterm>
+  </extension>
+ </mads>
+ 

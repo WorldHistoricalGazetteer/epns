@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000130">
+  <authority ID="epns-deep-08-b-name-subparish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007056">Virginstow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000130" type="broader">
+   <geographic>Virginstow</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w362280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007057">Virginestowe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w362305">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007058">Virgenestowe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w362344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007059">Virgenystouwe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w362367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007060">Virstawe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a5d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2981400" lat="50.7107200" gazref="geonames:2634951" source="geonames"/>
+   <geo long="-4.301786015619988" lat="50.70881892807287" gazref="unlock:11311834" source="unlock"/>
+   <geo easting="237500" northing="92500" long="-4.30288" lat="50.7094" kepnref="15587" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w362280">
+    <date end="1183" begin="1174" subtype="simple">1174-83</date>
+    <source style="" id="de22">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w362305">
+    <date end="1280" begin="1278" subtype="simple">1278-80</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w362305">
+    <date end="1394" begin="1394" subtype="simple">1394</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w362344">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w362367">
+    <date end="1463" begin="1463" subtype="simple">1463</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w362280">Virginestowe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w362305">Virgenestowe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w362344">Virgenystouwe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w362367">Virstawe</searchterm>
+  </extension>
+ </mads>
+ 

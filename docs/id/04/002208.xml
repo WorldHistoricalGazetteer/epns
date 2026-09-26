@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000079">
+  <authority ID="epns-deep-04-b-name-subparish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002208">Knightwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000079" type="broader">
+   <geographic>Knightwick</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w191400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002209">Cnihtawic</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w191431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002210">Cnihtewican</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w191471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002211">Cnihtewic</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005ba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4034600" lat="52.1945100" gazref="geonames:7297515" source="geonames"/>
+   <geo long="-2.402384455496301" lat="52.19664667429976" gazref="unlock:11188779" source="unlock"/>
+   <geo easting="373500" northing="255500" long="-2.38911" lat="52.1971" kepnref="5256" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w191400">
+    <date end="964" begin="964" subtype="simple">964</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1135</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w191431">
+    <date end="1023" begin="1023" subtype="simple">1023</date>
+    <copydate end="1700" begin="1600">17th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>738</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w191471">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w191400">Cnihtawic</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w191431">Cnihtewican</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w191471">Cnihtewic</searchterm>
+  </extension>
+ </mads>
+ 

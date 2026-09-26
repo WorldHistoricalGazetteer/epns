@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000076">
+  <authority ID="epns-deep-35-b-name-subparish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/011143">Nappa</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000020" type="broader">
+   <geographic>Gisburn</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w414462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/011144">Napars</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w414478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/011145">Nappai, Nappay(e), Nappey</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w414564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/011146">Naphay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006120"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2153700" lat="53.9702900" gazref="geonames:7291825" source="geonames"/>
+   <geo long="-2.228706966" lat="53.97265709" source="epns"/>
+   <geo long="-2.221107324791567" lat="53.97716704541059" gazref="unlock:11226944" source="unlock"/>
+   <geo easting="385500" northing="452500" long="-2.22251" lat="53.9684" kepnref="14914" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w414462">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w414478">
+    <date subtype="simple" begin="1182" end="1185">1182-5</date>
+    <source style="" id="wr796">YCh</source>
+    <item>199</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w414478">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w414478">
+    <attestation variantID="epns-deep-35-b-name-w414478">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w414478">
+     <date subtype="simple" begin="1649" end="1649">1649</date>
+     <source style="italic" id="wr586">Raist</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w414564">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w414462">Napars</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w414478">Nappai</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w414478">Nappaye</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w414478">Nappay</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w414478">Nappey</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w414564">Naphay</searchterm>
+  </extension>
+ </mads>
+ 

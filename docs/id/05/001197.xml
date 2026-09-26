@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000123">
+  <authority ID="epns-deep-05-b-name-subparish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001197">Marton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000046" type="broader">
+   <geographic>Sinnington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w101510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001198">Martun, Martone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001199">Marton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001200">Marton' on Syuen</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8706800" lat="54.2420400" gazref="geonames:7292090" source="geonames"/>
+   <geo long="-0.8720337798521069" lat="54.24174940224395" gazref="unlock:11214403" source="unlock"/>
+   <geo easting="473500" northing="483500" long="-0.873656" lat="54.2419" kepnref="5774" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w101510">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101535">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101535">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101564">
+    <attestation variantID="epns-deep-05-b-name-w101564">
+     <date subtype="simple" begin="1290" end="1290">1290</date>
+     <source style="" id="ny13">Baildon</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w101510">Martun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101510">Martone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101535">Marton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101564">Marton' on Syuen</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000280">
+  <authority ID="epns-deep-10-a-name-parish-000280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006134">Benefield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000018" type="broader">
+   <geographic>Polebrook Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5556600" lat="52.4857300" gazref="geonames:7296710" source="geonames"/>
+   <geo long="-0.5492843194693563" lat="52.4851488536438" gazref="unlock:11207817" source="unlock"/>
+   <geo easting="498500" northing="288500" long="-0.550869" lat="52.4855" kepnref="11152" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000050">
+  <authority ID="epns-deep-14-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001256">Garton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000027" type="broader">
+   <geographic>Garton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w81649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001257">Gartun, Garton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w81673">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001258">Garton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w81763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001259">Gartun in Holdernesse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004aa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0829100" lat="53.8003500" gazref="geonames:2648807" source="geonames"/>
+   <geo long="-0.07905351444166042" lat="53.80018619758771" gazref="unlock:11150812" source="unlock"/>
+   <geo easting="526500" northing="435500" long="-0.0807517" lat="53.8004" kepnref="8432" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w81649">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w81673">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="ey367">YCh</source>
+    <page>1312</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w81673">
+    <date end="1221" begin="1216" subtype="simple">1216-21</date>
+    <source style="italic" id="ey301">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w81673">
+    <date end="1272" begin="1216" subtype="regnal">t. Hy 3</date>
+    <source style="" id="ey39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w81673">
+    <attestation variantID="epns-deep-14-b-name-w81673">
+     <date end="1240" begin="1240" subtype="simple">1240</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w81673">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w81763">
+    <date end="1306" begin="1306" subtype="simple">1306</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w81649">Gartun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w81649">Garton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w81673">Gartona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w81673">Garton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w81763">Gartun in Holdernesse</searchterm>
+  </extension>
+ </mads>
+ 

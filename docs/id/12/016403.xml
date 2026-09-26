@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000267">
+  <authority ID="epns-deep-12-b-name-subparish-000267">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016403">Northwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000360" type="broader">
+   <geographic>Northwood</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w812757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016404">Nort(h)wode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e66"/>
+  </recordInfo>
+  <extension>
+   <geo easting="579500" northing="239500" long="0.614887" lat="52.0249" kepnref="12521" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w812757">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812757">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="ex100">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812757">
+    <date subtype="simple" begin="1357" end="1357">1357</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w812757">Northwode</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812757">Nortwode</searchterm>
+  </extension>
+ </mads>
+ 

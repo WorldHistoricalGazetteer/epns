@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000028">
+  <authority ID="epns-deep-82-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003101">Lee</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000003" type="broader">
+   <geographic>Ellesmere</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w127929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003102">Lega</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w127976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003103">Leye</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w127995">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003104">Legh'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w128013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003105">Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w128054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/003106">Leigh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a638b47fc4463d000ecc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.885859524" lat="52.88632869" source="epns"/>
+   <geo long="-2.884373637576813" lat="52.8863408220769" gazref="unlock:11193478" source="unlock"/>
+   <geo kepnexref="01201" long="-2.885859524" lat="52.88632869" source="kepn"/>
+   <attestation variantID="epns-deep-82-b-name-w127929">
+    <date subtype="circa" begin="1080" end="1100">c.1090</date>
+    <date subtype="simple" begin="1138" end="1138">1138</date>
+    <date subtype="circa" begin="1140" end="1160">c.1150</date>
+    <date subtype="circa" begin="1225" end="1245">c.1235</date>
+    <date subtype="simple" begin="1375" end="1400">l.14th</date>
+    <source style="" id="ss262">SAC</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w127976">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="ss286">Strange</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w127995">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w128013">
+    <date subtype="circa" begin="1290" end="1310">c.1300</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>3586</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w128013">
+    <attestation variantID="epns-deep-82-b-name-w128013">
+     <date subtype="simple" begin="1577" end="1577">1577</date>
+     <source style="" id="ss266">Saxton</source>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w128054">
+    <date subtype="simple" begin="1654" end="1654">1654</date>
+    <source style="" id="ss229">PR(StA)</source>
+    <page>4</page>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w127929">Lega</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w127976">Leye</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w127995">Legh'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w128013">Lee</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w128054">Leigh</searchterm>
+  </extension>
+ </mads>
+ 

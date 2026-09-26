@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000087">
+  <authority ID="epns-deep-10-a-name-parish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002034">Althorp</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000006" type="broader">
+   <geographic>Nobottle Grove Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0009500" lat="52.2810700" gazref="geonames:7296694" source="geonames"/>
+   <geo long="-0.9957393224095488" lat="52.28297645194882" gazref="unlock:11061428" source="unlock"/>
+   <geo easting="468500" northing="265500" long="-0.997263" lat="52.2834" kepnref="10957" source="kepn"/>
+  </extension>
+ </mads>
+ 

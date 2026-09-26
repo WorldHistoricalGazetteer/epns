@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000018">
+  <authority ID="epns-deep-81-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/008549">Hungarton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9835800" lat="52.6549800" gazref="geonames:7295423" source="geonames"/>
+   <geo long="-0.9723229770334552" lat="52.66041356676573" gazref="unlock:11181113" source="unlock"/>
+   <geo easting="469500" northing="307500" long="-0.973865" lat="52.6608" kepnref="8818" source="kepn"/>
+  </extension>
+ </mads>
+ 

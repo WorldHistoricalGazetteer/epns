@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000024">
+  <authority ID="epns-deep-21-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001648">Holme East Waver</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000024" type="broader">
+   <geographic>Holme East Waver</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w66121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001649">East wauer quarter</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w66151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001650">manner de East Wauer</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w66184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001651">Eastwauer</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w66203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001652">Eastern Waver</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000fee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2743700" lat="54.8789000" gazref="geonames:7300110" source="geonames"/>
+   <geo easting="319500" northing="553500" long="-3.25588" lat="54.8698" kepnref="4481" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w66121">
+    <date end="1605" begin="1605" subtype="simple">1605</date>
+    <source style="italic" id="cu205">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w66151">
+    <date end="1665" begin="1665" subtype="simple">1665</date>
+    <source style="italic" id="cu205" underspec="ib">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w66184">
+    <date end="1691" begin="1691" subtype="simple">1691</date>
+    <source style="italic" id="cu72">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w66203">
+    <date end="1700" begin="1700" subtype="simple">1700</date>
+    <source style="" id="cu74">CW</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w66121">East wauer quarter</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w66151">manner de East Wauer</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w66184">Eastwauer</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w66203">Eastern Waver</searchterm>
+  </extension>
+ </mads>
+ 

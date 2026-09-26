@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000185">
+  <authority ID="epns-deep-02-b-name-subparish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004068">Burnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000186" type="broader">
+   <geographic>Burnham</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w289754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004069">Burneham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w289780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004070">Burnham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w289802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004071">Bournham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000334"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6657900" lat="51.5353400" gazref="geonames:2654274" source="geonames"/>
+   <geo long="-0.6662628428164531" lat="51.53333999013439" gazref="unlock:11093342" source="unlock"/>
+   <geo easting="492500" northing="182500" long="-0.667795" lat="51.5338" kepnref="11381" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w289754">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w289754">
+    <date end="1164" begin="1164" subtype="simple">1164</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w289780">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w289802">
+    <date end="1405" begin="1405" subtype="simple">1405</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w289802">
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w289754">Burneham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w289780">Burnham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w289802">Bournham</searchterm>
+  </extension>
+ </mads>
+ 

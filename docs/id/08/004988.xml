@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000098">
+  <authority ID="epns-deep-08-b-name-subparish-000098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004988">Northcott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000098" type="broader">
+   <geographic>Northcott</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w253465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004989">Northcote</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w253489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004990">Northcote juxta Boyton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w253522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004991">Northecote juxta Loghincote</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.3483100" lat="50.7090400" gazref="geonames:7293359" source="geonames"/>
+   <geo long="-4.358394782959111" lat="50.70768696265318" gazref="unlock:11233347" source="unlock"/>
+   <geo easting="233500" northing="92500" long="-4.35948" lat="50.7082" kepnref="15555" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w253465">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w253489">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w253522">
+    <date end="1378" begin="1378" subtype="simple">1378</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w253465">Northcote</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w253489">Northcote juxta Boyton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w253522">Northecote juxta Loghincote</searchterm>
+  </extension>
+ </mads>
+ 

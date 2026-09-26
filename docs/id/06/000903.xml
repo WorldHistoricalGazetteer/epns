@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000032">
+  <authority ID="epns-deep-06-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000903">Westbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000032" type="broader">
+   <geographic>Westbourne</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w78992">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000904">Borne, Burne</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w79014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000905">Burna</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w79039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000906">Westbo(u)rne</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w79064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000907">Bourne al. Westbourne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000dad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9255100" lat="50.8618800" gazref="geonames:2634497" source="geonames"/>
+   <geo long="-0.9271098874675076" lat="50.86151723842767" gazref="unlock:11317929" source="unlock"/>
+   <geo easting="475500" northing="107500" long="-0.928587" lat="50.8621" kepnref="6893" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w78992">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w79014">
+    <date subtype="regnal" begin="1100" end="1135">t. Hy 1</date>
+    <copydate end="1317" begin="1317">1317</copydate>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w79039">
+    <date subtype="simple" begin="1302" end="1307">1302-7</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w79064">
+    <date subtype="simple" begin="1646" end="1646">1646</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w78992">Borne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w78992">Burne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w79014">Burna</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w79039">Westbourne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w79039">Westborne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w79064">Bourne</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w79064">Westbourne</searchterm>
+  </extension>
+ </mads>
+ 

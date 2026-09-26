@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000142">
+  <authority ID="epns-deep-09-a-name-parish-000142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007174">Paignton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000009" type="broader">
+   <geographic>Haytor Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001808"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5678900" lat="50.4356500" gazref="geonames:2640681" source="geonames"/>
+   <geo long="-3.556066547883311" lat="50.43333441928763" gazref="unlock:11238625" source="unlock"/>
+   <geo kepnexref="0081" long="-3.557" lat="50.434" source="kepn"/>
+  </extension>
+ </mads>
+ 

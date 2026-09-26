@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000305">
+  <authority ID="epns-deep-12-a-name-parish-000305">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/013931">Copford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000015" type="broader">
+   <geographic>Lexden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000bef"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.8006300" lat="51.8809400" gazref="geonames:2652403" source="geonames"/>
+   <geo long="0.7968914206766206" lat="51.87635225402863" gazref="unlock:11115766" source="unlock"/>
+   <geo easting="592500" northing="223500" long="0.795178" lat="51.8768" kepnref="12472" source="kepn"/>
+  </extension>
+ </mads>
+ 

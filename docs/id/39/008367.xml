@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000085">
+  <authority ID="epns-deep-39-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008367">Fretherne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000083" type="broader">
+   <geographic>Fretherne &amp; Saul</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w410402">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008368">Fridorne</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410420">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008369">Frythyngthorne</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410445">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008370">Frohorn</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008371">Freorne</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008372">Frethorn(e), Freþorne</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008373">Frethethorn'</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008374">Frethern(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w410649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008375">Frethren</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b06"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.391406431" lat="51.77856357" source="epns"/>
+   <geo long="-2.384196637269694" lat="51.78308416512095" gazref="unlock:11148103" source="unlock"/>
+   <geo easting="373500" northing="209500" long="-2.38554" lat="51.7835" kepnref="6410" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w410402">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410420">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410445">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="go430">RBE</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410473">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="go388">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410493">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410493">
+    <date subtype="simple" begin="1245" end="1245">1245</date>
+    <source style="" id="go225">Glouc</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410493">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410493">
+    <attestation variantID="epns-deep-39-b-name-w410493">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="go504">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-39-b-name-w410493">
+     <date subtype="simple" begin="1535" end="1535">1535</date>
+     <source style="" id="go522">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410587">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410610">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="go550">Works</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410610">
+    <date subtype="simple" begin="1653" end="1653">1653</date>
+    <source style="italic" id="go394">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w410649">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w410402">Fridorne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410420">Frythyngthorne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410445">Frohorn</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410473">Freorne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410493">Frethorne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410493">Frethorn</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410493">Freþorne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410587">Frethethorn'</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410610">Fretherne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410610">Frethern</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w410649">Frethren</searchterm>
+  </extension>
+ </mads>
+ 

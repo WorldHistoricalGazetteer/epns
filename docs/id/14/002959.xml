@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000130">
+  <authority ID="epns-deep-14-b-name-subparish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002959">Yedingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000073" type="broader">
+   <geographic>Yedingham</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w193635">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002960">Edingham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w193704">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002961">Yedingeham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w193730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002962">Yedingham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000589"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6166700" lat="54.2000000" gazref="geonames:2633390" source="geonames"/>
+   <geo long="-0.6277537114552727" lat="54.20325894276908" gazref="unlock:11328467" source="unlock"/>
+   <geo easting="489500" northing="479500" long="-0.629404" lat="54.2034" kepnref="8512" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w193635">
+    <date end="1175" begin="1170" subtype="simple">1170-5</date>
+    <date end="1195" begin="1180" subtype="simple">1180-95</date>
+    <source style="" id="ey367">YCh</source>
+    <item>390</item>
+    <page>395</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193635">
+    <date end="1218" begin="1218" subtype="simple">1218</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193635">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193635">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193704">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193730">
+    <date end="1195" begin="1185" subtype="simple">1185-95</date>
+    <source style="" id="ey367">YCh</source>
+    <item>391-2</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193730">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w193730">
+    <attestation variantID="epns-deep-14-b-name-w193730">
+     <date end="1303" begin="1303" subtype="simple">1303</date>
+     <source style="" id="ey159">KF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w193635">Edingham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w193704">Yedingeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w193730">Yedingham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000317">
+  <authority ID="epns-deep-14-b-name-subparish-000317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006960">Menthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000165" type="broader">
+   <geographic>Hemingbrough</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w451552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006961">Menethorp</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w451595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006962">Menthorp(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004be"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9333300" lat="53.8000000" gazref="geonames:2642741" source="geonames"/>
+   <geo long="-0.9294335089046687" lat="53.80180383956519" gazref="unlock:11217145" source="unlock"/>
+   <geo easting="470500" northing="434500" long="-0.931029" lat="53.802" kepnref="8690" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w451552">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey322">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w451552">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w451595">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="ey306">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w451595">
+    <attestation variantID="epns-deep-14-b-name-w451595">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w451595">
+     <date end="1529" begin="1529" subtype="simple">1529</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w451552">Menethorp</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w451595">Menthorpe</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w451595">Menthorp</searchterm>
+  </extension>
+ </mads>
+ 

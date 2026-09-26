@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000193">
+  <authority ID="epns-deep-09-b-name-subparish-000193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010006">Clyst St Mary</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000193" type="broader">
+   <geographic>Clyst St Mary</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w449641">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010007">Clist(e) Sancte Marie</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w449701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010008">Seynt Mary Clyst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001929"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.451994318601428" lat="50.71350913044532" gazref="unlock:11110063" source="unlock"/>
+   <geo easting="297500" northing="90500" long="-3.4529" lat="50.7051" kepnref="15864" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w449641">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>763</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w449641">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w449641">
+    <date end="1344" begin="1344" subtype="simple">1344</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w449701">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w449641">Cliste Sancte Marie</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w449641">Clist Sancte Marie</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w449701">Seynt Mary Clyst</searchterm>
+  </extension>
+ </mads>
+ 

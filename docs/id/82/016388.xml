@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000029">
+  <authority ID="epns-deep-82-a-name-parish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016388">Sutton Upon Tern</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000002" type="broader">
+   <geographic>Bradford North Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w631720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016389">Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w631737">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016390">Sutton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w631757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016391">Sutton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w631774">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016392">Sutton juxta Drayton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w631812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016393">Sutton by Drayton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w631845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016394">Sutton in Drayton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a607b47fc4463d000e5d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4998900" lat="52.8792800" gazref="geonames:7297116" source="geonames"/>
+   <geo easting="366500" northing="331500" long="-2.49921" lat="52.8799" kepnref="13680" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w631720">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w631737">
+    <date end="1256" begin="1255" subtype="simple">1255-6</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w631757">
+    <date end="1326" begin="1326" subtype="simple">1326</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w631774">
+    <date end="1630" begin="1630" subtype="simple">1630</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>5693</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w631812">
+    <date end="1661" begin="1661" subtype="simple">1661</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>5700</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w631845">
+    <date end="1761" begin="1761" subtype="simple">1761</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>5739</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w631720">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w631737">Sutton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w631757">Sutton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w631774">Sutton juxta Drayton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w631812">Sutton by Drayton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w631845">Sutton in Drayton</searchterm>
+  </extension>
+ </mads>
+ 

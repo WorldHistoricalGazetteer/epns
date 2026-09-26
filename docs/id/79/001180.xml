@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000014">
+  <authority ID="epns-deep-79-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/001180">Knapton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d30"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4179700" lat="52.8509800" gazref="geonames:7298999" source="geonames"/>
+   <geo long="1.416551539" lat="52.8539501" source="epns"/>
+   <geo long="1.42431896238184" lat="52.85822455070249" gazref="unlock:11188582" source="unlock"/>
+   <geo easting="630500" northing="334500" long="1.42249" lat="52.8586" kepnref="9166" source="kepn"/>
+  </extension>
+ </mads>
+ 

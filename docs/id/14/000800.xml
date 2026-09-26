@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000026">
+  <authority ID="epns-deep-14-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000800">Sutton on Hull</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000018" type="broader">
+   <geographic>Sutton on Hull</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w53268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000801">Sudton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000802">Sutone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000803">Sutune iuxta Hul</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53359">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000804">Suttun(a), Sutton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000805">Suttun(a) in Holdern'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000806">Suttun(a) in Holdernes, Suttun(a) in Holderness</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w53542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000807">Sutthon(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000554"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3050400" lat="53.7798600" gazref="geonames:2636478" source="geonames"/>
+   <geo easting="512500" northing="432500" long="-0.294304" lat="53.7767" kepnref="8409" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w53268">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53268">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="ey112">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53268">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53314">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53330">
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <source style="italic" id="ey200">Meaux</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53359">
+    <attestation variantID="epns-deep-14-b-name-w53359">
+     <date end="1167" begin="1150" subtype="simple">1150-67</date>
+     <source style="" id="ey367">YCh</source>
+     <page>1373</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w53359">
+     <date end="1531" begin="1531" subtype="simple">1531</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53423">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="ey91">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53456">
+    <attestation variantID="epns-deep-14-b-name-w53456">
+     <date end="1280" begin="1280" subtype="simple">1280</date>
+     <source style="" id="ey91" underspec="ib">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w53456">
+     <date end="1481" begin="1481" subtype="simple">1481</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53542">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w53542">
+    <date end="1290" begin="1270" subtype="circa">c. 1280</date>
+    <source style="italic" id="ey335">StoweCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w53268">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53268">Sudton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53314">Sutone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53330">Sutune iuxta Hul</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53359">Suttuna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53359">Suttun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53359">Suttona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53359">Sutton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53423">Suttuna in Holdern'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53423">Suttun in Holdern'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53456">Suttuna in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53456">Suttun in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53456">Suttuna in Holderness</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53456">Suttun in Holderness</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53542">Sutthone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w53542">Sutthon</searchterm>
+  </extension>
+ </mads>
+ 

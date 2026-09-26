@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000005">
+  <authority ID="epns-deep-07-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000248">Crawley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000005" type="broader">
+   <geographic>Crawley</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w18274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000249">Crauleia</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w18301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000250">Crawele(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w18328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000251">Crawle(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w18356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000252">Crowele</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w18378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000253">Croule juxta Hyfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w18408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000254">Craule</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cd2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1831200" lat="51.1130300" gazref="geonames:2652053" source="geonames"/>
+   <geo long="-0.1783034741667614" lat="51.11306296884081" gazref="unlock:11120193" source="unlock"/>
+   <geo easting="527500" northing="136500" long="-0.179874" lat="51.1136" kepnref="7025" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w18274">
+    <date end="1203" begin="1203" subtype="simple">1203</date>
+    <source style="" id="su253">SAC</source>
+    <item>36</item>
+    <page>186</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18301">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18328">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="su243">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18328">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18356">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="italic" id="su13">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18378">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w18408">
+    <attestation variantID="epns-deep-07-b-name-w18408">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <date end="1298" begin="1298" subtype="simple">1298</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w18408">
+     <date end="1482" begin="1482" subtype="simple">1482</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w18274">Crauleia</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18301">Craweley</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18301">Crawele</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18328">Crawley</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18328">Crawle</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18356">Crowele</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18378">Croule juxta Hyfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w18408">Craule</searchterm>
+  </extension>
+ </mads>
+ 

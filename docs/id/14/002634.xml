@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000117">
+  <authority ID="epns-deep-14-b-name-subparish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002634">Fordon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000062" type="broader">
+   <geographic>Hunmanby</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w170343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002635">Fordun(e), Forduna</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w170431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002636">Fordon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w170501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002637">Fordoun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3833300" lat="54.1500000" gazref="geonames:2649227" source="geonames"/>
+   <geo long="-0.3992496733997578" lat="54.16448108754735" gazref="unlock:11146490" source="unlock"/>
+   <geo easting="504500" northing="475500" long="-0.400926" lat="54.1647" kepnref="8500" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w170343">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170343">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="italic" id="ey21">Bardney</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170343">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170343">
+    <attestation variantID="epns-deep-14-b-name-w170343">
+     <date end="1176" begin="1160" subtype="simple">1160-76</date>
+     <source style="" id="ey367">YCh</source>
+     <page>1174</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w170343">
+     <date end="1331" begin="1331" subtype="simple">1331</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170431">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170431">
+    <attestation variantID="epns-deep-14-b-name-w170431">
+     <date end="1270" begin="1270" subtype="simple">1270</date>
+     <source style="" id="ey91">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w170431">
+     <date end="1610" begin="1610" subtype="simple">1610</date>
+     <source style="" id="ey327">Speed</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w170501">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey186">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w170343">Fordune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w170343">Fordun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w170343">Forduna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w170431">Fordone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w170431">Fordon</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w170501">Fordoun</searchterm>
+  </extension>
+ </mads>
+ 

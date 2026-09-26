@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000082">
+  <authority ID="epns-deep-28-b-name-subparish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014560">Middleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000083" type="broader">
+   <geographic>Middleton and Smerrill</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w526988">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014561">Middeltune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w527008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014562">Mid(d)elton(e), Myd(d)elton(e), Myd(d)ilton(e), Myd(d)ulton(e), -ton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w527134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014563">Myd(d)ulton(e) iuxta Yolgreue</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w527182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014564">Medilton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7166700" lat="53.1666700" gazref="geonames:2642594" source="geonames"/>
+   <geo easting="419500" northing="361500" long="-1.70987" lat="53.1503" kepnref="3359" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w526988">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w527008">
+    <date subtype="simple" begin="1210" end="1210">1210</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w527008">
+    <date subtype="circa" begin="1215" end="1235">c. 1225</date>
+    <source style="italic" id="db8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w527008">
+    <attestation variantID="epns-deep-28-b-name-w527008">
+     <date subtype="simple" begin="1236" end="1236">1236</date>
+     <date subtype="simple" begin="1243" end="1243">1243</date>
+     <source style="" id="db186">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w527134">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="db313">Middleton</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w527182">
+    <date subtype="simple" begin="1462" end="1462">1462</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w526988">Middeltune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Middeltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Middelton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mideltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Midelton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddeltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddelton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydeltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydelton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddiltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddilton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydiltone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydilton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddultone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Myddulton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydultone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">Mydulton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">-tone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527008">-ton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527134">Myddultone iuxta Yolgreue</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527134">Myddulton iuxta Yolgreue</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527134">Mydultone iuxta Yolgreue</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527134">Mydulton iuxta Yolgreue</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w527182">Medilton</searchterm>
+  </extension>
+ </mads>
+ 

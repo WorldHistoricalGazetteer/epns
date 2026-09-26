@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000302">
+  <authority ID="epns-deep-12-b-name-subparish-000302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018497">White Roding</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000406" type="broader">
+   <geographic>White Roding</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w900921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018498">Magna Roynges</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w900948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018499">Alba</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w900968">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018500">Blanche</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w900987">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018501">Quyte</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000ec9"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2657100" lat="51.7988400" gazref="geonames:2634063" source="geonames"/>
+   <geo long="0.2698070283762721" lat="51.79777019706093" gazref="unlock:11320971" source="unlock"/>
+   <geo easting="556500" northing="213500" long="0.268157" lat="51.7983" kepnref="12562" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w900921">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w900948">
+    <date subtype="simple" begin="1121" end="1136">1121-36</date>
+    <source style="italic" id="ex426">WDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w900968">
+    <date subtype="simple" begin="1237" end="1237">1237</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w900987">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ex150" underspec="ib">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w900921">Magna Roynges</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w900948">Alba</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w900968">Blanche</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w900987">Quyte</searchterm>
+  </extension>
+ </mads>
+ 

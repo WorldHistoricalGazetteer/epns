@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000196">
+  <authority ID="epns-deep-10-b-name-subparish-000196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004258">Preston Deanery</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000196" type="broader">
+   <geographic>Preston Deanery</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w231049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004259">Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w231076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004260">Preston juxta Nofht</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w231105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004261">Preston juxta Pydyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w231141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004262">Preston Denary</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w231165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004263">Preston Deanry</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005e0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8514849575298223" lat="52.19174321467263" gazref="unlock:11249882" source="unlock"/>
+   <geo easting="478500" northing="255500" long="-0.853022" lat="52.1922" kepnref="11066" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w231049">
+    <attestation variantID="epns-deep-10-b-name-w231049">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w231076">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w231105">
+    <date end="1381" begin="1381" subtype="simple">1381</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w231141">
+    <date end="1720" begin="1720" subtype="simple">1720</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w231165">
+    <date end="1739" begin="1739" subtype="simple">1739</date>
+    <source style="" id="nh40">Camden (Gough)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w231049">Preston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w231076">Preston juxta Nofht</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w231105">Preston juxta Pydyngton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w231141">Preston Denary</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w231165">Preston Deanry</searchterm>
+  </extension>
+ </mads>
+ 

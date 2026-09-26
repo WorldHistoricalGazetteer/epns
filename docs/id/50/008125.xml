@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000054">
+  <authority ID="epns-deep-50-b-name-subparish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008125">Sutton Courtenay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000055" type="broader">
+   <geographic>Sutton Courtenay</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w324339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008126">Suthtun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008127">Suðtune</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008128">Suðtun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008129">Suttun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008130">Sudton(e), Suttone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008131">Suthtun'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324541">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008132">Suttun'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008133">Sutton', Sutton(a), Suttun</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008134">Suttone Curteney</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008135">Sutton Curtenay</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w324675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/008136">Sottone Courtenay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001ba7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2768200" lat="51.6413000" gazref="geonames:2636485" source="geonames"/>
+   <geo long="-1.270193980623888" lat="51.63756914424491" gazref="unlock:11295844" source="unlock"/>
+   <geo easting="450500" northing="193500" long="-1.27166" lat="51.6381" kepnref="3157" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w324339">
+    <date subtype="circa" begin="860" end="880">c. 870</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>873</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324373">
+    <date subtype="circa" begin="885" end="905">c. 895</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="be32" underspec="ib">BCS</source>
+    <item>581</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324408">
+    <date subtype="simple" begin="983" end="983">983</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be185">KCD</source>
+    <item>1280</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324408">
+    <date subtype="simple" begin="1042" end="1042">1042</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="be185" underspec="ib">KCD</source>
+    <item>762</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324462">
+    <date subtype="simple" begin="1000" end="1000">1000</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="" id="be185">KCD</source>
+    <item>1294</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324494">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324524">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <source style="" id="be256">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324541">
+    <attestation variantID="epns-deep-50-b-name-w324541">
+     <date subtype="simple" begin="1157" end="1157">1157</date>
+     <source style="" id="be256" underspec="ib">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324592">
+    <date end="1600" begin="1157">1157-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324620">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324647">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="be260">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w324675">
+    <date subtype="simple" begin="1377" end="1377">1377</date>
+    <source style="" id="be178">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w324339">Suthtun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324373">Suðtune</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324408">Suðtun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324462">Suttun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324494">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324494">Sudton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324494">Suttone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324524">Suthtun'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324541">Suttun'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324592">Sutton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324592">Suttona</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324592">Sutton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324592">Suttun</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324620">Suttone Curteney</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324647">Sutton Curtenay</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w324675">Sottone Courtenay</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000035">
+  <authority ID="epns-deep-98-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000836">Goldington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000035" type="broader">
+   <geographic>Goldington</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w71297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000837">Goldentone, Coldentone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w71329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000838">Goldinton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w71376">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000839">Goldington</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w71419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000840">Goutinton, Goudinton, Goudington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a900034b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4289263973479612" lat="52.14191118813001" gazref="unlock:11156132" source="unlock"/>
+   <geo easting="507500" northing="250500" long="-0.43051" lat="52.1423" kepnref="4257" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w71297">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71329">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71329">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71329">
+    <attestation variantID="epns-deep-98-b-name-w71329">
+     <date subtype="simple" begin="1227" end="1227">1227</date>
+     <source style="" id="bh8">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71376">
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="" id="bh66">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71376">
+    <attestation variantID="epns-deep-98-b-name-w71376">
+     <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+     <source style="" id="bh25">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71419">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w71419">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w71297">Goldentone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71297">Coldentone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71329">Goldinton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71376">Goldington</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71419">Goutinton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71419">Goudinton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w71419">Goudington</searchterm>
+  </extension>
+ </mads>
+ 

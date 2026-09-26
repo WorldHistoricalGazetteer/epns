@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000067">
+  <authority ID="epns-deep-24-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005089">Signet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000061" type="broader">
+   <geographic>Upton and Signet</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w190683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005090">Senech</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w190700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005091">Seynat, Saynet</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w190725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005092">Seynet</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w190742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005093">Seynate</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w190759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005094">Synett, Seignett</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000882"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.644728075786052" lat="51.79216723087502" gazref="unlock:11283875" source="unlock"/>
+   <geo easting="424500" northing="212500" long="-1.64602" lat="51.8106" kepnref="3696" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w190683">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w190700">
+    <date subtype="simple" begin="1299" end="1299">1299</date>
+    <source style="" id="ox112">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w190725">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="ox112">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w190742">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w190759">
+    <date subtype="simple" begin="1551" end="1552">1551-2</date>
+    <source style="italic" id="ox236">Survey</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w190683">Senech</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190700">Seynat</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190700">Saynet</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190725">Seynet</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190742">Seynate</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190759">Synett</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w190759">Seignett</searchterm>
+  </extension>
+ </mads>
+ 

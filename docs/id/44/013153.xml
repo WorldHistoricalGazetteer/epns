@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000055">
+  <authority ID="epns-deep-44-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/013153">Disley-Stanley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000012" type="broader">
+   <geographic>Stockport</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w558874">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/013154">Disteley Stanley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002052"/>
+  </recordInfo>
+  <extension>
+   <geo easting="397500" northing="384500" long="-2.03901" lat="53.3574" kepnref="11745" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w558874">
+    <date end="1453" begin="1453" subtype="simple">1453</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w558874">Disteley Stanley</searchterm>
+  </extension>
+ </mads>
+ 

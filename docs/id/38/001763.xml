@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000018">
+  <authority ID="epns-deep-38-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/001763">Baunton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000002" type="broader">
+   <geographic>Crowthorne and Minety Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001909"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9664500" lat="51.7426000" gazref="geonames:7295152" source="geonames"/>
+   <geo long="-1.985517673" lat="51.73425361" source="epns"/>
+   <geo long="-1.963790581278104" lat="51.73874574460731" gazref="unlock:11071774" source="unlock"/>
+   <geo easting="402500" northing="204500" long="-1.96518" lat="51.7392" kepnref="6209" source="kepn"/>
+  </extension>
+ </mads>
+ 

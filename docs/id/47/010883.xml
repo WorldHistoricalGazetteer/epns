@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000125">
+  <authority ID="epns-deep-47-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/010883">Poulton cum Spital</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000041" type="broader">
+   <geographic>Bebington</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w605368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/010884">Pulton cum le Spitell</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w605402">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/010885">Pulton and Spittelle</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w605435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/010886">Powton cum Spyttle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f69"/>
+  </recordInfo>
+  <extension>
+   <geo easting="333500" northing="382500" long="-3.00009" lat="53.3352" kepnref="12147" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w605368">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <source style="" id="ch104">Chest</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w605402">
+    <date end="1592" begin="1592" subtype="simple">1592</date>
+    <source style="italic" id="ch314">JRC</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w605435">
+    <date end="1614" begin="1614" subtype="simple">1614</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w605368">Pulton cum le Spitell</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w605402">Pulton and Spittelle</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w605435">Powton cum Spyttle</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000016">
+  <authority ID="epns-deep-16-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001011">Latton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000017" type="broader">
+   <geographic>Latton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w54582">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001012">Latone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w54598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001013">Latton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w54640">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001014">Lacton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w54675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001015">Latteton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000df8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8705700" lat="51.6589100" gazref="geonames:6940297" source="geonames"/>
+   <geo long="-1.862649633254351" lat="51.65774116748965" gazref="unlock:11192264" source="unlock"/>
+   <geo easting="409500" northing="195500" long="-1.86405" lat="51.6582" kepnref="7181" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w54582">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54598">
+    <date subtype="simple" begin="1133" end="1133">1133</date>
+    <source style="" id="ws84">Dugd</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54598">
+    <attestation variantID="epns-deep-16-b-name-w54598">
+     <date subtype="simple" begin="1177" end="1177">1177</date>
+     <source style="" id="ws240">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54640">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ws57">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54640">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="ws106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54640">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="ws271">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w54675">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w54582">Latone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w54598">Lattona</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w54598">Latton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w54640">Lacton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w54675">Latteton</searchterm>
+  </extension>
+ </mads>
+ 

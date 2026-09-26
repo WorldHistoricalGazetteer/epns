@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000093">
+  <authority ID="epns-deep-50-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014481">Upton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000106" type="broader">
+   <geographic>Upton</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w583152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014482">Optone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w583168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014483">Vpton'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w583187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014484">Upton'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w583238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014485">Upton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w583245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014486">Upton alias Opton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w583275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/014487">Optone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001bb1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2613200" lat="51.5774200" gazref="geonames:2635097" source="geonames"/>
+   <geo long="-1.256772119480764" lat="51.57453732863119" gazref="unlock:11310747" source="unlock"/>
+   <geo easting="451500" northing="186500" long="-1.25824" lat="51.575" kepnref="3196" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w583152">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w583168">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <source style="" id="be256">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w583187">
+    <attestation variantID="epns-deep-50-b-name-w583187">
+     <date subtype="simple" begin="1220" end="1220">1220</date>
+     <source style="" id="be121">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w583238">
+    <date end="1600" begin="1220">1220-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w583245">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="be178">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w583275">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="be178" underspec="ib">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w583152">Optone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583168">Vpton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583187">Upton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583238">Upton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583245">Upton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583245">Opton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w583275">Optone</searchterm>
+  </extension>
+ </mads>
+ 

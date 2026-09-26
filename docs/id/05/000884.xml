@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000095">
+  <authority ID="epns-deep-05-b-name-subparish-000095">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000884">North Holme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000040" type="broader">
+   <geographic>Great Edstone</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w77535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000885">Holm(e), Hom</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w77571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000886">Northolm(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600049c"/>
+  </recordInfo>
+  <extension>
+   <geo easting="470500" northing="480500" long="-0.920384" lat="54.2154" kepnref="5745" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w77535">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w77535">
+    <date subtype="simple" begin="1154" end="1163">1154-63</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w77571">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>115</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w77535">Holme</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w77535">Holm</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w77535">Hom</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w77571">Northolme</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w77571">Northolm</searchterm>
+  </extension>
+ </mads>
+ 

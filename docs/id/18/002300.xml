@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000044">
+  <authority ID="epns-deep-18-a-name-parish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/002300">Tottenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000005" type="broader">
+   <geographic>Edmonton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a0000217"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0679400" lat="51.6037300" gazref="geonames:2635608" source="geonames"/>
+   <geo long="-0.07235807605991403" lat="51.5970318461232" gazref="unlock:11303444" source="unlock"/>
+   <geo easting="533500" northing="190500" long="-0.0739605" lat="51.5975" kepnref="4752" source="kepn"/>
+  </extension>
+ </mads>
+ 

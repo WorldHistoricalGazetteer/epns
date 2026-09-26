@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000018">
+  <authority ID="epns-deep-82-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001704">Kenwick Wood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000002" type="broader">
+   <geographic>Cockshutt</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w75906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001705">Kenewykeswode</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w75932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001706">Kynwyges Woode</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w75962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001707">Kenwicks Wood</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w76011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/001708">Kenwicks Wood als Under Kenwicks Wood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a632b47fc4463d000ea7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.868990631" lat="52.86038031" source="epns"/>
+   <attestation variantID="epns-deep-82-b-name-w75906">
+    <date subtype="simple" begin="1309" end="1309">1309</date>
+    <source style="" id="ss79">Eyton</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w75932">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>3599</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w75962">
+    <attestation variantID="epns-deep-82-b-name-w75962">
+     <date subtype="simple" begin="1557" end="1557">1557</date>
+     <source style="" id="ss265">SAS</source>
+     <item>4/X</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-82-b-name-w75962">
+     <date subtype="simple" begin="1839" end="1839">1839</date>
+     <source style="italic" id="ss292">TA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w76011">
+    <date subtype="simple" begin="1615" end="1615">1615</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>15755</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w75906">Kenewykeswode</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w75932">Kynwyges Woode</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w75962">Kenwicks Wood</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w76011">Kenwicks Wood</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w76011">Under Kenwicks Wood</searchterm>
+  </extension>
+ </mads>
+ 

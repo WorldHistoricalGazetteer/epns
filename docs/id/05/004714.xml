@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000420">
+  <authority ID="epns-deep-05-b-name-subparish-000420">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004714">Melmerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000145" type="broader">
+   <geographic>Coverham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w343859">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004715">Melmerbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w343886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004716">Melmor(e)by</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000453"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9005200" lat="54.2672500" gazref="geonames:7296866" source="geonames"/>
+   <geo long="-1.884839120287473" lat="54.26494843572848" gazref="unlock:11216986" source="unlock"/>
+   <geo easting="407500" northing="485500" long="-1.88634" lat="54.2651" kepnref="6073" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w343859">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w343859">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w343886">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w343886">
+    <attestation variantID="epns-deep-05-b-name-w343886">
+     <date subtype="simple" begin="1219" end="1219">1219</date>
+     <source style="italic" id="ny12">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w343859">Melmerbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w343886">Melmoreby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w343886">Melmorby</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000240">
+  <authority ID="epns-deep-10-a-name-parish-000240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005258">Irthlingborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000015" type="broader">
+   <geographic>Huxloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00044e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6112900" lat="52.3267400" gazref="geonames:2646034" source="geonames"/>
+   <geo long="-0.613260766429132" lat="52.32406378577821" gazref="unlock:11183339" source="unlock"/>
+   <geo easting="494500" northing="270500" long="-0.614831" lat="52.3245" kepnref="11110" source="kepn"/>
+  </extension>
+ </mads>
+ 

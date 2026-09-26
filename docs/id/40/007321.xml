@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000059">
+  <authority ID="epns-deep-40-b-name-subparish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007321">Stoke Gifford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000057" type="broader">
+   <geographic>Stoke Gifford</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w326671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007322">Stoche, Estoch</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326695">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007323">Stoches Helie</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007324">Stok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326767">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007325">Stok(e) Elye Giffardi</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326799">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007326">Giffarde Stok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007327">Stok(e) Giffard, Stok(e) Gyffard</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w326924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007328">Stok(e) Gifford(e), Stok(e) Gyfford(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ba9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5405300" lat="51.5168600" gazref="geonames:2636854" source="geonames"/>
+   <geo long="-2.547710079" lat="51.51716045" source="epns"/>
+   <geo long="-2.540557093621495" lat="51.52169059758348" gazref="unlock:11292723" source="unlock"/>
+   <geo easting="362500" northing="180500" long="-2.54187" lat="51.5222" kepnref="6503" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w326671">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326695">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326717">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326717">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326717">
+    <date end="1373" begin="1373" subtype="simple">1373</date>
+    <source style="" id="go55">BrCh</source>
+    <page>160</page>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326767">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326799">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326799">
+    <date end="1397" begin="1397" subtype="simple">1397</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326837">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326837">
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326837">
+    <attestation variantID="epns-deep-40-b-name-w326837">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="go174">FA</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w326837">
+     <date end="1398" begin="1398" subtype="simple">1398</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326924">
+    <date end="1464" begin="1464" subtype="simple">1464</date>
+    <source style="" id="go275">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w326924">
+    <attestation variantID="epns-deep-40-b-name-w326924">
+     <date end="1468" begin="1468" subtype="simple">1468</date>
+     <source style="italic" id="go600">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-b-name-w326924">
+     <date end="1619" begin="1619" subtype="simple">1619</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w326671">Stoche</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326671">Estoch</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326695">Stoches Helie</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326717">Stoke</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326717">Stok</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326767">Stoke Elye Giffardi</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326767">Stok Elye Giffardi</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326799">Giffarde Stoke</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326799">Giffarde Stok</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326837">Stoke Giffard</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326837">Stok Giffard</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326837">Stoke Gyffard</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326837">Stok Gyffard</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stoke Gifforde</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stoke Gifford</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stok Gifforde</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stok Gifford</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stoke Gyfforde</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stoke Gyfford</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stok Gyfforde</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w326924">Stok Gyfford</searchterm>
+  </extension>
+ </mads>
+ 

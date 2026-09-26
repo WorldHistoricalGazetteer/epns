@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000013">
+  <authority ID="epns-deep-09-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000714">Bishop's Tawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000013" type="broader">
+   <geographic>Bishop's Tawton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w32512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000715">Tautona</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w32529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000716">Tawatonam</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w32568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000717">Tautone Episcopi</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w32596">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000718">Bisshopestautone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w32626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000719">Toweton Bishop</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w32651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000720">Tawton Bushoppe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0209200" lat="51.0382000" gazref="geonames:7293321" source="geonames"/>
+   <geo long="-4.047770462806807" lat="51.05535505690501" gazref="unlock:11078084" source="unlock"/>
+   <geo easting="256500" northing="130500" long="-4.0489" lat="51.0559" kepnref="15680" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w32512">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w32529">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="de122">Launceston</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w32568">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w32596">
+    <date end="1374" begin="1374" subtype="simple">1374</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w32626">
+    <date end="1398" begin="1398" subtype="simple">1398</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w32651">
+    <date end="1559" begin="1559" subtype="simple">1559</date>
+    <source style="" id="de277">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w32512">Tautona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w32529">Tawatonam</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w32568">Tautone Episcopi</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w32596">Bisshopestautone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w32626">Toweton Bishop</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w32651">Tawton Bushoppe</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-db-dbhundred-000005">
+  <authority ID="epns-deep-40-db-name-dbhundred-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/006684">Letberg Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000010" type="broader">
+   <geographic>Henbury Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-40-db-name-w295109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/006685">Letberg(e) hd'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab300000e"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-db-name-w295109">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-db-name-w295109">Letberge hd'</searchterm>
+   <searchterm variantID="epns-deep-40-db-name-w295109">Letberg hd'</searchterm>
+  </extension>
+ </mads>
+ 

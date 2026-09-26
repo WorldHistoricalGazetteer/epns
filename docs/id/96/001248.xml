@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000022">
+  <authority ID="epns-deep-96-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/001248">Grantchester</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000002" type="broader">
+   <geographic>Wetherley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0872200" lat="52.1852500" gazref="geonames:7298345" source="geonames"/>
+   <geo long="0.09897995280862487" lat="52.17865989535268" gazref="unlock:11158128" source="unlock"/>
+   <geo easting="543500" northing="255500" long="0.0973334" lat="52.1791" kepnref="3992" source="kepn"/>
+  </extension>
+ </mads>
+ 

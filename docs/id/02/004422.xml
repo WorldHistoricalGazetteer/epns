@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000199">
+  <authority ID="epns-deep-02-b-name-subparish-000199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004422">Denham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000202" type="broader">
+   <geographic>Denham</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w315867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004423">Deneham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w315940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004424">Daneham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w315957">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004425">Denham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w315977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004426">Denom</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w315993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004427">Denham Durdent</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300034b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5000000" lat="51.5666700" gazref="geonames:2651378" source="geonames"/>
+   <geo long="-0.4921096623131764" lat="51.56720321450284" gazref="unlock:11128622" source="unlock"/>
+   <geo easting="504500" northing="186500" long="-0.493663" lat="51.5677" kepnref="11396" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w315867">
+    <date end="1066" begin="1066" subtype="simple">1066</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="bu61">KCD</source>
+    <item>824</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315867">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="bu22">Cur(P)</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315867">
+    <date end="1219" begin="1209" subtype="simple">1209-19</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315867">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315940">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315957">
+    <date end="1233" begin="1233" subtype="simple">1233</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315977">
+    <date end="1336" begin="1336" subtype="simple">1336</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w315993">
+    <date end="1362" begin="1362" subtype="simple">1362</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w315867">Deneham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w315940">Daneham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w315957">Denham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w315977">Denom</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w315993">Denham Durdent</searchterm>
+  </extension>
+ </mads>
+ 

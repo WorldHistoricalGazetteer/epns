@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000201">
+  <authority ID="epns-deep-04-b-name-subparish-000201">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005181">Westwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000189" type="broader">
+   <geographic>Westwood Park</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w422616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005182">æt Westwuda</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b00060b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1842400" lat="52.2746200" gazref="geonames:7297542" source="geonames"/>
+   <geo long="-2.18319984129796" lat="52.26912168974351" gazref="unlock:11319240" source="unlock"/>
+   <geo easting="387500" northing="264500" long="-2.18462" lat="52.2785" kepnref="5379" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w422616">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1284</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w422616">
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w422616">æt Westwuda</searchterm>
+  </extension>
+ </mads>
+ 

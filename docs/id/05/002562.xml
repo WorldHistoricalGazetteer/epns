@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000198">
+  <authority ID="epns-deep-05-b-name-subparish-000198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002562">Commondale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000075" type="broader">
+   <geographic>Guisborough</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w198855">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002563">Colemandale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w198876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002564">Colmandale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w198906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002565">Colmandale al. Comondale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w198940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002566">Colmendall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9773500" lat="54.4834800" gazref="geonames:2652497" source="geonames"/>
+   <geo long="-0.9734057062394645" lat="54.4853484256268" gazref="unlock:11114877" source="unlock"/>
+   <geo easting="466500" northing="510500" long="-0.975027" lat="54.4855" kepnref="5851" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w198855">
+    <date subtype="simple" begin="1273" end="1273">1273</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w198876">
+    <date subtype="simple" begin="1539" end="1539">1539</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>vi</item>
+    <page>275</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w198906">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w198940">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w198855">Colemandale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w198876">Colmandale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w198906">Colmandale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w198906">Comondale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w198940">Colmendall</searchterm>
+  </extension>
+ </mads>
+ 

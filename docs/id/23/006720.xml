@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000058">
+  <authority ID="epns-deep-23-a-name-parish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006720">Ambrosden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000008" type="broader">
+   <geographic>Bullingdon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00068a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1212900" lat="51.8708700" gazref="geonames:2657359" source="geonames"/>
+   <geo long="-1.121168625513841" lat="51.87034991205189" gazref="unlock:11061748" source="unlock"/>
+   <geo easting="460500" northing="219500" long="-1.12266" lat="51.8708" kepnref="3579" source="kepn"/>
+  </extension>
+ </mads>
+ 

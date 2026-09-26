@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000089">
+  <authority ID="epns-deep-10-a-name-parish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002065">Great Brington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000006" type="broader">
+   <geographic>Nobottle Grove Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00042a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0246500" lat="52.2785200" gazref="geonames:2648148" source="geonames"/>
+   <geo long="-1.025056129478598" lat="52.28322213187192" gazref="unlock:11158524" source="unlock"/>
+   <geo easting="466500" northing="265500" long="-1.02658" lat="52.2836" kepnref="10959" source="kepn"/>
+  </extension>
+ </mads>
+ 

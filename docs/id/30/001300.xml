@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000011">
+  <authority ID="epns-deep-30-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/001300">Balby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000007" type="broader">
+   <geographic>Doncaster</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w59190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/001301">Ballebi, Balleby</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w59328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/001302">Ballesbi</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w59346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/001303">Balby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060ec"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.170705548" lat="53.50256497" source="epns"/>
+   <geo long="-1.163078610625583" lat="53.50700791136468" gazref="unlock:11067546" source="unlock"/>
+   <geo easting="455500" northing="401500" long="-1.16463" lat="53.5073" kepnref="14268" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <date subtype="simple" begin="1180" end="1185">1180-5</date>
+    <source style="" id="wr796">YCh</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <date subtype="simple" begin="1180" end="1200">c. 1180-1200</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <item>1006-7</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <date subtype="simple" begin="1196" end="1201">1196-1201</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <date subtype="simple" begin="1230" end="1240">1230-40</date>
+    <source style="italic" id="wr51">Bodl</source>
+    <item>34</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59190">
+    <attestation variantID="epns-deep-30-b-name-w59190">
+     <date subtype="simple" begin="1254" end="1254">1254</date>
+     <source style="" id="wr474">Pat</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w59190">
+     <date subtype="simple" begin="1368" end="1368">1368</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59328">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59346">
+    <date subtype="simple" begin="1353" end="1353">1353</date>
+    <source style="" id="wr799">YD</source>
+    <item>xii</item>
+    <page>244</page>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w59346">
+    <attestation variantID="epns-deep-30-b-name-w59346">
+     <date subtype="simple" begin="1366" end="1366">1366</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w59346">
+     <date subtype="simple" begin="1596" end="1596">1596</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w59190">Ballebi</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w59190">Balleby</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w59328">Ballesbi</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w59346">Balby</searchterm>
+  </extension>
+ </mads>
+ 

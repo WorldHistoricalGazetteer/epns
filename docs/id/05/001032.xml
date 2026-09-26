@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000111">
+  <authority ID="epns-deep-05-b-name-subparish-000111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001032">Bilsdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000044" type="broader">
+   <geographic>Helmsley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w89185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001033">Bildesdale, Byldesdale, Bildesdala, Byldesdala</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w89276">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001034">Bilsdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004b8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1333300" lat="54.3333300" gazref="geonames:2655657" source="geonames"/>
+   <geo long="-1.131185438054649" lat="54.32479345316387" gazref="unlock:11077032" source="unlock"/>
+   <geo easting="456500" northing="492500" long="-1.13278" lat="54.325" kepnref="5762" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w89185">
+    <attestation variantID="epns-deep-05-b-name-w89185">
+     <date subtype="simple" begin="1153" end="1159">1153-9</date>
+     <date subtype="simple" begin="1180" end="1185">1180-5</date>
+     <source style="" id="ny197">Riev</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w89185">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w89276">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w89185">Bildesdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w89185">Byldesdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w89185">Bildesdala</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w89185">Byldesdala</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w89276">Bilsdale</searchterm>
+  </extension>
+ </mads>
+ 

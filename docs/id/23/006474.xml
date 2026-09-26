@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000061">
+  <authority ID="epns-deep-23-b-name-subparish-000061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006474">Stadhampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000056" type="broader">
+   <geographic>Stadhampton</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w304208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006475">Stodeham</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w304271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006476">Stodham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000864"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1313800" lat="51.6813100" gazref="geonames:2637146" source="geonames"/>
+   <geo long="-1.124828942059776" lat="51.68153824744" gazref="unlock:11290367" source="unlock"/>
+   <geo easting="460500" northing="198500" long="-1.12631" lat="51.682" kepnref="3577" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w304208">
+    <date end="1142" begin="1130" subtype="simple">1130-42</date>
+    <date end="1147" begin="1143" subtype="simple">1143-7</date>
+    <source style="" id="ox163">OxonCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w304208">
+    <date end="1146" begin="1146" subtype="simple">1146</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="ox205">RegAntiquiss</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w304271">
+    <attestation variantID="epns-deep-23-b-name-w304271">
+     <date end="1247" begin="1246" subtype="simple">1246-7</date>
+     <source style="italic" id="ox15">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-23-b-name-w304271">
+     <date end="1552" begin="1551" subtype="simple">1551-2</date>
+     <source style="italic" id="ox236">Survey</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w304208">Stodeham</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w304271">Stodham</searchterm>
+  </extension>
+ </mads>
+ 

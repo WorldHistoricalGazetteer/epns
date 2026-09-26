@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000139">
+  <authority ID="epns-deep-10-a-name-parish-000139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003256">Maidwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000009" type="broader">
+   <geographic>Rothwell Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000464"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9048800" lat="52.3862200" gazref="geonames:2643178" source="geonames"/>
+   <geo long="-0.9053528931560091" lat="52.38108132603033" gazref="unlock:11211102" source="unlock"/>
+   <geo easting="474500" northing="276500" long="-0.906891" lat="52.3815" kepnref="11009" source="kepn"/>
+  </extension>
+ </mads>
+ 

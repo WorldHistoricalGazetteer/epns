@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000218">
+  <authority ID="epns-deep-10-b-name-subparish-000218">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004818">Laxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000218" type="broader">
+   <geographic>Laxton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w262793">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004819">Lastone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262810">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004820">Laxton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262842">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004821">Laxeton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262881">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004822">Laxinton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004823">Lextone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262941">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004824">Lexitone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w262963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004825">Laxon al. Laxton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6000000" lat="52.5500000" gazref="geonames:2644775" source="geonames"/>
+   <geo long="-0.6059024956103267" lat="52.55776270388684" gazref="unlock:11192700" source="unlock"/>
+   <geo easting="494500" northing="296500" long="-0.607483" lat="52.5581" kepnref="11088" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w262793">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262810">
+    <attestation variantID="epns-deep-10-b-name-w262810">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="nh215">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262842">
+    <date end="1131" begin="1131" subtype="simple">1131</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262842">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262842">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262881">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262881">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="nh31">Bracton</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262920">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="nh297">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262941">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="nh297">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w262963">
+    <date end="1723" begin="1723" subtype="simple">1723</date>
+    <source style="italic" id="nh249">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w262793">Lastone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262810">Laxtona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262810">Laxton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262842">Laxetona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262842">Laxeton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262881">Laxintona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262881">Laxinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262920">Lextone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262941">Lexitone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262963">Laxon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w262963">Laxton</searchterm>
+  </extension>
+ </mads>
+ 

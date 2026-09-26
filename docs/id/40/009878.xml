@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000081">
+  <authority ID="epns-deep-40-a-name-parish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009878">Bulley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000015" type="broader">
+   <geographic>Duchy of Lancaster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001920"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3466900" lat="51.8756300" gazref="geonames:2654349" source="geonames"/>
+   <geo long="-2.348611117" lat="51.86861874" source="epns"/>
+   <geo long="-2.341382664257911" lat="51.87313670505725" gazref="unlock:11092190" source="unlock"/>
+   <geo easting="376500" northing="219500" long="-2.34273" lat="51.8736" kepnref="6527" source="kepn"/>
+  </extension>
+ </mads>
+ 

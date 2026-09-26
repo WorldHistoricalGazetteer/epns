@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000020">
+  <authority ID="epns-deep-28-b-name-subparish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/004635">Egstow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000021" type="broader">
+   <geographic>Egstow</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w178235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/004636">Tegestou</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w178253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/004637">Eggestowa, Heggestowa, Heggestow(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w178348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/004638">Egstow(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001867"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.40895329932671" lat="53.17585232401756" gazref="unlock:11138313" source="unlock"/>
+   <geo easting="439500" northing="364500" long="-1.41046" lat="53.1762" kepnref="3302" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w178235">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w178253">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="db192">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w178253">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="db192" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w178253">
+    <attestation variantID="epns-deep-28-b-name-w178253">
+     <date subtype="simple" begin="1323" end="1323">1323</date>
+     <source style="italic" id="db23">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w178253">
+     <date subtype="regnal" begin="1558" end="1603">Eliz</date>
+     <source style="" id="db81">ChancP</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w178348">
+    <date subtype="simple" begin="1483" end="1483">1483</date>
+    <source style="italic" id="db141">Derbyshire</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w178348">
+    <attestation variantID="epns-deep-28-b-name-w178348">
+     <date subtype="simple" begin="1594" end="1594">1594</date>
+     <source style="italic" id="db193">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w178235">Tegestou</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178253">Eggestowa</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178253">Heggestowa</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178253">Heggestowe</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178253">Heggestow</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178348">Egstowe</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w178348">Egstow</searchterm>
+  </extension>
+ </mads>
+ 

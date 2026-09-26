@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000185">
+  <authority ID="epns-deep-12-b-name-subparish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011489">Virley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000250" type="broader">
+   <geographic>Virley</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w571368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011490">Salcotā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w571385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011491">Salcote Verly, Salcote Virly</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w571432">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011492">Salcott Firley, Salcott Furley</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w571475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011493">Salcott Virley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000ebb"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.8159100" lat="51.7893500" gazref="geonames:2634949" source="geonames"/>
+   <geo easting="595500" northing="213500" long="0.833059" lat="51.786" kepnref="12424" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w571368">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w571385">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="ex157">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w571432">
+    <date subtype="simple" begin="1542" end="1560">1542-60</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w571475">
+    <date subtype="simple" begin="1501" end="1501">1501</date>
+    <source style="" id="ex313">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w571368">Salcotā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w571385">Salcote Verly</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w571385">Salcote Virly</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w571432">Salcott Firley</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w571432">Salcott Furley</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w571475">Salcott Virley</searchterm>
+  </extension>
+ </mads>
+ 

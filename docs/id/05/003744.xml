@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000315">
+  <authority ID="epns-deep-05-b-name-subparish-000315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003744">Thornton le Street</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000117" type="broader">
+   <geographic>Thornton le Street</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w273484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003745">Torentun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w273502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003746">Thorinton in via</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w273567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003747">in Strata</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w273588">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003748">in le Strete</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005ce"/>
+  </recordInfo>
+  <extension>
+   <geo easting="440500" northing="486500" long="-1.37958" lat="54.2726" kepnref="5966" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w273484">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w273502">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w273567">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w273588">
+    <date subtype="circa" begin="1281" end="1301">c. 1291</date>
+    <source style="" id="ny305">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w273484">Torentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w273502">Thorinton in via</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w273567">in Strata</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w273588">in le Strete</searchterm>
+  </extension>
+ </mads>
+ 

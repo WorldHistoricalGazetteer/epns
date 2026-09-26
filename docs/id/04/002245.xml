@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000082">
+  <authority ID="epns-deep-04-a-name-parish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002245">Little Malvern</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004db"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3374100" lat="52.0620300" gazref="geonames:2644293" source="geonames"/>
+   <geo long="-2.342820381119739" lat="52.06196097982339" gazref="unlock:11196689" source="unlock"/>
+   <geo easting="377500" northing="240500" long="-2.32959" lat="52.0624" kepnref="5257" source="kepn"/>
+  </extension>
+ </mads>
+ 

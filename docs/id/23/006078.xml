@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000050">
+  <authority ID="epns-deep-23-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006078">Thame</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000006" type="broader">
+   <geographic>Thame Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00075c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9762400" lat="51.7484000" gazref="geonames:2636066" source="geonames"/>
+   <geo long="-0.9787790280047648" lat="51.7433069196931" gazref="unlock:11298920" source="unlock"/>
+   <geo easting="470500" northing="205500" long="-0.980283" lat="51.7438" kepnref="3571" source="kepn"/>
+  </extension>
+ </mads>
+ 

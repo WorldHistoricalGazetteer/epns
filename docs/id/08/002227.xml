@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000038">
+  <authority ID="epns-deep-08-a-name-parish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002227">Yarnscombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000003" type="broader">
+   <geographic>Hartland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00189b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0651500" lat="50.9853600" gazref="geonames:7300384" source="geonames"/>
+   <geo long="-4.044999466531516" lat="50.99244255070798" gazref="unlock:11328329" source="unlock"/>
+   <geo easting="256500" northing="123500" long="-4.04613" lat="50.993" kepnref="15495" source="kepn"/>
+  </extension>
+ </mads>
+ 

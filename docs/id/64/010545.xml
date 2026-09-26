@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000027">
+  <authority ID="epns-deep-64-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/010545">Riby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f36"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2132100" lat="53.5564900" gazref="geonames:2639395" source="geonames"/>
+   <geo long="-0.2111615810710399" lat="53.55049591615683" gazref="unlock:11255558" source="unlock"/>
+   <geo easting="518500" northing="407500" long="-0.212832" lat="53.5508" kepnref="10847" source="kepn"/>
+  </extension>
+ </mads>
+ 

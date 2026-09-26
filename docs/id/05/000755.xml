@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000079">
+  <authority ID="epns-deep-05-b-name-subparish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000755">East Ness</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000032" type="broader">
+   <geographic>Hovingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w64737">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000756">Ne(i)sse</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w64755">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000757">West Nesse</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w64777">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000758">Est Nesse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9345650859134784" lat="54.19737398966196" gazref="unlock:11136444" source="unlock"/>
+   <geo easting="469500" northing="478500" long="-0.936178" lat="54.1976" kepnref="5730" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w64737">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w64755">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w64777">
+    <date subtype="simple" begin="1416" end="1416">1416</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w64737">Neisse</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w64737">Nesse</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w64755">West Nesse</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w64777">Est Nesse</searchterm>
+  </extension>
+ </mads>
+ 

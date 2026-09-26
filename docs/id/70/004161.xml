@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-b-subparish-000036">
+  <authority ID="epns-deep-70-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004161">Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-a-parish-000006" type="broader">
+   <geographic>Westbury</geographic>
+  </related>
+  <variant ID="epns-deep-70-b-name-w148371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004162">Neweton'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w148392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004163">Neuton'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w148416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004164">Newton in Cawyslond</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w148445">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004165">Neuton by Westbury</geographic>
+  </variant>
+  <variant ID="epns-deep-70-b-name-w148476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/004166">Newton in Cause</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64fb47fc4463d000f62"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.912525784" lat="52.6694471" source="epns"/>
+   <attestation variantID="epns-deep-70-b-name-w148371">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w148392">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w148416">
+    <date subtype="simple" begin="1453" end="1453">1453</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w148445">
+    <date subtype="simple" begin="1492" end="1492">1492</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-b-name-w148476">
+    <date subtype="simple" begin="1500" end="1500">1500</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-70-b-name-w148371">Neweton'</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w148392">Neuton'</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w148416">Newton in Cawyslond</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w148445">Neuton by Westbury</searchterm>
+   <searchterm variantID="epns-deep-70-b-name-w148476">Newton in Cause</searchterm>
+  </extension>
+ </mads>
+ 

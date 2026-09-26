@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000041">
+  <authority ID="epns-deep-50-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006606">Appleford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000042" type="broader">
+   <geographic>Appleford</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w265186">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006607">Æppelford, Appelforda</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006608">(on) æppelford, (of) æppelforda</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265291">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006609">Apleford</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006610">Appelford'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006611">Apelfordia</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006612">Appulford</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006613">Appulford'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006614">Apulford</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006615">Eppelford'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w265473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006616">Aspelforde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b1e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2407700" lat="51.6391700" gazref="geonames:2657231" source="geonames"/>
+   <geo long="-1.241293449630628" lat="51.63738597201072" gazref="unlock:11062914" source="unlock"/>
+   <geo easting="452500" northing="193500" long="-1.24276" lat="51.6379" kepnref="3144" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w265186">
+    <date subtype="circa" begin="885" end="905">c. 895</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="be32">BCS</source>
+    <item>581</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265234">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="be32" underspec="ib">BCS</source>
+    <item>760</item>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265291">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265309">
+    <attestation variantID="epns-deep-50-b-name-w265309">
+     <date subtype="simple" begin="1175" end="1175">1175</date>
+     <source style="" id="be256">P</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265336">
+    <date subtype="simple" begin="1224" end="1224">1224</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="" id="be43">Bract</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265373">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <copydate end="1354" begin="1334">c. 1344</copydate>
+    <source style="" id="be31">BC</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265406">
+    <date subtype="simple" begin="1383" end="1384">1383-4</date>
+    <source style="" id="be240">ObAcc</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265431">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="be365">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265451">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w265473">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w265186">Æppelford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265186">Appelforda</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265234">on æppelford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265234">æppelford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265234">of æppelforda</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265234">æppelforda</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265291">Apleford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265309">Appelford'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265336">Apelfordia</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265373">Appulford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265406">Appulford'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265431">Apulford</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265451">Eppelford'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w265473">Aspelforde</searchterm>
+  </extension>
+ </mads>
+ 

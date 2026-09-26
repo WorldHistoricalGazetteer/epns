@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000080">
+  <authority ID="epns-deep-07-a-name-parish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004039">Hadlow Down</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000021" type="broader">
+   <geographic>Loxfield Dorset Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b9a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1844500" lat="50.9956100" gazref="geonames:2647674" source="geonames"/>
+   <geo long="0.1878233696918259" lat="50.99884878298362" gazref="unlock:11163173" source="unlock"/>
+   <geo kepnexref="0032" long="0.184014" lat="50.99620" source="kepn"/>
+  </extension>
+ </mads>
+ 

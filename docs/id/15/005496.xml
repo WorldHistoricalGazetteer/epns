@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000078">
+  <authority ID="epns-deep-15-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005496">Broadfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000091" type="broader">
+   <geographic>Broadfield</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w275934">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005497">Bradefella, Bradefelle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w275972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005498">Bradefeld(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w276024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005499">Bradfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w276042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005500">Bradfield al. Brodfield</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000778"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.07113402043225586" lat="51.9657357775289" gazref="unlock:11087865" source="unlock"/>
+   <geo easting="532500" northing="231500" long="-0.0727519" lat="51.9662" kepnref="4650" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w275934">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w275972">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1508" begin="1508">1508</copydate>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w275972">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="he214">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w275972">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w276024">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="he110">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w276042">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="he113">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w275934">Bradefella</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w275934">Bradefelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w275972">Bradefelde</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w275972">Bradefeld</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w276024">Bradfeld</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w276042">Bradfield</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w276042">Brodfield</searchterm>
+  </extension>
+ </mads>
+ 

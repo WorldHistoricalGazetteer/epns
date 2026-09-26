@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000114">
+  <authority ID="epns-deep-13-b-name-subparish-000114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004661">Wills Pastures</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000118" type="broader">
+   <geographic>Wills Pastures</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w244381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004662">Hodnell pastures</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w244404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004663">Wills land otherwise Woollands</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f000802"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.363385268903702" lat="52.20460706875897" gazref="unlock:11323353" source="unlock"/>
+   <geo easting="443500" northing="256500" long="-1.36486" lat="52.205" kepnref="5005" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w244381">
+    <date end="1603" begin="1603" subtype="simple">1603</date>
+    <source style="" id="wa157">Ladbroke</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w244404">
+    <date end="1853" begin="1853" subtype="simple">1853</date>
+    <source style="" id="wa157">Ladbroke</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w244381">Hodnell pastures</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w244404">Wills land otherwise Woollands</searchterm>
+  </extension>
+ </mads>
+ 

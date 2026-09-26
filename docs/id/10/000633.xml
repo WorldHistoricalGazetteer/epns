@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000023">
+  <authority ID="epns-deep-10-b-name-subparish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000633">Aston le Walls</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000023" type="broader">
+   <geographic>Aston le Walls</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w38533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000634">Eston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38574">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000635">Aston juxta Wardon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38617">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000636">Aston juxta Byfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38647">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000637">Assheton in le Wattes</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38678">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000638">Aston in the Wall</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38710">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000639">in the Watts</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w38735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000640">Aston super muras</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000513"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2827500" lat="52.1511400" gazref="geonames:7301967" source="geonames"/>
+   <geo long="-1.276459351363353" lat="52.15015622904846" gazref="unlock:11065046" source="unlock"/>
+   <geo easting="449500" northing="250500" long="-1.27795" lat="52.1506" kepnref="10892" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w38533">
+    <attestation variantID="epns-deep-10-b-name-w38533">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w38533">
+     <date end="1224" begin="1224" subtype="simple">1224</date>
+     <source style="" id="nh297">WellsR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38574">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="nh296">Wardon</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38617">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38647">
+    <date end="1509" begin="1509" subtype="simple">1509</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38678">
+    <date end="1530" begin="1530" subtype="simple">1530</date>
+    <source style="italic" id="nh249">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38710">
+    <date end="1768" begin="1768" subtype="simple">1768</date>
+    <source style="italic" id="nh249">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w38735">
+    <date end="1621" begin="1621" subtype="simple">1621</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w38533">Estone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38533">Eston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38574">Aston juxta Wardon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38617">Aston juxta Byfeld</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38647">Assheton in le Wattes</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38678">Aston in the Wall</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38710">in the Watts</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w38735">Aston super muras</searchterm>
+  </extension>
+ </mads>
+ 

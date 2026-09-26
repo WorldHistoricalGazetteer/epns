@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000205">
+  <authority ID="epns-deep-09-a-name-parish-000205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010454">Sidmouth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000015" type="broader">
+   <geographic>East Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001839"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2397000" lat="50.6909400" gazref="geonames:2637853" source="geonames"/>
+   <geo long="-3.238617098963771" lat="50.67999493580064" gazref="unlock:11283841" source="unlock"/>
+   <geo easting="312500" northing="87500" long="-3.23983" lat="50.6806" kepnref="15876" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000072">
+  <authority ID="epns-deep-40-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/008890">Kempley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000014" type="broader">
+   <geographic>Botloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001999"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4798200" lat="51.9642600" gazref="geonames:2645834" source="geonames"/>
+   <geo long="-2.480294364" lat="51.95807439" source="epns"/>
+   <geo long="-2.473064904566166" lat="51.96260039674849" gazref="unlock:11184973" source="unlock"/>
+   <geo easting="367500" northing="229500" long="-2.4744" lat="51.963" kepnref="6518" source="kepn"/>
+  </extension>
+ </mads>
+ 

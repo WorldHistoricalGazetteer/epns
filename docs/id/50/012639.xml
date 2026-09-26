@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000089">
+  <authority ID="epns-deep-50-a-name-parish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/012639">West Ilsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000008" type="broader">
+   <geographic>Compton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001af8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3251500" lat="51.5427000" gazref="geonames:7301527" source="geonames"/>
+   <geo long="-1.315034425074832" lat="51.53892154675739" gazref="unlock:11317135" source="unlock"/>
+   <geo easting="449500" northing="181500" long="-1.2878" lat="51.5303" kepnref="3183" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000017">
+  <authority ID="epns-deep-52-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/006024">Owermoigne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000003" type="broader">
+   <geographic>Winfrith Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-52-a-name-w365369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/006025">Celberge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a32"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3272600" lat="50.6653000" gazref="geonames:2640744" source="geonames"/>
+   <geo long="-2.328310372" lat="50.66632678" source="epns"/>
+   <geo long="-2.332568489494085" lat="50.66811392780919" gazref="unlock:11238067" source="unlock"/>
+   <geo easting="376500" northing="85500" long="-2.33388" lat="50.6687" kepnref="11671" source="kepn"/>
+   <attestation variantID="epns-deep-52-a-name-w365369">
+    <date subtype="circa" begin="1076" end="1096">c. 1086</date>
+    <source style="" id="do303">GeldR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-52-a-name-w365369">Celberge</searchterm>
+  </extension>
+ </mads>
+ 

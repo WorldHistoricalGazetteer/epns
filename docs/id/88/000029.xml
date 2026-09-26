@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-a-parish-000001">
+  <authority ID="epns-deep-88-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/000029">Arnesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-hu-subcounty-000001" type="broader">
+   <geographic>Guthlaxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001076"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0922100" lat="52.5263900" gazref="geonames:2657045" source="geonames"/>
+   <geo long="-1.09338724687929" lat="52.52653459505634" gazref="unlock:11063821" source="unlock"/>
+   <geo easting="461500" northing="292500" long="-1.09491" lat="52.5269" kepnref="8869" source="kepn"/>
+  </extension>
+ </mads>
+ 

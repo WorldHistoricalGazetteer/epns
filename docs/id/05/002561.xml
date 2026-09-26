@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000075">
+  <authority ID="epns-deep-05-a-name-parish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002561">Guisborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000005" type="broader">
+   <geographic>Langbargh East Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0cb47fc40bc600036f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0560600" lat="54.5347800" gazref="geonames:2647785" source="geonames"/>
+   <geo long="-1.049538533392882" lat="54.5309127542253" gazref="unlock:11162302" source="unlock"/>
+   <geo easting="460500" northing="515500" long="-1.0666" lat="54.5312" kepnref="5850" source="kepn"/>
+  </extension>
+ </mads>
+ 

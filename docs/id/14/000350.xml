@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000013">
+  <authority ID="epns-deep-14-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000350">Rimswell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000009" type="broader">
+   <geographic>Owthorne</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w28143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000351">Rimeswelle, Rimesuuelle</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w28176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000352">Rimeswell(e), Rymeswell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w28251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000353">Rymeswell(e) in Holdernesse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w28288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000354">Rymmeswell</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w28323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000355">Rimswell, Rymswell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000520"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0174200" lat="53.7407900" gazref="geonames:2639350" source="geonames"/>
+   <geo long="-0.006159481483743724" lat="53.73606120312311" gazref="unlock:11256129" source="unlock"/>
+   <geo easting="531500" northing="428500" long="-0.00786339" lat="53.7363" kepnref="8395" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w28143">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28176">
+    <date end="1200" begin="1175" subtype="simple">late 12th</date>
+    <source style="" id="ey39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28176">
+    <attestation variantID="epns-deep-14-b-name-w28176">
+     <date end="1240" begin="1240" subtype="simple">1240</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w28176">
+     <date end="1430" begin="1430" subtype="simple">1430</date>
+     <source style="" id="ey39">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28251">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28288">
+    <date end="1341" begin="1341" subtype="simple">1341</date>
+    <source style="italic" id="ey105">Extent</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28288">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w28323">
+    <attestation variantID="epns-deep-14-b-name-w28323">
+     <date end="1584" begin="1584" subtype="simple">1584</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w28323">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w28143">Rimeswelle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28143">Rimesuuelle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28176">Rimeswelle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28176">Rimeswell</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28176">Rymeswelle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28176">Rymeswell</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28251">Rymeswelle in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28251">Rymeswell in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28288">Rymmeswell</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28323">Rimswell</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w28323">Rymswell</searchterm>
+  </extension>
+ </mads>
+ 

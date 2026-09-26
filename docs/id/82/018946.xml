@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000031">
+  <authority ID="epns-deep-82-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018946">Weston-under-Redcastle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000002" type="broader">
+   <geographic>Bradford North Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w711046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018947">Westune</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w711063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018948">Weston'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w711110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018949">Weston</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w711120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018950">Rede Castell Weston</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w711155">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018951">Wesson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a608b47fc4463d000e63"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6435500" lat="52.8551700" gazref="geonames:7294003" source="geonames"/>
+   <geo easting="356500" northing="328500" long="-2.6474" lat="52.8522" kepnref="13716" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w711046">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w711063">
+    <attestation variantID="epns-deep-82-a-name-w711063">
+     <date end="1195" begin="1195" subtype="simple">1195</date>
+     <source style="" id="ss207">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w711110">
+    <date end="1600" begin="1195">1195-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w711120">
+    <date end="1514" begin="1514" subtype="simple">1514</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>4537</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w711155">
+    <date end="1666" begin="1666" subtype="simple">1666</date>
+    <date end="1693" begin="1693" subtype="simple">93</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>11</page>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w711046">Westune</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w711063">Weston'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w711110">Weston</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w711120">Rede Castell Weston</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w711155">Wesson</searchterm>
+  </extension>
+ </mads>
+ 

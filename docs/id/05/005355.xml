@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000484">
+  <authority ID="epns-deep-05-b-name-subparish-000484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005355">Newton Morrell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000163" type="broader">
+   <geographic>Barton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w380231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005356">Neuton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w380250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005357">Neuton(e) Morell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000415"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6338700" lat="54.4790600" gazref="geonames:2641541" source="geonames"/>
+   <geo long="-1.637269855700405" lat="54.48017495306612" gazref="unlock:11230990" source="unlock"/>
+   <geo easting="423500" northing="509500" long="-1.63881" lat="54.4803" kepnref="6138" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w380231">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w380250">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w380231">Neutone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w380231">Neuton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w380250">Neutone Morell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w380250">Neuton Morell</searchterm>
+  </extension>
+ </mads>
+ 

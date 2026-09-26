@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000009">
+  <authority ID="epns-deep-17-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000806">Hayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000009" type="broader">
+   <geographic>Hayton</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w47251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000807">Hayton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000808">Haythona</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000809">Haiton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47341">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000810">Hayton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000811">Haiton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000812">Hayton juxta Retford</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47440">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000813">Heiton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w47459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000814">Heyton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd4000896"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9000000" lat="53.3500000" gazref="geonames:2647251" source="geonames"/>
+   <geo long="-0.9106833363763973" lat="53.35214367767049" gazref="unlock:11168327" source="unlock"/>
+   <geo easting="472500" northing="384500" long="-0.912262" lat="53.3524" kepnref="2317" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w47251">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="" id="ns79">Dugd</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47251">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1316" begin="1316">1316</copydate>
+    <source style="" id="ns42">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47294">
+    <date end="1230" begin="1210" subtype="circa">c. 1220</date>
+    <source style="" id="ns24">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47317">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ns128">HCY</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47341">
+    <attestation variantID="epns-deep-17-b-name-w47341">
+     <date end="1225" begin="1225" subtype="simple">1225</date>
+     <source style="" id="ns27">BorRec</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47399">
+    <date end="1600" begin="1225">1225-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47407">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47440">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="ns206">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47459">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="ns49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47459">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47459">
+    <date end="1307" begin="1272" subtype="regnal">t. Ed 1</date>
+    <source style="italic" id="ns296">Welbeck</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47459">
+    <date end="1316" begin="1310" subtype="simple">1310-16</date>
+    <source style="" id="ns42">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w47459">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ns96">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w47251">Hayton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47294">Haythona</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47317">Haiton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47341">Hayton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47399">Haiton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47407">Hayton juxta Retford</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47440">Heiton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w47459">Heyton</searchterm>
+  </extension>
+ </mads>
+ 

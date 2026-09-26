@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-wpd-belowsubcounty-000006">
+  <authority ID="epns-deep-14-wpd-name-belowsubcounty-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004784">Hunsley Beacon Division</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000004" type="broader">
+   <geographic>Harthill Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-14-wpd-name-w314949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004785">Hunsley Deuision</geographic>
+  </variant>
+  <variant ID="epns-deep-14-wpd-name-w314978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004786">Hunsley Beacon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-14-wpd-name-w314949">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="ey327">Speed</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-wpd-name-w314978">
+    <date subtype="simple" begin="1828" end="1828">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-wpd-name-w314949">Hunsley Deuision</searchterm>
+   <searchterm variantID="epns-deep-14-wpd-name-w314978">Hunsley Beacon</searchterm>
+  </extension>
+ </mads>
+ 

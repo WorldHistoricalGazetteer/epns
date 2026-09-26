@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000089">
+  <authority ID="epns-deep-17-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003904">Haywood Oaks</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000094" type="broader">
+   <geographic>Haywood Oaks</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w197294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003905">bosco de Heywud'</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w197320">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003906">Heywod(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w197353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003907">Haywod(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd4000897"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.096460284018062" lat="53.09297904828755" gazref="unlock:11168363" source="unlock"/>
+   <geo easting="460500" northing="355500" long="-1.09801" lat="53.0933" kepnref="2389" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w197294">
+    <date end="1237" begin="1237" subtype="simple">1237</date>
+    <source style="" id="ns49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w197320">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="italic" id="ns267">SR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w197320">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="italic" id="ns107">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w197353">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="italic" id="ns107" underspec="ib">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w197353">
+    <date end="1310" begin="1290" subtype="circa">c. 1300</date>
+    <source style="" id="ns300">Wollaton</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w197353">
+    <date end="1390" begin="1390" subtype="simple">1390</date>
+    <source style="" id="ns213">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w197294">bosco de Heywud'</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w197320">Heywode</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w197320">Heywod</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w197353">Haywode</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w197353">Haywod</searchterm>
+  </extension>
+ </mads>
+ 

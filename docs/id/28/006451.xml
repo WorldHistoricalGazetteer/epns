@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000032">
+  <authority ID="epns-deep-28-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006451">Temple Normanton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000032" type="broader">
+   <geographic>Temple Normanton</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w245614">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006452">Normantune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w245649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006453">Normanton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w245716">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006454">Normanton Templer</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w245744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006455">North Normanton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00191f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3738800" lat="53.2065200" gazref="geonames:7293282" source="geonames"/>
+   <geo long="-1.378639016252219" lat="53.20266831341583" gazref="unlock:11298586" source="unlock"/>
+   <geo easting="441500" northing="367500" long="-1.38016" lat="53.203" kepnref="3313" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w245614">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245614">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <source style="" id="db547">Templars</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245649">
+    <date subtype="simple" begin="1200" end="1225">e. 13th</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245649">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245649">
+    <attestation variantID="epns-deep-28-b-name-w245649">
+     <date subtype="simple" begin="1284" end="1286">1284-6</date>
+     <source style="" id="db182">FA</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245716">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w245744">
+    <date subtype="simple" begin="1460" end="1460">1460</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w245614">Normantune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w245649">Normantona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w245649">Normanton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w245716">Normanton Templer</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w245744">North Normanton</searchterm>
+  </extension>
+ </mads>
+ 

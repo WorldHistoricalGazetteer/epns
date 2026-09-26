@@ -25,7 +25,7 @@ const SYM = new URL('symphonym/', location.href).href;
 window.deep = { ready: false, renders: 0, coreLoaded: false, mapIdle: false, map: null, state: null };
 
 const S = {
-  manifest: null, core: null, rowOf: new Map(), kids: new Map(), byId: new Map(), counties: [],
+  manifest: null, core: null, rowOf: new Map(), kids: new Map(), byId: new Map(), byU: new Map(), counties: [],
   shards: new Map(), shardLoading: new Map(),
   worker: null, pending: new Map(), seq: 0, qTok: 0, indexReady: false, phonReady: false, phonBusy: false,
   current: null, currentRec: null, lastResults: null, map: null, selectedGid: -1, basemap: null,
@@ -136,6 +136,7 @@ function indexCore() {
     const p = c.parent[i];
     if (p >= 0) { const arr = S.kids.get(p); if (arr) arr.push(i); else S.kids.set(p, [i]); }
     S.byId.set(`${c.counties[c.county[i]]?.code}-${c.code[i]}-${c.types[c.type[i]]}-${c.seq[i]}`, c.gid[i]);
+    if (c.u && c.u[i] != null) S.byU.set(`${c.counties[c.county[i]]?.code}/${c.u[i]}`, c.gid[i]);
   }
   S.counties = c.counties;
   for (const arr of S.kids.values()) arr.sort((a, b) => (c.title[a] || '').localeCompare(c.title[b] || ''));
@@ -845,9 +846,25 @@ function wireUI() {
   window.addEventListener('resize', positionDrawer);
 }
 
+/* #u=<county>/<serial>: DEEP's own record URI number (placenames.org.uk/id/placename/<county>/<serial>),
+   the identifier a persistent-URL scheme would carry. Field-names live only in the county file. */
+async function openByU(ref) {
+  const m = /^(\d+)\/0*(\d+)$/.exec(ref);
+  if (!m) return false;
+  const key = `${m[1]}/${parseInt(m[2], 10)}`;
+  if (S.byU.has(key)) { await openPlace(S.byU.get(key)); return true; }
+  const shard = await shardFor(m[1]).catch(() => null);
+  if (!shard) return false;
+  const rec = shard.places.find((r) => r.u === parseInt(m[2], 10));
+  if (!rec) return false;
+  await openPlace(rec.g);
+  return true;
+}
+
 async function applyHash() {
   const h = new URLSearchParams(location.hash.replace(/^#/, ''));
   if (h.get('id')) { const ok = await openById(h.get('id')); if (!ok) showDrawer(`<div class="rs-status warn">No place with id ${esc(h.get('id'))}.</div>`); }
+  else if (h.get('u')) { const ok = await openByU(h.get('u')); if (!ok) showDrawer(`<div class="rs-status warn">No record numbered ${esc(h.get('u'))} in the DEEP data.</div>`); }
   else if (h.get('q')) { $('q').value = h.get('q'); doSearch(h.get('q')); }
 }
 

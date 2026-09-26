@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000020">
+  <authority ID="epns-deep-72-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/003563">East Ruston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d0f"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4947200" lat="52.8006600" gazref="geonames:7298995" source="geonames"/>
+   <geo long="1.470836965" lat="52.7894093" source="epns"/>
+   <geo long="1.478597764851501" lat="52.79368032204758" gazref="unlock:11136559" source="unlock"/>
+   <geo easting="634500" northing="327500" long="1.47676" lat="52.7941" kepnref="9458" source="kepn"/>
+  </extension>
+ </mads>
+ 

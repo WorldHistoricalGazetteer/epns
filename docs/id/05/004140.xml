@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000362">
+  <authority ID="epns-deep-05-b-name-subparish-000362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004140">Burneston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000130" type="broader">
+   <geographic>Burneston</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w303678">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004141">Brennigston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600043d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5297500" lat="54.2614600" gazref="geonames:2654276" source="geonames"/>
+   <geo long="-1.531687220397819" lat="54.26409399515672" gazref="unlock:11093270" source="unlock"/>
+   <geo easting="430500" northing="485500" long="-1.53323" lat="54.2643" kepnref="6014" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w303678">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w303678">Brennigston</searchterm>
+  </extension>
+ </mads>
+ 

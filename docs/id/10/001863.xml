@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000078">
+  <authority ID="epns-deep-10-a-name-parish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001863">Hollowell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000005" type="broader">
+   <geographic>Guilsborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000449"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9885700" lat="52.3353100" gazref="geonames:7296613" source="geonames"/>
+   <geo long="-0.9945178363589507" lat="52.33691576348215" gazref="unlock:11177221" source="unlock"/>
+   <geo easting="468500" northing="271500" long="-0.996044" lat="52.3373" kepnref="10948" source="kepn"/>
+  </extension>
+ </mads>
+ 

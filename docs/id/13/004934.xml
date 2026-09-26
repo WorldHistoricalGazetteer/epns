@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000121">
+  <authority ID="epns-deep-13-b-name-subparish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004934">Brandon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000125" type="broader">
+   <geographic>Brandon and Bretford</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w257463">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004935">Brandune</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004936">Brandon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257522">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004937">Braundon</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257585">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004938">Brawndon</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004939">Bramdun, Brampdon</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257631">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004940">Bramdon</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257649">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004941">Brawne al. Brandon</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w257680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004942">Brandon al. Brawne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287435b47fc40c5f00073f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3995600" lat="52.3819900" gazref="geonames:2654897" source="geonames"/>
+   <geo long="-1.404881853205668" lat="52.38465191326613" gazref="unlock:11085689" source="unlock"/>
+   <geo easting="440500" northing="276500" long="-1.40636" lat="52.385" kepnref="5022" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w257463">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257481">
+    <attestation variantID="epns-deep-13-b-name-w257481">
+     <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+     <source style="italic" id="wa149">Kenilworth</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257522">
+    <date end="1195" begin="1175" subtype="circa">c. 1185</date>
+    <source style="" id="wa171">Madox</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257522">
+    <attestation variantID="epns-deep-13-b-name-w257522">
+     <date end="1199" begin="1199" subtype="simple">1199</date>
+     <source style="" id="wa108">FF</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w257522">
+     <date end="1656" begin="1656" subtype="simple">1656</date>
+     <source style="" id="wa89">Dugdale</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257585">
+    <date end="1612" begin="1612" subtype="simple">1612</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257603">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257631">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="wa138">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257649">
+    <date end="1614" begin="1614" subtype="simple">1614</date>
+    <source style="italic" id="wa257">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w257680">
+    <date end="1654" begin="1654" subtype="simple">1654</date>
+    <date end="1659" begin="1659" subtype="simple">1659</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w257463">Brandune</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257481">Brandone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257481">Brandon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257522">Braundon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257585">Brawndon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257603">Bramdun</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257603">Brampdon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257631">Bramdon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257649">Brawne</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257649">Brandon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257680">Brandon</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w257680">Brawne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000015">
+  <authority ID="epns-deep-50-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002752">Lambourn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000017" type="broader">
+   <geographic>Lambourn</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w107099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002753">(æt) Lambburnan</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002754">(æt) Lamburnan</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002755">Lamborne, Lanborne</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002756">Lamburna</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002757">Lamborn', Lamburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002758">Chepinglamburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002759">Chipping Lamborne</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w107459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002760">Laumburn'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b73"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5310500" lat="51.5080500" gazref="geonames:2644993" source="geonames"/>
+   <geo easting="433500" northing="179500" long="-1.51863" lat="51.5134" kepnref="3118" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w107099">
+    <date subtype="circa" begin="870" end="890">c. 880</date>
+    <copydate end="1025" begin="1000">e. 11th</copydate>
+    <source style="" id="be104">EHD</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107137">
+    <date subtype="circa" begin="970" end="990">c. 980</date>
+    <source style="" id="be23">ASWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107180">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107208">
+    <attestation variantID="epns-deep-50-b-name-w107208">
+     <date subtype="simple" begin="1156" end="1156">1156</date>
+     <source style="" id="be256">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107259">
+    <date end="1600" begin="1156">1156-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107281">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="be56">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107426">
+    <date subtype="simple" begin="1754" end="1754">1754</date>
+    <source style="" id="be16">ArchJ</source>
+    <page>15</page>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w107459">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="be64">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w107099">æt Lambburnan</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107099">Lambburnan</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107137">æt Lamburnan</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107137">Lamburnan</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107180">Lamborne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107180">Lanborne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107208">Lamburna</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107259">Lamborn'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107259">Lamburne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107259">Lamburn</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107281">Chepinglamburne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107281">Chepinglamburn</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107426">Chipping Lamborne</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w107459">Laumburn'</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000191">
+  <authority ID="epns-deep-02-a-name-parish-000191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004196">Chesham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000017" type="broader">
+   <geographic>Burnham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000256"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6000000" lat="51.7000000" gazref="geonames:2653235" source="geonames"/>
+   <geo long="-0.6033716041519663" lat="51.7034739163697" gazref="unlock:11104530" source="unlock"/>
+   <geo easting="496500" northing="201500" long="-0.604918" lat="51.704" kepnref="11385" source="kepn"/>
+  </extension>
+ </mads>
+ 

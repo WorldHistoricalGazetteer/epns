@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000084">
+  <authority ID="epns-deep-98-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002028">Eaton Bray</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000085" type="broader">
+   <geographic>Eaton Bray</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w157814">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002029">Eiton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002030">Eitun</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002031">Æiton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002032">Etton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002033">Ehton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002034">Eyton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w157973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002035">Eton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000336"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5916700" lat="51.8769700" gazref="geonames:2650295" source="geonames"/>
+   <geo long="-0.5835627302796079" lat="51.87409822228744" gazref="unlock:11137598" source="unlock"/>
+   <geo easting="497500" northing="220500" long="-0.585118" lat="51.8746" kepnref="4309" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w157814">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157814">
+    <attestation variantID="epns-deep-98-b-name-w157814">
+     <date subtype="simple" begin="1130" end="1130">1130</date>
+     <source style="" id="bh142">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-98-b-name-w157814">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="bh54">Dunst</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157864">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157878">
+    <date subtype="simple" begin="1159" end="1159">1159</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157892">
+    <date subtype="simple" begin="1164" end="1164">1164</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157906">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157920">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="bh108">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157920">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157920">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <date subtype="simple" begin="1491" end="1491">1491</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157973">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157973">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157973">
+    <date subtype="simple" begin="1338" end="1338">1338</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w157973">
+    <date subtype="simple" begin="1490" end="1490">1490</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w157814">Eitona</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157814">Eiton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157864">Eitun</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157878">Æiton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157892">Etton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157906">Ehton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157920">Eyton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w157973">Eton</searchterm>
+  </extension>
+ </mads>
+ 

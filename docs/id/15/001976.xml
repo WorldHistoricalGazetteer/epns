@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000030">
+  <authority ID="epns-deep-15-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001976">Aldenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000033" type="broader">
+   <geographic>Aldenham</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w97009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001977">(æt) Ældenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001978">Aldenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001979">Ealdenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001980">Ealdanham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001981">Eldehā</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001982">Aldeham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97179">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001983">Audeham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001984">Audenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001985">Awdenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001986">Aldham al. Aldenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97265">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001987">Alnam al. Aldenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w97300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001988">Aldnam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000763"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3535700" lat="51.6736300" gazref="geonames:2657553" source="geonames"/>
+   <geo long="-0.3584101145039851" lat="51.67332686737453" gazref="unlock:11057969" source="unlock"/>
+   <geo easting="511500" northing="198500" long="-0.388894" lat="51.6742" kepnref="4582" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w97009">
+    <date subtype="simple" begin="785" end="785">785</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="he23">BCS</source>
+    <item>245</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97043">
+    <attestation variantID="epns-deep-15-b-name-w97043">
+     <date subtype="simple" begin="969" end="969">969</date>
+     <copydate end="1100" begin="1000">11th</copydate>
+     <source style="" id="he68">Crawford</source>
+     <item>vi</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97086">
+    <date subtype="circa" begin="1050" end="1070">c. 1060</date>
+    <source style="italic" id="he338">WDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97086">
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <source style="italic" id="he65">CottCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97122">
+    <date subtype="century" begin="1000" end="1100">11th</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97144">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97160">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="he2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97179">
+    <date subtype="simple" begin="1246" end="1246">1246</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97196">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="italic" id="he114" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97215">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="he113">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97233">
+    <date subtype="simple" begin="1645" end="1645">1645</date>
+    <source style="italic" id="he268">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97265">
+    <date subtype="simple" begin="1645" end="1645">1645</date>
+    <source style="" id="he186">Moulton</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w97300">
+    <date subtype="simple" begin="1662" end="1662">1662</date>
+    <source style="" id="he119">Fuller</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w97009">æt Ældenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97009">Ældenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97043">Aldenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97086">Ealdenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97122">Ealdanham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97144">Eldehā</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97160">Aldeham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97179">Audeham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97196">Audenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97215">Awdenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97233">Aldham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97233">Aldenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97265">Alnam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97265">Aldenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w97300">Aldnam</searchterm>
+  </extension>
+ </mads>
+ 

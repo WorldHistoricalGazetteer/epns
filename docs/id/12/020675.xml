@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000454">
+  <authority ID="epns-deep-12-a-name-parish-000454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020675">Berden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000020" type="broader">
+   <geographic>Clavering Half-Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bbf"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1355300" lat="51.9474900" gazref="geonames:2655866" source="geonames"/>
+   <geo long="0.1316726643812689" lat="51.94425122892371" gazref="unlock:11075730" source="unlock"/>
+   <geo easting="546500" northing="229500" long="0.130032" lat="51.9447" kepnref="12605" source="kepn"/>
+  </extension>
+ </mads>
+ 

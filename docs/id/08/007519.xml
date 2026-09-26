@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000135">
+  <authority ID="epns-deep-08-b-name-subparish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007519">Bickleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000135" type="broader">
+   <geographic>Bickleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w385295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007520">Bicheleia</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w385314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007521">Bickeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w385334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007522">Bikeleg(he), Bykelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w385393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007523">Bykelegh(e) juxta Boclond</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w385431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/007524">Bikleg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0827900" lat="50.4419800" gazref="geonames:2655722" source="geonames"/>
+   <geo long="-4.077570981334449" lat="50.44317975035079" gazref="unlock:11076516" source="unlock"/>
+   <geo easting="252500" northing="62500" long="-4.07868" lat="50.4438" kepnref="15592" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w385295">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w385314">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w385334">
+    <attestation variantID="epns-deep-08-b-name-w385334">
+     <date end="1225" begin="1225" subtype="simple">1225</date>
+     <source style="" id="de188">Pat</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w385334">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="de258">Tax</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w385393">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w385431">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w385295">Bicheleia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385314">Bickeleye</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385334">Bikeleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385334">Bikeleg</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385334">Bykeleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385334">Bykelegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385393">Bykeleghe juxta Boclond</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385393">Bykelegh juxta Boclond</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w385431">Bikleg</searchterm>
+  </extension>
+ </mads>
+ 

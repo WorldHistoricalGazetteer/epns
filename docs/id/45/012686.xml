@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000099">
+  <authority ID="epns-deep-45-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/012686">Goostrey cum Barnshaw</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-cy-chapelry-000007" type="broader">
+   <geographic>Goostrey Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w573326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/012687">Gostre et Berneshagh'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w573360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/012688">Goostree cum Barneshawe</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w573393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/012689">Barnshaw cum Goostrey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo easting="377500" northing="369500" long="-2.33843" lat="53.2221" kepnref="11854" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w573326">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w573360">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="italic" id="ch162" underspec="ib">Dav</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w573393">
+    <date subtype="simple" begin="1845" end="1845">1845</date>
+    <source style="" id="ch823">ChetOS</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w573326">Gostre et Berneshagh'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w573360">Goostree cum Barneshawe</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w573393">Barnshaw cum Goostrey</searchterm>
+  </extension>
+ </mads>
+ 

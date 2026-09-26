@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000077">
+  <authority ID="epns-deep-06-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002454">Coates</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000077" type="broader">
+   <geographic>Coates</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w196608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002455">Kotes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196634">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002456">Cothes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196655">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002457">Cotes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002458">Cottes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196719">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002459">Coot(e)s</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ccc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5834301614315301" lat="50.94779142165647" gazref="unlock:11111243" source="unlock"/>
+   <geo easting="499500" northing="117500" long="-0.584949" lat="50.9484" kepnref="6939" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w196608">
+    <date subtype="circa" begin="1132" end="1152">c. 1142</date>
+    <source style="" id="su103">France</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196634">
+    <date subtype="circa" begin="1278" end="1298">c. 1288</date>
+    <source style="" id="su208">Perc</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196655">
+    <attestation variantID="epns-deep-06-b-name-w196655">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="su282">Tax</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w196655">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196692">
+    <date subtype="simple" begin="1504" end="1515">1504-15</date>
+    <source style="" id="su81">ECP</source>
+    <item>4</item>
+    <page>246</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196719">
+    <date subtype="simple" begin="1587" end="1587">1587</date>
+    <date subtype="simple" begin="1589" end="1589">1589</date>
+    <source style="" id="su297">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w196608">Kotes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196634">Cothes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196655">Cotes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196692">Cottes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196719">Cootes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196719">Coots</searchterm>
+  </extension>
+ </mads>
+ 

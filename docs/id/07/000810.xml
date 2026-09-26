@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000013">
+  <authority ID="epns-deep-07-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000810">Worth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000001" type="broader">
+   <geographic>Buttinghill Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c52"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1468600" lat="51.1121200" gazref="geonames:2633526" source="geonames"/>
+   <geo long="-0.1219134483045574" lat="51.09418234658179" gazref="unlock:11327391" source="unlock"/>
+   <geo easting="529500" northing="136500" long="-0.151318" lat="51.1132" kepnref="7032" source="kepn"/>
+  </extension>
+ </mads>
+ 

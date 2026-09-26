@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000128">
+  <authority ID="epns-deep-07-b-name-subparish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007412">Westfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000129" type="broader">
+   <geographic>Westfield</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w443538">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007413">Westewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007414">Westefelde</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007415">Westefeud</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443613">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007416">Westerfeud</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000daf"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5755400" lat="50.9102300" gazref="geonames:2634419" source="geonames"/>
+   <geo long="0.5820168564895601" lat="50.90984050212924" gazref="unlock:11318576" source="unlock"/>
+   <geo easting="581500" northing="115500" long="0.580368" lat="50.9104" kepnref="7144" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w443538">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443558">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="su24">Bello</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443558">
+    <date end="1124" begin="1107" subtype="simple">1107-24</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443593">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443613">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w443538">Westewelle</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443558">Westefelde</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443593">Westefeud</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443613">Westerfeud</searchterm>
+  </extension>
+ </mads>
+ 

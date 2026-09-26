@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000091">
+  <authority ID="epns-deep-05-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000849">Brawby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000038" type="broader">
+   <geographic>Salton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w74382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000850">Bragebi, Brageby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000851">Brahebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000852">Brauby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w74450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000853">Braby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600058f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8715200" lat="54.1933300" gazref="geonames:7290406" source="geonames"/>
+   <geo long="-0.8732578442446309" lat="54.1968161890632" gazref="unlock:11085977" source="unlock"/>
+   <geo easting="473500" northing="478500" long="-0.874878" lat="54.197" kepnref="5742" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w74382">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74408">
+    <date subtype="simple" begin="1165" end="1165">1165</date>
+    <source style="" id="ny236">YCh</source>
+    <page>778</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74430">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w74450">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w74382">Bragebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74382">Brageby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74408">Brahebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74430">Brauby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w74450">Braby</searchterm>
+  </extension>
+ </mads>
+ 

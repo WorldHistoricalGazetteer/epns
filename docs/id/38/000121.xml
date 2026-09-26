@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000002">
+  <authority ID="epns-deep-38-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/000121">Barnsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000001" type="broader">
+   <geographic>Brightwells Barrow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001906"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8833300" lat="51.7333300" gazref="geonames:2656285" source="geonames"/>
+   <geo long="-1.898603668" lat="51.74320291" source="epns"/>
+   <geo long="-1.891350270331218" lat="51.74769324364626" gazref="unlock:11070646" source="unlock"/>
+   <geo easting="407500" northing="205500" long="-1.89275" lat="51.7481" kepnref="6191" source="kepn"/>
+  </extension>
+ </mads>
+ 

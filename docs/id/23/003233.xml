@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000022">
+  <authority ID="epns-deep-23-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/003233">Shirburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000003" type="broader">
+   <geographic>Pyrton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00073d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9911300" lat="51.6571400" gazref="geonames:2637942" source="geonames"/>
+   <geo long="-0.9952553098544158" lat="51.65352369311239" gazref="unlock:11283000" source="unlock"/>
+   <geo easting="469500" northing="195500" long="-0.996754" lat="51.654" kepnref="3543" source="kepn"/>
+  </extension>
+ </mads>
+ 

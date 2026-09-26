@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000240">
+  <authority ID="epns-deep-05-b-name-subparish-000240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003096">Low Worsall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000093" type="broader">
+   <geographic>Kirkleavington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w232015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003097">Wercesel, Wirceshel, Wercheshal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003098">Wirkeshale, Wyrkeshale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003099">Estwirkeshala</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003100">Werkeshal'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232158">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003101">Wirkesale, Wyrkesale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003102">Wyrkesale Parva</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003103">Wirkesall</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003104">Wirsal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003105">Parva Worsall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000511"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3858100" lat="54.4765200" gazref="geonames:7300703" source="geonames"/>
+   <geo long="-1.390317014551019" lat="54.47918171651707" gazref="unlock:11207685" source="unlock"/>
+   <geo easting="439500" northing="509500" long="-1.39189" lat="54.4793" kepnref="5892" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w232015">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232059">
+    <attestation variantID="epns-deep-05-b-name-w232059">
+     <date subtype="simple" begin="1154" end="1181">1154-81</date>
+     <source style="" id="ny81">Guis</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w232059">
+     <date subtype="simple" begin="1335" end="1335">1335</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232115">
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232137">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232158">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232158">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ny100">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232158">
+    <date subtype="simple" begin="1367" end="1367">1367</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232206">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232231">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232231">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232261">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <copydate end="1603" begin="1558">Eliz</copydate>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232261">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232298">
+    <date subtype="simple" begin="1483" end="1483">1483</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w232015">Wercesel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232015">Wirceshel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232015">Wercheshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232015">Wercheshal</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232059">Wirkeshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232059">Wyrkeshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232115">Estwirkeshala</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232137">Werkeshal'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232158">Wirkesale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232158">Wyrkesale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232206">Wyrkesale Parva</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232231">Wirkesall</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232261">Wirsale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232261">Wirsal</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232298">Parva Worsall</searchterm>
+  </extension>
+ </mads>
+ 

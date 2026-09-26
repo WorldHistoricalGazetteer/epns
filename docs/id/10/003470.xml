@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000153">
+  <authority ID="epns-deep-10-b-name-subparish-000153">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003470">Hannington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000153" type="broader">
+   <geographic>Hannington</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w190528">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003471">Hanitone, Hanintone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w190557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003472">Haninton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w190632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003473">Hanynton, Hattington, Hanyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w190657">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003474">Hanyngton juxta Waldegrave</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w190695">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003475">Hanyton, Haniton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w190742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003476">Henigtun'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000588"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8053800" lat="52.3294800" gazref="geonames:7299002" source="geonames"/>
+   <geo long="-0.8037379332458693" lat="52.33513805476694" gazref="unlock:11165438" source="unlock"/>
+   <geo easting="481500" northing="271500" long="-0.805286" lat="52.3355" kepnref="11023" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w190528">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w190557">
+    <attestation variantID="epns-deep-10-b-name-w190557">
+     <date end="1195" begin="1195" subtype="simple">1195</date>
+     <source style="" id="nh100">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w190557">
+     <date end="1349" begin="1349" subtype="simple">1349</date>
+     <source style="" id="nh132">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w190632">
+    <date end="1349" begin="1195">1195-1349</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w190657">
+    <date end="1361" begin="1361" subtype="simple">1361</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w190695">
+    <attestation variantID="epns-deep-10-b-name-w190695">
+     <date end="1220" begin="1220" subtype="simple">1220</date>
+     <source style="" id="nh99">Fees</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w190695">
+     <date end="1376" begin="1376" subtype="simple">1376</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w190742">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w190528">Hanitone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190528">Hanintone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190557">Hanintone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190557">Haninton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190632">Hanynton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190632">Hattington</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190632">Hanyngton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190657">Hanyngton juxta Waldegrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190695">Hanyton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190695">Haniton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w190742">Henigtun'</searchterm>
+  </extension>
+ </mads>
+ 

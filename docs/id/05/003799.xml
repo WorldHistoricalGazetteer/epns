@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000324">
+  <authority ID="epns-deep-05-b-name-subparish-000324">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003799">South Otterington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000119" type="broader">
+   <geographic>North Otterington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w277704">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003800">Ostrinctune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w277725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003801">Sonotrinctune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w277752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003802">Otheringeton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000551"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4269000" lat="54.2821000" gazref="geonames:2637352" source="geonames"/>
+   <geo long="-1.4239604130659" lat="54.28160436084458" gazref="unlock:11287820" source="unlock"/>
+   <geo easting="436500" northing="489500" long="-1.44063" lat="54.2998" kepnref="5975" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w277704">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w277725">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>51</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w277752">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w277704">Ostrinctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w277725">Sonotrinctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w277752">Otheringeton'</searchterm>
+  </extension>
+ </mads>
+ 

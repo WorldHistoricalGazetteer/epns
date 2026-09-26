@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000072">
+  <authority ID="epns-deep-79-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/006516">Briningham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000003" type="broader">
+   <geographic>Holt Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000cfc"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.0093100" lat="52.8660800" gazref="geonames:7299442" source="geonames"/>
+   <geo long="1.016124423" lat="52.86480688" source="epns"/>
+   <geo long="1.023855313279314" lat="52.86910807597162" gazref="unlock:11087422" source="unlock"/>
+   <geo easting="603500" northing="334500" long="1.02207" lat="52.8695" kepnref="9493" source="kepn"/>
+  </extension>
+ </mads>
+ 

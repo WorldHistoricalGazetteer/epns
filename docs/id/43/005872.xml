@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000015">
+  <authority ID="epns-deep-43-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005872">Newbiggin</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000001" type="broader">
+   <geographic>East Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f001389"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5805900" lat="54.6514900" gazref="geonames:2641721" source="geonames"/>
+   <geo long="-2.58267" lat="54.6502" source="epns"/>
+   <geo long="-2.581238679818964" lat="54.65009419851755" gazref="unlock:11229655" source="unlock"/>
+   <geo easting="362500" northing="528500" long="-2.58267" lat="54.6502" kepnref="5155" source="kepn"/>
+  </extension>
+ </mads>
+ 

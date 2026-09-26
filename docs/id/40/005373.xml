@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000045">
+  <authority ID="epns-deep-40-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005373">St George</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000043" type="broader">
+   <geographic>St George</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w235715">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005374">par. St George's</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w235744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005375">St George's</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ba0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.546956471" lat="51.45421562" source="epns"/>
+   <geo long="-2.539813207041325" lat="51.4587457262357" gazref="unlock:11276472" source="unlock"/>
+   <geo kepnexref="362" long="-2.541142" lat="51.459225" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w235715">
+    <date end="1638" begin="1638" subtype="simple">1638</date>
+    <source style="" id="go410">PR</source>
+    <page>16</page>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w235744">
+    <date end="1779" begin="1779" subtype="simple">1779</date>
+    <source style="" id="go447">Rudder</source>
+    <page>458</page>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w235715">par. St George's</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w235744">St George's</searchterm>
+  </extension>
+ </mads>
+ 

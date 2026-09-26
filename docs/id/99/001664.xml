@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000087">
+  <authority ID="epns-deep-99-a-name-parish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001664">Great Staughton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000004" type="broader">
+   <geographic>Toseland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000268"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3411800" lat="52.2676300" gazref="geonames:2648014" source="geonames"/>
+   <geo long="-0.35123343593687" lat="52.26674341823061" gazref="unlock:11159262" source="unlock"/>
+   <geo easting="512500" northing="264500" long="-0.352832" lat="52.2672" kepnref="4214" source="kepn"/>
+  </extension>
+ </mads>
+ 

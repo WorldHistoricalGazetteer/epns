@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000058">
+  <authority ID="epns-deep-11-a-name-parish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003064">Walton-on-Thames</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000005" type="broader">
+   <geographic>Elmbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287108b47fc40c23000a77"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4206600" lat="51.3853300" gazref="geonames:2634825" source="geonames"/>
+   <geo long="-0.411824559221158" lat="51.38627764759649" gazref="unlock:11312922" source="unlock"/>
+   <geo easting="510500" northing="166500" long="-0.41338" lat="51.3868" kepnref="8298" source="kepn"/>
+  </extension>
+ </mads>
+ 

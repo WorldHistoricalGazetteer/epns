@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000136">
+  <authority ID="epns-deep-04-b-name-subparish-000136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003398">Newland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000138" type="broader">
+   <geographic>Newland</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w290438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003399">Nova Terra</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w290465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003400">Nova Landa</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w290519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003401">Newelond</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2918700" lat="52.1446400" gazref="geonames:7291043" source="geonames"/>
+   <geo long="-2.299538194328637" lat="52.13401190824609" gazref="unlock:11230241" source="unlock"/>
+   <geo easting="379500" northing="248500" long="-2.3009" lat="52.1344" kepnref="5312" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w290438">
+    <date end="1127" begin="1127" subtype="simple">1127</date>
+    <copydate end="1321" begin="1321">1321</copydate>
+    <source style="" id="wo23">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w290465">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="wo23">Ch</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w290465">
+    <date end="1255" begin="1235" subtype="circa">c. 1245</date>
+    <source style="italic" id="wo17">Bodl</source>
+    <item>5</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w290465">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w290519">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w290438">Nova Terra</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w290465">Nova Landa</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w290519">Newelond</searchterm>
+  </extension>
+ </mads>
+ 

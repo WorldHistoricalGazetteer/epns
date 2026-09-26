@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000180">
+  <authority ID="epns-deep-09-b-name-subparish-000180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009420">Talaton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000180" type="broader">
+   <geographic>Talaton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w424244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009421">Taleton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w424274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009422">Talleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w424316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009423">Talliton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3227000" lat="50.7880100" gazref="geonames:2636311" source="geonames"/>
+   <geo long="-3.326571985306461" lat="50.7869570187308" gazref="unlock:11297228" source="unlock"/>
+   <geo easting="306500" northing="99500" long="-3.32777" lat="50.7875" kepnref="15851" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w424244">
+    <attestation variantID="epns-deep-09-b-name-w424244">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w424274">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="de147">Montacute</source>
+    <page>171</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w424274">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w424316">
+    <date end="1587" begin="1587" subtype="simple">1587</date>
+    <source style="" id="de277">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w424244">Taletona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w424244">Taleton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w424274">Talletone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w424274">Talleton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w424316">Talliton</searchterm>
+  </extension>
+ </mads>
+ 

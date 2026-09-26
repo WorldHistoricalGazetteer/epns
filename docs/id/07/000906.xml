@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-hu-subcounty-000002">
+  <authority ID="epns-deep-07-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000906">Poynings Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-ra-abovesubcounty-000001" type="broader">
+   <geographic>Rape of Lewes</geographic>
+  </related>
+  <variant ID="epns-deep-07-hu-name-w63120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000907">Poninges</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w63147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/000908">Ponyngg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c7d"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-07-hu-name-w63120">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w63120">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w63147">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-hu-name-w63120">Poninges</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w63147">Ponyngg</searchterm>
+  </extension>
+ </mads>
+ 

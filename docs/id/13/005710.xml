@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000135">
+  <authority ID="epns-deep-13-a-name-parish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005710">Lillington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Stoneleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f00068e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5184300" lat="52.3017100" gazref="geonames:2644504" source="geonames"/>
+   <geo long="-1.523302181277509" lat="52.30426712927446" gazref="unlock:11194910" source="unlock"/>
+   <geo easting="432500" northing="267500" long="-1.52477" lat="52.3047" kepnref="5033" source="kepn"/>
+  </extension>
+ </mads>
+ 

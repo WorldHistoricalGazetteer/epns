@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000031">
+  <authority ID="epns-deep-96-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/001647">Hauxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000003" type="broader">
+   <geographic>Thriplow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000701"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1018000" lat="52.1489200" gazref="geonames:2647318" source="geonames"/>
+   <geo long="0.09771146164309703" lat="52.15170352916879" gazref="unlock:11167497" source="unlock"/>
+   <geo easting="543500" northing="251500" long="0.0956442" lat="52.1432" kepnref="4002" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000125">
+  <authority ID="epns-deep-15-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006759">Wyddial</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000006" type="broader">
+   <geographic>Edwinstree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace000757"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0036900" lat="51.9645200" gazref="geonames:2633461" source="geonames"/>
+   <geo long="0.001606242235771394" lat="51.96452141257845" gazref="unlock:11327796" source="unlock"/>
+   <geo easting="537500" northing="231500" long="-1.99914e-05" lat="51.965" kepnref="4681" source="kepn"/>
+  </extension>
+ </mads>
+ 

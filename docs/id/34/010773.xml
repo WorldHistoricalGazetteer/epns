@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000110">
+  <authority ID="epns-deep-34-b-name-subparish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/010773">Lindrick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w445468">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/010774">Lyndric</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w445488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/010775">Lyndrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w445510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/010776">Lynrigg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100621b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.586818402" lat="54.12497246" source="epns"/>
+   <geo long="-1.579121444269735" lat="54.12944148955999" gazref="unlock:11172068" source="unlock"/>
+   <geo easting="427500" northing="468500" long="-1.58083" lat="54.1116" kepnref="14829" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w445468">
+    <date end="1300" begin="1275" subtype="simple">l. 13</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w445488">
+    <date end="1581" begin="1581" subtype="simple">1581</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w445510">
+    <date end="1589" begin="1589" subtype="simple">1589</date>
+    <source style="" id="wr551">PRRip</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w445468">Lyndric</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w445488">Lyndrigge</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w445510">Lynrigg</searchterm>
+  </extension>
+ </mads>
+ 

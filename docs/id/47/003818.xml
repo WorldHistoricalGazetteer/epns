@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000046">
+  <authority ID="epns-deep-47-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003818">Coddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000009" type="broader">
+   <geographic>Coddington</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w207493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003819">Coddington-cum-Beachin</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f8e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8166700" lat="53.0833300" gazref="geonames:2652660" source="geonames"/>
+   <geo long="-2.836255035" lat="53.08897452" source="epns"/>
+   <geo long="-2.813942902707569" lat="53.09362547454294" gazref="unlock:11111787" source="unlock"/>
+   <geo easting="345500" northing="355500" long="-2.81528" lat="53.0939" kepnref="12062" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w207493">
+    <date end="1721" begin="1721" subtype="simple">1721</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w207493">Coddington-cum-Beachin</searchterm>
+  </extension>
+ </mads>
+ 

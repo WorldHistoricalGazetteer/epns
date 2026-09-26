@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000294">
+  <authority ID="epns-deep-12-a-name-parish-000294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/013034">Boxted</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000015" type="broader">
+   <geographic>Lexden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bcc"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.9166700" lat="51.9500000" gazref="geonames:2655038" source="geonames"/>
+   <geo long="0.9042522284633088" lat="51.96369557189884" gazref="unlock:11084449" source="unlock"/>
+   <geo easting="599500" northing="233500" long="0.902522" lat="51.9642" kepnref="12462" source="kepn"/>
+  </extension>
+ </mads>
+ 

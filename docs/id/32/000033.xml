@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-a-parish-000001">
+  <authority ID="epns-deep-32-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000033">Dewsbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-wp-subcounty-000001" type="broader">
+   <geographic>Morley Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005f8f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6290700" lat="53.6907600" gazref="geonames:2651286" source="geonames"/>
+   <geo long="-1.628879669579677" lat="53.69813800296429" gazref="unlock:11129209" source="unlock"/>
+   <geo kepnexref="321" long="-1.63039" lat="53.6984" source="kepn"/>
+  </extension>
+ </mads>
+ 

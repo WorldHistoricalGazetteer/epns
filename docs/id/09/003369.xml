@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000067">
+  <authority ID="epns-deep-09-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003369">Washfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000005" type="broader">
+   <geographic>West Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00187e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5163500" lat="50.9281000" gazref="geonames:2634720" source="geonames"/>
+   <geo long="-3.515607198403448" lat="50.92855992096503" gazref="unlock:11313957" source="unlock"/>
+   <geo easting="293500" northing="115500" long="-3.51679" lat="50.9291" kepnref="15734" source="kepn"/>
+  </extension>
+ </mads>
+ 

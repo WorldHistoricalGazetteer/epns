@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000388">
+  <authority ID="epns-deep-05-b-name-subparish-000388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004390">Rand Grange</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000134" type="broader">
+   <geographic>Bedale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w320652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004391">Randes</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w320672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004392">Rand(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600041f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6038600" lat="54.2974700" gazref="geonames:7302008" source="geonames"/>
+   <geo long="-1.608201903223167" lat="54.29133198374877" gazref="unlock:11252537" source="unlock"/>
+   <geo easting="425500" northing="488500" long="-1.60974" lat="54.2915" kepnref="6040" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w320652">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>27</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320672">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320672">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>112 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w320672">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w320652">Randes</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w320672">Rande</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w320672">Rand</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000117">
+  <authority ID="epns-deep-96-a-name-parish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004961">Girton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000013" type="broader">
+   <geographic>Northstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0833300" lat="52.2333300" gazref="geonames:2648627" source="geonames"/>
+   <geo long="0.08731039936052963" lat="52.24181733718168" gazref="unlock:11152770" source="unlock"/>
+   <geo easting="542500" northing="262500" long="0.0856625" lat="52.2422" kepnref="4078" source="kepn"/>
+  </extension>
+ </mads>
+ 

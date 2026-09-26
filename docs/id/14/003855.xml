@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000101">
+  <authority ID="epns-deep-14-a-name-parish-000101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003855">Skerne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000004" type="broader">
+   <geographic>Bainton Beacon Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d000415"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4058900" lat="53.9821900" gazref="geonames:2637737" source="geonames"/>
+   <geo long="-0.4061497906473147" lat="53.98477898854729" gazref="unlock:11284646" source="unlock"/>
+   <geo easting="504500" northing="455500" long="-0.407817" lat="53.985" kepnref="8555" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000030">
+  <authority ID="epns-deep-02-a-name-parish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000469">Woolstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000002" type="broader">
+   <geographic>Seckloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000301"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7166700" lat="52.0333300" gazref="geonames:2633588" source="geonames"/>
+   <geo long="-0.7242122509093996" lat="52.0375696782211" gazref="unlock:11327062" source="unlock"/>
+   <geo easting="487500" northing="238500" long="-0.725758" lat="52.038" kepnref="11223" source="kepn"/>
+  </extension>
+ </mads>
+ 

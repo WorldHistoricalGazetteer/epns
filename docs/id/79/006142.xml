@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000067">
+  <authority ID="epns-deep-79-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/006142">Wolterton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d76"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.207629788" lat="52.84179522" source="epns"/>
+   <geo long="1.214711290328985" lat="52.83710740553191" gazref="unlock:11324971" source="unlock"/>
+   <geo easting="616500" northing="331500" long="1.21291" lat="52.8375" kepnref="9221" source="kepn"/>
+  </extension>
+ </mads>
+ 

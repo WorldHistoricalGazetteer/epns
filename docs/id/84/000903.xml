@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000003">
+  <authority ID="epns-deep-84-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/000903">Bringhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001087"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7580000" lat="52.5183000" gazref="geonames:7295415" source="geonames"/>
+   <geo long="-0.7544040709689928" lat="52.52345245271937" gazref="unlock:11087416" source="unlock"/>
+   <geo easting="484500" northing="292500" long="-0.755966" lat="52.5238" kepnref="8752" source="kepn"/>
+  </extension>
+ </mads>
+ 

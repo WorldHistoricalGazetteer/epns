@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000006">
+  <authority ID="epns-deep-34-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000339">Green Hammerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000003" type="broader">
+   <geographic>Whixley</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w15331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000340">Ambretone, Hambretone</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w15362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000341">Hamertun, Hamerton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w15475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000342">Gren(e) Hamerton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w15556">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000343">Green(e) Hamerton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w15603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000344">Grenehammerton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810062ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3013400" lat="54.0051000" gazref="geonames:2647970" source="geonames"/>
+   <geo long="-1.298204728" lat="53.99779226" source="epns"/>
+   <geo long="-1.305757329915802" lat="54.00233193495119" gazref="unlock:11159739" source="unlock"/>
+   <geo easting="446500" northing="457500" long="-1.29191" lat="54.0114" kepnref="14726" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w15331">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15362">
+    <date end="1127" begin="1121" subtype="simple">1121-7</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1428</page>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15362">
+    <date end="1168" begin="1168" subtype="simple">1168</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15362">
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <source style="" id="wr796">YCh</source>
+    <item>738</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15362">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>4d</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15362">
+    <attestation variantID="epns-deep-34-b-name-w15362">
+     <date end="1200" begin="1200" subtype="simple">1200</date>
+     <source style="" id="wr91">ChR</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w15362">
+     <date end="1397" begin="1397" subtype="simple">1397</date>
+     <source style="" id="wr787">Works</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15475">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15475">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15475">
+    <date end="1225" begin="1200" subtype="simple">e. 13</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15475">
+    <attestation variantID="epns-deep-34-b-name-w15475">
+     <date end="1226" begin="1226" subtype="simple">1226</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w15475">
+     <date end="1586" begin="1586" subtype="simple">1586</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15556">
+    <date end="1651" begin="1651" subtype="simple">1651</date>
+    <source style="italic" id="wr913">YAS Md</source>
+    <page>54</page>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15556">
+    <date end="1692" begin="1692" subtype="simple">1692</date>
+    <source style="italic" id="wr99">Comm</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w15603">
+    <date end="1405" begin="1405" subtype="simple">1405</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w15331">Ambretone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15331">Hambretone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15362">Hamertun</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15362">Hamertona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15362">Hamerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15475">Grene Hamerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15475">Gren Hamerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15556">Greene Hamerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15556">Green Hamerton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w15603">Grenehammerton</searchterm>
+  </extension>
+ </mads>
+ 

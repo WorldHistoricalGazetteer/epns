@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-hu-subcounty-000020">
+  <authority ID="epns-deep-07-hu-name-subcounty-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003502">Loxfield Camden Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-ra-abovesubcounty-000002" type="broader">
+   <geographic>Rape of Pevensey</geographic>
+  </related>
+  <variant ID="epns-deep-07-hu-name-w227258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003503">Lochesfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w227277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003504">Lockesfeld, Lokkesfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c75"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-07-hu-name-w227258">
+    <date subtype="simple" begin="1130" end="1130">1130</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w227277">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w227277">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="su243">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-hu-name-w227258">Lochesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w227277">Lockesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w227277">Lokkesfeld</searchterm>
+  </extension>
+ </mads>
+ 

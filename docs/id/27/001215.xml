@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000008">
+  <authority ID="epns-deep-27-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001215">Birchover</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000008" type="broader">
+   <geographic>Birchover</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w52418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001216">Barcovere</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w52437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001217">Birchehoure</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w52471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001218">Birchouer(e), Birchour(e), Byrchouer(e), Byrchour(e), Byrchover(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w52568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001219">Birchenouere</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001811"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6381300" lat="53.1547200" gazref="geonames:7298134" source="geonames"/>
+   <geo long="-1.648504953472017" lat="53.15881993062827" gazref="unlock:11077496" source="unlock"/>
+   <geo easting="423500" northing="362500" long="-1.64999" lat="53.1591" kepnref="3208" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w52418">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w52437">
+    <date end="1200" begin="1175" subtype="simple">late 12th</date>
+    <source style="italic" id="db589">WollCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w52471">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w52471">
+    <attestation variantID="epns-deep-27-b-name-w52471">
+     <date end="1265" begin="1265" subtype="simple">1265</date>
+     <source style="" id="db317">Misc</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w52568">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w52418">Barcovere</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52437">Birchehoure</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Birchouere</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Birchouer</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Birchoure</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Birchour</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchouere</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchouer</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchoure</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchour</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchovere</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52471">Byrchover</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w52568">Birchenouere</searchterm>
+  </extension>
+ </mads>
+ 

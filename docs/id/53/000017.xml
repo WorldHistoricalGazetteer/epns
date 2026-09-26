@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-b-subparish-000001">
+  <authority ID="epns-deep-53-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/000017">Branksome</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-a-parish-000001" type="broader">
+   <geographic>Branksome</geographic>
+  </related>
+  <variant ID="epns-deep-53-b-name-w864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/000018">Branksome Tower</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852f9b47fc4099d002ae6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9234400" lat="50.7321000" gazref="geonames:8063665" source="geonames"/>
+   <geo long="-1.929144003" lat="50.73242195" source="epns"/>
+   <geo long="-1.922059879969773" lat="50.7315185322178" gazref="unlock:11085772" source="unlock"/>
+   <geo kepnexref="381" long="-1.92979" lat="50.7334" source="kepn"/>
+   <attestation variantID="epns-deep-53-b-name-w864">
+    <date end="1863" begin="1863" subtype="simple">1863</date>
+    <source style="" id="do360">Hutch3</source>
+   </attestation>
+   <searchterm variantID="epns-deep-53-b-name-w864">Branksome Tower</searchterm>
+  </extension>
+ </mads>
+ 

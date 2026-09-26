@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000037">
+  <authority ID="epns-deep-76-b-name-subparish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/008106">Hatton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000022" type="broader">
+   <geographic>Eaton under Heywood</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w360328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/008107">Hetton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w360344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/008108">Heton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w360363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/008109">Hatton'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w360405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/008110">Hatton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53f1a1a3b47fc42616000269"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.783917981" lat="52.50762928" source="epns"/>
+   <attestation variantID="epns-deep-76-b-name-w360328">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="ss207">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w360344">
+    <date end="1256" begin="1255" subtype="simple">1255-6</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w360363">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <date end="1231" begin="1231" subtype="simple">31</date>
+    <source style="" id="ss51">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w360363">
+    <date end="1262" begin="1261" subtype="simple">1261-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w360405">
+    <date end="1551" begin="1551" subtype="simple">1551</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w360328">Hetton'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w360344">Heton'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w360363">Hatton'</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w360405">Hatton</searchterm>
+  </extension>
+ </mads>
+ 

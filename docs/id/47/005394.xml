@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000065">
+  <authority ID="epns-deep-47-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/005394">Lea Newbold</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-cy-chapelry-000002" type="broader">
+   <geographic>Bruera Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w287094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/005395">Le Lee et Newbold</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w287123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/005396">Lea cum Newbold</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8457800" lat="53.1282600" gazref="geonames:7294603" source="geonames"/>
+   <geo long="-2.851896624" lat="53.12482492" source="epns"/>
+   <geo long="-2.829567693629164" lat="53.1294788547147" gazref="unlock:11192844" source="unlock"/>
+   <geo easting="344500" northing="359500" long="-2.83091" lat="53.1298" kepnref="12081" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w287094">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w287123">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ch474" underspec="ib">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w287123">
+    <date end="1842" begin="1842" subtype="simple">1842</date>
+    <source style="" id="ch477">OS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w287094">Le Lee et Newbold</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w287123">Lea cum Newbold</searchterm>
+  </extension>
+ </mads>
+ 

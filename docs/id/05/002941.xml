@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000220">
+  <authority ID="epns-deep-05-b-name-subparish-000220">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002941">Kildale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000085" type="broader">
+   <geographic>Kildale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w223079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002942">Childale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w223097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002943">Kildalam, Kildale, Kyldale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w223170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002944">Kylldayll</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w223194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002945">Kildall, Kyldall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0652400" lat="54.4754200" gazref="geonames:2645683" source="geonames"/>
+   <geo long="-1.066221202796842" lat="54.47711261613787" gazref="unlock:11185955" source="unlock"/>
+   <geo easting="460500" northing="509500" long="-1.06783" lat="54.4773" kepnref="5872" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w223079">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w223097">
+    <date subtype="simple" begin="1119" end="1119">1119</date>
+    <date subtype="simple" begin="1129" end="1129">1129</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w223097">
+    <attestation variantID="epns-deep-05-b-name-w223097">
+     <date subtype="simple" begin="1179" end="1190">1179-90</date>
+     <source style="" id="ny236">YCh</source>
+     <page>659</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w223170">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <copydate end="1600" begin="1500">16</copydate>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w223194">
+    <date subtype="simple" begin="1382" end="1382">1382</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w223194">
+    <date subtype="simple" begin="1418" end="1418">1418</date>
+    <source style="" id="ny136">NCyWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w223079">Childale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223097">Kildalam</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223097">Kildale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223097">Kyldale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223170">Kylldayll</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223194">Kildall</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w223194">Kyldall</searchterm>
+  </extension>
+ </mads>
+ 

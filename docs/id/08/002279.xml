@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000039">
+  <authority ID="epns-deep-08-b-name-subparish-000039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002279">Abbotsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000039" type="broader">
+   <geographic>Abbotsham</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w122847">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002280">Hama</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w122861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002281">A(b)bedisham</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w122901">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002282">Abbudesham</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w122924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002283">Abbodesham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2460900" lat="51.0162500" gazref="geonames:2657866" source="geonames"/>
+   <geo long="-4.245656905592798" lat="51.01574038868569" gazref="unlock:11055295" source="unlock"/>
+   <geo easting="242500" northing="126500" long="-4.24676" lat="51.0163" kepnref="15496" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w122847">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w122861">
+    <date end="1193" begin="1193" subtype="simple">1193</date>
+    <source style="" id="de174">Oliver</source>
+    <page>95</page>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w122861">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w122901">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w122924">
+    <date end="1282" begin="1282" subtype="simple">1282</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w122847">Hama</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w122861">Abbedisham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w122861">Abedisham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w122901">Abbudesham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w122924">Abbodesham</searchterm>
+  </extension>
+ </mads>
+ 

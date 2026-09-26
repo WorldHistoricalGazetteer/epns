@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000087">
+  <authority ID="epns-deep-30-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009243">Dalton Parva</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000057" type="broader">
+   <geographic>Rotherham</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w415509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009244">altera Daltune</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w415543">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009245">Nethyr Dalton</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w415568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009246">Little Dalton</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w415597">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/009247">Dalton Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006227"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.315020997893001" lat="53.43605753182678" gazref="unlock:11126866" source="unlock"/>
+   <geo kepnexref="341" long="-1.316570" lat="53.436323" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w415509">
+    <date subtype="simple" begin="1164" end="1181">1164-81</date>
+    <source style="italic" id="wr341">Lewes</source>
+    <item>25d</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w415543">
+    <date subtype="simple" begin="1482" end="1482">1482</date>
+    <source style="" id="wr799">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w415568">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <date subtype="simple" begin="1616" end="1616">1616</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w415597">
+    <date subtype="simple" begin="1822" end="1822">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w415509">altera Daltune</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w415543">Nethyr Dalton</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w415568">Little Dalton</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w415597">Dalton Parva</searchterm>
+  </extension>
+ </mads>
+ 

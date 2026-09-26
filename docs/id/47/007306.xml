@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000086">
+  <authority ID="epns-deep-47-b-name-subparish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/007306">Blacon cum Crabwall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000027" type="broader">
+   <geographic>St Oswald's &amp; Holy Trinity</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w404171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/007307">Blacon cum Crabwall</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w404202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/007308">Blaken cum Crabwall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600204d"/>
+  </recordInfo>
+  <extension>
+   <geo easting="338500" northing="368500" long="-2.9223" lat="53.21" kepnref="12107" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w404171">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w404202">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <source style="italic" id="ch110">ChFor</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w404171">Blacon cum Crabwall</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w404202">Blaken cum Crabwall</searchterm>
+  </extension>
+ </mads>
+ 

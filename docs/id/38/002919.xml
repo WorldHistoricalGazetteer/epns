@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000032">
+  <authority ID="epns-deep-38-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002919">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000032" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w139318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002920">Prestitvne</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w139338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002921">Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w139404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002922">Preston juxta Cyrenc'</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w139438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002923">Prestetone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9333300" lat="51.7000000" gazref="geonames:2639918" source="geonames"/>
+   <geo long="-1.942116643" lat="51.69827155" source="epns"/>
+   <geo long="-1.934874755779901" lat="51.70276459139126" gazref="unlock:11249849" source="unlock"/>
+   <geo easting="404500" northing="200500" long="-1.93627" lat="51.7032" kepnref="6223" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w139318">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w139338">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w139338">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w139338">
+    <attestation variantID="epns-deep-38-b-name-w139338">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="go504">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w139338">
+     <date subtype="simple" begin="1587" end="1587">1587</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w139404">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w139438">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w139318">Prestitvne</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w139338">Preston</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w139404">Preston juxta Cyrenc'</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w139438">Prestetone</searchterm>
+  </extension>
+ </mads>
+ 

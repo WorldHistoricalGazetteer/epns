@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000054">
+  <authority ID="epns-deep-99-b-name-subparish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001068">Ellington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000054" type="broader">
+   <geographic>Ellington</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w323377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001069">Elintune</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w323407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001070">Elint(h)on, Elynton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w323480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001071">Elindon</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w323497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001072">Elyngton, Elington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a900033a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2993800" lat="52.3325600" gazref="geonames:2650092" source="geonames"/>
+   <geo long="-0.3048859185802253" lat="52.32903293119816" gazref="unlock:11139374" source="unlock"/>
+   <geo easting="516500" northing="271500" long="-0.291824" lat="52.3292" kepnref="4182" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w323377">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323377">
+    <date subtype="simple" begin="1106" end="1113">1106-13</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323407">
+    <date subtype="simple" begin="1207" end="1207">1207</date>
+    <source style="italic" id="bh143">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323407">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323407">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323407">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323407">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323480">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323497">
+    <date subtype="simple" begin="1267" end="1285">1267-85</date>
+    <source style="" id="bh3">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323497">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323497">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w323497">
+    <attestation variantID="epns-deep-99-b-name-w323497">
+     <date subtype="simple" begin="1346" end="1346">1346</date>
+     <source style="" id="bh31">Cl</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w323377">Elintune</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323407">Elinthon</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323407">Elinton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323407">Elynton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323480">Elindon</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323497">Elyngton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w323497">Elington</searchterm>
+  </extension>
+ </mads>
+ 

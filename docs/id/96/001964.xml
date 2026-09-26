@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000041">
+  <authority ID="epns-deep-96-a-name-parish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/001964">Ickleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000004" type="broader">
+   <geographic>Whittlesford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000707"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1773700" lat="52.0722800" gazref="geonames:2646303" source="geonames"/>
+   <geo long="0.1814012355761435" lat="52.06924628489957" gazref="unlock:11182084" source="unlock"/>
+   <geo easting="549500" northing="243500" long="0.17975" lat="52.0697" kepnref="4010" source="kepn"/>
+  </extension>
+ </mads>
+ 

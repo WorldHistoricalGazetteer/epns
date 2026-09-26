@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000167">
+  <authority ID="epns-deep-05-b-name-subparish-000167">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002003">Sneaton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000063" type="broader">
+   <geographic>Sneaton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w159007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002004">Snetune, Sneton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w159056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002005">Snetton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w159085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002006">Ouersneyton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6193507705196007" lat="54.45485642244461" gazref="unlock:11286293" source="unlock"/>
+   <geo easting="489500" northing="507500" long="-0.621014" lat="54.455" kepnref="5818" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w159007">
+    <attestation variantID="epns-deep-05-b-name-w159007">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w159007">
+     <date subtype="simple" begin="1665" end="1665">1665</date>
+     <source style="" id="ny224">Visit</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w159056">
+    <date subtype="simple" begin="1163" end="1163">1163</date>
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w159085">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w159007">Snetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w159007">Sneton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w159056">Snetton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w159085">Ouersneyton'</searchterm>
+  </extension>
+ </mads>
+ 

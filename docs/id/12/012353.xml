@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000206">
+  <authority ID="epns-deep-12-b-name-subparish-000206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012353">Ramsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000282" type="broader">
+   <geographic>Ramsey</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w613022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012354">Rameseiam</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w613041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012355">Rameseye</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w613084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012356">Rammesye</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w613102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012357">Rampsey Hall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e78"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2167400" lat="51.9286500" gazref="geonames:2639665" source="geonames"/>
+   <geo long="1.222067677798154" lat="51.92843478683881" gazref="unlock:11252455" source="unlock"/>
+   <geo easting="621500" northing="230500" long="1.2203" lat="51.9289" kepnref="12450" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w613022">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w613041">
+    <date subtype="simple" begin="1234" end="1258">1234-58</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w613041">
+    <date subtype="simple" begin="1248" end="1255">1248-55</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w613041">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w613084">
+    <date subtype="simple" begin="1223" end="1223">1223</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w613102">
+    <date subtype="simple" begin="1412" end="1412">1412</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w613022">Rameseiam</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w613041">Rameseye</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w613084">Rammesye</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w613102">Rampsey Hall</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000005">
+  <authority ID="epns-deep-40-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000547">Rangeworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000001" type="broader">
+   <geographic>Thornbury Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4501500" lat="51.5738900" gazref="geonames:2639648" source="geonames"/>
+   <geo long="-2.447348543" lat="51.57154109" source="epns"/>
+   <geo long="-2.454608579041878" lat="51.57601011909583" gazref="unlock:11252592" source="unlock"/>
+   <geo easting="369500" northing="186500" long="-2.44151" lat="51.5765" kepnref="6451" source="kepn"/>
+  </extension>
+ </mads>
+ 

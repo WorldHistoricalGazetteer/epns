@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-hu-subcounty-000019">
+  <authority ID="epns-deep-16-hu-name-subcounty-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007577">Branch and Dole Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-co-county-000001" type="broader">
+   <geographic>Wiltshire</geographic>
+  </related>
+  <variant ID="epns-deep-16-hu-name-w372808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007578">Hundred de Brench et Dollefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-16-hu-name-w372848">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007579">hundred of Branchandole</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886ddb47fc40d38000d3f"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-16-hu-name-w372808">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-hu-name-w372848">
+    <date end="1646" begin="1646" subtype="simple">1646</date>
+    <source style="" id="ws297">Sess</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-hu-name-w372808">Hundred de Brench et Dollefeld</searchterm>
+   <searchterm variantID="epns-deep-16-hu-name-w372848">hundred of Branchandole</searchterm>
+  </extension>
+ </mads>
+ 

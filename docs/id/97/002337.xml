@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000029">
+  <authority ID="epns-deep-97-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002337">Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000032" type="broader">
+   <geographic>Newton</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w502254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002338">(to) niwantune</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002339">Newenton, Nuenton</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002340">Neuton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002341">Neuton(e) iuxta Leuerington</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502394">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002342">Neuton(e) in Mers(che)lond</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002343">Neuton(e) by Wysbech</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002344">Newton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w502494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/002345">Newton(e) Colvyle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007e1"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1251400" lat="52.7095700" gazref="geonames:2641564" source="geonames"/>
+   <geo easting="543500" northing="314500" long="0.122666" lat="52.7091" kepnref="4123" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w502254">
+    <date end="982" begin="962" subtype="circa">c. 972</date>
+    <source style="" id="ce18">ASCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502282">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="ce20">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502310">
+    <attestation variantID="epns-deep-97-b-name-w502310">
+     <date end="1223" begin="1203" subtype="circa">c. 1213</date>
+     <source style="" id="ce175">Fees</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-97-b-name-w502310">
+     <date end="1457" begin="1457" subtype="simple">1457</date>
+     <source style="" id="ce343">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502354">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="ce20">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502394">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="italic" id="ce20" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502431">
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="" id="ce343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502462">
+    <attestation variantID="epns-deep-97-b-name-w502462">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="ce444">Tax</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w502494">
+    <date end="1603" begin="1558" subtype="regnal">t. Eliz</date>
+    <source style="italic" id="ce93">Cole</source>
+    <item>xxxvii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w502254">to niwantune</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502254">niwantune</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502282">Newenton</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502282">Nuenton</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502310">Neutone</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502310">Neuton</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502354">Neutone iuxta Leuerington</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502354">Neuton iuxta Leuerington</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502394">Neutone in Merschelond</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502394">Neutone in Merslond</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502394">Neuton in Merschelond</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502394">Neuton in Merslond</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502431">Neutone by Wysbech</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502431">Neuton by Wysbech</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502462">Newtone</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502462">Newton</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502494">Newtone Colvyle</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w502494">Newton Colvyle</searchterm>
+  </extension>
+ </mads>
+ 

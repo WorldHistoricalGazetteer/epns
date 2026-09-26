@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000159">
+  <authority ID="epns-deep-09-b-name-subparish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008130">Huntsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000159" type="broader">
+   <geographic>Huntsham</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w368127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008131">Honessam</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008132">Honesham</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008133">Honesham juxta Baunton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008134">Hunnesham</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008135">Hunesham</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008136">Hunsam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001989"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4245900" lat="50.9736100" gazref="geonames:2646379" source="geonames"/>
+   <geo long="-3.417390406482597" lat="50.97476317952371" gazref="unlock:11181464" source="unlock"/>
+   <geo easting="300500" northing="120500" long="-3.41859" lat="50.9753" kepnref="15830" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w368127">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368152">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368152">
+    <attestation variantID="epns-deep-09-b-name-w368152">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>775</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w368152">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368205">
+    <date end="1323" begin="1323" subtype="simple">1323</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368238">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368258">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="de264">Var</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368277">
+    <date end="1543" begin="1543" subtype="simple">1543</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w368127">Honessam</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368152">Honesham</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368205">Honesham juxta Baunton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368238">Hunnesham</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368258">Hunesham</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368277">Hunsam</searchterm>
+  </extension>
+ </mads>
+ 

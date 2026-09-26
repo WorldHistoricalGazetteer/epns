@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000044">
+  <authority ID="epns-deep-24-b-name-subparish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003829">Broadwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000041" type="broader">
+   <geographic>Broadwell</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w142712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003830">Bradewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w142764">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003831">Bradewell', Bradewell, Bradeuell'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w142813">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003832">Bradwella</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w142831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003833">Bradeswell'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w142851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003834">Brodewell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6333300" lat="51.7333300" gazref="geonames:2654627" source="geonames"/>
+   <geo long="-1.630741313757008" lat="51.72917906900638" gazref="unlock:11088200" source="unlock"/>
+   <geo easting="425500" northing="203500" long="-1.63217" lat="51.7296" kepnref="3676" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w142712">
+    <attestation variantID="epns-deep-24-b-name-w142712">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w142712">
+     <date subtype="simple" begin="1369" end="1369">1369</date>
+     <source style="" id="ox112">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w142764">
+    <date end="1369" begin="1086">1086-1369</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w142813">
+    <date subtype="simple" begin="1194" end="1194">1194</date>
+    <source style="" id="ox168">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w142831">
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="ox168">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w142851">
+    <date subtype="simple" begin="1517" end="1517">1517</date>
+    <source style="" id="ox60">D Inc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w142712">Bradewelle</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142764">Bradewell'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142764">Bradewell</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142764">Bradeuell'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142813">Bradwella</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142831">Bradeswell'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w142851">Brodewell</searchterm>
+  </extension>
+ </mads>
+ 

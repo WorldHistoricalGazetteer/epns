@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000044">
+  <authority ID="epns-deep-52-a-name-parish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/013221">Winterborne Kingston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000005" type="broader">
+   <geographic>Bere Regis Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a96"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1976200" lat="50.7778800" gazref="geonames:2633801" source="geonames"/>
+   <geo long="-2.195753254" lat="50.77814687" source="epns"/>
+   <geo long="-2.191490483055262" lat="50.77635569731711" gazref="unlock:11324258" source="unlock"/>
+   <geo easting="386500" northing="97500" long="-2.19282" lat="50.7769" kepnref="11435" source="kepn"/>
+  </extension>
+ </mads>
+ 

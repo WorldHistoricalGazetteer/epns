@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000054">
+  <authority ID="epns-deep-23-a-name-parish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006308">Dorchester</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000007" type="broader">
+   <geographic>Dorchester Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1665200" lat="51.6446000" gazref="geonames:2651100" source="geonames"/>
+   <geo long="-1.168879140723831" lat="51.64588827287767" gazref="unlock:11130755" source="unlock"/>
+   <geo easting="457500" northing="194500" long="-1.17036" lat="51.6464" kepnref="3575" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000079">
+  <authority ID="epns-deep-09-b-name-subparish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004122">St Thomas</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000079" type="broader">
+   <geographic>Exeter St Thomas</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w187877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004123">Kapellis…Sancti Thome</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w187919">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004124">ecclesia Sancti Thome</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w187954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004125">parochia Sci Thomae ultra pontem Exon</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w188003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004126">Saynt Thomas Churche</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00195e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5511173833497" lat="50.71223228574795" gazref="unlock:11276957" source="unlock"/>
+   <geo kepnexref="0083" long="-3.539554" lat="50.71499" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w187877">
+    <date end="1215" begin="1209" subtype="simple">1209-15</date>
+    <source style="" id="de103">HMC</source>
+    <item>iv</item>
+    <page>63</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w187919">
+    <date end="1366" begin="1366" subtype="simple">1366</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w187954">
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w188003">
+    <date end="1600" begin="1500" subtype="century">16th</date>
+    <source style="" id="de174">Oliver</source>
+    <page>104</page>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w187877">Kapellis…Sancti Thome</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w187919">ecclesia Sancti Thome</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w187954">parochia Sci Thomae ultra pontem Exon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w188003">Saynt Thomas Churche</searchterm>
+  </extension>
+ </mads>
+ 

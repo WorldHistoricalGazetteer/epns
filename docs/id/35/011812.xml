@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-a-parish-000022">
+  <authority ID="epns-deep-35-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/011812">Bolton by Bowland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-wp-subcounty-000002" type="broader">
+   <geographic>West Staincliffe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288216b47fc40c81005f6e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3333300" lat="53.9333300" gazref="geonames:2655234" source="geonames"/>
+   <geo long="-2.335146743" lat="53.93645207" source="epns"/>
+   <geo easting="378500" northing="449500" long="-2.329" lat="53.9412" kepnref="14921" source="kepn"/>
+  </extension>
+ </mads>
+ 

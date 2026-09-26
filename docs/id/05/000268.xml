@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000031">
+  <authority ID="epns-deep-05-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000268">Myton on Swale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000012" type="broader">
+   <geographic>Myton on Swale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w21680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000269">æt nyðtune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w21718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000270">mytun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w21738">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000271">Mitune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w21754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000272">Myton(e), Miton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w21818">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000273">Mitton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w21859">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000274">Mytoun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600054a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3166700" lat="54.0833300" gazref="geonames:2641921" source="geonames"/>
+   <geo easting="443500" northing="466500" long="-1.3364" lat="54.0926" kepnref="5682" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w21680">
+    <date subtype="simple" begin="972" end="972">972</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="ny15">BCS</source>
+    <item>1278</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21718">
+    <date subtype="simple" begin="972" end="972">972</date>
+    <source style="" id="ny15">BCS</source>
+    <item>1279</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21738">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21754">
+    <date subtype="circa" begin="1100" end="1106">c. 1100-6</date>
+    <source style="" id="ny236">YCh</source>
+    <page>791</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21754">
+    <attestation variantID="epns-deep-05-b-name-w21754">
+     <date subtype="simple" begin="1130" end="1135">1130-5</date>
+     <source style="" id="ny236">YCh</source>
+     <page>792</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21818">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21818">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="italic" id="ny53">Ebor</source>
+    <page>9</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21818">
+    <date subtype="simple" begin="1406" end="1406">1406</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w21859">
+    <date subtype="simple" begin="1375" end="1375">1375</date>
+    <source style="italic" id="ny301">Barbour's Bruce</source>
+    <item>xvii</item>
+    <page>1</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w21680">æt nyðtune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21718">mytun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21738">Mitune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21754">Mytone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21754">Myton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21754">Mitone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21754">Miton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21818">Mitton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w21859">Mytoun</searchterm>
+  </extension>
+ </mads>
+ 

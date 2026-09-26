@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000019">
+  <authority ID="epns-deep-04-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000657">Kyre Magna</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000019" type="broader">
+   <geographic>Kyre Magna al. Kyre Wyard</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w57024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000658">Cyr</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000659">Chure, Cuer</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000660">Cura, Cure</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000661">Wyard</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000662">Cures</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000663">Cureward</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000664">Cuyre</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000665">Curwyard</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w57235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000666">Keeres Common</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005bb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5500000" lat="52.2666700" gazref="geonames:2645081" source="geonames"/>
+   <geo easting="362500" northing="263500" long="-2.55093" lat="52.2684" kepnref="5199" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w57024">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57041">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57062">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57062">
+    <date end="1212" begin="1210" subtype="simple">1210-2</date>
+    <source style="" id="wo167">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57062">
+    <date end="1293" begin="1287" subtype="simple">1287-1293</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57124">
+    <date end="1323" begin="1323" subtype="simple">1323</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57124">
+    <date end="1431" begin="1431" subtype="simple">1431</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57150">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57165">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57184">
+    <date end="1308" begin="1308" subtype="simple">1308</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57184">
+    <date end="1415" begin="1415" subtype="simple">1415</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57211">
+    <date end="1324" begin="1324" subtype="simple">1324</date>
+    <date end="1328" begin="1328" subtype="simple">1328</date>
+    <source style="" id="wo23">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w57235">
+    <date end="1667" begin="1667" subtype="simple">1667</date>
+    <source style="" id="wo59">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w57024">Cyr</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57041">Chure</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57041">Cuer</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57062">Cura</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57062">Cure</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57124">Wyard</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57150">Cures</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57165">Cureward</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57184">Cuyre</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57211">Curwyard</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w57235">Keeres Common</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000007">
+  <authority ID="epns-deep-82-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000492">Newtown</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000001" type="broader">
+   <geographic>Baschurch</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w26517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000493">Newetowne</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w26542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000494">New Towne</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w26566">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000495">Newtowne</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w26615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000496">Newton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a62db47fc4463d000e85"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.852834223" lat="52.79396591" source="epns"/>
+   <geo long="-2.852887227491675" lat="52.79666380253349" gazref="unlock:11231180" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w26517">
+    <date subtype="simple" begin="1516" end="1516">1516</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>3651</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w26542">
+    <date subtype="regnal" begin="1509" end="1547">Hy 8</date>
+    <source style="italic" id="ss400">RentSur</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w26566">
+    <date subtype="simple" begin="1545" end="1545">1545</date>
+    <copydate end="1773" begin="1773">1773</copydate>
+    <source style="italic" id="ss267">SBL</source>
+    <item>17285</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w26566">
+    <date subtype="simple" begin="1554" end="1554">1554</date>
+    <source style="" id="ss265">SAS</source>
+    <item>2/XI</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w26615">
+    <date subtype="simple" begin="1777" end="1777">1777</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>16874</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w26517">Newetowne</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w26542">New Towne</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w26566">Newtowne</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w26615">Newton</searchterm>
+  </extension>
+ </mads>
+ 

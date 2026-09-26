@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000151">
+  <authority ID="epns-deep-05-b-name-subparish-000151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001680">Irton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000057" type="broader">
+   <geographic>Seamer</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w135175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001681">Iretun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001682">Irton(a), Yrton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135247">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001683">Hirton(a), Hyrton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w135305">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001684">Urton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4580600" lat="54.2492700" gazref="geonames:7299289" source="geonames"/>
+   <geo long="-0.4421452437457965" lat="54.24594878237685" gazref="unlock:11183341" source="unlock"/>
+   <geo easting="500500" northing="484500" long="-0.459161" lat="54.2463" kepnref="5802" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w135175">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135175">
+    <date subtype="simple" begin="1170" end="1170">1170</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135202">
+    <attestation variantID="epns-deep-05-b-name-w135202">
+     <date subtype="circa" begin="1213" end="1233">c. 1223</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135247">
+    <date subtype="circa" begin="1213" end="1233">c. 1223</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135247">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135247">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w135305">
+    <date subtype="simple" begin="1572" end="1572">1572</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w135175">Iretune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135175">Iretun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135202">Irtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135202">Irton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135202">Yrtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135202">Yrton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135247">Hirtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135247">Hirton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135247">Hyrtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135247">Hyrton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w135305">Urton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000078">
+  <authority ID="epns-deep-16-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003953">South Wraxall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000082" type="broader">
+   <geographic>South Wraxall</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w197717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003954">Wroxhal</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w197734">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003955">Wrokeshal'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w197930">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003956">Suthwroxhall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e47"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2423600" lat="51.3818200" gazref="geonames:2637274" source="geonames"/>
+   <geo long="-2.237103265980445" lat="51.37881469066222" gazref="unlock:11288102" source="unlock"/>
+   <geo kepnexref="216" long="-2.239759" lat="51.375718" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w197717">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ws106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w197734">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w197930">
+    <date subtype="simple" begin="1468" end="1468">1468</date>
+    <source style="" id="ws147">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w197717">Wroxhal</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w197734">Wrokeshal'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w197930">Suthwroxhall</searchterm>
+  </extension>
+ </mads>
+ 

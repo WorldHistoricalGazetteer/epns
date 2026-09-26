@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000025">
+  <authority ID="epns-deep-84-a-name-parish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/008068">Kibworth Harcourt</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010be"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9949100" lat="52.5443900" gazref="geonames:2645728" source="geonames"/>
+   <geo long="-0.9897995172403716" lat="52.54367836626527" gazref="unlock:11185763" source="unlock"/>
+   <geo easting="468500" northing="294500" long="-0.991335" lat="52.5441" kepnref="8981" source="kepn"/>
+  </extension>
+ </mads>
+ 

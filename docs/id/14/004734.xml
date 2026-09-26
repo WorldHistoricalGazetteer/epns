@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000220">
+  <authority ID="epns-deep-14-b-name-subparish-000220">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004734">Newton upon Derwent</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000126" type="broader">
+   <geographic>Wilberfoss</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w312565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004735">Niweton'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004736">Neweton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312612">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004737">Neuton, Newton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004738">Newton iuxta Derewent</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312710">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004739">Newton on Derwent, Newton super Derwent</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004740">Newton nere Darwent</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w312808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004741">Bridge Newton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000580"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8955228535495537" lat="53.93633757694248" gazref="unlock:11231113" source="unlock"/>
+   <geo easting="472500" northing="449500" long="-0.897129" lat="53.9366" kepnref="8599" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w312565">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <date end="1194" begin="1194" subtype="simple">1194</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312594">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312612">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="italic" id="ey161">Kirkham</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312612">
+    <attestation variantID="epns-deep-14-b-name-w312612">
+     <date end="1233" begin="1233" subtype="simple">1233</date>
+     <source style="" id="ey91">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w312612">
+     <date end="1504" begin="1504" subtype="simple">1504</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312675">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="italic" id="ey356">Warter</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312710">
+    <date end="1371" begin="1371" subtype="simple">1371</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312710">
+    <date end="1447" begin="1447" subtype="simple">1447</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312772">
+    <date end="1542" begin="1542" subtype="simple">1542</date>
+    <source style="" id="ey215">NCWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w312808">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="ey327">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w312565">Niweton'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312594">Neweton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312612">Neuton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312612">Newton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312675">Newton iuxta Derewent</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312710">Newton on Derwent</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312710">Newton super Derwent</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312772">Newton nere Darwent</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w312808">Bridge Newton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000325">
+  <authority ID="epns-deep-05-b-name-subparish-000325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003803">Thornton le Beans</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000119" type="broader">
+   <geographic>North Otterington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w277928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003804">Gri(s)torentun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w277952">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003805">Grisethorntune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w277980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003806">Thorinton super vivarium</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w278015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003807">Thorn(e)ton in Vivar'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000552"/>
+  </recordInfo>
+  <extension>
+   <geo easting="439500" northing="490500" long="-1.39441" lat="54.3086" kepnref="5977" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w277928">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w277952">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>51</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w277980">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w278015">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w277928">Gristorentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w277928">Gritorentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w277952">Grisethorntune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w277980">Thorinton super vivarium</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w278015">Thorneton in Vivar'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w278015">Thornton in Vivar'</searchterm>
+  </extension>
+ </mads>
+ 

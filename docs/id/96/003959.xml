@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000086">
+  <authority ID="epns-deep-96-a-name-parish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/003959">Cottenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000010" type="broader">
+   <geographic>Chesterton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006d3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1254000" lat="52.2874300" gazref="geonames:2652269" source="geonames"/>
+   <geo long="0.1333771250019961" lat="52.28595798082704" gazref="unlock:11117199" source="unlock"/>
+   <geo easting="545500" northing="267500" long="0.131722" lat="52.2864" kepnref="4051" source="kepn"/>
+  </extension>
+ </mads>
+ 

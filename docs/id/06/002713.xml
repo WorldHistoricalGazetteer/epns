@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000085">
+  <authority ID="epns-deep-06-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002713">Barnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000085" type="broader">
+   <geographic>Barnham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w217368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002714">Berneha(m)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w217409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002715">Bernham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ca4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6378900" lat="50.8312000" gazref="geonames:2656293" source="geonames"/>
+   <geo long="-0.6295620623984087" lat="50.83142030100785" gazref="unlock:11070514" source="unlock"/>
+   <geo easting="496500" northing="104500" long="-0.631071" lat="50.832" kepnref="6947" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w217368">
+    <attestation variantID="epns-deep-06-b-name-w217368">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w217368">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w217409">
+    <attestation variantID="epns-deep-06-b-name-w217409">
+     <date subtype="simple" begin="1105" end="1105">1105</date>
+     <source style="" id="su103">France</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w217409">
+     <date subtype="simple" begin="1492" end="1492">1492</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w217368">Berneham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w217368">Berneha</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w217409">Bernham</searchterm>
+  </extension>
+ </mads>
+ 

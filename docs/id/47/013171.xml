@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000149">
+  <authority ID="epns-deep-47-b-name-subparish-000149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013171">Newton cum Larton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000045" type="broader">
+   <geographic>West Kirby</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w726820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013172">Newton cum Larton</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w726850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013173">Neuton cum Layrton</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w726883">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013174">Larton cum Newton</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w726913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013175">Newton alias Newton cum Larton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600208e"/>
+  </recordInfo>
+  <extension>
+   <geo easting="323500" northing="387500" long="-3.15144" lat="53.3788" kepnref="12170" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w726820">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w726850">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <source style="italic" id="ch110">ChFor</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w726883">
+    <date end="1646" begin="1646" subtype="simple">1646</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w726913">
+    <date end="1847" begin="1847" subtype="simple">1847</date>
+    <source style="italic" id="ch652">TAMap</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w726820">Newton cum Larton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w726850">Neuton cum Layrton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w726883">Larton cum Newton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w726913">Newton</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w726913">Newton cum Larton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000069">
+  <authority ID="epns-deep-31-b-name-subparish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005680">Crofton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000021" type="broader">
+   <geographic>Crofton</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w257979">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005681">Scroftune, Scrotone</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w258008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005682">Croftun(e), Crofton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w258192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005683">Croffeton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4296800" lat="53.6563900" gazref="geonames:2651948" source="geonames"/>
+   <geo long="-1.425067796" lat="53.64789063" source="epns"/>
+   <geo long="-1.417441202227184" lat="53.65234971196891" gazref="unlock:11228685" source="unlock"/>
+   <geo easting="438500" northing="417500" long="-1.41897" lat="53.6526" kepnref="14462" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w257979">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>7d</item>
+    <page>32-3</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1121" end="1121">1121</date>
+    <source style="" id="wr724">Tockw</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1154" end="1177">1154-77</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1459</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1673" end="1673">1673</date>
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="wr111">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1215" end="1215">1215</date>
+    <source style="" id="wr91">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258008">
+    <attestation variantID="epns-deep-31-b-name-w258008">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w258008">
+     <date subtype="simple" begin="1634" end="1634">1634</date>
+     <source style="" id="wr514">PRCrf</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w258192">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w257979">Scroftune</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w257979">Scrotone</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w258008">Croftune</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w258008">Croftun</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w258008">Croftona</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w258008">Crofton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w258192">Croffeton</searchterm>
+  </extension>
+ </mads>
+ 

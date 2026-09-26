@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000213">
+  <authority ID="epns-deep-09-a-name-parish-000213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010925">Culmstock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000017" type="broader">
+   <geographic>Hemyock Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e00175e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2841100" lat="50.9284300" gazref="geonames:7298197" source="geonames"/>
+   <geo long="-3.273258291433796" lat="50.91346661364391" gazref="unlock:11124669" source="unlock"/>
+   <geo easting="310500" northing="114500" long="-3.27472" lat="50.923" kepnref="15884" source="kepn"/>
+  </extension>
+ </mads>
+ 

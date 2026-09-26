@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000176">
+  <authority ID="epns-deep-16-b-name-subparish-000176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008081">Easterton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000199" type="broader">
+   <geographic>Easterton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w395905">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008082">Esterton juxta Stepellavynton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w395945">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008083">Esterton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w395984">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008084">Easterton Garnham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dbc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9450100" lat="51.2860700" gazref="geonames:7296269" source="geonames"/>
+   <geo long="-1.978482984335653" lat="51.29811776273864" gazref="unlock:11137226" source="unlock"/>
+   <geo easting="401500" northing="154500" long="-1.97986" lat="51.2896" kepnref="7351" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w395905">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="italic" id="ws62">Cor</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w395945">
+    <attestation variantID="epns-deep-16-b-name-w395945">
+     <date subtype="simple" begin="1412" end="1412">1412</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w395945">
+     <date subtype="simple" begin="1481" end="1481">1481</date>
+     <source style="italic" id="ws108">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w395984">
+    <date subtype="simple" begin="1591" end="1591">1591</date>
+    <source style="" id="ws333">WM</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w395905">Esterton juxta Stepellavynton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w395945">Esterton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w395984">Easterton Garnham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000211">
+  <authority ID="epns-deep-16-b-name-subparish-000211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010201">Broad Hinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000238" type="broader">
+   <geographic>Broad Hinton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w497439">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010202">Hentone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010203">Henton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010204">Hentune</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497526">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010205">Hantone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497543">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010206">Brod(e)henton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010207">Brodehanton al. Brodehenton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010208">Brodhinton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010209">Hynton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w497665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010210">Henton Columbers, Henton Waas</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d88"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8478600" lat="51.4887000" gazref="geonames:2654647" source="geonames"/>
+   <geo long="-1.848759797598931" lat="51.48686839755941" gazref="unlock:11087692" source="unlock"/>
+   <geo easting="410500" northing="176500" long="-1.85015" lat="51.4874" kepnref="7394" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w497439">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497456">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="italic" id="ws8">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497456">
+    <attestation variantID="epns-deep-16-b-name-w497456">
+     <date subtype="simple" begin="1204" end="1204">1204</date>
+     <source style="" id="ws71">Cur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w497456">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497506">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="ws7">AD</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497526">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497543">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497543">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ws24">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497543">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497587">
+    <date subtype="simple" begin="1469" end="1469">1469</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497627">
+    <date subtype="simple" begin="1339" end="1339">1339</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497648">
+    <date subtype="simple" begin="1397" end="1397">1397</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w497665">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w497439">Hentone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497456">Hentone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497456">Henton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497506">Hentune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497526">Hantone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497543">Brodehenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497543">Brodhenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497587">Brodehanton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497587">Brodehenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497627">Brodhinton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497648">Hynton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497665">Henton Columbers</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w497665">Henton Waas</searchterm>
+  </extension>
+ </mads>
+ 

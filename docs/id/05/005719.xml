@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000520">
+  <authority ID="epns-deep-05-b-name-subparish-000520">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005719">Scargill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000179" type="broader">
+   <geographic>Barningham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w402591">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005720">Seachregil, Scracreghil</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402636">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005721">Schachelgilla</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402670">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005722">Scakregill'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402694">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005723">Sca(c)kergill'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402736">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005724">Scargell, Skargill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000413"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.915086199281095" lat="54.48967730204286" gazref="unlock:11278850" source="unlock"/>
+   <geo easting="405500" northing="510500" long="-1.91659" lat="54.4898" kepnref="6175" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w402591">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402636">
+    <date subtype="simple" begin="1146" end="1161">1146-61</date>
+    <source style="italic" id="ny124">MaryY</source>
+    <page>39 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402670">
+    <date subtype="simple" begin="1172" end="1172">1172</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402694">
+    <date subtype="simple" begin="1173" end="1173">1173</date>
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402694">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402736">
+    <date subtype="simple" begin="1282" end="1282">1282</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402736">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>121</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w402591">Seachregil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402591">Scracreghil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402636">Schachelgilla</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402670">Scakregill'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402694">Scackergill'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402694">Scakergill'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402736">Scargell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402736">Skargill</searchterm>
+  </extension>
+ </mads>
+ 

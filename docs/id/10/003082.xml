@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000129">
+  <authority ID="epns-deep-10-b-name-subparish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003082">Clipston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000129" type="broader">
+   <geographic>Clipston</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w167414">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003083">Clipestune</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003084">Clipeston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003085">Clypeston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167500">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003086">Clippeston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003087">Clipston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167591">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003088">Clypston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167601">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003089">Clypston al. Clypson</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w167631">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003090">Clipson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00053f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9544300" lat="52.4284100" gazref="geonames:2652822" source="geonames"/>
+   <geo long="-0.9483560790441439" lat="52.42642933455282" gazref="unlock:11109383" source="unlock"/>
+   <geo easting="471500" northing="281500" long="-0.949891" lat="52.4268" kepnref="10999" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w167414">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167434">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167478">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167500">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="nh4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167524">
+    <attestation variantID="epns-deep-10-b-name-w167524">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w167524">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167591">
+    <date end="1316" begin="1100">12th-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167601">
+    <date end="1572" begin="1572" subtype="simple">1572</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w167631">
+    <date end="1702" begin="1702" subtype="simple">1702</date>
+    <source style="" id="nh241">Poll</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w167414">Clipestune</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167434">Clipestone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167434">Clipeston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167478">Clypeston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167500">Clippeston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167524">Clipstone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167524">Clipston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167591">Clypston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167601">Clypston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167601">Clypson</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w167631">Clipson</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000503">
+  <authority ID="epns-deep-05-b-name-subparish-000503">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005580">Aldbrough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000171" type="broader">
+   <geographic>Stanwick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w393693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005581">Aldeburne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w393712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005582">Aldeburgh, Aldeburge</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w393773">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005583">(H)audeburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w393804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005584">Awldeburgh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w393831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005585">Awdbrough</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6888000" lat="54.4978600" gazref="geonames:2657560" source="geonames"/>
+   <geo long="-1.683436152484822" lat="54.49828070988826" gazref="unlock:11057952" source="unlock"/>
+   <geo easting="420500" northing="511500" long="-1.68497" lat="54.4984" kepnref="6159" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w393693">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w393712">
+    <attestation variantID="epns-deep-05-b-name-w393712">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>33 d, 90</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w393712">
+     <date subtype="simple" begin="1556" end="1556">1556</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w393773">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w393773">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w393804">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w393831">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w393693">Aldeburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393712">Aldeburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393712">Aldeburge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393773">Haudeburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393773">audeburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393804">Awldeburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w393831">Awdbrough</searchterm>
+  </extension>
+ </mads>
+ 

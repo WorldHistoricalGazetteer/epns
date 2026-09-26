@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-hu-subcounty-000018">
+  <authority ID="epns-deep-16-hu-name-subcounty-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007113">Cawdon and Cadworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-co-county-000001" type="broader">
+   <geographic>Wiltshire</geographic>
+  </related>
+  <variant ID="epns-deep-16-hu-name-w348762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007114">Hundred de Cawdon et Cadworthe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886ddb47fc40d38000d41"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-16-hu-name-w348762">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-hu-name-w348762">Hundred de Cawdon et Cadworthe</searchterm>
+  </extension>
+ </mads>
+ 

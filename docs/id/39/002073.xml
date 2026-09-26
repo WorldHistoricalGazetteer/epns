@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000029">
+  <authority ID="epns-deep-39-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002073">Prescott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000029" type="broader">
+   <geographic>Prescott</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w109513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002074">Prestechota</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w109539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002075">Prestecot(a), Prestecote, Prestekote</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w109632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002076">Prestcote</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w109651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002077">Prescote</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b78"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0143500" lat="51.9631600" gazref="geonames:7298612" source="geonames"/>
+   <geo long="-2.0291093" lat="51.95905029" source="epns"/>
+   <geo long="-2.021834166175683" lat="51.96354856806215" gazref="unlock:11249793" source="unlock"/>
+   <geo easting="398500" northing="229500" long="-2.02323" lat="51.964" kepnref="6355" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w109513">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109539">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <copydate end="1496" begin="1496">1496</copydate>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109539">
+    <date subtype="simple" begin="1175" end="1200">l. 12</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109539">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109539">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="" id="go424">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109539">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="go504">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109632">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109651">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="go522">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w109651">
+    <attestation variantID="epns-deep-39-b-name-w109651">
+     <date subtype="simple" begin="1545" end="1545">1545</date>
+     <source style="" id="go310">LP</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-39-b-name-w109651">
+     <date subtype="simple" begin="1695" end="1695">1695</date>
+     <source style="" id="go410">PR</source>
+     <page>4</page>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w109513">Prestechota</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109539">Prestecota</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109539">Prestecot</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109539">Prestecote</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109539">Prestekote</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109632">Prestcote</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w109651">Prescote</searchterm>
+  </extension>
+ </mads>
+ 

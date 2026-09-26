@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000005">
+  <authority ID="epns-deep-09-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000211">Knowstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000001" type="broader">
+   <geographic>South Molton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6735600" lat="50.9947500" gazref="geonames:2645095" source="geonames"/>
+   <geo long="-3.674664968180062" lat="50.99833970990678" gazref="unlock:11189609" source="unlock"/>
+   <geo easting="282500" northing="123500" long="-3.67583" lat="50.9989" kepnref="15671" source="kepn"/>
+  </extension>
+ </mads>
+ 

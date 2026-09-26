@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-b-subparish-000050">
+  <authority ID="epns-deep-83-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/012979">Girsby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-a-parish-000019" type="broader">
+   <geographic>Sockburn</geographic>
+  </related>
+  <variant ID="epns-deep-83-b-name-w479087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/012980">Grisebi, Griseby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853b3b47fc40a380004bd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4439700" lat="54.4666000" gazref="geonames:7291840" source="geonames"/>
+   <geo long="-1.459948693" lat="54.46602916" source="epns"/>
+   <geo long="-1.452173864740429" lat="54.47048972725071" gazref="unlock:11152751" source="unlock"/>
+   <geo kepnexref="500" long="-1.45374" lat="54.4706" source="kepn"/>
+   <attestation variantID="epns-deep-83-b-name-w479087">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="dm359">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-83-b-name-w479087">Grisebi</searchterm>
+   <searchterm variantID="epns-deep-83-b-name-w479087">Griseby</searchterm>
+  </extension>
+ </mads>
+ 

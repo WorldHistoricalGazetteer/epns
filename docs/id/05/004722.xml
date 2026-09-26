@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000422">
+  <authority ID="epns-deep-05-b-name-subparish-000422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004722">West Witton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000146" type="broader">
+   <geographic>West Witton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w344669">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004723">Witun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w344684">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004724">Widtona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w344700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004725">West Witton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9076800" lat="54.2913700" gazref="geonames:2634230" source="geonames"/>
+   <geo long="-1.900128688714863" lat="54.29192696791553" gazref="unlock:11317818" source="unlock"/>
+   <geo easting="406500" northing="488500" long="-1.90163" lat="54.2921" kepnref="6075" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w344669">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w344684">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w344700">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w344669">Witun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344684">Widtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344700">West Witton</searchterm>
+  </extension>
+ </mads>
+ 

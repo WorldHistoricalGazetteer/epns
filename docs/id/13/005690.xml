@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000131">
+  <authority ID="epns-deep-13-b-name-subparish-000131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005690">Leamington Spa</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000134" type="broader">
+   <geographic>Leamington Spa</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w295548">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005691">Lamintone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005692">Lamuntona</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295624">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005693">Lamminton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005694">Lementona</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005695">Leminton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005696">Lemynton juxta Warrewicium</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005697">Lemynton Prioris</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w295807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005698">Lemyngton Priors</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f000794"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5333300" lat="52.3000000" gazref="geonames:2644737" source="geonames"/>
+   <geo long="-1.538156361509138" lat="52.28634341217729" gazref="unlock:11273993" source="unlock"/>
+   <geo easting="432500" northing="265500" long="-1.52496" lat="52.2867" kepnref="5031" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w295548">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295548">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="italic" id="wa149">Kenilworth</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295548">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1478" begin="1478">1478</copydate>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295609">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1478" begin="1478">1478</copydate>
+    <source style="" id="wa219" underspec="ib">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295624">
+    <date end="1170" begin="1170" subtype="simple">1170</date>
+    <copydate end="1314" begin="1314">1314</copydate>
+    <source style="" id="wa46">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295650">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="italic" id="wa149">Kenilworth</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295680">
+    <date end="1135" begin="1100" subtype="regnal">t. Hy 1</date>
+    <source style="italic" id="wa149" underspec="ib">Kenilworth</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295680">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="wa107">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295680">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="wa192">Nott</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295725">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wa105">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295763">
+    <date end="1325" begin="1325" subtype="simple">1325</date>
+    <source style="" id="wa5">AD</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295763">
+    <date end="1416" begin="1416" subtype="simple">1416</date>
+    <source style="" id="wa5">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w295807">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wa305">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w295548">Lamintone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295609">Lamuntona</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295624">Lamminton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295650">Lementona</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295680">Lemintona</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295680">Leminton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295725">Lemynton juxta Warrewicium</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295763">Lemynton Prioris</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w295807">Lemyngton Priors</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000117">
+  <authority ID="epns-deep-10-b-name-subparish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002702">Hartwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000117" type="broader">
+   <geographic>Hartwell</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w149578">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002703">Hertewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w149631">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002704">Hertwell(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w149692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002705">Herteswella</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w149712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002706">Hurtwell</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w149727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002707">Hurtewella</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w149750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002708">Harwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000591"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8537600" lat="52.1461600" gazref="geonames:2647388" source="geonames"/>
+   <geo long="-0.8526418919809008" lat="52.1467948256153" gazref="unlock:11166901" source="unlock"/>
+   <geo easting="478500" northing="250500" long="-0.854177" lat="52.1472" kepnref="10987" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w149578">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149578">
+    <date end="1177" begin="1177" subtype="simple">1177</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149578">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="nh253">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149578">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="nh132">Ipm</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149631">
+    <date end="1166" begin="1148" subtype="simple">1148-66</date>
+    <source style="" id="nh188">NRS</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149631">
+    <attestation variantID="epns-deep-10-b-name-w149631">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w149631">
+     <date end="1498" begin="1498" subtype="simple">1498</date>
+     <source style="" id="nh132">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149692">
+    <date end="1168" begin="1168" subtype="simple">1168</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149712">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149727">
+    <date end="1177" begin="1177" subtype="simple">1177</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w149750">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="nh201">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w149578">Hertewelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149578">Hertewell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149631">Hertwella</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149631">Hertwell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149692">Herteswella</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149712">Hurtwell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149727">Hurtewella</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w149750">Harwell</searchterm>
+  </extension>
+ </mads>
+ 

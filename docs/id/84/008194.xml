@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000026">
+  <authority ID="epns-deep-84-a-name-parish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/008194">King's Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010c1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9931700" lat="52.5974500" gazref="geonames:7295427" source="geonames"/>
+   <geo long="-0.9885591943167373" lat="52.5976151960842" gazref="unlock:11186926" source="unlock"/>
+   <geo easting="468500" northing="300500" long="-0.990097" lat="52.598" kepnref="8781" source="kepn"/>
+  </extension>
+ </mads>
+ 

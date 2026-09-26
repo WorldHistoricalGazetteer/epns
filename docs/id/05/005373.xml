@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000487">
+  <authority ID="epns-deep-05-b-name-subparish-000487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005373">Aske Hall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000165" type="broader">
+   <geographic>Easby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w381118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005374">Has(s)e</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005375">Ask(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000474"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7271600" lat="54.4266300" gazref="geonames:6288423" source="geonames"/>
+   <geo long="-1.730235254390522" lat="54.42648975120147" gazref="unlock:11064834" source="unlock"/>
+   <geo easting="417500" northing="503500" long="-1.73176" lat="54.4266" kepnref="6142" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w381118">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381135">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w381118">Hasse</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381118">Hase</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381135">Aske</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381135">Ask</searchterm>
+  </extension>
+ </mads>
+ 

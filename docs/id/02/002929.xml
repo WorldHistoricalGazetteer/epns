@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000148">
+  <authority ID="epns-deep-02-a-name-parish-000148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002929">Great and Little Hampden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000013" type="broader">
+   <geographic>Aylesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300027d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7755000" lat="51.7126400" gazref="geonames:7298736" source="geonames"/>
+   <geo easting="484500" northing="201500" long="-0.778526" lat="51.7059" kepnref="11343" source="kepn"/>
+  </extension>
+ </mads>
+ 

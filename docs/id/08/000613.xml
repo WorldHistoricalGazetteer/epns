@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000009">
+  <authority ID="epns-deep-08-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000613">Combe Martin</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000009" type="broader">
+   <geographic>Combe Martin</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w34126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000614">Comba</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w34141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000615">Cumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w34156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000616">Coumb' Martin</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001930"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0234300" lat="51.1987300" gazref="geonames:2652508" source="geonames"/>
+   <geo long="-4.025531908864821" lat="51.19965104062341" gazref="unlock:11114591" source="unlock"/>
+   <geo easting="258500" northing="147500" long="-4.02706" lat="51.2091" kepnref="15466" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w34126">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w34141">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w34156">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="de230">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w34126">Comba</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w34141">Cumbe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w34156">Coumb' Martin</searchterm>
+  </extension>
+ </mads>
+ 

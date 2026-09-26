@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000032">
+  <authority ID="epns-deep-98-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000712">Barford, Great</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000032" type="broader">
+   <geographic>Great Barford</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w56282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000713">Bereforde</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w56327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000714">Berford</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w56350">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000715">Berfford</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w56371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000716">Bareford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000352"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3552226329957394" lat="52.15889101175279" gazref="unlock:11158441" source="unlock"/>
+   <geo easting="513500" northing="252500" long="-0.342204" lat="52.1591" kepnref="4254" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w56282">
+    <attestation variantID="epns-deep-98-b-name-w56282">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w56327">
+    <date subtype="simple" begin="1257" end="1257">1257</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w56350">
+    <date subtype="simple" begin="1542" end="1542">1542</date>
+    <source style="" id="bh3">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w56371">
+    <date subtype="simple" begin="1545" end="1545">1545</date>
+    <source style="" id="bh3">AD</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w56282">Bereforde</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w56327">Berford</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w56350">Berfford</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w56371">Bareford</searchterm>
+  </extension>
+ </mads>
+ 

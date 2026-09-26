@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000170">
+  <authority ID="epns-deep-02-b-name-subparish-000170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003425">Hambleden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000168" type="broader">
+   <geographic>Hambleden</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w237287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003426">hamelan dene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w237321">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003427">Hanbledene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w237341">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003428">Hameleden</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w237394">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003429">Hamele</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w237415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003430">Hameldene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w237441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003431">Hamoledene</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300036d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8707500" lat="51.5714700" gazref="geonames:2647583" source="geonames"/>
+   <geo long="-0.8671865526692335" lat="51.57142349524401" gazref="unlock:11164878" source="unlock"/>
+   <geo easting="478500" northing="186500" long="-0.868697" lat="51.5719" kepnref="11364" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w237287">
+    <date end="1015" begin="1015" subtype="simple">1015</date>
+    <source style="" id="bu61">KCD</source>
+    <item>722</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237321">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237341">
+    <date end="1182" begin="1182" subtype="simple">1182</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237341">
+    <date end="1199" begin="1189" subtype="regnal">R i</date>
+    <source style="italic" id="bu92">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237341">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="bu38">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237341">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1450</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237394">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="bu37">Fees</source>
+    <item>19</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237415">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w237441">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w237287">hamelan dene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w237321">Hanbledene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w237341">Hameleden</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w237394">Hamele</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w237415">Hameldene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w237441">Hamoledene</searchterm>
+  </extension>
+ </mads>
+ 

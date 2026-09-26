@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-a-parish-000010">
+  <authority ID="epns-deep-47-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003963">Handley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-hu-subcounty-000001" type="broader">
+   <geographic>Broxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ef5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8063900" lat="53.1168700" gazref="geonames:7293030" source="geonames"/>
+   <geo long="-2.806896605" lat="53.1161481" source="epns"/>
+   <geo long="-2.799343011810474" lat="53.11170503413548" gazref="unlock:11165222" source="unlock"/>
+   <geo easting="346500" northing="357500" long="-2.80069" lat="53.112" kepnref="12064" source="kepn"/>
+  </extension>
+ </mads>
+ 

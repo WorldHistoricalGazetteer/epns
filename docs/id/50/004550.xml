@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000024">
+  <authority ID="epns-deep-50-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004550">Eaton Hastings</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000025" type="broader">
+   <geographic>Eaton Hastings</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w181960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004551">Etone</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004552">Eton', Eton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004553">Eton' Willelmi de Hasting'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004554">Eton' Hasting'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004555">Eton Hastinges</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004556">Water Eton Hastynges</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004557">Etone Seynt Filberde</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004558">Watereton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004559">Eton Hastings als voc' Water Eton</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004560">Water Eaton alias Eaton Hasting(e)s</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w182296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004561">Ettona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b56"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6277200" lat="51.6771400" gazref="geonames:7292142" source="geonames"/>
+   <geo long="-1.63118023716691" lat="51.67522699468076" gazref="unlock:11137612" source="unlock"/>
+   <geo easting="425500" northing="197500" long="-1.63261" lat="51.6757" kepnref="3127" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w181960">
+    <attestation variantID="epns-deep-50-b-name-w181960">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="be84">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182007">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182020">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182060">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="italic" id="be343">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182084">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="be260">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182111">
+    <date subtype="simple" begin="1393" end="1393">1393</date>
+    <source style="" id="be64">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182141">
+    <date subtype="simple" begin="1401" end="1402">1401-2</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182175">
+    <date subtype="simple" begin="1412" end="1412">1412</date>
+    <source style="" id="be118" underspec="ib">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182194">
+    <date subtype="regnal" begin="1547" end="1553">Ed 6</date>
+    <source style="italic" id="be199">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182241">
+    <date subtype="simple" begin="1601" end="1601">1601</date>
+    <date subtype="simple" begin="1648" end="1648">1648</date>
+    <source style="italic" id="be42">Bodl</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w182296">
+    <date subtype="simple" begin="1130" end="1130">1130</date>
+    <source style="" id="be256">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w181960">Etone</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182007">Eton'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182007">Eton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182020">Eton' Willelmi de Hasting'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182060">Eton' Hasting'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182084">Eton Hastinges</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182111">Water Eton Hastynges</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182141">Etone Seynt Filberde</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182175">Watereton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182194">Eton Hastings</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182194">voc' Water Eton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182241">Water Eaton</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182241">Eaton Hastinges</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182241">Eaton Hastings</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w182296">Ettona</searchterm>
+  </extension>
+ </mads>
+ 

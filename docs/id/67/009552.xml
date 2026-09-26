@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000041">
+  <authority ID="epns-deep-67-a-name-parish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009552">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000004" type="broader">
+   <geographic>Martinsley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003d2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7143700" lat="52.6126400" gazref="geonames:2639914" source="geonames"/>
+   <geo long="-0.7075535970732532" lat="52.61286479395087" gazref="unlock:11249847" source="unlock"/>
+   <geo easting="487500" northing="302500" long="-0.709125" lat="52.6132" kepnref="3006" source="kepn"/>
+  </extension>
+ </mads>
+ 

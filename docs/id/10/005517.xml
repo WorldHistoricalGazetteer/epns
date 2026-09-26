@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000252">
+  <authority ID="epns-deep-10-b-name-subparish-000252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005517">Easton Maudit</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000252" type="broader">
+   <geographic>Easton Maudit</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w296966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005518">Estun</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w296999">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005519">Eston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w297038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005520">Estonemaudeut</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w297061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005521">Estonmauduyt</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w297083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005522">Estone juxta Boseyate</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w297115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005523">Esson Mawdett</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000563"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6995400" lat="52.2127800" gazref="geonames:7290990" source="geonames"/>
+   <geo long="-0.7044313424834256" lat="52.21719607161844" gazref="unlock:11137476" source="unlock"/>
+   <geo easting="488500" northing="258500" long="-0.705986" lat="52.2176" kepnref="11124" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w296966">
+    <date end="656" begin="656" subtype="simple">656</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <ms>E</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w296966">
+    <date end="1239" begin="1239" subtype="simple">1239</date>
+    <source style="" id="nh44">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w296999">
+    <attestation variantID="epns-deep-10-b-name-w296999">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w296999">
+     <date end="1389" begin="1389" subtype="simple">1389</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w297038">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w297061">
+    <date end="1377" begin="1377" subtype="simple">1377</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w297083">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w297115">
+    <date end="1611" begin="1611" subtype="simple">1611</date>
+    <source style="italic" id="nh251">Rental</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w296966">Estun</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w296999">Estone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w296999">Eston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w297038">Estonemaudeut</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w297061">Estonmauduyt</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w297083">Estone juxta Boseyate</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w297115">Esson Mawdett</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000312">
+  <authority ID="epns-deep-10-a-name-parish-000312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007026">Southorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000020" type="broader">
+   <geographic>Nassaborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4051200" lat="52.6105500" gazref="geonames:2637353" source="geonames"/>
+   <geo long="-0.3971574587658577" lat="52.61806264840348" gazref="unlock:11288415" source="unlock"/>
+   <geo easting="508500" northing="303500" long="-0.398765" lat="52.6184" kepnref="11183" source="kepn"/>
+  </extension>
+ </mads>
+ 

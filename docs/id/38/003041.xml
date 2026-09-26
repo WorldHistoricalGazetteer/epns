@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000034">
+  <authority ID="epns-deep-38-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003041">Somerford Keynes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000034" type="broader">
+   <geographic>Somerford Keynes</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w145199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003042">Sumerford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w145287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003043">Somerford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w145319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003044">Somerford Caynes, Somerford Kaynes</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w145418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/003045">Somerford Keynes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b9a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9730700" lat="51.6549600" gazref="geonames:2637536" source="geonames"/>
+   <geo long="-1.97108696" lat="51.65332106" source="epns"/>
+   <geo long="-1.978313067255038" lat="51.65781947412669" gazref="unlock:11286677" source="unlock"/>
+   <geo kepnexref="344" long="-1.96524" lat="51.6583" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w145199">
+    <date subtype="simple" begin="685" end="685">685</date>
+    <copydate end="1125" begin="1100">e. 12th</copydate>
+    <source style="" id="go39">BCS</source>
+    <page>65</page>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145199">
+    <date subtype="simple" begin="931" end="931">931</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="go39" underspec="ib">BCS</source>
+    <item>671</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145199">
+    <date subtype="simple" begin="1065" end="1065">1065</date>
+    <source style="" id="go288">KCD</source>
+    <item>817</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145199">
+    <date subtype="simple" begin="1211" end="1211">1211</date>
+    <source style="" id="go430">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145199">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145287">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145287">
+    <date subtype="simple" begin="1299" end="1299">1299</date>
+    <source style="" id="go5">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145319">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145319">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="go275">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145319">
+    <attestation variantID="epns-deep-38-b-name-w145319">
+     <date subtype="simple" begin="1321" end="1328">1321-8</date>
+     <source style="" id="go274">Ipm</source>
+    </attestation>
+    <passim>freq</passim>
+    <attestation variantID="epns-deep-38-b-name-w145319">
+     <date subtype="simple" begin="1547" end="1547">1547</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145418">
+    <date subtype="simple" begin="1487" end="1487">1487</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w145418">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="go556">YE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w145199">Sumerford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w145287">Somerford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w145319">Somerford Caynes</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w145319">Somerford Kaynes</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w145418">Somerford Keynes</searchterm>
+  </extension>
+ </mads>
+ 

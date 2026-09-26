@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000060">
+  <authority ID="epns-deep-98-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001559">Shefford Hardwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000060" type="broader">
+   <geographic>Shefford Hardwick</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w121915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001560">Herd(e)wik</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w121936">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001561">Herdewich</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w121956">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001562">Herdwyk juxta Sheford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003a0"/>
+  </recordInfo>
+  <extension>
+   <geo easting="513500" northing="239500" long="-0.34653" lat="52.0423" kepnref="4282" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w121915">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w121936">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w121956">
+    <date subtype="regnal" begin="1307" end="1327">E 2</date>
+    <source style="" id="bh138">Orig</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w121915">Herdewik</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w121915">Herdwik</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w121936">Herdewich</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w121956">Herdwyk juxta Sheford</searchterm>
+  </extension>
+ </mads>
+ 

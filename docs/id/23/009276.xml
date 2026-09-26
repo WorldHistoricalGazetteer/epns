@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000093">
+  <authority ID="epns-deep-23-a-name-parish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/009276">Finmere</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000009" type="broader">
+   <geographic>Ploughley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0750800" lat="51.9911800" gazref="geonames:2649411" source="geonames"/>
+   <geo long="-1.075196767637132" lat="51.98689526012885" gazref="unlock:11144553" source="unlock"/>
+   <geo easting="463500" northing="232500" long="-1.0767" lat="51.9873" kepnref="3614" source="kepn"/>
+  </extension>
+ </mads>
+ 

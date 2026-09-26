@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000008">
+  <authority ID="epns-deep-15-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000396">Great and Little Offley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000008" type="broader">
+   <geographic>Offley</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w20900">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000397">Offanlege</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w20932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000398">Offelei, Offelei altera</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w20965">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000399">Offelege</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000400">Offeleye, Offelegh, Offele</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000401">Offele Parva</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000402">Great Offle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000403">Offly</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000404">Oftley</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000405">Uffeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w21173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000406">Affley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007b5"/>
+  </recordInfo>
+  <extension>
+   <geo easting="514500" northing="227500" long="-0.335959" lat="51.9342" kepnref="4579" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w20900">
+    <date subtype="simple" begin="944" end="946">944-6</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="he23">BCS</source>
+    <item>812</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w20932">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w20965">
+    <attestation variantID="epns-deep-15-b-name-w20965">
+     <date subtype="simple" begin="1200" end="1200">1200</date>
+     <source style="" id="he74">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w20965">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="he110">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21029">
+    <date end="1303" begin="1200">1200-1303</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21057">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="italic" id="he298">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21081">
+    <date subtype="simple" begin="1467" end="1467">1467</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21103">
+    <date subtype="simple" begin="1638" end="1638">1638</date>
+    <source style="" id="he318">Terrier</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21123">
+    <date subtype="simple" begin="1669" end="1669">1669</date>
+    <source style="" id="he289">Sess</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21144">
+    <date subtype="simple" begin="1339" end="1339">1339</date>
+    <source style="" id="he55">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21144">
+    <date subtype="simple" begin="1382" end="1382">1382</date>
+    <source style="" id="he148">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w21173">
+    <date subtype="simple" begin="1608" end="1608">1608</date>
+    <source style="" id="he295">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w20900">Offanlege</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w20932">Offelei</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w20932">Offelei altera</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w20965">Offelege</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21029">Offeleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21029">Offelegh</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21029">Offele</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21057">Offele Parva</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21081">Great Offle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21103">Offly</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21123">Oftley</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21144">Uffeleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w21173">Affley</searchterm>
+   <searchterm madsID="epns-deep-15-b-subparish-000008">Little Offley</searchterm>
+  </extension>
+ </mads>
+ 

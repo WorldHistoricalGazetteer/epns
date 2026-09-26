@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000039">
+  <authority ID="epns-deep-18-a-name-parish-000039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001832">Stanmore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000004" type="broader">
+   <geographic>Gore Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a0000213"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3166700" lat="51.6166700" gazref="geonames:2637063" source="geonames"/>
+   <geo long="-0.3167059048280538" lat="51.62777065123793" gazref="unlock:11291071" source="unlock"/>
+   <geo easting="516500" northing="192500" long="-0.318614" lat="51.6193" kepnref="4743" source="kepn"/>
+  </extension>
+ </mads>
+ 

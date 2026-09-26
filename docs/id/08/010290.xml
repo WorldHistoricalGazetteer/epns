@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000175">
+  <authority ID="epns-deep-08-b-name-subparish-000175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010290">Dartington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000175" type="broader">
+   <geographic>Dartington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w522273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010291">Derentunehomm</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w522310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010292">Dertrintona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w522331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010293">Dertintonia, Dertinton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w522412">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010294">Dertington</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w522424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010295">Derdington'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001940"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7084200" lat="50.4506700" gazref="geonames:2651514" source="geonames"/>
+   <geo long="-3.697467253591352" lat="50.44934691176417" gazref="unlock:11127458" source="unlock"/>
+   <geo easting="278500" northing="62500" long="-3.7127" lat="50.4497" kepnref="15633" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w522273">
+    <date end="833" begin="833" subtype="simple">833</date>
+    <copydate end="1410" begin="1390">c. 1400</copydate>
+    <source style="" id="de17">BCS</source>
+    <item>410</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w522310">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w522331">
+    <attestation variantID="epns-deep-08-b-name-w522331">
+     <date end="1165" begin="1162" subtype="simple">1162-5</date>
+     <source style="" id="de261">Totnes</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w522331">
+     <date end="1282" begin="1282" subtype="simple">1282</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w522412">
+    <date end="1282" begin="1162">1162-1282</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w522424">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w522273">Derentunehomm</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w522310">Dertrintona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w522331">Dertintonia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w522331">Dertinton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w522412">Dertington</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w522424">Derdington'</searchterm>
+  </extension>
+ </mads>
+ 

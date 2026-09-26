@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000031">
+  <authority ID="epns-deep-39-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002149">Ashchurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000031" type="broader">
+   <geographic>Ashchurch</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w113187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002150">Asschirche</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002151">Aschurch</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002152">Assechurche</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002153">Aysschirche, Aysschurch</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002154">Aischurch</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002155">Aishchurch</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w113335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/002156">As(s)hechurch(e), Ashchurch(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001a8f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.116530355" lat="51.99496335" source="epns"/>
+   <geo long="-2.109258197927256" lat="51.99946700853517" gazref="unlock:11064302" source="unlock"/>
+   <geo easting="393500" northing="233500" long="-2.09608" lat="51.9999" kepnref="6357" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w113187">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113208">
+    <date subtype="simple" begin="1487" end="1487">1487</date>
+    <source style="italic" id="go600">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113231">
+    <date subtype="simple" begin="1555" end="1555">1555</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113252">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113292">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <source style="italic" id="go99">Comm</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113313">
+    <date subtype="simple" begin="1673" end="1673">1673</date>
+    <source style="" id="go410">PR</source>
+    <page>3</page>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w113335">
+    <attestation variantID="epns-deep-39-b-name-w113335">
+     <date subtype="simple" begin="1492" end="1492">1492</date>
+     <source style="italic" id="go600">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-39-b-name-w113335">
+     <date subtype="simple" begin="1619" end="1619">1619</date>
+     <source style="italic" id="go120">Dep</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w113187">Asschirche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113208">Aschurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113231">Assechurche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113252">Aysschirche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113252">Aysschurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113292">Aischurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113313">Aishchurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Asshechurche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Asshechurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Ashechurche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Ashechurch</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Ashchurche</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w113335">Ashchurch</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000033">
+  <authority ID="epns-deep-40-a-name-parish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003761">Westerleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000005" type="broader">
+   <geographic>Pucklechurch Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a3c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4341600" lat="51.5160500" gazref="geonames:2634431" source="geonames"/>
+   <geo long="-2.446731824" lat="51.50859589" source="epns"/>
+   <geo long="-2.439570096301534" lat="51.51311989865839" gazref="unlock:11318429" source="unlock"/>
+   <geo easting="370500" northing="179500" long="-2.42649" lat="51.5137" kepnref="6479" source="kepn"/>
+  </extension>
+ </mads>
+ 

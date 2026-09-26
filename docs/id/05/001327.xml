@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000134">
+  <authority ID="epns-deep-05-b-name-subparish-000134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001327">Kingthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000048" type="broader">
+   <geographic>Pickering</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w111020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001328">Chinetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w111039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001329">Kinthorp(e), Kynthorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w111124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001330">Kintorp, Kyntorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w111203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001331">Kynestorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w111223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001332">Kynethorpe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000575"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7180516508836583" lat="54.25818810727962" gazref="unlock:11187304" source="unlock"/>
+   <geo easting="483500" northing="485500" long="-0.719694" lat="54.2584" kepnref="5785" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w111020">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111039">
+    <date subtype="simple" begin="1139" end="1139">1139</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>11 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111039">
+    <attestation variantID="epns-deep-05-b-name-w111039">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="ny64">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w111039">
+     <date subtype="simple" begin="1577" end="1577">1577</date>
+     <source style="" id="ny207">Saxton</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111124">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111124">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111124">
+    <date subtype="century" begin="1200" end="1225">early 13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>96 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111124">
+    <date subtype="simple" begin="1226" end="1228">1226-8</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111203">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w111223">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w111020">Chinetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111039">Kinthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111039">Kinthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111039">Kynthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111039">Kynthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111124">Kintorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111124">Kyntorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111203">Kynestorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w111223">Kynethorpe</searchterm>
+  </extension>
+ </mads>
+ 

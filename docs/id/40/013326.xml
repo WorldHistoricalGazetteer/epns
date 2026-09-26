@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000105">
+  <authority ID="epns-deep-40-a-name-parish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/013326">Lydney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000018" type="broader">
+   <geographic>Bledisloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5260500" lat="51.7259800" gazref="geonames:2643318" source="geonames"/>
+   <geo long="-2.535727182" lat="51.72404125" source="epns"/>
+   <geo long="-2.528540540463317" lat="51.72857065698683" gazref="unlock:11209953" source="unlock"/>
+   <geo easting="363500" northing="203500" long="-2.52987" lat="51.729" kepnref="6550" source="kepn"/>
+  </extension>
+ </mads>
+ 

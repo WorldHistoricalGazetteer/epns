@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000029">
+  <authority ID="epns-deep-16-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001599">Long Newnton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000030" type="broader">
+   <geographic>Long Newnton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w86552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001600">Niuentun</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001601">Newentone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86604">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001602">Newenton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86667">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001603">Niwenton, Nywenton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86687">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001604">Newenton juxta Malmesbury</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001605">Long Newenton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w86746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001606">Newnton alias Longe Newnton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e01"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1333300" lat="51.6263900" gazref="geonames:2643656" source="geonames"/>
+   <geo long="-2.137268879753905" lat="51.63076438102027" gazref="unlock:11205598" source="unlock"/>
+   <geo kepnexref="209" long="-2.12419" lat="51.6312" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w86552">
+    <date subtype="simple" begin="681" end="681">681</date>
+    <copydate end="1135" begin="1115">c. 1125</copydate>
+    <source style="" id="ws25">BCS</source>
+    <page>58</page>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86583">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86604">
+    <attestation variantID="epns-deep-16-b-name-w86604">
+     <date subtype="simple" begin="1258" end="1258">1258</date>
+     <source style="italic" id="ws19">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w86604">
+     <date subtype="simple" begin="1387" end="1387">1387</date>
+     <source style="" id="ws56">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86667">
+    <date end="1387" begin="1258">1258-1387</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86687">
+    <date subtype="simple" begin="1364" end="1364">1364</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86723">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w86746">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="ws212">NQ</source>
+    <item>vii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w86552">Niuentun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86583">Newentone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86604">Newenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86667">Niwenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86667">Nywenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86687">Newenton juxta Malmesbury</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86723">Long Newenton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86746">Newnton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w86746">Longe Newnton</searchterm>
+  </extension>
+ </mads>
+ 

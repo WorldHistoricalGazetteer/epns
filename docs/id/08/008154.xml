@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000147">
+  <authority ID="epns-deep-08-a-name-parish-000147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008154">Tamerton Foliot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000009" type="broader">
+   <geographic>Roborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00185d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1560300" lat="50.4285900" gazref="geonames:2636281" source="geonames"/>
+   <geo long="-4.147538463111593" lat="50.43291370724522" gazref="unlock:11297411" source="unlock"/>
+   <geo kepnexref="0077" long="-4.14864" lat="50.4335" source="kepn"/>
+  </extension>
+ </mads>
+ 

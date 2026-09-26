@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000185">
+  <authority ID="epns-deep-08-b-name-subparish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010775">South Milton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000184" type="broader">
+   <geographic>South Milton</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w543574">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010776">Mideltona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w543593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010777">Middelton juxta Kingesbrigg'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w543634">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010778">Milton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a20"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8255600" lat="50.2702000" gazref="geonames:2637376" source="geonames"/>
+   <geo long="-3.831329157561749" lat="50.26741434582696" gazref="unlock:11287759" source="unlock"/>
+   <geo easting="269500" northing="42500" long="-3.83246" lat="50.268" kepnref="15643" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w543574">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w543593">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w543634">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w543574">Mideltona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w543593">Middelton juxta Kingesbrigg'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w543634">Milton</searchterm>
+  </extension>
+ </mads>
+ 

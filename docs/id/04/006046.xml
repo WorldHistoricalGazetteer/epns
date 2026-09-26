@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000217">
+  <authority ID="epns-deep-04-b-name-subparish-000217">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/006046">Stoke Prior</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000205" type="broader">
+   <geographic>Stoke Prior</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w485335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/006047">Stoke</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w485361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/006048">Stoche</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w485377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/006049">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w485415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/006050">Stok Prioris</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005f8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0666700" lat="52.3000000" gazref="geonames:2636837" source="geonames"/>
+   <geo long="-2.080673409529021" lat="52.3052014677783" gazref="unlock:11292785" source="unlock"/>
+   <geo easting="394500" northing="267500" long="-2.08207" lat="52.3056" kepnref="5400" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w485335">
+    <date end="770" begin="770" subtype="simple">770</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>204</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w485361">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w485377">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w485377">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w485415">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w485335">Stoke</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w485361">Stoche</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w485377">Stokes</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w485415">Stok Prioris</searchterm>
+  </extension>
+ </mads>
+ 

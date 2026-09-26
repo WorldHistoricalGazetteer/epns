@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000011">
+  <authority ID="epns-deep-52-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/004128">Tyneham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000002" type="broader">
+   <geographic>Hasler Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a7a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1684500" lat="50.6225500" gazref="geonames:2635271" source="geonames"/>
+   <geo long="-2.166830413" lat="50.62259999" source="epns"/>
+   <geo long="-2.162592126997414" lat="50.62350581307754" gazref="unlock:11308426" source="unlock"/>
+   <geo easting="388500" northing="80500" long="-2.16392" lat="50.6241" kepnref="11521" source="kepn"/>
+  </extension>
+ </mads>
+ 

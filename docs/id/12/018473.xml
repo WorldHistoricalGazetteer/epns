@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000301">
+  <authority ID="epns-deep-12-b-name-subparish-000301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018473">Margaret Roding</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000405" type="broader">
+   <geographic>Margaret Roding</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w899536">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018474">Roinges Sce Margar'</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w899569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018475">Rothingg Margaret(e), Rothyngg Margaret(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w899638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/018476">Margaret Rothyng, Margaret Rooden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3157700" lat="51.7847100" gazref="geonames:2643046" source="geonames"/>
+   <geo long="0.3128199298935305" lat="51.78793785661412" gazref="unlock:11213620" source="unlock"/>
+   <geo easting="560500" northing="211500" long="0.325189" lat="51.7792" kepnref="12561" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w899536">
+    <date subtype="simple" begin="1235" end="1255">1235-55</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w899569">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w899569">
+    <date subtype="simple" begin="1325" end="1329">1325-9</date>
+    <source style="" id="ex234">Londin</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w899638">
+    <date subtype="simple" begin="1539" end="1539">1539</date>
+    <source style="" id="ex217">Lancs</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w899638">
+    <date subtype="simple" begin="1697" end="1697">1697</date>
+    <source style="" id="ex137">ER</source>
+    <item>xxxi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w899536">Roinges Sce Margar'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899569">Rothingg Margarete</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899569">Rothingg Margaret</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899569">Rothyngg Margarete</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899569">Rothyngg Margaret</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899638">Margaret Rothyng</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w899638">Margaret Rooden</searchterm>
+  </extension>
+ </mads>
+ 

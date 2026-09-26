@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000009">
+  <authority ID="epns-deep-64-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/004012">Clixby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000ee7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3389200" lat="53.5238800" gazref="geonames:2652815" source="geonames"/>
+   <geo long="-0.3329283737532014" lat="53.52528400432028" gazref="unlock:11109421" source="unlock"/>
+   <geo easting="510500" northing="404500" long="-0.334583" lat="53.5256" kepnref="10830" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000010">
+  <authority ID="epns-deep-45-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005705">Great Budworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000001" type="broader">
+   <geographic>Bucklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ef2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5062900" lat="53.2931100" gazref="geonames:2648145" source="geonames"/>
+   <geo long="-2.510086642" lat="53.28859993" source="epns"/>
+   <geo long="-2.502638591636001" lat="53.2931276516997" gazref="unlock:11158544" source="unlock"/>
+   <geo easting="366500" northing="377500" long="-2.50402" lat="53.2934" kepnref="11799" source="kepn"/>
+  </extension>
+ </mads>
+ 

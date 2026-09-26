@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000030">
+  <authority ID="epns-deep-14-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000947">Bilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000020" type="broader">
+   <geographic>Swine</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w61860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000948">Billeton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w61881">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000949">Bileton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w61901">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000950">Belethun</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w61921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000951">Bilton(a), Bylton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w61993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000952">Bylton(a) in Holdernesse, Bylton(a) in Holdernes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000557"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2393900" lat="53.7831200" gazref="geonames:7293449" source="geonames"/>
+   <geo long="-0.2315800976981113" lat="53.78455225485905" gazref="unlock:11077060" source="unlock"/>
+   <geo easting="516500" northing="433500" long="-0.233259" lat="53.7848" kepnref="8414" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w61860">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61881">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61901">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="ey2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61921">
+    <date end="1216" begin="1199" subtype="regnal">t. John</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61921">
+    <attestation variantID="epns-deep-14-b-name-w61921">
+     <date end="1204" begin="1204" subtype="simple">1204</date>
+     <date end="1206" begin="1206" subtype="simple">1206</date>
+     <source style="" id="ey63">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w61921">
+     <date end="1563" begin="1563" subtype="simple">1563</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61993">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="" id="ey19">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61993">
+    <date end="1417" begin="1417" subtype="simple">1417</date>
+    <source style="" id="ey32">BevAct</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w61993">
+    <date end="1530" begin="1530" subtype="simple">1530</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w61860">Billetone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61860">Billeton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61881">Biletone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61881">Bileton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61901">Belethun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61921">Biltona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61921">Bilton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61921">Byltona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61921">Bylton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61993">Byltona in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61993">Bylton in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61993">Byltona in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w61993">Bylton in Holdernes</searchterm>
+  </extension>
+ </mads>
+ 

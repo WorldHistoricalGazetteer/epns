@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000022">
+  <authority ID="epns-deep-82-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011773">Moreton Corbet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000002" type="broader">
+   <geographic>Bradford North Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w463045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011774">Mortone</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011775">Morton(a), Mortuna, Morton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011776">Morton' Corbet</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463178">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011777">Mortoncorbet</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011778">Moorton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011779">Moorton SBL 5415, Mourton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011780">Moorton Corbett</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011781">Mourton Corbett</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011782">Moreton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w463360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/011783">Moreton Corbett</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a603b47fc4463d000e44"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6570100" lat="52.8057800" gazref="geonames:2642203" source="geonames"/>
+   <geo long="-2.654237933" lat="52.80421765" source="epns"/>
+   <geo long="-2.66021268200508" lat="52.8068828010103" gazref="unlock:11222826" source="unlock"/>
+   <geo easting="355500" northing="323500" long="-2.66156" lat="52.8072" kepnref="13565" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w463045">
+    <attestation variantID="epns-deep-82-a-name-w463045">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-82-a-name-w463045">
+     <date end="1719" begin="1719" subtype="simple">1719</date>
+     <source style="" id="ss231">PR(L)</source>
+     <page>9</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463094">
+    <date end="1719" begin="1086">1086-1719</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463141">
+    <attestation variantID="epns-deep-82-a-name-w463141">
+     <date end="1256" begin="1255" subtype="simple">1255-6</date>
+     <source style="italic" id="ss10">Ass</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463178">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="ss266">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463204">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>5413</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463228">
+    <date end="1347" begin="1347" subtype="simple">1347</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463263">
+    <date end="1586" begin="1586" subtype="simple">1586</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>7065</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463296">
+    <date end="1655" begin="1655" subtype="simple">1655</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>9</page>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463326">
+    <date end="1381" begin="1381" subtype="simple">1381</date>
+    <source style="" id="ss94">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463326">
+    <date end="1398" begin="1398" subtype="simple">1398</date>
+    <date end="1476" begin="1476" subtype="simple">1476</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w463360">
+    <date end="1734" begin="1734" subtype="simple">1734</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>4</page>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w463045">Mortone</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463094">Mortona</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463094">Morton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463094">Mortuna</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463094">Morton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463141">Morton' Corbet</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463178">Mortoncorbet</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463204">Moorton'</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463228">Moorton SBL 5415</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463228">Mourton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463263">Moorton Corbett</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463296">Mourton Corbett</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463326">Moreton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w463360">Moreton Corbett</searchterm>
+  </extension>
+ </mads>
+ 

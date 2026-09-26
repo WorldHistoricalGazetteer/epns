@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000127">
+  <authority ID="epns-deep-02-a-name-parish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002359">Ickford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000011" type="broader">
+   <geographic>Ixhill Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300029a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0601100" lat="51.7681200" gazref="geonames:7292875" source="geonames"/>
+   <geo long="-1.065307257732037" lat="51.76201172870827" gazref="unlock:11182079" source="unlock"/>
+   <geo easting="464500" northing="207500" long="-1.0668" lat="51.7625" kepnref="11321" source="kepn"/>
+  </extension>
+ </mads>
+ 

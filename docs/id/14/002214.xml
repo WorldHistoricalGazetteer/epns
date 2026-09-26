@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000091">
+  <authority ID="epns-deep-14-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002214">Brigham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000048" type="broader">
+   <geographic>Foston</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w139519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002215">Bringeha'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139538">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002216">Brigham, Brygham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139613">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002217">Brichæm, Brichem</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002218">Briggeham, Bryggeham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139705">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002219">Brigeham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139728">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002220">Brigtham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w139746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002221">Brigheym</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3500000" lat="53.9666700" gazref="geonames:2654718" source="geonames"/>
+   <geo long="-0.3611192509877024" lat="53.96619346860498" gazref="unlock:11087213" source="unlock"/>
+   <geo easting="507500" northing="453500" long="-0.362791" lat="53.9664" kepnref="8474" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w139519">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139538">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139538">
+    <attestation variantID="epns-deep-14-b-name-w139538">
+     <date end="1207" begin="1187" subtype="simple">1187-1207</date>
+     <source style="" id="ey367">YCh</source>
+     <page>1402</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w139538">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139613">
+    <date end="1194" begin="1194" subtype="simple">1194</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139638">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139638">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139638">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey186">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139638">
+    <date end="1300" begin="1300" subtype="simple">1300</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139705">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139728">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="" id="ey57">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w139746">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="ey16">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w139519">Bringeha'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139538">Brigham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139538">Brygham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139613">Brichæm</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139613">Brichem</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139638">Briggeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139638">Bryggeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139705">Brigeham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139728">Brigtham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w139746">Brigheym</searchterm>
+  </extension>
+ </mads>
+ 

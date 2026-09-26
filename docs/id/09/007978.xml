@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000156">
+  <authority ID="epns-deep-09-a-name-parish-000156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007978">Morebath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000010" type="broader">
+   <geographic>Bampton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4916700" lat="51.0138900" gazref="geonames:2642217" source="geonames"/>
+   <geo long="-3.489742025145384" lat="51.0098383983551" gazref="unlock:11222768" source="unlock"/>
+   <geo easting="295500" northing="124500" long="-3.49093" lat="51.0104" kepnref="15827" source="kepn"/>
+  </extension>
+ </mads>
+ 

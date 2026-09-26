@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000007">
+  <authority ID="epns-deep-97-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000601">Redmere Fen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000009" type="broader">
+   <geographic>Redmere</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w405754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000602">(maram de) Red(e)mere</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w405817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000603">Rodemere</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w405836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000604">Redmore</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007ea"/>
+  </recordInfo>
+  <extension>
+   <geo easting="564500" northing="286500" long="0.419332" lat="52.4517" kepnref="4100" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w405754">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="italic" id="ce155">ElyCouch</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w405754">
+    <date end="1277" begin="1277" subtype="simple">1277</date>
+    <source style="italic" id="ce149">Ely</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w405754">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="italic" id="ce292">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w405817">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="italic" id="ce292" underspec="ib">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w405836">
+    <date end="1835" begin="1815" subtype="circa">c. 1825</date>
+    <source style="" id="ce334">O.S.</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w405754">maram de Redemere</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w405754">maram de Redmere</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w405754">Redemere</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w405754">Redmere</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w405817">Rodemere</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w405836">Redmore</searchterm>
+  </extension>
+ </mads>
+ 

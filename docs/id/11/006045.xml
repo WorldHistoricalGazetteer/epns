@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000092">
+  <authority ID="epns-deep-11-a-name-parish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006045">Artington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000010" type="broader">
+   <geographic>Godalming Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c230009fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5921200" lat="51.2158000" gazref="geonames:7301432" source="geonames"/>
+   <geo long="-0.5751672620779776" lat="51.21750295543292" gazref="unlock:11064021" source="unlock"/>
+   <geo kepnexref="0150" long="-0.581038" lat="51.220325" source="kepn"/>
+  </extension>
+ </mads>
+ 

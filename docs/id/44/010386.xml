@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000045">
+  <authority ID="epns-deep-44-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/010386">Pownall Fee</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000008" type="broader">
+   <geographic>Wilmslow</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w455126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/010387">Pownall Fee</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w455148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/010388">feodum de Pownehale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002095"/>
+  </recordInfo>
+  <extension>
+   <geo easting="381500" northing="378500" long="-2.27905" lat="53.3031" kepnref="11762" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w455126">
+    <date end="1634" begin="1634" subtype="simple">1634</date>
+    <source style="" id="ch315">JRL</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w455148">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="ch301">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w455126">Pownall Fee</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w455148">feodum de Pownehale</searchterm>
+  </extension>
+ </mads>
+ 

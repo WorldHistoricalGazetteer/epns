@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000127">
+  <authority ID="epns-deep-16-a-name-parish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005710">Maiden Bradley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000015" type="broader">
+   <geographic>Mere Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000ca9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2857700" lat="51.1496600" gazref="geonames:2643188" source="geonames"/>
+   <geo long="-2.278794403271125" lat="51.14490755029011" gazref="unlock:11210995" source="unlock"/>
+   <geo easting="380500" northing="138500" long="-2.28013" lat="51.1454" kepnref="7291" source="kepn"/>
+  </extension>
+ </mads>
+ 

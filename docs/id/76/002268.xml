@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000008">
+  <authority ID="epns-deep-76-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002268">Hortonwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000006" type="broader">
+   <geographic>Oakengates</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w102803">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002269">Horton Wood</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w102824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002270">Hortons Wood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a641b47fc4463d000f0a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.46787855" lat="52.71878831" source="epns"/>
+   <geo long="-2.466388523322816" lat="52.71789611304929" gazref="unlock:11179845" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w102803">
+    <date end="1833" begin="1833" subtype="simple">1833</date>
+    <source style="" id="ss205">OS</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w102824">
+    <date end="1843" begin="1843" subtype="simple">1843</date>
+    <source style="italic" id="ss292">TA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w102803">Horton Wood</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w102824">Hortons Wood</searchterm>
+  </extension>
+ </mads>
+ 

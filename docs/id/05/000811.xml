@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000035">
+  <authority ID="epns-deep-05-a-name-parish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000811">Oswaldkirk</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000002" type="broader">
+   <geographic>Ryedale Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003ae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0447300" lat="54.2036800" gazref="geonames:2640863" source="geonames"/>
+   <geo long="-1.041649590454058" lat="54.20726223221232" gazref="unlock:11237344" source="unlock"/>
+   <geo easting="462500" northing="479500" long="-1.04325" lat="54.2074" kepnref="5738" source="kepn"/>
+  </extension>
+ </mads>
+ 

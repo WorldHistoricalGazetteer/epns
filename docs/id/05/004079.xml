@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000129">
+  <authority ID="epns-deep-05-a-name-parish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004079">Pickhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000009" type="broader">
+   <geographic>Halikeld Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4666700" lat="54.2333300" gazref="geonames:2640310" source="geonames"/>
+   <geo long="-1.470502217694776" lat="54.24586392732507" gazref="unlock:11244981" source="unlock"/>
+   <geo easting="434500" northing="483500" long="-1.47205" lat="54.246" kepnref="6008" source="kepn"/>
+  </extension>
+ </mads>
+ 

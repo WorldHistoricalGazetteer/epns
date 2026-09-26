@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000062">
+  <authority ID="epns-deep-50-b-name-subparish-000062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/009614">Radley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000065" type="broader">
+   <geographic>Radley</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w401334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/009615">Radelege</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w401368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/009616">Radeley</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w401389">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/009617">Radele</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b8d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2402500" lat="51.6874600" gazref="geonames:2639719" source="geonames"/>
+   <geo long="-1.254859171949541" lat="51.69142742743556" gazref="unlock:11251969" source="unlock"/>
+   <geo easting="452500" northing="199500" long="-1.24186" lat="51.6918" kepnref="3165" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w401334">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="be3">Abingdon</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w401368">
+    <date subtype="simple" begin="1242" end="1243">1242-3</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w401389">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w401389">
+    <date subtype="simple" begin="1353" end="1353">1353</date>
+    <source style="" id="be260">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w401389">
+    <date subtype="simple" begin="1396" end="1397">1396-7</date>
+    <source style="" id="be240">ObAcc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w401334">Radelege</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w401368">Radeley</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w401389">Radele</searchterm>
+  </extension>
+ </mads>
+ 

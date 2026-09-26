@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol78mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-78-a-parish-000017">
+  <authority ID="epns-deep-78-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/78/014201">Stathern</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-78-hu-subcounty-000001" type="broader">
+   <geographic>Framland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8552200" lat="52.8720300" gazref="geonames:2637002" source="geonames"/>
+   <geo long="-0.8483750843807822" lat="52.8750592774806" gazref="unlock:11291513" source="unlock"/>
+   <geo easting="477500" northing="331500" long="-0.849941" lat="52.8754" kepnref="8746" source="kepn"/>
+  </extension>
+ </mads>
+ 

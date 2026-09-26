@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000372">
+  <authority ID="epns-deep-05-b-name-subparish-000372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004240">Ellington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000132" type="broader">
+   <geographic>Mashamshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w311981">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004241">Ellintone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w312000">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004242">Ellington, Ellyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w312048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004243">Elington, Elyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000538"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7000000" lat="54.2333300" gazref="geonames:2650091" source="geonames"/>
+   <geo long="-1.700713834054849" lat="54.24665526934736" gazref="unlock:11171610" source="unlock"/>
+   <geo easting="419500" northing="483500" long="-1.70224" lat="54.2468" kepnref="6025" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w311981">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w312000">
+    <attestation variantID="epns-deep-05-b-name-w312000">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w312048">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w312048">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w312048">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w312048">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w311981">Ellintone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w312000">Ellington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w312000">Ellyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w312048">Elington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w312048">Elyngton</searchterm>
+  </extension>
+ </mads>
+ 

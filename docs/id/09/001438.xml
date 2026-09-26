@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000032">
+  <authority ID="epns-deep-09-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001438">Wembworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000032" type="broader">
+   <geographic>Wembworthy</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w68533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001439">Mameorda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001440">Wemeworth'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68572">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001441">Wemmewrth'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68641">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001442">Wemmeworthi, Wemmeworthe, Wemmeworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001443">Wemmaworth(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68716">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001444">Wenneworth(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001445">Weymeworthe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001446">Wembworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w68784">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001447">Wemry</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a64"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8996700" lat="50.8827900" gazref="geonames:7294913" source="geonames"/>
+   <geo long="-3.897449084227631" lat="50.86901145974807" gazref="unlock:11315944" source="unlock"/>
+   <geo easting="266500" northing="109500" long="-3.89859" lat="50.8695" kepnref="15699" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w68533">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68551">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="de53">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68572">
+    <attestation variantID="epns-deep-09-b-name-w68572">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>783</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w68572">
+     <date end="1333" begin="1333" subtype="simple">1333</date>
+     <source style="italic" id="de250">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68641">
+    <date end="1333" begin="1242">1242-1333</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68682">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68682">
+    <date end="1396" begin="1396" subtype="simple">1396</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68716">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68739">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68762">
+    <date end="1420" begin="1420" subtype="simple">1420</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w68784">
+    <date end="1651" begin="1629" subtype="simple">1629-51</date>
+    <source style="" id="de15">Barum</source>
+    <item>1</item>
+    <page>59</page>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w68533">Mameorda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68551">Wemeworth'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68572">Wemmewrth'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68641">Wemmeworthi</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68641">Wemmeworthe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68641">Wemmeworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68682">Wemmaworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68682">Wemmaworth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68716">Wenneworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68716">Wenneworth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68739">Weymeworthe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68762">Wembworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w68784">Wemry</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000060">
+  <authority ID="epns-deep-31-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004566">Huntwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000017" type="broader">
+   <geographic>Wragby</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w203626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004567">Huntwic, Huntwyk, Huntwick(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w203750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004568">Huntewik, Huntewic(h), Huntewy(c)k</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w203861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004569">Heyehuntewy(c)k, Hauerhuntewy(c)k, Harehuntewy(c)k</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w203934">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004570">Huntewykes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810062b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.394552467" lat="53.66571896" source="epns"/>
+   <geo long="-1.386919425404296" lat="53.67017607226325" gazref="unlock:11181494" source="unlock"/>
+   <geo easting="440500" northing="419500" long="-1.38845" lat="53.6704" kepnref="14453" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w203626">
+    <date subtype="simple" begin="1166" end="1193">1166-93</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1610</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203626">
+    <date subtype="simple" begin="1193" end="1210">1193-1210</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <page>1611</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203626">
+    <date subtype="simple" begin="1203" end="1203">1203</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>9</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203626">
+    <date subtype="simple" begin="1371" end="1371">1371</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203626">
+    <attestation variantID="epns-deep-31-b-name-w203626">
+     <date subtype="simple" begin="1402" end="1402">1402</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w203626">
+     <date subtype="simple" begin="1608" end="1608">1608</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>105d, 108d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="simple" begin="1275" end="1300">l. 13</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>172</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203750">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203861">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>172</item>
+    <page>175-6</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w203934">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w203626">Huntwic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203626">Huntwyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203626">Huntwicke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203626">Huntwick</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203750">Huntewik</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203750">Huntewich</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203750">Huntewic</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203750">Huntewyck</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203750">Huntewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Heyehuntewyck</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Heyehuntewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Hauerhuntewyck</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Hauerhuntewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Harehuntewyck</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203861">Harehuntewyk</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w203934">Huntewykes</searchterm>
+  </extension>
+ </mads>
+ 

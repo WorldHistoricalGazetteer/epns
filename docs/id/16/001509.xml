@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000027">
+  <authority ID="epns-deep-16-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001509">Kemble</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hudb-belowsubcounty-000001" type="broader">
+   <geographic>Chedglow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c89"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0180600" lat="51.6766700" gazref="geonames:2645838" source="geonames"/>
+   <geo long="-2.021695521524282" lat="51.67580397961341" gazref="unlock:11184937" source="unlock"/>
+   <geo kepnexref="207" long="-2.02308" lat="51.6763" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000155">
+  <authority ID="epns-deep-47-b-name-subparish-000155">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013852">Moreton cum Lingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000048" type="broader">
+   <geographic>Bidston</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w773022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013853">Moreton cum Lingham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f6f"/>
+  </recordInfo>
+  <extension>
+   <geo easting="326500" northing="390500" long="-3.10705" lat="53.4062" kepnref="12175" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w773022">
+    <date end="1860" begin="1860" subtype="simple">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w773022">Moreton cum Lingham</searchterm>
+  </extension>
+ </mads>
+ 

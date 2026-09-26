@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000078">
+  <authority ID="epns-deep-02-a-name-parish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001203">Tingewick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000006" type="broader">
+   <geographic>Rowley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002e3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0480400" lat="51.9903100" gazref="geonames:2635796" source="geonames"/>
+   <geo long="-1.046073404632913" lat="51.98666297521909" gazref="unlock:11301277" source="unlock"/>
+   <geo easting="465500" northing="232500" long="-1.04758" lat="51.9871" kepnref="11272" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-hu-subcounty-000005">
+  <authority ID="epns-deep-24-hu-name-subcounty-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009633">Banbury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-co-county-000001" type="broader">
+   <geographic>Oxfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-24-hu-name-w363441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009634">Banneb'r</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w363490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009635">Bannebur(y), Bannebir(y), Bannebyr</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w363539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009636">Banbury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e24b47fc40beb00077a"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-24-hu-name-w363441">
+    <attestation variantID="epns-deep-24-hu-name-w363441">
+     <date end="1193" begin="1193" subtype="simple">1193</date>
+     <source style="" id="ox168">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-hu-name-w363441">
+     <date end="1346" begin="1346" subtype="simple">1346</date>
+     <source style="" id="ox75">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w363490">
+    <date end="1346" begin="1193">1193-1346</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w363539">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-hu-name-w363441">Banneb'r</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363490">Bannebury</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363490">Bannebur</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363490">Bannebiry</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363490">Bannebir</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363490">Bannebyr</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w363539">Banbury</searchterm>
+  </extension>
+ </mads>
+ 

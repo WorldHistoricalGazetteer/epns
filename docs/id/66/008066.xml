@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol66mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-66-a-parish-000020">
+  <authority ID="epns-deep-66-a-name-parish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/66/008066">Usselby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-66-wp-subcounty-000001" type="broader">
+   <geographic>Walshcroft Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f58"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3503200" lat="53.4277000" gazref="geonames:2635049" source="geonames"/>
+   <geo long="-0.3518436411977569" lat="53.42664988287975" gazref="unlock:11310933" source="unlock"/>
+   <geo easting="509500" northing="393500" long="-0.353492" lat="53.4269" kepnref="10777" source="kepn"/>
+  </extension>
+ </mads>
+ 

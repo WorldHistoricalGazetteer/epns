@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000395">
+  <authority ID="epns-deep-05-b-name-subparish-000395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004437">Patrick Brompton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000138" type="broader">
+   <geographic>Patrick Brompton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w323665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004438">Bruntun, Brunton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w323716">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004439">Pateryke</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w323741">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004440">Patric(k), Patryk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w323780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004441">Petrick</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000571"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6623600" lat="54.3150600" gazref="geonames:7291663" source="geonames"/>
+   <geo long="-1.654144171567645" lat="54.30944909698986" gazref="unlock:11241174" source="unlock"/>
+   <geo easting="422500" northing="490500" long="-1.65567" lat="54.3096" kepnref="6046" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w323665">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w323716">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>6 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w323741">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w323741">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w323780">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w323665">Bruntun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323665">Bruntone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323665">Brunton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323716">Pateryke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323741">Patrick</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323741">Patric</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323741">Patryk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w323780">Petrick</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000154">
+  <authority ID="epns-deep-05-b-name-subparish-000154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001725">Gristhorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000058" type="broader">
+   <geographic>Cayton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w139411">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001726">Grisetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w139430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001727">Gristhorp(p), Grysthorp(p)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w139482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001728">Grisethorp, Grysethorp</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600044d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3341700" lat="54.2214800" gazref="geonames:2647855" source="geonames"/>
+   <geo long="-0.3354790199767055" lat="54.22654369274228" gazref="unlock:11161484" source="unlock"/>
+   <geo easting="508500" northing="482500" long="-0.337166" lat="54.2267" kepnref="5804" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w139411">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w139430">
+    <attestation variantID="epns-deep-05-b-name-w139430">
+     <date subtype="simple" begin="1175" end="1189">1175-89</date>
+     <source style="" id="ny236">YCh</source>
+     <page>370</page>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w139482">
+    <attestation variantID="epns-deep-05-b-name-w139482">
+     <date subtype="simple" begin="1181" end="1181">1181</date>
+     <source style="italic" id="ny28">BylE</source>
+     <page>103 d</page>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w139411">Grisetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139430">Gristhorpp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139430">Gristhorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139430">Grysthorpp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139430">Grysthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139482">Grisethorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w139482">Grysethorp</searchterm>
+  </extension>
+ </mads>
+ 

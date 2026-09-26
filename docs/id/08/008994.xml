@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-hu-subcounty-000011">
+  <authority ID="epns-deep-08-hu-name-subcounty-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008994">Ermington Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-08-hu-name-w461316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008995">Erminton(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018a7"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-08-hu-name-w461316">
+    <date subtype="simple" begin="1131" end="1131">1131</date>
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <date subtype="simple" begin="1187" end="1187">1187</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w461316">
+    <date subtype="simple" begin="1238" end="1238">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-hu-name-w461316">Ermintona</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w461316">Erminton</searchterm>
+  </extension>
+ </mads>
+ 

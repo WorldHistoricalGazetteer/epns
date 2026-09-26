@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000016">
+  <authority ID="epns-deep-43-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005972">Brougham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000002" type="broader">
+   <geographic>West Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f001377"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6717200" lat="54.6470100" gazref="geonames:7298079" source="geonames"/>
+   <geo long="-2.65986" lat="54.6318" source="epns"/>
+   <geo easting="357500" northing="526500" long="-2.65986" lat="54.6318" kepnref="5157" source="kepn"/>
+  </extension>
+ </mads>
+ 

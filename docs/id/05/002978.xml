@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000224">
+  <authority ID="epns-deep-05-b-name-subparish-000224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002978">Kirby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000087" type="broader">
+   <geographic>Kirby in Cleveland</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w225278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002979">Cherchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w225297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002980">Kirchabi, Kirkabi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w225348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002981">Kirkeby in Cliveland, Kyrkeby in Cliveland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ec"/>
+  </recordInfo>
+  <extension>
+   <geo easting="453500" northing="507500" long="-1.17621" lat="54.4601" kepnref="5875" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w225278">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w225297">
+    <date subtype="simple" begin="1140" end="1154">1140-54</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w225297">
+    <date subtype="simple" begin="1149" end="1153">1149-53</date>
+    <source style="" id="ny236">YCh</source>
+    <page>567</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w225348">
+    <attestation variantID="epns-deep-05-b-name-w225348">
+     <date subtype="simple" begin="1149" end="1153">1149-53</date>
+     <source style="" id="ny236">YCh</source>
+     <page>878</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w225278">Cherchebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225297">Kirchabi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225297">Kirkabi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225348">Kirkeby in Cliveland</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225348">Kyrkeby in Cliveland</searchterm>
+  </extension>
+ </mads>
+ 

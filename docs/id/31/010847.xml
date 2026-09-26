@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-a-parish-000032">
+  <authority ID="epns-deep-31-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/010847">Thornhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-wp-subcounty-000002" type="broader">
+   <geographic>Agbrigg Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c8100600d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6333300" lat="53.6666700" gazref="geonames:2635982" source="geonames"/>
+   <geo long="-1.621668723" lat="53.65766254" source="epns"/>
+   <geo long="-1.629274495268863" lat="53.65319294829079" gazref="unlock:11299843" source="unlock"/>
+   <geo easting="425500" northing="418500" long="-1.61557" lat="53.6624" kepnref="14491" source="kepn"/>
+  </extension>
+ </mads>
+ 

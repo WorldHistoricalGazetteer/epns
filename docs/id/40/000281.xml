@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000003">
+  <authority ID="epns-deep-40-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000281">Falfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000001" type="broader">
+   <geographic>Thornbury Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001967"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4605600" lat="51.6369400" gazref="geonames:2649725" source="geonames"/>
+   <geo long="-2.462417572" lat="51.63442959" source="epns"/>
+   <geo long="-2.455237688548309" lat="51.63895454408985" gazref="unlock:11141717" source="unlock"/>
+   <geo kepnexref="359" long="-2.456582" lat="51.639414" source="kepn"/>
+  </extension>
+ </mads>
+ 

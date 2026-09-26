@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-a-parish-000107">
+  <authority ID="epns-deep-17-a-name-parish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/004552">Teversal</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-wpd-belowsubcounty-000004" type="broader">
+   <geographic>North Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286bedb47fc40bd40007fa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2833300" lat="53.1500000" gazref="geonames:2636077" source="geonames"/>
+   <geo long="-1.27474989161853" lat="53.14814036235885" gazref="unlock:11298857" source="unlock"/>
+   <geo easting="448500" northing="361500" long="-1.27628" lat="53.1484" kepnref="2545" source="kepn"/>
+  </extension>
+ </mads>
+ 

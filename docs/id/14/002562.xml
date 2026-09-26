@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000112">
+  <authority ID="epns-deep-14-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002562">Speeton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000058" type="broader">
+   <geographic>Bridlington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w163740">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002563">Spretone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w163758">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002564">Specton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w163793">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002565">Spetune, Speton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w163866">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002566">Speyton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w163883">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002567">Spighton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d000470"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2422100" lat="54.1557500" gazref="geonames:2637244" source="geonames"/>
+   <geo long="-0.2465236105836367" lat="54.15336393760197" gazref="unlock:11288829" source="unlock"/>
+   <geo easting="515500" northing="474500" long="-0.232914" lat="54.1533" kepnref="8493" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w163740">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163758">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163758">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="ey367">YCh</source>
+    <item>1139</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163793">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163793">
+    <attestation variantID="epns-deep-14-b-name-w163793">
+     <date end="1157" begin="1155" subtype="simple">1155-7</date>
+     <source style="" id="ey367">YCh</source>
+     <page>1148</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w163793">
+     <date end="1579" begin="1579" subtype="simple">1579</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163866">
+    <date end="1549" begin="1549" subtype="simple">1549</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w163883">
+    <date end="1586" begin="1586" subtype="simple">1586</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w163740">Spretone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163758">Spectone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163758">Specton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163793">Spetune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163793">Spetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163793">Speton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163866">Speyton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w163883">Spighton</searchterm>
+  </extension>
+ </mads>
+ 

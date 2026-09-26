@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000016">
+  <authority ID="epns-deep-79-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/001275">Metton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d3c"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.255463327" lat="52.88546373" source="epns"/>
+   <geo long="1.263221065214686" lat="52.88974887732635" gazref="unlock:11217634" source="unlock"/>
+   <geo easting="619500" northing="337500" long="1.26141" lat="52.8901" kepnref="9168" source="kepn"/>
+  </extension>
+ </mads>
+ 

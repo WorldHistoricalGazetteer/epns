@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000316">
+  <authority ID="epns-deep-10-a-name-parish-000316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007103">Ufford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000020" type="broader">
+   <geographic>Nassaborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3843500" lat="52.6237900" gazref="geonames:2635230" source="geonames"/>
+   <geo long="-0.3820596549135211" lat="52.62684910428011" gazref="unlock:11309058" source="unlock"/>
+   <geo easting="509500" northing="304500" long="-0.383669" lat="52.6272" kepnref="11187" source="kepn"/>
+  </extension>
+ </mads>
+ 

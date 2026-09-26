@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-hu-subcounty-000002">
+  <authority ID="epns-deep-46-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/008026">Eddisbury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-co-county-000001" type="broader">
+   <geographic>Cheshire</geographic>
+  </related>
+  <variant ID="epns-deep-46-hu-name-w398199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/008027">Riseton(e) Hund', Risedon Hund', Roelau Hund'</geographic>
+  </variant>
+  <variant ID="epns-deep-46-hu-name-w398254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/008028">hundredum de Edesberi</geographic>
+  </variant>
+  <variant ID="epns-deep-46-hu-name-w398288">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/008029">hundredum de Edisbur(y)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328365eb47fc40856001f30"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-46-hu-name-w398199">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-hu-name-w398254">
+    <date subtype="simple" begin="1175" end="1200">l12</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-hu-name-w398288">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ch138">Court</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-hu-name-w398199">Risetone Hund'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398199">Riseton Hund'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398199">Risedon Hund'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398199">Roelau Hund'</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398254">hundredum de Edesberi</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398288">hundredum de Edisbury</searchterm>
+   <searchterm variantID="epns-deep-46-hu-name-w398288">hundredum de Edisbur</searchterm>
+  </extension>
+ </mads>
+ 

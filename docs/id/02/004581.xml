@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000209">
+  <authority ID="epns-deep-02-b-name-subparish-000209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004581">Stoke Poges</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000212" type="broader">
+   <geographic>Stoke Poges</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w325674">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004582">Stoches</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325691">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004583">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004584">Stok</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004585">Stoke</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325777">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004586">Stoke Puges, Pogeys</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004587">Stoke Pougeys</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325830">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004588">Stoke Pugges</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004589">Stoke Pogys</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004590">Stoke pewges</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w325899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004591">Stokbogies</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5888000" lat="51.5444100" gazref="geonames:2636840" source="geonames"/>
+   <geo long="-0.579498022250394" lat="51.54131451561178" gazref="unlock:11292779" source="unlock"/>
+   <geo easting="498500" northing="183500" long="-0.58104" lat="51.5418" kepnref="11406" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w325674">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325691">
+    <date end="1130" begin="1110" subtype="circa">c. 1120</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325691">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="bu118">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325691">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1449</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325742">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="bu37">Fees</source>
+    <item>879</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325762">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325777">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="bu57">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325807">
+    <date end="1331" begin="1331" subtype="simple">1331</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325830">
+    <date end="1420" begin="1420" subtype="simple">1420</date>
+    <source style="" id="bu58">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325854">
+    <date end="1514" begin="1514" subtype="simple">1514</date>
+    <source style="" id="bu68">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325875">
+    <date end="1517" begin="1517" subtype="simple">1517</date>
+    <source style="" id="bu33">Encl</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w325899">
+    <date end="1526" begin="1526" subtype="simple">1526</date>
+    <source style="" id="bu69">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w325674">Stoches</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325691">Stokes</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325742">Stok</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325762">Stoke</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325777">Stoke Puges</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325777">Pogeys</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325807">Stoke Pougeys</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325830">Stoke Pugges</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325854">Stoke Pogys</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325875">Stoke pewges</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w325899">Stokbogies</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000007">
+  <authority ID="epns-deep-05-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000059">Warthill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000003" type="broader">
+   <geographic>Gate Helmsley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w4656">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000060">Wardhilla, Wardille</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w4685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000061">Warthill(e), Warthil, Warthyll</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w4763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000062">Warthehill</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w4784">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000063">Warthull</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w4802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000064">Warthell</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w4824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000065">Wathell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000493"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9717300" lat="53.9897800" gazref="geonames:2634732" source="geonames"/>
+   <geo long="-0.970351438221025" lat="53.9909376352624" gazref="unlock:11313862" source="unlock"/>
+   <geo easting="467500" northing="455500" long="-0.971951" lat="53.9911" kepnref="5658" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w4656">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w4685">
+    <attestation variantID="epns-deep-05-b-name-w4685">
+     <date subtype="simple" begin="1194" end="1198">1194-8</date>
+     <source style="italic" id="ny46">Dods</source>
+     <item>vii</item>
+     <page>168</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w4685">
+     <date subtype="simple" begin="1416" end="1416">1416</date>
+     <source style="" id="ny62">Fabr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w4763">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w4784">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w4802">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w4824">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w4656">Wardhilla</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4656">Wardille</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4685">Warthille</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4685">Warthill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4685">Warthil</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4685">Warthyll</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4763">Warthehill</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4784">Warthull</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4802">Warthell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w4824">Wathell</searchterm>
+  </extension>
+ </mads>
+ 

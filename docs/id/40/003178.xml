@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000029">
+  <authority ID="epns-deep-40-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003178">Wapley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000028" type="broader">
+   <geographic>Wapley &amp; Codrington</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w129853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003179">Wapelie, Wapelei(a), Wapelie, Wapelai, Wapel', Wapeley(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w129976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003180">Wappelei(a), Wappelegia, Wappelai, Wappel', Wappelegh', Wappeley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w130160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003181">Wap(p)ley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001bcf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.41791127" lat="51.5087021" source="epns"/>
+   <geo long="-2.410746652474557" lat="51.51322436053806" gazref="unlock:11313072" source="unlock"/>
+   <geo easting="371500" northing="179500" long="-2.41208" lat="51.5137" kepnref="6474" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w129853">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129853">
+    <date end="1154" begin="1135" subtype="regnal">Steph</date>
+    <copydate end="1318" begin="1318">1318</copydate>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129853">
+    <attestation variantID="epns-deep-40-b-name-w129853">
+     <date end="1195" begin="1165" subtype="simple">1165-95</date>
+     <source style="" id="go388">P</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129853">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129853">
+    <date end="1522" begin="1522" subtype="simple">1522</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1135" begin="1100" subtype="regnal">Hy 1</date>
+    <copydate end="1317" begin="1317">1317</copydate>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1189" begin="1154" subtype="regnal">Hy 2</date>
+    <copydate end="1318" begin="1318">1318</copydate>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1164" begin="1164" subtype="simple">1164</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1205" begin="1175" subtype="simple">1175-1205</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1199" begin="1179" subtype="circa">c. 1189</date>
+    <source style="" id="go50">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w129976">
+    <attestation variantID="epns-deep-40-b-name-w129976">
+     <date end="1221" begin="1221" subtype="simple">1221</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w129976">
+     <date end="1497" begin="1497" subtype="simple">1497</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w130160">
+    <date end="1519" begin="1519" subtype="simple">1519</date>
+    <source style="" id="go179">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w130160">
+    <attestation variantID="epns-deep-40-b-name-w130160">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="" id="go522">VE</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-b-name-w130160">
+     <date end="1705" begin="1705" subtype="simple">1705</date>
+     <source style="" id="go410">PR</source>
+     <page>9</page>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapelie</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapeleia</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapelei</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapelie</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapelai</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapel'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapeleya</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129853">Wapeley</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappeleia</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappelei</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappelegia</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappelai</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappel'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappelegh'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappeleye</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w129976">Wappeley</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w130160">Wappley</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w130160">Wapley</searchterm>
+  </extension>
+ </mads>
+ 

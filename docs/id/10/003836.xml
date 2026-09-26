@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000175">
+  <authority ID="epns-deep-10-b-name-subparish-000175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003836">Earls Barton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000175" type="broader">
+   <geographic>Earls Barton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w210074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003837">Barton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003838">Barton comitis David</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003839">Erlesbarton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003840">Barton Pynkenye</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210179">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003841">Barton Yerles</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003842">Erles Barton al. Barton Comitis</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w210248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003843">Berton(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00055e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7524800" lat="52.2662700" gazref="geonames:2650552" source="geonames"/>
+   <geo long="-0.7470720504816305" lat="52.26261605636368" gazref="unlock:11135250" source="unlock"/>
+   <geo easting="485500" northing="263500" long="-0.748624" lat="52.263" kepnref="11045" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w210074">
+    <attestation variantID="epns-deep-10-b-name-w210074">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210103">
+    <date end="1187" begin="1187" subtype="simple">1187</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210132">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210154">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210179">
+    <date end="1545" begin="1545" subtype="simple">1545</date>
+    <source style="" id="nh155">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210204">
+    <date end="1574" begin="1574" subtype="simple">1574</date>
+    <source style="italic" id="nh249">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210248">
+    <date end="1158" begin="1155" subtype="simple">1155-8</date>
+    <copydate end="1329" begin="1329">1329</copydate>
+    <source style="" id="nh44">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210248">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w210248">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="nh63">Cur</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w210074">Bartone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210074">Barton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210103">Barton comitis David</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210132">Erlesbarton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210154">Barton Pynkenye</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210179">Barton Yerles</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210204">Erles Barton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210204">Barton Comitis</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210248">Bertona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w210248">Berton</searchterm>
+  </extension>
+ </mads>
+ 

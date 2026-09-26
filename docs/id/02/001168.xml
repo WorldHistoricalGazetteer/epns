@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000077">
+  <authority ID="epns-deep-02-b-name-subparish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001168">Preston Bisset</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000076" type="broader">
+   <geographic>Preston Bisset</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w84341">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001169">Prestone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w84359">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001170">Prestinton</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w84378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001171">Prestona Manasseri</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w84405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001172">Preston Byset</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003a9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0439200" lat="51.9625100" gazref="geonames:2639909" source="geonames"/>
+   <geo easting="465500" northing="229500" long="-1.04815" lat="51.9601" kepnref="11270" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w84341">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w84359">
+    <date end="1162" begin="1162" subtype="simple">1162</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w84378">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w84405">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="bu57">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w84341">Prestone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w84359">Prestinton</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w84378">Prestona Manasseri</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w84405">Preston Byset</searchterm>
+  </extension>
+ </mads>
+ 

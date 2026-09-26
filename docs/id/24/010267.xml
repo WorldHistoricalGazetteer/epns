@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000141">
+  <authority ID="epns-deep-24-b-name-subparish-000141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/010267">Upper Prescote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000124" type="broader">
+   <geographic>Prescote</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w391728">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/010268">Over Prescot</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w391753">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/010269">Upper Prescott</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb000846"/>
+  </recordInfo>
+  <extension>
+   <geo easting="447500" northing="246500" long="-1.30773" lat="52.1148" kepnref="3758" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w391728">
+    <date subtype="simple" begin="1797" end="1797">1797</date>
+    <source style="" id="ox53">Davis</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w391753">
+    <date subtype="simple" begin="1802" end="1802">1802</date>
+    <source style="italic" id="ox122">Loveday</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w391728">Over Prescot</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w391753">Upper Prescott</searchterm>
+  </extension>
+ </mads>
+ 

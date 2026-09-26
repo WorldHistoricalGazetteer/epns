@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000005">
+  <authority ID="epns-deep-98-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000091">Melchbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000001" type="broader">
+   <geographic>Stodden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000290"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4932700" lat="52.2801800" gazref="geonames:2642795" source="geonames"/>
+   <geo long="-0.4974292217173902" lat="52.27768680008554" gazref="unlock:11216862" source="unlock"/>
+   <geo easting="502500" northing="265500" long="-0.499011" lat="52.2781" kepnref="4226" source="kepn"/>
+  </extension>
+ </mads>
+ 

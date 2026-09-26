@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000029">
+  <authority ID="epns-deep-67-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007004">Ketton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000029" type="broader">
+   <geographic>Ketton</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w364061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007005">Chetene</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w364078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007006">Chetena</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w364099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007007">Chetenea</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w364117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007008">Ketene</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w364222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007009">Keton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w364282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/007010">Ketton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d000402"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5545900" lat="52.6280400" gazref="geonames:2645741" source="geonames"/>
+   <geo long="-0.5593034328804177" lat="52.62913740177448" gazref="unlock:11185646" source="unlock"/>
+   <geo easting="498500" northing="304500" long="-0.546123" lat="52.6293" kepnref="2994" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w364061">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="rd85">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364078">
+    <date subtype="simple" begin="1146" end="1146">1146</date>
+    <source style="" id="rd301">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364099">
+    <date subtype="simple" begin="1163" end="1163">1163</date>
+    <source style="" id="rd301" underspec="ib">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364117">
+    <date subtype="simple" begin="1174" end="1174">1174</date>
+    <date subtype="circa" begin="1170" end="1190">c1180</date>
+    <source style="" id="rd142">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364117">
+    <attestation variantID="epns-deep-67-b-name-w364117">
+     <date subtype="simple" begin="1199" end="1199">1199</date>
+     <source style="italic" id="rd130">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w364117">
+     <date subtype="simple" begin="1278" end="1278">1278</date>
+     <source style="italic" id="rd180">LCDeeds</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364117">
+    <attestation variantID="epns-deep-67-b-name-w364117">
+     <date subtype="simple" begin="1322" end="1322">1322</date>
+     <source style="italic" id="rd374">Wyg</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w364117">
+     <date subtype="simple" begin="1384" end="1384">1384</date>
+     <source style="" id="rd61">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364222">
+    <attestation variantID="epns-deep-67-b-name-w364222">
+     <date subtype="simple" begin="1322" end="1322">1322</date>
+     <source style="" id="rd169">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w364222">
+     <date subtype="simple" begin="1397" end="1397">1397</date>
+     <source style="italic" id="rd130">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364222">
+    <date subtype="simple" begin="1505" end="1505">1505</date>
+    <source style="" id="rd266">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364282">
+    <attestation variantID="epns-deep-67-b-name-w364282">
+     <date subtype="simple" begin="1519" end="1519">1519</date>
+     <source style="" id="rd114">EpCB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-67-b-name-w364282">
+     <date subtype="simple" begin="1556" end="1556">1556</date>
+     <source style="italic" id="rd66">Conant</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w364282">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <source style="italic" id="rd130">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w364061">Chetene</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364078">Chetena</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364099">Chetenea</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364117">Ketene</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364222">Ketone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364222">Keton</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w364282">Ketton</searchterm>
+  </extension>
+ </mads>
+ 

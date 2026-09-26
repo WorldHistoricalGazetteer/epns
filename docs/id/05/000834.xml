@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000037">
+  <authority ID="epns-deep-05-a-name-parish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000834">Scawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000002" type="broader">
+   <geographic>Ryedale Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003bb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1594900" lat="54.2446200" gazref="geonames:2638389" source="geonames"/>
+   <geo long="-1.163576525332938" lat="54.24412502763989" gazref="unlock:11279010" source="unlock"/>
+   <geo easting="454500" northing="483500" long="-1.16516" lat="54.2443" kepnref="5740" source="kepn"/>
+  </extension>
+ </mads>
+ 

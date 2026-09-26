@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000298">
+  <authority ID="epns-deep-05-b-name-subparish-000298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003621">Felixkirk</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000111" type="broader">
+   <geographic>Felixkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w265543">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003622">Fridebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w265560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003623">Ecclesia S. Felicis</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w265589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003624">Felicekyrke, Felicekirk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w265633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003625">Feliskirk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w265660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003626">Fillyxchurche</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000483"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2836000" lat="54.2551500" gazref="geonames:2649580" source="geonames"/>
+   <geo long="-1.286187671031646" lat="54.25390199490678" gazref="unlock:11142848" source="unlock"/>
+   <geo easting="446500" northing="484500" long="-1.28776" lat="54.2541" kepnref="5948" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w265543">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w265560">
+    <date subtype="simple" begin="1210" end="1210">1210</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w265589">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w265589">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w265633">
+    <date subtype="simple" begin="1410" end="1410">1410</date>
+    <source style="" id="ny136">NCyWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w265660">
+    <date subtype="simple" begin="1578" end="1578">1578</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w265543">Fridebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w265560">Ecclesia S. Felicis</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w265589">Felicekyrke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w265589">Felicekirk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w265633">Feliskirk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w265660">Fillyxchurche</searchterm>
+  </extension>
+ </mads>
+ 

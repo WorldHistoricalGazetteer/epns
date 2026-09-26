@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000005">
+  <authority ID="epns-deep-50-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000628">Hamstead Marshall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000006" type="broader">
+   <geographic>Hamstead Marshall</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w24046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000629">Hamesteda, Hamestede</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000630">Hamstede</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000631">Hamsted'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000632">Westhamsted'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000633">Hamstud' Mareschal, Hamsted Marchal'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000634">Hamstede Mareschall</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000635">Hampsted Mareschal, Hampstede Mareschall</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w24300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/000636">Hampstede Marshall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b68"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4074500" lat="51.3866700" gazref="geonames:6693633" source="geonames"/>
+   <geo long="-1.403547094519428" lat="51.38652940439101" gazref="unlock:11165163" source="unlock"/>
+   <geo easting="441500" northing="165500" long="-1.40499" lat="51.387" kepnref="3108" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w24046">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24076">
+    <attestation variantID="epns-deep-50-b-name-w24076">
+     <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+     <copydate end="1270" begin="1270">1270</copydate>
+     <source style="" id="be56">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24134">
+    <date end="1600" begin="1154">Hy 2-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24144">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24169">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="italic" id="be21" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24215">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="be128">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24248">
+    <date subtype="simple" begin="1345" end="1345">1345</date>
+    <source style="" id="be128">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24300">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="be128" underspec="ib">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w24300">
+    <date subtype="simple" begin="1517" end="1517">1517</date>
+    <source style="" id="be89">D Inc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w24046">Hamesteda</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24046">Hamestede</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24076">Hamstede</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24134">Hamsted'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24144">Westhamsted'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24169">Hamstud' Mareschal</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24169">Hamsted Marchal'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24215">Hamstede Mareschall</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24248">Hampsted Mareschal</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24248">Hampstede Mareschall</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w24300">Hampstede Marshall</searchterm>
+  </extension>
+ </mads>
+ 

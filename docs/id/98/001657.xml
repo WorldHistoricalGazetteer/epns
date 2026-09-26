@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000064">
+  <authority ID="epns-deep-98-a-name-parish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001657">Astwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000006" type="broader">
+   <geographic>Biggleswade Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a900021b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2312700" lat="52.0323000" gazref="geonames:2656857" source="geonames"/>
+   <geo long="-0.228697976890995" lat="52.03116141383073" gazref="unlock:11065082" source="unlock"/>
+   <geo easting="521500" northing="238500" long="-0.2303" lat="52.0316" kepnref="4287" source="kepn"/>
+  </extension>
+ </mads>
+ 

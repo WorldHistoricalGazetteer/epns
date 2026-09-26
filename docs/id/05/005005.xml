@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000441">
+  <authority ID="epns-deep-05-b-name-subparish-000441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005005">Garriston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000149" type="broader">
+   <geographic>Hauxwell</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w360355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005006">Gerdeston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005007">Gertheston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005008">Gareston, Garristonne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7602400" lat="54.3284300" gazref="geonames:7292071" source="geonames"/>
+   <geo long="-1.761638613828799" lat="54.327685888501" gazref="unlock:11150505" source="unlock"/>
+   <geo easting="415500" northing="492500" long="-1.76316" lat="54.3278" kepnref="6095" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w360355">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360377">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360377">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360377">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360377">
+    <date subtype="simple" begin="1406" end="1406">1406</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360434">
+    <date subtype="simple" begin="1521" end="1521">1521</date>
+    <date subtype="simple" begin="1582" end="1582">1582</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w360355">Gerdestone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360355">Gerdeston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360377">Gertheston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360434">Gareston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360434">Garristonne</searchterm>
+  </extension>
+ </mads>
+ 

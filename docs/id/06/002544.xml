@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000082">
+  <authority ID="epns-deep-06-a-name-parish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002544">Madehurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000009" type="broader">
+   <geographic>Bury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bcb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6021900" lat="50.8823500" gazref="geonames:2643236" source="geonames"/>
+   <geo long="-0.5995530435653589" lat="50.88502820122482" gazref="unlock:11210524" source="unlock"/>
+   <geo easting="498500" northing="110500" long="-0.601067" lat="50.8856" kepnref="6944" source="kepn"/>
+  </extension>
+ </mads>
+ 

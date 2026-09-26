@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000014">
+  <authority ID="epns-deep-67-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/003044">Barleythorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000002" type="broader">
+   <geographic>Oakham Soke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7528400" lat="52.6786600" gazref="geonames:7300900" source="geonames"/>
+   <geo long="-0.7500615848504996" lat="52.67626024647027" gazref="unlock:11070200" source="unlock"/>
+   <geo easting="484500" northing="309500" long="-0.75163" lat="52.6766" kepnref="2979" source="kepn"/>
+  </extension>
+ </mads>
+ 

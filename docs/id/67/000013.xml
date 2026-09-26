@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000001">
+  <authority ID="epns-deep-67-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000013">Ashwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000001" type="broader">
+   <geographic>Ashwell</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000014">Exewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000015">Essewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000016">Assewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000017">Asshewell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000018">Ashwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d0003e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7191800" lat="52.7140400" gazref="geonames:2656910" source="geonames"/>
+   <geo long="-0.7194334300459017" lat="52.71189839223262" gazref="unlock:11064780" source="unlock"/>
+   <geo easting="486500" northing="313500" long="-0.721007" lat="52.7123" kepnref="2967" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w539">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="rd85">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w557">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="rd18">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w557">
+    <date subtype="simple" begin="1264" end="1264">1264</date>
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="rd304">RGrav</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w609">
+    <date subtype="simple" begin="1209" end="1209">1209</date>
+    <source style="" id="rd264">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w609">
+    <attestation variantID="epns-deep-67-b-name-w609">
+     <date subtype="simple" begin="1243" end="1243">1243</date>
+     <source style="" id="rd305">RGros</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w609">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <date subtype="simple" begin="1294" end="1294">1294</date>
+     <source style="italic" id="rd19">Ass</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w609">
+    <date subtype="simple" begin="1353" end="1353">1353</date>
+    <source style="italic" id="rd19" underspec="ib">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w609">
+    <attestation variantID="epns-deep-67-b-name-w609">
+     <date subtype="simple" begin="1357" end="1357">1357</date>
+     <source style="" id="rd61">Cl</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w609">
+     <date subtype="simple" begin="1407" end="1407">1407</date>
+     <source style="italic" id="rd130">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w720">
+    <date subtype="circa" begin="1281" end="1301">c1291</date>
+    <source style="" id="rd348">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w720">
+    <attestation variantID="epns-deep-67-b-name-w720">
+     <date subtype="simple" begin="1312" end="1312">1312</date>
+     <source style="" id="rd266">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-67-b-name-w720">
+     <date subtype="simple" begin="1336" end="1336">1336</date>
+     <source style="italic" id="rd19">Ass</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w720">
+    <date subtype="simple" begin="1516" end="1516">1516</date>
+    <source style="italic" id="rd130">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w720">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="rd357">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w806">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="rd334">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w539">Exewelle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w557">Essewelle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w557">Essewell</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w609">Assewelle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w609">Assewell</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w720">Asshewelle</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w720">Asshewell</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w806">Ashwell</searchterm>
+  </extension>
+ </mads>
+ 

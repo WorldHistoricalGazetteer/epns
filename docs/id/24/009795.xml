@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000132">
+  <authority ID="epns-deep-24-b-name-subparish-000132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009795">Little Bourton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000117" type="broader">
+   <geographic>Bourton</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w371668">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009796">Burton Parvum</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w371693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009797">Parva Burton</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w371721">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009798">Bourton Parva</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w371744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/009799">Bourton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007a7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.33572540653227" lat="52.09655467639805" gazref="unlock:11195953" source="unlock"/>
+   <geo easting="444500" northing="245500" long="-1.35167" lat="52.1061" kepnref="3751" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w371668">
+    <date subtype="simple" begin="1278" end="1279">1278-9</date>
+    <source style="" id="ox208">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w371693">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w371721">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w371744">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="" id="ox3">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w371668">Burton Parvum</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w371693">Parva Burton</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w371721">Bourton Parva</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w371744">Bourton</searchterm>
+  </extension>
+ </mads>
+ 

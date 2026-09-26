@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000300">
+  <authority ID="epns-deep-14-b-name-subparish-000300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006686">Belby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000164" type="broader">
+   <geographic>Howden</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w429644">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006687">Belleby, Bellebi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w429724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006688">Ballebi, Balleby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w429750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006689">Belby(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w429794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006690">Beleby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8246672593501446" lat="53.74688510317486" gazref="unlock:11074489" source="unlock"/>
+   <geo easting="477500" northing="428500" long="-0.826273" lat="53.7471" kepnref="8677" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w429644">
+    <date end="959" begin="959" subtype="simple">959</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="ey367">YCh</source>
+    <item>4</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429644">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429644">
+    <attestation variantID="epns-deep-14-b-name-w429644">
+     <date end="1199" begin="1199" subtype="simple">1199</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w429644">
+     <date end="1377" begin="1327" subtype="regnal">t. Ed 3</date>
+     <source style="" id="ey39">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429724">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429750">
+    <attestation variantID="epns-deep-14-b-name-w429750">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w429750">
+     <date end="1576" begin="1576" subtype="simple">1576</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429794">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ey224">NomVill</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w429794">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="" id="ey365">YAJ</source>
+    <item>xi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w429644">Belleby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429644">Bellebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429724">Ballebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429724">Balleby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429750">Belbye</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429750">Belby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w429794">Beleby</searchterm>
+  </extension>
+ </mads>
+ 

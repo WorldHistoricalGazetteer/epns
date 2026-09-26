@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-a-parish-000084">
+  <authority ID="epns-deep-20-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/009279">Mungrisdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-w-subcounty-000003" type="broader">
+   <geographic>Leath Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f45"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9880600" lat="54.6633100" gazref="geonames:2641960" source="geonames"/>
+   <geo long="-2.984612801849855" lat="54.66546338251215" gazref="unlock:11225169" source="unlock"/>
+   <geo easting="336500" northing="530500" long="-2.98599" lat="54.6656" kepnref="4445" source="kepn"/>
+  </extension>
+ </mads>
+ 

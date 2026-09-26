@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000030">
+  <authority ID="epns-deep-42-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004828">Old Hutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-ch-belowparish-000005" type="broader">
+   <geographic>Old Hutton Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w259571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004829">Hotun, Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259678">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004830">Vetus Hotun</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259703">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004831">Ald Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259760">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004832">Hotun in Kendale</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259790">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004833">Hutton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004834">Old Hutton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259880">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004835">Ould(e) Hutton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w259964">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/004836">Oudhutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013c1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6700300" lat="54.2894000" gazref="geonames:2641016" source="geonames"/>
+   <geo long="-2.66975" lat="54.2903" source="epns"/>
+   <geo long="-2.668344943495754" lat="54.29011662144279" gazref="unlock:11235911" source="unlock"/>
+   <geo easting="356500" northing="488500" long="-2.66975" lat="54.2903" kepnref="5098" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w259571">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="we101">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259571">
+    <date subtype="simple" begin="1170" end="1180">1170-80</date>
+    <date subtype="simple" begin="1184" end="1195">1184-95</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>187</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259571">
+    <date subtype="simple" begin="1220" end="1246">1220-46</date>
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="" id="we221" underspec="ib">Kend</source>
+    <item>187</item>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259571">
+    <attestation variantID="epns-deep-42-b-name-w259571">
+     <date subtype="simple" begin="1335" end="1335">1335</date>
+     <source style="" id="we208">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-42-b-name-w259571">
+     <date subtype="simple" begin="1461" end="1461">1461</date>
+     <source style="" id="we343">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259678">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="we424">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259703">
+    <date subtype="simple" begin="1406" end="1518">1406-1518</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>188-9</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259703">
+    <date subtype="simple" begin="1524" end="1524">1524</date>
+    <source style="italic" id="we243">Lowth</source>
+    <item>T. 66</item>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259760">
+    <date subtype="simple" begin="1448" end="1448">1448</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259790">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="we511">PR(K)</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259790">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="italic" id="we83">Comm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259821">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="italic" id="we156">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259821">
+    <attestation variantID="epns-deep-42-b-name-w259821">
+     <date subtype="simple" begin="1556" end="1556">1556</date>
+     <source style="" id="we221">Kend</source>
+     <item>i</item>
+     <page>92</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-42-b-name-w259821">
+     <date subtype="simple" begin="1777" end="1777">1777</date>
+     <source style="" id="we251">M</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259880">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <source style="" id="we511">PR(K)</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259880">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="" id="we286">NCWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259880">
+    <attestation variantID="epns-deep-42-b-name-w259880">
+     <date subtype="simple" begin="1604" end="1604">1604</date>
+     <source style="italic" id="we156">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-42-b-name-w259880">
+     <date subtype="simple" begin="1686" end="1686">1686</date>
+     <source style="" id="we221">Kend</source>
+     <item>iii</item>
+     <page>119</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w259964">
+    <date subtype="simple" begin="1618" end="1618">1618</date>
+    <source style="" id="we221" underspec="ib">Kend</source>
+    <item>i</item>
+    <page>195</page>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w259571">Hotun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259571">Hoton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259678">Vetus Hotun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259703">Ald Hoton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259760">Hotun in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259790">Hutton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259821">Old Hutton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259880">Oulde Hutton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259880">Ould Hutton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w259964">Oudhutton</searchterm>
+  </extension>
+ </mads>
+ 

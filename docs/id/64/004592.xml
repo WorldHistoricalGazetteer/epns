@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000012">
+  <authority ID="epns-deep-64-a-name-parish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/004592">South Ferriby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f46"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5047400" lat="53.6760300" gazref="geonames:2637422" source="geonames"/>
+   <geo long="-0.5088408757622035" lat="53.67145105640668" gazref="unlock:11287357" source="unlock"/>
+   <geo easting="498500" northing="420500" long="-0.510481" lat="53.6717" kepnref="10851" source="kepn"/>
+  </extension>
+ </mads>
+ 

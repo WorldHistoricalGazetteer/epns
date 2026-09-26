@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000127">
+  <authority ID="epns-deep-11-a-name-parish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/010047">Nutfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000013" type="broader">
+   <geographic>Reigate Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287108b47fc40c23000a55"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1429900" lat="51.2450500" gazref="geonames:2641144" source="geonames"/>
+   <geo long="-0.1303801110690374" lat="51.23822275625886" gazref="unlock:11234204" source="unlock"/>
+   <geo easting="530500" northing="150500" long="-0.131961" lat="51.2388" kepnref="8367" source="kepn"/>
+  </extension>
+ </mads>
+ 

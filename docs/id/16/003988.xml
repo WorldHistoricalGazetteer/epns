@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000084">
+  <authority ID="epns-deep-16-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003988">Erlestoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000010" type="broader">
+   <geographic>Melksham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c5a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0544400" lat="51.2847200" gazref="geonames:2649936" source="geonames"/>
+   <geo long="-2.050186752451316" lat="51.2801233167657" gazref="unlock:11140294" source="unlock"/>
+   <geo easting="396500" northing="154500" long="-2.05156" lat="51.2896" kepnref="7250" source="kepn"/>
+  </extension>
+ </mads>
+ 

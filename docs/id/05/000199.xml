@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000022">
+  <authority ID="epns-deep-05-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000199">Beningbrough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000010" type="broader">
+   <geographic>Newton on Ouse</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w17052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000200">Benniburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000201">Bennigburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000202">Beninburc(g)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17141">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000203">Beningburg(h), Benyngburg(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17206">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000204">Beningeburg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000205">Benigburgh'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600054c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1933900" lat="54.0151300" gazref="geonames:2655899" source="geonames"/>
+   <geo long="-1.198788896417108" lat="54.01065552306083" gazref="unlock:11075346" source="unlock"/>
+   <geo easting="453500" northing="457500" long="-1.1851" lat="54.0108" kepnref="5674" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w17052">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17071">
+    <date subtype="simple" begin="1160" end="1170">1160-70</date>
+    <source style="italic" id="ny22">Bodl</source>
+    <item>a. i. 105</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17110">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17110">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17141">
+    <attestation variantID="epns-deep-05-b-name-w17141">
+     <date subtype="simple" begin="1180" end="1180">1180</date>
+     <source style="" id="ny236">YCh</source>
+     <page>550</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w17141">
+     <date subtype="simple" begin="1317" end="1317">1317</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17206">
+    <date subtype="simple" begin="1223" end="1223">1223</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17227">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w17052">Benniburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17071">Bennigburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17110">Beninburcg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17110">Beninburc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17141">Beningburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17141">Beningburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17141">Benyngburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17141">Benyngburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17206">Beningeburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17227">Benigburgh'</searchterm>
+  </extension>
+ </mads>
+ 

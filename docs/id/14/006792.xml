@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000307">
+  <authority ID="epns-deep-14-b-name-subparish-000307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006792">Metham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000164" type="broader">
+   <geographic>Howden</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w437904">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006793">Metham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w437983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006794">Meteham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004d3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7802227469076036" lat="53.71048208654206" gazref="unlock:11217585" source="unlock"/>
+   <geo easting="480500" northing="424500" long="-0.781833" lat="53.7107" kepnref="8685" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w437904">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="ey207">Misc</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w437904">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="ey87">Dunelm</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w437904">
+    <attestation variantID="epns-deep-14-b-name-w437904">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="ey224">NomVill</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w437904">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w437983">
+    <date end="1432" begin="1432" subtype="simple">1432</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w437904">Metham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w437983">Meteham</searchterm>
+  </extension>
+ </mads>
+ 

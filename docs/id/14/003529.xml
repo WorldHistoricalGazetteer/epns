@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000159">
+  <authority ID="epns-deep-14-b-name-subparish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003529">Langton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000090" type="broader">
+   <geographic>Langton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w229327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003530">Lanton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w229343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003531">Langatuna</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w229375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003532">Langetun, Langeton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w229442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003533">Langgetona</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w229462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003534">Langton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004fb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7812300" lat="54.0937100" gazref="geonames:2644903" source="geonames"/>
+   <geo long="-0.7842009136928988" lat="54.09706991633962" gazref="unlock:11191754" source="unlock"/>
+   <geo easting="479500" northing="467500" long="-0.785828" lat="54.0973" kepnref="8535" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w229327">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229343">
+    <date end="1199" begin="1189" subtype="regnal">t. Ric 1</date>
+    <copydate end="1308" begin="1308">1308</copydate>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229375">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="italic" id="ey191">Malton</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229375">
+    <attestation variantID="epns-deep-14-b-name-w229375">
+     <date end="1190" begin="1190" subtype="simple">1190</date>
+     <source style="" id="ey262">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w229375">
+     <date end="1353" begin="1353" subtype="simple">1353</date>
+     <source style="" id="ey153">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229442">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey186">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229462">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="ey159">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w229462">
+    <attestation variantID="epns-deep-14-b-name-w229462">
+     <date end="1342" begin="1342" subtype="simple">1342</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w229327">Lanton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229343">Langatuna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229375">Langetun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229375">Langetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229375">Langeton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229442">Langgetona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w229462">Langton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000085">
+  <authority ID="epns-deep-02-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001337">Nash</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000084" type="broader">
+   <geographic>Nash</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w94680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001338">Esse</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w94703">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001339">Asse</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w94731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001340">Essche</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w94747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001341">Asshe</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w94763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001342">Nassche</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300039a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8665500" lat="52.0034300" gazref="geonames:2641872" source="geonames"/>
+   <geo easting="478500" northing="234500" long="-0.857853" lat="52.0034" kepnref="11278" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w94680">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w94680">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w94703">
+    <date end="1285" begin="1265" subtype="circa">c. 1275</date>
+    <copydate end="1400" begin="1400">1400</copydate>
+    <source style="" id="bu105">St Alb</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w94731">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w94747">
+    <date end="1389" begin="1389" subtype="simple">1389</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w94763">
+    <date end="1520" begin="1520" subtype="simple">1520</date>
+    <source style="" id="bu113">VCH</source>
+    <item>ii</item>
+    <page>141</page>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w94680">Esse</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w94703">Asse</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w94731">Essche</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w94747">Asshe</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w94763">Nassche</searchterm>
+  </extension>
+ </mads>
+ 

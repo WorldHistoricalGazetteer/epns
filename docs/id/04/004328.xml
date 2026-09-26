@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000168">
+  <authority ID="epns-deep-04-a-name-parish-000168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004328">Offenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000005" type="broader">
+   <geographic>Fishborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9234700" lat="52.1122000" gazref="geonames:2641071" source="geonames"/>
+   <geo long="-1.919667884706723" lat="52.11638181945608" gazref="unlock:11235139" source="unlock"/>
+   <geo easting="405500" northing="246500" long="-1.92108" lat="52.1168" kepnref="5341" source="kepn"/>
+  </extension>
+ </mads>
+ 

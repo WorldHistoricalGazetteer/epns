@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-hu-subcounty-000007">
+  <authority ID="epns-deep-04-hu-name-subcounty-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005188">Esch Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-co-county-000001" type="broader">
+   <geographic>Worcestershire</geographic>
+  </related>
+  <variant ID="epns-deep-04-hu-name-w423071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005189">Esch</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w423085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005190">Naisshe</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w423118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005191">Æsc, Leisse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0eb47fc40d6b000537"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-04-hu-name-w423071">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w423085">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w423118">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-hu-name-w423071">Esch</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w423085">Naisshe</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w423118">Æsc</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w423118">Leisse</searchterm>
+  </extension>
+ </mads>
+ 

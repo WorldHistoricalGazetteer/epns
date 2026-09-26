@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000198">
+  <authority ID="epns-deep-10-a-name-parish-000198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004277">Rothersthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000013" type="broader">
+   <geographic>Wymersley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000496"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9577900" lat="52.2057600" gazref="geonames:2639089" source="geonames"/>
+   <geo long="-0.9536698124333863" lat="52.2016854637435" gazref="unlock:11273013" source="unlock"/>
+   <geo easting="471500" northing="256500" long="-0.955195" lat="52.2021" kepnref="11068" source="kepn"/>
+  </extension>
+ </mads>
+ 

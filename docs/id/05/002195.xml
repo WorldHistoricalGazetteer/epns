@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000175">
+  <authority ID="epns-deep-05-b-name-subparish-000175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002195">Egton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000065" type="broader">
+   <geographic>Egton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w174616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002196">Egetune, Egeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w174660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002197">Eggeton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w174719">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002198">Egton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000481"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7619200" lat="54.4376600" gazref="geonames:2650173" source="geonames"/>
+   <geo long="-0.7584207968810286" lat="54.44737668303582" gazref="unlock:11138314" source="unlock"/>
+   <geo easting="480500" northing="506500" long="-0.760067" lat="54.4475" kepnref="5826" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w174616">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w174616">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w174616">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w174660">
+    <date subtype="simple" begin="1170" end="1195">c. 1170-95</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1041</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w174660">
+    <attestation variantID="epns-deep-05-b-name-w174660">
+     <date subtype="simple" begin="1181" end="1181">1181</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w174660">
+     <date subtype="simple" begin="1410" end="1410">1410</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w174719">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w174616">Egetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w174616">Egeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w174660">Eggeton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w174719">Egton</searchterm>
+  </extension>
+ </mads>
+ 

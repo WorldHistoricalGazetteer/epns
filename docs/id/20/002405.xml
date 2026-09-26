@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000019">
+  <authority ID="epns-deep-20-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002405">Kingwater</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000021" type="broader">
+   <geographic>Kingwater</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w100357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002406">Kingwater</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w100376">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/002407">King's Water</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000ffc"/>
+  </recordInfo>
+  <extension>
+   <geo easting="354500" northing="566500" long="-2.71263" lat="54.991" kepnref="4378" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w100357">
+    <date end="1777" begin="1777" subtype="simple">1777</date>
+    <source style="" id="cu243">NB</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w100376">
+    <date end="1794" begin="1794" subtype="simple">1794</date>
+    <source style="" id="cu149">H</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w100357">Kingwater</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w100376">King's Water</searchterm>
+  </extension>
+ </mads>
+ 

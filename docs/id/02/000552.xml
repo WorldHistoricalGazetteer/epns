@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000036">
+  <authority ID="epns-deep-02-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000552">Little Brickhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000035" type="broader">
+   <geographic>Little Brickhill</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w40154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000553">Brichella</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w40173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000554">Parva Brichulle</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w40376">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000555">Birkehill</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w40396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000556">Birkhill Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300038b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6769500" lat="51.9830300" gazref="geonames:2644364" source="geonames"/>
+   <geo long="-0.6820690363640111" lat="51.98315198606119" gazref="unlock:11195970" source="unlock"/>
+   <geo easting="490500" northing="232500" long="-0.683617" lat="51.9836" kepnref="11228" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w40154">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w40173">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="bu42">Fines</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w40376">
+    <date end="1461" begin="1461" subtype="simple">1461</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w40396">
+    <date end="1611" begin="1611" subtype="simple">1611</date>
+    <source style="" id="bu11">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w40154">Brichella</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w40173">Parva Brichulle</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w40376">Birkehill</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w40396">Birkhill Parva</searchterm>
+  </extension>
+ </mads>
+ 

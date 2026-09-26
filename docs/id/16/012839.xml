@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000316">
+  <authority ID="epns-deep-16-a-name-parish-000316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012839">Alderbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000033" type="broader">
+   <geographic>Alderbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000beb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7338200" lat="51.0435400" gazref="geonames:2657551" source="geonames"/>
+   <geo long="-1.736117439364906" lat="51.03702423408532" gazref="unlock:11058006" source="unlock"/>
+   <geo easting="418500" northing="127500" long="-1.73746" lat="51.0466" kepnref="7468" source="kepn"/>
+  </extension>
+ </mads>
+ 

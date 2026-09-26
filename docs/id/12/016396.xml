@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000266">
+  <authority ID="epns-deep-12-b-name-subparish-000266">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016396">Middleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000359" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w812434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016397">Middeltun</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w812468">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016398">Mildetunā, Mildeltunā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w812501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016399">Middelton</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w812533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016400">Meddelton</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w812555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016401">Medilton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e54"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7267700" lat="52.0225300" gazref="geonames:2642600" source="geonames"/>
+   <geo easting="587500" northing="239500" long="0.73135" lat="52.0222" kepnref="12520" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w812434">
+    <date subtype="century" begin="1000" end="1100">11th</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="ex210">KCD</source>
+    <item>896</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812468">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812501">
+    <date subtype="simple" begin="1202" end="1326">1202-1326</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812533">
+    <date subtype="simple" begin="1262" end="1262">1262</date>
+    <source style="" id="ex150" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w812555">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w812434">Middeltun</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812468">Mildetunā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812468">Mildeltunā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812501">Middelton</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812533">Meddelton</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w812555">Medilton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000052">
+  <authority ID="epns-deep-04-b-name-subparish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001541">Charlton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000052" type="broader">
+   <geographic>Charlton</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w127406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001542">Ceorletun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w127458">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001543">Ceorlatuna</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w127482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001544">Chedeton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w127516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001545">Chedeton apud Fladebury</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w127569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001546">Chedinton</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w127594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001547">Chadton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000563"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9869800" lat="52.1090400" gazref="geonames:2653326" source="geonames"/>
+   <geo long="-1.978095637344373" lat="52.10741557556134" gazref="unlock:11103923" source="unlock"/>
+   <geo easting="401500" northing="245500" long="-1.9795" lat="52.1078" kepnref="5231" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w127406">
+    <date end="780" begin="780" subtype="simple">780</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>235</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127406">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127406">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127458">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127482">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wo56">Fees</source>
+    <item>37</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127482">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127516">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="italic" id="wo166">RBB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127516">
+    <date end="1431" begin="1431" subtype="simple">1431</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127569">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w127594">
+    <date end="1600" begin="1500" subtype="century">16th</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w127406">Ceorletun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w127458">Ceorlatuna</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w127482">Chedeton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w127516">Chedeton apud Fladebury</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w127569">Chedinton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w127594">Chadton</searchterm>
+  </extension>
+ </mads>
+ 

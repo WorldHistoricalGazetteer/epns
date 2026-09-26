@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000055">
+  <authority ID="epns-deep-15-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003995">Shephall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000061" type="broader">
+   <geographic>Shephall</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w203336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003996">Escepehale</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003997">Sepehalle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003998">Sepehale</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003999">Scephale</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203428">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004000">Shephale</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004001">Schephale, Schepehale, Shepehale, Chepehale</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004002">Shepehalle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w203578">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004003">Shepholde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007c6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1734500" lat="51.8939100" gazref="geonames:2638044" source="geonames"/>
+   <geo long="-0.1758972600688888" lat="51.89546219445619" gazref="unlock:11282358" source="unlock"/>
+   <geo easting="525500" northing="223500" long="-0.1775" lat="51.8959" kepnref="4620" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w203336">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203356">
+    <date subtype="simple" begin="1077" end="1093">1077-93</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203381">
+    <date subtype="simple" begin="1152" end="1153">1152-3</date>
+    <source style="" id="he31">BMFacs</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203407">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203428">
+    <attestation variantID="epns-deep-15-b-name-w203428">
+     <date subtype="simple" begin="1146" end="1151">1146-51</date>
+     <source style="" id="he121" underspec="ib">Gesta</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w203428">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="he110">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203496">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="he110">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203551">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="italic" id="he180">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w203578">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="he40">Cai</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w203336">Escepehale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203356">Sepehalle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203381">Sepehale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203407">Scephale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203428">Shephale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203496">Schephale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203496">Schepehale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203496">Shepehale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203496">Chepehale</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203551">Shepehalle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w203578">Shepholde</searchterm>
+  </extension>
+ </mads>
+ 

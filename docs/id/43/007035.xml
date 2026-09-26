@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-b-subparish-000041">
+  <authority ID="epns-deep-43-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007035">Little Strickland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-a-parish-000018" type="broader">
+   <geographic>Morland</geographic>
+  </related>
+  <variant ID="epns-deep-43-b-name-w366397">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007036">Stirk(e)land, Styrk(e)land</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w366486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007037">parva-</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w366550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007038">Stri(c)kland, Strykland</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w366595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007039">Li-, Lyt(y)le-</geographic>
+  </variant>
+  <variant ID="epns-deep-43-b-name-w366648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/007040">Lit(t)el-</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6741400" lat="54.5673800" gazref="geonames:2644240" source="geonames"/>
+   <geo long="-2.67431" lat="54.5688" source="epns"/>
+   <geo long="-2.672894698481911" lat="54.56872769173955" gazref="unlock:11197030" source="unlock"/>
+   <geo easting="356500" northing="519500" long="-2.67431" lat="54.5688" kepnref="5164" source="kepn"/>
+   <attestation variantID="epns-deep-43-b-name-w366397">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="" id="we260">MdMb</source>
+    <page>337</page>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366397">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="we260" underspec="ib">MdMb</source>
+    <item>345</item>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366397">
+    <attestation variantID="epns-deep-43-b-name-w366397">
+     <date end="1256" begin="1256" subtype="simple">1256</date>
+     <source style="italic" id="we23">Ass</source>
+     <item>2</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-43-b-name-w366397">
+     <date end="1401" begin="1401" subtype="simple">1401</date>
+     <source style="" id="we71">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366486">
+    <date end="1243" begin="1223" subtype="circa">c. 1233</date>
+    <source style="" id="we260">MdMb</source>
+    <page>338</page>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366486">
+    <attestation variantID="epns-deep-43-b-name-w366486">
+     <date end="1279" begin="1279" subtype="simple">1279</date>
+     <source style="italic" id="we23">Ass</source>
+     <item>1</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-43-b-name-w366486">
+     <date end="1415" begin="1415" subtype="simple">1415</date>
+     <source style="" id="we305">NWm</source>
+     <page>350</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366550">
+    <date end="1370" begin="1370" subtype="simple">1370</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366550">
+    <date end="1395" begin="1395" subtype="simple">1395</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366595">
+    <date end="1527" begin="1527" subtype="simple">1527</date>
+    <source style="italic" id="we487">Wyb</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366595">
+    <date end="1589" begin="1589" subtype="simple">1589</date>
+    <source style="italic" id="we106">Dep</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366595">
+    <date end="1600" begin="1600" subtype="simple">1600</date>
+    <source style="" id="we357">PR(Mrl)</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-b-name-w366648">
+    <date end="1632" begin="1632" subtype="simple">1632</date>
+    <source style="" id="we357" underspec="ib">PR(Mrl)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-43-b-name-w366397">Stirkeland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366397">Stirkland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366397">Styrkeland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366397">Styrkland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366486">parva-</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366550">Strickland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366550">Strikland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366550">Strykland</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366595">Li-</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366595">Lytyle-</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366595">Lytle-</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366648">Littel-</searchterm>
+   <searchterm variantID="epns-deep-43-b-name-w366648">Litel-</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000465">
+  <authority ID="epns-deep-05-b-name-subparish-000465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005208">Scorton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000156" type="broader">
+   <geographic>Bolton on Swale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w370883">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005209">Scorton(e), Scortona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w370954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005210">Schorton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000426"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6127600" lat="54.3978500" gazref="geonames:2638366" source="geonames"/>
+   <geo long="-1.60717477988794" lat="54.39918780042513" gazref="unlock:11279219" source="unlock"/>
+   <geo easting="425500" northing="500500" long="-1.60871" lat="54.3993" kepnref="6119" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w370883">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370883">
+    <attestation variantID="epns-deep-05-b-name-w370883">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny72">FountA</source>
+     <page>317</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w370883">
+     <date subtype="simple" begin="1665" end="1665">1665</date>
+     <source style="" id="ny224">Visit</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w370954">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>84</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w370883">Scortone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370883">Scorton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370883">Scortona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w370954">Schorton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000127">
+  <authority ID="epns-deep-07-b-name-subparish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007397">Ore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000128" type="broader">
+   <geographic>Ore</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w442915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007398">Ore, Ora</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w442990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007399">Hora</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007400">Oores</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007401">Oore</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007402">Orre</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w443061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007403">Oure</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d4b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6086700" lat="50.8722200" gazref="geonames:2640936" source="geonames"/>
+   <geo long="0.6084281315017899" lat="50.87327168249328" gazref="unlock:11237031" source="unlock"/>
+   <geo easting="583500" northing="111500" long="0.606778" lat="50.8739" kepnref="7143" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w442915">
+    <date end="1125" begin="1121" subtype="simple">1121-5</date>
+    <source style="" id="su27">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w442915">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <copydate end="1432" begin="1432">1432</copydate>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w442915">
+    <attestation variantID="epns-deep-07-b-name-w442915">
+     <date end="1176" begin="1176" subtype="simple">1176</date>
+     <source style="" id="su207">Pens</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w442915">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w442990">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="su37">Ch</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443008">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="su164">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443025">
+    <date end="1507" begin="1507" subtype="simple">1507</date>
+    <source style="italic" id="su4">AD</source>
+    <item>B 11071</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443047">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="su288">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w443061">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="su178">Norden</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w442915">Ore</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w442915">Ora</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w442990">Hora</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443008">Oores</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443025">Oore</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443047">Orre</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w443061">Oure</searchterm>
+  </extension>
+ </mads>
+ 

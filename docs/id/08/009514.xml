@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000166">
+  <authority ID="epns-deep-08-b-name-subparish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009514">Kingston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000166" type="broader">
+   <geographic>Kingston</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w488616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009515">Kingeston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w488689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009516">Kyngeston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w488703">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009517">Kingeston(e) juxta Ermington</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w488742">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009518">Kingeston(e) juxta Bykebury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019a2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9166700" lat="50.3166700" gazref="geonames:2645440" source="geonames"/>
+   <geo long="-3.917285117124938" lat="50.31100431638077" gazref="unlock:11187170" source="unlock"/>
+   <geo easting="263500" northing="47500" long="-3.91841" lat="50.3116" kepnref="15624" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w488616">
+    <attestation variantID="epns-deep-08-b-name-w488616">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>771</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-08-b-name-w488616">
+     <date end="1394" begin="1394" subtype="simple">1394</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w488689">
+    <date end="1394" begin="1242">1242-1394</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w488703">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w488742">
+    <date end="1386" begin="1386" subtype="simple">1386</date>
+    <date end="1394" begin="1394" subtype="simple">1394</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w488616">Kingestone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488616">Kingeston</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488689">Kyngestone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488689">Kyngeston</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488703">Kingestone juxta Ermington</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488703">Kingeston juxta Ermington</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488742">Kingestone juxta Bykebury</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w488742">Kingeston juxta Bykebury</searchterm>
+  </extension>
+ </mads>
+ 

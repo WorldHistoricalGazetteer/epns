@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000207">
+  <authority ID="epns-deep-12-a-name-parish-000207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/009606">Widford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000010" type="broader">
+   <geographic>Chelmsford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d5f"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4500000" lat="51.7000000" gazref="geonames:2633957" source="geonames"/>
+   <geo long="0.4542714844813603" lat="51.72211047035036" gazref="unlock:11322657" source="unlock"/>
+   <geo easting="569500" northing="205500" long="0.452604" lat="51.7226" kepnref="12385" source="kepn"/>
+  </extension>
+ </mads>
+ 

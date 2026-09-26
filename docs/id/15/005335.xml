@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000089">
+  <authority ID="epns-deep-15-a-name-parish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005335">Ardeley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000005" type="broader">
+   <geographic>Odsey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace0006c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0979300" lat="51.9276800" gazref="geonames:2657193" source="geonames"/>
+   <geo long="-0.1017503734129039" lat="51.93026143230369" gazref="unlock:11063199" source="unlock"/>
+   <geo easting="531500" northing="227500" long="-0.0888277" lat="51.9305" kepnref="4648" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000033">
+  <authority ID="epns-deep-28-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006499">Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000033" type="broader">
+   <geographic>Norton</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w247429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006500">Nortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w247448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006501">Norton(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018d5"/>
+  </recordInfo>
+  <extension>
+   <geo easting="436500" northing="381500" long="-1.4534" lat="53.3292" kepnref="3314" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w247429">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w247448">
+    <date subtype="circa" begin="1165" end="1185">c. 1175</date>
+    <source style="italic" id="db34">Beau</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w247448">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <copydate end="1316" begin="1316">1316</copydate>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w247448">
+    <date subtype="simple" begin="1221" end="1230">1221-30</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w247448">
+    <attestation variantID="epns-deep-28-b-name-w247448">
+     <date subtype="circa" begin="1230" end="1250">c. 1240</date>
+     <source style="italic" id="db34">Beau</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w247429">Nortune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w247429">Nortun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w247448">Nortona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w247448">Norton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000018">
+  <authority ID="epns-deep-16-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001065">Somerford Keynes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000019" type="broader">
+   <geographic>Somerford Keynes</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w57054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001066">Sumerford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w57129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001067">Somerford Kaynes</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w57156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001068">Somerford Keynes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e43"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9730700" lat="51.6549600" gazref="geonames:2637536" source="geonames"/>
+   <geo long="-1.978313067255038" lat="51.65781947412669" gazref="unlock:11286677" source="unlock"/>
+   <geo easting="402500" northing="195500" long="-1.96524" lat="51.6583" kepnref="7183" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w57054">
+    <date subtype="simple" begin="683" end="683">683</date>
+    <copydate end="1135" begin="1115">c. 1125</copydate>
+    <source style="" id="ws25">BCS</source>
+    <page>65</page>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w57054">
+    <date subtype="simple" begin="931" end="931">931</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <item>671</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w57054">
+    <date subtype="simple" begin="1211" end="1211">1211</date>
+    <source style="" id="ws272">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w57054">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w57129">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w57156">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ws312">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w57054">Sumerford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w57129">Somerford Kaynes</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w57156">Somerford Keynes</searchterm>
+  </extension>
+ </mads>
+ 

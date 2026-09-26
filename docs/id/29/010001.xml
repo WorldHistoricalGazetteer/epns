@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-a-parish-000084">
+  <authority ID="epns-deep-29-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010001">Measham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-hu-subcounty-000002" type="broader">
+   <geographic>Repton and Gresley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c00176d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5063700" lat="52.7064400" gazref="geonames:2642843" source="geonames"/>
+   <geo long="-1.504102632761311" lat="52.70878563997856" gazref="unlock:11216419" source="unlock"/>
+   <geo easting="433500" northing="312500" long="-1.50558" lat="52.7091" kepnref="3499" source="kepn"/>
+  </extension>
+ </mads>
+ 

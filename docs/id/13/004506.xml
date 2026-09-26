@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000110">
+  <authority ID="epns-deep-13-a-name-parish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004506">Lower Shuckburgh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000695"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2849700" lat="52.2593800" gazref="geonames:2643502" source="geonames"/>
+   <geo long="-1.274704852632192" lat="52.25804476788534" gazref="unlock:11208767" source="unlock"/>
+   <geo easting="449500" northing="262500" long="-1.2762" lat="52.2585" kepnref="4991" source="kepn"/>
+  </extension>
+ </mads>
+ 

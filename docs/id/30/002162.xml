@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-a-parish-000010">
+  <authority ID="epns-deep-30-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002162">Finningley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-wpd-belowsubcounty-000001" type="broader">
+   <geographic>Lower Strafforth Division</geographic>
+  </related>
+  <variant ID="epns-deep-30-a-name-w102094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002163">Feniglei</geographic>
+  </variant>
+  <variant ID="epns-deep-30-a-name-w102112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002164">Feningelay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005f9d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9908300" lat="53.4869600" gazref="geonames:2649403" source="geonames"/>
+   <geo kepnexref="284" long="-0.984157" lat="53.4879" source="kepn"/>
+   <attestation variantID="epns-deep-30-a-name-w102094">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-a-name-w102112">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-a-name-w102094">Feniglei</searchterm>
+   <searchterm variantID="epns-deep-30-a-name-w102112">Feningelay</searchterm>
+  </extension>
+ </mads>
+ 

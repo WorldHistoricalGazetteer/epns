@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000086">
+  <authority ID="epns-deep-40-a-name-parish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/010164">Churcham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000016" type="broader">
+   <geographic>Westbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300192e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3552200" lat="51.8694800" gazref="geonames:7300596" source="geonames"/>
+   <geo long="-2.348541617" lat="51.85962696" source="epns"/>
+   <geo long="-2.341314594368171" lat="51.86414492081092" gazref="unlock:11107191" source="unlock"/>
+   <geo easting="376500" northing="218500" long="-2.34267" lat="51.8646" kepnref="6532" source="kepn"/>
+  </extension>
+ </mads>
+ 

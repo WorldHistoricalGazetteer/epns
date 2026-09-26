@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000093">
+  <authority ID="epns-deep-79-a-name-parish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/008197">Thornage</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000003" type="broader">
+   <geographic>Holt Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d66"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.0472900" lat="52.8938400" gazref="geonames:7295690" source="geonames"/>
+   <geo long="1.032212653" lat="52.88238447" source="epns"/>
+   <geo long="1.056054515902029" lat="52.90425857963152" gazref="unlock:11197062" source="unlock"/>
+   <geo easting="605500" northing="336500" long="1.053" lat="52.8867" kepnref="9513" source="kepn"/>
+  </extension>
+ </mads>
+ 

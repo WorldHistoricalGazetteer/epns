@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol85mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-85-a-parish-000017">
+  <authority ID="epns-deep-85-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/85/004195">Riseholme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-85-wp-subcounty-000001" type="broader">
+   <geographic>Lawress Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f37"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5320100" lat="53.2650200" gazref="geonames:2639314" source="geonames"/>
+   <geo long="-0.5229504994683417" lat="53.26705889159053" gazref="unlock:11256387" source="unlock"/>
+   <geo easting="498500" northing="375500" long="-0.524571" lat="53.2674" kepnref="10666" source="kepn"/>
+  </extension>
+ </mads>
+ 

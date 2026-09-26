@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000056">
+  <authority ID="epns-deep-07-a-name-parish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002364">Tarring Neville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000011" type="broader">
+   <geographic>Danehill Horsted Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c20"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0466900" lat="50.8148800" gazref="geonames:2636200" source="geonames"/>
+   <geo long="0.05132333822023055" lat="50.81243954192512" gazref="unlock:11298043" source="unlock"/>
+   <geo easting="544500" northing="104500" long="0.050132" lat="50.822" kepnref="7073" source="kepn"/>
+  </extension>
+ </mads>
+ 

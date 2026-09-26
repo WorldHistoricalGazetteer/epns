@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000089">
+  <authority ID="epns-deep-08-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004511">Hatherleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000089" type="broader">
+   <geographic>Hatherleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w229492">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004512">Hadreleia</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w229518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004513">Adrelie</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w229534">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004514">Hatherlegam</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w229596">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004515">Hatherlegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w229611">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004516">Hatherley al. Hetherley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001975"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0722800" lat="50.8214400" gazref="geonames:2647341" source="geonames"/>
+   <geo long="-4.065906186589109" lat="50.82117687531014" gazref="unlock:11167239" source="unlock"/>
+   <geo easting="254500" northing="104500" long="-4.06703" lat="50.8217" kepnref="15546" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w229492">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w229518">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w229534">
+    <attestation variantID="epns-deep-08-b-name-w229534">
+     <date end="1193" begin="1193" subtype="simple">1193</date>
+     <source style="" id="de174">Oliver</source>
+     <page>95</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w229596">
+    <date end="1600" begin="1193">1193-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w229611">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="de172">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w229492">Hadreleia</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229518">Adrelie</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229534">Hatherlegam</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229596">Hatherleghe</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229596">Hatherlegh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229611">Hatherley</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w229611">Hetherley</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000286">
+  <authority ID="epns-deep-12-a-name-parish-000286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012636">Thorrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000014" type="broader">
+   <geographic>Tendring Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d33"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.0388900" lat="51.8412400" gazref="geonames:2635940" source="geonames"/>
+   <geo long="1.041710015926007" lat="51.84328829149072" gazref="unlock:11300226" source="unlock"/>
+   <geo easting="609500" northing="219500" long="1.03936" lat="51.8348" kepnref="12454" source="kepn"/>
+  </extension>
+ </mads>
+ 

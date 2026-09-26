@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-a-parish-000002">
+  <authority ID="epns-deep-33-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000154">Drax</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-wp-subcounty-000001" type="broader">
+   <geographic>Barkston Ash Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005f92"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9808700" lat="53.7284000" gazref="geonames:2651010" source="geonames"/>
+   <geo long="-0.9844183201" lat="53.72587012" source="epns"/>
+   <geo long="-0.9767312493178067" lat="53.7303007779108" gazref="unlock:11131620" source="unlock"/>
+   <geo easting="467500" northing="426500" long="-0.978318" lat="53.7305" kepnref="14590" source="kepn"/>
+  </extension>
+ </mads>
+ 

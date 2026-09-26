@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000103">
+  <authority ID="epns-deep-98-a-name-parish-000103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002397">Westoning</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000007" type="broader">
+   <geographic>Manshead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4969800" lat="51.9814000" gazref="geonames:2634317" source="geonames"/>
+   <geo long="-0.4928193491614742" lat="51.98088184035262" gazref="unlock:11319049" source="unlock"/>
+   <geo easting="503500" northing="232500" long="-0.494389" lat="51.9813" kepnref="4326" source="kepn"/>
+  </extension>
+ </mads>
+ 

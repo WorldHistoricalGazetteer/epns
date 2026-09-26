@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000144">
+  <authority ID="epns-deep-04-b-name-subparish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003608">Severn Stoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000147" type="broader">
+   <geographic>Severn Stoke</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w306706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003609">Stoc</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003610">Stoche</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306751">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003611">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306783">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003612">Stokes Roberti</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003613">Savarnestoke, Savernestok'</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306898">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003614">Severnestok</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w306919">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/003615">Syuernestoke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005ec"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2090600" lat="52.0964500" gazref="geonames:2638180" source="geonames"/>
+   <geo long="-2.211698821440245" lat="52.09823596749939" gazref="unlock:11280456" source="unlock"/>
+   <geo easting="385500" northing="244500" long="-2.21307" lat="52.0986" kepnref="5319" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w306706">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1060" begin="1040">c. 1050</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1282</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306735">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306751">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306783">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306820">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo56">Fees</source>
+    <item>139</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306820">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="wo28">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306820">
+    <date end="1255" begin="1235" subtype="circa">c. 1245</date>
+    <source style="italic" id="wo17">Bodl</source>
+    <item>5</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306820">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306898">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w306919">
+    <date end="1350" begin="1350" subtype="simple">1350</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w306706">Stoc</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306735">Stoche</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306751">Stokes</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306783">Stokes Roberti</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306820">Savarnestoke</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306820">Savernestok'</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306898">Severnestok</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w306919">Syuernestoke</searchterm>
+  </extension>
+ </mads>
+ 

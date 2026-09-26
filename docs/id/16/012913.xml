@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000273">
+  <authority ID="epns-deep-16-b-name-subparish-000273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012913">Clarendon Park</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000317" type="broader">
+   <geographic>Clarendon</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w638183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012914">Clarendun</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012915">Feudal England, Clarendona</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012916">Clarendonam</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012917">Clarendun'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012918">Clarendon</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012919">Clarindon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012920">Claryndon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012921">Claryngdon</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w638444">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012922">Clarringdon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000da2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7367700" lat="51.0718800" gazref="geonames:7297643" source="geonames"/>
+   <geo easting="417500" northing="130500" long="-1.75158" lat="51.0736" kepnref="7469" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w638183">
+    <date subtype="simple" begin="1072" end="1072">1072</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ws422">Round</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638212">
+    <date subtype="simple" begin="1130" end="1130">1130</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638249">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1434" begin="1434">1434</copydate>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638281">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ws71">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638298">
+    <date subtype="simple" begin="1207" end="1207">1207</date>
+    <source style="" id="ws71">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638330">
+    <date subtype="simple" begin="1115" end="1115">1115</date>
+    <source style="" id="ws288">StOsmund</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638330">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ws280">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638330">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638377">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ws190">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638403">
+    <date subtype="simple" begin="1315" end="1315">1315</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638403">
+    <date subtype="simple" begin="1433" end="1433">1433</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638403">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="ws147">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w638444">
+    <date subtype="regnal" begin="1558" end="1603">t. Eliz</date>
+    <source style="italic" id="ws111">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w638183">Clarendun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638212">Feudal England</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638212">Clarendona</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638249">Clarendonam</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638281">Clarendun'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638298">Clarendon</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638330">Clarindone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638330">Clarindon</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638377">Claryndone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638377">Claryndon</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638403">Claryngdon</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w638444">Clarringdon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000053">
+  <authority ID="epns-deep-04-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001559">Churchill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000053" type="broader">
+   <geographic>Churchill</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w128391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001560">Circehille</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128411">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001561">Chirchulle</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001562">Chirchulle juxta Aston Episcopi</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128492">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001563">Cherchull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001564">Chirkhull, Chyrechull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001565">Schercheshull, Schurchehull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w128598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001566">Cershull-juxta-Humelbrok</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1171000" lat="52.1829400" gazref="geonames:7297527" source="geonames"/>
+   <geo long="-2.109698306853587" lat="52.17929880413821" gazref="unlock:11107226" source="unlock"/>
+   <geo easting="392500" northing="253500" long="-2.11109" lat="52.1797" kepnref="5232" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w128391">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128411">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128448">
+    <date end="1321" begin="1321" subtype="simple">1321</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128492">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wo56">Fees</source>
+    <item>36</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128516">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="wo57">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128516">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="wo57">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128560">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="wo63">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w128598">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iii</item>
+    <page>297</page>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w128391">Circehille</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128411">Chirchulle</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128448">Chirchulle juxta Aston Episcopi</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128492">Cherchull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128516">Chirkhull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128516">Chyrechull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128560">Schercheshull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128560">Schurchehull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w128598">Cershull-juxta-Humelbrok</searchterm>
+  </extension>
+ </mads>
+ 

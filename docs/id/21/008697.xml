@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-a-parish-000099">
+  <authority ID="epns-deep-21-a-name-parish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008697">Seascale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-w-subcounty-000002" type="broader">
+   <geographic>Allerdale Above Derwent Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f5d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4796100" lat="54.3983100" gazref="geonames:2638282" source="geonames"/>
+   <geo long="-3.486641008713109" lat="54.39966451433681" gazref="unlock:11279818" source="unlock"/>
+   <geo kepnexref="0074" long="-3.484397" lat="54.39575" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000136">
+  <authority ID="epns-deep-07-a-name-parish-000136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007795">Bodiam</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000040" type="broader">
+   <geographic>Staple Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b44"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5380600" lat="51.0062500" gazref="geonames:6943308" source="geonames"/>
+   <geo long="0.5442885513448669" lat="51.0006209974644" gazref="unlock:11081878" source="unlock"/>
+   <geo easting="578500" northing="126500" long="0.543132" lat="51.0102" kepnref="7151" source="kepn"/>
+  </extension>
+ </mads>
+ 

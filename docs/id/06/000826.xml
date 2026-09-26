@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000029">
+  <authority ID="epns-deep-06-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000826">Racton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000029" type="broader">
+   <geographic>Racton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w74158">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000827">Rachetone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w74177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000828">Raketon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w74217">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000829">Rakentune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w74244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000830">Rakinton(a), Rakynton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w74328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000831">Rakyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d61"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8897200" lat="50.8756900" gazref="geonames:6545305" source="geonames"/>
+   <geo long="-0.8840575968886912" lat="50.87910116382525" gazref="unlock:11251905" source="unlock"/>
+   <geo easting="478500" northing="109500" long="-0.88554" lat="50.8797" kepnref="6890" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w74158">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74177">
+    <attestation variantID="epns-deep-06-b-name-w74177">
+     <date subtype="simple" begin="1283" end="1283">1283</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w74177">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74217">
+    <date subtype="simple" begin="1121" end="1121">1121</date>
+    <source style="" id="su253">SAC</source>
+    <item>40</item>
+    <page>60</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74244">
+    <date subtype="regnal" begin="1135" end="1154">t. Steph</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74244">
+    <date subtype="simple" begin="1203" end="1203">1203</date>
+    <source style="" id="su57">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74244">
+    <date subtype="simple" begin="1207" end="1207">1207</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74244">
+    <date subtype="simple" begin="1213" end="1213">1213</date>
+    <source style="" id="su1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74244">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w74328">
+    <date subtype="simple" begin="1288" end="1288">1288</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w74158">Rachetone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74177">Raketone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74177">Raketon</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74217">Rakentune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74244">Rakintona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74244">Rakinton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74244">Rakyntona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74244">Rakynton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w74328">Rakyngton</searchterm>
+  </extension>
+ </mads>
+ 

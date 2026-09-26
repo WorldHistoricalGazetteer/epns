@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-a-parish-000010">
+  <authority ID="epns-deep-53-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/002308">Parkstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-hu-subcounty-000001" type="broader">
+   <geographic>Cogdean Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a34"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9449200" lat="50.7299400" gazref="geonames:2640601" source="geonames"/>
+   <geo long="-1.946162833" lat="50.72073924" source="epns"/>
+   <geo long="-1.950411221864332" lat="50.72254033387897" gazref="unlock:11240775" source="unlock"/>
+   <geo easting="403500" northing="91500" long="-1.95177" lat="50.7231" kepnref="11458" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000115">
+  <authority ID="epns-deep-38-b-name-subparish-000115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010206">Westcote</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000115" type="broader">
+   <geographic>Westcote</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w466457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010207">Westcote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w466520">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010208">Over Westcote, Nether Westcote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w466564">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010209">Wescote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w466584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010210">Nether Wescote, Ouer Wescote</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w466646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010211">Westcot(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001bd5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6820900" lat="51.8826500" gazref="geonames:7295169" source="geonames"/>
+   <geo long="-1.680375557" lat="51.87769302" source="epns"/>
+   <geo long="-1.673078789183813" lat="51.8821697372987" gazref="unlock:11107182" source="unlock"/>
+   <geo easting="422500" northing="220500" long="-1.67451" lat="51.8826" kepnref="6303" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w466457">
+    <date subtype="simple" begin="1315" end="1315">1315</date>
+    <date subtype="simple" begin="1382" end="1382">1382</date>
+    <source style="italic" id="go600">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466457">
+    <attestation variantID="epns-deep-38-b-name-w466457">
+     <date subtype="simple" begin="1499" end="1499">1499</date>
+     <source style="" id="go274">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w466457">
+     <date subtype="simple" begin="1726" end="1726">1726</date>
+     <source style="" id="go410">PR</source>
+     <page>13</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466520">
+    <date subtype="simple" begin="1515" end="1529">1515-29</date>
+    <source style="" id="go141">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466564">
+    <date subtype="simple" begin="1457" end="1457">1457</date>
+    <source style="" id="go5">AD</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466584">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466646">
+    <date subtype="circa" begin="1210" end="1230">c. 1220</date>
+    <source style="" id="go44">Berk</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w466646">
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <source style="" id="go84">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w466457">Westcote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466520">Over Westcote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466520">Nether Westcote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466564">Wescote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466584">Nether Wescote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466584">Ouer Wescote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466646">Westcote</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w466646">Westcot</searchterm>
+  </extension>
+ </mads>
+ 

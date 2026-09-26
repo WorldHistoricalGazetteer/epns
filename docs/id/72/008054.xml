@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000048">
+  <authority ID="epns-deep-72-a-name-parish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/008054">North Walsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d40"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.3874600" lat="52.8212100" gazref="geonames:2641233" source="geonames"/>
+   <geo long="1.384104505" lat="52.8189015" source="epns"/>
+   <geo long="1.391862411733343" lat="52.82317824661139" gazref="unlock:11233166" source="unlock"/>
+   <geo easting="628500" northing="330500" long="1.39004" lat="52.8236" kepnref="9678" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000135">
+  <authority ID="epns-deep-38-b-name-subparish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011280">Preston on Stour</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000135" type="broader">
+   <geographic>Preston on Stour</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w519939">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011281">Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011282">Preston super Steuram</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011283">Preston super Sturham</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011284">Preston super Stauram</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011285">Preston super Storam</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011286">Preston super Stoure</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011287">Preston upon Sture</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w520205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/011288">Preston super Stower, Preston on Stower</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b7b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6901800" lat="52.1409000" gazref="geonames:7299630" source="geonames"/>
+   <geo long="-1.707738175" lat="52.13852509" source="epns"/>
+   <geo long="-1.700401485403516" lat="52.14300331633882" gazref="unlock:11249929" source="unlock"/>
+   <geo easting="420500" northing="250500" long="-1.70178" lat="52.1524" kepnref="7504" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w519939">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w519939">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="go604">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w519939">
+    <attestation variantID="epns-deep-38-b-name-w519939">
+     <date subtype="simple" begin="1221" end="1221">1221</date>
+     <date subtype="simple" begin="1248" end="1248">1248</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w519939">
+     <date subtype="simple" begin="1467" end="1467">1467</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520005">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520039">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="go504">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520071">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520107">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520138">
+    <date subtype="simple" begin="1379" end="1379">1379</date>
+    <date subtype="simple" begin="1496" end="1496">1496</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520176">
+    <date subtype="simple" begin="1504" end="1504">1504</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520205">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="go522">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w520205">
+    <attestation variantID="epns-deep-38-b-name-w520205">
+     <date subtype="simple" begin="1587" end="1587">1587</date>
+     <source style="" id="go179">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w520205">
+     <date subtype="simple" begin="1775" end="1775">1775</date>
+     <source style="" id="go410">PR</source>
+     <page>3</page>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w519939">Preston</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520005">Preston super Steuram</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520039">Preston super Sturham</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520071">Preston super Stauram</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520107">Preston super Storam</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520138">Preston super Stoure</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520176">Preston upon Sture</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520205">Preston super Stower</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w520205">Preston on Stower</searchterm>
+  </extension>
+ </mads>
+ 

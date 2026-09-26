@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000225">
+  <authority ID="epns-deep-13-b-name-subparish-000225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009205">Warmington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000233" type="broader">
+   <geographic>Warmington</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w469481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009206">Warmintone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w469501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009207">Warminton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w469550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009208">Warmington</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w469586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009209">Wirminton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007f1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4037200" lat="52.1253700" gazref="geonames:2634757" source="geonames"/>
+   <geo long="-1.39375373840744" lat="52.12384244278411" gazref="unlock:11313472" source="unlock"/>
+   <geo easting="441500" northing="247500" long="-1.39523" lat="52.1243" kepnref="4970" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w469481">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w469501">
+    <attestation variantID="epns-deep-13-b-name-w469501">
+     <date end="1138" begin="1138" subtype="simple">1138</date>
+     <source style="" id="wa114">France</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-13-b-name-w469501">
+     <date end="1327" begin="1327" subtype="simple">1327</date>
+     <source style="" id="wa280">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w469550">
+    <date end="1416" begin="1416" subtype="simple">1416</date>
+    <date end="1461" begin="1461" subtype="simple">1461</date>
+    <source style="" id="wa219">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w469550">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="" id="wa168">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w469586">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="wa73">Cur</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w469481">Warmintone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w469501">Warmintone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w469501">Warminton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w469550">Warmington</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w469586">Wirminton</searchterm>
+  </extension>
+ </mads>
+ 

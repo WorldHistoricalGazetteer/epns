@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-a-parish-000013">
+  <authority ID="epns-deep-49-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/003439">White Waltham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-hu-subcounty-000003" type="broader">
+   <geographic>Beynhurst Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001afa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7784400" lat="51.4883300" gazref="geonames:2634053" source="geonames"/>
+   <geo long="-0.7683810677939834" lat="51.48949173986291" gazref="unlock:11321035" source="unlock"/>
+   <geo easting="485500" northing="177500" long="-0.7699" lat="51.49" kepnref="3035" source="kepn"/>
+  </extension>
+ </mads>
+ 

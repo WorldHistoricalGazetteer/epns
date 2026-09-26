@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000239">
+  <authority ID="epns-deep-05-b-name-subparish-000239">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003092">Picton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000093" type="broader">
+   <geographic>Kirkleavington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w231685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003093">Piketon(a), Pyketon(a), Pyketun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w231750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003094">Pickton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w231776">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003095">Pykton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000510"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3622000" lat="54.4589000" gazref="geonames:7292063" source="geonames"/>
+   <geo long="-1.359729807062996" lat="54.46104719834671" gazref="unlock:11245030" source="unlock"/>
+   <geo easting="441500" northing="507500" long="-1.3613" lat="54.4612" kepnref="5891" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w231685">
+    <attestation variantID="epns-deep-05-b-name-w231685">
+     <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+     <source style="" id="ny21">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w231685">
+     <date subtype="simple" begin="1310" end="1310">1310</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w231750">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w231750">
+    <date subtype="simple" begin="1565" end="1565">1565</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w231776">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w231776">
+    <date subtype="simple" begin="1354" end="1354">1354</date>
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w231776">
+    <date subtype="simple" begin="1435" end="1435">1435</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w231685">Piketona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231685">Piketon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231685">Pyketona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231685">Pyketon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231685">Pyketun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231750">Pickton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w231776">Pykton</searchterm>
+  </extension>
+ </mads>
+ 

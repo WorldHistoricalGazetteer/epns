@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000007">
+  <authority ID="epns-deep-84-a-name-parish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/001737">Drayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00109c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7873500" lat="52.5224900" gazref="geonames:7295988" source="geonames"/>
+   <geo long="-0.7691411313064774" lat="52.52360664150928" gazref="unlock:11131661" source="unlock"/>
+   <geo easting="483500" northing="292500" long="-0.770701" lat="52.524" kepnref="8756" source="kepn"/>
+  </extension>
+ </mads>
+ 

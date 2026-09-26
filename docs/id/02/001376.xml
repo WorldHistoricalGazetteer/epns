@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000086">
+  <authority ID="epns-deep-02-a-name-parish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001376">Swanbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000007" type="broader">
+   <geographic>Mursley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002de"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8362500" lat="51.9381800" gazref="geonames:2636442" source="geonames"/>
+   <geo long="-0.8288339435271287" lat="51.93974175886178" gazref="unlock:11296132" source="unlock"/>
+   <geo easting="480500" northing="227500" long="-0.830363" lat="51.9402" kepnref="11280" source="kepn"/>
+  </extension>
+ </mads>
+ 

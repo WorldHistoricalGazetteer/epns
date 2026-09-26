@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000068">
+  <authority ID="epns-deep-96-a-name-parish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/003170">Kirtling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000007" type="broader">
+   <geographic>Cheveley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00070c"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4725000" lat="52.1861900" gazref="geonames:2645187" source="geonames"/>
+   <geo long="0.465310524792068" lat="52.18955730230839" gazref="unlock:11188317" source="unlock"/>
+   <geo easting="568500" northing="257500" long="0.463621" lat="52.19" kepnref="4035" source="kepn"/>
+  </extension>
+ </mads>
+ 

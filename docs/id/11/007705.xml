@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000106">
+  <authority ID="epns-deep-11-a-name-parish-000106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/007705">Dunsfold</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000011" type="broader">
+   <geographic>Blackheath Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a23"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5620200" lat="51.1170500" gazref="geonames:2650665" source="geonames"/>
+   <geo long="-0.5639272653351239" lat="51.11843571125934" gazref="unlock:11134433" source="unlock"/>
+   <geo easting="500500" northing="136500" long="-0.565455" lat="51.119" kepnref="8346" source="kepn"/>
+  </extension>
+ </mads>
+ 

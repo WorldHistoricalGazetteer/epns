@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000159">
+  <authority ID="epns-deep-02-b-name-subparish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003156">Halton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000157" type="broader">
+   <geographic>Halton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w216488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003157">Healtun</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w216521">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003158">Haltone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w216551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003159">Halkhton</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w216579">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003160">Haulton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300036c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7346700" lat="51.7827100" gazref="geonames:2647600" source="geonames"/>
+   <geo long="-0.7313263474420248" lat="51.7858592175272" gazref="unlock:11164685" source="unlock"/>
+   <geo easting="487500" northing="210500" long="-0.732861" lat="51.7863" kepnref="11352" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w216488">
+    <date end="1043" begin="1023" subtype="circa">c. 1033</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="bu61">KCD</source>
+    <item>1321</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w216521">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w216521">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="bu22">Cur(P)</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w216551">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1448</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w216579">
+    <date end="1766" begin="1766" subtype="simple">1766</date>
+    <source style="" id="bu60">J</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w216488">Healtun</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w216521">Haltone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w216551">Halkhton</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w216579">Haulton</searchterm>
+  </extension>
+ </mads>
+ 

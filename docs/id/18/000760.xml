@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000022">
+  <authority ID="epns-deep-18-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000760">Hanwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000022" type="broader">
+   <geographic>Hanwell</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w40258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000761">Hanewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w40342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000762">Hanawella</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w40371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000763">Hanwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a0000230"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3351700" lat="51.5180900" gazref="geonames:2647516" source="geonames"/>
+   <geo long="-0.3354222916792352" lat="51.51112512601621" gazref="unlock:11165481" source="unlock"/>
+   <geo easting="515500" northing="180500" long="-0.336991" lat="51.5116" kepnref="4728" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w40258">
+    <date subtype="simple" begin="959" end="959">959</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="mi22">BCS</source>
+    <item>1050</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w40258">
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="mi149">KCD</source>
+    <item>824</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w40258">
+    <attestation variantID="epns-deep-18-b-name-w40258">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="mi70">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-18-b-name-w40258">
+     <date subtype="simple" begin="1344" end="1344">1344</date>
+     <source style="" id="mi108">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w40342">
+    <date subtype="simple" begin="998" end="998">998</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="mi319">Thorpe</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w40371">
+    <date subtype="simple" begin="1402" end="1402">1402</date>
+    <source style="" id="mi108">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w40258">Hanewelle</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w40342">Hanawella</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w40371">Hanwell</searchterm>
+  </extension>
+ </mads>
+ 

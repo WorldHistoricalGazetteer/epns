@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000058">
+  <authority ID="epns-deep-06-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001717">Pagham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000058" type="broader">
+   <geographic>Pagham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w140627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001718">Pecgan ham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140657">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001719">Pacganham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001720">Pageham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140719">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001721">Pagheham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001722">Paggaham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140760">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001723">Paganham, Pagnaham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w140795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001724">Paggam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d4e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7446700" lat="50.7709900" gazref="geonames:2640683" source="geonames"/>
+   <geo long="-0.7448305338080211" lat="50.76975915578617" gazref="unlock:11238611" source="unlock"/>
+   <geo easting="488500" northing="97500" long="-0.746324" lat="50.7703" kepnref="6920" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w140627">
+    <date subtype="simple" begin="680" end="680">680</date>
+    <copydate end="1000" begin="900">10th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>50</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140657">
+    <date subtype="century" begin="900" end="1000">10th</date>
+    <source style="" id="su21">BCS</source>
+    <page>50</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140680">
+    <attestation variantID="epns-deep-06-b-name-w140680">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w140680">
+     <date subtype="simple" begin="1377" end="1377">1377</date>
+     <source style="" id="su206">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140719">
+    <date subtype="simple" begin="1121" end="1121">1121</date>
+    <source style="" id="su2">AC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140739">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="su104">FW</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140760">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="" id="su202">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w140795">
+    <date subtype="simple" begin="1564" end="1564">1564</date>
+    <source style="" id="su3">AD</source>
+    <item>iv</item>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w140627">Pecgan ham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140657">Pacganham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140680">Pageham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140719">Pagheham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140739">Paggaham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140760">Paganham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140760">Pagnaham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w140795">Paggam</searchterm>
+  </extension>
+ </mads>
+ 

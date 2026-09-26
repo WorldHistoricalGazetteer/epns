@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000129">
+  <authority ID="epns-deep-06-b-name-subparish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004197">Findon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000129" type="broader">
+   <geographic>Findon</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w316862">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004198">Fintona</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w316883">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004199">Fintune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w316900">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004200">Findune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w316917">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004201">Findon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cf8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4073500" lat="50.8681600" gazref="geonames:2649432" source="geonames"/>
+   <geo long="-0.4011978833722784" lat="50.86449119614875" gazref="unlock:11144435" source="unlock"/>
+   <geo easting="512500" northing="108500" long="-0.402734" lat="50.8651" kepnref="6994" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w316862">
+    <date subtype="simple" begin="1073" end="1073">1073</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w316883">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w316900">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w316917">
+    <date subtype="regnal" begin="1100" end="1135">t. Hy 1</date>
+    <source style="italic" id="su80">Durf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w316862">Fintona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w316883">Fintune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w316900">Findune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w316917">Findon</searchterm>
+  </extension>
+ </mads>
+ 

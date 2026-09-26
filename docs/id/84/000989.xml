@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000004">
+  <authority ID="epns-deep-84-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/000989">Burton Overy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00108e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0026100" lat="52.5750400" gazref="geonames:2654205" source="geonames"/>
+   <geo long="-1.003730145000288" lat="52.57976138394991" gazref="unlock:11094160" source="unlock"/>
+   <geo easting="467500" northing="298500" long="-1.00527" lat="52.5801" kepnref="8753" source="kepn"/>
+  </extension>
+ </mads>
+ 

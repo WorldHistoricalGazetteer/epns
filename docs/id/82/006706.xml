@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000050">
+  <authority ID="epns-deep-82-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006706">Kinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000009" type="broader">
+   <geographic>Great Ness</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w267208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006707">Kinetu', Kineton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w267241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006708">Kinton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w267292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006709">Kynton and Kintun'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w267312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006710">Kyngton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w267333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006711">Keinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a639b47fc4463d000ed8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9333300" lat="52.7666700" gazref="geonames:2645359" source="geonames"/>
+   <geo long="-2.933878613" lat="52.76908044" source="epns"/>
+   <geo long="-2.926468211748489" lat="52.7691395638662" gazref="unlock:11187535" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w267208">
+    <date subtype="simple" begin="1203" end="1204">1203-4</date>
+    <source style="italic" id="ss10">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w267241">
+    <attestation variantID="epns-deep-82-b-name-w267241">
+     <date subtype="simple" begin="1271" end="1272">1271-2</date>
+     <source style="italic" id="ss10">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w267292">
+    <date end="1600" begin="1271">1271-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w267312">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w267333">
+    <date subtype="simple" begin="1659" end="1659">1659</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>20</page>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w267208">Kinetu'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267208">Kineton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267241">Kinton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267292">Kynton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267292">Kintun'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267312">Kyngton'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w267333">Keinton</searchterm>
+  </extension>
+ </mads>
+ 

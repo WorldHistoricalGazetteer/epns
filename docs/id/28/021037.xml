@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000130">
+  <authority ID="epns-deep-28-a-name-parish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021037">Ripley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000003" type="broader">
+   <geographic>Morleyston and Litchurch</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c00179a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4000000" lat="53.0333300" gazref="geonames:2639325" source="geonames"/>
+   <geo long="-1.395757936804582" lat="53.04992349057689" gazref="unlock:11256298" source="unlock"/>
+   <geo easting="440500" northing="350500" long="-1.39727" lat="53.0502" kepnref="3406" source="kepn"/>
+  </extension>
+ </mads>
+ 

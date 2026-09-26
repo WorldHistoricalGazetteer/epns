@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000101">
+  <authority ID="epns-deep-13-b-name-subparish-000101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004365">Marton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000103" type="broader">
+   <geographic>Marton</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w228010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004366">Mortone</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004367">Merton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004368">juxta Longam Ichynton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004369">Mereton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004370">Marton</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228153">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004371">Marten</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w228172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004372">Marton al. Merton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4041000" lat="52.3158200" gazref="geonames:2642946" source="geonames"/>
+   <geo long="-1.405846988590523" lat="52.31272610869715" gazref="unlock:11214409" source="unlock"/>
+   <geo easting="440500" northing="268500" long="-1.40732" lat="52.3131" kepnref="4992" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w228010">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228027">
+    <attestation variantID="epns-deep-13-b-name-w228027">
+     <date end="1151" begin="1151" subtype="simple">1151</date>
+     <source style="" id="wa114">France</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w228027">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="" id="wa305">VE</source>
+    </attestation>
+    <attestation variantID="epns-deep-13-b-name-w228027">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="italic" id="wa176">Merton</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228073">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="italic" id="wa17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228107">
+    <date end="1233" begin="1233" subtype="simple">1233</date>
+    <source style="" id="wa108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228124">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wa305">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228124">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="italic" id="wa176">Merton</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228153">
+    <date end="1602" begin="1602" subtype="simple">1602</date>
+    <source style="italic" id="wa257">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w228172">
+    <date end="1618" begin="1618" subtype="simple">1618</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w228010">Mortone</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228027">Merton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228073">juxta Longam Ichynton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228107">Mereton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228124">Marton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228153">Marten</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228172">Marton</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w228172">Merton</searchterm>
+  </extension>
+ </mads>
+ 

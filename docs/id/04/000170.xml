@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000001">
+  <authority ID="epns-deep-04-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000170">Abberley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000001" type="broader">
+   <geographic>Doddingtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b000466"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3639800" lat="52.3079800" gazref="geonames:2657881" source="geonames"/>
+   <geo long="-2.374027141070442" lat="52.30463685309093" gazref="unlock:11055050" source="unlock"/>
+   <geo easting="375500" northing="267500" long="-2.36073" lat="52.3051" kepnref="5180" source="kepn"/>
+  </extension>
+ </mads>
+ 

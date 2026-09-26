@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000063">
+  <authority ID="epns-deep-08-b-name-subparish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003300">Little Torrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000063" type="broader">
+   <geographic>Little Torrington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w172316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003301">Toritona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w172334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003302">Parva Toriton'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w172364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003303">parua Thorenton, Thorinton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w172403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003304">Little Torygton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w172429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003305">Liteltrorilanda</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019ad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1483100" lat="50.9311300" gazref="geonames:2644233" source="geonames"/>
+   <geo long="-4.141787111178831" lat="50.92774510852217" gazref="unlock:11197079" source="unlock"/>
+   <geo easting="249500" northing="116500" long="-4.1429" lat="50.9283" kepnref="15520" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w172316">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w172334">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>788</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w172364">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w172403">
+    <date end="1411" begin="1411" subtype="simple">1411</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w172429">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w172316">Toritona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w172334">Parva Toriton'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w172364">parua Thorenton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w172364">Thorinton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w172403">Little Torygton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w172429">Liteltrorilanda</searchterm>
+  </extension>
+ </mads>
+ 

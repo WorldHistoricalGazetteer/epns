@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000018">
+  <authority ID="epns-deep-72-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/003319">Brumstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000cff"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.5065900" lat="52.7856200" gazref="geonames:7295674" source="geonames"/>
+   <geo long="1.499721231" lat="52.77956488" source="epns"/>
+   <geo long="1.50748298510712" lat="52.78383399826194" gazref="unlock:11090332" source="unlock"/>
+   <geo easting="636500" northing="326500" long="1.50565" lat="52.7842" kepnref="9456" source="kepn"/>
+  </extension>
+ </mads>
+ 

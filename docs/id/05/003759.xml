@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000318">
+  <authority ID="epns-deep-05-b-name-subparish-000318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003759">Crosby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000118" type="broader">
+   <geographic>Leake</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w274188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003760">Croxebi, Croxbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w274213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003761">Crossebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w274248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003762">Crossbye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600051d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3727100" lat="54.3017500" gazref="geonames:7291503" source="geonames"/>
+   <geo long="-1.377337896966562" lat="54.3173263911625" gazref="unlock:11122814" source="unlock"/>
+   <geo easting="440500" northing="490500" long="-1.37904" lat="54.3085" kepnref="5971" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w274188">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w274213">
+    <attestation variantID="epns-deep-05-b-name-w274213">
+     <date subtype="simple" begin="1153" end="1157">1153-7</date>
+     <source style="" id="ny236">YCh</source>
+     <page>952</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w274248">
+    <date subtype="simple" begin="1153" end="1194">1153-94</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w274188">Croxebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w274188">Croxbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w274213">Crossebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w274248">Crossbye</searchterm>
+  </extension>
+ </mads>
+ 

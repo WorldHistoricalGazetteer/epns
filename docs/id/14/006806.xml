@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000309">
+  <authority ID="epns-deep-14-b-name-subparish-000309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006806">Skelton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000164" type="broader">
+   <geographic>Howden</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w438953">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006807">Sc(h)ilton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w438973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006808">Skeltun(a), Skelton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w439056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006809">Skeltun(a) juxta Houedene</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w439091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006810">Schelton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w439130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006811">Skylton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004d5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8333300" lat="53.7166700" gazref="geonames:2637748" source="geonames"/>
+   <geo long="-0.8405716440896952" lat="53.72007102626161" gazref="unlock:11284592" source="unlock"/>
+   <geo easting="476500" northing="425500" long="-0.842175" lat="53.7203" kepnref="8683" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w438953">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w438973">
+    <date end="1165" begin="1155" subtype="simple">1155-65</date>
+    <date end="1185" begin="1175" subtype="simple">1175-85</date>
+    <source style="" id="ey367">YCh</source>
+    <item>981-2</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w438973">
+    <attestation variantID="epns-deep-14-b-name-w438973">
+     <date end="1199" begin="1199" subtype="simple">1199</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w438973">
+     <date end="1512" begin="1512" subtype="simple">1512</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w439056">
+    <date end="1398" begin="1398" subtype="simple">1398</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w439091">
+    <date end="1185" begin="1175" subtype="simple">1175-85</date>
+    <source style="" id="ey367">YCh</source>
+    <page>983</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w439091">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="ey16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w439130">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w438953">Schilton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w438953">Scilton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w438973">Skeltuna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w438973">Skeltun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w438973">Skeltona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w438973">Skelton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w439056">Skeltuna juxta Houedene</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w439056">Skeltun juxta Houedene</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w439091">Scheltona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w439091">Schelton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w439130">Skylton</searchterm>
+  </extension>
+ </mads>
+ 

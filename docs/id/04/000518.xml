@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000012">
+  <authority ID="epns-deep-04-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000518">Dowles</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000012" type="broader">
+   <geographic>Dowles</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w45292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000519">Dules</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w45308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000520">Doules</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w45337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000521">Dowlys, Dowlyz</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w45361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000522">Dowles</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000579"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.330627885604271" lat="52.38568758172489" gazref="unlock:11131189" source="unlock"/>
+   <geo easting="377500" northing="276500" long="-2.332" lat="52.3861" kepnref="5190" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w45292">
+    <date end="1217" begin="1217" subtype="simple">1217</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w45308">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="wo164">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w45308">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="italic" id="wo57">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w45337">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w45361">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <source style="" id="wo106">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w45361">
+    <date end="1549" begin="1549" subtype="simple">1549</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w45292">Dules</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w45308">Doules</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w45337">Dowlys</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w45337">Dowlyz</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w45361">Dowles</searchterm>
+  </extension>
+ </mads>
+ 

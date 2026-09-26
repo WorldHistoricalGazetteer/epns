@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000249">
+  <authority ID="epns-deep-05-b-name-subparish-000249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003162">Faceby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000098" type="broader">
+   <geographic>Whorlton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w235326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003163">Feizbi, Fezbi, Foitesbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w235359">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003164">Fayzeby, Fayseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w235395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003165">Fayceby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w235438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003166">Faicesby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w235456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003167">Faceby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2304900" lat="54.4212100" gazref="geonames:7292055" source="geonames"/>
+   <geo long="-1.236983954543839" lat="54.4243813569649" gazref="unlock:11141278" source="unlock"/>
+   <geo easting="449500" northing="503500" long="-1.23857" lat="54.4245" kepnref="5902" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w235326">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235359">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235359">
+    <date subtype="simple" begin="1340" end="1340">1340</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235395">
+    <attestation variantID="epns-deep-05-b-name-w235395">
+     <date subtype="circa" begin="1150" end="1170">c. 1160</date>
+     <source style="" id="ny197">Riev</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w235395">
+     <date subtype="simple" begin="1367" end="1367">1367</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235438">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235456">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w235456">
+    <date subtype="simple" begin="1399" end="1399">1399</date>
+    <source style="italic" id="ny8">Archd</source>
+    <page>19</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w235326">Feizbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235326">Fezbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235326">Foitesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235359">Fayzeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235359">Fayseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235395">Fayceby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235438">Faicesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w235456">Faceby</searchterm>
+  </extension>
+ </mads>
+ 

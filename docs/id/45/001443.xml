@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000009">
+  <authority ID="epns-deep-45-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001443">Hale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000003" type="broader">
+   <geographic>Bowdon</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w58798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001444">Hale</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w58822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001445">Hale iuxta Tymperlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w58855">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/001446">Hal'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f77"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3327100" lat="53.3783100" gazref="geonames:6640028" source="geonames"/>
+   <geo long="-2.345716145" lat="53.37009751" source="epns"/>
+   <geo long="-2.353268852545459" lat="53.37457143802973" gazref="unlock:11163705" source="unlock"/>
+   <geo easting="376500" northing="386500" long="-2.35468" lat="53.3748" kepnref="11771" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w58798">
+    <attestation variantID="epns-deep-45-b-name-w58798">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ch163">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w58822">
+    <date subtype="simple" begin="1350" end="1350">1350</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w58855">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ch138">Court</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w58798">Hale</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w58822">Hale iuxta Tymperlegh</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w58855">Hal'</searchterm>
+  </extension>
+ </mads>
+ 

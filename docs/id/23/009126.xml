@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000090">
+  <authority ID="epns-deep-23-a-name-parish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/009126">Chesterton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000009" type="broader">
+   <geographic>Ploughley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006b4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1854900" lat="51.8874100" gazref="geonames:2653219" source="geonames"/>
+   <geo long="-1.193630383596051" lat="51.87986098602594" gazref="unlock:11196065" source="unlock"/>
+   <geo easting="455500" northing="221500" long="-1.19495" lat="51.8893" kepnref="3611" source="kepn"/>
+  </extension>
+ </mads>
+ 

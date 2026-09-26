@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000140">
+  <authority ID="epns-deep-05-b-name-subparish-000140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001464">Lockton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000050" type="broader">
+   <geographic>Lockton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w121048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001465">Lochetun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001466">Loketon</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001467">Lokeintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001468">Lokinton(e), Lokynton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001469">Loquinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001470">Locatun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w121233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001471">Lokton(e), Locton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000524"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6858800" lat="54.3147600" gazref="geonames:7298253" source="geonames"/>
+   <geo long="-0.7015736165973514" lat="54.29396787976096" gazref="unlock:11204492" source="unlock"/>
+   <geo easting="484500" northing="489500" long="-0.703219" lat="54.2941" kepnref="5790" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w121048">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121066">
+    <attestation variantID="epns-deep-05-b-name-w121066">
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w121066">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="ny100">KF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121103">
+    <date subtype="simple" begin="1170" end="1188">1170-88</date>
+    <source style="" id="ny236">YCh</source>
+    <page>398</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121130">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <date subtype="simple" begin="1250" end="1250">1250</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121130">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121182">
+    <date subtype="simple" begin="1226" end="1228">1226-8</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121205">
+    <date subtype="circa" begin="1240" end="1260">c. 1250</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>118</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w121233">
+    <attestation variantID="epns-deep-05-b-name-w121233">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w121233">
+     <date subtype="simple" begin="1577" end="1577">1577</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w121048">Lochetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121066">Loketon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121103">Lokeintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121130">Lokintone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121130">Lokinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121130">Lokyntone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121130">Lokynton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121182">Loquinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121205">Locatun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121233">Loktone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121233">Lokton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121233">Loctone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w121233">Locton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000235">
+  <authority ID="epns-deep-14-b-name-subparish-000235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005231">Woodmansey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000133" type="broader">
+   <geographic>Beverley</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w343893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005232">Wod(e)manse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w343956">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005233">Woodmancy</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w343975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005234">Woodmansey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00045e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4043800" lat="53.8149100" gazref="geonames:7298470" source="geonames"/>
+   <geo long="-0.3971091496203004" lat="53.82283998042642" gazref="unlock:11326454" source="unlock"/>
+   <geo easting="505500" northing="437500" long="-0.39877" lat="53.8231" kepnref="8646" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w343893">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w343893">
+    <date end="1290" begin="1290" subtype="simple">1290</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w343893">
+    <attestation variantID="epns-deep-14-b-name-w343893">
+     <date end="1297" begin="1297" subtype="simple">1297</date>
+     <source style="" id="ey186">LS</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w343893">
+     <date end="1512" begin="1512" subtype="simple">1512</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w343956">
+    <date end="1573" begin="1573" subtype="simple">1573</date>
+    <source style="" id="ey39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w343975">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="ey34">BevRec</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w343893">Wodemanse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w343893">Wodmanse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w343956">Woodmancy</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w343975">Woodmansey</searchterm>
+  </extension>
+ </mads>
+ 

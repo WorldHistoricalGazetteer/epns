@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000134">
+  <authority ID="epns-deep-45-b-name-subparish-000134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017036">Odd Rode</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000021" type="broader">
+   <geographic>Astbury</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w777137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017037">Odrode, or Little Moreton cum Rode</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w777183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/017038">Rode et Parua Mortoun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f54"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2558900" lat="53.1182800" gazref="geonames:7299915" source="geonames"/>
+   <geo easting="381500" northing="357500" long="-2.27783" lat="53.1144" kepnref="11888" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w777137">
+    <date subtype="simple" begin="1882" end="1882">1882</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w777183">
+    <date subtype="simple" begin="1342" end="1342">1342</date>
+    <source style="italic" id="ch8">AddCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w777137">Odrode</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w777137">Little Moreton cum Rode</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w777183">Rode et Parua Mortoun</searchterm>
+  </extension>
+ </mads>
+ 

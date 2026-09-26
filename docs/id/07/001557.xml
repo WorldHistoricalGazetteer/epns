@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000034">
+  <authority ID="epns-deep-07-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001557">Kingston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000034" type="broader">
+   <geographic>Kingston near Lewes</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w106754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001558">Kyngestona</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w106780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001559">Chingestona</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w106807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001560">Kyngeston juxta Lewes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d28"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0205800" lat="50.8574500" gazref="geonames:2645429" source="geonames"/>
+   <geo easting="539500" northing="108500" long="-0.0192859" lat="50.8592" kepnref="7053" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w106754">
+    <date end="1100" begin="1087" subtype="regnal">t. Wm 2</date>
+    <source style="italic" id="su142">Lewes</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w106780">
+    <date end="1121" begin="1121" subtype="simple">1121</date>
+    <source style="italic" id="su4">AD</source>
+    <item>A 6</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w106807">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="su176">NI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w106754">Kyngestona</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w106780">Chingestona</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w106807">Kyngeston juxta Lewes</searchterm>
+  </extension>
+ </mads>
+ 

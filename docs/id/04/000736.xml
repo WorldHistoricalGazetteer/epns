@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000022">
+  <authority ID="epns-deep-04-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000736">Lulsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000022" type="broader">
+   <geographic>Lulsley</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w62449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000737">Lolleseie, Lulleseia</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w62488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000738">Lolles(s)eye</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w62536">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000739">Lulsey</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w62586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000740">Lullesey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3768200" lat="52.1930800" gazref="geonames:7297517" source="geonames"/>
+   <geo long="-2.37312083016162" lat="52.19674283133342" gazref="unlock:11209548" source="unlock"/>
+   <geo easting="374500" northing="255500" long="-2.37448" lat="52.1971" kepnref="5203" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w62449">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="wo200">VCH</source>
+    <item>iv</item>
+    <page>356</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62488">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62488">
+    <date end="1364" begin="1364" subtype="simple">1364</date>
+    <date end="1369" begin="1369" subtype="simple">1369</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62488">
+    <date end="1656" begin="1656" subtype="simple">1656</date>
+    <source style="" id="wo59">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62536">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62536">
+    <date end="1649" begin="1649" subtype="simple">1649</date>
+    <source style="" id="wo59">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62536">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="wo134">Ogilby</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62536">
+    <date end="1763" begin="1763" subtype="simple">1763</date>
+    <source style="" id="wo18">Bowen</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w62586">
+    <date end="1649" begin="1649" subtype="simple">1649</date>
+    <source style="" id="wo59">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w62449">Lolleseie</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w62449">Lulleseia</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w62488">Lollesseye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w62488">Lolleseye</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w62536">Lulsey</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w62586">Lullesey</searchterm>
+  </extension>
+ </mads>
+ 

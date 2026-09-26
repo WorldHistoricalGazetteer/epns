@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000229">
+  <authority ID="epns-deep-16-a-name-parish-000229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009682">Liddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000024" type="broader">
+   <geographic>Thornhill Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c99"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7029800" lat="51.5315800" gazref="geonames:2644526" source="geonames"/>
+   <geo long="-1.704432276851853" lat="51.53155610019122" gazref="unlock:11194739" source="unlock"/>
+   <geo easting="420500" northing="181500" long="-1.70585" lat="51.532" kepnref="7386" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000013">
+  <authority ID="epns-deep-52-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/004689">Coombe Keynes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000003" type="broader">
+   <geographic>Winfrith Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2119300" lat="50.6583300" gazref="geonames:7291590" source="geonames"/>
+   <geo long="-2.222129932" lat="50.65668431" source="epns"/>
+   <geo long="-2.219312900534492" lat="50.65938824284555" gazref="unlock:11115610" source="unlock"/>
+   <geo easting="384500" northing="84500" long="-2.22064" lat="50.66" kepnref="11667" source="kepn"/>
+  </extension>
+ </mads>
+ 

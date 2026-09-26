@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000102">
+  <authority ID="epns-deep-33-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012470">Appleton Roebuck</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000040" type="broader">
+   <geographic>Bolton Percy</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w519610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012471">Æppeltune</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w519637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012472">Apeltun(e), Apiltun(e), Apilton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w519729">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012473">Appeltun, Appelton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w519798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012474">Appulton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w519818">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012475">Appleton Roebucke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006096"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1572100" lat="53.8714100" gazref="geonames:7296905" source="geonames"/>
+   <geo long="-1.163432597" lat="53.87108239" source="epns"/>
+   <geo long="-1.155737577112764" lat="53.87552443518465" gazref="unlock:11062944" source="unlock"/>
+   <geo easting="455500" northing="442500" long="-1.15731" lat="53.8757" kepnref="14689" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w519610">
+    <date end="982" begin="962" subtype="circa">c. 972</date>
+    <source style="" id="wr33">BCS</source>
+    <item>1279</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519637">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519637">
+    <date end="1116" begin="1100" subtype="simple">1100-16</date>
+    <source style="" id="wr796">YCh</source>
+    <item>527</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519637">
+    <date end="1160" begin="1150" subtype="simple">1150-60</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519637">
+    <attestation variantID="epns-deep-33-b-name-w519637">
+     <date end="1252" begin="1252" subtype="simple">1252</date>
+     <source style="" id="wr82">Ch</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519729">
+    <date end="1188" begin="1188" subtype="simple">1188</date>
+    <source style="italic" id="wr51">Bodl</source>
+    <item>37</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519729">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <copydate end="1308" begin="1308">1308</copydate>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519729">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519729">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wr197">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519798">
+    <date end="1458" begin="1458" subtype="simple">1458</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w519818">
+    <date end="1664" begin="1664" subtype="simple">1664</date>
+    <source style="" id="wr643">SelbyW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w519610">Æppeltune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apeltune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apeltun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apiltune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apiltun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apiltona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519637">Apilton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519729">Appeltun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519729">Appelton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519798">Appulton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w519818">Appleton Roebucke</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000022">
+  <authority ID="epns-deep-21-b-name-subparish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001516">Hayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000022" type="broader">
+   <geographic>Hayton and Mealo</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w60404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001517">Hayton</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w60431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001518">in Allerdale</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w60455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001519">Heyton'</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w60475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/001520">Haiton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000fe8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.391028398737737" lat="54.7603523239081" gazref="unlock:11168324" source="unlock"/>
+   <geo easting="310500" northing="541500" long="-3.39236" lat="54.7604" kepnref="4478" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w60404">
+    <attestation variantID="epns-deep-21-b-name-w60404">
+     <date end="1278" begin="1278" subtype="simple">1278</date>
+     <source style="" id="cu45">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w60431">
+    <date end="1419" begin="1419" subtype="simple">1419</date>
+    <source style="" id="cu294">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w60455">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="italic" id="cu11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w60475">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w60404">Hayton</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w60431">in Allerdale</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w60455">Heyton'</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w60475">Haiton</searchterm>
+  </extension>
+ </mads>
+ 

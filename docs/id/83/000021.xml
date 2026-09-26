@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-ld-localdistrict-000002">
+  <authority ID="epns-deep-83-ld-name-localdistrict-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/000021">Billinghamshire</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <variant ID="epns-deep-83-ld-name-w4228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/000022">Billinghamschyr</geographic>
+  </variant>
+  <variant ID="epns-deep-83-ld-name-w4255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/000023">Billynghamschire</geographic>
+  </variant>
+  <variant ID="epns-deep-83-ld-name-w4297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/000024">Byllynghamshir', Byllynghamshyr'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285389b47fc40a38000001"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-83-ld-name-w4228">
+    <date end="1274" begin="1274" subtype="simple">1274</date>
+    <source style="italic" id="dm192">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-ld-name-w4255">
+    <date end="1378" begin="1378" subtype="simple">1378</date>
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <date end="1381" begin="1381" subtype="simple">1381</date>
+    <source style="" id="dm90">Halm</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-ld-name-w4297">
+    <date end="1456" begin="1456" subtype="simple">1456</date>
+    <source style="italic" id="dm300">RepMag</source>
+   </attestation>
+   <attestation variantID="epns-deep-83-ld-name-w4297">
+    <date end="1500" begin="1400" subtype="century">15th</date>
+    <source style="italic" id="dm205">Reg</source>
+   </attestation>
+   <searchterm variantID="epns-deep-83-ld-name-w4228">Billinghamschyr</searchterm>
+   <searchterm variantID="epns-deep-83-ld-name-w4255">Billynghamschire</searchterm>
+   <searchterm variantID="epns-deep-83-ld-name-w4297">Byllynghamshir'</searchterm>
+   <searchterm variantID="epns-deep-83-ld-name-w4297">Byllynghamshyr'</searchterm>
+  </extension>
+ </mads>
+ 

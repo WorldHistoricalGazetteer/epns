@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000135">
+  <authority ID="epns-deep-10-a-name-parish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003194">Haselbech</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000009" type="broader">
+   <geographic>Rothwell Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00043f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9544300" lat="52.3903400" gazref="geonames:2647371" source="geonames"/>
+   <geo long="-0.9492109849947695" lat="52.39047091670653" gazref="unlock:11167001" source="unlock"/>
+   <geo easting="471500" northing="277500" long="-0.950745" lat="52.3909" kepnref="11005" source="kepn"/>
+  </extension>
+ </mads>
+ 

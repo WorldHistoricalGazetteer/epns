@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-a-parish-000024">
+  <authority ID="epns-deep-82-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/012968">Norton in Hales</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-hu-subcounty-000002" type="broader">
+   <geographic>Bradford North Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-82-a-name-w508980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/012969">Nortune</geographic>
+  </variant>
+  <variant ID="epns-deep-82-a-name-w509029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/012970">Norton(a), Norton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a604b47fc4463d000e49"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4430900" lat="52.9441400" gazref="geonames:2641187" source="geonames"/>
+   <geo long="-2.442032252" lat="52.94455014" source="epns"/>
+   <geo long="-2.439037627439197" lat="52.94276423561609" gazref="unlock:11233787" source="unlock"/>
+   <geo easting="370500" northing="338500" long="-2.44042" lat="52.9431" kepnref="13583" source="kepn"/>
+   <attestation variantID="epns-deep-82-a-name-w508980">
+    <attestation variantID="epns-deep-82-a-name-w508980">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-a-name-w509029">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-a-name-w508980">Nortune</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w509029">Nortona</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w509029">Norton</searchterm>
+   <searchterm variantID="epns-deep-82-a-name-w509029">Norton'</searchterm>
+  </extension>
+ </mads>
+ 

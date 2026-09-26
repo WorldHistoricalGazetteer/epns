@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000001">
+  <authority ID="epns-deep-83-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/000047">Billingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000473"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2903400" lat="54.5888100" gazref="geonames:2655664" source="geonames"/>
+   <geo long="-1.303521044" lat="54.59106289" source="epns"/>
+   <geo long="-1.280069089372827" lat="54.6044092845645" gazref="unlock:11076984" source="unlock"/>
+   <geo easting="446500" northing="523500" long="-1.28166" lat="54.6045" kepnref="7723" source="kepn"/>
+  </extension>
+ </mads>
+ 

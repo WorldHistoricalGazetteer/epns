@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000060">
+  <authority ID="epns-deep-06-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001805">Tangmere</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000007" type="broader">
+   <geographic>Aldwick Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c1f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7163300" lat="50.8513100" gazref="geonames:2636262" source="geonames"/>
+   <geo long="-0.7142528022837542" lat="50.85037229048548" gazref="unlock:11297529" source="unlock"/>
+   <geo easting="490500" northing="106500" long="-0.715753" lat="50.8509" kepnref="6922" source="kepn"/>
+  </extension>
+ </mads>
+ 

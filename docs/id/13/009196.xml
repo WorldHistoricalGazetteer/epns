@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000232">
+  <authority ID="epns-deep-13-a-name-parish-000232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009196">Stoneton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000011" type="broader">
+   <geographic>Honesberie Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3293200" lat="52.1903000" gazref="geonames:7299635" source="geonames"/>
+   <geo long="-1.319758606262567" lat="52.18638045538143" gazref="unlock:11293327" source="unlock"/>
+   <geo easting="446500" northing="254500" long="-1.32124" lat="52.1868" kepnref="4969" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000214">
+  <authority ID="epns-deep-04-b-name-subparish-000214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005833">Grafton Manor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000202" type="broader">
+   <geographic>Grafton Manor</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w470340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005834">Grastone</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w470358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005835">Grafton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w470417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005836">Grafton(e) juxta Bremesgrave</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00058b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.095379928677698" lat="52.32317304043944" gazref="unlock:11157232" source="unlock"/>
+   <geo easting="393500" northing="269500" long="-2.09678" lat="52.3236" kepnref="5396" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w470340">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470358">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <copydate end="1200" begin="1180">c. 1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470358">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="wo56">Fees</source>
+    <item>140</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470358">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w470417">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="" id="wo88">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w470340">Grastone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470358">Graftone</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470358">Grafton</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470417">Graftone juxta Bremesgrave</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w470417">Grafton juxta Bremesgrave</searchterm>
+  </extension>
+ </mads>
+ 

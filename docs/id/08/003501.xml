@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000067">
+  <authority ID="epns-deep-08-b-name-subparish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003501">Horwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000067" type="broader">
+   <geographic>Horwood</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w180949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003502">Hareoda, Horew(o)da</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w180978">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003503">Harewde</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w180995">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003504">Horwude</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w181043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003505">Horwode</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w181052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003506">Horewode</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w181071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003507">Churchehorwode</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w181096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003508">Horwood al. Worewood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001987"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.132090895749716" lat="51.02686322202019" gazref="unlock:11179851" source="unlock"/>
+   <geo easting="250500" northing="127500" long="-4.13321" lat="51.0274" kepnref="15524" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w180949">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w180978">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w180995">
+    <attestation variantID="epns-deep-08-b-name-w180995">
+     <date end="1196" begin="1196" subtype="simple">1196</date>
+     <source style="" id="de84">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w181043">
+    <date end="1600" begin="1196">1196-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w181052">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w181071">
+    <date end="1356" begin="1356" subtype="simple">1356</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w181096">
+    <date end="1692" begin="1692" subtype="simple">1692</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w180949">Hareoda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w180949">Horewoda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w180949">Horewda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w180978">Harewde</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w180995">Horwude</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w181043">Horwode</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w181052">Horewode</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w181071">Churchehorwode</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w181096">Horwood</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w181096">Worewood</searchterm>
+  </extension>
+ </mads>
+ 

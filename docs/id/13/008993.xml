@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000222">
+  <authority ID="epns-deep-13-a-name-parish-000222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008993">Avon Dassett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000011" type="broader">
+   <geographic>Honesberie Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000619"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4039800" lat="52.1451600" gazref="geonames:2656738" source="geonames"/>
+   <geo long="-1.393387432158423" lat="52.15081552917437" gazref="unlock:11066074" source="unlock"/>
+   <geo easting="440500" northing="250500" long="-1.40947" lat="52.1513" kepnref="4960" source="kepn"/>
+  </extension>
+ </mads>
+ 

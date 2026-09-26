@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000078">
+  <authority ID="epns-deep-06-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002461">Coldwaltham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000078" type="broader">
+   <geographic>Coldwaltham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w196790">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002462">Uualdham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196818">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002463">Waltham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196848">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002464">Cold Waltham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196870">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002465">Est Waltham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002466">Caldwaltham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w196913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002467">Waltham on the Hethe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cce"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5476000" lat="50.9373400" gazref="geonames:2652598" source="geonames"/>
+   <geo long="-0.541015580496805" lat="50.93827521099639" gazref="unlock:11113776" source="unlock"/>
+   <geo easting="502500" northing="116500" long="-0.542539" lat="50.9388" kepnref="6940" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w196790">
+    <date subtype="simple" begin="683" end="683">683</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>64</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196818">
+    <date subtype="simple" begin="957" end="957">957</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>997</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196848">
+    <date subtype="simple" begin="1340" end="1340">1340</date>
+    <source style="" id="su176">NI</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196870">
+    <date subtype="simple" begin="1419" end="1419">1419</date>
+    <source style="italic" id="su54">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196891">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w196913">
+    <date subtype="simple" begin="1539" end="1539">1539</date>
+    <source style="" id="su151">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w196790">Uualdham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196818">Waltham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196848">Cold Waltham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196870">Est Waltham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196891">Caldwaltham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w196913">Waltham on the Hethe</searchterm>
+  </extension>
+ </mads>
+ 

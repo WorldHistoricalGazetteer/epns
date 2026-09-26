@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000331">
+  <authority ID="epns-deep-05-b-name-subparish-000331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003836">Romanby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000120" type="broader">
+   <geographic>Northallerton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w281033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003837">Romundrebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w281053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003838">Romundabi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w281078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003839">Romundebi, Romundeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w281131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003840">Romundby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w281165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003841">Romanby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000558"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4300900" lat="54.3260100" gazref="geonames:7296814" source="geonames"/>
+   <geo long="-1.438587192431015" lat="54.33560366376124" gazref="unlock:11272173" source="unlock"/>
+   <geo easting="436500" northing="493500" long="-1.44014" lat="54.3358" kepnref="5983" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w281033">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w281053">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w281078">
+    <attestation variantID="epns-deep-05-b-name-w281078">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w281078">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w281131">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w281131">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="ny94">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w281165">
+    <date subtype="simple" begin="1398" end="1398">1398</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w281033">Romundrebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w281053">Romundabi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w281078">Romundebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w281078">Romundeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w281131">Romundby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w281165">Romanby</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol71mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-71-a-parish-000008">
+  <authority ID="epns-deep-71-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/002077">Wyham cum Cadeby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-71-wp-subcounty-000001" type="broader">
+   <geographic>Ludborough Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-71-a-name-w109058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/002078">Wyham cum Cadeby</geographic>
+  </variant>
+  <variant ID="epns-deep-71-a-name-w109115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/002079">Wyham with Cadeby</geographic>
+  </variant>
+  <variant ID="epns-deep-71-a-name-w109142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/002080">Cadeby cum Wyham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f6c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0917900" lat="53.4361400" gazref="geonames:7301760" source="geonames"/>
+   <geo easting="527500" northing="395500" long="-0.0819403" lat="53.4409" kepnref="10714" source="kepn"/>
+   <attestation variantID="epns-deep-71-a-name-w109058">
+    <date end="1561" begin="1561" subtype="simple">1561</date>
+    <date end="1562" begin="1562" subtype="simple">1562</date>
+    <source style="italic" id="li152">BT</source>
+   </attestation>
+   <attestation variantID="epns-deep-71-a-name-w109058">
+    <date end="1712" begin="1712" subtype="simple">1712</date>
+    <source style="italic" id="li987">Terrier</source>
+   </attestation>
+   <attestation variantID="epns-deep-71-a-name-w109058">
+    <date end="1749" begin="1749" subtype="simple">1749</date>
+    <source style="italic" id="li152">BT</source>
+   </attestation>
+   <attestation variantID="epns-deep-71-a-name-w109115">
+    <date end="1848" begin="1848" subtype="simple">1848</date>
+    <source style="italic" id="li974">TA</source>
+   </attestation>
+   <attestation variantID="epns-deep-71-a-name-w109142">
+    <date end="1680" begin="1680" subtype="simple">1680</date>
+    <source style="italic" id="li152">BT</source>
+   </attestation>
+   <searchterm variantID="epns-deep-71-a-name-w109058">Wyham cum Cadeby</searchterm>
+   <searchterm variantID="epns-deep-71-a-name-w109115">Wyham with Cadeby</searchterm>
+   <searchterm variantID="epns-deep-71-a-name-w109142">Cadeby cum Wyham</searchterm>
+  </extension>
+ </mads>
+ 

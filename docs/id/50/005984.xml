@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000036">
+  <authority ID="epns-deep-50-a-name-parish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/005984">Hatford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000004" type="broader">
+   <geographic>Ganfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001aa0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5123400" lat="51.6510500" gazref="geonames:2647342" source="geonames"/>
+   <geo long="-1.515763632539545" lat="51.647830910619" gazref="unlock:11167232" source="unlock"/>
+   <geo easting="433500" northing="194500" long="-1.5172" lat="51.6483" kepnref="3138" source="kepn"/>
+  </extension>
+ </mads>
+ 

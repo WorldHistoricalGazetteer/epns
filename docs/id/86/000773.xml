@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000003">
+  <authority ID="epns-deep-86-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/000773">Chilcombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000001" type="broader">
+   <geographic>Uggescombe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6693100" lat="50.7167100" gazref="geonames:7291283" source="geonames"/>
+   <geo long="-2.667247991" lat="50.71704369" source="epns"/>
+   <geo long="-2.672965932055781" lat="50.72060882563667" gazref="unlock:11104881" source="unlock"/>
+   <geo easting="352500" northing="91500" long="-2.67424" lat="50.7212" kepnref="11635" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000057">
+  <authority ID="epns-deep-10-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001332">Newbottle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000057" type="broader">
+   <geographic>Newbottle</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w76144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001333">Neubote, Niwebotle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001334">Neubotha</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001335">Neubote</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001336">Neubotl(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001337">Newbotl, Niwebotl, Newebotl and Neubottle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001338">Neubothle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001339">Newbolthl(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001340">Neupotle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w76428">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001341">Newebaud</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005c6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2232600" lat="52.0311600" gazref="geonames:7291359" source="geonames"/>
+   <geo long="-1.234768713528885" lat="52.02400784197656" gazref="unlock:11229773" source="unlock"/>
+   <geo easting="452500" northing="236500" long="-1.23625" lat="52.0244" kepnref="10927" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w76144">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76172">
+    <date end="1129" begin="1121" subtype="simple">1121-9</date>
+    <source style="" id="nh109">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76198">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh154">LN</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76215">
+    <attestation variantID="epns-deep-10-b-name-w76215">
+     <date end="1166" begin="1148" subtype="simple">1148-66</date>
+     <source style="" id="nh82">Dunstable</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w76215">
+     <date end="1331" begin="1331" subtype="simple">1331</date>
+     <source style="" id="nh132">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76298">
+    <date end="1331" begin="1148">1148-1331</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76334">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="" id="nh218">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76334">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="" id="nh82">Dunstable</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76334">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="nh4">AD</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76382">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76406">
+    <date end="1212" begin="1210" subtype="simple">1210-12</date>
+    <source style="" id="nh248">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w76428">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w76144">Neubote</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76144">Niwebotle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76172">Neubotha</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76198">Neubote</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76215">Neubotle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76215">Neubotl</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76298">Newbotl</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76298">Niwebotl</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76298">Newebotl</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76298">Neubottle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76334">Neubothle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76382">Newbolthle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76382">Newbolthl</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76406">Neupotle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w76428">Newebaud</searchterm>
+  </extension>
+ </mads>
+ 

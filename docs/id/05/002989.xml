@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000088">
+  <authority ID="epns-deep-05-a-name-parish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002989">Stokesley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000006" type="broader">
+   <geographic>Langbargh West Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1933000" lat="54.4699800" gazref="geonames:2636830" source="geonames"/>
+   <geo long="-1.189858956623035" lat="54.46901618615954" gazref="unlock:11292846" source="unlock"/>
+   <geo easting="452500" northing="508500" long="-1.19145" lat="54.4692" kepnref="5877" source="kepn"/>
+  </extension>
+ </mads>
+ 

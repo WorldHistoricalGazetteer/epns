@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000243">
+  <authority ID="epns-deep-10-b-name-subparish-000243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005338">Lilford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000243" type="broader">
+   <geographic>Lilford-cum-Wigsthorpe</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w289230">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005339">Lilleford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w289273">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005340">Lyllford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w289296">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005341">Lillingford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w289322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005342">Lillesford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005ae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4769132359396244" lat="52.44827180553568" gazref="unlock:11194864" source="unlock"/>
+   <geo easting="503500" northing="284500" long="-0.478504" lat="52.4487" kepnref="11113" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w289230">
+    <attestation variantID="epns-deep-10-b-name-w289230">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w289230">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w289273">
+    <date end="1430" begin="1430" subtype="simple">1430</date>
+    <source style="" id="nh4">AD</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w289296">
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <source style="" id="nh63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w289322">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w289230">Lilleforde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w289230">Lilleford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w289273">Lyllford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w289296">Lillingford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w289322">Lillesford</searchterm>
+  </extension>
+ </mads>
+ 

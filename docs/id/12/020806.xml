@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000342">
+  <authority ID="epns-deep-12-b-name-subparish-000342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020806">Langley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000457" type="broader">
+   <geographic>Langley</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w1005914">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020807">Lang(e)leg(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1005947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020808">Lang(e)le(ie)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w1005982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020809">Langelegh juxta Claverynge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e3b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0938400" lat="51.9923300" gazref="geonames:7298554" source="geonames"/>
+   <geo long="0.1046971155605273" lat="51.9897029932909" gazref="unlock:11191555" source="unlock"/>
+   <geo easting="543500" northing="234500" long="0.0885047" lat="51.9904" kepnref="12608" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w1005914">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ex349">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1005914">
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1005947">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1005947">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="ex349">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w1005982">
+    <date subtype="simple" begin="1358" end="1358">1358</date>
+    <source style="" id="ex204">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w1005914">Langelega</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005914">Langeleg</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005914">Langlega</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005914">Langleg</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005947">Langeleie</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005947">Langele</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005947">Langleie</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005947">Langle</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w1005982">Langelegh juxta Claverynge</searchterm>
+  </extension>
+ </mads>
+ 

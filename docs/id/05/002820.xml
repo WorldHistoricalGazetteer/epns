@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000213">
+  <authority ID="epns-deep-05-b-name-subparish-000213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002820">Middlesbrough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000080" type="broader">
+   <geographic>Middlesbrough</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w214820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002821">Mid(e)lesburc(h), Mid(e)lesburgh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w214893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002822">Middelburg(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w214949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002823">Medellesburghe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w214973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002824">Medilsburghe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w214999">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002825">Middelesburgh, Middlesbrough</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000540"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2348300" lat="54.5762300" gazref="geonames:2642607" source="geonames"/>
+   <geo long="-1.203541982959877" lat="54.55898938793701" gazref="unlock:11218489" source="unlock"/>
+   <geo easting="449500" northing="520500" long="-1.23573" lat="54.5773" kepnref="5865" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w214820">
+    <attestation variantID="epns-deep-05-b-name-w214820">
+     <date subtype="simple" begin="1114" end="1140">1114-40</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w214820">
+     <date subtype="simple" begin="1314" end="1314">1314</date>
+     <source style="" id="ny147">NRS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214893">
+    <date subtype="simple" begin="1273" end="1273">1273</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214893">
+    <date subtype="circa" begin="1281" end="1301">c. 1291</date>
+    <source style="" id="ny305">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214893">
+    <date subtype="simple" begin="1613" end="1613">1613</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>692</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214949">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214973">
+    <date subtype="simple" begin="1395" end="1395">1395</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214999">
+    <date subtype="simple" begin="1407" end="1407">1407</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w214999">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midelesburch</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midelesburc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midlesburch</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midlesburc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midelesburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214820">Midlesburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214893">Middelburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214893">Middelburg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214949">Medellesburghe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214973">Medilsburghe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214999">Middelesburgh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w214999">Middlesbrough</searchterm>
+  </extension>
+ </mads>
+ 

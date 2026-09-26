@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000191">
+  <authority ID="epns-deep-12-b-name-subparish-000191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011738">Bradfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000260" type="broader">
+   <geographic>Bradfield</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w582498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011739">Bradefelda, Bradefeldā</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w582530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011740">Bradefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w582557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011741">Bradefeld by Manytre</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w582589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011742">Bradefeud</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w582615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011743">Bradeford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000da8"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.1166700" lat="51.9333300" gazref="geonames:2654997" source="geonames"/>
+   <geo long="1.120407401671305" lat="51.9311760339655" gazref="unlock:11084791" source="unlock"/>
+   <geo easting="614500" northing="230500" long="1.11865" lat="51.9317" kepnref="12432" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w582498">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w582530">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w582557">
+    <date subtype="simple" begin="1339" end="1339">1339</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w582589">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w582615">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w582498">Bradefelda</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w582498">Bradefeldā</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w582530">Bradefeld</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w582557">Bradefeld by Manytre</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w582589">Bradefeud</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w582615">Bradeford</searchterm>
+  </extension>
+ </mads>
+ 

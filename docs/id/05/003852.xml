@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000333">
+  <authority ID="epns-deep-05-b-name-subparish-000333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003852">Hutton Bonville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000121" type="broader">
+   <geographic>Birkby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w282073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003853">Hotune, Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w282096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003854">Hoton Bonevill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000421"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4652700" lat="54.3967300" gazref="geonames:7291511" source="geonames"/>
+   <geo long="-1.46853633082233" lat="54.39865728217917" gazref="unlock:11181798" source="unlock"/>
+   <geo easting="433500" northing="500500" long="-1.4855" lat="54.3989" kepnref="5985" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w282073">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w282096">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w282073">Hotune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w282073">Hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w282096">Hoton Bonevill</searchterm>
+  </extension>
+ </mads>
+ 

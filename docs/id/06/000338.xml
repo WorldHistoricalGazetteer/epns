@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000011">
+  <authority ID="epns-deep-06-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000338">Midhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000011" type="broader">
+   <geographic>Midhurst</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w31452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000339">Mid(d)eherst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d3e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7400300" lat="50.9855900" gazref="geonames:2642567" source="geonames"/>
+   <geo long="-0.7390193581891628" lat="50.98555030358584" gazref="unlock:11218757" source="unlock"/>
+   <geo easting="488500" northing="121500" long="-0.740522" lat="50.9861" kepnref="6872" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w31452">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1361" begin="1361">1361</copydate>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w31452">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w31452">Middeherst</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w31452">Mideherst</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000076">
+  <authority ID="epns-deep-10-a-name-parish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001818">Guilsborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000005" type="broader">
+   <geographic>Guilsborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000431"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0101600" lat="52.3512500" gazref="geonames:2647789" source="geonames"/>
+   <geo long="-1.008791941896288" lat="52.35501948885071" gazref="unlock:11162283" source="unlock"/>
+   <geo easting="467500" northing="273500" long="-1.01032" lat="52.3554" kepnref="10946" source="kepn"/>
+  </extension>
+ </mads>
+ 

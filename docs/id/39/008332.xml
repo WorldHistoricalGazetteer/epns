@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000084">
+  <authority ID="epns-deep-39-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008332">Cainscross</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000082" type="broader">
+   <geographic>Cainscross</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w408745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/008333">Cain's Cross</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001ab8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2494400" lat="51.7449500" gazref="geonames:7298597" source="geonames"/>
+   <geo long="-2.246247216" lat="51.7429887" source="epns"/>
+   <geo long="-2.239028515393924" lat="51.74750042008691" gazref="unlock:11095941" source="unlock"/>
+   <geo kepnexref="358" long="-2.24066" lat="51.743772" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w408745">
+    <date subtype="simple" begin="1776" end="1776">1776</date>
+    <source style="" id="go533">Will</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w408745">
+    <date subtype="simple" begin="1777" end="1777">1777</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w408745">Cain's Cross</searchterm>
+  </extension>
+ </mads>
+ 

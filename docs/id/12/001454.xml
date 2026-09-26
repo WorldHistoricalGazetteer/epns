@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000024">
+  <authority ID="epns-deep-12-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/001454">Kelvedon Hatch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000003" type="broader">
+   <geographic>Ongar Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c83"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2681400" lat="51.6673900" gazref="geonames:2645840" source="geonames"/>
+   <geo long="0.2630628628289511" lat="51.66299347655106" gazref="unlock:11184921" source="unlock"/>
+   <geo easting="557500" northing="198500" long="0.275866" lat="51.6632" kepnref="12220" source="kepn"/>
+  </extension>
+ </mads>
+ 

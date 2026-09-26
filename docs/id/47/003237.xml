@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000035">
+  <authority ID="epns-deep-47-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003237">Churton by Farndon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000006" type="broader">
+   <geographic>Farndon</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w175135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003238">Churton by Farndon</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w175166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/003239">Farne in dimidia Churton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8740700" lat="53.0971500" gazref="geonames:7298368" source="geonames"/>
+   <geo long="-2.870832897" lat="53.10041402" source="epns"/>
+   <geo easting="341500" northing="356500" long="-2.87519" lat="53.1025" kepnref="12051" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w175135">
+    <date end="1723" begin="1723" subtype="simple">1723</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w175166">
+    <date end="1663" begin="1663" subtype="simple">1663</date>
+    <source style="" id="ch609" underspec="ib">Sheaf</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w175135">Churton by Farndon</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w175166">Farne in dimidia Churton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000180">
+  <authority ID="epns-deep-08-b-name-subparish-000180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010598">South Huish</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000180" type="broader">
+   <geographic>South Huish</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w535852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010599">Heuis</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w535867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010600">Hywis</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w535888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010601">Suthhywish juxta Kyngesbrigg'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a1f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8409600" lat="50.2454900" gazref="geonames:7291188" source="geonames"/>
+   <geo long="-3.830984371886871" lat="50.25842452499663" gazref="unlock:11287600" source="unlock"/>
+   <geo easting="269500" northing="41500" long="-3.83211" lat="50.259" kepnref="15638" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w535852">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w535867">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>766</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w535888">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w535852">Heuis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w535867">Hywis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w535888">Suthhywish juxta Kyngesbrigg'</searchterm>
+  </extension>
+ </mads>
+ 

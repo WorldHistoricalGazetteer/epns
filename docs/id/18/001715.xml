@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000038">
+  <authority ID="epns-deep-18-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001715">Kingsbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000037" type="broader">
+   <geographic>Kingsbury</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w87493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001716">Kynges byrig</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001717">Chingesberie</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87546">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001718">Chingesbiri</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001719">Kingesbir'</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87635">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001720">Kyngesbir' and Kingesbury, Kingesberi</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87676">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001721">Kiggesbire</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87703">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001722">Kynkesbury</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w87724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/001723">Kynnesbur'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a000023d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2769300" lat="51.5857100" gazref="geonames:8394366" source="geonames"/>
+   <geo long="-0.2750844760301531" lat="51.58220006085256" gazref="unlock:11187006" source="unlock"/>
+   <geo easting="519500" northing="189500" long="-0.276323" lat="51.5917" kepnref="4746" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w87493">
+    <date subtype="simple" begin="1044" end="1046">1044-46</date>
+    <source style="" id="mi149">KCD</source>
+    <item>843</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87524">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="mi70">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87546">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="mi223">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87568">
+    <attestation variantID="epns-deep-18-b-name-w87568">
+     <date subtype="simple" begin="1199" end="1199">1199</date>
+     <source style="" id="mi65">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-18-b-name-w87568">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="mi98">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87635">
+    <date end="1316" begin="1199">1199-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87676">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="mi65">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87703">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="italic" id="mi18">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w87724">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="mi108">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w87493">Kynges byrig</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87524">Chingesberie</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87546">Chingesbiri</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87568">Kingesbir'</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87635">Kyngesbir'</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87635">Kingesbury</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87635">Kingesberi</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87676">Kiggesbire</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87703">Kynkesbury</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w87724">Kynnesbur'</searchterm>
+  </extension>
+ </mads>
+ 

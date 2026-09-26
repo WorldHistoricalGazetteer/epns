@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000125">
+  <authority ID="epns-deep-02-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002311">Long Crendon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000011" type="broader">
+   <geographic>Ixhill Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002a7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9968400" lat="51.7729400" gazref="geonames:2643707" source="geonames"/>
+   <geo long="-0.992661985158007" lat="51.77040404905654" gazref="unlock:11205380" source="unlock"/>
+   <geo easting="469500" northing="208500" long="-0.994166" lat="51.7709" kepnref="11319" source="kepn"/>
+  </extension>
+ </mads>
+ 

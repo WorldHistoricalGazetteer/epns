@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000144">
+  <authority ID="epns-deep-05-b-name-subparish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001581">Brompton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000054" type="broader">
+   <geographic>Brompton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w128336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001582">Bruntun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w128370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001583">Brunton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w128410">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001584">Birunton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w128428">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001585">Brumton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w128474">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001586">Brumpton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w128515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001587">Brompton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000435"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5500000" lat="54.2166700" gazref="geonames:2654584" source="geonames"/>
+   <geo long="-0.5501742408022622" lat="54.22931815134748" gazref="unlock:11088642" source="unlock"/>
+   <geo easting="494500" northing="482500" long="-0.551835" lat="54.2295" kepnref="5794" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w128336">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128336">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128370">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128370">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128410">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128428">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128428">
+    <date subtype="simple" begin="1245" end="1245">1245</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>41 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128428">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128474">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128474">
+    <date subtype="simple" begin="1399" end="1399">1399</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w128515">
+    <attestation variantID="epns-deep-05-b-name-w128515">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w128336">Bruntune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128336">Bruntun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128370">Brunton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128410">Birunton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128428">Brumton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128474">Brumptone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128474">Brumpton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128515">Bromptone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w128515">Brompton</searchterm>
+  </extension>
+ </mads>
+ 

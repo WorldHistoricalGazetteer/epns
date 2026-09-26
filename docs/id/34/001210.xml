@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000019">
+  <authority ID="epns-deep-34-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001210">North Deighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000009" type="broader">
+   <geographic>Kirk Deighton</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w55105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001211">Distone</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001212">Nordictun</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001213">Northdictun, Northdicton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001214">Northdichton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001215">North Ditton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001216">North Dighton, North Dyghton</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w55417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/001217">Parva Dighton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006189"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3996600" lat="53.9606400" gazref="geonames:7291640" source="geonames"/>
+   <geo long="-1.405632728" lat="53.953427" source="epns"/>
+   <geo long="-1.397948172192903" lat="53.95788454452623" gazref="unlock:11232285" source="unlock"/>
+   <geo easting="439500" northing="451500" long="-1.39949" lat="53.9581" kepnref="14738" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w55105">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55196">
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55215">
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="" id="wr796">YCh</source>
+    <item>x</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55215">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>vi, vii</item>
+    <page>449</page>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55278">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="italic" id="wr260">Heal</source>
+    <item>63</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55303">
+    <date end="1213" begin="1213" subtype="simple">1213</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55303">
+    <date end="1257" begin="1257" subtype="simple">1257</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55339">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55339">
+    <attestation variantID="epns-deep-34-b-name-w55339">
+     <date end="1340" begin="1340" subtype="simple">1340</date>
+     <source style="" id="wr799">YD</source>
+     <item>vi</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w55339">
+     <date end="1542" begin="1542" subtype="simple">1542</date>
+     <source style="italic" id="wr384">MinAcct</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w55417">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w55105">Distone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55196">Nordictun</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55215">Northdictun</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55215">Northdicton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55278">Northdichton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55303">North Ditton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55339">North Dighton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55339">North Dyghton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w55417">Parva Dighton</searchterm>
+  </extension>
+ </mads>
+ 

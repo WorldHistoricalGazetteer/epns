@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000530">
+  <authority ID="epns-deep-05-b-name-subparish-000530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005842">Mickleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000182" type="broader">
+   <geographic>Romaldkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w410512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005843">Micleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000586"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0499800" lat="54.6080700" gazref="geonames:2642638" source="geonames"/>
+   <geo long="-2.054190709331075" lat="54.60653760187247" gazref="unlock:11217758" source="unlock"/>
+   <geo easting="396500" northing="523500" long="-2.05568" lat="54.6067" kepnref="5821" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w410512">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w410512">Micleton</searchterm>
+  </extension>
+ </mads>
+ 

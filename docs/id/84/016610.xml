@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-b-subparish-000065">
+  <authority ID="epns-deep-84-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016610">West Langton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-a-parish-000053" type="broader">
+   <geographic>West Langton</geographic>
+  </related>
+  <variant ID="epns-deep-84-b-name-w823888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016611">alia ~</geographic>
+  </variant>
+  <variant ID="epns-deep-84-b-name-w823912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016612">West ~</geographic>
+  </variant>
+  <variant ID="epns-deep-84-b-name-w823958">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016613">~ West</geographic>
+  </variant>
+  <variant ID="epns-deep-84-b-name-w823983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016614">Westere ~, Westre ~</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cfbb47fc40adf0011e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9546500" lat="52.5240400" gazref="geonames:7293868" source="geonames"/>
+   <geo long="-0.9314753597699779" lat="52.51619224795896" gazref="unlock:11317199" source="unlock"/>
+   <geo easting="472500" northing="292500" long="-0.932798" lat="52.5256" kepnref="8774" source="kepn"/>
+   <attestation variantID="epns-deep-84-b-name-w823888">
+    <date end="1140" begin="1120" subtype="circa">c.1130</date>
+    <source style="" id="le273">LeicSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823912">
+    <date end="1211" begin="1211" subtype="simple">1211</date>
+    <source style="" id="le189">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823912">
+    <date end="1243" begin="1243" subtype="simple">1243</date>
+    <source style="" id="le120">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823912">
+    <attestation variantID="epns-deep-84-b-name-w823912">
+     <date end="1278" begin="1278" subtype="simple">1278</date>
+     <source style="" id="le30">Banco</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823958">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="le178">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823958">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="le481">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-84-b-name-w823983">
+    <date end="1320" begin="1270" subtype="post">p.1270</date>
+    <source style="italic" id="le53">Brai</source>
+   </attestation>
+   <searchterm variantID="epns-deep-84-b-name-w823888">alia ~</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w823912">West ~</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w823958">~ West</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w823983">Westere ~</searchterm>
+   <searchterm variantID="epns-deep-84-b-name-w823983">Westre ~</searchterm>
+  </extension>
+ </mads>
+ 

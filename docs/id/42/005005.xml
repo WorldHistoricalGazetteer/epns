@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000031">
+  <authority ID="epns-deep-42-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005005">Docker</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-ch-belowparish-000006" type="broader">
+   <geographic>New Hutton Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w267157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005006">Docherga, Docherge</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w267212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005007">Docarhe</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w267242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005008">Dokker, Docker</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w267309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005009">Dockar</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6674700" lat="54.3499300" gazref="geonames:7300158" source="geonames"/>
+   <geo long="-2.67077" lat="54.3532" source="epns"/>
+   <geo long="-2.669511663123424" lat="54.36201751107249" gazref="unlock:11129962" source="unlock"/>
+   <geo easting="356500" northing="495500" long="-2.67077" lat="54.3532" kepnref="5100" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w267157">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <copydate end="1294" begin="1294">1294</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w267157">
+    <date subtype="simple" begin="1173" end="1181">1173-81</date>
+    <source style="" id="we489">YCh</source>
+    <page>198</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w267212">
+    <date subtype="simple" begin="1214" end="1220">1214- 20</date>
+    <copydate end="1294" begin="1294">1294</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w267242">
+    <date subtype="simple" begin="1431" end="1431">1431</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>203</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w267242">
+    <attestation variantID="epns-deep-42-b-name-w267242">
+     <date subtype="simple" begin="1544" end="1544">1544</date>
+     <source style="" id="we155">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w267242">
+     <date subtype="simple" begin="1689" end="1689">1689</date>
+     <source style="" id="we477">Will</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w267309">
+    <date subtype="simple" begin="1615" end="1615">1615</date>
+    <date subtype="simple" begin="1618" end="1618">1618</date>
+    <source style="" id="we511">PR(K)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w267157">Docherga</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w267157">Docherge</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w267212">Docarhe</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w267242">Dokker</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w267242">Docker</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w267309">Dockar</searchterm>
+  </extension>
+ </mads>
+ 

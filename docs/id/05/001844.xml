@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000160">
+  <authority ID="epns-deep-05-b-name-subparish-000160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001844">Staintondale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000060" type="broader">
+   <geographic>Scalby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w148913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001845">Steintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w148931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001846">Staynton Dale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000594"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4780500" lat="54.3713300" gazref="geonames:2637117" source="geonames"/>
+   <geo long="-0.4681645634306256" lat="54.37213211434886" gazref="unlock:11290546" source="unlock"/>
+   <geo easting="499500" northing="498500" long="-0.469842" lat="54.3723" kepnref="5810" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w148913">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w148931">
+    <date subtype="simple" begin="1562" end="1562">1562</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w148913">Steintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w148931">Staynton Dale</searchterm>
+  </extension>
+ </mads>
+ 

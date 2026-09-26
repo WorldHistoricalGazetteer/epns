@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000006">
+  <authority ID="epns-deep-79-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/000405">Beeston Regis</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000cf1"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2252900" lat="52.9332400" gazref="geonames:7297694" source="geonames"/>
+   <geo long="1.229792815" lat="52.94013072" source="epns"/>
+   <geo long="1.222030983066499" lat="52.93584560559945" gazref="unlock:11073506" source="unlock"/>
+   <geo easting="616500" northing="342500" long="1.22022" lat="52.9362" kepnref="9158" source="kepn"/>
+  </extension>
+ </mads>
+ 

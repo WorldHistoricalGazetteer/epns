@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000154">
+  <authority ID="epns-deep-08-b-name-subparish-000154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008698">Plymstock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000154" type="broader">
+   <geographic>Plymstock</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w447047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008699">Plemestocha</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w447068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008700">Plumstok</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w447086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008701">Plimstok</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w447111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008702">Plimpstok</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019f6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0904900" lat="50.3599900" gazref="geonames:2640190" source="geonames"/>
+   <geo long="-4.088087390204681" lat="50.36203358472595" gazref="unlock:11246992" source="unlock"/>
+   <geo easting="251500" northing="52500" long="-4.0888" lat="50.3536" kepnref="15611" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w447047">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w447068">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w447086">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w447111">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w447047">Plemestocha</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w447068">Plumstok</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w447086">Plimstok</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w447111">Plimpstok</searchterm>
+  </extension>
+ </mads>
+ 

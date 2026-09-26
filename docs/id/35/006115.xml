@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000042">
+  <authority ID="epns-deep-35-b-name-subparish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006115">Hetton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000013" type="broader">
+   <geographic>Burnsall</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w218765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006116">Hetun(e), Hetuna, Heton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w218910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006117">Heton(a) super Skeld'</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w218944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006118">Hetton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w218998">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/006119">Heytone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060bd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0500000" lat="54.0166700" gazref="geonames:2647022" source="geonames"/>
+   <geo long="-2.076318101" lat="54.01779408" source="epns"/>
+   <geo easting="396500" northing="458500" long="-2.0549" lat="54.0225" kepnref="14686" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w218765">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218765">
+    <date subtype="simple" begin="1180" end="1200">c. 1180-1200</date>
+    <date subtype="simple" begin="1188" end="1216">1188-1216</date>
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="wr234">Furn</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218765">
+    <date subtype="circa" begin="1180" end="1200">c. 1190</date>
+    <source style="" id="wr225">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218765">
+    <date subtype="ante" begin="1171" end="1221">a. 1221</date>
+    <source style="" id="wr796">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218765">
+    <attestation variantID="epns-deep-35-b-name-w218765">
+     <date subtype="simple" begin="1246" end="1246">1246</date>
+     <source style="italic" id="wr23">Ass</source>
+     <item>15d</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w218765">
+     <date subtype="simple" begin="1355" end="1355">1355</date>
+     <source style="" id="wr234">Furn</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218910">
+    <date subtype="simple" begin="1200" end="1226">1200-26</date>
+    <source style="" id="wr234" underspec="ib">Furn</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218944">
+    <date subtype="simple" begin="1210" end="1230">1210-30</date>
+    <source style="" id="wr234">Furn</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218944">
+    <attestation variantID="epns-deep-35-b-name-w218944">
+     <date subtype="simple" begin="1234" end="1234">1234</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w218944">
+     <date subtype="simple" begin="1656" end="1656">1656</date>
+     <source style="" id="wr776">WillS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w218998">
+    <date subtype="simple" begin="1556" end="1556">1556</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w218765">Hetune</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218765">Hetun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218765">Hetuna</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218765">Hetona</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218765">Heton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218910">Hetona super Skeld'</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218910">Heton super Skeld'</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218944">Hetton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w218998">Heytone</searchterm>
+  </extension>
+ </mads>
+ 

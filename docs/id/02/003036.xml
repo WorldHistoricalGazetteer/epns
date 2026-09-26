@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000154">
+  <authority ID="epns-deep-02-b-name-subparish-000154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003036">Stoke Mandeville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000152" type="broader">
+   <geographic>Stoke Mandeville</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w210241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003037">Stoches</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w210258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003038">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w210308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003039">Stoke Mndeville</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w210333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003040">Stok by Aylesbury</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w210362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003041">Middelstoke</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w210395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003042">Stoke Mandil</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003be"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7915700" lat="51.7860600" gazref="geonames:2636845" source="geonames"/>
+   <geo long="-0.7893085541629883" lat="51.78647063060312" gazref="unlock:11292756" source="unlock"/>
+   <geo easting="483500" northing="210500" long="-0.790836" lat="51.7869" kepnref="11347" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w210241">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210258">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="bu21">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210258">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1448</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210258">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210308">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210333">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <source style="" id="bu40">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210362">
+    <date end="1378" begin="1378" subtype="simple">1378</date>
+    <source style="italic" id="bu12">Bodl Berks</source>
+    <item>120</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w210395">
+    <date end="1676" begin="1676" subtype="simple">1676</date>
+    <source style="" id="bu98">Rec.</source>
+    <item>viii</item>
+    <page>147</page>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w210241">Stoches</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w210258">Stokes</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w210308">Stoke Mndeville</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w210333">Stok by Aylesbury</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w210362">Middelstoke</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w210395">Stoke Mandil</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-a-parish-000011">
+  <authority ID="epns-deep-30-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002258">Blyth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-wpd-belowsubcounty-000001" type="broader">
+   <geographic>Lower Strafforth Division</geographic>
+  </related>
+  <variant ID="epns-deep-30-a-name-w105850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/002259">Blide</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288216b47fc40c81005f6d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0625000" lat="53.3786200" gazref="geonames:2655316" source="geonames"/>
+   <geo long="-1.060316798818252" lat="53.38038570496941" gazref="unlock:11081587" source="unlock"/>
+   <geo kepnexref="285" long="-1.06188" lat="53.3807" source="kepn"/>
+   <attestation variantID="epns-deep-30-a-name-w105850">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-a-name-w105850">Blide</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000064">
+  <authority ID="epns-deep-98-b-name-subparish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001658">Astwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000064" type="broader">
+   <geographic>Astwick</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w127193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001659">Estuuiche</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w127262">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001660">Hastewik</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w127281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001661">Astwyk</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w127373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001662">Estwyk</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000307"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2312700" lat="52.0323000" gazref="geonames:2656857" source="geonames"/>
+   <geo long="-0.228697976890995" lat="52.03116141383073" gazref="unlock:11065082" source="unlock"/>
+   <geo easting="521500" northing="238500" long="-0.2303" lat="52.0316" kepnref="4287" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w127193">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127193">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="bh142">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127262">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127281">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127281">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127281">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="bh68">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127281">
+    <date subtype="simple" begin="1389" end="1389">1389</date>
+    <source style="" id="bh3">AD</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w127373">
+    <date subtype="simple" begin="1436" end="1436">1436</date>
+    <date subtype="simple" begin="1443" end="1443">1443</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w127193">Estuuiche</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w127262">Hastewik</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w127281">Astwyk</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w127373">Estwyk</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-hu-subcounty-000013">
+  <authority ID="epns-deep-02-hu-name-subcounty-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002758">Aylesbury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-co-county-000001" type="broader">
+   <geographic>Buckinghamshire</geographic>
+  </related>
+  <variant ID="epns-deep-02-hu-name-w192278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002759">Elesberie</geographic>
+  </variant>
+  <variant ID="epns-deep-02-hu-name-w192297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002760">Eillesbir'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282eceb47fc407e3000307"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-02-hu-name-w192278">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-hu-name-w192297">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="bu22">Cur(P)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-hu-name-w192278">Elesberie</searchterm>
+   <searchterm variantID="epns-deep-02-hu-name-w192297">Eillesbir'</searchterm>
+  </extension>
+ </mads>
+ 

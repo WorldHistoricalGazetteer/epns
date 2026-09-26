@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000191">
+  <authority ID="epns-deep-08-a-name-parish-000191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011019">Ashprington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000013" type="broader">
+   <geographic>Coleridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0016e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6648300" lat="50.4019200" gazref="geonames:7298361" source="geonames"/>
+   <geo long="-3.667726309303488" lat="50.40480263183127" gazref="unlock:11064673" source="unlock"/>
+   <geo easting="281500" northing="56500" long="-3.66856" lat="50.3964" kepnref="15650" source="kepn"/>
+  </extension>
+ </mads>
+ 

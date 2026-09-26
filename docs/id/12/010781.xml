@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000172">
+  <authority ID="epns-deep-12-b-name-subparish-000172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010781">Langford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000227" type="broader">
+   <geographic>Langford</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w536658">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010782">Langefort, Langheforda</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w536690">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010783">Langford</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w536711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010784">Longeford</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w536732">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010785">Lanckford(e)(hall)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e39"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6610700" lat="51.7493500" gazref="geonames:2644938" source="geonames"/>
+   <geo long="0.6588674021595051" lat="51.753634068693" gazref="unlock:11191413" source="unlock"/>
+   <geo easting="583500" northing="209500" long="0.657175" lat="51.7541" kepnref="12405" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w536658">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w536690">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ex202">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w536711">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="ex256">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w536732">
+    <date subtype="simple" begin="1592" end="1592">1592</date>
+    <source style="italic" id="ex8">AddCh</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w536658">Langefort</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536658">Langheforda</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536690">Langford</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536711">Longeford</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536732">Lanckfordehall</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536732">Lanckforde</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536732">Lanckfordhall</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w536732">Lanckford</searchterm>
+  </extension>
+ </mads>
+ 

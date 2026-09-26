@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000121">
+  <authority ID="epns-deep-02-b-name-subparish-000121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002166">Wotton Underwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000120" type="broader">
+   <geographic>Wotton Underwood</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w151629">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002167">wudotun</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w151650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002168">Oltone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w151672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002169">Wutton'</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w151689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002170">Wotton Marescalli</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w151726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002171">Wotton juxta Brehulle</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w151759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002172">Wotton-under-Bernewode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0029300" lat="51.8382200" gazref="geonames:2633510" source="geonames"/>
+   <geo long="-1.005770183227005" lat="51.83346218795133" gazref="unlock:11327462" source="unlock"/>
+   <geo easting="468500" northing="215500" long="-1.00727" lat="51.8339" kepnref="11314" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w151629">
+    <date end="848" begin="848" subtype="simple">848</date>
+    <source style="" id="bu127">BCS</source>
+    <item>452</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w151650">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w151672">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="bu94">PR</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w151689">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1448</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w151726">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="" id="bu87">Orig</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w151759">
+    <date end="1415" begin="1415" subtype="simple">1415</date>
+    <source style="" id="bu5">AD</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w151629">wudotun</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w151650">Oltone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w151672">Wutton'</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w151689">Wotton Marescalli</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w151726">Wotton juxta Brehulle</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w151759">Wotton-under-Bernewode</searchterm>
+  </extension>
+ </mads>
+ 

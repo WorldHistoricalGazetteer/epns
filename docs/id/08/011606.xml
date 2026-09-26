@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000204">
+  <authority ID="epns-deep-08-b-name-subparish-000204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011606">Sherford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000203" type="broader">
+   <geographic>Sherford</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w579508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011607">Scireford</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w579535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011608">Sirefort</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w579553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011609">Shireford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w579586">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011610">Shireford(e) Prioris</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w579617">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011611">Schireford, Shyrford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a14"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.719767032973857" lat="50.28710928676789" gazref="unlock:11282500" source="unlock"/>
+   <geo easting="277500" northing="44500" long="-3.72091" lat="50.2877" kepnref="15662" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w579508">
+    <date end="1060" begin="1040" subtype="circa">c. 1050</date>
+    <source style="" id="de117">KCD</source>
+    <item>926</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w579535">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w579553">
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w579553">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w579586">
+    <date end="1306" begin="1306" subtype="simple">1306</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w579617">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="" id="de22">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w579508">Scireford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579535">Sirefort</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579553">Shireforde</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579553">Shireford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579586">Shireforde Prioris</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579586">Shireford Prioris</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579617">Schireford</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w579617">Shyrford</searchterm>
+  </extension>
+ </mads>
+ 

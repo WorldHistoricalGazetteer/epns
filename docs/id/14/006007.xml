@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000263">
+  <authority ID="epns-deep-14-b-name-subparish-000263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006007">North Cliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000148" type="broader">
+   <geographic>Sancton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w391114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006008">Cliue</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w391129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006009">Clif</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w391143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006010">Northclif Nordclif</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000535"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6704987165403085" lat="53.82618188377445" gazref="unlock:11232187" source="unlock"/>
+   <geo kepnexref="506" long="-0.675455" lat="53.821568" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w391114">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w391129">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w391143">
+    <date end="1225" begin="1200" subtype="simple">early 13th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w391114">Cliue</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w391129">Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w391143">Northclif Nordclif</searchterm>
+  </extension>
+ </mads>
+ 

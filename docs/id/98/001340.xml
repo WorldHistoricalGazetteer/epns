@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000053">
+  <authority ID="epns-deep-98-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001340">Wootton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000053" type="broader">
+   <geographic>Wootton</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w108969">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001341">Otone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w108984">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001342">Wutton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w109021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001343">Wotton</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w109047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001344">Wuttun</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w109070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001345">Woutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003d8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5349400" lat="52.0952500" gazref="geonames:2633575" source="geonames"/>
+   <geo long="-0.5326681329339932" lat="52.09828630089935" gazref="unlock:11327135" source="unlock"/>
+   <geo easting="500500" northing="245500" long="-0.534238" lat="52.0987" kepnref="4275" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w108969">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w108984">
+    <attestation variantID="epns-deep-98-b-name-w108984">
+     <date subtype="simple" begin="1197" end="1197">1197</date>
+     <source style="" id="bh66">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-98-b-name-w108984">
+     <date subtype="simple" begin="1397" end="1397">1397</date>
+     <source style="" id="bh31">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w109021">
+    <attestation variantID="epns-deep-98-b-name-w109021">
+     <date subtype="simple" begin="1223" end="1223">1223</date>
+     <source style="" id="bh66">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w109047">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <copydate end="1317" begin="1317">1317</copydate>
+    <source style="" id="bh25">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w109070">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="bh25">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w108969">Otone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w108984">Wutton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w109021">Wotton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w109047">Wuttun</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w109070">Woutton</searchterm>
+  </extension>
+ </mads>
+ 

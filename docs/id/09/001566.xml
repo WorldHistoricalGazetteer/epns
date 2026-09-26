@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000034">
+  <authority ID="epns-deep-09-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001566">Zeal Monachorum</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000034" type="broader">
+   <geographic>Zeal Monachorum</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w74380">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001567">Sele</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w74415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001568">Sele Monaco'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w74439">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001569">Sele Monachorum</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w74466">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001570">Monekenesele</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a7e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8189800" lat="50.8211700" gazref="geonames:2633327" source="geonames"/>
+   <geo long="-3.810476037699065" lat="50.82542121873012" gazref="unlock:11329161" source="unlock"/>
+   <geo easting="271500" northing="103500" long="-3.82546" lat="50.8168" kepnref="15701" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w74380">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w74380">
+    <date end="1263" begin="1263" subtype="simple">1263</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w74380">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w74415">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="de230">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w74439">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w74466">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w74380">Sele</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w74415">Sele Monaco'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w74439">Sele Monachorum</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w74466">Monekenesele</searchterm>
+  </extension>
+ </mads>
+ 

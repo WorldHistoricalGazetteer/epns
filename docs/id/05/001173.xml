@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000120">
+  <authority ID="epns-deep-05-b-name-subparish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001173">Kirby Misperton, Kirby Overcarr</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000045" type="broader">
+   <geographic>Kirby Misperton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w99589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001174">Chirchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001175">Kirkeby, Kyrkeby, Kyrkebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001176">Kirkabi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001177">Kirkby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001178">Kirby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001179">Mispeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001180">Misperton(a), Mysperton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99844">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001181">Kirkebye Overkare</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w99875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001182">Kyrkby Overcarr</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8065500" lat="54.2054300" gazref="geonames:2645336" source="geonames"/>
+   <geo long="-0.811694899319552" lat="54.2052136754554" gazref="unlock:11187670" source="unlock"/>
+   <geo easting="477500" northing="479500" long="-0.813323" lat="54.2054" kepnref="5768" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w99589">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99608">
+    <attestation variantID="epns-deep-05-b-name-w99608">
+     <date subtype="simple" begin="1094" end="1099">1094-9</date>
+     <source style="" id="ny236">YCh</source>
+     <page>601</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w99608">
+     <date subtype="simple" begin="1408" end="1408">1408</date>
+     <source style="italic" id="ny67">For</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99672">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99689">
+    <date subtype="simple" begin="1414" end="1414">1414</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99707">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99725">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99743">
+    <attestation variantID="epns-deep-05-b-name-w99743">
+     <date subtype="simple" begin="1137" end="1161">1137-61</date>
+     <source style="" id="ny236">YCh</source>
+     <page>602</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99844">
+    <date subtype="simple" begin="1549" end="1549">1549</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w99875">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w99589">Chirchebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99608">Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99608">Kyrkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99608">Kyrkebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99672">Kirkabi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99689">Kirkby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99707">Kirby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99725">Mispeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99743">Mispertona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99743">Misperton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99743">Myspertona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99743">Mysperton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99844">Kirkebye Overkare</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w99875">Kyrkby Overcarr</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000120">Kirby Misperton</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000120">Kirby Overcarr</searchterm>
+  </extension>
+ </mads>
+ 

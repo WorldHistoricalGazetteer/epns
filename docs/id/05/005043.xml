@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000448">
+  <authority ID="epns-deep-05-b-name-subparish-000448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005043">Melbecks</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000151" type="broader">
+   <geographic>Grinton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w362269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005044">Melbecks</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0525600" lat="54.4038000" gazref="geonames:7300798" source="geonames"/>
+   <geo long="-2.084728060091533" lat="54.39979692956669" gazref="unlock:11216835" source="unlock"/>
+   <geo easting="394500" northing="500500" long="-2.08621" lat="54.3999" kepnref="6101" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w362269">
+    <date subtype="simple" begin="1676" end="1676">1676</date>
+    <source style="" id="ny313">Grinton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w362269">Melbecks</searchterm>
+  </extension>
+ </mads>
+ 

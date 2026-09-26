@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-hu-subcounty-000002">
+  <authority ID="epns-deep-24-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003230">Bampton Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-co-county-000001" type="broader">
+   <geographic>Oxfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-24-hu-name-w119245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003231">Bampton'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w119295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003232">Bampton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-24-hu-name-w119307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/003233">Baunton'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e24b47fc40beb000779"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-24-hu-name-w119245">
+    <attestation variantID="epns-deep-24-hu-name-w119245">
+     <date end="1219" begin="1219" subtype="simple">1219</date>
+     <source style="" id="ox76">Fees</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w119295">
+    <date end="1600" begin="1219">1219-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-hu-name-w119307">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="ox76">Fees</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-hu-name-w119245">Bampton'</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w119295">Bamptone</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w119295">Bampton</searchterm>
+   <searchterm variantID="epns-deep-24-hu-name-w119307">Baunton'</searchterm>
+  </extension>
+ </mads>
+ 

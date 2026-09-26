@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000028">
+  <authority ID="epns-deep-27-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003420">Derwent</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000025" type="broader">
+   <geographic>Derwent</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w142827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003421">Derwent(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w142884">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003422">Derewent(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w142916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003423">Dorwent</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w142934">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003424">Darwen</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w142956">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003425">chap.</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w142988">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/003426">Darwent, Darwend</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001853"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7432500" lat="53.4001500" gazref="geonames:2651320" source="geonames"/>
+   <geo long="-1.721776448168474" lat="53.39274926068961" gazref="unlock:11128973" source="unlock"/>
+   <geo easting="418500" northing="388500" long="-1.72326" lat="53.393" kepnref="3228" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w142827">
+    <date end="1216" begin="1199" subtype="regnal">John</date>
+    <date end="1215" begin="1215" subtype="simple">1215</date>
+    <date end="1250" begin="1250" subtype="simple">1250</date>
+    <source style="italic" id="db578">Welbeck</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142827">
+    <attestation variantID="epns-deep-27-b-name-w142827">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="italic" id="db202">For</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142884">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="db202">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142884">
+    <date end="1362" begin="1362" subtype="simple">1362</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142916">
+    <date end="1362" begin="1362" subtype="simple">1362</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142934">
+    <date end="1505" begin="1505" subtype="simple">1505</date>
+    <source style="" id="db128">DbA</source>
+    <item>xlv</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142956">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142956">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="db520">Speed</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142988">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="db128">DbA</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w142988">
+    <date end="1631" begin="1631" subtype="simple">1631</date>
+    <source style="italic" id="db438">Portland</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w142827">Derwente</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142827">Derwent</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142884">Derewente</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142884">Derewent</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142916">Dorwent</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142934">Darwen</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142956">chap.</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142988">Darwent</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w142988">Darwend</searchterm>
+  </extension>
+ </mads>
+ 

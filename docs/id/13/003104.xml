@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000060">
+  <authority ID="epns-deep-13-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003104">Brownsover</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000005" type="broader">
+   <geographic>Brinklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000638"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2534400" lat="52.3922800" gazref="geonames:6287740" source="geonames"/>
+   <geo long="-1.243104732598554" lat="52.39271807135784" gazref="unlock:11090185" source="unlock"/>
+   <geo easting="451500" northing="277500" long="-1.2446" lat="52.3931" kepnref="4828" source="kepn"/>
+  </extension>
+ </mads>
+ 

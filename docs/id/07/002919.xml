@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000065">
+  <authority ID="epns-deep-07-a-name-parish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002919">West Firle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000015" type="broader">
+   <geographic>Totnore Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c3a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0871600" lat="50.8447500" gazref="geonames:2634416" source="geonames"/>
+   <geo long="0.09549091916223437" lat="50.84763334065527" gazref="unlock:11316810" source="unlock"/>
+   <geo easting="547500" northing="107500" long="0.0938997" lat="50.8482" kepnref="7082" source="kepn"/>
+  </extension>
+ </mads>
+ 

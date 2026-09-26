@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000176">
+  <authority ID="epns-deep-14-a-name-parish-000176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007306">St Lawrence, York</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000006" type="broader">
+   <geographic>Wapentake of Ouse and Derwent</geographic>
+  </related>
+  <variant ID="epns-deep-14-a-name-w473542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/007307">The parysche church of Saynct Lawrence without Walmegate Barr</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d00041e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.093146843145696" lat="53.95597051436854" gazref="unlock:11328922" source="unlock"/>
+   <geo kepnexref="513" long="-1.068706" lat="53.953822" source="kepn"/>
+   <attestation variantID="epns-deep-14-a-name-w473542">
+    <date end="1546" begin="1546" subtype="simple">1546</date>
+    <source style="" id="ey368">YChant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-a-name-w473542">The parysche church of Saynct Lawrence without Walmegate Barr</searchterm>
+  </extension>
+ </mads>
+ 

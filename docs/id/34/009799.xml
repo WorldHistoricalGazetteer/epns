@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000100">
+  <authority ID="epns-deep-34-b-name-subparish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009799">Westwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w407726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009800">on Westwic</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w407752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009801">Westu(u)ic</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w407772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009802">Westwic(k), Westwik, Westwyk</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w407858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009803">Westewike, Westewyke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006211"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4638500" lat="54.0906700" gazref="geonames:7297844" source="geonames"/>
+   <geo long="-1.464862598" lat="54.08853741" source="epns"/>
+   <geo long="-1.457159325118658" lat="54.09299863526552" gazref="unlock:11319183" source="unlock"/>
+   <geo easting="434500" northing="466500" long="-1.47399" lat="54.0933" kepnref="14819" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w407726">
+    <date end="1040" begin="1020" subtype="circa">c. 1030</date>
+    <source style="" id="wr796">YCh</source>
+    <item>7</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407752">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407772">
+    <date end="1165" begin="1165" subtype="simple">1165</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407772">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407772">
+    <attestation variantID="epns-deep-34-b-name-w407772">
+     <date end="1290" begin="1290" subtype="simple">1290</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w407772">
+     <date end="1524" begin="1524" subtype="simple">1524</date>
+     <source style="" id="wr799">YD</source>
+     <item>x</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407858">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="wr347">Linds</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w407858">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="wr355">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w407726">on Westwic</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407752">Westuuic</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407752">Westuic</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407772">Westwick</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407772">Westwic</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407772">Westwik</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407772">Westwyk</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407858">Westewike</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w407858">Westewyke</searchterm>
+  </extension>
+ </mads>
+ 

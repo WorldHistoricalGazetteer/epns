@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000470">
+  <authority ID="epns-deep-05-b-name-subparish-000470">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005241">High Worsall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000157" type="broader">
+   <geographic>Girsby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w373708">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005242">Wirceshel, Wercesel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000497"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4111000" lat="54.4729900" gazref="geonames:7296808" source="geonames"/>
+   <geo long="-1.405751094396058" lat="54.47925857252406" gazref="unlock:11172626" source="unlock"/>
+   <geo easting="438500" northing="509500" long="-1.40732" lat="54.4794" kepnref="6124" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w373708">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w373708">Wirceshel</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373708">Wercesel</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000094">
+  <authority ID="epns-deep-96-a-name-parish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004247">Eltisley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000011" type="broader">
+   <geographic>Longstow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006df"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1426900" lat="52.2209400" gazref="geonames:2650041" source="geonames"/>
+   <geo long="-0.1334040156099743" lat="52.21853709042291" gazref="unlock:11139819" source="unlock"/>
+   <geo easting="527500" northing="259500" long="-0.135025" lat="52.219" kepnref="4059" source="kepn"/>
+  </extension>
+ </mads>
+ 

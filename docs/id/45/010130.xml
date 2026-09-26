@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000072">
+  <authority ID="epns-deep-45-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010130">Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000013" type="broader">
+   <geographic>Runcorn</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w441225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010131">Nortune</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010132">Nortun'</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441291">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010133">Norton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010134">Nortona, Nortone, Nort', Northon, Northtton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010135">Northon iuxta Haulton</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010136">Norton super le Mores</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w441457">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/010137">Norton cum Stock(h)am</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600203b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.675813119" lat="53.33272565" source="epns"/>
+   <geo easting="355500" northing="382500" long="-2.66974" lat="53.3375" kepnref="11828" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w441225">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441242">
+    <attestation variantID="epns-deep-45-b-name-w441242">
+     <date subtype="circa" begin="1190" end="1210">c.1200</date>
+     <source style="italic" id="ch8">AddCh</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-45-b-name-w441242">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="italic" id="ch113">Chol</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441291">
+    <attestation variantID="epns-deep-45-b-name-w441291">
+     <date subtype="simple" begin="1134" end="1134">1134</date>
+     <copydate end="1700" begin="1600">17</copydate>
+     <source style="" id="ch474">Orm2</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441346">
+    <date end="1600" begin="1134">1134-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441391">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="ch757">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441426">
+    <date subtype="simple" begin="1418" end="1418">1418</date>
+    <source style="" id="ch757" underspec="ib">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441457">
+    <date subtype="simple" begin="1663" end="1663">1663</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w441457">
+    <date subtype="simple" begin="1724" end="1724">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w441225">Nortune</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441242">Nortun'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441291">Norton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441346">Nortona</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441346">Nortone</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441346">Nort'</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441346">Northon</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441346">Northtton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441391">Northon iuxta Haulton</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441426">Norton super le Mores</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441457">Norton cum Stockham</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w441457">Norton cum Stockam</searchterm>
+  </extension>
+ </mads>
+ 

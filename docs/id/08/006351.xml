@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000122">
+  <authority ID="epns-deep-08-a-name-parish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/006351">Lydford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000007" type="broader">
+   <geographic>Lifton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017d4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1064100" lat="50.6451900" gazref="geonames:2643325" source="geonames"/>
+   <geo long="-4.100414623382504" lat="50.64066269589781" gazref="unlock:11209923" source="unlock"/>
+   <geo easting="251500" northing="84500" long="-4.10152" lat="50.6412" kepnref="15579" source="kepn"/>
+  </extension>
+ </mads>
+ 

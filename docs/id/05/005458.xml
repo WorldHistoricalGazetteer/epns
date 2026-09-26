@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000495">
+  <authority ID="epns-deep-05-b-name-subparish-000495">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005458">Kirby Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000167" type="broader">
+   <geographic>Kirby Ravensworth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w387417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005459">Kirkebi, Kirkeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w387455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005460">Kirkeby super moram</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w387494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005461">Kirkby on the Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7853600" lat="54.4532700" gazref="geonames:2645339" source="geonames"/>
+   <geo long="-1.791758516760286" lat="54.4535756819899" gazref="unlock:11187661" source="unlock"/>
+   <geo easting="413500" northing="506500" long="-1.79328" lat="54.4537" kepnref="6150" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w387417">
+    <date subtype="simple" begin="1154" end="1166">1154-66</date>
+    <source style="italic" id="ny122">Marrick</source>
+    <item>221</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387455">
+    <date subtype="simple" begin="1379" end="1379">1379</date>
+    <source style="italic" id="ny8">Archd</source>
+    <page>13 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w387494">
+    <date subtype="simple" begin="1534" end="1534">1534</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w387417">Kirkebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w387417">Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w387455">Kirkeby super moram</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w387494">Kirkby on the Hill</searchterm>
+  </extension>
+ </mads>
+ 

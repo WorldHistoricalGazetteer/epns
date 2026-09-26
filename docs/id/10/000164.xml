@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000002">
+  <authority ID="epns-deep-10-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000164">Badby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000002" type="broader">
+   <geographic>Badby</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w7973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000165">baddan byrig, baddan by</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w8010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000166">Badebi</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w8056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000167">Badeby</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w8080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000168">Baddeby</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w8137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000169">Badby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000516"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1832100" lat="52.2292200" gazref="geonames:2656662" source="geonames"/>
+   <geo long="-1.17281765994636" lat="52.22140845412143" gazref="unlock:11066766" source="unlock"/>
+   <geo easting="456500" northing="258500" long="-1.17432" lat="52.2218" kepnref="10872" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w7973">
+    <date end="944" begin="944" subtype="simple">944</date>
+    <source style="" id="nh20">BCS</source>
+    <item>792</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8010">
+    <date end="1020" begin="1020" subtype="simple">1020</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="nh139">KCD</source>
+    <item>1316</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8010">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8010">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8056">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8080">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8080">
+    <attestation variantID="epns-deep-10-b-name-w8080">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="nh224">P (CR)</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w8080">
+     <date end="1475" begin="1475" subtype="simple">1475</date>
+     <source style="" id="nh4">AD</source>
+     <item>iii</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8137">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w8137">
+    <date end="1393" begin="1393" subtype="simple">1393</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w7973">baddan byrig</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w7973">baddan by</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w8010">Badebi</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w8056">Badeby</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w8080">Baddeby</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w8137">Badby</searchterm>
+  </extension>
+ </mads>
+ 

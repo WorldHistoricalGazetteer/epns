@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000046">
+  <authority ID="epns-deep-15-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003455">Sandridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000052" type="broader">
+   <geographic>Sandridge</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w177533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003456">Sandrige</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w177584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003457">Sandru(g)ge, Sandrigge</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w177610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003458">Sanderig'</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w177630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003459">Sandrugge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3052100" lat="51.7809000" gazref="geonames:2638560" source="geonames"/>
+   <geo long="-0.2965334509727434" lat="51.78036261514848" gazref="unlock:11277813" source="unlock"/>
+   <geo easting="517500" northing="210500" long="-0.298118" lat="51.7808" kepnref="4618" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w177533">
+    <attestation variantID="epns-deep-15-b-name-w177533">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="he80">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w177584">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w177610">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="he19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w177630">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w177533">Sandrige</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w177584">Sandrugge</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w177584">Sandruge</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w177584">Sandrigge</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w177610">Sanderig'</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w177630">Sandrugge</searchterm>
+  </extension>
+ </mads>
+ 

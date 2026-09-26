@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000055">
+  <authority ID="epns-deep-09-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002689">Colebrooke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000055" type="broader">
+   <geographic>Colebrooke</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w124517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002690">Colebroc(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w124595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002691">Colebrok, Colebroc</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w124615">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002692">Colbrok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w124637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002693">Colbrok(e) juxta Crytton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00192e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7449600" lat="50.7863000" gazref="geonames:2652595" source="geonames"/>
+   <geo long="-3.738177374119756" lat="50.79054328765114" gazref="unlock:11113831" source="unlock"/>
+   <geo easting="277500" northing="99500" long="-3.739" lat="50.7821" kepnref="15722" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w124517">
+    <attestation variantID="epns-deep-09-b-name-w124517">
+     <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+     <source style="" id="de103">HMC</source>
+     <item>iv</item>
+     <page>51</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w124517">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="de258">Tax</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w124595">
+    <date end="1291" begin="1154">t. Hy 2-1291</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w124615">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w124637">
+    <date end="1345" begin="1345" subtype="simple">1345</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w124517">Colebroch</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124517">Colebroc</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124595">Colebrok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124595">Colebroc</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124615">Colbroke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124615">Colbrok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124637">Colbroke juxta Crytton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w124637">Colbrok juxta Crytton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000125">
+  <authority ID="epns-deep-06-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003992">Shipley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000125" type="broader">
+   <geographic>Shipley</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w303207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003993">Scapeleia</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303230">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003994">Scapuleia</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003995">Sepelei</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003996">Shepele, Shepeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003997">Sheple</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003998">Sapele</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003999">Shepisle</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004000">Shepesle</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w303409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004001">Shipele</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d73"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3708700" lat="50.9852900" gazref="geonames:2637959" source="geonames"/>
+   <geo long="-0.3687041653618601" lat="50.9809653456375" gazref="unlock:11282935" source="unlock"/>
+   <geo easting="514500" northing="121500" long="-0.370248" lat="50.9815" kepnref="6987" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w303207">
+    <date subtype="simple" begin="1073" end="1073">1073</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303230">
+    <date subtype="circa" begin="1070" end="1090">c. 1080</date>
+    <date subtype="ante" begin="1046" end="1096">a. 1096</date>
+    <source style="" id="su262">Sele</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303263">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303280">
+    <attestation variantID="epns-deep-06-b-name-w303280">
+     <date subtype="simple" begin="1235" end="1235">1235</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w303280">
+     <date subtype="simple" begin="1509" end="1509">1509</date>
+     <source style="" id="su151">LP</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303331">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303331">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303358">
+    <date subtype="simple" begin="1194" end="1194">1194</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303373">
+    <date subtype="simple" begin="1267" end="1267">1267</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303391">
+    <date subtype="simple" begin="1312" end="1312">1312</date>
+    <source style="" id="su44">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w303409">
+    <date subtype="simple" begin="1312" end="1312">1312</date>
+    <source style="" id="su44">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w303207">Scapeleia</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303230">Scapuleia</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303263">Sepelei</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303280">Shepele</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303280">Shepeleye</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303331">Sheple</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303358">Sapele</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303373">Shepisle</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303391">Shepesle</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w303409">Shipele</searchterm>
+  </extension>
+ </mads>
+ 

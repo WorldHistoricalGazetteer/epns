@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000252">
+  <authority ID="epns-deep-12-a-name-parish-000252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011517">Great Wigborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000013" type="broader">
+   <geographic>Winstree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c60"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.8383600" lat="51.8030200" gazref="geonames:2647993" source="geonames"/>
+   <geo long="0.8503873192754084" lat="51.80311058937221" gazref="unlock:11159370" source="unlock"/>
+   <geo easting="596500" northing="214500" long="0.848104" lat="51.7946" kepnref="12425" source="kepn"/>
+  </extension>
+ </mads>
+ 

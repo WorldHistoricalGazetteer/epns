@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000036">
+  <authority ID="epns-deep-15-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002448">Chorleywood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000041" type="broader">
+   <geographic>Chorleywood</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w121712">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002449">(in) bosco de Cherle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w121743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002450">Charle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w121765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002451">Charlewoode</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w121795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002452">Charleywood</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w121826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002453">Chorley Wood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000781"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5051800" lat="51.6550400" gazref="geonames:7301623" source="geonames"/>
+   <geo long="-0.5180332986413683" lat="51.65746371363589" gazref="unlock:11106810" source="unlock"/>
+   <geo kepnexref="0163" long="-0.51" lat="51.65" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w121712">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="italic" id="he19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w121743">
+    <date subtype="simple" begin="1433" end="1433">1433</date>
+    <source style="italic" id="he45">Cassio</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w121765">
+    <date subtype="simple" begin="1524" end="1524">1524</date>
+    <source style="italic" id="he298">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w121765">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="italic" id="he294">SP</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w121795">
+    <date subtype="regnal" begin="1603" end="1625">t. Jas 1</date>
+    <source style="italic" id="he45">Cassio</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w121826">
+    <date subtype="simple" begin="1730" end="1730">1730</date>
+    <source style="" id="he41">Camden (Gough)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w121712">in bosco de Cherle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w121712">bosco de Cherle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w121743">Charle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w121765">Charlewoode</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w121795">Charleywood</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w121826">Chorley Wood</searchterm>
+  </extension>
+ </mads>
+ 

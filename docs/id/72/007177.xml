@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000043">
+  <authority ID="epns-deep-72-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/007177">Honing</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d25"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4512400" lat="52.7972400" gazref="geonames:2646664" source="geonames"/>
+   <geo long="1.441230256" lat="52.79027258" source="epns"/>
+   <geo long="1.448988389747277" lat="52.79454558694515" gazref="unlock:11178732" source="unlock"/>
+   <geo easting="632500" northing="327500" long="1.44716" lat="52.7949" kepnref="9673" source="kepn"/>
+  </extension>
+ </mads>
+ 

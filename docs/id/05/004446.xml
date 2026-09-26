@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000397">
+  <authority ID="epns-deep-05-b-name-subparish-000397">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004446">Newton le Willows</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000138" type="broader">
+   <geographic>Patrick Brompton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w324720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004447">Neuton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w324736">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004448">Neuton in le Wilughes</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w324772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004449">Neuton in le Wilighes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000573"/>
+  </recordInfo>
+  <extension>
+   <geo easting="421500" northing="489500" long="-1.67111" lat="54.3007" kepnref="6049" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w324720">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w324736">
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="" id="ny52">Ebor</source>
+    <page>31</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w324772">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="ny52">Ebor</source>
+    <page>9</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w324720">Neuton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w324736">Neuton in le Wilughes</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w324772">Neuton in le Wilighes</searchterm>
+  </extension>
+ </mads>
+ 

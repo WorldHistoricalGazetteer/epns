@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-b-subparish-000020">
+  <authority ID="epns-deep-18-b-name-subparish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000705">West Drayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-a-parish-000020" type="broader">
+   <geographic>West Drayton</geographic>
+  </related>
+  <variant ID="epns-deep-18-b-name-w37452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000706">Drægtun</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000707">(of) Drægtune</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37517">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000708">Draitone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37568">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000709">Draytone</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000710">Westdrayton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000711">Draighton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37635">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000712">Dreygton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37654">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000713">Dreyton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000714">Dratton</geographic>
+  </variant>
+  <variant ID="epns-deep-18-b-name-w37718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000715">Dreaton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a5ab47fc407a0000250"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4666700" lat="51.5000000" gazref="geonames:2634451" source="geonames"/>
+   <geo long="-0.4653795591309278" lat="51.50390438999883" gazref="unlock:11316658" source="unlock"/>
+   <geo easting="506500" northing="179500" long="-0.466933" lat="51.5044" kepnref="4741" source="kepn"/>
+   <attestation variantID="epns-deep-18-b-name-w37452">
+    <date subtype="simple" begin="939" end="939">939</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="mi22">BCS</source>
+    <item>737</item>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37480">
+    <date subtype="circa" begin="990" end="1010">c. 1000</date>
+    <source style="" id="mi17">AS Charters</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37517">
+    <attestation variantID="epns-deep-18-b-name-w37517">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="mi70">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37568">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37580">
+    <date subtype="simple" begin="1465" end="1465">1465</date>
+    <source style="" id="mi144">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37603">
+    <date subtype="simple" begin="1572" end="1572">1572</date>
+    <source style="" id="mi404">ParReg (Heston)</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37635">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="italic" id="mi18">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37654">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="mi233">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37654">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="mi98">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37654">
+    <date subtype="simple" begin="1326" end="1326">1326</date>
+    <source style="" id="mi308">StPaulsMSS</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37700">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="mi233">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-18-b-name-w37718">
+    <date subtype="simple" begin="1684" end="1684">1684</date>
+    <source style="" id="mi283">Sess</source>
+   </attestation>
+   <searchterm variantID="epns-deep-18-b-name-w37452">Drægtun</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37480">of Drægtune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37480">Drægtune</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37517">Draitone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37568">Draytone</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37580">Westdrayton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37603">Draighton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37635">Dreygton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37654">Dreyton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37700">Dratton</searchterm>
+   <searchterm variantID="epns-deep-18-b-name-w37718">Dreaton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000029">
+  <authority ID="epns-deep-72-a-name-parish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/005390">Potter Heigham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d48"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.5775700" lat="52.7120700" gazref="geonames:2639973" source="geonames"/>
+   <geo long="1.568570616" lat="52.71454478" source="epns"/>
+   <geo long="1.576327047835723" lat="52.71880949108137" gazref="unlock:11249320" source="unlock"/>
+   <geo easting="641500" northing="319500" long="1.57448" lat="52.7192" kepnref="9467" source="kepn"/>
+  </extension>
+ </mads>
+ 

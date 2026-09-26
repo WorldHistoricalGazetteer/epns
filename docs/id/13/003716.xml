@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000078">
+  <authority ID="epns-deep-13-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003716">Stretton under Fosse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000080" type="broader">
+   <geographic>Stretton under Fosse</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w195909">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003717">Stretton juxta Kirkeby monach.</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w195949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003718">Stretton in parochia Munkeskyrkebi</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w195993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003719">Stretton subtus Fosse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3378400" lat="52.4288300" gazref="geonames:2636656" source="geonames"/>
+   <geo long="-1.330735621589151" lat="52.42921175407122" gazref="unlock:11294419" source="unlock"/>
+   <geo easting="445500" northing="281500" long="-1.33223" lat="52.4296" kepnref="4847" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w195909">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w195949">
+    <date end="1409" begin="1409" subtype="simple">1409</date>
+    <source style="" id="wa30">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w195993">
+    <date end="1656" begin="1656" subtype="simple">1656</date>
+    <source style="" id="wa89">Dugdale</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w195909">Stretton juxta Kirkeby monach.</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w195949">Stretton in parochia Munkeskyrkebi</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w195993">Stretton subtus Fosse</searchterm>
+  </extension>
+ </mads>
+ 

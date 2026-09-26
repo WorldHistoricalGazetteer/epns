@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000192">
+  <authority ID="epns-deep-14-b-name-subparish-000192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004165">Neswick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000110" type="broader">
+   <geographic>Bainton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w272131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004166">Nessvinc</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004167">Nesseuuic</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004168">Nessewich</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004169">Nessewyk, Nessewik</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004170">Nesewic</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004171">Nessingwik, Nessingwyk</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004172">Neswik(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w272373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004173">Nesyngwyk</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00044e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.498596522812129" lat="53.95900056525202" gazref="unlock:11227584" source="unlock"/>
+   <geo easting="498500" northing="452500" long="-0.500251" lat="53.9592" kepnref="8570" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w272131">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272149">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272168">
+    <date end="1191" begin="1191" subtype="simple">1191</date>
+    <date end="1192" begin="1192" subtype="simple">1192</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272192">
+    <date end="1365" begin="1365" subtype="simple">1365</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272192">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272192">
+    <date end="1401" begin="1401" subtype="simple">1401</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272241">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272259">
+    <date end="1160" begin="1150" subtype="simple">1150-60</date>
+    <source style="" id="ey202">Melsa</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272259">
+    <attestation variantID="epns-deep-14-b-name-w272259">
+     <date end="1254" begin="1254" subtype="simple">1254</date>
+     <date end="1257" begin="1257" subtype="simple">1257</date>
+     <source style="" id="ey265">Pat</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w272259">
+     <date end="1410" begin="1390" subtype="circa">c. 1400</date>
+     <source style="" id="ey202">Melsa</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272342">
+    <date end="1253" begin="1253" subtype="simple">1253</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272342">
+    <date end="1523" begin="1523" subtype="simple">1523</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w272373">
+    <date end="1254" begin="1254" subtype="simple">1254</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w272131">Nessvinc</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272149">Nesseuuic</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272168">Nessewich</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272192">Nessewyk</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272192">Nessewik</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272241">Nesewic</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272259">Nessingwik</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272259">Nessingwyk</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272342">Neswike</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272342">Neswik</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w272373">Nesyngwyk</searchterm>
+  </extension>
+ </mads>
+ 

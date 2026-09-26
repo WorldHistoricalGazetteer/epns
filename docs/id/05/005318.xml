@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000480">
+  <authority ID="epns-deep-05-b-name-subparish-000480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005318">Cleasby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000161" type="broader">
+   <geographic>Cleasby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w378259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005319">Clesbi, Clesby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005320">Clesebi, Cleseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378365">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005321">Cleysby(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600044f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6140500" lat="54.5128600" gazref="geonames:2652894" source="geonames"/>
+   <geo long="-1.60605439242589" lat="54.51602940712579" gazref="unlock:11108635" source="unlock"/>
+   <geo easting="425500" northing="513500" long="-1.6076" lat="54.5162" kepnref="6134" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w378259">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378259">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378292">
+    <attestation variantID="epns-deep-05-b-name-w378292">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>83 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w378292">
+     <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>102 d</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378365">
+    <date subtype="simple" begin="1545" end="1545">1545</date>
+    <date subtype="simple" begin="1562" end="1562">1562</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w378259">Clesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378259">Clesby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378292">Clesebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378292">Cleseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378365">Cleysbye</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378365">Cleysby</searchterm>
+  </extension>
+ </mads>
+ 

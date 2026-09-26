@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000066">
+  <authority ID="epns-deep-34-b-name-subparish-000066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005891">Bilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000029" type="broader">
+   <geographic>Knaresborough</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w242571">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005892">Billeton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w242592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005893">Bileton(e), Byleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w242646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005894">Bilton(a), Bylton(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810061b1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.526938414" lat="54.00789887" source="epns"/>
+   <geo long="-1.53451786318091" lat="54.01242421397083" gazref="unlock:11077058" source="unlock"/>
+   <geo kepnexref="311" long="-1.274203" lat="53.944165" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w242571">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242592">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242592">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242592">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242646">
+    <date end="1190" begin="1181" subtype="simple">1181-90</date>
+    <source style="" id="wr796">YCh</source>
+    <item>515</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242646">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="italic" id="wr219">For(TR)</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w242646">
+    <attestation variantID="epns-deep-34-b-name-w242646">
+     <date end="1305" begin="1285" subtype="circa">c. 1295</date>
+     <source style="" id="wr189">Ext</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w242646">
+     <date end="1771" begin="1771" subtype="simple">1771</date>
+     <source style="" id="wr362">M</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w242571">Billetone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242571">Billeton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242592">Biletone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242592">Bileton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242592">Byletone</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242592">Byleton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242646">Biltona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242646">Bilton</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242646">Byltona</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w242646">Bylton</searchterm>
+  </extension>
+ </mads>
+ 

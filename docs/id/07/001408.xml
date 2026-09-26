@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000031">
+  <authority ID="epns-deep-07-b-name-subparish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001408">Westmeston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000031" type="broader">
+   <geographic>Westmeston</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w96309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001409">Westmwætun</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w96346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001410">Westmestun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w96391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001411">Westmeston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w96424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001412">Westminston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000db2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0988800" lat="50.9069300" gazref="geonames:2634344" source="geonames"/>
+   <geo long="-0.1010892672351087" lat="50.90496551331651" gazref="unlock:11318871" source="unlock"/>
+   <geo easting="533500" northing="113500" long="-0.102661" lat="50.9055" kepnref="7050" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w96309">
+    <date end="775" begin="755" subtype="circa">c. 765</date>
+    <copydate end="1310" begin="1290">c. 1300</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>197</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w96346">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w96346">
+    <date end="1125" begin="1091" subtype="simple">1091-1125</date>
+    <source style="italic" id="su4">AD</source>
+    <item>A 14176</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w96391">
+    <attestation variantID="epns-deep-07-b-name-w96391">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="su282">Tax</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w96424">
+    <date end="1623" begin="1623" subtype="simple">1623</date>
+    <source style="" id="su158">MarM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w96309">Westmwætun</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w96346">Westmestune</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w96346">Westmestun</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w96391">Westmeston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w96424">Westminston</searchterm>
+  </extension>
+ </mads>
+ 

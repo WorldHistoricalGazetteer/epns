@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-a-parish-000051">
+  <authority ID="epns-deep-30-a-name-parish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/008468">Handsworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-wpd-belowsubcounty-000002" type="broader">
+   <geographic>Upper Strafforth Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3762100" lat="53.3708400" gazref="geonames:2647531" source="geonames"/>
+   <geo long="-1.383736788" lat="53.3690074" source="epns"/>
+   <geo easting="441500" northing="386500" long="-1.37768" lat="53.3737" kepnref="14336" source="kepn"/>
+  </extension>
+ </mads>
+ 

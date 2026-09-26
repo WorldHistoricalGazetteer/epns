@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000201">
+  <authority ID="epns-deep-17-b-name-subparish-000201">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/007407">Thorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000212" type="broader">
+   <geographic>Thorpe</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w363993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/007408">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w364030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/007409">Thorp juxta Newerk</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w364062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/007410">Thorp juxta Stok</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w364089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/007411">Throppe near Newarke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd4000907"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8536500" lat="53.0384900" gazref="geonames:7290928" source="geonames"/>
+   <geo easting="476500" northing="349500" long="-0.860551" lat="53.0373" kepnref="2496" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w363993">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w363993">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <source style="" id="ns24">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w363993">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="ns98">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w364030">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="ns84">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w364062">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w364089">
+    <date end="1564" begin="1564" subtype="simple">1564</date>
+    <source style="" id="ns299">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w363993">Torp</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w364030">Thorp juxta Newerk</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w364062">Thorp juxta Stok</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w364089">Throppe near Newarke</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000005">
+  <authority ID="epns-deep-33-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000579">Newland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000002" type="broader">
+   <geographic>Drax</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w32012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000580">New(e)land</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w32076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000581">Newelaund', la Neouelaund</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w32119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000582">Neuland(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w32181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000583">Neuland(e) in Drax</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w32222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000584">Neuland(e) on Ayre</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w32253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000585">Nova(m) terra(m)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060f3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9413600" lat="53.7183400" gazref="geonames:7301622" source="geonames"/>
+   <geo long="-0.9545537931" lat="53.70763411" source="epns"/>
+   <geo long="-0.9468669523092376" lat="53.71206286815984" gazref="unlock:11230238" source="unlock"/>
+   <geo easting="469500" northing="424500" long="-0.948457" lat="53.7123" kepnref="14593" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w32012">
+    <date end="1234" begin="1234" subtype="simple">1234</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32012">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <source style="" id="wr799">YD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32012">
+    <attestation variantID="epns-deep-33-b-name-w32012">
+     <date end="1337" begin="1337" subtype="simple">1337</date>
+     <source style="" id="wr640">Selby</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-33-b-name-w32012">
+     <date end="1587" begin="1587" subtype="simple">1587</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32076">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>4, 27d</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32119">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>28d</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32119">
+    <date end="1255" begin="1247" subtype="simple">1247-55</date>
+    <date end="1272" begin="1216" subtype="regnal">l. Hy 3</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32119">
+    <date end="1419" begin="1419" subtype="simple">1419</date>
+    <source style="" id="wr799">YD</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32181">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="wr23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32181">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="wr640">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32222">
+    <date end="1328" begin="1328" subtype="simple">1328</date>
+    <source style="" id="wr29">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w32253">
+    <date end="1272" begin="1216" subtype="regnal">l. Hy 3</date>
+    <date end="1295" begin="1295" subtype="simple">1295</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w32012">Neweland</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32012">Newland</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32076">Newelaund'</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32076">la Neouelaund</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32119">Neulande</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32119">Neuland</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32181">Neulande in Drax</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32181">Neuland in Drax</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32222">Neulande on Ayre</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32222">Neuland on Ayre</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32253">Novam terram</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32253">Novam terra</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32253">Nova terram</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w32253">Nova terra</searchterm>
+  </extension>
+ </mads>
+ 

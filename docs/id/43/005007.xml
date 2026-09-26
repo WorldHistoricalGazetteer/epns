@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000012">
+  <authority ID="epns-deep-43-a-name-parish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005007">Dufton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000001" type="broader">
+   <geographic>East Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f00137e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4821900" lat="54.6193500" gazref="geonames:2650830" source="geonames"/>
+   <geo long="-2.48936" lat="54.6237" source="epns"/>
+   <geo long="-2.487921679387925" lat="54.62354239597875" gazref="unlock:11133347" source="unlock"/>
+   <geo easting="368500" northing="525500" long="-2.48936" lat="54.6237" kepnref="5150" source="kepn"/>
+  </extension>
+ </mads>
+ 

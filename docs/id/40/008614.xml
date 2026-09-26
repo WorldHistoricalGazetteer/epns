@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000071">
+  <authority ID="epns-deep-40-a-name-parish-000071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/008614">Dymock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000014" type="broader">
+   <geographic>Botloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001957"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4396700" lat="51.9787800" gazref="geonames:2650588" source="geonames"/>
+   <geo long="-2.451367241" lat="51.97617254" source="epns"/>
+   <geo long="-2.444131946627554" lat="51.98069677516389" gazref="unlock:11135057" source="unlock"/>
+   <geo easting="370500" northing="231500" long="-2.43092" lat="51.9812" kepnref="6517" source="kepn"/>
+  </extension>
+ </mads>
+ 

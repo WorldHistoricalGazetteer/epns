@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000519">
+  <authority ID="epns-deep-05-b-name-subparish-000519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005715">Hope</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000179" type="broader">
+   <geographic>Barningham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w402429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005716">Hope</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402460">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005717">Hoppe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w402475">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005718">Est Hop, West Hop</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000412"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9610000" lat="54.4668500" gazref="geonames:7300083" source="geonames"/>
+   <geo easting="402500" northing="508500" long="-1.96292" lat="54.4719" kepnref="6174" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w402429">
+    <attestation variantID="epns-deep-05-b-name-w402429">
+     <date subtype="century" begin="1200" end="1300">13</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>121</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402460">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w402475">
+    <date subtype="century" begin="1400" end="1500">15</date>
+    <source style="" id="ny220">VCH</source>
+    <item>i</item>
+    <page>41</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w402429">Hope</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402460">Hoppe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402475">Est Hop</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w402475">West Hop</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000020">
+  <authority ID="epns-deep-08-b-name-subparish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001164">Pilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000020" type="broader">
+   <geographic>Pilton, East and West</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w68743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001165">Piltone wið Bearstaple</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w68794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001166">Piltona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w68820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001167">Wiltone</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w68836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001168">Pilton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w68897">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001169">Piltone</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w68906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001170">Pelleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019f1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0666700" lat="51.0833300" gazref="geonames:2640283" source="geonames"/>
+   <geo long="-4.063629726970597" lat="51.09105358507338" gazref="unlock:11245415" source="unlock"/>
+   <geo easting="254500" northing="133500" long="-4.07862" lat="51.0823" kepnref="15477" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w68743">
+    <date end="1000" begin="900" subtype="century">10th</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="de301">Burghal Hidage</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68794">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68820">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68836">
+    <date end="1121" begin="1121" subtype="simple">1121</date>
+    <source style="" id="de90">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68836">
+    <attestation variantID="epns-deep-08-b-name-w68836">
+     <date end="1167" begin="1167" subtype="simple">1167</date>
+     <source style="" id="de181">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68897">
+    <date end="1600" begin="1167">1167-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w68906">
+    <date end="1256" begin="1256" subtype="simple">1256</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w68743">Piltone wið Bearstaple</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w68794">Piltona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w68820">Wiltone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w68836">Pilton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w68897">Piltone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w68906">Pelleton</searchterm>
+  </extension>
+ </mads>
+ 

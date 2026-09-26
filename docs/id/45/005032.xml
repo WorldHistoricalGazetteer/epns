@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000029">
+  <authority ID="epns-deep-45-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005032">Marthall cum Warford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-cy-chapelry-000001" type="broader">
+   <geographic>Over Peover Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w213667">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005033">maner' de Wereford et Marthale</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w213711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005034">Warfurthe et Marthall</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w213747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/005035">Marthall cum Little Werford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo easting="380500" northing="375500" long="-2.29387" lat="53.2761" kepnref="11790" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w213667">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w213711">
+    <date subtype="simple" begin="1554" end="1554">1554</date>
+    <source style="italic" id="ch386">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w213747">
+    <date subtype="simple" begin="1724" end="1724">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w213667">maner' de Wereford et Marthale</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w213711">Warfurthe et Marthall</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w213747">Marthall cum Little Werford</searchterm>
+  </extension>
+ </mads>
+ 

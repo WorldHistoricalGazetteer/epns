@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol71mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-71-a-parish-000028">
+  <authority ID="epns-deep-71-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/008397">Waltham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-71-wp-subcounty-000002" type="broader">
+   <geographic>Haverstoe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f5d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1000000" lat="53.5166700" gazref="geonames:2634844" source="geonames"/>
+   <geo long="-0.09208398027322949" lat="53.51269157715168" gazref="unlock:11312794" source="unlock"/>
+   <geo easting="526500" northing="403500" long="-0.0937673" lat="53.513" kepnref="10609" source="kepn"/>
+  </extension>
+ </mads>
+ 

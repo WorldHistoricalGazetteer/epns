@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000029">
+  <authority ID="epns-deep-21-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002192">Isel Oldpark</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000030" type="broader">
+   <geographic>Isel Oldpark</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w88195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002193">Old Parke</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w88214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002194">Owldparke</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w88238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002195">Isellold-park</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000ff9"/>
+  </recordInfo>
+  <extension>
+   <geo easting="319500" northing="534500" long="-3.2506" lat="54.6991" kepnref="4484" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w88195">
+    <date end="1555" begin="1555" subtype="simple">1555</date>
+    <source style="" id="cu120">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w88214">
+    <date end="1631" begin="1631" subtype="simple">1631</date>
+    <source style="italic" id="cu29">Brayton</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w88238">
+    <date end="1718" begin="1718" subtype="simple">1718</date>
+    <source style="italic" id="cu29" underspec="ib">Brayton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w88195">Old Parke</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w88214">Owldparke</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w88238">Isellold-park</searchterm>
+  </extension>
+ </mads>
+ 

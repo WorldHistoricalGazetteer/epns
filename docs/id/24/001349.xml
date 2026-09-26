@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000015">
+  <authority ID="epns-deep-24-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/001349">Gosford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000013" type="broader">
+   <geographic>Gosford and Water Eaton</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w51765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/001350">Goseford</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w51819">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/001351">Goseforde</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w51843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/001352">Gosford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.28180011901069" lat="51.81748718069831" gazref="unlock:11156874" source="unlock"/>
+   <geo easting="451500" northing="212500" long="-1.25441" lat="51.8088" kepnref="3648" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w51765">
+    <attestation variantID="epns-deep-24-b-name-w51765">
+     <date subtype="circa" begin="1242" end="1246">c. 1242-6</date>
+     <source style="" id="ox3">AD</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w51765">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ox75">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w51819">
+    <date end="1316" begin="1242">c. 1242-1316</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w51843">
+    <date subtype="simple" begin="1509" end="1510">1509-10</date>
+    <source style="" id="ox157">Os</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w51765">Goseford</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w51819">Goseforde</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w51843">Gosford</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000065">
+  <authority ID="epns-deep-09-b-name-subparish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003333">Stockleigh Pomeroy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000065" type="broader">
+   <geographic>Stockleigh Pomeroy</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w152713">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003334">Estocheleia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w152741">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003335">Stochelie</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w152759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003336">Stochelega</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w152780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003337">Stokkelegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w152807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003338">Stokelegh Pomeroy</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a2f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5971900" lat="50.8206400" gazref="geonames:2636884" source="geonames"/>
+   <geo long="-3.597266334684216" lat="50.81954108863606" gazref="unlock:11292532" source="unlock"/>
+   <geo easting="287500" northing="103500" long="-3.59844" lat="50.8201" kepnref="15732" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w152713">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w152741">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w152759">
+    <date end="1187" begin="1187" subtype="simple">1187</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w152780">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>764</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w152807">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w152713">Estocheleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w152741">Stochelie</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w152759">Stochelega</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w152780">Stokkelegh'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w152807">Stokelegh Pomeroy</searchterm>
+  </extension>
+ </mads>
+ 

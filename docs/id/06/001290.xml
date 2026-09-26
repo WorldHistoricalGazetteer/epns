@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000046">
+  <authority ID="epns-deep-06-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001290">Mundham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000046" type="broader">
+   <geographic>North Mundham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w106106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001291">se northra Mundan ham, other Mundan ham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001292">Mundham(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001293">North Mundham(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001294">Suth Mundham(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001295">Mundreham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106332">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001296">Mondreham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001297">Mundeham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w106378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001298">Moundham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d46"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7587400" lat="50.8138500" gazref="geonames:2641299" source="geonames"/>
+   <geo long="-0.7578184933102196" lat="50.81486832708277" gazref="unlock:11232883" source="unlock"/>
+   <geo easting="487500" northing="102500" long="-0.759312" lat="50.8154" kepnref="6907" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w106106">
+    <date subtype="simple" begin="680" end="680">680</date>
+    <copydate end="1000" begin="900">10th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>50</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106165">
+    <date subtype="simple" begin="683" end="683">683</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>64</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106165">
+    <date subtype="simple" begin="692" end="692">692</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>78</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106214">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106242">
+    <date subtype="simple" begin="1410" end="1410">1410</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106269">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106269">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1387" begin="1387">1387</copydate>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106269">
+    <date subtype="simple" begin="1162" end="1162">1162</date>
+    <source style="" id="su103">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106269">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106332">
+    <date subtype="simple" begin="1187" end="1187">1187</date>
+    <source style="italic" id="su29">Box</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106352">
+    <attestation variantID="epns-deep-06-b-name-w106352">
+     <date subtype="simple" begin="1270" end="1270">1270</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w106378">
+    <date subtype="simple" begin="1454" end="1454">1454</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w106106">se northra Mundan ham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106106">other Mundan ham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106165">Mundhame</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106165">Mundham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106214">North Mundhame</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106214">North Mundham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106242">Suth Mundhame</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106242">Suth Mundham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106269">Mundreham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106332">Mondreham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106352">Mundeham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w106378">Moundham</searchterm>
+  </extension>
+ </mads>
+ 

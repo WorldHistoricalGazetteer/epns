@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-a-parish-000002">
+  <authority ID="epns-deep-35-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/000610">Kildwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-wp-subcounty-000001" type="broader">
+   <geographic>East Staincliffe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fbe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9862600" lat="53.9108700" gazref="geonames:2645669" source="geonames"/>
+   <geo long="-1.984775729" lat="53.90995217" source="epns"/>
+   <geo long="-1.977166038016352" lat="53.90545787316142" gazref="unlock:11186007" source="unlock"/>
+   <geo easting="401500" northing="446500" long="-1.97863" lat="53.9146" kepnref="14843" source="kepn"/>
+  </extension>
+ </mads>
+ 

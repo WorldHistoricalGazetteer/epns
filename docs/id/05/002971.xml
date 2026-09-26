@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000223">
+  <authority ID="epns-deep-05-b-name-subparish-000223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002971">Great Broughton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000087" type="broader">
+   <geographic>Kirby in Cleveland</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w225042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002972">Magna Broctun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w225065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002973">Mekil-Broghton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w225092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002974">Great Broughton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004eb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1568900" lat="54.4476300" gazref="geonames:6693506" source="geonames"/>
+   <geo long="-1.159368493719137" lat="54.45083129470693" gazref="unlock:11158535" source="unlock"/>
+   <geo easting="454500" northing="506500" long="-1.16097" lat="54.451" kepnref="5876" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w225042">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w225065">
+    <date subtype="simple" begin="1481" end="1481">1481</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w225092">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w225042">Magna Broctun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225065">Mekil-Broghton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w225092">Great Broughton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000211">
+  <authority ID="epns-deep-05-b-name-subparish-000211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002790">Upsall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000079" type="broader">
+   <geographic>Ormesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w212033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002791">Upes(h)ale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w212053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002792">Uppesale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w212118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002793">Upsale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w212164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002794">Upsall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600055f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.157707338493291" lat="54.53171436391404" gazref="unlock:11310711" source="unlock"/>
+   <geo easting="454500" northing="515500" long="-1.15931" lat="54.5319" kepnref="5863" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w212033">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212053">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212053">
+    <date subtype="simple" begin="1222" end="1240">1222-40</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212053">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="" id="ny52">Ebor</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212053">
+    <date subtype="simple" begin="1412" end="1412">1412</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212118">
+    <attestation variantID="epns-deep-05-b-name-w212118">
+     <date subtype="simple" begin="1170" end="1195">c. 1170-95</date>
+     <source style="" id="ny236">YCh</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w212118">
+     <date subtype="simple" begin="1498" end="1498">1498</date>
+     <source style="" id="ny217">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212164">
+    <date subtype="simple" begin="1443" end="1443">1443</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w212033">Upeshale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w212033">Upesale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w212053">Uppesale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w212118">Upsale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w212164">Upsall</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000031">
+  <authority ID="epns-deep-15-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001780">Wheathampstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000002" type="broader">
+   <geographic>Dacorum Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace000752"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2937100" lat="51.8114800" gazref="geonames:2634172" source="geonames"/>
+   <geo long="-0.2951777406108064" lat="51.81631489799277" gazref="unlock:11319653" source="unlock"/>
+   <geo easting="517500" northing="213500" long="-0.297102" lat="51.8078" kepnref="4599" source="kepn"/>
+  </extension>
+ </mads>
+ 

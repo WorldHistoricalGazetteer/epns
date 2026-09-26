@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000119">
+  <authority ID="epns-deep-07-a-name-parish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006760">Wartling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000033" type="broader">
+   <geographic>Foxearle Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000c35"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3543100" lat="50.8587900" gazref="geonames:2634729" source="geonames"/>
+   <geo long="0.3518985068374167" lat="50.86073542647056" gazref="unlock:11313869" source="unlock"/>
+   <geo easting="565500" northing="109500" long="0.350278" lat="50.8613" kepnref="7134" source="kepn"/>
+  </extension>
+ </mads>
+ 

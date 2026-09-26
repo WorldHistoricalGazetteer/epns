@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000088">
+  <authority ID="epns-deep-06-a-name-parish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002765">Eastergate</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000010" type="broader">
+   <geographic>Avisford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b7f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6576300" lat="50.8398800" gazref="geonames:2650460" source="geonames"/>
+   <geo long="-0.6576985770679071" lat="50.84074142835147" gazref="unlock:11137172" source="unlock"/>
+   <geo easting="495500" northing="105500" long="-0.645006" lat="50.8412" kepnref="6950" source="kepn"/>
+  </extension>
+ </mads>
+ 

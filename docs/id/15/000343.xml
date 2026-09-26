@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000006">
+  <authority ID="epns-deep-15-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000343">Langley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000006" type="broader">
+   <geographic>Langley</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w17979">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000344">Langeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w18017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000345">Langeleye juxta Dynesleye</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w18054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000346">Langele</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w18071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/000347">Langele by Almesho</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007a5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2493600" lat="51.8984000" gazref="geonames:7293713" source="geonames"/>
+   <geo long="-0.2343580447683436" lat="51.88736112175114" gazref="unlock:11191554" source="unlock"/>
+   <geo kepnexref="0157" long="-0.24" lat="51.88" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w17979">
+    <date subtype="century" begin="1200" end="1300">13th</date>
+    <source style="italic" id="he347">Wymondley</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w17979">
+    <date subtype="ante" begin="1242" end="1292">a. 1292</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w18017">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w18054">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <source style="" id="he49">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w18071">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="he146">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w17979">Langeleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w18017">Langeleye juxta Dynesleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w18054">Langele</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w18071">Langele by Almesho</searchterm>
+  </extension>
+ </mads>
+ 

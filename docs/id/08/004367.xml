@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000085">
+  <authority ID="epns-deep-08-a-name-parish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004367">Clawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000006" type="broader">
+   <geographic>Black Torrington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001741"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.3365700" lat="50.7685000" gazref="geonames:2652916" source="geonames"/>
+   <geo long="-4.333216153189232" lat="50.77115996762718" gazref="unlock:11108346" source="unlock"/>
+   <geo easting="235500" northing="99500" long="-4.3343" lat="50.7717" kepnref="15542" source="kepn"/>
+  </extension>
+ </mads>
+ 

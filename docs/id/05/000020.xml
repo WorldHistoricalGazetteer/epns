@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000001">
+  <authority ID="epns-deep-05-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000020">Holtby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000001" type="broader">
+   <geographic>Holtby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w1954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000021">Boltebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w1977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000022">Holteby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9725500" lat="53.9787600" gazref="geonames:2646699" source="geonames"/>
+   <geo long="-0.9705731100901527" lat="53.98195035494912" gazref="unlock:11177906" source="unlock"/>
+   <geo easting="467500" northing="454500" long="-0.972172" lat="53.9822" kepnref="5652" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w1954">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w1977">
+    <attestation variantID="epns-deep-05-b-name-w1977">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny300">RegAlb</source>
+     <item>i</item>
+     <page>67 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w1977">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w1954">Boltebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w1977">Holteby</searchterm>
+  </extension>
+ </mads>
+ 

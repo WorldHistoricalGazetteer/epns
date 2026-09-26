@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000102">
+  <authority ID="epns-deep-13-a-name-parish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004318">Leamington Hastings</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f00068a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3232600" lat="52.2928000" gazref="geonames:7292678" source="geonames"/>
+   <geo long="-1.347301396617995" lat="52.30342571168858" gazref="unlock:11193137" source="unlock"/>
+   <geo easting="444500" northing="267500" long="-1.34879" lat="52.3038" kepnref="4987" source="kepn"/>
+  </extension>
+ </mads>
+ 

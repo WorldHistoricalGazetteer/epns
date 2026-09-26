@@ -61,6 +61,12 @@ _PUNCT = re.compile(r"[()\[\]{}.,;:!?\"“”‘’*+/\\|<>=_~`^#%&@]")
 _WS = re.compile(r"\s+")
 
 
+def uri_num(uri: str | None):
+    """The county-wide serial in a DEEP URI: .../placename/02/000003 -> 3."""
+    m = re.search(r"/(\d+)/(\d+)$", uri or "")
+    return int(m.group(2)) if m else None
+
+
 def name_key(text: str) -> str:
     """The key a name form is grouped and embedded under: NFC, brackets and punctuation removed
     (so 'Bunstow(e)' and 'Bunstowe' share a key), hyphens to spaces, lower-cased, whitespace
@@ -110,7 +116,7 @@ def main():
     type_ix = {t: i for i, t in enumerate(types)}
     codes = sorted(county_name)
     county_ix = {c: i for i, c in enumerate(codes)}
-    core = {k: [] for k in ["gid", "title", "type", "county", "parent", "lon", "lat", "geo", "nVar", "nAtt", "nFn", "nKids", "code", "seq", "hundred", "parish", "township"]}
+    core = {k: [] for k in ["gid", "title", "type", "county", "parent", "lon", "lat", "geo", "nVar", "nAtt", "nFn", "nKids", "code", "seq", "u", "hundred", "parish", "township"]}
     for i, p in enumerate(places):
         r, pid, cc, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng, turi, volf = p
         if typ == "fn":
@@ -131,6 +137,7 @@ def main():
         core["nKids"].append(kids[pid][1])
         core["code"].append(code)
         core["seq"].append(seq)
+        core["u"].append(uri_num(turi))          # DEEP's county-wide serial, from the record's own URI; what a w3id carries
         core["hundred"].append(gid_of.get(tr[1], -1))
         core["parish"].append(gid_of.get(tr[2], -1))
         core["township"].append(gid_of.get(tr[3], -1))
@@ -162,10 +169,6 @@ def main():
     def short_vid(name_id: str) -> str:
         # epns-deep-02-hu-name-w22 -> w22 ; the headword id has no short form and is not needed
         return name_id.rsplit("-", 1)[-1] if name_id else ""
-
-    def uri_num(uri: str | None):
-        m = re.search(r"/(\d+)/(\d+)$", uri or "")
-        return int(m.group(2)) if m else None
 
     EXTRA = ["page", "item", "folio", "ms", "pername", "entry", "appendix", "note", "number", "times"]
     county_files = []

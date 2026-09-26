@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000018">
+  <authority ID="epns-deep-49-b-name-subparish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005613">Hurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000021" type="broader">
+   <geographic>St Nicholas Hurst</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w200423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005614">Herst</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w200455">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005615">Hurst(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w200488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005616">La Hurste</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w200523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005617">La Hurst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b9d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8519600" lat="51.4579100" gazref="geonames:2646361" source="geonames"/>
+   <geo long="-0.8556914010615833" lat="51.45440436887715" gazref="unlock:11181605" source="unlock"/>
+   <geo easting="479500" northing="173500" long="-0.857199" lat="51.4549" kepnref="3042" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w200423">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="be317">RSO</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w200423">
+    <date end="1254" begin="1254" subtype="simple">1254</date>
+    <source style="" id="be64">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w200455">
+    <attestation variantID="epns-deep-49-b-name-w200455">
+     <date end="1225" begin="1224" subtype="simple">1224-5</date>
+     <source style="italic" id="be21">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w200488">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w200488">
+    <date end="1376" begin="1375" subtype="simple">1375-6</date>
+    <source style="" id="be240">ObAcc</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w200523">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w200423">Herst</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w200455">Hurste</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w200455">Hurst</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w200488">La Hurste</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w200523">La Hurst</searchterm>
+  </extension>
+ </mads>
+ 

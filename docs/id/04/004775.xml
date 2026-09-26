@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000181">
+  <authority ID="epns-deep-04-a-name-parish-000181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004775">Hadzor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000006" type="broader">
+   <geographic>Clent Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1186000" lat="52.2526300" gazref="geonames:7299695" source="geonames"/>
+   <geo long="-2.124550881678914" lat="52.26020677097645" gazref="unlock:11163199" source="unlock"/>
+   <geo easting="391500" northing="262500" long="-2.12594" lat="52.2606" kepnref="5356" source="kepn"/>
+  </extension>
+ </mads>
+ 

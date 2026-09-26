@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000082">
+  <authority ID="epns-deep-05-b-name-subparish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000772">Cawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000033" type="broader">
+   <geographic>Gilling</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w66775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000773">Caluetun, Caluetone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w66804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000774">Calueton(a), Kalueton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w66885">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000775">Calton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w66921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000776">Caulton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w66938">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000777">Caw(e)ton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0181400" lat="54.1820900" gazref="geonames:7292084" source="geonames"/>
+   <geo long="-1.0116308552936" lat="54.18005319499002" gazref="unlock:11102088" source="unlock"/>
+   <geo easting="464500" northing="476500" long="-1.01323" lat="54.1802" kepnref="5734" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w66775">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66804">
+    <date subtype="simple" begin="1160" end="1175">1160-75</date>
+    <source style="italic" id="ny46">Dods</source>
+    <item>vii</item>
+    <page>116 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66804">
+    <attestation variantID="epns-deep-05-b-name-w66804">
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w66804">
+     <date subtype="simple" begin="1416" end="1416">1416</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66885">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <copydate end="1603" begin="1558">Eliz</copydate>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66885">
+    <date subtype="simple" begin="1393" end="1393">1393</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66921">
+    <date subtype="simple" begin="1418" end="1418">1418</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66938">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66938">
+    <date subtype="simple" begin="1579" end="1579">1579</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w66938">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w66775">Caluetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66775">Caluetone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66804">Caluetona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66804">Calueton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66804">Kaluetona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66804">Kalueton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66885">Calton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66921">Caulton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66938">Caweton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w66938">Cawton</searchterm>
+  </extension>
+ </mads>
+ 

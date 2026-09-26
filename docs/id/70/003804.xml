@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-a-parish-000006">
+  <authority ID="epns-deep-70-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003804">Westbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-hu-subcounty-000001" type="broader">
+   <geographic>Ford Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-70-a-name-w131394">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003805">Wesberie</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w131412">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003806">Wesbury</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w131478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003807">Westbir'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w131531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003808">Westbur', Westbiry, Westburi(e), Westbury</geographic>
+  </variant>
+  <variant ID="epns-deep-70-a-name-w131579">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/003809">Wesbrey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a608b47fc4463d000e62"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9500000" lat="52.6833300" gazref="geonames:2634481" source="geonames"/>
+   <geo long="-2.954146312" lat="52.67900949" source="epns"/>
+   <geo long="-2.954146593508934" lat="52.67901048629427" gazref="unlock:11317966" source="unlock"/>
+   <geo easting="335500" northing="309500" long="-2.95546" lat="52.6793" kepnref="13709" source="kepn"/>
+   <attestation variantID="epns-deep-70-a-name-w131394">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131412">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="ss85">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131412">
+    <date end="1625" begin="1625" subtype="simple">1625</date>
+    <source style="" id="ss230">PR(H)</source>
+    <page>1</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131412">
+    <date end="1658" begin="1658" subtype="simple">1658</date>
+    <source style="" id="ss229">PR(StA)</source>
+    <page>4</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131412">
+    <date end="1811" begin="1811" subtype="simple">1811</date>
+    <source style="" id="ss229">PR(StA)</source>
+    <page>13</page>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131478">
+    <attestation variantID="epns-deep-70-a-name-w131478">
+     <date end="1204" begin="1203" subtype="simple">1203-4</date>
+     <source style="italic" id="ss10">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131531">
+    <date end="1600" begin="1203">1203-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-a-name-w131579">
+    <date end="1711" begin="1711" subtype="simple">1711</date>
+    <source style="" id="ss229">PR(StA)</source>
+    <page>2</page>
+   </attestation>
+   <searchterm variantID="epns-deep-70-a-name-w131394">Wesberie</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131412">Wesbury</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131478">Westbir'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131531">Westbur'</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131531">Westbiry</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131531">Westburie</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131531">Westburi</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131531">Westbury</searchterm>
+   <searchterm variantID="epns-deep-70-a-name-w131579">Wesbrey</searchterm>
+  </extension>
+ </mads>
+ 

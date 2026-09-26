@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000080">
+  <authority ID="epns-deep-12-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005231">Lee Chapel olim West Lee</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000107" type="broader">
+   <geographic>Lee Chapel</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w274501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005232">Leam</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w274515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005233">la Lee, la Lee hacch, chapel of la Lee</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w274563">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005234">Leye</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w274584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005235">Westleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w274603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/005236">Westlee</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858eeb47fc40a98000e41"/>
+  </recordInfo>
+  <extension>
+   <geo easting="569500" northing="187500" long="0.443892" lat="51.5609" kepnref="12293" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w274501">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w274515">
+    <date subtype="simple" begin="1339" end="1339">1339</date>
+    <source style="" id="ex73">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w274563">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ex128">EAS</source>
+    <item>xviii</item>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w274584">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w274603">
+    <date subtype="simple" begin="1326" end="1326">1326</date>
+    <source style="" id="ex234">Londin</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w274501">Leam</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274515">la Lee</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274515">la Lee hacch</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274515">chapel of la Lee</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274563">Leye</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274584">Westleg'</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w274603">Westlee</searchterm>
+  </extension>
+ </mads>
+ 

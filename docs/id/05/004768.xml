@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000427">
+  <authority ID="epns-deep-05-b-name-subparish-000427">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004768">Wensley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000147" type="broader">
+   <geographic>Wensley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w346937">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004769">Wendreslaga, Wentreslaga</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w346971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004770">Wandesle(i), Wandesley, Wandeslegh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w347037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004771">Wendesle(y), Wendeslay</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w347103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004772">Wenselawe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w347122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004773">Wenslaugh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8500000" lat="54.3000000" gazref="geonames:2634531" source="geonames"/>
+   <geo long="-1.854002583882941" lat="54.30086823431012" gazref="unlock:11316020" source="unlock"/>
+   <geo easting="409500" northing="489500" long="-1.85551" lat="54.301" kepnref="6076" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w346937">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346971">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="ny40">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w346971">
+    <attestation variantID="epns-deep-05-b-name-w346971">
+     <date subtype="simple" begin="1201" end="1201">1201</date>
+     <source style="" id="ny1">Abbr</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w347037">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny40">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w347037">
+    <attestation variantID="epns-deep-05-b-name-w347037">
+     <date subtype="simple" begin="1205" end="1205">1205</date>
+     <source style="" id="ny1">Abbr</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w347037">
+     <date subtype="simple" begin="1396" end="1396">1396</date>
+     <source style="" id="ny165">Pap</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w347103">
+    <date subtype="simple" begin="1363" end="1363">1363</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w347122">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w346937">Wendreslaga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346937">Wentreslaga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346971">Wandeslei</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346971">Wandesle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346971">Wandesley</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w346971">Wandeslegh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w347037">Wendesley</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w347037">Wendesle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w347037">Wendeslay</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w347103">Wenselawe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w347122">Wenslaugh</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000105">
+  <authority ID="epns-deep-29-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011304">Newhall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000096" type="broader">
+   <geographic>Stanton and Newhall</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w344959">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011305">Novahalle</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w344990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011306">Nova Aula, Nove Aule</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w345066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011307">Niewehal'</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w345086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011308">la Neuhall(e), le Neuhall(e), la New(e)hall(e), le New(e)hall(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w345201">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/011309">Nuhalle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c00190c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5666700" lat="52.7666700" gazref="geonames:2641642" source="geonames"/>
+   <geo long="-1.57741959293154" lat="52.78099497216328" gazref="unlock:11230049" source="unlock"/>
+   <geo easting="427500" northing="319500" long="-1.5938" lat="52.7724" kepnref="3511" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w344959">
+    <date subtype="simple" begin="1150" end="1159">1150-9</date>
+    <source style="" id="db63">Burton</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w344990">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <source style="" id="db62">BurtCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w344990">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="db63">Burton</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w344990">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <date subtype="simple" begin="1431" end="1431">1431</date>
+    <source style="" id="db182">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345066">
+    <date subtype="simple" begin="1197" end="1197">1197</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345086">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345086">
+    <date subtype="simple" begin="1290" end="1290">1290</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345086">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345086">
+    <attestation variantID="epns-deep-29-b-name-w345086">
+     <date subtype="simple" begin="1330" end="1330">1330</date>
+     <source style="italic" id="db23">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w345201">
+    <date subtype="simple" begin="1417" end="1417">1417</date>
+    <source style="" id="db195">Fine</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w344959">Novahalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w344990">Nova Aula</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w344990">Nove Aule</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345066">Niewehal'</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Neuhalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Neuhall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Neuhalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Neuhall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Newehalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Newehall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Newhalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">la Newhall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Newehalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Newehall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Newhalle</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345086">le Newhall</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w345201">Nuhalle</searchterm>
+  </extension>
+ </mads>
+ 

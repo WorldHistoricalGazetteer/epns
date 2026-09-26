@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000004">
+  <authority ID="epns-deep-67-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000661">Cottesmore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000001" type="broader">
+   <geographic>Alstoe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6633000" lat="52.7138400" gazref="geonames:2652264" source="geonames"/>
+   <geo long="-0.660233722863772" lat="52.71124419290261" gazref="unlock:11117229" source="unlock"/>
+   <geo easting="490500" northing="313500" long="-0.661814" lat="52.7116" kepnref="2969" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000252">
+  <authority ID="epns-deep-14-b-name-subparish-000252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005830">Wauldby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000142" type="broader">
+   <geographic>Elloughton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w380057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005831">Walbi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w380072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005832">Waldebi, Waldeby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w380136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005833">Waldby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w380191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005834">Waud(e)by</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w380211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005835">Wawdbye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d000496"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5333300" lat="53.7500000" gazref="geonames:2634657" source="geonames"/>
+   <geo long="-0.5363020684530467" lat="53.75270007687558" gazref="unlock:11314800" source="unlock"/>
+   <geo easting="496500" northing="429500" long="-0.537943" lat="53.7529" kepnref="8629" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w380057">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380072">
+    <date end="1194" begin="1190" subtype="simple">1190-4</date>
+    <source style="" id="ey262">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380072">
+    <attestation variantID="epns-deep-14-b-name-w380072">
+     <date end="1217" begin="1197" subtype="circa">c. 1207</date>
+     <source style="" id="ey369">YD</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w380072">
+     <date end="1398" begin="1398" subtype="simple">1398</date>
+     <source style="" id="ey369">YD</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380136">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380136">
+    <attestation variantID="epns-deep-14-b-name-w380136">
+     <date end="1240" begin="1240" subtype="simple">1240</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w380136">
+     <date end="1379" begin="1379" subtype="simple">1379</date>
+     <source style="" id="ey290">Poll</source>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380191">
+    <date end="1246" begin="1246" subtype="simple">1246</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w380211">
+    <date end="1585" begin="1585" subtype="simple">1585</date>
+    <date end="1618" begin="1618" subtype="simple">1618</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w380057">Walbi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380072">Waldebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380072">Waldeby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380136">Waldby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380191">Waudeby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380191">Waudby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w380211">Wawdbye</searchterm>
+  </extension>
+ </mads>
+ 

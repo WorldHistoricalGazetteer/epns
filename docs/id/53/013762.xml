@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol53mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-53-hu-subcounty-000008">
+  <authority ID="epns-deep-53-hu-name-subcounty-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/013762">Wimborne St Giles Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-53-co-county-000001" type="broader">
+   <geographic>Dorset</geographic>
+  </related>
+  <variant ID="epns-deep-53-hu-name-w677479">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/013763">Hd of Upwymbourne Seynt Gylis</geographic>
+  </variant>
+  <variant ID="epns-deep-53-hu-name-w677518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/013764">Wimborne St Giles hd</geographic>
+  </variant>
+  <variant ID="epns-deep-53-hu-name-w677556">
+   <geographic valueURI="http://placenames.org.uk/id/placename/53/013765">Hundred and Parish of St Giles Vpwimborne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852b6b47fc4099d002ac9"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-53-hu-name-w677479">
+    <date subtype="simple" begin="1542" end="1542">1542</date>
+    <source style="" id="do427">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-53-hu-name-w677518">
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <source style="" id="do24">Anderson</source>
+   </attestation>
+   <attestation variantID="epns-deep-53-hu-name-w677556">
+    <date subtype="simple" begin="1664" end="1664">1664</date>
+    <source style="" id="do356">HTax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-53-hu-name-w677479">Hd of Upwymbourne Seynt Gylis</searchterm>
+   <searchterm variantID="epns-deep-53-hu-name-w677518">Wimborne St Giles hd</searchterm>
+   <searchterm variantID="epns-deep-53-hu-name-w677556">Hundred and Parish of St Giles Vpwimborne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000417">
+  <authority ID="epns-deep-05-b-name-subparish-000417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004674">Caldbergh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000145" type="broader">
+   <geographic>Coverham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w341717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004675">Caldeber</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w341735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004676">Caldebergh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w341786">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004677">Caudeberg(h)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000450"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8592000" lat="54.2626700" gazref="geonames:2654033" source="geonames"/>
+   <geo long="-1.854129650892455" lat="54.2649151960084" gazref="unlock:11096477" source="unlock"/>
+   <geo easting="409500" northing="485500" long="-1.85563" lat="54.2651" kepnref="6070" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w341717">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w341735">
+    <attestation variantID="epns-deep-05-b-name-w341735">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w341735">
+     <date subtype="simple" begin="1311" end="1311">1311</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w341786">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w341786">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w341717">Caldeber</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w341735">Caldebergh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w341786">Caudebergh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w341786">Caudeberg</searchterm>
+  </extension>
+ </mads>
+ 

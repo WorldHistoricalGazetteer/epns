@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000151">
+  <authority ID="epns-deep-14-b-name-subparish-000151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003399">Wintringham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000085" type="broader">
+   <geographic>Wintringham</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w222169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003400">Wentrigha', Wentrigena'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w222202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003401">Wintringham, Wyntringham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w222259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003402">Wintringham juxta Malton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w222295">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003403">Winteringham, Wynteringham</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w222341">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003404">Winteringeheim</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w222370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003405">Wytringham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000585"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6500000" lat="54.1333300" gazref="geonames:2633777" source="geonames"/>
+   <geo long="-0.6448453017327762" lat="54.14951698798129" gazref="unlock:11324395" source="unlock"/>
+   <geo easting="488500" northing="473500" long="-0.646491" lat="54.1497" kepnref="8527" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w222169">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222202">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <source style="italic" id="ey191">Malton</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222202">
+    <attestation variantID="epns-deep-14-b-name-w222202">
+     <date end="1234" begin="1234" subtype="simple">1234</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222259">
+    <date end="1364" begin="1364" subtype="simple">1364</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222295">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="ey55">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222295">
+    <date end="1543" begin="1543" subtype="simple">1543</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222341">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <date end="1191" begin="1191" subtype="simple">1191</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w222370">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w222169">Wentrigha'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222169">Wentrigena'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222202">Wintringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222202">Wyntringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222259">Wintringham juxta Malton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222295">Winteringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222295">Wynteringham</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222341">Winteringeheim</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w222370">Wytringham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000035">
+  <authority ID="epns-deep-23-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004295">Kingsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000032" type="broader">
+   <geographic>Kingsey (now in Buckinghamshire)</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w216361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004296">Eia Magna</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004297">Eye</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004298">mangna Eya</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004299">Kingesie</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004300">Kingeseya, Kinges(h)eye, Kynges(h)eye, Kynggeseye, Kingeshey</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216553">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004301">Kinguseye</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w216575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004302">Kingsey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb00081b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9254300" lat="51.7542400" gazref="geonames:2645468" source="geonames"/>
+   <geo long="-0.9206339238413611" lat="51.75177979136757" gazref="unlock:11187049" source="unlock"/>
+   <geo easting="474500" northing="206500" long="-0.922145" lat="51.7523" kepnref="3553" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w216361">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="ox52">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216381">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="ox304">RegRoff</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216403">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216424">
+    <attestation variantID="epns-deep-23-b-name-w216424">
+     <date end="1197" begin="1197" subtype="simple">1197</date>
+     <source style="" id="ox79">Fine</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-23-b-name-w216424">
+     <date end="1440" begin="1440" subtype="simple">1440</date>
+     <source style="" id="ox3">AD</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216476">
+    <date end="1440" begin="1197">1197-1440</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216553">
+    <date end="1255" begin="1235" subtype="circa">c. 1245</date>
+    <source style="" id="ox3">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w216575">
+    <date end="1286" begin="1284" subtype="simple">1284-6</date>
+    <source style="" id="ox75">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w216361">Eia Magna</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216381">Eye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216403">mangna Eya</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216424">Kingesie</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kingeseya</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kingesheye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kingeseye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kyngesheye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kyngeseye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kynggeseye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216476">Kingeshey</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216553">Kinguseye</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w216575">Kingsey</searchterm>
+  </extension>
+ </mads>
+ 

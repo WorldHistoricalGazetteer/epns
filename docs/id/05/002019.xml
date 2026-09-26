@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000168">
+  <authority ID="epns-deep-05-b-name-subparish-000168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002019">Aislaby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000064" type="broader">
+   <geographic>Whitby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w160359">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002020">Asulue(s)bi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w160380">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002021">Assulueby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w160400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002022">Asolvebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w160424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002023">Aselby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w160467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002024">Assulby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w160485">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002025">Ayslabye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005ea"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6800200" lat="54.4653500" gazref="geonames:7296895" source="geonames"/>
+   <geo long="-0.6807482214820078" lat="54.46453115445197" gazref="unlock:11057782" source="unlock"/>
+   <geo easting="486500" northing="508500" long="-0.666981" lat="54.4645" kepnref="5820" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w160359">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w160380">
+    <date subtype="simple" begin="1215" end="1215">1215</date>
+    <source style="" id="ny35">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w160400">
+    <date subtype="simple" begin="1222" end="1227">1222-7</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w160424">
+    <attestation variantID="epns-deep-05-b-name-w160424">
+     <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w160424">
+     <date subtype="simple" begin="1339" end="1339">1339</date>
+     <source style="" id="ny166">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w160467">
+    <date subtype="simple" begin="1487" end="1487">1487</date>
+    <source style="" id="ny93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w160485">
+    <date subtype="simple" begin="1556" end="1556">1556</date>
+    <source style="" id="ny136">NCyWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w160359">Asuluesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160359">Asuluebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160380">Assulueby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160400">Asolvebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160424">Aselby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160467">Assulby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w160485">Ayslabye</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000049">
+  <authority ID="epns-deep-06-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001423">Westhampnett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000049" type="broader">
+   <geographic>Westhampnett</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w115968">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001424">Hentone</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w115985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001425">Hamptoneta</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w116009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001426">Westhamton'</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w116036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001427">Westhamptonette</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000db1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7503300" lat="50.8481100" gazref="geonames:2634402" source="geonames"/>
+   <geo long="-0.7426597135131984" lat="50.85068182924044" gazref="unlock:11318723" source="unlock"/>
+   <geo easting="488500" northing="106500" long="-0.744157" lat="50.8513" kepnref="6910" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w115968">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w115985">
+    <date subtype="circa" begin="1177" end="1197">c. 1187</date>
+    <source style="italic" id="su29">Box</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w116009">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="su29">Box</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w116036">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w115968">Hentone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w115985">Hamptoneta</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w116009">Westhamton'</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w116036">Westhamptonette</searchterm>
+  </extension>
+ </mads>
+ 

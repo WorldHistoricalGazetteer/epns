@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000412">
+  <authority ID="epns-deep-05-b-name-subparish-000412">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004609">East Witton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000142" type="broader">
+   <geographic>East Witton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w335768">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004610">Witun(e), Witone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w335794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004611">Estwitone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w335824">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004612">Wittun, Witton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w335891">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004613">E(a)stwitton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w335922">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004614">Est Wotton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600047f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7792900" lat="54.2693700" gazref="geonames:2650310" source="geonames"/>
+   <geo long="-1.777307867864934" lat="54.27378612089627" gazref="unlock:11136734" source="unlock"/>
+   <geo easting="414500" northing="486500" long="-1.77882" lat="54.2739" kepnref="6064" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w335768">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335794">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny35">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335794">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335824">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>572</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335824">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335824">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335824">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335891">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>573</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w335922">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny61">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w335768">Witune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335768">Witun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335768">Witone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335794">Estwitone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335824">Wittun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335824">Witton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335891">Eastwitton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335891">Estwitton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w335922">Est Wotton</searchterm>
+  </extension>
+ </mads>
+ 

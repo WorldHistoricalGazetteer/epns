@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000078">
+  <authority ID="epns-deep-98-b-name-subparish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001912">Aspley Guise</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000078" type="broader">
+   <geographic>Aspley Guise</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w144915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001913">Aepslea</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w144937">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001914">Aspeleia</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w144955">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001915">Aspele(gh)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w144985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001916">Aspeleye Gyse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000306"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6330000" lat="52.0119900" gazref="geonames:2656889" source="geonames"/>
+   <geo long="-0.6227324654141954" lat="52.018442437042" gazref="unlock:11064904" source="unlock"/>
+   <geo easting="494500" northing="236500" long="-0.624289" lat="52.0189" kepnref="4302" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w144915">
+    <date subtype="simple" begin="969" end="969">969</date>
+    <source style="" id="bh12">BCS</source>
+    <item>1229</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w144937">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w144955">
+    <attestation variantID="epns-deep-98-b-name-w144955">
+     <date subtype="simple" begin="1202" end="1202">1202</date>
+     <source style="" id="bh66">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w144985">
+    <date subtype="simple" begin="1363" end="1363">1363</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w144915">Aepslea</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w144937">Aspeleia</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w144955">Aspelegh</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w144955">Aspele</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w144985">Aspeleye Gyse</searchterm>
+  </extension>
+ </mads>
+ 

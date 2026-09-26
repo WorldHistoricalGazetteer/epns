@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000020">
+  <authority ID="epns-deep-05-b-name-subparish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000174">Huby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000009" type="broader">
+   <geographic>Sutton on the Forest</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w14909">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000175">Hobi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w14949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000176">Hoby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w15015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000177">Houby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w15031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000178">Huby, Hubie</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w15072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000179">Hewby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1333300" lat="54.0833300" gazref="geonames:2646464" source="geonames"/>
+   <geo long="-1.136261814482608" lat="54.08213420862387" gazref="unlock:11180701" source="unlock"/>
+   <geo easting="456500" northing="467500" long="-1.13747" lat="54.1003" kepnref="5672" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w14909">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w14909">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <date subtype="simple" begin="1172" end="1172">1172</date>
+    <date subtype="simple" begin="1178" end="1178">1178</date>
+    <date subtype="simple" begin="1179" end="1179">1179</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w14949">
+    <date subtype="simple" begin="1135" end="1154">1135-54</date>
+    <source style="italic" id="ny103">Kirkham</source>
+    <page>5 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w14949">
+    <attestation variantID="epns-deep-05-b-name-w14949">
+     <date subtype="simple" begin="1180" end="1181">1180-1</date>
+     <source style="" id="ny236">YCh</source>
+     <page>420</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w14949">
+     <date subtype="simple" begin="1399" end="1399">1399</date>
+     <source style="" id="ny166">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15015">
+    <date subtype="simple" begin="1326" end="1326">1326</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15031">
+    <date subtype="simple" begin="1398" end="1398">1398</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15031">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15031">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny147">NRS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15072">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iv</item>
+    <page>567</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w15072">
+    <date subtype="simple" begin="1614" end="1614">1614</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w14909">Hobi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w14949">Hoby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w15015">Houby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w15031">Huby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w15031">Hubie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w15072">Hewby</searchterm>
+  </extension>
+ </mads>
+ 

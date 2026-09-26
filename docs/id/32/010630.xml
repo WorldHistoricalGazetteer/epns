@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000043">
+  <authority ID="epns-deep-32-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/010630">Blackshaw</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-ch-belowparish-000003" type="broader">
+   <geographic>Heptonstall Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w476726">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/010631">Blakschey</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w476750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/010632">Blakeshaye</geographic>
+  </variant>
+  <variant ID="epns-deep-32-b-name-w476770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/010633">Nether Blackshaw(e), lower Blackshaw(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006152"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0808000" lat="53.7473300" gazref="geonames:7298332" source="geonames"/>
+   <geo long="-2.121325585" lat="53.74809034" source="epns"/>
+   <geo kepnexref="334" long="-2.069709" lat="53.743857" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w476726">
+    <date end="1539" begin="1539" subtype="simple">1539</date>
+    <source style="" id="wr267">HfxWill</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w476750">
+    <date end="1540" begin="1540" subtype="simple">1540</date>
+    <source style="" id="wr267" underspec="ib">HfxWill</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w476770">
+    <date end="1653" begin="1653" subtype="simple">1653</date>
+    <source style="" id="wr528">PRHept</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w476770">
+    <date end="1695" begin="1695" subtype="simple">1695</date>
+    <source style="italic" id="wr211">FGr</source>
+    <page>23</page>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w476726">Blakschey</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w476750">Blakeshaye</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w476770">Nether Blackshawe</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w476770">Nether Blackshaw</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w476770">lower Blackshawe</searchterm>
+   <searchterm variantID="epns-deep-32-b-name-w476770">lower Blackshaw</searchterm>
+  </extension>
+ </mads>
+ 

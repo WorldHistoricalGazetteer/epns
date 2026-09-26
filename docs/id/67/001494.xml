@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000007">
+  <authority ID="epns-deep-67-a-name-parish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/001494">Horn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000001" type="broader">
+   <geographic>Alstoe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5920100" lat="52.6960700" gazref="geonames:7301630" source="geonames"/>
+   <geo long="-0.5871084171207791" lat="52.68342106522819" gazref="unlock:11179319" source="unlock"/>
+   <geo easting="495500" northing="311500" long="-0.588407" lat="52.6928" kepnref="2972" source="kepn"/>
+  </extension>
+ </mads>
+ 

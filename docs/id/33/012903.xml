@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-a-parish-000043">
+  <authority ID="epns-deep-33-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012903">St Mary Bishophill Junior</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-wp-subcounty-000003" type="broader">
+   <geographic>Ainsty Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-33-a-name-w534878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012904">parochia Sce' Marie de Bysshopehill</geographic>
+  </variant>
+  <variant ID="epns-deep-33-a-name-w534928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012905">the paryshe of our Lady of Bysshophill newe</geographic>
+  </variant>
+  <variant ID="epns-deep-33-a-name-w534983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012906">Bisshophil newer</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81006003"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="3405" long="53.955732" lat="-1.087219" source="kepn"/>
+   <attestation variantID="epns-deep-33-a-name-w534878">
+    <date end="1540" begin="1540" subtype="simple">1540</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-a-name-w534928">
+    <date end="1555" begin="1555" subtype="simple">1555</date>
+    <source style="" id="wr807">YkCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-a-name-w534983">
+    <date end="1569" begin="1569" subtype="simple">1569</date>
+    <source style="" id="wr807" underspec="ib">YkCR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-a-name-w534878">parochia Sce' Marie de Bysshopehill</searchterm>
+   <searchterm variantID="epns-deep-33-a-name-w534928">the paryshe of our Lady of Bysshophill newe</searchterm>
+   <searchterm variantID="epns-deep-33-a-name-w534983">Bisshophil newer</searchterm>
+  </extension>
+ </mads>
+ 

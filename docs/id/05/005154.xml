@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000458">
+  <authority ID="epns-deep-05-b-name-subparish-000458">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005154">Warlaby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000153" type="broader">
+   <geographic>Ainderby Steeple</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w368191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005155">Warlauesbi, Werlegesbi, Wergelesbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w368235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005156">Warthelbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w368254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005157">Warlauby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w368289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005158">Warlow(e)by</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w368331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005159">Worleybye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003f5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4704800" lat="54.3100600" gazref="geonames:7291535" source="geonames"/>
+   <geo long="-1.469579378024637" lat="54.31776717193408" gazref="unlock:11313434" source="unlock"/>
+   <geo easting="435500" northing="491500" long="-1.45576" lat="54.3179" kepnref="6111" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w368191">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368235">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368254">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="italic" id="ny194">Rich</source>
+    <page>34</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368254">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368289">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>567</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368289">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368331">
+    <date subtype="simple" begin="1550" end="1550">1550</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w368191">Warlauesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368191">Werlegesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368191">Wergelesbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368235">Warthelbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368254">Warlauby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368289">Warloweby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368289">Warlowby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368331">Worleybye</searchterm>
+  </extension>
+ </mads>
+ 

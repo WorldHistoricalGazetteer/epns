@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000017">
+  <authority ID="epns-deep-09-b-name-subparish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000924">High Bickington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000017" type="broader">
+   <geographic>High Bickington</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w43573">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000925">Bichentona</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000926">Bykanthon'</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000927">Bykynton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43639">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000928">Bukint(on)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000929">Bukyngton, Buke(n)ton, Estbuketon</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000930">Westbukyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w43772">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000931">Heghebuginton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00197a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9942500" lat="50.9673000" gazref="geonames:2646980" source="geonames"/>
+   <geo long="-4.001115273513966" lat="50.96621941786684" gazref="unlock:11171293" source="unlock"/>
+   <geo easting="259500" northing="120500" long="-4.00225" lat="50.9667" kepnref="15684" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w43573">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43593">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>774</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43619">
+    <date end="1373" begin="1373" subtype="simple">1373</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43639">
+    <attestation variantID="epns-deep-09-b-name-w43639">
+     <date end="1212" begin="1212" subtype="simple">1212</date>
+     <source style="" id="de83">Fees</source>
+     <item>96</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-09-b-name-w43639">
+     <date end="1350" begin="1350" subtype="simple">1350</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43711">
+    <date end="1350" begin="1212">1212-1350</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43746">
+    <date end="1356" begin="1356" subtype="simple">1356</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w43772">
+    <date end="1423" begin="1423" subtype="simple">1423</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w43573">Bichentona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43593">Bykanthon'</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43619">Bykynton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43639">Bukinton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43639">Bukint</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43711">Bukyngton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43711">Bukenton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43711">Buketon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43711">Estbuketon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43746">Westbukyngton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w43772">Heghebuginton</searchterm>
+  </extension>
+ </mads>
+ 

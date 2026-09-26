@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000105">
+  <authority ID="epns-deep-28-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017830">Dale Abbey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000102" type="broader">
+   <geographic>Dale Abbey</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w647723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017831">Depedala, Depedal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w647809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/017832">(la) Dal(e), (le) Dal(e), Dala, Dalle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00184d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3519900" lat="52.9444700" gazref="geonames:2651597" source="geonames"/>
+   <geo long="-1.352617717027239" lat="52.94181196506705" gazref="unlock:11126383" source="unlock"/>
+   <geo easting="443500" northing="338500" long="-1.35413" lat="52.9421" kepnref="3378" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w647723">
+    <date subtype="simple" begin="1158" end="1158">1158</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647723">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647723">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="italic" id="db8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647723">
+    <attestation variantID="epns-deep-28-b-name-w647723">
+     <date subtype="regnal" begin="1199" end="1216">John</date>
+     <source style="italic" id="db121">Dale</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w647723">
+     <date subtype="regnal" begin="1272" end="1307">Ed 1</date>
+     <source style="italic" id="db121" underspec="ib">Dale</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647809">
+    <date subtype="simple" begin="1175" end="1200">late 12th</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647809">
+    <date subtype="simple" begin="1200" end="1225">e. 13th</date>
+    <source style="" id="db533">StoweCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w647809">
+    <attestation variantID="epns-deep-28-b-name-w647809">
+     <date subtype="circa" begin="1203" end="1223">c. 1213</date>
+     <source style="" id="db124">Darley</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w647723">Depedala</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647723">Depedale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647723">Depedal</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">la Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">la Dal</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dal</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">le Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">le Dal</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dale</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dal</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dala</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w647809">Dalle</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000112">
+  <authority ID="epns-deep-13-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004611">Watergall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000116" type="broader">
+   <geographic>Watergall</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w242154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004612">Watergall</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w242191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004613">Watergate style</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w242222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004614">Watergalle</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w242245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004615">Wattergale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f0007f5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3882300" lat="52.1944300" gazref="geonames:7301510" source="geonames"/>
+   <geo long="-1.392898125785737" lat="52.18677944921175" gazref="unlock:11314314" source="unlock"/>
+   <geo easting="442500" northing="255500" long="-1.37962" lat="52.1961" kepnref="5003" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w242154">
+    <date end="1595" begin="1595" subtype="simple">1595</date>
+    <date end="1603" begin="1603" subtype="simple">1603</date>
+    <date end="1619" begin="1619" subtype="simple">1619</date>
+    <source style="" id="wa157">Ladbroke</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w242191">
+    <date end="1610" begin="1590" subtype="circa">c. 1600</date>
+    <source style="" id="wa157" underspec="ib">Ladbroke</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w242222">
+    <date end="1607" begin="1607" subtype="simple">1607</date>
+    <source style="italic" id="wa257">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w242245">
+    <date end="1667" begin="1667" subtype="simple">1667</date>
+    <source style="italic" id="wa131">HT</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w242154">Watergall</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w242191">Watergate style</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w242222">Watergalle</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w242245">Wattergale</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000241">
+  <authority ID="epns-deep-09-b-name-subparish-000241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012337">Thorncombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000241" type="broader">
+   <geographic>Thorncombe</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w558950">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012338">Tornecoma</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w558969">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012339">Tornecumb(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w559008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/012340">Thorn(e)cumbe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a48"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8878800" lat="50.8258600" gazref="geonames:2635999" source="geonames"/>
+   <geo long="-2.88749751003878" lat="50.82709932808832" gazref="unlock:11299676" source="unlock"/>
+   <geo easting="337500" northing="103500" long="-2.88875" lat="50.8277" kepnref="15912" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w558950">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w558969">
+    <date end="1150" begin="1130" subtype="circa">c. 1140</date>
+    <source style="" id="de22">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w558969">
+    <date end="1216" begin="1199" subtype="regnal">t. John</date>
+    <source style="" id="de1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w559008">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w559008">
+    <date end="1307" begin="1272" subtype="regnal">t. Ed 1</date>
+    <source style="" id="de223">QW</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w558950">Tornecoma</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w558969">Tornecumba</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w558969">Tornecumb</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w559008">Thornecumbe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w559008">Thorncumbe</searchterm>
+  </extension>
+ </mads>
+ 

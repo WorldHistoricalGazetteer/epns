@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000080">
+  <authority ID="epns-deep-02-b-name-subparish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001227">Drayton Parslow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000079" type="broader">
+   <geographic>Drayton Parslow</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w87948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001228">Draitone, Draintone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w87977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001229">Northdreitune</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001230">Drayton Monacorum</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001231">Dreyton Passelewe</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001232">Drayton Passele(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001233">Drayton Passelowe</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001234">Drayton Pasloo</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w88190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001235">Drayton Paslow</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000350"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7804600" lat="51.9493400" gazref="geonames:6950941" source="geonames"/>
+   <geo long="-0.784955502844435" lat="51.94828935918873" gazref="unlock:11131691" source="unlock"/>
+   <geo easting="483500" northing="228500" long="-0.78649" lat="51.9487" kepnref="11273" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w87948">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w87977">
+    <date end="1240" begin="1220" subtype="circa">c. 1230</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="bu75">Miss</source>
+    <page>119</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88016">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1450</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88053">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88053">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="" id="bu57">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88091">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <date end="1421" begin="1421" subtype="simple">1421</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88126">
+    <date end="1421" begin="1421" subtype="simple">1421</date>
+    <date end="1422" begin="1422" subtype="simple">1422</date>
+    <date end="1501" begin="1501" subtype="simple">1501</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88166">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="bu116">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w88190">
+    <date end="1526" begin="1526" subtype="simple">1526</date>
+    <source style="" id="bu69">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w87948">Draitone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w87948">Draintone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w87977">Northdreitune</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88016">Drayton Monacorum</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88053">Dreyton Passelewe</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88091">Drayton Passeley</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88091">Drayton Passele</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88126">Drayton Passelowe</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88166">Drayton Pasloo</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w88190">Drayton Paslow</searchterm>
+  </extension>
+ </mads>
+ 

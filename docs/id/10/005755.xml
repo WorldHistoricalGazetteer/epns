@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000264">
+  <authority ID="epns-deep-10-a-name-parish-000264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005755">King's Cliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000017" type="broader">
+   <geographic>Willybrook Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000454"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5108100" lat="52.5727800" gazref="geonames:7299547" source="geonames"/>
+   <geo long="-0.5171165236727643" lat="52.56567548323055" gazref="unlock:11186805" source="unlock"/>
+   <geo easting="500500" northing="297500" long="-0.518708" lat="52.5661" kepnref="11136" source="kepn"/>
+  </extension>
+ </mads>
+ 

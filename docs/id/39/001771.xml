@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000024">
+  <authority ID="epns-deep-39-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/001771">Beckford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000002" type="broader">
+   <geographic>Tibblestone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300190a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0347800" lat="52.0205300" gazref="geonames:2656060" source="geonames"/>
+   <geo long="-2.043725207" lat="52.02198806" source="epns"/>
+   <geo long="-2.03643403238645" lat="52.01749550308795" gazref="unlock:11073002" source="unlock"/>
+   <geo easting="397500" northing="235500" long="-2.03783" lat="52.0179" kepnref="6350" source="kepn"/>
+  </extension>
+ </mads>
+ 

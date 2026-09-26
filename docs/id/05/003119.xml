@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000244">
+  <authority ID="epns-deep-05-b-name-subparish-000244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003119">Middleton upon Leven</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000096" type="broader">
+   <geographic>Rudby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w233250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003120">Mid(d)eltun, Mid(d)eltone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w233285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003121">Midetun in Cliveland</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w233323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003122">Mydilton juxta Leuene</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600058b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2866000" lat="54.4797100" gazref="geonames:2642578" source="geonames"/>
+   <geo easting="446500" northing="509500" long="-1.28386" lat="54.4787" kepnref="5897" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w233250">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w233285">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny46">Dods</source>
+    <item>xcv</item>
+    <page>36</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w233323">
+    <date subtype="simple" begin="1218" end="1231">1218-31</date>
+    <source style="italic" id="ny89">Heal</source>
+    <page>113, etc.</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w233250">Middeltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233250">Mideltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233250">Middeltone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233250">Mideltone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233285">Midetun in Cliveland</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233323">Mydilton juxta Leuene</searchterm>
+  </extension>
+ </mads>
+ 

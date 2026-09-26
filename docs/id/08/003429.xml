@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000066">
+  <authority ID="epns-deep-08-b-name-subparish-000066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003429">Fremington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000066" type="broader">
+   <geographic>Fremington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w177334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003430">Framintona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w177354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003431">Framigton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w177391">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003432">Framynton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w177421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003433">Fremigtun</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w177490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003434">Fremingtun, Fremyngtun, Fremintun</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w177525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003435">Farmyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001964"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1166700" lat="51.0666700" gazref="geonames:2649076" source="geonames"/>
+   <geo long="-4.119891112793392" lat="51.07205770651432" gazref="unlock:11148030" source="unlock"/>
+   <geo easting="251500" northing="132500" long="-4.12101" lat="51.0726" kepnref="15523" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w177334">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w177354">
+    <date end="1128" begin="1107" subtype="simple">1107-28</date>
+    <copydate end="1327" begin="1307">t. Ed 2</copydate>
+    <source style="" id="de3">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w177391">
+    <date end="1471" begin="1471" subtype="simple">1471</date>
+    <source style="" id="de15">Barum</source>
+    <item>ii</item>
+    <page>236</page>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w177421">
+    <attestation variantID="epns-deep-08-b-name-w177421">
+     <date end="1128" begin="1107" subtype="simple">1107-28</date>
+     <copydate end="1327" begin="1307">t. Ed 2</copydate>
+     <source style="" id="de3">AD</source>
+     <item>vi</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w177490">
+    <date end="1600" begin="1107">1107-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w177525">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="de241">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w177334">Framintona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177354">Framigton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177391">Framynton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177421">Fremigtun</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177490">Fremingtun</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177490">Fremyngtun</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177490">Fremintun</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w177525">Farmyngton</searchterm>
+  </extension>
+ </mads>
+ 

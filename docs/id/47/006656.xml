@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000079">
+  <authority ID="epns-deep-47-b-name-subparish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006656">Eccleston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000023" type="broader">
+   <geographic>Eccleston</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w363396">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006657">Eclestone</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006658">Ecclestona</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363470">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006659">Eccleston(e), Ec(c)liston(e), (H)Ecleston(e), Ec(c)kleston(e), Ekleston(e), Eck(e)leston(e), Eckliston(e), Eccluston(e), Ecculston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363607">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006660">Eccleston ultra Dee</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006661">Eccleston cum Belgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363678">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006662">Heclesenne</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w363720">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/006663">Egleston, Egliston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8833300" lat="53.1500000" gazref="geonames:2650273" source="geonames"/>
+   <geo long="-2.882336331" lat="53.15157415" source="epns"/>
+   <geo long="-2.889905974443708" lat="53.15601410200572" gazref="unlock:11137750" source="unlock"/>
+   <geo easting="341500" northing="362500" long="-2.87629" lat="53.1564" kepnref="12096" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w363396">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ch163">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363415">
+    <attestation variantID="epns-deep-47-b-name-w363415">
+     <date end="1198" begin="1178" subtype="circa">c.1188</date>
+     <source style="" id="ch650">Tab</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363470">
+    <date end="1600" begin="1178">c.1188-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363607">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363638">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363678">
+    <date end="1260" begin="1240" subtype="circa">c.1250</date>
+    <copydate end="1353" begin="1353">1353, 1383</copydate>
+    <source style="" id="ch498">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w363720">
+    <date end="1506" begin="1506" subtype="simple">1506</date>
+    <source style="italic" id="ch102">ChCert</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w363396">Eclestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363415">Ecclestona</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecclestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eccleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecclistone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eccliston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eclistone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecliston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">HEclestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">HEcleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eclestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eccklestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecckleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecklestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eckleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eklestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ekleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eckelestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eckeleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecklestone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eckleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecklistone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eckliston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecclustone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Eccluston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecculstone</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363470">Ecculston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363607">Eccleston ultra Dee</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363638">Eccleston cum Belgrave</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363678">Heclesenne</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363720">Egleston</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w363720">Egliston</searchterm>
+  </extension>
+ </mads>
+ 

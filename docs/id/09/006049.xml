@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000114">
+  <authority ID="epns-deep-09-b-name-subparish-000114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006049">Ashcombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000114" type="broader">
+   <geographic>Ashcombe</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w274444">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006050">Aissecoma</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w274463">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006051">Aiscumb(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w274498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006052">Ascumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w274516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006053">Ashcombe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5247400" lat="50.5988700" gazref="geonames:7294932" source="geonames"/>
+   <geo long="-3.533439446238991" lat="50.60453295110754" gazref="unlock:11064307" source="unlock"/>
+   <geo easting="291500" northing="79500" long="-3.53461" lat="50.6051" kepnref="15784" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w274444">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w274463">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="de245">Seld</source>
+    <item>3</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w274463">
+    <date end="1259" begin="1259" subtype="simple">1259</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w274498">
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="de53">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w274516">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w274444">Aissecoma</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w274463">Aiscumbe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w274463">Aiscumb</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w274498">Ascumbe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w274516">Ashcombe</searchterm>
+  </extension>
+ </mads>
+ 

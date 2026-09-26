@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000094">
+  <authority ID="epns-deep-21-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008698">Seascale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000099" type="broader">
+   <geographic>Seascale</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w372960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008699">Seseales</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w372997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008700">Lesesehalis</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w373022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008701">Seseale</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w373044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008702">Seaskaill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f900102b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4796100" lat="54.3983100" gazref="geonames:2638282" source="geonames"/>
+   <geo long="-3.486641008713109" lat="54.39966451433681" gazref="unlock:11279818" source="unlock"/>
+   <geo kepnexref="0074" long="-3.484397" lat="54.39575" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w372960">
+    <date end="1175" begin="1155" subtype="circa">c. 1165</date>
+    <source style="" id="cu402">Weth</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372960">
+    <date end="1497" begin="1497" subtype="simple">1497</date>
+    <source style="" id="cu173">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w372997">
+    <date end="1220" begin="1200" subtype="circa">c. 1210</date>
+    <source style="" id="cu369">StB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w373022">
+    <date end="1278" begin="1278" subtype="simple">1278</date>
+    <source style="italic" id="cu11">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w373044">
+    <date end="1576" begin="1576" subtype="simple">1576</date>
+    <source style="" id="cu75">CW (OS)</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w372960">Seseales</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w372997">Lesesehalis</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w373022">Seseale</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w373044">Seaskaill</searchterm>
+  </extension>
+ </mads>
+ 

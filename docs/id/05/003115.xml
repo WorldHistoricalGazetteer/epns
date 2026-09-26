@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000243">
+  <authority ID="epns-deep-05-b-name-subparish-000243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003115">Hutton Rudby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000096" type="broader">
+   <geographic>Rudby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w233021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003116">Hotun, Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w233070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003117">Hottona juxta Rodeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w233105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003118">Hooton Rudbye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600058a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2983400" lat="54.4388600" gazref="geonames:7300694" source="geonames"/>
+   <geo long="-1.282752304918711" lat="54.45162662031223" gazref="unlock:11181844" source="unlock"/>
+   <geo easting="446500" northing="506500" long="-1.28433" lat="54.4518" kepnref="5896" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w233021">
+    <attestation variantID="epns-deep-05-b-name-w233021">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w233021">
+     <date subtype="simple" begin="1412" end="1412">1412</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <attestation variantID="epns-deep-05-b-name-w233021">
+     <date subtype="simple" begin="1412" end="1412">1412</date>
+     <source style="" id="ny81">Guis</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w233070">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny236">YCh</source>
+    <page>787</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w233105">
+    <date subtype="simple" begin="1582" end="1582">1582</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w233021">Hotun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233021">Hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233070">Hottona juxta Rodeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w233105">Hooton Rudbye</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000092">
+  <authority ID="epns-deep-17-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003991">Kirkby in Ashfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000097" type="broader">
+   <geographic>Kirkby in Ashfield</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w201328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003992">Chirchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201379">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003993">Kirchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003994">Kirkebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003995">Kirkeby</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201491">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003996">Kyrkebi, Kyrkeby</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003997">Kirkeby juxta Shyrewode</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003998">Kerkebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201576">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/003999">Cherkebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201603">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/004000">Kerchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w201622">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/004001">Kierkebi</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd40008aa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2437900" lat="53.0998200" gazref="geonames:2645309" source="geonames"/>
+   <geo long="-1.245632905065369" lat="53.10300825155474" gazref="unlock:11187838" source="unlock"/>
+   <geo easting="450500" northing="356500" long="-1.24716" lat="53.1033" kepnref="2394" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w201328">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201328">
+    <date end="1163" begin="1163" subtype="simple">1163</date>
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <date end="1168" begin="1168" subtype="simple">1168</date>
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <date end="1170" begin="1170" subtype="simple">1170</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201379">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="ns206" underspec="ib">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201400">
+    <date end="1174" begin="1174" subtype="simple">1174</date>
+    <source style="" id="ns57">CR</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201400">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201425">
+    <attestation variantID="epns-deep-17-b-name-w201425">
+     <date end="1212" begin="1212" subtype="simple">1212</date>
+     <source style="" id="ns98">Fees</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-17-b-name-w201425">
+     <date end="1347" begin="1347" subtype="simple">1347</date>
+     <source style="" id="ns137">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201491">
+    <date end="1347" begin="1212">1212-1347</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201511">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201544">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <date end="1170" begin="1170" subtype="simple">1170</date>
+    <source style="" id="ns206">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201576">
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <date end="1173" begin="1173" subtype="simple">1173</date>
+    <source style="" id="ns206" underspec="ib">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201603">
+    <date end="1174" begin="1174" subtype="simple">1174</date>
+    <source style="" id="ns206" underspec="ib">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w201622">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="ns206" underspec="ib">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w201328">Chirchebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201379">Kirchebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201400">Kirkebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201425">Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201491">Kyrkebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201491">Kyrkeby</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201511">Kirkeby juxta Shyrewode</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201544">Kerkebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201576">Cherkebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201603">Kerchebi</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w201622">Kierkebi</searchterm>
+  </extension>
+ </mads>
+ 

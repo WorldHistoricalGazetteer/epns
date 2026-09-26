@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000001">
+  <authority ID="epns-deep-21-b-name-subparish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000007">Allhallows</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000001" type="broader">
+   <geographic>Allhallows</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000008">capellæ omnium Sanctorum de Ukmanby</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/000009">(church of) Allhallowes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f7b47fc408f9000f97"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2654100" lat="54.7712100" gazref="geonames:7294545" source="geonames"/>
+   <geo easting="320500" northing="542500" long="-3.23728" lat="54.7711" kepnref="4456" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w385">
+    <date end="1426" begin="1426" subtype="simple">1426</date>
+    <source style="" id="cu243">NB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w430">
+    <date end="1578" begin="1578" subtype="simple">1578</date>
+    <source style="italic" id="cu62">Cocker</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w385">capellæ omnium Sanctorum de Ukmanby</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w430">church of Allhallowes</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w430">Allhallowes</searchterm>
+  </extension>
+ </mads>
+ 

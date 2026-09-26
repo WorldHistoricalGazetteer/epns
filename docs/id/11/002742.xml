@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000053">
+  <authority ID="epns-deep-11-a-name-parish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/002742">Cobham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000005" type="broader">
+   <geographic>Elmbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a1b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4113000" lat="51.3299700" gazref="geonames:2652689" source="geonames"/>
+   <geo long="-0.3993393663126859" lat="51.33214676577155" gazref="unlock:11111352" source="unlock"/>
+   <geo easting="510500" northing="160500" long="-0.415242" lat="51.3329" kepnref="8293" source="kepn"/>
+  </extension>
+ </mads>
+ 

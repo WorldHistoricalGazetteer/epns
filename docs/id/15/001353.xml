@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000021">
+  <authority ID="epns-deep-15-b-name-subparish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001353">Kensworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000023" type="broader">
+   <geographic>Kensworth</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w66734">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001354">Ceagnesuuorðe</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66784">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001355">Ceagnesworthe</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66811">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001356">Canesworde</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001357">Keneswurda</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001358">Kenesworth, Keneswurth</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001359">Kensworth</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w66954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001360">Kennesworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5038600" lat="51.8517300" gazref="geonames:2645800" source="geonames"/>
+   <geo long="-0.5115443646085958" lat="51.85522374236753" gazref="unlock:11185233" source="unlock"/>
+   <geo kepnexref="0160" long="-0.507803" lat="51.854761" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w66734">
+    <date subtype="simple" begin="975" end="975">975</date>
+    <copydate end="1125" begin="1100">early 12th</copydate>
+    <source style="italic" id="he403">Libellus Eliensis</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66784">
+    <date subtype="simple" begin="975" end="975">975</date>
+    <copydate end="1125" begin="1100">early 12th</copydate>
+    <source style="italic" id="he166">LibEl</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66811">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66831">
+    <attestation variantID="epns-deep-15-b-name-w66831">
+     <date subtype="century" begin="1100" end="1200">12th</date>
+     <source style="" id="he308">StPaulsDB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w66831">
+     <date subtype="simple" begin="1402" end="1402">1402</date>
+     <source style="" id="he4">AD</source>
+     <item>i</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66906">
+    <date end="1402" begin="1100">12th-1402</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66932">
+    <date subtype="simple" begin="1375" end="1375">1375</date>
+    <source style="" id="he4">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66954">
+    <date subtype="simple" begin="1431" end="1431">1431</date>
+    <source style="" id="he4">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w66954">
+    <date subtype="simple" begin="1434" end="1434">1434</date>
+    <source style="" id="he4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w66734">Ceagnesuuorðe</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66784">Ceagnesworthe</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66811">Canesworde</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66831">Keneswurda</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66906">Kenesworth</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66906">Keneswurth</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66932">Kensworth</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w66954">Kennesworth</searchterm>
+  </extension>
+ </mads>
+ 

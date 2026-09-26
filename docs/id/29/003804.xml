@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000026">
+  <authority ID="epns-deep-29-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003804">Scropton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000024" type="broader">
+   <geographic>Foston and Scropton</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w114129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003805">Scrotun</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w114146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003806">Scropton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w114248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003807">Cropton</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w114275">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003808">Scroperton</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w114304">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003809">Schropton</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w114328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/003810">Scrapton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001876"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7147600" lat="52.8689600" gazref="geonames:2638328" source="geonames"/>
+   <geo long="-1.71026631606634" lat="52.87129885546631" gazref="unlock:11279556" source="unlock"/>
+   <geo easting="418500" northing="331500" long="-1.72653" lat="52.8807" kepnref="3442" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w114129">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <date subtype="simple" begin="1075" end="1100">late 11th</date>
+    <date subtype="circa" begin="1131" end="1151">c. 1141</date>
+    <source style="italic" id="db561">Tutbury</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="db465">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="italic" id="db485">SaltCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114146">
+    <attestation variantID="epns-deep-29-b-name-w114146">
+     <date subtype="simple" begin="1287" end="1287">1287</date>
+     <source style="" id="db5">AD</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114248">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114248">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114275">
+    <date subtype="simple" begin="1380" end="1380">1380</date>
+    <source style="" id="db216">Gaunt</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114304">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="italic" id="db39">Bemrose</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114328">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w114328">
+    <attestation variantID="epns-deep-29-b-name-w114328">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="db520">Speed</source>
+    </attestation>
+    <passim>et passim on maps to</passim>
+    <attestation variantID="epns-deep-29-b-name-w114328">
+     <date subtype="simple" begin="1767" end="1767">1767</date>
+     <source style="" id="db59">Burdett</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w114129">Scrotun</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114146">Scroptone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114146">Scropton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114248">Cropton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114275">Scroperton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114304">Schropton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w114328">Scrapton</searchterm>
+  </extension>
+ </mads>
+ 

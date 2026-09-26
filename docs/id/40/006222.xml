@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000050">
+  <authority ID="epns-deep-40-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/006222">Frampton Cotterell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000009" type="broader">
+   <geographic>Langley &amp; Swinehead Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300196c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5024300" lat="51.5396200" gazref="geonames:7297381" source="geonames"/>
+   <geo long="-2.490251893" lat="51.53539972" source="epns"/>
+   <geo long="-2.482995137897129" lat="51.53093424001307" gazref="unlock:11147818" source="unlock"/>
+   <geo easting="366500" northing="182500" long="-2.48441" lat="51.5404" kepnref="6496" source="kepn"/>
+  </extension>
+ </mads>
+ 

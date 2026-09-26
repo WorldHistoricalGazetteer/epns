@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000491">
+  <authority ID="epns-deep-05-b-name-subparish-000491">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005409">Skeeby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000165" type="broader">
+   <geographic>Easby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w383625">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005410">Schirebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383643">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005411">Schittebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383661">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005412">Scytheby, Skytheby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005413">Schiteby, Skiteby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005414">Sketeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005415">Sketheby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w383793">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005416">Skebye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000478"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6899000" lat="54.4221700" gazref="geonames:7296869" source="geonames"/>
+   <geo long="-1.699471205180325" lat="54.41742901943142" gazref="unlock:11284470" source="unlock"/>
+   <geo easting="419500" northing="502500" long="-1.701" lat="54.4176" kepnref="6145" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w383625">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383643">
+    <date subtype="simple" begin="1187" end="1187">1187</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383661">
+    <attestation variantID="epns-deep-05-b-name-w383661">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>83 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w383661">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny118">LS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383718">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="ny151">OblR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383718">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383757">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383775">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w383793">
+    <date subtype="simple" begin="1565" end="1565">1565</date>
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w383625">Schirebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383643">Schittebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383661">Scytheby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383661">Skytheby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383718">Schiteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383718">Skiteby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383757">Sketeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383775">Sketheby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w383793">Skebye</searchterm>
+  </extension>
+ </mads>
+ 

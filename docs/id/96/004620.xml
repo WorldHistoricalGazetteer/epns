@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000109">
+  <authority ID="epns-deep-96-a-name-parish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/004620">Graveley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000012" type="broader">
+   <geographic>Papworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1729500" lat="52.2604900" gazref="geonames:2648194" source="geonames"/>
+   <geo long="-0.1754570236907105" lat="52.26415742650402" gazref="unlock:11158274" source="unlock"/>
+   <geo easting="525500" northing="264500" long="-0.16243" lat="52.2644" kepnref="7499" source="kepn"/>
+  </extension>
+ </mads>
+ 

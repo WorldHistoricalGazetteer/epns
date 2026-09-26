@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000452">
+  <authority ID="epns-deep-12-a-name-parish-000452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/020502">Widdington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000019" type="broader">
+   <geographic>Uttlesford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d5e"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2374900" lat="51.9610300" gazref="geonames:2633963" source="geonames"/>
+   <geo long="0.2343389877394965" lat="51.96033370948118" gazref="unlock:11322602" source="unlock"/>
+   <geo easting="553500" northing="231500" long="0.232686" lat="51.9608" kepnref="12602" source="kepn"/>
+  </extension>
+ </mads>
+ 

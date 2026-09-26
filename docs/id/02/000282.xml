@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000017">
+  <authority ID="epns-deep-02-b-name-subparish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000282">Bradwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000016" type="broader">
+   <geographic>Bradwell</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w19818">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000283">Bradewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w19870">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000284">Brodewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w19890">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000285">Bradewulla</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300032f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7877100" lat="52.0485700" gazref="geonames:2654974" source="geonames"/>
+   <geo long="-0.7822750805104556" lat="52.04717625891615" gazref="unlock:11084993" source="unlock"/>
+   <geo easting="483500" northing="239500" long="-0.783814" lat="52.0476" kepnref="11209" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w19818">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w19818">
+    <date end="1158" begin="1152" subtype="simple">1152-8</date>
+    <date end="1165" begin="1160" subtype="simple">1160-5</date>
+    <source style="" id="bu79">NLC</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w19818">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <source style="" id="bu42">Fines</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w19870">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w19890">
+    <date end="1155" begin="1155" subtype="simple">1155</date>
+    <source style="" id="bu79">NLC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w19818">Bradewelle</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w19870">Brodewelle</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w19890">Bradewulla</searchterm>
+  </extension>
+ </mads>
+ 

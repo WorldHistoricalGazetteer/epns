@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000062">
+  <authority ID="epns-deep-16-a-name-parish-000062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003069">Kington Langley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000008" type="broader">
+   <geographic>Chippenham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c8c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1166300" lat="51.4887700" gazref="geonames:3345436" source="geonames"/>
+   <geo long="-2.108050070713142" lat="51.49590866445461" gazref="unlock:11187311" source="unlock"/>
+   <geo easting="392500" northing="177500" long="-2.10942" lat="51.4964" kepnref="7227" source="kepn"/>
+  </extension>
+ </mads>
+ 

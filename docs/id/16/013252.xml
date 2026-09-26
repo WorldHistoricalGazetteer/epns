@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000329">
+  <authority ID="epns-deep-16-a-name-parish-000329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013252">Winterslow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000033" type="broader">
+   <geographic>Alderbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000d2f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6596400" lat="51.0966900" gazref="geonames:7291065" source="geonames"/>
+   <geo long="-1.664409083384935" lat="51.09079960573489" gazref="unlock:11317813" source="unlock"/>
+   <geo easting="424500" northing="132500" long="-1.65153" lat="51.0913" kepnref="7481" source="kepn"/>
+  </extension>
+ </mads>
+ 

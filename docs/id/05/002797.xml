@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000212">
+  <authority ID="epns-deep-05-b-name-subparish-000212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002797">Wilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000079" type="broader">
+   <geographic>Ormesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w212467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002798">Widtune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w212484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002799">Wiltune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000560"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1000000" lat="54.5666700" gazref="geonames:2633872" source="geonames"/>
+   <geo long="-1.095100644680687" lat="54.56721522622273" gazref="unlock:11323473" source="unlock"/>
+   <geo easting="458500" northing="519500" long="-1.09671" lat="54.5674" kepnref="5864" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w212467">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212484">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w212484">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w212467">Widtune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w212484">Wiltune</searchterm>
+  </extension>
+ </mads>
+ 

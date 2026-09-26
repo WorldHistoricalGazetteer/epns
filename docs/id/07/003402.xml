@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000075">
+  <authority ID="epns-deep-07-a-name-parish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003402">Rotherfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000019" type="broader">
+   <geographic>Rotherfield Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-07-a-name-w219659">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003403">borghs, Northborgh and Suthborgh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bf8"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2194300" lat="51.0462800" gazref="geonames:2639095" source="geonames"/>
+   <geo long="0.2184508933449301" lat="51.04324422913778" gazref="unlock:11272993" source="unlock"/>
+   <geo easting="555500" northing="129500" long="0.216838" lat="51.0438" kepnref="7091" source="kepn"/>
+   <attestation variantID="epns-deep-07-a-name-w219659">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-a-name-w219659">borghs</searchterm>
+   <searchterm variantID="epns-deep-07-a-name-w219659">Northborgh</searchterm>
+   <searchterm variantID="epns-deep-07-a-name-w219659">Suthborgh</searchterm>
+  </extension>
+ </mads>
+ 

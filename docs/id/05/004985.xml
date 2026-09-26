@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000439">
+  <authority ID="epns-deep-05-b-name-subparish-000439">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004985">Thornton Rust</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w359065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004986">Torentun, Toretun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w359092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004987">Thorneton Ruske</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w359126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004988">Rust</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000410"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0469000" lat="54.2902200" gazref="geonames:7297848" source="geonames"/>
+   <geo long="-2.038412070316979" lat="54.29196219773997" gazref="unlock:11300002" source="unlock"/>
+   <geo easting="397500" northing="488500" long="-2.03989" lat="54.2921" kepnref="6092" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w359065">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w359092">
+    <date subtype="simple" begin="1153" end="1153">1153</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>573</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w359126">
+    <attestation variantID="epns-deep-05-b-name-w359126">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>77 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w359065">Torentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w359065">Toretun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w359092">Thorneton Ruske</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w359126">Rust</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000164">
+  <authority ID="epns-deep-10-b-name-subparish-000164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003647">Walgrave</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000164" type="broader">
+   <geographic>Walgrave</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w200496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003648">Waldgrave, Wold(e)grave</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w200529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003649">Waldegrauia</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w200611">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003650">Waldegrave and Waudegrauia</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w200628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003651">Walgrava</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w200645">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003652">Waldgrave</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w200685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003653">Walgrave al. Waldegrave</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00061c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8250900" lat="52.3404000" gazref="geonames:2634888" source="geonames"/>
+   <geo long="-0.8181729281928934" lat="52.34427504571824" gazref="unlock:11312368" source="unlock"/>
+   <geo easting="480500" northing="272500" long="-0.81972" lat="52.3447" kepnref="11034" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w200496">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w200529">
+    <attestation variantID="epns-deep-10-b-name-w200529">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="nh26">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w200529">
+     <date end="1410" begin="1404" subtype="simple">1404-10</date>
+     <source style="" id="nh4">AD</source>
+     <item>v</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w200611">
+    <date end="1410" begin="1185">1185-1410</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w200628">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w200645">
+    <attestation variantID="epns-deep-10-b-name-w200645">
+     <date end="1241" begin="1241" subtype="simple">1241</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w200645">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w200685">
+    <date end="1576" begin="1576" subtype="simple">1576</date>
+    <source style="" id="nh4">AD</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w200496">Waldgrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200496">Woldegrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200496">Woldgrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200529">Waldegrauia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200611">Waldegrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200611">Waudegrauia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200628">Walgrava</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200645">Waldgrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200685">Walgrave</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w200685">Waldegrave</searchterm>
+  </extension>
+ </mads>
+ 

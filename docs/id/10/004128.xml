@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000189">
+  <authority ID="epns-deep-10-b-name-subparish-000189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004128">Grendon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000189" type="broader">
+   <geographic>Grendon</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w223888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004129">Grendon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w223918">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004130">Grendon or Grenton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w223947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004131">Crenden</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w223967">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004132">Gryndon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w223985">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004133">Grindon</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w224002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004134">Greendon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000582"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7141100" lat="52.2344200" gazref="geonames:2647924" source="geonames"/>
+   <geo long="-0.7185490019785944" lat="52.23533413112322" gazref="unlock:11160917" source="unlock"/>
+   <geo easting="487500" northing="260500" long="-0.720103" lat="52.2358" kepnref="11059" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w223888">
+    <attestation variantID="epns-deep-10-b-name-w223888">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w223918">
+    <date end="1349" begin="1349" subtype="simple">1349</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w223947">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="nh215">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w223967">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w223985">
+    <date end="1622" begin="1622" subtype="simple">1622</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w224002">
+    <date end="1633" begin="1633" subtype="simple">1633</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w223888">Grendone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223888">Grendon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223918">Grendon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223918">Grenton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223947">Crenden</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223967">Gryndon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w223985">Grindon</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w224002">Greendon</searchterm>
+  </extension>
+ </mads>
+ 

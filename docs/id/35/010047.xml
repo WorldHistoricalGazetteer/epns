@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000068">
+  <authority ID="epns-deep-35-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010047">Halton West</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000019" type="broader">
+   <geographic>Long Preston</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w376433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010048">Halctun</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w376450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010049">Halton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w376508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010050">West Halghton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w376531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010051">West(e) Halton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w376580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/010052">Hawton als. Westhalton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061cd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2398400" lat="53.9850500" gazref="geonames:2647594" source="geonames"/>
+   <geo long="-2.244006466" lat="53.98161576" source="epns"/>
+   <geo long="-2.236406856662422" lat="53.98612668623728" gazref="unlock:11164714" source="unlock"/>
+   <geo easting="384500" northing="454500" long="-2.23785" lat="53.9863" kepnref="14906" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w376433">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="wr580">Puds</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376450">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <date subtype="simple" begin="1217" end="1217">1217</date>
+    <source style="" id="wr476">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376450">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376450">
+    <attestation variantID="epns-deep-35-b-name-w376450">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376508">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376531">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376531">
+    <date subtype="simple" begin="1551" end="1551">1551</date>
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w376580">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w376433">Halctun</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376450">Halton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376508">West Halghton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376531">Weste Halton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376531">West Halton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376580">Hawton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w376580">Westhalton</searchterm>
+  </extension>
+ </mads>
+ 

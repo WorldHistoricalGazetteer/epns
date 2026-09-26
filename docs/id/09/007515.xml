@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000149">
+  <authority ID="epns-deep-09-b-name-subparish-000149">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007515">Woodland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000149" type="broader">
+   <geographic>Woodland</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w340392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007516">Wodeland</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w340433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007517">capella de Woodland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a78"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7000000" lat="50.5000000" gazref="geonames:2633637" source="geonames"/>
+   <geo long="-3.699400651912926" lat="50.50328770860046" gazref="unlock:11326225" source="unlock"/>
+   <geo easting="279500" northing="68500" long="-3.70055" lat="50.5039" kepnref="15820" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w340392">
+    <date end="1424" begin="1424" subtype="simple">1424</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w340392">
+    <date end="1436" begin="1436" subtype="simple">1436</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w340392">
+    <date end="1473" begin="1473" subtype="simple">1473</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w340433">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="de266">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w340392">Wodeland</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w340433">capella de Woodland</searchterm>
+  </extension>
+ </mads>
+ 

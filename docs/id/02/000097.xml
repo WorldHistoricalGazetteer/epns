@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000004">
+  <authority ID="epns-deep-02-b-name-subparish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000097">Haversham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000004" type="broader">
+   <geographic>Haversham</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w7217">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000098">æt Hæfæresham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w7255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000099">Havresham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w7274">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000100">Haueresham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w7344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000101">Hever(e)sham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w7382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000102">Harsham</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w7399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000103">Haversham vulgo Hasome</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000372"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7922200" lat="52.0784000" gazref="geonames:2647306" source="geonames"/>
+   <geo long="-0.7958882902470785" lat="52.0832846622841" gazref="unlock:11167567" source="unlock"/>
+   <geo easting="482500" northing="243500" long="-0.797427" lat="52.0837" kepnref="11197" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w7217">
+    <date end="1012" begin="1012" subtype="simple">1012</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="bu112">Thorpe</source>
+    <page>553</page>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w7255">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w7274">
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <source style="" id="bu91">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w7344">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="bu37">Fees</source>
+    <item>461, 465</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w7382">
+    <date end="1542" begin="1542" subtype="simple">1542</date>
+    <source style="" id="bu68">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w7399">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="bu85">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w7217">æt Hæfæresham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7255">Havresham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7274">Haueresham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7344">Heveresham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7344">Heversham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7382">Harsham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7399">Haversham</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w7399">Hasome</searchterm>
+  </extension>
+ </mads>
+ 

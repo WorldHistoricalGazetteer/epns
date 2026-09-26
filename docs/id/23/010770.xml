@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000110">
+  <authority ID="epns-deep-23-a-name-parish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010770">Somerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000009" type="broader">
+   <geographic>Ploughley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000742"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2761300" lat="51.9542100" gazref="geonames:2637526" source="geonames"/>
+   <geo long="-1.279647392083155" lat="51.9523553281303" gazref="unlock:11286712" source="unlock"/>
+   <geo easting="449500" northing="228500" long="-1.28113" lat="51.9528" kepnref="3630" source="kepn"/>
+  </extension>
+ </mads>
+ 

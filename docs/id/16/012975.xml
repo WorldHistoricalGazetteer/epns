@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000318">
+  <authority ID="epns-deep-16-a-name-parish-000318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012975">West Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000033" type="broader">
+   <geographic>Alderbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000d18"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6350700" lat="51.0426400" gazref="geonames:2634456" source="geonames"/>
+   <geo long="-1.636201416966794" lat="51.04574917992412" gazref="unlock:11316620" source="unlock"/>
+   <geo easting="425500" northing="127500" long="-1.6376" lat="51.0463" kepnref="7476" source="kepn"/>
+  </extension>
+ </mads>
+ 

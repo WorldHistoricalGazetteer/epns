@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000157">
+  <authority ID="epns-deep-10-b-name-subparish-000157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003524">Isham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000157" type="broader">
+   <geographic>Isham</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w193929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003525">Isham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w193982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003526">Ysham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003527">Iysham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003528">Hisham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003529">Hysham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003530">Highsham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003531">Iseham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003532">Isam</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w194163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003533">Yesham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005a2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7032600" lat="52.3574700" gazref="geonames:2646022" source="geonames"/>
+   <geo long="-0.7004919671026246" lat="52.35203107642023" gazref="unlock:11183391" source="unlock"/>
+   <geo easting="488500" northing="273500" long="-0.702053" lat="52.3524" kepnref="11027" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w193929">
+    <date end="974" begin="974" subtype="simple">974</date>
+    <date end="1077" begin="1077" subtype="simple">1077</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="nh48">ChronRams</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w193929">
+    <attestation variantID="epns-deep-10-b-name-w193929">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w193982">
+    <attestation variantID="epns-deep-10-b-name-w193982">
+     <date end="1060" begin="1060" subtype="simple">1060</date>
+     <copydate end="1360" begin="1340">c. 1350</copydate>
+     <source style="" id="nh139">KCD</source>
+     <item>809</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w193982">
+     <date end="1314" begin="1314" subtype="simple">1314</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194033">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194051">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194067">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="nh281">Survey</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194087">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="nh201">Ogilby</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194111">
+    <date end="1217" begin="1217" subtype="simple">1217</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194111">
+    <date end="1475" begin="1475" subtype="simple">1475</date>
+    <source style="" id="nh221">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194138">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194138">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w194163">
+    <date end="1400" begin="1400" subtype="simple">1400</date>
+    <source style="" id="nh4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w193929">Isham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w193982">Ysham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194033">Iysham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194051">Hisham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194067">Hysham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194087">Highsham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194111">Iseham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194138">Isam</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w194163">Yesham</searchterm>
+  </extension>
+ </mads>
+ 

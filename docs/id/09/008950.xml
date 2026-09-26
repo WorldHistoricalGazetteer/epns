@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000171">
+  <authority ID="epns-deep-09-b-name-subparish-000171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008950">Cadeleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000171" type="broader">
+   <geographic>Cadeleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w403509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008951">Cadelia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w403569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008952">Cadeleye, Cadelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w403592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008953">Little Cadelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w403618">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008954">Caddeleḡ</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00190d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5443600" lat="50.8611700" gazref="geonames:2654113" source="geonames"/>
+   <geo long="-3.541681665818333" lat="50.85626565985547" gazref="unlock:11095402" source="unlock"/>
+   <geo easting="291500" northing="108500" long="-3.54316" lat="50.8658" kepnref="15842" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w403509">
+    <attestation variantID="epns-deep-09-b-name-w403509">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w403509">
+     <date end="1334" begin="1334" subtype="simple">1334</date>
+     <source style="" id="de40">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w403569">
+    <date end="1334" begin="1086">1086-1334</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w403592">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w403618">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w403509">Cadelia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w403569">Cadeleye</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w403569">Cadeleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w403569">Cadelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w403592">Little Cadelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w403618">Caddeleḡ</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000258">
+  <authority ID="epns-deep-05-b-name-subparish-000258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003261">Milby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000100" type="broader">
+   <geographic>Kirby Hill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w241925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003262">Mildebi, Mildeby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241972">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003263">Milbye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ea"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3858200" lat="54.1093000" gazref="geonames:7300768" source="geonames"/>
+   <geo long="-1.380573618218073" lat="54.10161750792225" gazref="unlock:11218882" source="unlock"/>
+   <geo easting="440500" northing="467500" long="-1.38213" lat="54.1018" kepnref="5910" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w241925">
+    <attestation variantID="epns-deep-05-b-name-w241925">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w241925">
+     <date subtype="simple" begin="1359" end="1359">1359</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241972">
+    <date subtype="simple" begin="1557" end="1557">1557</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w241925">Mildebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241925">Mildeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241972">Milbye</searchterm>
+  </extension>
+ </mads>
+ 

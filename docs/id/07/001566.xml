@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000035">
+  <authority ID="epns-deep-07-b-name-subparish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001566">Ovingdean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000035" type="broader">
+   <geographic>Ovingdean</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w107259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001567">Hovingedene, Hoingesdene</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w107293">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001568">Ouingeden(a), Ouingedene, Ouyngedene</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w107367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001569">Vuingeden</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w107386">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001570">Ovingdene</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w107405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001571">Ovyngden al. Ovenden</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w107435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001572">Offenden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0702100" lat="50.8171100" gazref="geonames:2640756" source="geonames"/>
+   <geo long="-0.0763613018915402" lat="50.81461535922293" gazref="unlock:11238041" source="unlock"/>
+   <geo easting="535500" northing="103500" long="-0.0779319" lat="50.8152" kepnref="7054" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w107259">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w107293">
+    <attestation variantID="epns-deep-07-b-name-w107293">
+     <date end="1100" begin="1087" subtype="simple">1087-1100</date>
+     <source style="italic" id="su142">Lewes</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w107293">
+     <date end="1342" begin="1342" subtype="simple">1342</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w107367">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w107386">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w107405">
+    <date end="1544" begin="1544" subtype="simple">1544</date>
+    <source style="" id="su151">LP</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w107435">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="su190">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w107259">Hovingedene</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107259">Hoingesdene</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107293">Ouingedena</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107293">Ouingeden</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107293">Ouingedene</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107293">Ouyngedene</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107367">Vuingeden</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107386">Ovingdene</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107405">Ovyngden</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107405">Ovenden</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w107435">Offenden</searchterm>
+  </extension>
+ </mads>
+ 

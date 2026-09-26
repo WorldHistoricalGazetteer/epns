@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000169">
+  <authority ID="epns-deep-04-a-name-parish-000169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004340">Oldberrow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000005" type="broader">
+   <geographic>Fishborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8344200" lat="52.2991500" gazref="geonames:7301500" source="geonames"/>
+   <geo long="-1.816725994673636" lat="52.28710423352429" gazref="unlock:11236448" source="unlock"/>
+   <geo easting="412500" northing="266500" long="-1.81812" lat="52.2965" kepnref="5342" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-w-subcounty-000002">
+  <authority ID="epns-deep-20-w-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003558">Cumberland Ward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-co-county-000001" type="broader">
+   <geographic>Cumberland</geographic>
+  </related>
+  <variant ID="epns-deep-20-w-name-w146773">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003559">the ward of Cumberland</geographic>
+  </variant>
+  <variant ID="epns-deep-20-w-name-w146805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003560">Cumbria warda</geographic>
+  </variant>
+  <variant ID="epns-deep-20-w-name-w146832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/003561">Combreland Warde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e7b47fc408f9000f91"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-20-w-name-w146773">
+    <date end="1348" begin="1348" subtype="simple">1348</date>
+    <source style="" id="cu57">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-w-name-w146805">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="cu174">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-w-name-w146832">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="" id="cu28">Border</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-w-name-w146773">the ward of Cumberland</searchterm>
+   <searchterm variantID="epns-deep-20-w-name-w146805">Cumbria warda</searchterm>
+   <searchterm variantID="epns-deep-20-w-name-w146832">Combreland Warde</searchterm>
+  </extension>
+ </mads>
+ 

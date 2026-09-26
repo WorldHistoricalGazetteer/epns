@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000330">
+  <authority ID="epns-deep-16-a-name-parish-000330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013315">Landford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000034" type="broader">
+   <geographic>Frustfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c91"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6354500" lat="50.9682700" gazref="geonames:2644966" source="geonames"/>
+   <geo long="-1.63676380536551" lat="50.97380451617251" gazref="unlock:11190967" source="unlock"/>
+   <geo easting="425500" northing="118500" long="-1.63823" lat="50.9654" kepnref="7483" source="kepn"/>
+  </extension>
+ </mads>
+ 

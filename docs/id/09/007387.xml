@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000145">
+  <authority ID="epns-deep-09-b-name-subparish-000145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007387">Stoke Gabriel</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000145" type="broader">
+   <geographic>Stoke Gabriel</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w335323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007388">Stoke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w335340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007389">Stokegabriel</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w335364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007390">Gabrielstok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w335406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007391">Gabrielestoke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w335429">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007392">Stoke Sancti Gabrielis</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a33"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6211100" lat="50.4032800" gazref="geonames:2636855" source="geonames"/>
+   <geo long="-3.625523690376524" lat="50.40540009115051" gazref="unlock:11292722" source="unlock"/>
+   <geo easting="284500" northing="57500" long="-3.62668" lat="50.406" kepnref="15816" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w335323">
+    <date end="1307" begin="1307" subtype="simple">1307</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w335340">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w335364">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="" id="de321">Exon</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w335364">
+    <date end="1356" begin="1356" subtype="simple">1356</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w335406">
+    <date end="1372" begin="1372" subtype="simple">1372</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w335429">
+    <date end="1396" begin="1396" subtype="simple">1396</date>
+    <date end="1453" begin="1453" subtype="simple">1453</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w335323">Stoke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w335340">Stokegabriel</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w335364">Gabrielstoke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w335364">Gabrielstok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w335406">Gabrielestoke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w335429">Stoke Sancti Gabrielis</searchterm>
+  </extension>
+ </mads>
+ 

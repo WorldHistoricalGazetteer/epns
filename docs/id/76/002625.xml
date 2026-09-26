@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-a-parish-000007">
+  <authority ID="epns-deep-76-a-name-parish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002625">Preston upon the Weald Moors</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-althu-subcounty-000001" type="broader">
+   <geographic>Telford New Town</geographic>
+  </related>
+  <variant ID="epns-deep-76-a-name-w119111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002626">Prestune</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002627">Preston'</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119155">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002628">Preston' in Wyldemor</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002629">Preston' sub Wyldemor</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002630">Preston' sup' Wildemor</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002631">Preston' super Le Wyldemor</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002632">Preston upon Wyldemore</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119346">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002633">Preston de Wildmore</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002634">Preston on the Wild-Moores</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119420">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002635">Preston of the Wildmore</geographic>
+  </variant>
+  <variant ID="epns-deep-76-a-name-w119453">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002636">Preston in the Wildmoors</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a605b47fc4463d000e50"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4732500" lat="52.7356700" gazref="geonames:2639900" source="geonames"/>
+   <geo long="-2.466580410513878" lat="52.7358767854372" gazref="unlock:11249941" source="unlock"/>
+   <geo easting="368500" northing="315500" long="-2.46795" lat="52.7362" kepnref="13615" source="kepn"/>
+   <attestation variantID="epns-deep-76-a-name-w119111">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ss57">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119129">
+    <attestation variantID="epns-deep-76-a-name-w119129">
+     <date end="1238" begin="1238" subtype="simple">1238</date>
+     <source style="" id="ss37">Cl</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119155">
+    <date end="1262" begin="1261" subtype="simple">1261-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119195">
+    <date end="1292" begin="1291" subtype="simple">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119229">
+    <date end="1299" begin="1294" subtype="simple">1294-9</date>
+    <source style="italic" id="ss10">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119271">
+    <date end="1306" begin="1305" subtype="simple">1305-6</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119310">
+    <date end="1392" begin="1392" subtype="simple">1392</date>
+    <source style="" id="ss214">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119346">
+    <date end="1657" begin="1657" subtype="simple">1657</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>20</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119381">
+    <date end="1709" begin="1709" subtype="simple">1709</date>
+    <source style="" id="ss231" underspec="ib">PR(L)</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119420">
+    <date end="1749" begin="1749" subtype="simple">1749</date>
+    <source style="" id="ss231" underspec="ib">PR(L)</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-a-name-w119453">
+    <date end="1782" begin="1782" subtype="simple">1782</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>14</page>
+   </attestation>
+   <searchterm variantID="epns-deep-76-a-name-w119111">Prestune</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119129">Preston'</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119155">Preston' in Wyldemor</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119195">Preston' sub Wyldemor</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119229">Preston' sup' Wildemor</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119271">Preston' super Le Wyldemor</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119310">Preston upon Wyldemore</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119346">Preston de Wildmore</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119381">Preston on the Wild-Moores</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119420">Preston of the Wildmore</searchterm>
+   <searchterm variantID="epns-deep-76-a-name-w119453">Preston in the Wildmoors</searchterm>
+  </extension>
+ </mads>
+ 

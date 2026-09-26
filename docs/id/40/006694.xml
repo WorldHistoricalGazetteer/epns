@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000054">
+  <authority ID="epns-deep-40-a-name-parish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/006694">Aust</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000010" type="broader">
+   <geographic>Henbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001900"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6151000" lat="51.5982500" gazref="geonames:2656765" source="geonames"/>
+   <geo long="-2.620873868" lat="51.59772889" source="epns"/>
+   <geo long="-2.613715631571264" lat="51.60226347856882" gazref="unlock:11065916" source="unlock"/>
+   <geo easting="357500" northing="189500" long="-2.61503" lat="51.6027" kepnref="6500" source="kepn"/>
+  </extension>
+ </mads>
+ 

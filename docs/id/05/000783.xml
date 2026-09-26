@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000084">
+  <authority ID="epns-deep-05-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000783">Grimston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000033" type="broader">
+   <geographic>Gilling</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w69177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000784">Grimeston(a), Grymeston(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.057798777215033" lat="54.17143435560404" gazref="unlock:11161366" source="unlock"/>
+   <geo easting="461500" northing="474500" long="-1.0596" lat="54.1626" kepnref="6187" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w69177">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w69177">
+    <attestation variantID="epns-deep-05-b-name-w69177">
+     <date subtype="simple" begin="1166" end="1166">1166</date>
+     <source style="" id="ny164">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w69177">Grimestona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w69177">Grimeston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w69177">Grymestona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w69177">Grymeston</searchterm>
+  </extension>
+ </mads>
+ 

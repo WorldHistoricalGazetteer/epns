@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000401">
+  <authority ID="epns-deep-05-b-name-subparish-000401">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004482">Colburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000139" type="broader">
+   <geographic>Catterick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w327890">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004483">Corburne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w327908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004484">Colebrun(n)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w327962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004485">Coleburn'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w328016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004486">Colebron</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w328034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004487">Colburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w328070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004488">Cowburne, Cowborn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000446"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6937400" lat="54.3802400" gazref="geonames:7292067" source="geonames"/>
+   <geo long="-1.68433587983516" lat="54.38143778261004" gazref="unlock:11113421" source="unlock"/>
+   <geo easting="419500" northing="499500" long="-1.7012" lat="54.3906" kepnref="6053" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w327890">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327908">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>66 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327908">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny11">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327908">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>130</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327962">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny40">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327962">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="italic" id="ny12">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w327962">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>131 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w328016">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w328034">
+    <attestation variantID="epns-deep-05-b-name-w328034">
+     <date subtype="century" begin="1200" end="1300">13</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>82</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w328070">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w328070">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w327890">Corburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w327908">Colebrunn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w327908">Colebrun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w327962">Coleburn'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w328016">Colebron</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w328034">Colburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w328034">Colburn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w328070">Cowburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w328070">Cowborn</searchterm>
+  </extension>
+ </mads>
+ 

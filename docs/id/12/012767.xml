@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000289">
+  <authority ID="epns-deep-12-a-name-parish-000289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/012767">Wix</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000014" type="broader">
+   <geographic>Tendring Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d66"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.1429600" lat="51.9123000" gazref="geonames:2633715" source="geonames"/>
+   <geo long="1.148197243307282" lat="51.91244521965906" gazref="unlock:11324769" source="unlock"/>
+   <geo easting="616500" northing="228500" long="1.14644" lat="51.9129" kepnref="12457" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000089">
+  <authority ID="epns-deep-29-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009957">Linton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000082" type="broader">
+   <geographic>Linton</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w298518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009958">(at) Lintone</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w298561">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009959">Linton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w298646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009960">Lynton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w298691">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009961">Linctune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018ad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5984200" lat="52.7475700" gazref="geonames:2644433" source="geonames"/>
+   <geo long="-1.592582317395554" lat="52.74508544211625" gazref="unlock:11195645" source="unlock"/>
+   <geo easting="427500" northing="316500" long="-1.59405" lat="52.7454" kepnref="3497" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w298518">
+    <date subtype="simple" begin="942" end="942">942</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="db393">Peniarth</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298518">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298561">
+    <date subtype="circa" begin="1115" end="1135">c. 1125</date>
+    <source style="" id="db292">LeiSur</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298561">
+    <date subtype="simple" begin="1185" end="1185">1185</date>
+    <source style="" id="db62">BurtCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298561">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298561">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298561">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298646">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="db264">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298646">
+    <attestation variantID="epns-deep-29-b-name-w298646">
+     <date subtype="simple" begin="1302" end="1302">1302</date>
+     <source style="" id="db182">FA</source>
+    </attestation>
+    <passim>to</passim>
+    <attestation variantID="epns-deep-29-b-name-w298646">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="db520">Speed</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w298691">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w298518">at Lintone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298518">Lintone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298561">Lintona</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298561">Linton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298646">Lyntona</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298646">Lynton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w298691">Linctune</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000176">
+  <authority ID="epns-deep-05-a-name-parish-000176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005671">Wycliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000013" type="broader">
+   <geographic>Gilling West Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003e1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8182400" lat="54.5227800" gazref="geonames:2633463" source="geonames"/>
+   <geo long="-1.82229738153567" lat="54.52552839931442" gazref="unlock:11327782" source="unlock"/>
+   <geo easting="411500" northing="514500" long="-1.82382" lat="54.5257" kepnref="6169" source="kepn"/>
+  </extension>
+ </mads>
+ 

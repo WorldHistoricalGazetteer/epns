@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000038">
+  <authority ID="epns-deep-05-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000350">Stillington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000015" type="broader">
+   <geographic>Stillington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w27365">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000351">Stiuelinctun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w27387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000352">Stiuelinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w27408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000353">Stiuil(l)ington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w27441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000354">Stivelington(e), Styvelington(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w27513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000355">Stillyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005b8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1166700" lat="54.1000000" gazref="geonames:2636916" source="geonames"/>
+   <geo long="-1.10530437722385" lat="54.09988581548671" gazref="unlock:11292089" source="unlock"/>
+   <geo easting="458500" northing="467500" long="-1.10689" lat="54.1001" kepnref="5689" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w27365">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27387">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27408">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27408">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27441">
+    <attestation variantID="epns-deep-05-b-name-w27441">
+     <date subtype="simple" begin="1280" end="1280">1280</date>
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w27441">
+     <date subtype="simple" begin="1351" end="1351">1351</date>
+     <source style="" id="ny165">Pap</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27513">
+    <date subtype="simple" begin="1371" end="1371">1371</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w27513">
+    <date subtype="simple" begin="1442" end="1442">1442</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w27365">Stiuelinctun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27387">Stiuelinton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27408">Stiuillington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27408">Stiuilington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27441">Stivelingtone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27441">Stivelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27441">Styvelingtone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27441">Styvelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w27513">Stillyngton</searchterm>
+  </extension>
+ </mads>
+ 

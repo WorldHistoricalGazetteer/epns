@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000029">
+  <authority ID="epns-deep-31-b-name-subparish-000029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002189">Askern</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000008" type="broader">
+   <geographic>Campsall</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w97851">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002190">Askern(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w97963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002191">Haskerne</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w97982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/002192">Askarn(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1523700" lat="53.6163900" gazref="geonames:2656907" source="geonames"/>
+   <geo long="-1.153478866" lat="53.6103202" source="epns"/>
+   <geo long="-1.160946843039423" lat="53.61486883122769" gazref="unlock:11064840" source="unlock"/>
+   <geo easting="456500" northing="413500" long="-1.14739" lat="53.615" kepnref="14421" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="" id="wr489">Pont</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="simple" begin="1192" end="1210">1192-1210</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="wr436">OblR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97851">
+    <attestation variantID="epns-deep-31-b-name-w97851">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="wr2">Abbr</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w97851">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97963">
+    <date subtype="simple" begin="1196" end="1196">1196</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97982">
+    <date subtype="simple" begin="1488" end="1488">1488</date>
+    <source style="" id="wr294">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w97982">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <date subtype="simple" begin="1598" end="1598">1598</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w97851">Askerne</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w97851">Askern</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w97963">Haskerne</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w97982">Askarne</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w97982">Askarn</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000016">
+  <authority ID="epns-deep-27-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001689">Castleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0016e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7750600" lat="53.3431200" gazref="geonames:2653543" source="geonames"/>
+   <geo long="-1.76718755757829" lat="53.33890831033953" gazref="unlock:11101380" source="unlock"/>
+   <geo easting="415500" northing="382500" long="-1.76866" lat="53.3392" kepnref="3217" source="kepn"/>
+  </extension>
+ </mads>
+ 

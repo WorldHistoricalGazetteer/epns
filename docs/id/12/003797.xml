@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000067">
+  <authority ID="epns-deep-12-a-name-parish-000067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003797">Brentwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000006" type="broader">
+   <geographic>Chafford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bd1"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3055600" lat="51.6212700" gazref="geonames:2654782" source="geonames"/>
+   <geo long="0.318560857139449" lat="51.61694059654697" gazref="unlock:11086494" source="unlock"/>
+   <geo easting="559500" northing="193500" long="0.302481" lat="51.6177" kepnref="12256" source="kepn"/>
+  </extension>
+ </mads>
+ 

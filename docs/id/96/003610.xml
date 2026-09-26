@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000077">
+  <authority ID="epns-deep-96-a-name-parish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/003610">Great Wilbraham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000008" type="broader">
+   <geographic>Staine Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006f7"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2669800" lat="52.1934600" gazref="geonames:2647992" source="geonames"/>
+   <geo long="0.2606581431054306" lat="52.19365780099906" gazref="unlock:11159372" source="unlock"/>
+   <geo easting="555500" northing="257500" long="0.27361" lat="52.1938" kepnref="4038" source="kepn"/>
+  </extension>
+ </mads>
+ 

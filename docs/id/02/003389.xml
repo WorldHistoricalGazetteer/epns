@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000166">
+  <authority ID="epns-deep-02-a-name-parish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003389">Fawley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000016" type="broader">
+   <geographic>Desborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000274"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9104100" lat="51.5764300" gazref="geonames:2649616" source="geonames"/>
+   <geo long="-0.910470193341966" lat="51.57183332541239" gazref="unlock:11142521" source="unlock"/>
+   <geo easting="475500" northing="186500" long="-0.911976" lat="51.5723" kepnref="11362" source="kepn"/>
+  </extension>
+ </mads>
+ 

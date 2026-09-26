@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000105">
+  <authority ID="epns-deep-07-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005601">Westham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000106" type="broader">
+   <geographic>Westham</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w341584">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005602">Westham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w341624">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005603">Westhamme</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w341666">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005604">Westhamme juxta Pevenese</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000db0"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3039000" lat="50.8206800" gazref="geonames:7300483" source="geonames"/>
+   <geo long="0.321270548713868" lat="50.81637381265735" gazref="unlock:11318721" source="unlock"/>
+   <geo easting="564500" northing="104500" long="0.333838" lat="50.8167" kepnref="7121" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w341584">
+    <date end="1222" begin="1222" subtype="simple">1222</date>
+    <source style="" id="su30">Bracton</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w341584">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w341584">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w341624">
+    <attestation variantID="epns-deep-07-b-name-w341624">
+     <date end="1252" begin="1252" subtype="simple">1252</date>
+     <source style="" id="su37">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w341624">
+     <date end="1391" begin="1391" subtype="simple">1391</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w341666">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="" id="su194">Orig</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w341584">Westham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w341624">Westhamme</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w341666">Westhamme juxta Pevenese</searchterm>
+  </extension>
+ </mads>
+ 

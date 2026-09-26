@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000152">
+  <authority ID="epns-deep-47-b-name-subparish-000152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013414">Bidston cum Ford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000048" type="broader">
+   <geographic>Bidston</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w744343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013415">Bidston cum Ford</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w744375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/013416">Budeston cum le Forde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f6c"/>
+  </recordInfo>
+  <extension>
+   <geo easting="328500" northing="390500" long="-3.07697" lat="53.4065" kepnref="12172" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w744343">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w744375">
+    <date end="1385" begin="1385" subtype="simple">1385</date>
+    <source style="italic" id="ch110">ChFor</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w744343">Bidston cum Ford</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w744375">Budeston cum le Forde</searchterm>
+  </extension>
+ </mads>
+ 

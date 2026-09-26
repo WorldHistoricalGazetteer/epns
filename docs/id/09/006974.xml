@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000135">
+  <authority ID="epns-deep-09-b-name-subparish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006974">Cockington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000135" type="broader">
+   <geographic>Cockington</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w316123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006975">Chochintona</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w316151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006976">Cochintone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w316170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006977">Kokington</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w316228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006978">Cokington, Kokinton, Chochington, Kokyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00192a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.556951561148796" lat="50.46030685494559" gazref="unlock:11111597" source="unlock"/>
+   <geo easting="289500" northing="63500" long="-3.55812" lat="50.4609" kepnref="15806" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w316123">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w316151">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w316170">
+    <attestation variantID="epns-deep-09-b-name-w316170">
+     <date end="1190" begin="1170" subtype="circa">c. 1180</date>
+     <source style="" id="de174">Oliver</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w316228">
+    <date end="1600" begin="1170">c. 1180-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w316123">Chochintona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316151">Cochintone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316170">Kokington</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316228">Cokington</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316228">Kokinton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316228">Chochington</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w316228">Kokyngton</searchterm>
+  </extension>
+ </mads>
+ 

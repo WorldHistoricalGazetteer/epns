@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000075">
+  <authority ID="epns-deep-14-a-name-parish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002999">Weaverthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000003" type="broader">
+   <geographic>Buckrose Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d00042d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5241300" lat="54.1243700" gazref="geonames:2634621" source="geonames"/>
+   <geo long="-0.5233478716041491" lat="54.12111975024933" gazref="unlock:11315209" source="unlock"/>
+   <geo easting="496500" northing="470500" long="-0.525007" lat="54.1213" kepnref="8515" source="kepn"/>
+  </extension>
+ </mads>
+ 

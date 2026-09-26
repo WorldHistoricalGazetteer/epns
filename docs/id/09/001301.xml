@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000027">
+  <authority ID="epns-deep-09-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001301">Down St Mary</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000027" type="broader">
+   <geographic>Down St Mary</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w62245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001302">Dona</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w62259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001303">Doune</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w62276">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001304">Doune Sancte Marie</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001948"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.782091201270173" lat="50.82585830932941" gazref="unlock:11131285" source="unlock"/>
+   <geo easting="274500" northing="104500" long="-3.78324" lat="50.8264" kepnref="15694" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w62245">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w62259">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w62276">
+    <date end="1394" begin="1394" subtype="simple">1394</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w62245">Dona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w62259">Doune</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w62276">Doune Sancte Marie</searchterm>
+  </extension>
+ </mads>
+ 

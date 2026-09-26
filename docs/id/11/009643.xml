@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000123">
+  <authority ID="epns-deep-11-a-name-parish-000123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009643">Gatton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000013" type="broader">
+   <geographic>Reigate Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a32"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1721100" lat="51.2635000" gazref="geonames:2648769" source="geonames"/>
+   <geo long="-0.1722670813402464" lat="51.26586614863471" gazref="unlock:11151173" source="unlock"/>
+   <geo easting="527500" northing="152500" long="-0.174201" lat="51.2574" kepnref="8363" source="kepn"/>
+  </extension>
+ </mads>
+ 

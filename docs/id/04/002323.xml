@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000089">
+  <authority ID="epns-deep-04-a-name-parish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002323">Wyre Piddle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b000531"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0524600" lat="52.1252700" gazref="geonames:7299701" source="geonames"/>
+   <geo long="-2.051130741226637" lat="52.12538965566945" gazref="unlock:11327991" source="unlock"/>
+   <geo easting="396500" northing="247500" long="-2.05253" lat="52.1258" kepnref="5285" source="kepn"/>
+  </extension>
+ </mads>
+ 

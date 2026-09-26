@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000106">
+  <authority ID="epns-deep-05-a-name-parish-000106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003441">Thirkleby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000007" type="broader">
+   <geographic>Birdforth Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003d0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2666700" lat="54.2000000" gazref="geonames:2636026" source="geonames"/>
+   <geo long="-1.271787965436552" lat="54.19988426532287" gazref="unlock:11159294" source="unlock"/>
+   <geo easting="447500" northing="478500" long="-1.27336" lat="54.2001" kepnref="5930" source="kepn"/>
+  </extension>
+ </mads>
+ 

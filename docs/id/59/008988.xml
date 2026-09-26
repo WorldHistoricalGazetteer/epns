@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-a-parish-000031">
+  <authority ID="epns-deep-59-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008988">Okeford Fitzpaine</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000003" type="broader">
+   <geographic>Sturminster Newton Hinton Street</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a2f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2895100" lat="50.9000600" gazref="geonames:7293399" source="geonames"/>
+   <geo long="-2.274460206" lat="50.89580373" source="epns"/>
+   <geo long="-2.277288374379913" lat="50.89309951941158" gazref="unlock:11235274" source="unlock"/>
+   <geo easting="380500" northing="110500" long="-2.27861" lat="50.8937" kepnref="11619" source="kepn"/>
+  </extension>
+ </mads>
+ 

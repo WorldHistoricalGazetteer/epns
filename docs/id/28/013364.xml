@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000077">
+  <authority ID="epns-deep-28-a-name-parish-000077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/013364">Kirk Ireton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000002" type="broader">
+   <geographic>Wirksworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c001757"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6030600" lat="53.0478500" gazref="geonames:2645260" source="geonames"/>
+   <geo long="-1.604624864937645" lat="53.05080090915746" gazref="unlock:11187738" source="unlock"/>
+   <geo easting="426500" northing="350500" long="-1.60611" lat="53.0511" kepnref="3353" source="kepn"/>
+  </extension>
+ </mads>
+ 

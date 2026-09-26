@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-li-liberty-000001">
+  <authority ID="epns-deep-59-li-name-liberty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000043">Stour Provost Liberty</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-hu-subcounty-000001" type="broader">
+   <geographic>Redlane Hundred and Gillingham Liberty</geographic>
+  </related>
+  <variant ID="epns-deep-59-li-name-w3152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000044">liberty of Stowre Preaux</geographic>
+  </variant>
+  <variant ID="epns-deep-59-li-name-w3199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/000045">Liberty of Stowre Provost</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285020b47fc4099d000018"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-59-li-name-w3152">
+    <date end="1592" begin="1592" subtype="simple">1592</date>
+    <source style="" id="do726">VCHDo</source>
+    <item>(2 146)</item>
+   </attestation>
+   <attestation variantID="epns-deep-59-li-name-w3199">
+    <date end="1664" begin="1664" subtype="simple">1664</date>
+    <source style="" id="do356">HTax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-59-li-name-w3152">liberty of Stowre Preaux</searchterm>
+   <searchterm variantID="epns-deep-59-li-name-w3199">Liberty of Stowre Provost</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000421">
+  <authority ID="epns-deep-05-b-name-subparish-000421">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004717">West Scrafton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000145" type="broader">
+   <geographic>Coverham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w344207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004718">Scraftun, Skraftun, Skrafton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w344255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004719">West Skrafton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w344278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004720">Scalftun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000454"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8890100" lat="54.2482100" gazref="geonames:2634270" source="geonames"/>
+   <geo long="-1.884889196031381" lat="54.24697181403359" gazref="unlock:11317601" source="unlock"/>
+   <geo easting="407500" northing="483500" long="-1.88639" lat="54.2471" kepnref="6074" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w344207">
+    <attestation variantID="epns-deep-05-b-name-w344207">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w344255">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w344278">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w344207">Scraftun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344207">Skraftun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344207">Skrafton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344255">West Skrafton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w344278">Scalftun</searchterm>
+  </extension>
+ </mads>
+ 

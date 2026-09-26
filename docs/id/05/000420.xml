@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000021">
+  <authority ID="epns-deep-05-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000420">Sheriff Hutton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000001" type="broader">
+   <geographic>Bulmer Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0063900" lat="54.0890400" gazref="geonames:2638021" source="geonames"/>
+   <geo long="-0.9984804095157817" lat="54.09005517273039" gazref="unlock:11282511" source="unlock"/>
+   <geo easting="465500" northing="466500" long="-1.00008" lat="54.0903" kepnref="5695" source="kepn"/>
+  </extension>
+ </mads>
+ 

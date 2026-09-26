@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000046">
+  <authority ID="epns-deep-05-b-name-subparish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000445">West Lilling, East Lilling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000021" type="broader">
+   <geographic>Sheriff Hutton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w36053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000446">Lilinge, Lilinga</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w36079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000447">Lilling(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w36121">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000448">West Lillinge</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w36146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000449">Estlillyng</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600059d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.013981363181745" lat="54.08119420042922" gazref="unlock:11317228" source="unlock"/>
+   <geo easting="464500" northing="465500" long="-1.01558" lat="54.0814" kepnref="5696" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w36053">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w36079">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w36079">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w36079">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w36121">
+    <date subtype="simple" begin="1282" end="1282">1282</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w36146">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w36053">Lilinge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w36053">Lilinga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w36079">Lillinga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w36079">Lilling</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w36121">West Lillinge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w36146">Estlillyng</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000046">West Lilling</searchterm>
+   <searchterm madsID="epns-deep-05-b-subparish-000046">East Lilling</searchterm>
+  </extension>
+ </mads>
+ 

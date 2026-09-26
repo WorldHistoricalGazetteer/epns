@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000084">
+  <authority ID="epns-deep-06-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002696">Arundel</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000010" type="broader">
+   <geographic>Avisford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b2f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5539300" lat="50.8542300" gazref="geonames:2656997" source="geonames"/>
+   <geo long="-0.5577468418362307" lat="50.85753692659657" gazref="unlock:11064033" source="unlock"/>
+   <geo easting="501500" northing="107500" long="-0.559265" lat="50.8581" kepnref="6946" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000508">
+  <authority ID="epns-deep-05-b-name-subparish-000508">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005631">Forcett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000173" type="broader">
+   <geographic>Forcett</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w397092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005632">Forset(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005633">Forset(a) in Richemundshyr</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005634">Forsed</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005635">Forseth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w397236">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005636">Forsett(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600048c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7300000" lat="54.5068300" gazref="geonames:2649240" source="geonames"/>
+   <geo long="-1.729702638865264" lat="54.50738097809441" gazref="unlock:11146299" source="unlock"/>
+   <geo easting="417500" northing="512500" long="-1.73123" lat="54.5075" kepnref="6161" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w397092">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397111">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny78">Godr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397111">
+    <attestation variantID="epns-deep-05-b-name-w397111">
+     <date subtype="simple" begin="1176" end="1176">1176</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w397111">
+     <date subtype="simple" begin="1367" end="1367">1367</date>
+     <source style="italic" id="ny68">ForP</source>
+     <page>413 d</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397191">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397207">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397207">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w397236">
+    <attestation variantID="epns-deep-05-b-name-w397236">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w397236">
+     <date subtype="simple" begin="1519" end="1519">1519</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w397092">Forseta</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397092">Forset</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397111">Forseta in Richemundshyr</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397111">Forset in Richemundshyr</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397191">Forsed</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397207">Forsethe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397207">Forseth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397236">Forsette</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w397236">Forsett</searchterm>
+  </extension>
+ </mads>
+ 

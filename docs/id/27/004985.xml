@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000043">
+  <authority ID="epns-deep-27-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004985">Hathersage</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c001734"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6539800" lat="53.3303000" gazref="geonames:2647338" source="geonames"/>
+   <geo long="-1.647102577240667" lat="53.32962385597636" gazref="unlock:11167248" source="unlock"/>
+   <geo easting="423500" northing="381500" long="-1.64859" lat="53.3299" kepnref="3246" source="kepn"/>
+  </extension>
+ </mads>
+ 

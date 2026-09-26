@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol66mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-66-a-parish-000014">
+  <authority ID="epns-deep-66-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/66/005617">West Rasen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-66-wp-subcounty-000001" type="broader">
+   <geographic>Walshcroft Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f62"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4042700" lat="53.3896000" gazref="geonames:2634287" source="geonames"/>
+   <geo long="-0.398330074601429" lat="53.39131996271463" gazref="unlock:11317555" source="unlock"/>
+   <geo easting="506500" northing="389500" long="-0.399971" lat="53.3916" kepnref="10779" source="kepn"/>
+  </extension>
+ </mads>
+ 

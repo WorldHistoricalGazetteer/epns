@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000092">
+  <authority ID="epns-deep-82-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015373">Moston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000027" type="broader">
+   <geographic>Stanton upon Hine Heath</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w597658">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015374">Mostune</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w597707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015375">Moston', Moston</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w597724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/015376">Mosseton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a649b47fc4463d000f3e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.651714732" lat="52.83390067" source="epns"/>
+   <geo long="-2.645777161318507" lat="52.83393416081142" gazref="unlock:11223667" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w597658">
+    <attestation variantID="epns-deep-82-b-name-w597658">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ss57">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w597707">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w597724">
+    <date end="1520" begin="1520" subtype="simple">1520</date>
+    <source style="" id="ss4">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w597658">Mostune</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w597707">Moston'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w597707">Moston</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w597724">Mosseton</searchterm>
+  </extension>
+ </mads>
+ 

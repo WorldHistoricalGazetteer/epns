@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000154">
+  <authority ID="epns-deep-09-b-name-subparish-000154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007899">Hockworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000154" type="broader">
+   <geographic>Hockworthy</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w356585">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007900">Hocoorda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w356610">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007901">Hocheorde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w356628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007902">Hockeworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w356702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007903">Hokkeworthy</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w356715">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007904">Ockewrthy</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00197f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3689800" lat="50.9667300" gazref="geonames:2646811" source="geonames"/>
+   <geo long="-3.374402958116177" lat="50.96628309125803" gazref="unlock:11176204" source="unlock"/>
+   <geo easting="303500" northing="119500" long="-3.37561" lat="50.9668" kepnref="15825" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w356585">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w356610">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w356628">
+    <attestation variantID="epns-deep-09-b-name-w356628">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="italic" id="de31">Canonsleigh</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w356628">
+     <date end="1378" begin="1378" subtype="simple">1378</date>
+     <source style="" id="de112">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w356702">
+    <date end="1378" begin="1100">12th-1378</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w356715">
+    <date end="1282" begin="1282" subtype="simple">1282</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w356585">Hocoorda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w356610">Hocheorde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w356628">Hockeworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w356702">Hokkeworthy</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w356715">Ockewrthy</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000114">
+  <authority ID="epns-deep-17-b-name-subparish-000114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005019">Lenton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000119" type="broader">
+   <geographic>Lenton</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w249733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005020">Lentone, Lentune</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w249794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005021">Lenton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w249802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005022">Lentun</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w249831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005023">Lemtona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd40008b4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.173876332383962" lat="52.94969443938842" gazref="unlock:11194055" source="unlock"/>
+   <geo easting="455500" northing="339500" long="-1.17541" lat="52.95" kepnref="25" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w249733">
+    <attestation variantID="epns-deep-17-b-name-w249733">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="ns65">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w249794">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w249802">
+    <date end="1185" begin="1165" subtype="circa">c. 1175</date>
+    <source style="" id="ns300">Wollaton</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w249831">
+    <date end="1113" begin="1107" subtype="simple">1107-13</date>
+    <source style="" id="ns188">NthFacs</source>
+    <item>lxiii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w249733">Lentone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w249733">Lentune</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w249794">Lenton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w249802">Lentun</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w249831">Lemtona</searchterm>
+  </extension>
+ </mads>
+ 

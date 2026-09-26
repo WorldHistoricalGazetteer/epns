@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000146">
+  <authority ID="epns-deep-13-a-name-parish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006178">Whitnash</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Stoneleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5218600" lat="52.2704700" gazref="geonames:2634026" source="geonames"/>
+   <geo long="-1.523688015944286" lat="52.26830315244024" gazref="unlock:11322095" source="unlock"/>
+   <geo easting="432500" northing="263500" long="-1.52515" lat="52.2687" kepnref="5045" source="kepn"/>
+  </extension>
+ </mads>
+ 

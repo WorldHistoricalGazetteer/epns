@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000035">
+  <authority ID="epns-deep-81-a-name-parish-000035">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/014272">Tilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010fb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9032000" lat="52.6434300" gazref="geonames:2635809" source="geonames"/>
+   <geo long="-0.8988555338008846" lat="52.64177132094039" gazref="unlock:11301206" source="unlock"/>
+   <geo easting="474500" northing="305500" long="-0.900405" lat="52.6421" kepnref="8834" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000052">
+  <authority ID="epns-deep-08-b-name-subparish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002825">Peters Marland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000052" type="broader">
+   <geographic>Peters Marland</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w147740">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002826">Mirlanda</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147758">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002827">Merlanda</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147779">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002828">Petermerland</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002829">Merlond(e) Sancti Petri</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w147863">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002830">Petrysmerlond</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1653800" lat="50.9002400" gazref="geonames:2640346" source="geonames"/>
+   <geo long="-4.168973601981959" lat="50.90025889859896" gazref="unlock:11244588" source="unlock"/>
+   <geo easting="247500" northing="113500" long="-4.17008" lat="50.9008" kepnref="15509" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w147740">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147758">
+    <date end="1184" begin="1184" subtype="simple">1184</date>
+    <source style="" id="de181">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147779">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>788</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147807">
+    <date end="1244" begin="1244" subtype="simple">1244</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147807">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147807">
+    <date end="1431" begin="1431" subtype="simple">1431</date>
+    <source style="" id="de112">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w147863">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w147740">Mirlanda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147758">Merlanda</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147779">Petermerland</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147807">Merlonde Sancti Petri</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147807">Merlond Sancti Petri</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w147863">Petrysmerlond</searchterm>
+  </extension>
+ </mads>
+ 

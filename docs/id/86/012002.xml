@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000054">
+  <authority ID="epns-deep-86-a-name-parish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/012002">Stockwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000005" type="broader">
+   <geographic>Yetminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a59"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5869500" lat="50.8698500" gazref="geonames:7293437" source="geonames"/>
+   <geo long="-2.582600135" lat="50.85959779" source="epns"/>
+   <geo long="-2.589659414647881" lat="50.85596540176937" gazref="unlock:11292631" source="unlock"/>
+   <geo easting="358500" northing="107500" long="-2.59106" lat="50.8655" kepnref="11621" source="kepn"/>
+  </extension>
+ </mads>
+ 

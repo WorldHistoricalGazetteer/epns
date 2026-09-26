@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000074">
+  <authority ID="epns-deep-08-b-name-subparish-000074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003804">Great Torrington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000074" type="broader">
+   <geographic>Great Torrington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w194822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003805">Tori(n)tona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w194887">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003806">Toryton, Thorinton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w194907">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003807">Tirinton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w194928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003808">Thorich</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w194945">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003809">Chippingtoriton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w194971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003810">Chepingtoryton juxta Were Giffard</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w195017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003811">Torytone Magna</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w195043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003812">Turytone magna</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w195071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003813">Mochel Torynton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00196c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1440100" lat="50.9530900" gazref="geonames:2648004" source="geonames"/>
+   <geo long="-4.143026723325795" lat="50.9547063391849" gazref="unlock:11159309" source="unlock"/>
+   <geo easting="249500" northing="119500" long="-4.14414" lat="50.9552" kepnref="15531" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w194822">
+    <attestation variantID="epns-deep-08-b-name-w194822">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w194822">
+     <date end="1246" begin="1246" subtype="simple">1246</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w194887">
+    <date end="1246" begin="1086">1086-1246</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w194907">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <source style="" id="de22">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w194928">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w194945">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w194971">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w195017">
+    <date end="1366" begin="1366" subtype="simple">1366</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w195043">
+    <date end="1370" begin="1370" subtype="simple">1370</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w195071">
+    <date end="1443" begin="1443" subtype="simple">1443</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w194822">Torintona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194822">Toritona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194887">Toryton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194887">Thorinton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194907">Tirinton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194928">Thorich</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194945">Chippingtoriton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w194971">Chepingtoryton juxta Were Giffard</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w195017">Torytone Magna</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w195043">Turytone magna</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w195071">Mochel Torynton</searchterm>
+  </extension>
+ </mads>
+ 

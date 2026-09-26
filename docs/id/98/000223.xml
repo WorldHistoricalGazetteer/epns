@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000013">
+  <authority ID="epns-deep-98-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000223">Milton Ernest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000013" type="broader">
+   <geographic>Milton Ernest</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w19390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000224">Mildentone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w19410">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000225">Middeltone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w19454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000226">Milton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000382"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5114000" lat="52.1930200" gazref="geonames:2642467" source="geonames"/>
+   <geo long="-0.5147863539790726" lat="52.19697722175988" gazref="unlock:11220264" source="unlock"/>
+   <geo easting="501500" northing="256500" long="-0.516363" lat="52.1974" kepnref="4234" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w19390">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w19410">
+    <attestation variantID="epns-deep-98-b-name-w19410">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>and passim to</passim>
+    <attestation variantID="epns-deep-98-b-name-w19410">
+     <date subtype="simple" begin="1372" end="1372">1372</date>
+     <source style="" id="bh94">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w19454">
+    <date subtype="simple" begin="1372" end="1372">1372</date>
+    <source style="" id="bh94">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w19390">Mildentone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w19410">Middeltone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w19454">Milton</searchterm>
+  </extension>
+ </mads>
+ 

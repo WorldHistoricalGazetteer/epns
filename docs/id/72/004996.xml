@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000027">
+  <authority ID="epns-deep-72-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/004996">Ludham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d35"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.5350800" lat="52.7098800" gazref="geonames:2643426" source="geonames"/>
+   <geo long="1.523516749" lat="52.70689858" source="epns"/>
+   <geo long="1.531267512761817" lat="52.7111663428314" gazref="unlock:11209424" source="unlock"/>
+   <geo easting="638500" northing="318500" long="1.52943" lat="52.7116" kepnref="9465" source="kepn"/>
+  </extension>
+ </mads>
+ 

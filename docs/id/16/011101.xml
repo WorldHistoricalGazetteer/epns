@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000269">
+  <authority ID="epns-deep-16-a-name-parish-000269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011101">Rushall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000028" type="broader">
+   <geographic>Swanborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000ce3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8166700" lat="51.2833300" gazref="geonames:2638951" source="geonames"/>
+   <geo long="-1.820692000590201" lat="51.29798246946907" gazref="unlock:11275492" source="unlock"/>
+   <geo easting="412500" northing="155500" long="-1.82208" lat="51.2985" kepnref="7422" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000133">
+  <authority ID="epns-deep-96-a-name-parish-000133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/005582">Kennett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000014" type="broader">
+   <geographic>Staploe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00070a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4875600" lat="52.2849600" gazref="geonames:2645806" source="geonames"/>
+   <geo long="0.4854437737741395" lat="52.28806307356297" gazref="unlock:11185172" source="unlock"/>
+   <geo easting="569500" northing="268500" long="0.483748" lat="52.2885" kepnref="4092" source="kepn"/>
+  </extension>
+ </mads>
+ 

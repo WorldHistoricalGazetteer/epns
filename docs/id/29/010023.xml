@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000092">
+  <authority ID="epns-deep-29-b-name-subparish-000092">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010023">Melbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000085" type="broader">
+   <geographic>Melbourne</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w300829">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010024">Mileburne</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w300852">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010025">Mel(e)burna, Mel(e)burn(e), Mel(e)born', Mel(e)bourn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w300983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/010026">Melleburna, Melleburn(e), Melleborn(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4252200" lat="52.8219000" gazref="geonames:2642801" source="geonames"/>
+   <geo long="-1.428563788648277" lat="52.82532466909367" gazref="unlock:11216841" source="unlock"/>
+   <geo easting="438500" northing="325500" long="-1.43006" lat="52.8257" kepnref="3500" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w300829">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300852">
+    <date subtype="regnal" begin="1154" end="1189">e. Hy 2</date>
+    <source style="italic" id="db8">AddCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300852">
+    <attestation variantID="epns-deep-29-b-name-w300852">
+     <date subtype="simple" begin="1163" end="1163">1163</date>
+     <date subtype="simple" begin="1164" end="1164">1164</date>
+     <date subtype="simple" begin="1165" end="1165">1165</date>
+     <date subtype="simple" begin="1166" end="1166">1166</date>
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <date subtype="simple" begin="1168" end="1168">1168</date>
+     <date subtype="simple" begin="1169" end="1169">1169</date>
+     <date subtype="simple" begin="1170" end="1170">1170</date>
+     <source style="" id="db379">P</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300983">
+    <date subtype="circa" begin="1180" end="1200">c. 1190</date>
+    <source style="" id="db123">Danelaw</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300983">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="db205">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300983">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300983">
+    <date subtype="simple" begin="1233" end="1252">1233-52</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w300983">
+    <attestation variantID="epns-deep-29-b-name-w300983">
+     <date subtype="simple" begin="1251" end="1251">1251</date>
+     <date subtype="simple" begin="1252" end="1252">1252</date>
+     <source style="" id="db86">Cl</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-29-b-name-w300983">
+     <date subtype="simple" begin="1330" end="1330">1330</date>
+     <source style="" id="db449">QW</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w300829">Mileburne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Meleburna</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melburna</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Meleburne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Meleburn</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melburne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melburn</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Meleborn'</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melborn'</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melebourne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melebourn</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melbourne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300852">Melbourn</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300983">Melleburna</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300983">Melleburne</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300983">Melleburn</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300983">Melleborna</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w300983">Melleborn</searchterm>
+  </extension>
+ </mads>
+ 

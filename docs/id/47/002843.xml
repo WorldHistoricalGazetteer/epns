@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-a-parish-000004">
+  <authority ID="epns-deep-47-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/002843">Threapwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-hu-subcounty-000001" type="broader">
+   <geographic>Broxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f1e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8333300" lat="53.0000000" gazref="geonames:2635936" source="geonames"/>
+   <geo long="-2.827153016612874" lat="53.00363035235551" gazref="unlock:11310526" source="unlock"/>
+   <geo easting="344500" northing="345500" long="-2.82849" lat="53.0039" kepnref="12046" source="kepn"/>
+  </extension>
+ </mads>
+ 

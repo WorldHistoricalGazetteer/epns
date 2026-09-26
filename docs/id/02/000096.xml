@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000004">
+  <authority ID="epns-deep-02-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000096">Haversham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000001" type="broader">
+   <geographic>Bunsty Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300028c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7922200" lat="52.0784000" gazref="geonames:2647306" source="geonames"/>
+   <geo long="-0.7958882902470785" lat="52.0832846622841" gazref="unlock:11167567" source="unlock"/>
+   <geo easting="482500" northing="243500" long="-0.797427" lat="52.0837" kepnref="11197" source="kepn"/>
+  </extension>
+ </mads>
+ 

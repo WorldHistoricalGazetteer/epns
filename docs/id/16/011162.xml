@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000235">
+  <authority ID="epns-deep-16-b-name-subparish-000235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011162">Wilcot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000272" type="broader">
+   <geographic>Wilcot</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w548270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011163">(æt) Wilcotum</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w548297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011164">Wilcote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w548348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011165">Wylecote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w548395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011166">Wilecote</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w548425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/011167">Welcot(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e6f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7957500" lat="51.3490900" gazref="geonames:2633921" source="geonames"/>
+   <geo long="-1.791799451286274" lat="51.34289866041502" gazref="unlock:11322852" source="unlock"/>
+   <geo easting="414500" northing="160500" long="-1.7932" lat="51.3434" kepnref="7425" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w548270">
+    <date subtype="simple" begin="940" end="940">940</date>
+    <source style="" id="ws25">BCS</source>
+    <item>748</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548297">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548297">
+    <attestation variantID="epns-deep-16-b-name-w548297">
+     <date subtype="simple" begin="1189" end="1189">1189</date>
+     <source style="" id="ws333">WM</source>
+     <item>xvi</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w548297">
+     <date subtype="simple" begin="1341" end="1341">1341</date>
+     <source style="" id="ws208">NI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548348">
+    <date subtype="simple" begin="1268" end="1268">1268</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548348">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ws312">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548348">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548348">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548395">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ws280">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548395">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w548425">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="italic" id="ws19" underspec="ib">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w548270">æt Wilcotum</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548270">Wilcotum</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548297">Wilcote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548348">Wylecote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548395">Wilecote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548425">Welcote</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w548425">Welcot</searchterm>
+  </extension>
+ </mads>
+ 

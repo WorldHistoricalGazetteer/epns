@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000106">
+  <authority ID="epns-deep-06-a-name-parish-000106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003350">Angmering</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000012" type="broader">
+   <geographic>Poling Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b2b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4835700" lat="50.8293600" gazref="geonames:2657308" source="geonames"/>
+   <geo long="-0.4875981305556956" lat="50.82966637010045" gazref="unlock:11062531" source="unlock"/>
+   <geo easting="507500" northing="104500" long="-0.474929" lat="50.8301" kepnref="6968" source="kepn"/>
+  </extension>
+ </mads>
+ 

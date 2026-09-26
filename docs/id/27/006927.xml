@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-a-parish-000055">
+  <authority ID="epns-deep-27-a-name-parish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/006927">Little Longstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-hu-subcounty-000001" type="broader">
+   <geographic>High Peak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c00175e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7297300" lat="53.2467200" gazref="geonames:7298152" source="geonames"/>
+   <geo long="-1.722768498838898" lat="53.2399254558684" gazref="unlock:11196674" source="unlock"/>
+   <geo easting="418500" northing="371500" long="-1.72425" lat="53.2402" kepnref="3258" source="kepn"/>
+  </extension>
+ </mads>
+ 

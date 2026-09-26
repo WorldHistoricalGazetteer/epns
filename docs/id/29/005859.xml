@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000043">
+  <authority ID="epns-deep-29-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005859">Marston on Dove</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000040" type="broader">
+   <geographic>Marston on Dove</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w176297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005860">Merstun</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w176314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005861">Merstona, Merston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w176449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005862">Merston(e) by Tuttebury</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w176489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005863">Merschton</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w176509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/005864">Marston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018bc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6460200" lat="52.8673800" gazref="geonames:7300220" source="geonames"/>
+   <geo long="-1.650907038168795" lat="52.86214874455801" gazref="unlock:11214289" source="unlock"/>
+   <geo easting="423500" northing="329500" long="-1.65238" lat="52.8625" kepnref="3457" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w176297">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176314">
+    <date subtype="simple" begin="1075" end="1100">late 11th</date>
+    <date subtype="circa" begin="1131" end="1151">c. 1141</date>
+    <date subtype="simple" begin="1162" end="1162">1162</date>
+    <source style="italic" id="db561">Tutbury</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176314">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="italic" id="db244">HarlCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176314">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="italic" id="db561">Tutbury</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176314">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176314">
+    <attestation variantID="epns-deep-29-b-name-w176314">
+     <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+     <source style="italic" id="db589">WollCh</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-29-b-name-w176314">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="db520">Speed</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176449">
+    <date subtype="simple" begin="1391" end="1391">1391</date>
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176489">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="italic" id="db98">Cor</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w176509">
+    <date subtype="simple" begin="1453" end="1453">1453</date>
+    <source style="" id="db128">DbA</source>
+    <item>xxvii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w176297">Merstun</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176314">Merstona</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176314">Merstone</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176314">Merston</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176449">Merstone by Tuttebury</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176449">Merston by Tuttebury</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176489">Merschton</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w176509">Marston</searchterm>
+  </extension>
+ </mads>
+ 

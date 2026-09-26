@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000122">
+  <authority ID="epns-deep-10-a-name-parish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002927">Shutlanger</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000008" type="broader">
+   <geographic>Cleyley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00049b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9382800" lat="52.1418500" gazref="geonames:6951837" source="geonames"/>
+   <geo long="-0.9405345157052788" lat="52.13862522254912" gazref="unlock:11283620" source="unlock"/>
+   <geo easting="472500" northing="249500" long="-0.942059" lat="52.139" kepnref="10992" source="kepn"/>
+  </extension>
+ </mads>
+ 

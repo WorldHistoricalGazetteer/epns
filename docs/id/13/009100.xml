@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000226">
+  <authority ID="epns-deep-13-a-name-parish-000226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009100">Priors Hardwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000011" type="broader">
+   <geographic>Honesberie Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3257800" lat="52.2070100" gazref="geonames:7297423" source="geonames"/>
+   <geo long="-1.304990720645723" lat="52.19528600595504" gazref="unlock:11250296" source="unlock"/>
+   <geo easting="447500" northing="256500" long="-1.30634" lat="52.2047" kepnref="4964" source="kepn"/>
+  </extension>
+ </mads>
+ 

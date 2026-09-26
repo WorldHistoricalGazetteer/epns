@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000033">
+  <authority ID="epns-deep-21-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002402">Netherhall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000034" type="broader">
+   <geographic>Netherhall</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w96599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002403">Le Netherhall</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w96630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002404">Netherall</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w96653">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002405">Ailneburgh hall al. Netherhall</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w96693">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002406">Aylnbroughe hall al. Nether hall</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w96745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/002407">Elnbrowgh' Hall</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9001016"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.482606383934991" lat="54.71432434182921" gazref="unlock:11228014" source="unlock"/>
+   <geo kepnexref="00711" long="-3.4868" lat="54.7180" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w96599">
+    <date end="1462" begin="1462" subtype="simple">1462</date>
+    <source style="italic" id="cu253">Netherhall</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w96630">
+    <date end="1515" begin="1504" subtype="simple">1504-15</date>
+    <source style="" id="cu100">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w96653">
+    <date end="1558" begin="1558" subtype="simple">1558</date>
+    <source style="" id="cu120">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w96693">
+    <date end="1567" begin="1567" subtype="simple">1567</date>
+    <source style="italic" id="cu253">Netherhall</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w96745">
+    <date end="1601" begin="1601" subtype="simple">1601</date>
+    <source style="italic" id="cu253" underspec="ib">Netherhall</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w96599">Le Netherhall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96630">Netherall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96653">Ailneburgh hall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96653">Netherhall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96693">Aylnbroughe hall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96693">Nether hall</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w96745">Elnbrowgh' Hall</searchterm>
+  </extension>
+ </mads>
+ 

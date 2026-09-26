@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000232">
+  <authority ID="epns-deep-12-a-name-parish-000232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010985">Tolleshunt Major</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000012" type="broader">
+   <geographic>Thurstable Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d3c"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7536800" lat="51.7684200" gazref="geonames:2635717" source="geonames"/>
+   <geo long="0.7612673686787731" lat="51.76926055951729" gazref="unlock:11302077" source="unlock"/>
+   <geo easting="590500" northing="211500" long="0.759562" lat="51.7698" kepnref="12408" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-hu-subcounty-000026">
+  <authority ID="epns-deep-07-hu-name-subcounty-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005022">Eastbourne Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-ra-abovesubcounty-000002" type="broader">
+   <geographic>Rape of Pevensey</geographic>
+  </related>
+  <variant ID="epns-deep-07-hu-name-w305665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005023">Burne</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w305682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005024">Bourn</geographic>
+  </variant>
+  <variant ID="epns-deep-07-hu-name-w305697">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/005025">Estbourn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c69"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-07-hu-name-w305665">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="su51">CplM</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w305682">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-hu-name-w305697">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-hu-name-w305665">Burne</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w305682">Bourn</searchterm>
+   <searchterm variantID="epns-deep-07-hu-name-w305697">Estbourn</searchterm>
+  </extension>
+ </mads>
+ 

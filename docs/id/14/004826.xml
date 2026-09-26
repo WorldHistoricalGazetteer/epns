@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000226">
+  <authority ID="epns-deep-14-b-name-subparish-000226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004826">Cherry Burton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000131" type="broader">
+   <geographic>Cherry Burton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w317364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004827">Burton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004828">Burton, Burtun</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317422">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004829">Nord-</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004830">Nor-</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317470">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004831">North-</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004832">Cheri-, Chery-</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317554">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004833">Sher(i)-</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w317576">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004834">Cherri-, Cherry-</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d000486"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5000000" lat="53.8666700" gazref="geonames:2653243" source="geonames"/>
+   <geo long="-0.4866128546409627" lat="53.86895219280002" gazref="unlock:11104442" source="unlock"/>
+   <geo easting="499500" northing="442500" long="-0.488265" lat="53.8692" kepnref="8604" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w317364">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317383">
+    <attestation variantID="epns-deep-14-b-name-w317383">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="ey262">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317422">
+    <date end="1211" begin="1195" subtype="simple">1195-1211</date>
+    <source style="" id="ey367">YCh</source>
+    <item>1117</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317448">
+    <date end="1199" begin="1199" subtype="simple">1199</date>
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317470">
+    <attestation variantID="epns-deep-14-b-name-w317470">
+     <date end="1289" begin="1289" subtype="simple">1289</date>
+     <source style="" id="ey371">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w317470">
+     <date end="1562" begin="1562" subtype="simple">1562</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317507">
+    <attestation variantID="epns-deep-14-b-name-w317507">
+     <date end="1444" begin="1444" subtype="simple">1444</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w317507">
+     <date end="1518" begin="1518" subtype="simple">1518</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317554">
+    <date end="1502" begin="1502" subtype="simple">1502</date>
+    <source style="" id="ey365">YAJ</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w317576">
+    <attestation variantID="epns-deep-14-b-name-w317576">
+     <date end="1562" begin="1562" subtype="simple">1562</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w317576">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w317364">Burtone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317364">Burton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317383">Burton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317383">Burtun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317422">Nord-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317448">Nor-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317470">North-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317507">Cheri-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317507">Chery-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317554">Sheri-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317554">Sher-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317576">Cherri-</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w317576">Cherry-</searchterm>
+  </extension>
+ </mads>
+ 

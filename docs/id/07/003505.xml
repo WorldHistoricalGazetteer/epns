@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000076">
+  <authority ID="epns-deep-07-a-name-parish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/003505">Mayfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000020" type="broader">
+   <geographic>Loxfield Camden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bcd"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2584400" lat="51.0201300" gazref="geonames:2642877" source="geonames"/>
+   <geo long="0.2599032139009859" lat="51.01546559935247" gazref="unlock:11214893" source="unlock"/>
+   <geo easting="558500" northing="127500" long="0.258723" lat="51.025" kepnref="7092" source="kepn"/>
+  </extension>
+ </mads>
+ 

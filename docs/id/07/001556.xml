@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000034">
+  <authority ID="epns-deep-07-a-name-parish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001556">Kingston near Lewes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000006" type="broader">
+   <geographic>Younsmere Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0205800" lat="50.8574500" gazref="geonames:2645429" source="geonames"/>
+   <geo long="-0.01770699615509581" lat="50.85860631922426" gazref="unlock:11187210" source="unlock"/>
+   <geo easting="539500" northing="108500" long="-0.0192859" lat="50.8592" kepnref="7053" source="kepn"/>
+  </extension>
+ </mads>
+ 

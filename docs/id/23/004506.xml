@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-hu-subcounty-000005">
+  <authority ID="epns-deep-23-hu-name-subcounty-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004506">Ewelme Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-co-county-000001" type="broader">
+   <geographic>Oxfordshire</geographic>
+  </related>
+  <variant ID="epns-deep-23-hu-name-w223612">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004507">Ewellm</geographic>
+  </variant>
+  <variant ID="epns-deep-23-hu-name-w223630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004508">Ewelme</geographic>
+  </variant>
+  <variant ID="epns-deep-23-hu-name-w223680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004509">Ewelm</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e25b47fc40beb000780"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-23-hu-name-w223612">
+    <date subtype="simple" begin="1254" end="1255">1254-5</date>
+    <source style="" id="ox208">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-hu-name-w223630">
+    <attestation variantID="epns-deep-23-hu-name-w223630">
+     <date subtype="simple" begin="1261" end="1261">1261</date>
+     <source style="italic" id="ox15">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-hu-name-w223680">
+    <date end="1600" begin="1261">1261-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-hu-name-w223612">Ewellm</searchterm>
+   <searchterm variantID="epns-deep-23-hu-name-w223630">Ewelme</searchterm>
+   <searchterm variantID="epns-deep-23-hu-name-w223680">Ewelm</searchterm>
+  </extension>
+ </mads>
+ 

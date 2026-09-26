@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000138">
+  <authority ID="epns-deep-11-a-name-parish-000138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/011128">Oxted</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000014" type="broader">
+   <geographic>Tandridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287108b47fc40c23000a58"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0098000" lat="51.2510400" gazref="geonames:7301441" source="geonames"/>
+   <geo long="-0.01506509818704793" lat="51.25431152285682" gazref="unlock:11238402" source="unlock"/>
+   <geo easting="539500" northing="151500" long="-0.00272884" lat="51.2456" kepnref="8377" source="kepn"/>
+  </extension>
+ </mads>
+ 

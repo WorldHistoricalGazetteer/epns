@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000013">
+  <authority ID="epns-deep-14-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000446">Keyingham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000001" type="broader">
+   <geographic>South Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1132500" lat="53.7096100" gazref="geonames:2645734" source="geonames"/>
+   <geo long="-0.113437497155042" lat="53.71082673932467" gazref="unlock:11185704" source="unlock"/>
+   <geo easting="524500" northing="425500" long="-0.115127" lat="53.7111" kepnref="8400" source="kepn"/>
+  </extension>
+ </mads>
+ 

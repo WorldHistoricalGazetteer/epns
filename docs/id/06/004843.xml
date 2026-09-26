@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000144">
+  <authority ID="epns-deep-06-b-name-subparish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004843">Horsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000144" type="broader">
+   <geographic>Horsham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w365637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004844">Horsham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w365707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004845">Horsam</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w365724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004846">Horsom</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w365749">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004847">Hosham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d18"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3271900" lat="51.0639500" gazref="geonames:2646557" source="geonames"/>
+   <geo long="-0.3227402785585288" lat="51.07025471131237" gazref="unlock:11179732" source="unlock"/>
+   <geo easting="517500" northing="130500" long="-0.324618" lat="51.0618" kepnref="7009" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w365637">
+    <date subtype="simple" begin="947" end="947">947</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>834</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w365637">
+    <date subtype="simple" begin="963" end="963">963</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>1125</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w365637">
+    <attestation variantID="epns-deep-06-b-name-w365637">
+     <date subtype="simple" begin="1233" end="1233">1233</date>
+     <source style="" id="su37">Ch</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w365707">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w365724">
+    <date subtype="simple" begin="1657" end="1657">1657</date>
+    <source style="" id="su253">SAC</source>
+    <item>42</item>
+    <page>116</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w365749">
+    <date subtype="simple" begin="1601" end="1601">1601</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w365637">Horsham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w365707">Horsam</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w365724">Horsom</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w365749">Hosham</searchterm>
+  </extension>
+ </mads>
+ 

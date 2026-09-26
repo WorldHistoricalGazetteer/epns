@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000024">
+  <authority ID="epns-deep-72-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/004629">Horsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000003" type="broader">
+   <geographic>Happing Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d27"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.6666700" lat="52.7333300" gazref="geonames:2646561" source="geonames"/>
+   <geo long="1.630655922" lat="52.74863944" source="epns"/>
+   <geo long="1.638424465391481" lat="52.75289985946917" gazref="unlock:11179705" source="unlock"/>
+   <geo easting="645500" northing="322500" long="1.63583" lat="52.7443" kepnref="9462" source="kepn"/>
+  </extension>
+ </mads>
+ 

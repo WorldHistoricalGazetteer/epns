@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000060">
+  <authority ID="epns-deep-04-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001750">Cropthorne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000060" type="broader">
+   <geographic>Cropthorne</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w148725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001751">Cropponþorn</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w148757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001752">Croppeþorne</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w148789">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001753">Croppanþorn</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w148821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001754">Cropetorn</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w148840">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001755">Croptorna, Croppetorna</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w148888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001756">Croppethorne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00056f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0031900" lat="52.1029000" gazref="geonames:7297529" source="geonames"/>
+   <geo long="-2.007299986295226" lat="52.09842579864316" gazref="unlock:11122778" source="unlock"/>
+   <geo easting="399500" northing="244500" long="-2.0087" lat="52.0988" kepnref="5237" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w148725">
+    <date end="780" begin="780" subtype="simple">780</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>235</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148757">
+    <date end="780" begin="780" subtype="simple">780</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>235</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148789">
+    <date end="841" begin="841" subtype="simple">841</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>432</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148821">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148840">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148888">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w148888">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="wo55">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w148725">Cropponþorn</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148757">Croppeþorne</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148789">Croppanþorn</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148821">Cropetorn</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148840">Croptorna</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148840">Croppetorna</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w148888">Croppethorne</searchterm>
+  </extension>
+ </mads>
+ 

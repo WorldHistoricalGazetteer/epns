@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000225">
+  <authority ID="epns-deep-12-a-name-parish-000225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010700">Goldhanger</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000012" type="broader">
+   <geographic>Thurstable Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c20"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7523900" lat="51.7485000" gazref="geonames:2648347" source="geonames"/>
+   <geo long="0.7596232439737737" lat="51.74231554231856" gazref="unlock:11156113" source="unlock"/>
+   <geo easting="590500" northing="209500" long="0.758467" lat="51.7518" kepnref="12403" source="kepn"/>
+  </extension>
+ </mads>
+ 

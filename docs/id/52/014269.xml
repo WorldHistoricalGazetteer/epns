@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-li-liberty-000006">
+  <authority ID="epns-deep-52-li-name-liberty-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/014269">Dewlish Liberty</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000007" type="broader">
+   <geographic>Puddletown Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-52-li-name-w806041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/014270">hundred of Deuelissh, hundred of Deuelysh</geographic>
+  </variant>
+  <variant ID="epns-deep-52-li-name-w806101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/014271">Hundr' de Deulich</geographic>
+  </variant>
+  <variant ID="epns-deep-52-li-name-w806129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/014272">Leberty of Devl', Liberty of Diulish</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285020b47fc4099d00000f"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-52-li-name-w806041">
+    <date end="1337" begin="1337" subtype="simple">1337</date>
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="" id="do530">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-52-li-name-w806101">
+    <date end="1520" begin="1520" subtype="simple">1520</date>
+    <source style="italic" id="do547">PlR</source>
+   </attestation>
+   <attestation variantID="epns-deep-52-li-name-w806129">
+    <date end="1641" begin="1641" subtype="simple">1641</date>
+    <source style="italic" id="do374">Ilch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-52-li-name-w806041">hundred of Deuelissh</searchterm>
+   <searchterm variantID="epns-deep-52-li-name-w806041">hundred of Deuelysh</searchterm>
+   <searchterm variantID="epns-deep-52-li-name-w806101">Hundr' de Deulich</searchterm>
+   <searchterm variantID="epns-deep-52-li-name-w806129">Leberty of Devl'</searchterm>
+   <searchterm variantID="epns-deep-52-li-name-w806129">Liberty of Diulish</searchterm>
+  </extension>
+ </mads>
+ 

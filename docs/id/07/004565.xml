@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000089">
+  <authority ID="epns-deep-07-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004565">Berwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000090" type="broader">
+   <geographic>Berwick</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w282356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004566">Bernice, Berewice</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w282425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004567">Berwicke al. South Berwick al. Barrike</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w282481">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004568">Barwick(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w282518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004569">Berrycke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000caa"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1545000" lat="50.8257800" gazref="geonames:2655827" source="geonames"/>
+   <geo long="0.1514485317259743" lat="50.82862512282173" gazref="unlock:11076133" source="unlock"/>
+   <geo easting="551500" northing="105500" long="0.149852" lat="50.8292" kepnref="7105" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w282356">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w282425">
+    <date end="1571" begin="1571" subtype="simple">1571</date>
+    <source style="" id="su273">SRS</source>
+    <item>19</item>
+    <page>83</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w282481">
+    <date end="1587" begin="1587" subtype="simple">1587</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w282481">
+    <date end="1596" begin="1596" subtype="simple">1596</date>
+    <source style="italic" id="su130">Ipm</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w282518">
+    <date end="1595" begin="1595" subtype="simple">1595</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w282356">Bernice</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282356">Berewice</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282425">Berwicke</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282425">South Berwick</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282425">Barrike</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282481">Barwicke</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282481">Barwick</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w282518">Berrycke</searchterm>
+  </extension>
+ </mads>
+ 

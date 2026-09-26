@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000009">
+  <authority ID="epns-deep-10-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/000361">Everdon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000001" type="broader">
+   <geographic>Fawsley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000417"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1370400" lat="52.2108200" gazref="geonames:7295649" source="geonames"/>
+   <geo long="-1.129077708026772" lat="52.21210212596326" gazref="unlock:11140912" source="unlock"/>
+   <geo easting="459500" northing="257500" long="-1.13058" lat="52.2125" kepnref="10878" source="kepn"/>
+  </extension>
+ </mads>
+ 

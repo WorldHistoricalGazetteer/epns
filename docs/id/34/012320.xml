@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000120">
+  <authority ID="epns-deep-34-b-name-subparish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012320">Stonebeck Down</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000035" type="broader">
+   <geographic>Kirkby Malzeard</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w500990">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012321">Stainbeck down</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w501017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/012322">Stonebeck down</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810061a3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8623200" lat="54.1275100" gazref="geonames:7300774" source="geonames"/>
+   <geo long="-1.847034085" lat="54.10760726" source="epns"/>
+   <geo easting="403500" northing="475500" long="-1.94786" lat="54.1753" kepnref="14839" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w500990">
+    <date end="1641" begin="1641" subtype="simple">1641</date>
+    <source style="" id="wr590">Rates</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w501017">
+    <date end="1685" begin="1685" subtype="simple">1685</date>
+    <source style="italic" id="wr810">Yorke</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w500990">Stainbeck down</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w501017">Stonebeck down</searchterm>
+  </extension>
+ </mads>
+ 

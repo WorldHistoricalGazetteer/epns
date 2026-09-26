@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000001">
+  <authority ID="epns-deep-24-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/000009">Middle Aston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000001" type="broader">
+   <geographic>Wootton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000716"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3107200" lat="51.9397100" gazref="geonames:2642629" source="geonames"/>
+   <geo long="-1.309026582866197" lat="51.93454743127574" gazref="unlock:11217982" source="unlock"/>
+   <geo easting="447500" northing="226500" long="-1.3105" lat="51.935" kepnref="3636" source="kepn"/>
+  </extension>
+ </mads>
+ 

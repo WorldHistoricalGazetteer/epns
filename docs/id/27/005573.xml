@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000050">
+  <authority ID="epns-deep-27-b-name-subparish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005573">Hope</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000047" type="broader">
+   <geographic>Hope</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w221245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005574">(æt) Hope</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w221340">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005575">Hoppa</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w221385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005576">Hoppe</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w221428">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/005577">Hawpe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001894"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7500000" lat="53.3500000" gazref="geonames:2646640" source="geonames"/>
+   <geo long="-1.75211541824561" lat="53.3478676791523" gazref="unlock:11179018" source="unlock"/>
+   <geo easting="416500" northing="383500" long="-1.75359" lat="53.3481" kepnref="3250" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w221245">
+    <date end="926" begin="926" subtype="simple">926</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="italic" id="db393">Peniarth</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221245">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221245">
+    <date end="1173" begin="1173" subtype="simple">1173</date>
+    <source style="" id="db82">ChancR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221245">
+    <date end="1192" begin="1192" subtype="simple">1192</date>
+    <source style="" id="db461">RegLich</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221245">
+    <attestation variantID="epns-deep-27-b-name-w221245">
+     <date end="1209" begin="1209" subtype="simple">1209</date>
+     <date end="1210" begin="1210" subtype="simple">1210</date>
+     <source style="" id="db379">P</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221340">
+    <date end="1169" begin="1169" subtype="simple">1169</date>
+    <date end="1176" begin="1176" subtype="simple">1176</date>
+    <date end="1177" begin="1177" subtype="simple">1177</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221340">
+    <date end="1216" begin="1199" subtype="regnal">John</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221385">
+    <date end="1188" begin="1188" subtype="simple">1188</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221385">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="db128">DbA</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221385">
+    <date end="1266" begin="1266" subtype="simple">1266</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w221428">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <source style="italic" id="db735">ShefPhC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w221245">æt Hope</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w221245">Hope</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w221340">Hoppa</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w221385">Hoppe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w221428">Hawpe</searchterm>
+  </extension>
+ </mads>
+ 

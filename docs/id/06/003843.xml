@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000122">
+  <authority ID="epns-deep-06-a-name-parish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003843">Ashington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000014" type="broader">
+   <geographic>West Grinstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b31"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3908700" lat="50.9331200" gazref="geonames:2656947" source="geonames"/>
+   <geo long="-0.3845049671257539" lat="50.93621458234555" gazref="unlock:11064526" source="unlock"/>
+   <geo easting="513500" northing="116500" long="-0.386046" lat="50.9368" kepnref="6984" source="kepn"/>
+  </extension>
+ </mads>
+ 

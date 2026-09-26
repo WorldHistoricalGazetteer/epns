@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-hu-subcounty-000001">
+  <authority ID="epns-deep-09-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000002">South Molton Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-09-hu-name-w29">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000003">Moltone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-hu-name-w53">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000004">Mouthon</geographic>
+  </variant>
+  <variant ID="epns-deep-09-hu-name-w76">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000005">Sumolton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-hu-name-w93">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/000006">Sumoton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018b6"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-09-hu-name-w29">
+    <date subtype="simple" begin="1084" end="1084">1084</date>
+    <source style="" id="de94">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-hu-name-w53">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>767</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-hu-name-w76">
+    <date subtype="simple" begin="1174" end="1174">1174</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-hu-name-w93">
+    <date subtype="simple" begin="1238" end="1238">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-hu-name-w29">Moltone</searchterm>
+   <searchterm variantID="epns-deep-09-hu-name-w53">Mouthon</searchterm>
+   <searchterm variantID="epns-deep-09-hu-name-w76">Sumolton</searchterm>
+   <searchterm variantID="epns-deep-09-hu-name-w93">Sumoton</searchterm>
+  </extension>
+ </mads>
+ 

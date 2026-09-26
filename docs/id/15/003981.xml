@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000054">
+  <authority ID="epns-deep-15-b-name-subparish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003981">Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000060" type="broader">
+   <geographic>Norton</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w202754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003982">(æt) norðtune</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w202787">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003983">Northtonam</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w202812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003984">Northuna</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w202831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003985">Norton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w202871">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003986">Norton(e) juxta Baldok</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2084400" lat="51.9944200" gazref="geonames:2641205" source="geonames"/>
+   <geo easting="522500" northing="234500" long="-0.217161" lat="51.9954" kepnref="4613" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w202754">
+    <date subtype="simple" begin="1007" end="1007">1007</date>
+    <source style="" id="he68">Crawford</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w202787">
+    <date subtype="century" begin="1000" end="1100">11th</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w202812">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="he217">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w202831">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w202831">
+    <attestation variantID="epns-deep-15-b-name-w202831">
+     <date subtype="simple" begin="1226" end="1226">1226</date>
+     <source style="italic" id="he114">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w202871">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w202754">æt norðtune</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202754">norðtune</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202787">Northtonam</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202812">Northuna</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202831">Nortone</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202831">Norton</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202871">Nortone juxta Baldok</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w202871">Norton juxta Baldok</searchterm>
+  </extension>
+ </mads>
+ 

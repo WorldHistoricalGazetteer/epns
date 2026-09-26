@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000145">
+  <authority ID="epns-deep-05-b-name-subparish-000145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001595">Snainton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000054" type="broader">
+   <geographic>Brompton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w130074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001596">Snechintun(e), Snechinton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w130112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001597">Snechint'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w130134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001598">Sneington, Sneyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w130181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001599">Snainton, Snaynton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w130235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001600">Sneynton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w130268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001601">Snenton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000436"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5865900" lat="54.2275800" gazref="geonames:2637600" source="geonames"/>
+   <geo long="-0.5808478612214611" lat="54.2296832888192" gazref="unlock:11286181" source="unlock"/>
+   <geo easting="492500" northing="482500" long="-0.582505" lat="54.2299" kepnref="5795" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w130074">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130112">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130134">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130134">
+    <date subtype="simple" begin="1237" end="1237">1237</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>41</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130181">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>137</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130181">
+    <attestation variantID="epns-deep-05-b-name-w130181">
+     <date subtype="simple" begin="1204" end="1204">1204</date>
+     <source style="" id="ny11">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130235">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130235">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="italic" id="ny68">ForP</source>
+    <page>252</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w130268">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w130074">Snechintune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130074">Snechintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130074">Snechintone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130074">Snechinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130112">Snechint'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130134">Sneington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130134">Sneyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130181">Snainton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130181">Snaynton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130235">Sneynton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w130268">Snenton</searchterm>
+  </extension>
+ </mads>
+ 

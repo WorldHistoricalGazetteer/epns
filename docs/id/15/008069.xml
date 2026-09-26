@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000124">
+  <authority ID="epns-deep-15-b-name-subparish-000124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008069">Broxbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000146" type="broader">
+   <geographic>Broxbourne</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w391817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008070">Brochesborne</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w391839">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008071">Brochesburne</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w391860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008072">Brokesborne</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w391927">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008073">Brokesbourne, Brokesburne</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w391954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008074">Brocheburn</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w391973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008075">Broxborn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000779"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0192300" lat="51.7471200" gazref="geonames:2654481" source="geonames"/>
+   <geo long="-0.02242286692571246" lat="51.74909006656705" gazref="unlock:11090210" source="unlock"/>
+   <geo easting="537500" northing="207500" long="-0.00956064" lat="51.7493" kepnref="4699" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w391817">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w391839">
+    <date subtype="simple" begin="1174" end="1174">1174</date>
+    <source style="" id="he214">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w391860">
+    <attestation variantID="epns-deep-15-b-name-w391860">
+     <date subtype="simple" begin="1203" end="1203">1203</date>
+     <source style="italic" id="he114">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w391860">
+     <date subtype="simple" begin="1494" end="1494">1494</date>
+     <source style="italic" id="he114" underspec="ib">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w391927">
+    <date end="1494" begin="1203">1203-1494</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w391954">
+    <date subtype="simple" begin="1173" end="1173">1173</date>
+    <source style="" id="he214">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w391973">
+    <date subtype="simple" begin="1511" end="1511">1511</date>
+    <source style="" id="he113">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w391817">Brochesborne</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391839">Brochesburne</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391860">Brokesborne</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391927">Brokesbourne</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391927">Brokesburne</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391954">Brocheburn</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w391973">Broxborn</searchterm>
+  </extension>
+ </mads>
+ 

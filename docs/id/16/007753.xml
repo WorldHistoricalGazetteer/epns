@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000164">
+  <authority ID="epns-deep-16-b-name-subparish-000164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007753">Stapleford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000183" type="broader">
+   <geographic>Stapleford</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w380462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007754">Stapleford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w380501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007755">Stapelford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8963900" lat="51.1426900" gazref="geonames:7300365" source="geonames"/>
+   <geo long="-1.89279163533699" lat="51.13619760373196" gazref="unlock:11291301" source="unlock"/>
+   <geo easting="407500" northing="137500" long="-1.89417" lat="51.1367" kepnref="7340" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w380462">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w380462">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <copydate end="1252" begin="1252">1252</copydate>
+    <source style="" id="ws50">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w380501">
+    <attestation variantID="epns-deep-16-b-name-w380501">
+     <date subtype="simple" begin="1115" end="1115">1115</date>
+     <source style="" id="ws288">StOsmund</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w380501">
+     <date subtype="simple" begin="1219" end="1219">1219</date>
+     <source style="" id="ws110">FineR</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w380462">Stapleford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w380501">Stapelford</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000058">
+  <authority ID="epns-deep-11-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003065">Walton-on-Thames</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000058" type="broader">
+   <geographic>Walton-on-Thames</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w163047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003066">Waletona</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003067">Waletun</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003068">Waleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003069">Walleton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003070">Waleton super Thamse</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003071">Waleton by Tamys</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163240">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003072">Walton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w163256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/003073">Walton uppon Thames</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000b14"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4206600" lat="51.3853300" gazref="geonames:2634825" source="geonames"/>
+   <geo long="-0.411824559221158" lat="51.38627764759649" gazref="unlock:11312922" source="unlock"/>
+   <geo easting="510500" northing="166500" long="-0.41338" lat="51.3868" kepnref="8298" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w163047">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163047">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="sr232">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163073">
+    <attestation variantID="epns-deep-11-b-name-w163073">
+     <date end="1156" begin="1156" subtype="simple">1156</date>
+     <source style="" id="sr263">RBE</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-11-b-name-w163073">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="sr102">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163135">
+    <date end="1428" begin="1156">1156-1428</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163147">
+    <date end="1272" begin="1272" subtype="simple">1272</date>
+    <date end="1324" begin="1324" subtype="simple">1324</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163171">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163171">
+    <date end="1354" begin="1354" subtype="simple">1354</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163211">
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="" id="sr142">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163240">
+    <date end="1358" begin="1358" subtype="simple">1358</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w163256">
+    <date end="1569" begin="1569" subtype="simple">1569</date>
+    <source style="" id="sr193">Musters</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w163047">Waletona</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163073">Waletun</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163135">Waletone</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163135">Waleton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163147">Walleton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163171">Waleton super Thamse</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163211">Waleton by Tamys</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163240">Walton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w163256">Walton uppon Thames</searchterm>
+  </extension>
+ </mads>
+ 

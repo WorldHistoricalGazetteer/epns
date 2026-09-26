@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-a-parish-000082">
+  <authority ID="epns-deep-20-a-name-parish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/009160">Melmerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-w-subcounty-000003" type="broader">
+   <geographic>Leath Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5833300" lat="54.7166700" gazref="geonames:2642772" source="geonames"/>
+   <geo long="-2.597925387155823" lat="54.73090357265622" gazref="unlock:11216985" source="unlock"/>
+   <geo easting="361500" northing="537500" long="-2.59936" lat="54.731" kepnref="4443" source="kepn"/>
+  </extension>
+ </mads>
+ 

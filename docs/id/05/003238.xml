@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000255">
+  <authority ID="epns-deep-05-b-name-subparish-000255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003238">Kirby Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000100" type="broader">
+   <geographic>Kirby Hill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w240963">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003239">Chirchebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w240982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003240">Kirkeby, Kyrkeby in Mora, Kyrkeby super Moram</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003241">Kirby under hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4001900" lat="54.1178000" gazref="geonames:7302035" source="geonames"/>
+   <geo easting="439500" northing="468500" long="-1.39729" lat="54.1109" kepnref="5905" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w240963">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240982">
+    <date subtype="simple" begin="1224" end="1230">1224-30</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241042">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w240963">Chirchebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240982">Kirkeby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240982">Kyrkeby in Mora</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240982">Kyrkeby super Moram</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241042">Kirby under hill</searchterm>
+  </extension>
+ </mads>
+ 

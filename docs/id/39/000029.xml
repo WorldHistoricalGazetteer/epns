@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000001">
+  <authority ID="epns-deep-39-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000029">Aston Somerville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000001" type="broader">
+   <geographic>Kiftsgate Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30018fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9332800" lat="52.0414700" gazref="geonames:7297525" source="geonames"/>
+   <geo long="-1.927095434" lat="52.03995701" source="epns"/>
+   <geo long="-1.934379282772926" lat="52.04445795305287" gazref="unlock:11065063" source="unlock"/>
+   <geo easting="404500" northing="238500" long="-1.93578" lat="52.0449" kepnref="6327" source="kepn"/>
+  </extension>
+ </mads>
+ 

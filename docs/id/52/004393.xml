@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000012">
+  <authority ID="epns-deep-52-a-name-parish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/004393">Chaldon Herring</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000003" type="broader">
+   <geographic>Winfrith Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029b1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2961400" lat="50.6499100" gazref="geonames:2653397" source="geonames"/>
+   <geo long="-2.29000276553325" lat="50.65023995181109" gazref="unlock:11103157" source="unlock"/>
+   <geo easting="379500" northing="83500" long="-2.29132" lat="50.6508" kepnref="11666" source="kepn"/>
+  </extension>
+ </mads>
+ 

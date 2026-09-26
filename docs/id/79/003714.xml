@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000042">
+  <authority ID="epns-deep-79-a-name-parish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/003714">Buxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d02"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2998200" lat="52.7525500" gazref="geonames:2654142" source="geonames"/>
+   <geo long="1.3045779" lat="52.74918811" source="epns"/>
+   <geo long="1.3123155002304" lat="52.75347040444435" gazref="unlock:11094865" source="unlock"/>
+   <geo easting="623500" northing="322500" long="1.3105" lat="52.7539" kepnref="9195" source="kepn"/>
+  </extension>
+ </mads>
+ 

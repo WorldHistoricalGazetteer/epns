@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000006">
+  <authority ID="epns-deep-40-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000613">Rockhampton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000006" type="broader">
+   <geographic>Rockhampton</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w27862">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000614">Rochtvne</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w27881">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000615">Rochamt(on), Rokhamt(on)'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w27962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000616">Rokehamton'</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w27984">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000617">Rochampton, Rokhampton</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w28061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000618">Rokehampton</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w28082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000619">Rokehampton als. Rokyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w28118">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/000620">Rockington als. Rock(e)hampton, Rockynton als. Rock(e)hampton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b86"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5033800" lat="51.6371400" gazref="geonames:7296008" source="geonames"/>
+   <geo long="-2.505767478" lat="51.63425088" source="epns"/>
+   <geo long="-2.498591967422101" lat="51.63877847438503" gazref="unlock:11271746" source="unlock"/>
+   <geo easting="365500" northing="193500" long="-2.49992" lat="51.6392" kepnref="6452" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w27862">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27881">
+    <date end="1213" begin="1211" subtype="simple">1211-13</date>
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27881">
+    <attestation variantID="epns-deep-40-b-name-w27881">
+     <date end="1281" begin="1281" subtype="simple">1281</date>
+     <source style="" id="go84">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-40-b-name-w27881">
+     <date end="1322" begin="1322" subtype="simple">1322</date>
+     <source style="italic" id="go600">MinAcct</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27962">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27984">
+    <date end="1272" begin="1216" subtype="regnal">Hy 3</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27984">
+    <date end="1248" begin="1248" subtype="simple">1248</date>
+    <source style="" id="go24">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w27984">
+    <attestation variantID="epns-deep-40-b-name-w27984">
+     <date end="1291" begin="1291" subtype="simple">1291</date>
+     <source style="" id="go504">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w27984">
+     <date end="1489" begin="1489" subtype="simple">1489</date>
+     <source style="" id="go396">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w28061">
+    <date end="1400" begin="1400" subtype="simple">1400</date>
+    <source style="" id="go396" underspec="ib">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w28082">
+    <date end="1506" begin="1506" subtype="simple">1506</date>
+    <source style="" id="go396" underspec="ib">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w28118">
+    <date end="1566" begin="1566" subtype="simple">1566</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w28118">
+    <date end="1631" begin="1631" subtype="simple">1631</date>
+    <source style="" id="go268">Inq</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w27862">Rochtvne</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27881">Rochamton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27881">Rochamt</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27881">Rokhamton'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27881">Rokhamt'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27962">Rokehamton'</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27984">Rochampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w27984">Rokhampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28061">Rokehampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28082">Rokehampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28082">Rokyngton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockington</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockehampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockhampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockynton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockehampton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w28118">Rockhampton</searchterm>
+  </extension>
+ </mads>
+ 

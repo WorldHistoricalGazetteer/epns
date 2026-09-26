@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000238">
+  <authority ID="epns-deep-13-a-name-parish-000238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/009363">Honington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000012" type="broader">
+   <geographic>Fexhole Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000679"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6179900" lat="52.0816700" gazref="geonames:2646662" source="geonames"/>
+   <geo long="-1.613260996532728" lat="52.07980842262083" gazref="unlock:11178737" source="unlock"/>
+   <geo easting="426500" northing="242500" long="-1.61471" lat="52.0802" kepnref="4895" source="kepn"/>
+  </extension>
+ </mads>
+ 

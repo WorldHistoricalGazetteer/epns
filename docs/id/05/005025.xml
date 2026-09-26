@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000446">
+  <authority ID="epns-deep-05-b-name-subparish-000446">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005025">Walburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000150" type="broader">
+   <geographic>Downholme</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w361345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005026">Walebrun(e), Waleburne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w361408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005027">Walbro(u)n</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w361437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005028">Walburn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000473"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8157100" lat="54.3604500" gazref="geonames:7302023" source="geonames"/>
+   <geo long="-1.823035073623918" lat="54.35475619238729" gazref="unlock:11312263" source="unlock"/>
+   <geo easting="411500" northing="495500" long="-1.82455" lat="54.3549" kepnref="6099" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w361345">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>95</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361345">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361345">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361345">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361408">
+    <date subtype="simple" begin="1270" end="1270">1270</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361408">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361437">
+    <attestation variantID="epns-deep-05-b-name-w361437">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w361345">Walebrune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361345">Walebrun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361345">Waleburne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361408">Walbroun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361408">Walbron</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361437">Walburn</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000103">
+  <authority ID="epns-deep-13-a-name-parish-000103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/004364">Marton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000006" type="broader">
+   <geographic>Marton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000699"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4041000" lat="52.3158200" gazref="geonames:2642946" source="geonames"/>
+   <geo long="-1.405846988590523" lat="52.31272610869715" gazref="unlock:11214432" source="unlock"/>
+   <geo easting="440500" northing="268500" long="-1.40732" lat="52.3131" kepnref="4992" source="kepn"/>
+  </extension>
+ </mads>
+ 

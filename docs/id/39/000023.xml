@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-db-dbhundred-000003">
+  <authority ID="epns-deep-39-db-name-dbhundred-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000023">Winchcomb Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000001" type="broader">
+   <geographic>Kiftsgate Hundred (Lower Division)</geographic>
+  </related>
+  <variant ID="epns-deep-39-db-name-w3850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000024">Burgvm de Wincelcvmbe cum toto Hund' ejusdem uillæ</geographic>
+  </variant>
+  <variant ID="epns-deep-39-db-name-w3912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000025">hundredo de Wynchecumba, Winchecumba</geographic>
+  </variant>
+  <variant ID="epns-deep-39-db-name-w3971">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000026">hundredum ville de Winchecumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-39-db-name-w4013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000027">hundred' de Wynchecumbe, Winchecumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-39-db-name-w4083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/000028">hundr' de Winchelcumb</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab3000014"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-39-db-name-w3850">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-db-name-w3912">
+    <attestation variantID="epns-deep-39-db-name-w3912">
+     <date end="1200" begin="1100" subtype="century">12</date>
+     <date end="1300" begin="1200" subtype="century">13</date>
+     <source style="" id="go535">WinchLB</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-39-db-name-w3971">
+    <date end="1202" begin="1202" subtype="simple">1202</date>
+    <source style="" id="go535" underspec="ib">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-db-name-w4013">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <date end="1233" begin="1233" subtype="simple">1233</date>
+    <source style="" id="go96">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-db-name-w4013">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <date end="1402" begin="1402" subtype="simple">1402</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-db-name-w4083">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="go522">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-db-name-w3850">Burgvm de Wincelcvmbe cum toto Hund' ejusdem uillæ</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w3912">hundredo de Wynchecumba</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w3912">Winchecumba</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w3971">hundredum ville de Winchecumbe</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w4013">hundred' de Wynchecumbe</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w4013">Winchecumbe</searchterm>
+   <searchterm variantID="epns-deep-39-db-name-w4083">hundr' de Winchelcumb</searchterm>
+  </extension>
+ </mads>
+ 

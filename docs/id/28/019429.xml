@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000120">
+  <authority ID="epns-deep-28-b-name-subparish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019429">Horsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000116" type="broader">
+   <geographic>Horsley</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w715727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019430">Horselei</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w715745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019431">Hors(e)leya, Hors(e)ley(e), Hors(e)lega, Hors(e)leg(e), Hors(e)legh, Hors(e)leia, Hors(e)l', Hors(e)lie</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w715939">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019432">Horsseleg', Horsseley</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w715994">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019433">Horsaleye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001898"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4326000" lat="52.9929800" gazref="geonames:7294813" source="geonames"/>
+   <geo long="-1.426311402908746" lat="52.99613288368972" gazref="unlock:11179745" source="unlock"/>
+   <geo easting="438500" northing="344500" long="-1.42781" lat="52.9965" kepnref="3392" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w715727">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715745">
+    <date subtype="simple" begin="1155" end="1158">1155-8</date>
+    <copydate end="1316" begin="1316">1316</copydate>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715745">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="" id="db124">Darley</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715745">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="db124" underspec="ib">Darley</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715745">
+    <attestation variantID="epns-deep-28-b-name-w715745">
+     <date subtype="simple" begin="1175" end="1200">late 12th</date>
+     <source style="" id="db124">Darley</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715939">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715939">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db544">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715939">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="db129">DbCh</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w715994">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="db465">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w715727">Horselei</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horseleya</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsleya</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horseleye</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horseley</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsleye</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsley</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horselega</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horslega</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horselege</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horseleg</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horslege</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsleg</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horselegh</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horslegh</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horseleia</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsleia</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsel'</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horsl'</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horselie</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715745">Horslie</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715939">Horsseleg'</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715939">Horsseley</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w715994">Horsaleye</searchterm>
+  </extension>
+ </mads>
+ 

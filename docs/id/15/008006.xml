@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000144">
+  <authority ID="epns-deep-15-a-name-parish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008006">Little Berkhamsted</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000008" type="broader">
+   <geographic>Hertford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000714"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1250400" lat="51.7584500" gazref="geonames:7290810" source="geonames"/>
+   <geo easting="529500" northing="207500" long="-0.12538" lat="51.7512" kepnref="4706" source="kepn"/>
+  </extension>
+ </mads>
+ 

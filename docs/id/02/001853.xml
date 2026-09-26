@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000107">
+  <authority ID="epns-deep-02-a-name-parish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001853">Ivinghoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000009" type="broader">
+   <geographic>Yardley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300029d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6298300" lat="51.8360200" gazref="geonames:2645989" source="geonames"/>
+   <geo long="-0.6282257654910436" lat="51.83865718889084" gazref="unlock:11183608" source="unlock"/>
+   <geo easting="494500" northing="216500" long="-0.629774" lat="51.8391" kepnref="11301" source="kepn"/>
+  </extension>
+ </mads>
+ 

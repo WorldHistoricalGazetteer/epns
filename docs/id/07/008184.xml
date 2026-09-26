@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000144">
+  <authority ID="epns-deep-07-a-name-parish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008184">Peasmarsh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000041" type="broader">
+   <geographic>Goldspur Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000be4"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6891300" lat="50.9726200" gazref="geonames:2640536" source="geonames"/>
+   <geo long="0.6713940238332703" lat="50.97979142701521" gazref="unlock:11241500" source="unlock"/>
+   <geo easting="588500" northing="122500" long="0.683444" lat="50.9711" kepnref="7159" source="kepn"/>
+  </extension>
+ </mads>
+ 

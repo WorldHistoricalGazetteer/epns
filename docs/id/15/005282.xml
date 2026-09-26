@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000087">
+  <authority ID="epns-deep-15-a-name-parish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005282">Little Wymondley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000004" type="broader">
+   <geographic>Broadwater Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000719"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2355200" lat="51.9326800" gazref="geonames:2644214" source="geonames"/>
+   <geo long="-0.2325943547281337" lat="51.93229913818608" gazref="unlock:11197209" source="unlock"/>
+   <geo easting="521500" northing="228500" long="-0.233839" lat="51.9417" kepnref="4635" source="kepn"/>
+  </extension>
+ </mads>
+ 

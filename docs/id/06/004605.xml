@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000138">
+  <authority ID="epns-deep-06-a-name-parish-000138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004605">Albourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000018" type="broader">
+   <geographic>Tipnoak Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b24"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1988000" lat="50.9345600" gazref="geonames:7287909" source="geonames"/>
+   <geo long="-0.1995629551775467" lat="50.9335089954299" gazref="unlock:11057885" source="unlock"/>
+   <geo easting="526500" northing="116500" long="-0.201124" lat="50.9341" kepnref="7003" source="kepn"/>
+  </extension>
+ </mads>
+ 

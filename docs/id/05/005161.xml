@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000459">
+  <authority ID="epns-deep-05-b-name-subparish-000459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005161">Danby Wiske</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000154" type="broader">
+   <geographic>Danby Wiske</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w368741">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005162">Danebi, Daneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w368765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005163">Daneby super Wiske</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600046e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4826400" lat="54.3817900" gazref="geonames:2651530" source="geonames"/>
+   <geo long="-1.484165875811511" lat="54.38074855854707" gazref="unlock:11127047" source="unlock"/>
+   <geo easting="433500" northing="498500" long="-1.48572" lat="54.3809" kepnref="6112" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w368741">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w368765">
+    <date subtype="century" begin="1275" end="1300">late 13</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w368741">Danebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368741">Daneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w368765">Daneby super Wiske</searchterm>
+  </extension>
+ </mads>
+ 

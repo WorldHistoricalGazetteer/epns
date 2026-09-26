@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-a-parish-000001">
+  <authority ID="epns-deep-31-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000024">Adlingfleet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-wp-subcounty-000001" type="broader">
+   <geographic>Osgoldcross Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288216b47fc40c81005f51"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7231200" lat="53.6788100" gazref="geonames:2657669" source="geonames"/>
+   <geo long="-0.7432890424" lat="53.67863471" source="epns"/>
+   <geo long="-0.720446977370918" lat="53.68288903478066" gazref="unlock:11056658" source="unlock"/>
+   <geo easting="484500" northing="421500" long="-0.722063" lat="53.6831" kepnref="14392" source="kepn"/>
+  </extension>
+ </mads>
+ 

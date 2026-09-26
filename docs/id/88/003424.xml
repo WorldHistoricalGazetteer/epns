@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-b-subparish-000014">
+  <authority ID="epns-deep-88-b-name-subparish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/003424">Claybrooke Parva</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-a-parish-000012" type="broader">
+   <geographic>Claybrooke Parva</geographic>
+  </related>
+  <variant ID="epns-deep-88-b-name-w172041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/003425">Parva ~</geographic>
+  </variant>
+  <variant ID="epns-deep-88-b-name-w172086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/003426">Over ~</geographic>
+  </variant>
+  <variant ID="epns-deep-88-b-name-w172114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/003427">Church ~</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cfbb47fc40adf001142"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2744300" lat="52.4869000" gazref="geonames:2652912" source="geonames"/>
+   <geo long="-1.271013864797574" lat="52.48280607771161" gazref="unlock:11108434" source="unlock"/>
+   <geo kepnexref="0111" long="-1.27237" lat="52.4922" source="kepn"/>
+   <attestation variantID="epns-deep-88-b-name-w172041">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="le439">RGrav</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w172041">
+    <attestation variantID="epns-deep-88-b-name-w172041">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="le178">FA</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w172086">
+    <date end="1596" begin="1596" subtype="simple">1596</date>
+    <source style="" id="le193">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w172086">
+    <date end="1721" begin="1721" subtype="simple">1721</date>
+    <source style="" id="le285">LML</source>
+   </attestation>
+   <attestation variantID="epns-deep-88-b-name-w172114">
+    <date end="1784" begin="1784" subtype="simple">1784</date>
+    <source style="italic" id="le510">Terrier</source>
+   </attestation>
+   <searchterm variantID="epns-deep-88-b-name-w172041">Parva ~</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w172086">Over ~</searchterm>
+   <searchterm variantID="epns-deep-88-b-name-w172114">Church ~</searchterm>
+  </extension>
+ </mads>
+ 

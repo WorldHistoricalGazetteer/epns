@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000053">
+  <authority ID="epns-deep-29-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006843">Rodsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000048" type="broader">
+   <geographic>Rodsley</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w204039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006844">Redeslei(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006845">Redeslege, Redesleye</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006846">Reddeslye</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006847">Roddeslea, Roddislea, -lea, Roddesley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006848">Rodesley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006849">Raddesley</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w204314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/006850">Radsley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018f0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6977600" lat="52.9579400" gazref="geonames:7293255" source="geonames"/>
+   <geo long="-1.69477697165544" lat="52.96116387535122" gazref="unlock:11271937" source="unlock"/>
+   <geo easting="420500" northing="340500" long="-1.69625" lat="52.9615" kepnref="3465" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w204039">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204060">
+    <date subtype="simple" begin="1244" end="1244">1244</date>
+    <source style="" id="db192">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204060">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="db192" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204103">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="db21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204125">
+    <date subtype="simple" begin="1183" end="1183">1183</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204125">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <date subtype="simple" begin="1282" end="1282">1282</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204125">
+    <attestation variantID="epns-deep-29-b-name-w204125">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="db124">Darley</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-29-b-name-w204125">
+     <date subtype="simple" begin="1470" end="1470">1470</date>
+     <source style="italic" id="db589">WollCh</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204233">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="italic" id="db589" underspec="ib">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204233">
+    <date subtype="simple" begin="1299" end="1299">1299</date>
+    <source style="italic" id="db559">Trusley</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204233">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="db21">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204233">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204294">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204314">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="db486">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w204314">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="db520">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w204039">Redesleie</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204039">Redeslei</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204060">Redeslege</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204060">Redesleye</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204103">Reddeslye</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204125">Roddeslea</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204125">Roddislea</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204125">-lea</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204125">Roddesleye</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204125">Roddesley</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204233">Rodesleye</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204233">Rodesley</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204294">Raddesley</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w204314">Radsley</searchterm>
+  </extension>
+ </mads>
+ 

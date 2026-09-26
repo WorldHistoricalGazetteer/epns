@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000132">
+  <authority ID="epns-deep-06-b-name-subparish-000132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004311">Lower Beeding</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000132" type="broader">
+   <geographic>Lower Beeding</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w327516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004312">Netherbetynges</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w327541">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/004313">Bedynge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d35"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2601500" lat="51.0326500" gazref="geonames:2643538" source="geonames"/>
+   <geo long="-0.2527562678416763" lat="51.03325306704256" gazref="unlock:11207813" source="unlock"/>
+   <geo easting="522500" northing="127500" long="-0.254316" lat="51.0338" kepnref="6997" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w327516">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w327541">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w327516">Netherbetynges</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w327541">Bedynge</searchterm>
+  </extension>
+ </mads>
+ 

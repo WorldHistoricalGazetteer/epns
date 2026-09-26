@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000196">
+  <authority ID="epns-deep-05-b-name-subparish-000196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002506">Skelton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000074" type="broader">
+   <geographic>Skelton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w195344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002507">Sc(h)eltun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9882500" lat="54.5606200" gazref="geonames:2637746" source="geonames"/>
+   <geo long="-0.9870626575481813" lat="54.55737075303468" gazref="unlock:11284590" source="unlock"/>
+   <geo easting="465500" northing="518500" long="-0.988686" lat="54.5575" kepnref="5848" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w195344">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w195344">
+    <date subtype="simple" begin="1130" end="1135">1130-5</date>
+    <source style="" id="ny236">YCh</source>
+    <page>671</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w195344">Scheltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w195344">Sceltun</searchterm>
+  </extension>
+ </mads>
+ 

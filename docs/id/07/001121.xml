@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000024">
+  <authority ID="epns-deep-07-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001121">Patcham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000024" type="broader">
+   <geographic>Patcham</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w77272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001122">Piceham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001123">Peccham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001124">Pecham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77354">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001125">Pechham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001126">Pecheham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77394">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001127">Petcham</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w77431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001128">Peckham or Pecham or Patcham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d50"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1500300" lat="50.8639600" gazref="geonames:2640582" source="geonames"/>
+   <geo long="-0.1455228336305199" lat="50.86070788272655" gazref="unlock:11241109" source="unlock"/>
+   <geo easting="530500" northing="109500" long="-0.146731" lat="50.8703" kepnref="7043" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w77272">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77289">
+    <attestation variantID="epns-deep-07-b-name-w77289">
+     <date end="1100" begin="1087" subtype="regnal">t. Wm 2</date>
+     <source style="italic" id="su142">Lewes</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w77289">
+     <date end="1476" begin="1476" subtype="simple">1476</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77335">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77354">
+    <date end="1315" begin="1315" subtype="simple">1315</date>
+    <source style="" id="su3">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77375">
+    <date end="1377" begin="1377" subtype="simple">1377</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77394">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77394">
+    <date end="1794" begin="1794" subtype="simple">1794</date>
+    <source style="italic" id="su129">InstPRO</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w77431">
+    <date end="1664" begin="1664" subtype="simple">1664</date>
+    <source style="italic" id="su500">FF</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w77272">Piceham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77289">Peccham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77335">Pecham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77354">Pechham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77375">Pecheham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77394">Petcham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77431">Peckham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77431">Pecham</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w77431">Patcham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000119">
+  <authority ID="epns-deep-05-a-name-parish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003792">North Otterington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000008" type="broader">
+   <geographic>Allerton Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4394200" lat="54.3098600" gazref="geonames:7296813" source="geonames"/>
+   <geo long="-1.439076428015715" lat="54.29965244212156" gazref="unlock:11232923" source="unlock"/>
+   <geo easting="436500" northing="489500" long="-1.44063" lat="54.2998" kepnref="5975" source="kepn"/>
+  </extension>
+ </mads>
+ 

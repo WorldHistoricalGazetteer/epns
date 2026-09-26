@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000142">
+  <authority ID="epns-deep-07-a-name-parish-000142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008143">East Guldeford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000041" type="broader">
+   <geographic>Goldspur Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b79"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7560000" lat="50.9576700" gazref="geonames:2650434" source="geonames"/>
+   <geo long="0.7557103613269902" lat="50.95984050303824" gazref="unlock:11136039" source="unlock"/>
+   <geo easting="593500" northing="121500" long="0.75404" lat="50.9604" kepnref="7157" source="kepn"/>
+  </extension>
+ </mads>
+ 

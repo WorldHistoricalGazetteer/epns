@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000048">
+  <authority ID="epns-deep-86-a-name-parish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/010214">Clifton Maybank</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000005" type="broader">
+   <geographic>Yetminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029c0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6007200" lat="50.9139700" gazref="geonames:7297984" source="geonames"/>
+   <geo long="-2.600436563" lat="50.92066351" source="epns"/>
+   <geo long="-2.60468167425709" lat="50.91884342137429" gazref="unlock:11109283" source="unlock"/>
+   <geo easting="357500" northing="113500" long="-2.60597" lat="50.9194" kepnref="11682" source="kepn"/>
+  </extension>
+ </mads>
+ 

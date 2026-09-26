@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000202">
+  <authority ID="epns-deep-04-b-name-subparish-000202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005193">Cleeve Prior</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000190" type="broader">
+   <geographic>Cleeve Prior</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w423938">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005194">Clyve, Clive</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w423974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005195">Prioris</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w423993">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005196">Priours Cleve</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000568"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8761900" lat="52.1428300" gazref="geonames:2652884" source="geonames"/>
+   <geo long="-1.875775464210136" lat="52.14331839838815" gazref="unlock:11108749" source="unlock"/>
+   <geo easting="408500" northing="249500" long="-1.87719" lat="52.1437" kepnref="5384" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w423938">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w423938">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w423974">
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w423993">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w423938">Clyve</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w423938">Clive</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w423974">Prioris</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w423993">Priours Cleve</searchterm>
+  </extension>
+ </mads>
+ 

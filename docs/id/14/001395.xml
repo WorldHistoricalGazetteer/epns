@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-wpd-belowsubcounty-000003">
+  <authority ID="epns-deep-14-wpd-name-belowsubcounty-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001395">North Division</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wp-subcounty-000001" type="broader">
+   <geographic>Holderness Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-14-wpd-name-w87810">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001396">North Baliwick</geographic>
+  </variant>
+  <variant ID="epns-deep-14-wpd-name-w87836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001397">North Division</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-14-wpd-name-w87810">
+    <date subtype="simple" begin="1786" end="1786">1786</date>
+    <source style="" id="ey350">Tuke</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-wpd-name-w87836">
+    <date subtype="simple" begin="1828" end="1828">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-wpd-name-w87810">North Baliwick</searchterm>
+   <searchterm variantID="epns-deep-14-wpd-name-w87836">North Division</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000026">
+  <authority ID="epns-deep-49-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007734">Newland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000029" type="broader">
+   <geographic>Newland</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w262431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007735">La Newelond</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w262465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007736">Newelong</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w262484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007737">Nywelonde</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w262509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007738">Newland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b85"/>
+  </recordInfo>
+  <extension>
+   <geo easting="476500" northing="168500" long="-0.901445" lat="51.4104" kepnref="3050" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w262431">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="italic" id="be7">AddCh</source>
+    <page>38650</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w262465">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w262484">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="be343">SR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w262509">
+    <date end="1755" begin="1755" subtype="simple">1755</date>
+    <source style="italic" id="be281">PubLib</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w262431">La Newelond</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w262465">Newelong</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w262484">Nywelonde</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w262509">Newland</searchterm>
+  </extension>
+ </mads>
+ 

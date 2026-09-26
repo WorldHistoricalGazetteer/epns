@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000328">
+  <authority ID="epns-deep-05-b-name-subparish-000328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003820">Deighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000120" type="broader">
+   <geographic>Northallerton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w279654">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003821">Dictune, Dicton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w279715">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003822">Dichton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w279743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003823">Dighton, Dyghton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000555"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4242200" lat="54.4132100" gazref="geonames:7296800" source="geonames"/>
+   <geo long="-1.40679113801142" lat="54.40735804219728" gazref="unlock:11128341" source="unlock"/>
+   <geo easting="438500" northing="501500" long="-1.40836" lat="54.4075" kepnref="5981" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w279654">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279654">
+    <attestation variantID="epns-deep-05-b-name-w279654">
+     <date subtype="simple" begin="1088" end="1088">1088</date>
+     <source style="italic" id="ny120">LVD</source>
+     <item>50 d</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w279654">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279715">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279715">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279743">
+    <attestation variantID="epns-deep-05-b-name-w279743">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w279743">
+     <date subtype="simple" begin="1536" end="1536">1536</date>
+     <source style="" id="ny237">YChant</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w279654">Dictune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279654">Dicton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279715">Dichton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279743">Dighton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279743">Dyghton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000033">
+  <authority ID="epns-deep-05-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000285">Helperby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000013" type="broader">
+   <geographic>Brafferton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w22838">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000286">Helperby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w22888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000287">æt heolperbi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w22922">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000288">(H)ilprebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w22942">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000289">Helprebi, Helpreby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w23021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000290">Helparby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000431"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3116400" lat="54.1196200" gazref="geonames:7297706" source="geonames"/>
+   <geo long="-1.334405608732525" lat="54.11934849425531" gazref="unlock:11169712" source="unlock"/>
+   <geo easting="443500" northing="469500" long="-1.33597" lat="54.1195" kepnref="5684" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w22838">
+    <date subtype="simple" begin="972" end="972">972</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="ny15">BCS</source>
+    <item>1278</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22838">
+    <attestation variantID="epns-deep-05-b-name-w22838">
+     <date subtype="simple" begin="1177" end="1177">1177</date>
+     <source style="" id="ny87">HCY</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22888">
+    <date subtype="simple" begin="972" end="972">972</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="ny15">BCS</source>
+    <item>1279</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22922">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22942">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22942">
+    <date subtype="simple" begin="1109" end="1119">1109-19</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>i</item>
+    <page>68 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22942">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w22942">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w23021">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w22838">Helperby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w22888">æt heolperbi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w22922">Hilprebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w22922">ilprebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w22942">Helprebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w22942">Helpreby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23021">Helparby</searchterm>
+  </extension>
+ </mads>
+ 

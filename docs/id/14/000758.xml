@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000025">
+  <authority ID="epns-deep-14-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000758">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000017" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w50877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000759">Prestune, Prestone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w50905">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000760">Prestun(a), Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w50982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000761">Prestune in Holdernes, Prestune in Holdernesse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w51041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000762">Prestitonia</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w51073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000763">Priston, Pryston</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w51104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000764">Pryston in Holdernes</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w51134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/000765">Preston als. Purston in Howldernes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00052a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1977500" lat="53.7566300" gazref="geonames:2639913" source="geonames"/>
+   <geo long="-0.2023895409980092" lat="53.75714692424513" gazref="unlock:11249861" source="unlock"/>
+   <geo easting="518500" northing="430500" long="-0.204071" lat="53.7574" kepnref="8408" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w50877">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w50905">
+    <date end="1115" begin="1115" subtype="simple">1115</date>
+    <source style="" id="ey367">YCh</source>
+    <page>1304</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w50905">
+    <attestation variantID="epns-deep-14-b-name-w50905">
+     <date end="1175" begin="1170" subtype="simple">1170-5</date>
+     <source style="italic" id="ey301">RegAlb</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w50905">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w50982">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w51041">
+    <date end="1102" begin="1098" subtype="simple">1098-1102</date>
+    <source style="" id="ey367">YCh</source>
+    <item>1300</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w51073">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="ey224">NomVill</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w51104">
+    <date end="1570" begin="1570" subtype="simple">1570</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w51134">
+    <date end="1574" begin="1574" subtype="simple">1574</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w50877">Prestune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50877">Prestone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50905">Prestuna</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50905">Prestun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50905">Prestona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50905">Preston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50982">Prestune in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w50982">Prestune in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51041">Prestitonia</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51073">Priston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51073">Pryston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51104">Pryston in Holdernes</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51134">Preston</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w51134">Purston in Howldernes</searchterm>
+  </extension>
+ </mads>
+ 

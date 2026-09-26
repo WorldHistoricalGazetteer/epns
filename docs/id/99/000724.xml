@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000034">
+  <authority ID="epns-deep-99-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000724">St Ives</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000034" type="broader">
+   <geographic>St Ives</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w298695">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000725">S. Yvo de Slepe</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w298745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000726">villa S. Yuonis</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w298770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000727">St Ive</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003aa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.08447872250846437" lat="52.33465647676601" gazref="unlock:11276566" source="unlock"/>
+   <geo easting="531500" northing="271500" long="-0.0718339" lat="52.3258" kepnref="4163" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w298695">
+    <date subtype="simple" begin="1110" end="1110">1110</date>
+    <copydate end="1360" begin="1340">c. 1350</copydate>
+    <source style="" id="bh163">Rams</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w298695">
+    <date subtype="simple" begin="1130" end="1130">1130</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w298745">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w298770">
+    <date subtype="simple" begin="1485" end="1485">1485</date>
+    <source style="" id="bh94">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w298695">S. Yvo de Slepe</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w298745">villa S. Yuonis</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w298770">St Ive</searchterm>
+  </extension>
+ </mads>
+ 

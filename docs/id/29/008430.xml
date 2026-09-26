@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-a-parish-000061">
+  <authority ID="epns-deep-29-a-name-parish-000061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/008430">Windley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-hu-subcounty-000001" type="broader">
+   <geographic>Appletree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0017e0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5454800" lat="53.0038800" gazref="geonames:2633847" source="geonames"/>
+   <geo long="-1.54542037047345" lat="53.00563816230207" gazref="unlock:11323700" source="unlock"/>
+   <geo easting="430500" northing="345500" long="-1.54691" lat="53.006" kepnref="3478" source="kepn"/>
+  </extension>
+ </mads>
+ 

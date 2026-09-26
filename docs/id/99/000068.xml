@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000005">
+  <authority ID="epns-deep-99-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000068">Denton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000005" type="broader">
+   <geographic>Denton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w244888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000069">Dentun</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w244922">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000070">Dentone</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w244949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000071">Dentone cum Caldecote</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w244980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000072">Dentone juxta Stilton</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w245018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000073">Dentone prope Jakesle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000330"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3140818558012115" lat="52.47303850067622" gazref="unlock:11128784" source="unlock"/>
+   <geo easting="514500" northing="287500" long="-0.315693" lat="52.4734" kepnref="4135" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w244888">
+    <date subtype="simple" begin="972" end="992">972-92</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="bh12">BCS</source>
+    <item>1130</item>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w244922">
+    <attestation variantID="epns-deep-99-b-name-w244922">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w244949">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w244980">
+    <date subtype="circa" begin="1390" end="1410">c. 1400</date>
+    <source style="italic" id="bh106">Linc</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w245018">
+    <date subtype="circa" begin="1405" end="1425">c. 1415</date>
+    <source style="italic" id="bh106" underspec="ib">Linc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w244888">Dentun</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w244922">Dentone</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w244949">Dentone cum Caldecote</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w244980">Dentone juxta Stilton</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w245018">Dentone prope Jakesle</searchterm>
+  </extension>
+ </mads>
+ 

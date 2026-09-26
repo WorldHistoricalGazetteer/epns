@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000209">
+  <authority ID="epns-deep-10-b-name-subparish-000209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004595">Corby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000209" type="broader">
+   <geographic>Corby</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w251585">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004596">Corbei, Corbi</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w251639">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004597">Corby</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w251646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004598">Corebi</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w251661">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004599">Coreby</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w251700">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004600">Carbe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000545"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6893900" lat="52.4963700" gazref="geonames:2652381" source="geonames"/>
+   <geo long="-0.6962555150319705" lat="52.49585145008646" gazref="unlock:11116063" source="unlock"/>
+   <geo easting="488500" northing="289500" long="-0.697823" lat="52.4962" kepnref="11079" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w251585">
+    <attestation variantID="epns-deep-10-b-name-w251585">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w251639">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w251646">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w251661">
+    <attestation variantID="epns-deep-10-b-name-w251661">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="nh281">Survey</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w251661">
+     <date end="1252" begin="1252" subtype="simple">1252</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w251700">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="nh155">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w251585">Corbei</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w251585">Corbi</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w251639">Corby</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w251646">Corebi</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w251661">Coreby</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w251700">Carbe</searchterm>
+  </extension>
+ </mads>
+ 

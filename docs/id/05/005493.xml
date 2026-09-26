@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000498">
+  <authority ID="epns-deep-05-b-name-subparish-000498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005493">Ravensworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000167" type="broader">
+   <geographic>Kirby Ravensworth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w388853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005494">Ravenesu(u)et</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w388876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005495">Rafneswad</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w388907">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005496">Ravenswat</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w388947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005497">Raven(e)swath</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w389005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005498">Raveneswad(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004f7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7833300" lat="54.4666700" gazref="geonames:2639594" source="geonames"/>
+   <geo long="-1.776284339776691" lat="54.46253607701264" gazref="unlock:11253057" source="unlock"/>
+   <geo easting="414500" northing="507500" long="-1.77781" lat="54.4627" kepnref="6153" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w388853">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w388876">
+    <date subtype="simple" begin="1154" end="1166">1154-66</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>221</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w388907">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>221</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w388907">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="italic" id="ny194">Rich</source>
+    <page>28</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w388947">
+    <attestation variantID="epns-deep-05-b-name-w388947">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w388947">
+     <date subtype="simple" begin="1427" end="1427">1427</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w389005">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w389005">
+    <date subtype="simple" begin="1257" end="1257">1257</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>222</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w389005">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w388853">Ravenesuuet</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388853">Ravenesuet</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388876">Rafneswad</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388907">Ravenswat</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388947">Raveneswath</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w388947">Ravenswath</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w389005">Raveneswade</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w389005">Raveneswad</searchterm>
+  </extension>
+ </mads>
+ 

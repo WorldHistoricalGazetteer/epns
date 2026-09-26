@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000099">
+  <authority ID="epns-deep-34-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009711">Littlethorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000034" type="broader">
+   <geographic>Ripon</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w403832">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009712">Torp'</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w403866">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009713">Thorp(p)</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w403920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009714">Thorp by Ripon, Thorp juxta Ripon, Thorp by Rypon, Thorp juxta Rypon</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w404014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009715">Littlethorpe</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w404051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009716">Littlethorpe or Thorpe</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w404088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/009717">Thorpe Parva</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c81006210"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5213900" lat="54.1099700" gazref="geonames:7302038" source="geonames"/>
+   <geo long="-1.510412086" lat="54.11569733" source="epns"/>
+   <geo long="-1.502708644573427" lat="54.12016146428662" gazref="unlock:11197341" source="unlock"/>
+   <geo kepnexref="314" long="-1.505624" lat="54.117634" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w403832">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403832">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403832">
+    <date end="1234" begin="1234" subtype="simple">1234</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403866">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="wr91">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403866">
+    <attestation variantID="epns-deep-34-b-name-w403866">
+     <date end="1228" begin="1228" subtype="simple">1228</date>
+     <source style="" id="wr605">Rip</source>
+     <item>i</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w403866">
+     <date end="1584" begin="1584" subtype="simple">1584</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403920">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="" id="wr605">Rip</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w403920">
+    <date end="1491" begin="1491" subtype="simple">1491</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w404014">
+    <date end="1653" begin="1653" subtype="simple">1653</date>
+    <source style="" id="wr776">WillS</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w404014">
+    <date end="1685" begin="1685" subtype="simple">1685</date>
+    <source style="italic" id="wr609">RipQS</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w404051">
+    <date end="1822" begin="1822" subtype="simple">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w404088">
+    <date end="1693" begin="1693" subtype="simple">1693</date>
+    <source style="italic" id="wr609">RipQS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w403832">Torp'</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403866">Thorpp</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403866">Thorp</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403920">Thorp by Ripon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403920">Thorp juxta Ripon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403920">Thorp by Rypon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w403920">Thorp juxta Rypon</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w404014">Littlethorpe</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w404051">Littlethorpe or Thorpe</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w404088">Thorpe Parva</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000073">
+  <authority ID="epns-deep-21-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006714">Gosforth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000078" type="broader">
+   <geographic>Gosforth</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w286203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006715">Goseford</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006716">Gosford</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286284">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006717">Gosseford</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006718">Gouseford, Gowseford</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006719">Gosforth in Coupeland</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286392">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006720">Gosford al. Gesforth in Coupeland</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006721">Gossefurth</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286463">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006722">Gosfurthe</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286489">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006723">Gosfoorth</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w286512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006724">Gosforth or Gosford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9000fdf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4336600" lat="54.4171800" gazref="geonames:2648274" source="geonames"/>
+   <geo long="-3.441070731641803" lat="54.41819500260748" gazref="unlock:11156880" source="unlock"/>
+   <geo easting="307500" northing="503500" long="-3.42698" lat="54.4185" kepnref="4536" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w286203">
+    <attestation variantID="epns-deep-21-b-name-w286203">
+     <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w286203">
+     <date end="1396" begin="1396" subtype="simple">1396</date>
+     <source style="" id="cu120">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286244">
+    <attestation variantID="epns-deep-21-b-name-w286244">
+     <date end="1180" begin="1160" subtype="circa">c. 1170</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w286244">
+     <date end="1440" begin="1440" subtype="simple">1440</date>
+     <source style="" id="cu120">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286284">
+    <attestation variantID="epns-deep-21-b-name-w286284">
+     <date end="1235" begin="1215" subtype="circa">c. 1225</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-21-b-name-w286284">
+     <date end="1514" begin="1514" subtype="simple">1514</date>
+     <source style="" id="cu24">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286326">
+    <date end="1235" begin="1215" subtype="circa">c. 1225</date>
+    <source style="" id="cu369">StB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286360">
+    <date end="1388" begin="1388" subtype="simple">1388</date>
+    <source style="" id="cu294">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286392">
+    <date end="1405" begin="1405" subtype="simple">1405</date>
+    <source style="" id="cu294" underspec="ib">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286438">
+    <date end="1547" begin="1509" subtype="regnal">t. Hy 8</date>
+    <source style="italic" id="cu8">AOMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286463">
+    <date end="1540" begin="1540" subtype="simple">1540</date>
+    <source style="italic" id="cu226">MinAcct</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286489">
+    <date end="1578" begin="1578" subtype="simple">1578</date>
+    <source style="italic" id="cu62">Cocker</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w286512">
+    <date end="1777" begin="1777" subtype="simple">1777</date>
+    <source style="" id="cu243">NB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w286203">Goseford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286244">Gosford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286284">Gosseford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286326">Gouseford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286326">Gowseford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286360">Gosforth in Coupeland</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286392">Gosford</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286392">Gesforth in Coupeland</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286438">Gossefurth</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286463">Gosfurthe</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286489">Gosfoorth</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w286512">Gosforth or Gosford</searchterm>
+  </extension>
+ </mads>
+ 

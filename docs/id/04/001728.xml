@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000058">
+  <authority ID="epns-deep-04-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001728">Hill Croome</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000058" type="broader">
+   <geographic>Hill Croome</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w147473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001729">Hylcromba</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w147504">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001730">Hilcrumbe</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w147523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001731">Hulcrumba, Hulcromba</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1693100" lat="52.0690400" gazref="geonames:7299676" source="geonames"/>
+   <geo long="-2.167764400784375" lat="52.06234015029728" gazref="unlock:11173774" source="unlock"/>
+   <geo easting="388500" northing="240500" long="-2.16914" lat="52.0628" kepnref="5248" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w147473">
+    <date end="1038" begin="1038" subtype="simple">1038</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>760</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w147504">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w147523">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA &amp; B</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w147473">Hylcromba</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w147504">Hilcrumbe</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w147523">Hulcrumba</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w147523">Hulcromba</searchterm>
+  </extension>
+ </mads>
+ 

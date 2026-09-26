@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000057">
+  <authority ID="epns-deep-23-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006208">Clifton Hampden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000052" type="broader">
+   <geographic>Clifton Hampden</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w293486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006209">Cliftona</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w293555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006210">Clifton', Cliftun, Clif(f)ton, Clyfton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w293598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/006211">Clypton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2102100" lat="51.6569000" gazref="geonames:2652834" source="geonames"/>
+   <geo long="-1.212081551043262" lat="51.65517855642072" gazref="unlock:11109269" source="unlock"/>
+   <geo easting="454500" northing="195500" long="-1.21356" lat="51.6557" kepnref="3573" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w293486">
+    <attestation variantID="epns-deep-23-b-name-w293486">
+     <date end="1146" begin="1146" subtype="simple">1146</date>
+     <copydate end="1800" begin="1700">18th</copydate>
+     <source style="" id="ox205">RegAntiquiss</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w293555">
+    <date end="1600" begin="1146">1146-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w293598">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="ox77">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w293486">Cliftona</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Clifton'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Cliftun</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Cliffton</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Clifton</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Clyftone</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293555">Clyfton</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w293598">Clypton</searchterm>
+  </extension>
+ </mads>
+ 

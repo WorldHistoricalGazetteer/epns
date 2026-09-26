@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000264">
+  <authority ID="epns-deep-05-b-name-subparish-000264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003299">Dalton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000102" type="broader">
+   <geographic>Topcliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w244952">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003300">Deltune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w244969">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003301">Dautona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w244991">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003302">Daweton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w245008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003303">Dalton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005d7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3500000" lat="54.1833300" gazref="geonames:2651554" source="geonames"/>
+   <geo long="-1.333395572379032" lat="54.18226364321887" gazref="unlock:11126845" source="unlock"/>
+   <geo easting="443500" northing="476500" long="-1.33496" lat="54.1824" kepnref="5917" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w244952">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w244969">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w244991">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w245008">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w245008">
+    <attestation variantID="epns-deep-05-b-name-w245008">
+     <date subtype="simple" begin="1252" end="1252">1252</date>
+     <source style="italic" id="ny12">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w244952">Deltune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w244969">Dautona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w244991">Daweton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w245008">Dalton</searchterm>
+  </extension>
+ </mads>
+ 

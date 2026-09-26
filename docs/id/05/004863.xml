@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000432">
+  <authority ID="epns-deep-05-b-name-subparish-000432">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004863">Bainbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w352495">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004864">Bainebrig(g), Beynebrigge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000409"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1030900" lat="54.3072700" gazref="geonames:2656621" source="geonames"/>
+   <geo long="-2.099914829403029" lat="54.30990346420977" gazref="unlock:11067374" source="unlock"/>
+   <geo easting="393500" northing="490500" long="-2.10139" lat="54.3101" kepnref="6085" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w352495">
+    <attestation variantID="epns-deep-05-b-name-w352495">
+     <date subtype="simple" begin="1219" end="1219">1219</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w352495">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w352495">Bainebrigg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352495">Bainebrig</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352495">Beynebrigge</searchterm>
+  </extension>
+ </mads>
+ 

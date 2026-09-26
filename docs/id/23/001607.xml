@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000008">
+  <authority ID="epns-deep-23-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/001607">Ipsden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000001" type="broader">
+   <geographic>Langtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006fd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0824500" lat="51.5632300" gazref="geonames:2646060" source="geonames"/>
+   <geo long="-1.083795162342633" lat="51.56432178187808" gazref="unlock:11183189" source="unlock"/>
+   <geo easting="463500" northing="185500" long="-1.08528" lat="51.5648" kepnref="3529" source="kepn"/>
+  </extension>
+ </mads>
+ 

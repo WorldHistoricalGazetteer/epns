@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000193">
+  <authority ID="epns-deep-08-b-name-subparish-000193">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011057">Blackawton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000192" type="broader">
+   <geographic>Blackawton</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w555364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011058">Auetona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011059">Avetona, Aueton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555446">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011060">Blakeaueton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011061">Blakaueton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011062">Blakauueton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555538">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011063">Blake Aueton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555562">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011064">Aveton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w555580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011065">Blackawton al. Blackaveton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018e6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6790700" lat="50.3468700" gazref="geonames:2655528" source="geonames"/>
+   <geo long="-3.679569625645568" lat="50.34166745471111" gazref="unlock:11079146" source="unlock"/>
+   <geo easting="280500" northing="50500" long="-3.68072" lat="50.3423" kepnref="15651" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w555364">
+    <attestation variantID="epns-deep-08-b-name-w555364">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w555364">
+     <date end="1266" begin="1266" subtype="simple">1266</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555426">
+    <date end="1266" begin="1086">1086-1266</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555446">
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555446">
+    <date end="1308" begin="1308" subtype="simple">1308</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555482">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555482">
+    <date end="1338" begin="1338" subtype="simple">1338</date>
+    <source style="" id="de3">AD</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555516">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555538">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555562">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w555580">
+    <date end="1671" begin="1671" subtype="simple">1671</date>
+    <source style="italic" id="de61">Deed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w555364">Auetona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555426">Avetona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555426">Auetone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555426">Aueton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555446">Blakeauetone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555446">Blakeaueton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555482">Blakaueton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555516">Blakauueton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555538">Blake Aueton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555562">Aveton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555580">Blackawton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w555580">Blackaveton</searchterm>
+  </extension>
+ </mads>
+ 

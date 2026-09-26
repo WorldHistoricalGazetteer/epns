@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000048">
+  <authority ID="epns-deep-07-a-name-parish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001930">Rodmell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000009" type="broader">
+   <geographic>Holmestrow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bf6"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0131300" lat="50.8357000" gazref="geonames:2639231" source="geonames"/>
+   <geo long="0.009535304736396789" lat="50.83115636995267" gazref="unlock:11271918" source="unlock"/>
+   <geo easting="541500" northing="106500" long="0.00834017" lat="50.8407" kepnref="7067" source="kepn"/>
+  </extension>
+ </mads>
+ 

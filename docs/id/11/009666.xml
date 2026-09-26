@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000124">
+  <authority ID="epns-deep-11-a-name-parish-000124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/009666">Horley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000013" type="broader">
+   <geographic>Reigate Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1591900" lat="51.1742300" gazref="geonames:2646606" source="geonames"/>
+   <geo long="-0.1615249059134444" lat="51.17575857219423" gazref="unlock:11179298" source="unlock"/>
+   <geo easting="528500" northing="142500" long="-0.163457" lat="51.1673" kepnref="8364" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000024">
+  <authority ID="epns-deep-44-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/005578">Sutton Downes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-cy-chapelry-000002" type="broader">
+   <geographic>Macclesfield Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w246226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/005579">vill' de Sutton et Dounes</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w246265">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/005580">Sutton Downes</geographic>
+  </variant>
+  <variant ID="epns-deep-44-b-name-w246289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/005581">Sutton Higher or Downes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.119871923" lat="53.23569146" source="epns"/>
+   <geo easting="395500" northing="368500" long="-2.06883" lat="53.2135" kepnref="11717" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w246226">
+    <date end="1494" begin="1494" subtype="simple">1494</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w246265">
+    <date end="1710" begin="1710" subtype="simple">1710</date>
+    <source style="italic" id="ch180">Dow</source>
+   </attestation>
+   <attestation variantID="epns-deep-44-b-name-w246289">
+    <date end="1860" begin="1860" subtype="simple">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w246226">vill' de Sutton et Dounes</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w246265">Sutton Downes</searchterm>
+   <searchterm variantID="epns-deep-44-b-name-w246289">Sutton Higher or Downes</searchterm>
+  </extension>
+ </mads>
+ 

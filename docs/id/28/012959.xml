@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000074">
+  <authority ID="epns-deep-28-b-name-subparish-000074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012959">Hognaston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000074" type="broader">
+   <geographic>Hognaston</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w477413">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012960">Ochenavestun</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w477435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012961">Hokenaston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w477525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012962">Hakenaston</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w477546">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012963">Hodnaston</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w477565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012964">Hoknaston</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w477617">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/012965">Hognaston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00188f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6500500" lat="53.0513300" gazref="geonames:2646790" source="geonames"/>
+   <geo long="-1.64938333969894" lat="53.05094122449716" gazref="unlock:11176465" source="unlock"/>
+   <geo easting="423500" northing="350500" long="-1.65086" lat="53.0513" kepnref="3350" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w477413">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477435">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="db461">RegLich</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477435">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="db459">RegAnt</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477435">
+    <date subtype="simple" begin="1250" end="1250">1250</date>
+    <source style="" id="db128">DbA</source>
+    <item>xiii</item>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477435">
+    <attestation variantID="epns-deep-28-b-name-w477435">
+     <date subtype="simple" begin="1281" end="1281">1281</date>
+     <source style="italic" id="db23">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w477435">
+     <date subtype="simple" begin="1446" end="1446">1446</date>
+     <source style="italic" id="db109">CPG</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477525">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477546">
+    <date subtype="simple" begin="1416" end="1416">1416</date>
+    <source style="" id="db86">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477565">
+    <date subtype="simple" begin="1499" end="1499">1499</date>
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477565">
+    <date subtype="simple" begin="1537" end="1537">1537</date>
+    <source style="italic" id="db109">CPG</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477565">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477617">
+    <date subtype="simple" begin="1433" end="1433">1433</date>
+    <source style="italic" id="db38">BelCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477617">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="db251">HMC</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w477617">
+    <attestation variantID="epns-deep-28-b-name-w477617">
+     <date subtype="simple" begin="1577" end="1577">1577</date>
+     <source style="" id="db486">Saxton</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w477413">Ochenavestun</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477435">Hokenastone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477435">Hokenaston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477525">Hakenaston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477546">Hodnaston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477565">Hoknaston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w477617">Hognaston</searchterm>
+  </extension>
+ </mads>
+ 

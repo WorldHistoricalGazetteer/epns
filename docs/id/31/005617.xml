@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000068">
+  <authority ID="epns-deep-31-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005617">Walton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000020" type="broader">
+   <geographic>Sandal Magna</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w255728">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005618">Waleton, Waletun(a), Walet'</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w255853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005619">Walton</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w255923">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/005620">Midle Walton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100623d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4658200" lat="53.6488600" gazref="geonames:6693735" source="geonames"/>
+   <geo long="-1.470454958" lat="53.64809996" source="epns"/>
+   <geo easting="435500" northing="417500" long="-1.46436" lat="53.6528" kepnref="14461" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="simple" begin="1159" end="1180">1159-80</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1681</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="post" begin="1229" end="1279">p. 1229</date>
+    <source style="italic" id="wr424">Nost</source>
+    <item>35d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255728">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255853">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255853">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="wr757">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255853">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="wr355">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255853">
+    <attestation variantID="epns-deep-31-b-name-w255853">
+     <date subtype="simple" begin="1305" end="1305">1305</date>
+     <source style="" id="wr140">DodsN</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w255853">
+     <date subtype="simple" begin="1515" end="1515">1515</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w255923">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w255728">Waleton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w255728">Waletuna</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w255728">Waletun</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w255728">Walet'</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w255853">Walton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w255923">Midle Walton</searchterm>
+  </extension>
+ </mads>
+ 

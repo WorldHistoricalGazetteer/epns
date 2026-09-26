@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000075">
+  <authority ID="epns-deep-28-b-name-subparish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/013175">Hopton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000075" type="broader">
+   <geographic>Hopton and Griffe Grange</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w484152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/013176">Opetune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w484169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/013177">Hopton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001896"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6183100" lat="53.0904200" gazref="geonames:7298150" source="geonames"/>
+   <geo long="-1.619306603690644" lat="53.07781932362317" gazref="unlock:11179205" source="unlock"/>
+   <geo easting="425500" northing="353500" long="-1.62079" lat="53.0781" kepnref="3351" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w484152">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w484169">
+    <date subtype="ante" begin="1196" end="1246">a. 1246</date>
+    <source style="" id="db459">RegAnt</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w484169">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w484169">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="db317">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w484169">
+    <attestation variantID="epns-deep-28-b-name-w484169">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="db86">Cl</source>
+    </attestation>
+    <passim>et passim.</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w484152">Opetune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w484169">Hoptone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w484169">Hopton</searchterm>
+  </extension>
+ </mads>
+ 

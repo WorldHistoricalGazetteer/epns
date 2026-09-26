@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000128">
+  <authority ID="epns-deep-45-b-name-subparish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015888">Newbold Astbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000021" type="broader">
+   <geographic>Astbury</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w723172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015889">Newbold &amp; Astebury</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w723204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015890">Astebur' Neubold</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w723232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/015891">Newbold Astbury</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f4e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2282700" lat="53.1428100" gazref="geonames:7293010" source="geonames"/>
+   <geo long="-2.239242059" lat="53.14561215" source="epns"/>
+   <geo easting="384500" northing="361500" long="-2.2332" lat="53.1504" kepnref="11882" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w723172">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w723204">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="italic" id="ch223">Eyre</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w723232">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w723172">Newbold &amp; Astebury</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w723204">Astebur' Neubold</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w723232">Newbold Astbury</searchterm>
+  </extension>
+ </mads>
+ 

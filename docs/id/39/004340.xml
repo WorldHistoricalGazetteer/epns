@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000052">
+  <authority ID="epns-deep-39-a-name-parish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/004340">Charlton Kings</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000007" type="broader">
+   <geographic>Cheltenham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001927"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0423900" lat="51.8837400" gazref="geonames:2653324" source="geonames"/>
+   <geo long="-2.043585511" lat="51.87811903" source="epns"/>
+   <geo long="-2.05085484677087" lat="51.88261285828786" gazref="unlock:11103967" source="unlock"/>
+   <geo easting="396500" northing="220500" long="-2.05224" lat="51.8831" kepnref="6378" source="kepn"/>
+  </extension>
+ </mads>
+ 

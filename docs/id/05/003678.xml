@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000307">
+  <authority ID="epns-deep-05-b-name-subparish-000307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003678">Over Silton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000115" type="broader">
+   <geographic>Over Silton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w269504">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003679">Silftune, Siluetun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w269548">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003680">Silton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w269565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003681">Parva Silton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w269587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003682">Over Silton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600056a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3073200" lat="54.3333600" gazref="geonames:2640768" source="geonames"/>
+   <geo long="-1.300166939892608" lat="54.33488031640221" gazref="unlock:11237820" source="unlock"/>
+   <geo easting="445500" northing="493500" long="-1.30174" lat="54.335" kepnref="5956" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w269504">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269504">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="ny197">Riev</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269548">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269565">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269587">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w269504">Silftune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269504">Siluetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269504">Siluetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269548">Silton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269565">Parva Silton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269587">Over Silton</searchterm>
+  </extension>
+ </mads>
+ 

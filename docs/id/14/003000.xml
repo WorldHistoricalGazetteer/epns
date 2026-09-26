@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000133">
+  <authority ID="epns-deep-14-b-name-subparish-000133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003000">Luttons Ambo</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000075" type="broader">
+   <geographic>Weaverthorpe</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w196157">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003001">Ludton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w196173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003002">duabus Luttunis</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w196207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003003">Luttons two</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w196234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003004">Luttons-Ambo</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d00056c"/>
+  </recordInfo>
+  <extension>
+   <geo easting="492500" northing="469500" long="-0.586493" lat="54.1131" kepnref="8516" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w196157">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w196173">
+    <date end="1114" begin="1108" subtype="simple">1108-14</date>
+    <source style="italic" id="ey301">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w196207">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ey264">ParlSurv</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w196234">
+    <date end="1828" begin="1828" subtype="simple">1828</date>
+    <source style="" id="ey167">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w196157">Ludton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w196173">duabus Luttunis</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w196207">Luttons two</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w196234">Luttons-Ambo</searchterm>
+  </extension>
+ </mads>
+ 

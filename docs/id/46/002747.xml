@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000019">
+  <authority ID="epns-deep-46-b-name-subparish-000019">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/002747">Checkley cum Wrinehill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000006" type="broader">
+   <geographic>Wybunbury</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w145478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/002748">Checkley cum Wrinehill</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w145516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/002749">Chatkylegh cum Wrymhull</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368fb47fc408560020a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3946500" lat="53.0083900" gazref="geonames:7299894" source="geonames"/>
+   <geo long="-2.402374333" lat="53.00133003" source="epns"/>
+   <geo easting="373500" northing="346500" long="-2.39643" lat="53.0151" kepnref="11911" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w145478">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w145516">
+    <date end="1518" begin="1518" subtype="simple">1518</date>
+    <source style="" id="ch5">AD</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w145516">
+    <date end="1518" begin="1518" subtype="simple">1518</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w145478">Checkley cum Wrinehill</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w145516">Chatkylegh cum Wrymhull</searchterm>
+  </extension>
+ </mads>
+ 

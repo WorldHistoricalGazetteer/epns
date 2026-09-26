@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000511">
+  <authority ID="epns-deep-05-b-name-subparish-000511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005655">East Layton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000174" type="broader">
+   <geographic>Stanwick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w398302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005656">Latton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398318">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005657">Estlatton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398339">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005658">Laghton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005659">(Est) Laton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005660">Est Leiton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398437">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005661">Estlayton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7484900" lat="54.4838100" gazref="geonames:7302941" source="geonames"/>
+   <geo long="-1.745315698074771" lat="54.48045085997842" gazref="unlock:11136263" source="unlock"/>
+   <geo easting="416500" northing="509500" long="-1.74684" lat="54.4806" kepnref="6166" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w398302">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398318">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398339">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398358">
+    <attestation variantID="epns-deep-05-b-name-w398358">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>83 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w398358">
+     <date subtype="simple" begin="1530" end="1530">1530</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398416">
+    <date subtype="simple" begin="1256" end="1256">1256</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398437">
+    <date subtype="simple" begin="1492" end="1492">1492</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w398302">Latton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398318">Estlatton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398339">Laghton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398358">Est Laton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398358">Laton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398416">Est Leiton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398437">Estlayton</searchterm>
+  </extension>
+ </mads>
+ 

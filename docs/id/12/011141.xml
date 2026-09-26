@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000177">
+  <authority ID="epns-deep-12-b-name-subparish-000177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011141">Wickham Bishops</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000237" type="broader">
+   <geographic>Wickham Bishops</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w553413">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011142">Wycham Ep(iscop)i</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w553441">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011143">Wykham Bishops</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000ecc"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6682300" lat="51.7783000" gazref="geonames:2633973" source="geonames"/>
+   <geo long="0.6749335653666095" lat="51.78025247091909" gazref="unlock:11322512" source="unlock"/>
+   <geo easting="584500" northing="212500" long="0.673238" lat="51.7807" kepnref="12412" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w553413">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="italic" id="ex157">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w553441">
+    <date subtype="simple" begin="1313" end="1313">1313</date>
+    <source style="italic" id="ex151">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w553413">Wycham Episcopi</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w553413">Wycham Epi</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w553441">Wykham Bishops</searchterm>
+  </extension>
+ </mads>
+ 

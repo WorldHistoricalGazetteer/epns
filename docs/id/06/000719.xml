@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000025">
+  <authority ID="epns-deep-06-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000719">East Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000025" type="broader">
+   <geographic>East Dean</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w65390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000720">Estdena</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000ce5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7136000" lat="50.9105000" gazref="geonames:2650472" source="geonames"/>
+   <geo long="-0.7125191772337014" lat="50.91331063276714" gazref="unlock:11135837" source="unlock"/>
+   <geo easting="490500" northing="112500" long="-0.71427" lat="50.9049" kepnref="6886" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w65390">
+    <date subtype="simple" begin="1150" end="1150">1150</date>
+    <copydate end="1227" begin="1227">1227</copydate>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w65390">Estdena</searchterm>
+  </extension>
+ </mads>
+ 

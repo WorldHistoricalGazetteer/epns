@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000093">
+  <authority ID="epns-deep-07-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004680">Alciston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000094" type="broader">
+   <geographic>Alciston</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w287892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004681">Alsistone, Alsitone</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w287921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004682">Alsistona, Alcistona</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w287973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004683">Alceston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w288004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004684">Alsieston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w288042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004685">Alston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000c93"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1268700" lat="50.8286000" gazref="geonames:7300478" source="geonames"/>
+   <geo long="0.1372581379564288" lat="50.82888600941664" gazref="unlock:11057921" source="unlock"/>
+   <geo easting="550500" northing="105500" long="0.135663" lat="50.8295" kepnref="7109" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w287892">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w287921">
+    <attestation variantID="epns-deep-07-b-name-w287921">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="su24">Bello</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w287921">
+     <date end="1327" begin="1327" subtype="simple">1327</date>
+     <source style="" id="su271">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w287973">
+    <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+    <copydate end="1431" begin="1431">1431</copydate>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w288004">
+    <date end="1131" begin="1111" subtype="circa">c. 1121</date>
+    <source style="italic" id="su115">Harl</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w288004">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="su95">Fees</source>
+    <item>73</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w288042">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w287892">Alsistone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w287892">Alsitone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w287921">Alsistona</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w287921">Alcistona</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w287973">Alceston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w288004">Alsieston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w288042">Alston</searchterm>
+  </extension>
+ </mads>
+ 

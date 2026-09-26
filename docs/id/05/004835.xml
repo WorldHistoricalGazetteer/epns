@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000430">
+  <authority ID="epns-deep-05-b-name-subparish-000430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004835">Askrigg</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w350616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004836">Ascric</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w350632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004837">Askric</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w350648">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004838">Ascryk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w350671">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004839">Askerik, Askeryk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w350718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004840">Askerich</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w350750">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004841">Askerigg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000407"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0808200" lat="54.3148300" gazref="geonames:2656899" source="geonames"/>
+   <geo long="-2.084561764073194" lat="54.31890344707102" gazref="unlock:11064867" source="unlock"/>
+   <geo easting="394500" northing="491500" long="-2.08604" lat="54.3191" kepnref="6084" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w350616">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350632">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350648">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>6 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350671">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350671">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>576</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350718">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350718">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>277</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w350750">
+    <attestation variantID="epns-deep-05-b-name-w350750">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w350616">Ascric</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350632">Askric</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350648">Ascryk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350671">Askerik</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350671">Askeryk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350718">Askerich</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w350750">Askerigg</searchterm>
+  </extension>
+ </mads>
+ 

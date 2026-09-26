@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000160">
+  <authority ID="epns-deep-09-b-name-subparish-000160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008144">Loxbeare</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000160" type="broader">
+   <geographic>Loxbeare</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w368717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008145">Lochesbera</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368737">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008146">Lockesbere</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368801">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008147">Lokkesbere and Lokkesbear(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008148">Lokeberga</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w368850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008149">Lokkesberg</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5555200" lat="50.9260000" gazref="geonames:7298202" source="geonames"/>
+   <geo long="-3.544356129798097" lat="50.93717722607691" gazref="unlock:11209238" source="unlock"/>
+   <geo easting="291500" northing="116500" long="-3.54554" lat="50.9377" kepnref="15831" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w368717">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368737">
+    <attestation variantID="epns-deep-09-b-name-w368737">
+     <date end="1205" begin="1205" subtype="simple">1205</date>
+     <source style="" id="de84">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w368737">
+     <date end="1326" begin="1326" subtype="simple">1326</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368801">
+    <date end="1326" begin="1205">1205-1326</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368831">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w368850">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w368717">Lochesbera</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368737">Lockesbere</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368801">Lokkesbere</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368801">Lokkesbeare</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368801">Lokkesbear</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368831">Lokeberga</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w368850">Lokkesberg</searchterm>
+  </extension>
+ </mads>
+ 

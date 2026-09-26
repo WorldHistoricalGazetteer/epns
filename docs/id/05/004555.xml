@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000407">
+  <authority ID="epns-deep-05-b-name-subparish-000407">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004555">Aikber</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000140" type="broader">
+   <geographic>Finghall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w332180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004556">Akeberga</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w332204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004557">Aykebergh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w332236">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004558">Aykbergh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w332256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004559">Aykebargh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000486"/>
+  </recordInfo>
+  <extension>
+   <geo easting="419500" northing="491500" long="-1.70172" lat="54.3187" kepnref="6059" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w332180">
+    <date subtype="simple" begin="1160" end="1160">1160</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1119</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w332204">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w332204">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w332236">
+    <date subtype="simple" begin="1342" end="1342">1342</date>
+    <source style="" id="ny94">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w332256">
+    <date subtype="simple" begin="1539" end="1539">1539</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>578</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w332180">Akeberga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w332204">Aykebergh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w332236">Aykbergh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w332256">Aykebargh</searchterm>
+  </extension>
+ </mads>
+ 

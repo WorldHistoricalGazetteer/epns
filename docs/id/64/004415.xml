@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000011">
+  <authority ID="epns-deep-64-a-name-parish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/004415">Elsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000ef3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4415100" lat="53.5976200" gazref="geonames:2650057" source="geonames"/>
+   <geo long="-0.4358397821265654" lat="53.59859765224233" gazref="unlock:11139755" source="unlock"/>
+   <geo easting="503500" northing="412500" long="-0.437486" lat="53.5989" kepnref="10833" source="kepn"/>
+  </extension>
+ </mads>
+ 

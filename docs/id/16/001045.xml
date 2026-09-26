@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000018">
+  <authority ID="epns-deep-16-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001045">Leigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000004" type="broader">
+   <geographic>Cricklade Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c97"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9179100" lat="51.6308900" gazref="geonames:7299349" source="geonames"/>
+   <geo long="-1.9060791103286" lat="51.63080705265153" gazref="unlock:11193774" source="unlock"/>
+   <geo easting="406500" northing="192500" long="-1.90747" lat="51.6313" kepnref="7182" source="kepn"/>
+  </extension>
+ </mads>
+ 

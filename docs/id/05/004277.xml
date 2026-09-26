@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000375">
+  <authority ID="epns-deep-05-b-name-subparish-000375">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004277">Ilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000132" type="broader">
+   <geographic>Mashamshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w314146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004278">Hilchetun, Ilcheton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w314175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004279">Ilketon, Ylketon</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w314232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004280">Ilkton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w314248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004281">Ilton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600053b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.716369831679403" lat="54.20175106406644" gazref="unlock:11182278" source="unlock"/>
+   <geo easting="419500" northing="478500" long="-1.70256" lat="54.2019" kepnref="6028" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w314146">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w314175">
+    <attestation variantID="epns-deep-05-b-name-w314175">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w314175">
+     <date subtype="simple" begin="1535" end="1535">1535</date>
+     <source style="" id="ny222">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w314232">
+    <date subtype="simple" begin="1581" end="1581">1581</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w314248">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="ny196">RichWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w314146">Hilchetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w314146">Ilcheton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w314175">Ilketon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w314175">Ylketon</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w314232">Ilkton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w314248">Ilton</searchterm>
+  </extension>
+ </mads>
+ 

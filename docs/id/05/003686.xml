@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000308">
+  <authority ID="epns-deep-05-b-name-subparish-000308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003686">Arden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000116" type="broader">
+   <geographic>Hawnby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w269794">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003687">Ardene</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w269822">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003688">Erdene, Erden(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w269889">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003689">Arden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004b1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.223438992169324" lat="54.32542246707268" gazref="unlock:11063206" source="unlock"/>
+   <geo easting="450500" northing="492500" long="-1.22502" lat="54.3256" kepnref="5959" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w269794">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269794">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269822">
+    <date subtype="simple" begin="1160" end="1160">1160</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269822">
+    <attestation variantID="epns-deep-05-b-name-w269822">
+     <date subtype="simple" begin="1286" end="1286">1286</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w269822">
+     <date subtype="simple" begin="1436" end="1436">1436</date>
+     <source style="" id="ny13">Baildon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w269889">
+    <attestation variantID="epns-deep-05-b-name-w269889">
+     <date subtype="simple" begin="1201" end="1201">1201</date>
+     <source style="" id="ny33">ChR</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w269794">Ardene</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269822">Erdene</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269822">Erdena</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269822">Erden</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w269889">Arden</searchterm>
+  </extension>
+ </mads>
+ 

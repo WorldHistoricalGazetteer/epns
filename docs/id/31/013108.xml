@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000110">
+  <authority ID="epns-deep-31-b-name-subparish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013108">Hepworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000035" type="broader">
+   <geographic>Kirkburton</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w587982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013109">Heppeuuord</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w588002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013110">Heppewrth</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w588034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013111">Heppeworth</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w588062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013112">Hepworthyn'</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w588101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/013113">Hepworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100618f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7500000" lat="53.5500000" gazref="geonames:2647076" source="geonames"/>
+   <geo long="-1.758482442" lat="53.55014469" source="epns"/>
+   <geo long="-1.750908626010602" lat="53.55462509849475" gazref="unlock:11170486" source="unlock"/>
+   <geo easting="416500" northing="406500" long="-1.75239" lat="53.5549" kepnref="14504" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w587982">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w588002">
+    <attestation variantID="epns-deep-31-b-name-w588002">
+     <date subtype="simple" begin="1274" end="1308">1274-1308</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w588034">
+    <date subtype="simple" begin="1313" end="1313">1313</date>
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="" id="wr757" underspec="ib">WCR</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w588062">
+    <date subtype="simple" begin="1462" end="1462">1462</date>
+    <date subtype="simple" begin="1492" end="1492">1492</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>99, 02</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w588101">
+    <date subtype="simple" begin="1550" end="1550">1550</date>
+    <source style="" id="wr799">YD</source>
+    <item>ii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w587982">Heppeuuord</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w588002">Heppewrth</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w588034">Heppeworth</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w588062">Hepworthyn'</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w588101">Hepworth</searchterm>
+  </extension>
+ </mads>
+ 

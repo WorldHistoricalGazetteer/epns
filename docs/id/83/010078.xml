@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000017">
+  <authority ID="epns-deep-83-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/010078">Redmarshall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000484"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4009200" lat="54.5856800" gazref="geonames:2639534" source="geonames"/>
+   <geo long="-1.411984749" lat="54.58265037" source="epns"/>
+   <geo long="-1.404182413781829" lat="54.58710773478722" gazref="unlock:11254207" source="unlock"/>
+   <geo easting="438500" northing="521500" long="-1.40576" lat="54.5872" kepnref="7755" source="kepn"/>
+  </extension>
+ </mads>
+ 

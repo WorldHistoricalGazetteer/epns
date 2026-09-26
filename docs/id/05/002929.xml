@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000219">
+  <authority ID="epns-deep-05-b-name-subparish-000219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002929">Nunthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000084" type="broader">
+   <geographic>Great Ayton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w222575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002930">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w222619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002931">Nunnethorpe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w222640">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002932">Nunthorp(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600049a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1843800" lat="54.5288000" gazref="geonames:2641148" source="geonames"/>
+   <geo long="-1.173342034621025" lat="54.52283399655146" gazref="unlock:11234121" source="unlock"/>
+   <geo easting="453500" northing="514500" long="-1.17494" lat="54.523" kepnref="5871" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w222575">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w222575">
+    <date subtype="simple" begin="1181" end="1181">1181</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w222575">
+    <date subtype="simple" begin="1196" end="1210">c. 1196-1210</date>
+    <source style="" id="ny236">YCh</source>
+    <page>753</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w222619">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w222640">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w222575">Torp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w222619">Nunnethorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w222640">Nunthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w222640">Nunthorp</searchterm>
+  </extension>
+ </mads>
+ 

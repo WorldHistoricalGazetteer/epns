@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000049">
+  <authority ID="epns-deep-31-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003574">Carleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000015" type="broader">
+   <geographic>Pontefract</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w157592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003575">Carleton(am)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w157718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003576">Karleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061f6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2924400" lat="53.6755100" gazref="geonames:2653781" source="geonames"/>
+   <geo long="-1.303594025" lat="53.67421395" source="epns"/>
+   <geo long="-1.295949869021467" lat="53.67866522893662" gazref="unlock:11098445" source="unlock"/>
+   <geo easting="446500" northing="420500" long="-1.2975" lat="53.6789" kepnref="14441" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="simple" begin="1155" end="1158">1155-8</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1451</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <copydate end="1230" begin="1230">1230</copydate>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="" id="wr323">LacyComp</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>45</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157592">
+    <attestation variantID="epns-deep-31-b-name-w157592">
+     <date subtype="simple" begin="1341" end="1341">1341</date>
+     <source style="italic" id="wr689">Surv</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157718">
+    <date subtype="circa" begin="1202" end="1222">c. 1212</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w157718">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w157592">Carletonam</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w157592">Carleton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w157718">Karleton</searchterm>
+  </extension>
+ </mads>
+ 

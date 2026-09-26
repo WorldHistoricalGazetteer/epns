@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-a-parish-000078">
+  <authority ID="epns-deep-21-a-name-parish-000078">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/006713">Gosforth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-w-subcounty-000002" type="broader">
+   <geographic>Allerdale Above Derwent Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847e5b47fc408f9000f08"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4336600" lat="54.4171800" gazref="geonames:2648274" source="geonames"/>
+   <geo long="-3.441070731641803" lat="54.41819500260748" gazref="unlock:11156880" source="unlock"/>
+   <geo easting="307500" northing="503500" long="-3.42698" lat="54.4185" kepnref="4536" source="kepn"/>
+  </extension>
+ </mads>
+ 

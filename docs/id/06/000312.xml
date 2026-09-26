@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000010">
+  <authority ID="epns-deep-06-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000312">Lodsworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000010" type="broader">
+   <geographic>Lodsworth</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w28802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000313">Lodesorde</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w28821">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000314">Lodeswurða</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w28840">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000315">Lodesworda</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w28872">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000316">Lodewurth</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w28892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000317">Loddesw(o)rth</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w28946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000318">Lud(e)sworth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d34"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6808100" lat="51.0010100" gazref="geonames:2643777" source="geonames"/>
+   <geo long="-0.6815321512453658" lat="51.00290312663537" gazref="unlock:11204949" source="unlock"/>
+   <geo easting="492500" northing="123500" long="-0.683042" lat="51.0035" kepnref="6871" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w28802">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28821">
+    <date subtype="simple" begin="1165" end="1165">1165</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28840">
+    <date subtype="regnal" begin="1216" end="1272">t. Hy 3</date>
+    <copydate end="1286" begin="1286">1286</copydate>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28872">
+    <date subtype="simple" begin="1262" end="1262">1262</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28892">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="su243">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28892">
+    <attestation variantID="epns-deep-06-b-name-w28892">
+     <date subtype="simple" begin="1279" end="1279">1279</date>
+     <source style="italic" id="su13">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w28892">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28946">
+    <date subtype="simple" begin="1288" end="1288">1288</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w28946">
+    <date subtype="simple" begin="1627" end="1627">1627</date>
+    <source style="italic" id="su129">InstPRO</source>
+    <source style="italic" id="su287">VCH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w28802">Lodesorde</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28821">Lodeswurða</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28840">Lodesworda</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28872">Lodewurth</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28892">Loddesworth</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28892">Loddeswrth</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28946">Ludesworth</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w28946">Ludsworth</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000196">
+  <authority ID="epns-deep-09-a-name-parish-000196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010108">Gittisham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000015" type="broader">
+   <geographic>East Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e00178a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2292000" lat="50.7788100" gazref="geonames:2648619" source="geonames"/>
+   <geo long="-3.227046348869629" lat="50.77905247882569" gazref="unlock:11152795" source="unlock"/>
+   <geo easting="313500" northing="98500" long="-3.22826" lat="50.7796" kepnref="15867" source="kepn"/>
+  </extension>
+ </mads>
+ 

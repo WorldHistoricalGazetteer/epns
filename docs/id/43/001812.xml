@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-a-parish-000003">
+  <authority ID="epns-deep-43-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/001812">Crosby Garrett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-w-subcounty-000001" type="broader">
+   <geographic>East Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f00137c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4242000" lat="54.4789200" gazref="geonames:2651892" source="geonames"/>
+   <geo long="-2.42591" lat="54.4801" source="epns"/>
+   <geo long="-2.424469703412655" lat="54.47997393732781" gazref="unlock:11122806" source="unlock"/>
+   <geo easting="372500" northing="509500" long="-2.42591" lat="54.4801" kepnref="5135" source="kepn"/>
+  </extension>
+ </mads>
+ 

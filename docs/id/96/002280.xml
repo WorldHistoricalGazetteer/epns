@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000050">
+  <authority ID="epns-deep-96-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002280">Castle Camps</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000005" type="broader">
+   <geographic>Chilford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f0006c8"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3798900" lat="52.0633400" gazref="geonames:2653603" source="geonames"/>
+   <geo long="0.3854962477284113" lat="52.06529032859505" gazref="unlock:11100740" source="unlock"/>
+   <geo easting="563500" northing="243500" long="0.383821" lat="52.0657" kepnref="4014" source="kepn"/>
+  </extension>
+ </mads>
+ 

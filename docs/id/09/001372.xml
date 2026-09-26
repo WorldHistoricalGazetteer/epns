@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000030">
+  <authority ID="epns-deep-09-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001372">Nymet Rowland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000030" type="broader">
+   <geographic>Nymet Rowland</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w65628">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001373">Limet</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w65643">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001374">Nimet Rollandi</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w65673">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001375">Nymet Rolaund</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w65699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001376">Numet Rolond</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w65723">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001377">Nemytroland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019e2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8284600" lat="50.8572400" gazref="geonames:7298203" source="geonames"/>
+   <geo long="-3.826071601608567" lat="50.86115589594525" gazref="unlock:11234269" source="unlock"/>
+   <geo easting="271500" northing="108500" long="-3.82722" lat="50.8617" kepnref="15697" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w65628">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w65643">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>783</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w65673">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w65699">
+    <date end="1374" begin="1374" subtype="simple">1374</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w65723">
+    <date end="1558" begin="1558" subtype="simple">1558</date>
+    <source style="" id="de277">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w65628">Limet</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w65643">Nimet Rollandi</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w65673">Nymet Rolaund</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w65699">Numet Rolond</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w65723">Nemytroland</searchterm>
+  </extension>
+ </mads>
+ 

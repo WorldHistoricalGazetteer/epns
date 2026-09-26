@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000471">
+  <authority ID="epns-deep-05-b-name-subparish-000471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005244">Eryholme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000158" type="broader">
+   <geographic>Great Smeaton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w373835">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005245">Argun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373850">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005246">Argum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005247">Erg(h)um</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005248">Eryom</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005249">Eriholme</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600049d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5086500" lat="54.4725300" gazref="geonames:2649917" source="geonames"/>
+   <geo long="-1.498466973935543" lat="54.47069067223524" gazref="unlock:11140411" source="unlock"/>
+   <geo easting="432500" northing="508500" long="-1.50002" lat="54.4708" kepnref="6126" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w373835">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373850">
+    <date subtype="simple" begin="1179" end="1179">1179</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373864">
+    <attestation variantID="epns-deep-05-b-name-w373864">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>250</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w373864">
+     <date subtype="simple" begin="1346" end="1346">1346</date>
+     <source style="" id="ny217">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373910">
+    <attestation variantID="epns-deep-05-b-name-w373910">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w373910">
+     <date subtype="simple" begin="1404" end="1404">1404</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373946">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w373835">Argun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373850">Argum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373864">Erghum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373864">Ergum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373910">Eryom</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373946">Eriholme</searchterm>
+  </extension>
+ </mads>
+ 

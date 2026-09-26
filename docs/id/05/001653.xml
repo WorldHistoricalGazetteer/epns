@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000148">
+  <authority ID="epns-deep-05-b-name-subparish-000148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001653">West Ayton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000056" type="broader">
+   <geographic>Hutton Buscel</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w133398">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001654">Atun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w133415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001655">Atone, Atona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w133465">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001656">Vestheton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w133486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001657">Ayton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004d3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4976300" lat="54.2491600" gazref="geonames:7293918" source="geonames"/>
+   <geo long="-0.4881722107147454" lat="54.24653491725952" gazref="unlock:11316310" source="unlock"/>
+   <geo easting="498500" northing="484500" long="-0.489842" lat="54.2467" kepnref="5799" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w133398">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w133415">
+    <attestation variantID="epns-deep-05-b-name-w133415">
+     <date subtype="simple" begin="1200" end="1210">1200-10</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w133415">
+     <date subtype="simple" begin="1385" end="1385">1385</date>
+     <source style="" id="ny238">YD</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w133465">
+    <date subtype="simple" begin="1393" end="1393">1393</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w133486">
+    <date subtype="simple" begin="1555" end="1555">1555</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w133486">
+    <date subtype="simple" begin="1562" end="1562">1562</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w133398">Atune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w133398">Atun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w133415">Atone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w133415">Atona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w133465">Vestheton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w133486">Ayton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000073">
+  <authority ID="epns-deep-08-a-name-parish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003714">Tawstock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000005" type="broader">
+   <geographic>Fremington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00185f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0630700" lat="51.0497200" gazref="geonames:2636169" source="geonames"/>
+   <geo long="-4.061631557848777" lat="51.0461168823892" gazref="unlock:11298195" source="unlock"/>
+   <geo easting="255500" northing="129500" long="-4.06276" lat="51.0466" kepnref="15530" source="kepn"/>
+  </extension>
+ </mads>
+ 

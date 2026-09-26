@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol29mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-29-b-subparish-000081">
+  <authority ID="epns-deep-29-b-name-subparish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009602">Derby Hills</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-29-a-parish-000074" type="broader">
+   <geographic>Derby Hills</geographic>
+  </related>
+  <variant ID="epns-deep-29-b-name-w284256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009603">Derby Hilles</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w284280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009604">Derbie Hilles</geographic>
+  </variant>
+  <variant ID="epns-deep-29-b-name-w284309">
+   <geographic valueURI="http://placenames.org.uk/id/placename/29/009605">Darby Hills</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001852"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.443520368205483" lat="52.81640511872359" gazref="unlock:11128860" source="unlock"/>
+   <geo easting="437500" northing="324500" long="-1.44501" lat="52.8167" kepnref="15953" source="kepn"/>
+   <attestation variantID="epns-deep-29-b-name-w284256">
+    <date subtype="simple" begin="1514" end="1514">1514</date>
+    <source style="" id="db286">Lanc</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w284280">
+    <date subtype="simple" begin="1589" end="1589">1589</date>
+    <source style="italic" id="db153">DuLaSC</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w284309">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="" id="db286">Lanc</source>
+   </attestation>
+   <attestation variantID="epns-deep-29-b-name-w284309">
+    <date subtype="simple" begin="1597" end="1597">1597</date>
+    <source style="italic" id="db153">DuLaSC</source>
+   </attestation>
+   <searchterm variantID="epns-deep-29-b-name-w284256">Derby Hilles</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w284280">Derbie Hilles</searchterm>
+   <searchterm variantID="epns-deep-29-b-name-w284309">Darby Hills</searchterm>
+  </extension>
+ </mads>
+ 

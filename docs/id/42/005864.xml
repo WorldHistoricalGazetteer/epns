@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000038">
+  <authority ID="epns-deep-42-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005864">Patton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-ch-belowparish-000008" type="broader">
+   <geographic>Selside Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w304062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005865">Patun</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w304077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005866">Patone</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w304101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005867">Pattun, Patton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w304228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/005868">Patten</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013c9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.68646" lat="54.3711" source="epns"/>
+   <geo long="-2.685051092153122" lat="54.37091869510299" gazref="unlock:11241218" source="unlock"/>
+   <geo easting="355500" northing="497500" long="-2.68646" lat="54.3711" kepnref="5106" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w304062">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="we101">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304077">
+    <date subtype="simple" begin="1537" end="1537">1537</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>75</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304101">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <date subtype="simple" begin="1214" end="1220">1214-20</date>
+    <copydate end="1294" begin="1294">1294</copydate>
+    <source style="" id="we62">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304101">
+    <date subtype="simple" begin="1216" end="1272">1216-72</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>251</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304101">
+    <date subtype="simple" begin="1230" end="1249">1230-49</date>
+    <source style="" id="we80">Cockers</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304101">
+    <attestation variantID="epns-deep-42-b-name-w304101">
+     <date subtype="simple" begin="1247" end="1247">1247</date>
+     <source style="" id="we208">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w304101">
+     <date subtype="simple" begin="1662" end="1662">1662</date>
+     <source style="italic" id="we373">RateK</source>
+     <page>5</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w304228">
+    <date subtype="simple" begin="1614" end="1614">1614</date>
+    <source style="" id="we511">PR(K)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w304062">Patun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w304077">Patone</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w304101">Pattun</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w304101">Pattone</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w304101">Patton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w304228">Patten</searchterm>
+  </extension>
+ </mads>
+ 

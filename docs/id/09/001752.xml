@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000038">
+  <authority ID="epns-deep-09-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001752">Cruwys Morchard</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000038" type="broader">
+   <geographic>Cruwys Morchard</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w83041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001753">Morc(h)et, Morceth</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001754">Morceth</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001755">Cru(w)ys Morchard</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001756">Cruwesmorchard</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001757">Crewsmarchard</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001758">Morcherde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w83203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001759">Morcestr(e) Crues</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e00193c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5998400" lat="50.8957400" gazref="geonames:7294904" source="geonames"/>
+   <geo long="-3.600033577589116" lat="50.9004510081925" gazref="unlock:11124163" source="unlock"/>
+   <geo easting="287500" northing="112500" long="-3.60121" lat="50.901" kepnref="15705" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w83041">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83069">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>758</item>
+    <page>793</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83097">
+    <date end="1280" begin="1257" subtype="simple">1257-80</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83129">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83154">
+    <date end="1625" begin="1603" subtype="regnal">t. Jas 1</date>
+    <source style="" id="de72">ECP</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83182">
+    <date end="1261" begin="1261" subtype="simple">1261</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83203">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="" id="de223">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83203">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w83203">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w83041">Morchet</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83041">Morcet</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83041">Morceth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83069">Morceth</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83097">Cruwys Morchard</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83097">Cruys Morchard</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83129">Cruwesmorchard</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83154">Crewsmarchard</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83182">Morcherde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83203">Morcestre Crues</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w83203">Morcestr Crues</searchterm>
+  </extension>
+ </mads>
+ 

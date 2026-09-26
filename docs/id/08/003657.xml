@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000072">
+  <authority ID="epns-deep-08-b-name-subparish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003657">St Giles in the Wood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000072" type="broader">
+   <geographic>St Giles in the Wood</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w187946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003658">Stow St Giles</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w187974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003659">Ecclesia Sancti Egidii</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w188010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003660">Seint Giles</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w188032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003661">Seynt Giles</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w188056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/003662">St Giles's</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a28"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.085707670810097" lat="50.94674983424389" gazref="unlock:11276499" source="unlock"/>
+   <geo easting="253500" northing="119500" long="-4.08723" lat="50.9563" kepnref="15529" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w187946">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="" id="de109">Inq aqd</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w187974">
+    <date end="1379" begin="1379" subtype="simple">1379</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w188010">
+    <date end="1501" begin="1501" subtype="simple">1501</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w188032">
+    <date end="1529" begin="1529" subtype="simple">1529</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w188056">
+    <date end="1809" begin="1809" subtype="simple">1809</date>
+    <source style="" id="de136">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w187946">Stow St Giles</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w187974">Ecclesia Sancti Egidii</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w188010">Seint Giles</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w188032">Seynt Giles</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w188056">St Giles's</searchterm>
+  </extension>
+ </mads>
+ 

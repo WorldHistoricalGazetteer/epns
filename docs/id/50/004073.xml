@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-b-subparish-000021">
+  <authority ID="epns-deep-50-b-name-subparish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004073">Coleshill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-a-parish-000022" type="broader">
+   <geographic>Coleshill</geographic>
+  </related>
+  <variant ID="epns-deep-50-b-name-w160994">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004074">(æt) Colleshylle</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004075">Colleshill</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004076">Coleselle, Coleshalle</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004077">Coleshell'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004078">Coleshill', Coleshull', Coleshull(e), Coleshill</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004079">Colushull</geographic>
+  </variant>
+  <variant ID="epns-deep-50-b-name-w161213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/004080">Colsulle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b44"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6587600" lat="51.6422600" gazref="geonames:2652583" source="geonames"/>
+   <geo long="-1.660375671951641" lat="51.63934581507291" gazref="unlock:11113934" source="unlock"/>
+   <geo easting="423500" northing="193500" long="-1.6618" lat="51.6398" kepnref="3123" source="kepn"/>
+   <attestation variantID="epns-deep-50-b-name-w160994">
+    <date subtype="circa" begin="940" end="960">c. 950</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="be23">ASWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161034">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="" id="be6">AD</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161058">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161089">
+    <attestation variantID="epns-deep-50-b-name-w161089">
+     <date subtype="simple" begin="1185" end="1185">1185</date>
+     <source style="" id="be315">RR</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161143">
+    <date end="1600" begin="1185">1185-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161194">
+    <date subtype="simple" begin="1357" end="1357">1357</date>
+    <source style="" id="be64">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-b-name-w161213">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-b-name-w160994">æt Colleshylle</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w160994">Colleshylle</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161034">Colleshill</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161058">Coleselle</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161058">Coleshalle</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161089">Coleshell'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161143">Coleshill'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161143">Coleshull'</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161143">Coleshulle</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161143">Coleshull</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161143">Coleshill</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161194">Colushull</searchterm>
+   <searchterm variantID="epns-deep-50-b-name-w161213">Colsulle</searchterm>
+  </extension>
+ </mads>
+ 

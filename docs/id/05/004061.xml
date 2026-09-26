@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000128">
+  <authority ID="epns-deep-05-a-name-parish-000128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004061">West Tanfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000009" type="broader">
+   <geographic>Halikeld Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc60003da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5881800" lat="54.2049600" gazref="geonames:2634256" source="geonames"/>
+   <geo long="-1.593721843019739" lat="54.2013999300929" gazref="unlock:11317684" source="unlock"/>
+   <geo easting="426500" northing="478500" long="-1.59525" lat="54.2016" kepnref="6007" source="kepn"/>
+  </extension>
+ </mads>
+ 

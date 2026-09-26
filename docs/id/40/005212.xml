@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000041">
+  <authority ID="epns-deep-40-a-name-parish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005212">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000007" type="broader">
+   <geographic>Barton Regis Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001933"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6200000" lat="51.4611100" gazref="geonames:2652843" source="geonames"/>
+   <geo long="-2.633437193" lat="51.46277301" source="epns"/>
+   <geo long="-2.626178156797836" lat="51.45831632359087" gazref="unlock:11109248" source="unlock"/>
+   <geo easting="357500" northing="173500" long="-2.61309" lat="51.4589" kepnref="6487" source="kepn"/>
+  </extension>
+ </mads>
+ 

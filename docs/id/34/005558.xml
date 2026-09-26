@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000062">
+  <authority ID="epns-deep-34-b-name-subparish-000062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005558">Clint</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000028" type="broader">
+   <geographic>Ripley</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w226717">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005559">Clint(e), Clynt(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061fe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.618249376" lat="54.03518972" source="epns"/>
+   <geo long="-1.610656427995372" lat="54.03067238283226" gazref="unlock:11109335" source="unlock"/>
+   <geo easting="425500" northing="459500" long="-1.61218" lat="54.0309" kepnref="14783" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w226717">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr217">Font</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w226717">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="wr91">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w226717">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w226717">
+    <date end="1281" begin="1279" subtype="simple">1279-81</date>
+    <source style="" id="wr581">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w226717">
+    <attestation variantID="epns-deep-34-b-name-w226717">
+     <date end="1301" begin="1301" subtype="simple">1301</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w226717">
+     <date end="1678" begin="1678" subtype="simple">1678</date>
+     <source style="" id="wr521">PRFrn</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w226717">Clinte</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w226717">Clint</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w226717">Clynte</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w226717">Clynt</searchterm>
+  </extension>
+ </mads>
+ 

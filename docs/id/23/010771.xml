@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-b-subparish-000125">
+  <authority ID="epns-deep-23-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010771">Somerton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-a-parish-000110" type="broader">
+   <geographic>Somerton</geographic>
+  </related>
+  <variant ID="epns-deep-23-b-name-w477199">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010772">Svmertone</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w477218">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010773">Sumertona</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w477276">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010774">Sumerton(e), Sumerton', Sumertun'</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w477323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010775">Somerton</geographic>
+  </variant>
+  <variant ID="epns-deep-23-b-name-w477374">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/010776">Somertone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb00085d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2761300" lat="51.9542100" gazref="geonames:2637526" source="geonames"/>
+   <geo long="-1.279647392083155" lat="51.9523553281303" gazref="unlock:11286712" source="unlock"/>
+   <geo easting="449500" northing="228500" long="-1.28113" lat="51.9528" kepnref="3630" source="kepn"/>
+   <attestation variantID="epns-deep-23-b-name-w477199">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ox54">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w477218">
+    <attestation variantID="epns-deep-23-b-name-w477218">
+     <date end="1148" begin="1142" subtype="simple">1142-8</date>
+     <source style="" id="ox74">Eynsh</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-23-b-name-w477218">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="italic" id="ox15">Ass</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w477276">
+    <date end="1285" begin="1142">1142-1285</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w477323">
+    <attestation variantID="epns-deep-23-b-name-w477323">
+     <date end="1279" begin="1278" subtype="simple">1278-9</date>
+     <source style="" id="ox208">RH</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-23-b-name-w477374">
+    <date end="1600" begin="1278">1278-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-23-b-name-w477199">Svmertone</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477218">Sumertona</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477276">Sumertone</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477276">Sumerton</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477276">Sumerton'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477276">Sumertun'</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477323">Somerton</searchterm>
+   <searchterm variantID="epns-deep-23-b-name-w477374">Somertone</searchterm>
+  </extension>
+ </mads>
+ 

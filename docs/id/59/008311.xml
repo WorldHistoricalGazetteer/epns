@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol59mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-59-b-subparish-000025">
+  <authority ID="epns-deep-59-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008311">Margaret Marsh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-59-a-parish-000029" type="broader">
+   <geographic>Margaret Marsh</geographic>
+  </related>
+  <variant ID="epns-deep-59-b-name-w416286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008312">Margaretysmerschchurche</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416322">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008313">Margaretysmerssh'churche</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416370">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008314">Margaret(t) Marsh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416426">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008315">Margret marshe</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008316">Margatt Mershe</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008317">Margetsmarshe</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008318">Marget(t) Marsh</geographic>
+  </variant>
+  <variant ID="epns-deep-59-b-name-w416530">
+   <geographic valueURI="http://placenames.org.uk/id/placename/59/008319">St Margarets Marsh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852f9b47fc4099d002b5a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2475700" lat="50.9744700" gazref="geonames:7297600" source="geonames"/>
+   <geo long="-2.250666808" lat="50.9669051" source="epns"/>
+   <geo long="-2.24923302523098" lat="50.96511003115759" gazref="unlock:11213618" source="unlock"/>
+   <geo easting="382500" northing="118500" long="-2.25056" lat="50.9657" kepnref="11617" source="kepn"/>
+   <attestation variantID="epns-deep-59-b-name-w416286">
+    <date subtype="simple" begin="1395" end="1395">1395</date>
+    <source style="italic" id="do457">MiltC</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416322">
+    <date subtype="simple" begin="1395" end="1395">1395</date>
+    <copydate end="1425" begin="1400">e15</copydate>
+    <source style="italic" id="do458">MiltRoll</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416370">
+    <date subtype="regnal" begin="1558" end="1603">Eliz</date>
+    <source style="" id="do120">ChancP</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416370">
+    <attestation variantID="epns-deep-59-b-name-w416370">
+     <date subtype="simple" begin="1575" end="1575">1575</date>
+     <source style="italic" id="do394">KCC</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416426">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="do630">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416454">
+    <date subtype="regnal" begin="1558" end="1603">Eliz</date>
+    <source style="italic" id="do429">LRMB</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416480">
+    <date subtype="simple" begin="1581" end="1581">1581</date>
+    <source style="italic" id="do739">Weld1</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416502">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <source style="italic" id="do739">Weld1</source>
+   </attestation>
+   <attestation variantID="epns-deep-59-b-name-w416530">
+    <date subtype="simple" begin="1811" end="1811">1811</date>
+    <source style="" id="do512">OS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-59-b-name-w416286">Margaretysmerschchurche</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416322">Margaretysmerssh'churche</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416370">Margarett Marshe</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416370">Margarett Marsh</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416370">Margaret Marshe</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416370">Margaret Marsh</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416426">Margret marshe</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416454">Margatt Mershe</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416480">Margetsmarshe</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416502">Margett Marsh</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416502">Marget Marsh</searchterm>
+   <searchterm variantID="epns-deep-59-b-name-w416530">St Margarets Marsh</searchterm>
+  </extension>
+ </mads>
+ 

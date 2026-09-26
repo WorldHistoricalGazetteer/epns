@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000415">
+  <authority ID="epns-deep-05-b-name-subparish-000415">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004661">Harmby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000144" type="broader">
+   <geographic>Spennithorne</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w340813">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004662">Hernebi, Herneby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w340874">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004663">Ernebi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w340890">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004664">Harneby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005ad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8030600" lat="54.3080100" gazref="geonames:7296863" source="geonames"/>
+   <geo long="-1.807898389094408" lat="54.30080362532485" gazref="unlock:11166311" source="unlock"/>
+   <geo easting="412500" northing="489500" long="-1.80941" lat="54.301" kepnref="6068" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w340813">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340813">
+    <attestation variantID="epns-deep-05-b-name-w340813">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny113">Leon</source>
+     <item>66 d</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w340813">
+     <date subtype="simple" begin="1404" end="1404">1404</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340874">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w340890">
+    <date subtype="simple" begin="1519" end="1519">1519</date>
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w340813">Hernebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340813">Herneby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340874">Ernebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w340890">Harneby</searchterm>
+  </extension>
+ </mads>
+ 

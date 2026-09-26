@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000229">
+  <authority ID="epns-deep-05-b-name-subparish-000229">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003018">Hemlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000089" type="broader">
+   <geographic>Stainton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w227929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003019">Himeligetun, Himelintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w227962">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003020">Hemelington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w227992">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003021">Hemillington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w228014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003022">Hemlington, Hemlyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.235141882063382" lat="54.52324060345477" gazref="unlock:11169820" source="unlock"/>
+   <geo easting="449500" northing="514500" long="-1.23673" lat="54.5234" kepnref="5882" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w227929">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w227962">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w227962">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w227992">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w228014">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w228014">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w227929">Himeligetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w227929">Himelintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w227962">Hemelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w227992">Hemillington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w228014">Hemlington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w228014">Hemlyngton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000030">
+  <authority ID="epns-deep-99-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000563">Fenton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000030" type="broader">
+   <geographic>Pidley cum Fenton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w284896">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000564">Fentun</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w284912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000565">Fenton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000390"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.06706499210824479" lat="52.39732015416369" gazref="unlock:11143185" source="unlock"/>
+   <geo easting="533500" northing="277500" long="-0.0401216" lat="52.3793" kepnref="4159" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w284896">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w284912">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="bh169">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w284896">Fentun</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w284912">Fenton</searchterm>
+  </extension>
+ </mads>
+ 

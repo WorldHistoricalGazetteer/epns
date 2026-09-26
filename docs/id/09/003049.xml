@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000060">
+  <authority ID="epns-deep-09-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003049">Sandford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000060" type="broader">
+   <geographic>Sandford</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w140226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003050">(æt) sand forda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w140255">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003051">(æt) Sandforda, Sandford</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w140303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003052">æt Sandforda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w140334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003053">Saunford</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w140353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003054">Sanford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a0c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6666700" lat="50.8166700" gazref="geonames:2638594" source="geonames"/>
+   <geo long="-3.667904205044435" lat="50.80955815939944" gazref="unlock:11277616" source="unlock"/>
+   <geo easting="282500" northing="102500" long="-3.66907" lat="50.8101" kepnref="15727" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w140226">
+    <date end="930" begin="930" subtype="simple">930</date>
+    <source style="" id="de46">Crawf</source>
+    <page>4</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w140255">
+    <date end="997" begin="997" subtype="simple">997</date>
+    <source style="" id="de309">OS Facs</source>
+    <item>iii, 35</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w140303">
+    <date end="1012" begin="1008" subtype="simple">1008-12</date>
+    <source style="" id="de46">Crawf</source>
+    <page>10</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w140334">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w140353">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="de172">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w140226">æt sand forda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140226">sand forda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140255">æt Sandforda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140255">Sandforda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140255">Sandford</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140303">æt Sandforda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140334">Saunford</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w140353">Sanford</searchterm>
+  </extension>
+ </mads>
+ 

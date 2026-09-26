@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-ra-abovesubcounty-000001">
+  <authority ID="epns-deep-06-ra-name-abovesubcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000002">Rape of Chichester</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-co-county-000001" type="broader">
+   <geographic>Sussex</geographic>
+  </related>
+  <variant ID="epns-deep-06-ra-name-w182">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000003">Cycestre</geographic>
+  </variant>
+  <variant ID="epns-deep-06-ra-name-w219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000004">le rape de Cicestre</geographic>
+  </variant>
+  <variant ID="epns-deep-06-ra-name-w268">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000005">Chichestre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532871afb47fc40c36000003"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-06-ra-name-w182">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w219">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="su248">Rolls Parlt</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-ra-name-w268">
+    <date end="1495" begin="1495" subtype="simple">1495</date>
+    <source style="" id="su248" underspec="ib">Rolls Parlt</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-ra-name-w182">Cycestre</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w219">le rape de Cicestre</searchterm>
+   <searchterm variantID="epns-deep-06-ra-name-w268">Chichestre</searchterm>
+  </extension>
+ </mads>
+ 

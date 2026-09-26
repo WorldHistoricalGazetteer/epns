@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-a-parish-000012">
+  <authority ID="epns-deep-44-a-name-parish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/012412">Stockport</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-hu-subcounty-000001" type="broader">
+   <geographic>Macclesfield Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-44-a-name-w529492">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/012413">Hofinchel, Hofinghel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f16"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1576100" lat="53.4097900" gazref="geonames:2636882" source="geonames"/>
+   <geo long="-2.165483169" lat="53.40644197" source="epns"/>
+   <geo long="-2.157977938390542" lat="53.4109481392893" gazref="unlock:11292561" source="unlock"/>
+   <geo easting="389500" northing="390500" long="-2.15941" lat="53.4112" kepnref="11752" source="kepn"/>
+   <attestation variantID="epns-deep-44-a-name-w529492">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-a-name-w529492">Hofinchel</searchterm>
+   <searchterm variantID="epns-deep-44-a-name-w529492">Hofinghel</searchterm>
+  </extension>
+ </mads>
+ 

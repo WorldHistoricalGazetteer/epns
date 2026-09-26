@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000256">
+  <authority ID="epns-deep-05-b-name-subparish-000256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003242">Langthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000100" type="broader">
+   <geographic>Kirby Hill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w241119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003243">Torp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003244">Langliuetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003245">Langle(i)thorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003246">Langathorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w241242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003247">Langthorp(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4143200" lat="54.1037500" gazref="geonames:7300765" source="geonames"/>
+   <geo long="-1.411160744532756" lat="54.1017710539306" gazref="unlock:11191742" source="unlock"/>
+   <geo easting="438500" northing="467500" long="-1.41271" lat="54.102" kepnref="5908" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w241119">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241133">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>i</item>
+    <page>36</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241163">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241163">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241163">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="" id="ny241" underspec="id">YI</source>
+    <item>36 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241222">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241242">
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>105 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w241242">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w241119">Torp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241133">Langliuetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241163">Langleithorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241163">Langlethorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241222">Langathorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241242">Langthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w241242">Langthorp</searchterm>
+  </extension>
+ </mads>
+ 

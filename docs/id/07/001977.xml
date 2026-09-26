@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-ra-abovesubcounty-000002">
+  <authority ID="epns-deep-07-ra-name-abovesubcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001977">Rape of Pevensey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-co-county-000001" type="broader">
+   <geographic>Sussex</geographic>
+  </related>
+  <variant ID="epns-deep-07-ra-name-w134105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001978">Peuenesel (rape of)</geographic>
+  </variant>
+  <variant ID="epns-deep-07-ra-name-w134134">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001979">rape of Pevenese Mortayn</geographic>
+  </variant>
+  <variant ID="epns-deep-07-ra-name-w134170">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001980">rap de Pevenese</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532871afb47fc40c36000006"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-07-ra-name-w134105">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-ra-name-w134134">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-ra-name-w134170">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="su3">AD</source>
+    <item>iv</item>
+   </attestation>
+   <searchterm variantID="epns-deep-07-ra-name-w134105">Peuenesel rape of</searchterm>
+   <searchterm variantID="epns-deep-07-ra-name-w134105">Peuenesel</searchterm>
+   <searchterm variantID="epns-deep-07-ra-name-w134134">rape of Pevenese Mortayn</searchterm>
+   <searchterm variantID="epns-deep-07-ra-name-w134170">rap de Pevenese</searchterm>
+  </extension>
+ </mads>
+ 

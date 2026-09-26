@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000064">
+  <authority ID="epns-deep-47-b-name-subparish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/005288">Huntington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-cy-chapelry-000002" type="broader">
+   <geographic>Bruera Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w281253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/005289">Huntington cum Cheveley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8629500" lat="53.1633300" gazref="geonames:7294402" source="geonames"/>
+   <geo long="-2.86035640687419" lat="53.17421173435906" gazref="unlock:11181380" source="unlock"/>
+   <geo easting="342500" northing="364500" long="-2.86169" lat="53.1745" kepnref="12080" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w281253">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w281253">Huntington cum Cheveley</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-a-parish-000010">
+  <authority ID="epns-deep-35-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/003160">Gargrave</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-wp-subcounty-000001" type="broader">
+   <geographic>East Staincliffe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fa1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1045900" lat="53.9835300" gazref="geonames:2648873" source="geonames"/>
+   <geo long="-2.106730284" lat="53.97282732" source="epns"/>
+   <geo long="-2.099138742943023" lat="53.98631829760787" gazref="unlock:11150165" source="unlock"/>
+   <geo easting="393500" northing="454500" long="-2.1006" lat="53.9865" kepnref="14863" source="kepn"/>
+  </extension>
+ </mads>
+ 

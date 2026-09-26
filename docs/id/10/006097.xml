@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-hu-subcounty-000018">
+  <authority ID="epns-deep-10-hu-name-subcounty-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006097">Polebrook Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-co-county-000001" type="broader">
+   <geographic>Northamptonshire</geographic>
+  </related>
+  <variant ID="epns-deep-10-hu-name-w329046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006098">Pocabroc</geographic>
+  </variant>
+  <variant ID="epns-deep-10-hu-name-w329074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006099">Pochebroc</geographic>
+  </variant>
+  <variant ID="epns-deep-10-hu-name-w329093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006100">Polebroke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a63b47fc40bba0004fe"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-10-hu-name-w329046">
+    <date subtype="ante" begin="1026" end="1076">a. 1076</date>
+    <source style="" id="nh114">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-hu-name-w329074">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-hu-name-w329093">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-hu-name-w329046">Pocabroc</searchterm>
+   <searchterm variantID="epns-deep-10-hu-name-w329074">Pochebroc</searchterm>
+   <searchterm variantID="epns-deep-10-hu-name-w329093">Polebroke</searchterm>
+  </extension>
+ </mads>
+ 

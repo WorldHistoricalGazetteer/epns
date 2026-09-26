@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000119">
+  <authority ID="epns-deep-09-a-name-parish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006331">Doddiscombsleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000008" type="broader">
+   <geographic>Exminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001765"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6212800" lat="50.6678200" gazref="geonames:2651177" source="geonames"/>
+   <geo long="-3.620365536940742" lat="50.6663178972135" gazref="unlock:11130094" source="unlock"/>
+   <geo easting="285500" northing="86500" long="-3.62153" lat="50.6669" kepnref="15790" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000251">
+  <authority ID="epns-deep-16-b-name-subparish-000251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012008">Ham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000292" type="broader">
+   <geographic>Ham</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w589775">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012009">(æt) Hamme</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w589828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012010">Hamme juxta Shaldebourne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w589865">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012011">Hame</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w589879">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012012">Hama</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w589894">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/012013">Hampne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dd6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5259000" lat="51.3652400" gazref="geonames:2647589" source="geonames"/>
+   <geo long="-1.518803981717737" lat="51.36008102230524" gazref="unlock:11164758" source="unlock"/>
+   <geo easting="433500" northing="162500" long="-1.52023" lat="51.3606" kepnref="7441" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w589775">
+    <date subtype="simple" begin="931" end="931">931</date>
+    <source style="" id="ws25">BCS</source>
+    <item>677</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w589775">
+    <attestation variantID="epns-deep-16-b-name-w589775">
+     <date subtype="simple" begin="1229" end="1229">1229</date>
+     <source style="" id="ws56">Cl</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w589775">
+     <date subtype="simple" begin="1363" end="1363">1363</date>
+     <source style="" id="ws245">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w589828">
+    <date subtype="simple" begin="1342" end="1342">1342</date>
+    <source style="italic" id="ws119">GDR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w589865">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w589879">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w589894">
+    <date subtype="century" begin="1300" end="1400">14th</date>
+    <source style="italic" id="ws41">Bradenstoke</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w589775">æt Hamme</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w589775">Hamme</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w589828">Hamme juxta Shaldebourne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w589865">Hame</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w589879">Hama</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w589894">Hampne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000531">
+  <authority ID="epns-deep-05-b-name-subparish-000531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005844">Romaldkirk</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000182" type="broader">
+   <geographic>Romaldkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w410580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005845">Rumoldesc(h)erce</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w410606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005846">Rumbald(e)kirke</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w410659">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005847">Rombalekirk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w410683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005848">Romerkirk, Romerkyrke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000587"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0105800" lat="54.5944000" gazref="geonames:2639199" source="geonames"/>
+   <geo long="-2.007739826874053" lat="54.5975616688535" gazref="unlock:11272148" source="unlock"/>
+   <geo easting="399500" northing="522500" long="-2.00924" lat="54.5977" kepnref="6179" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w410580">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410606">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410606">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410606">
+    <date subtype="simple" begin="1343" end="1343">1343</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410659">
+    <date subtype="simple" begin="1479" end="1479">1479</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410683">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w410683">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w410580">Rumoldescherce</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410580">Rumoldescerce</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410606">Rumbaldekirke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410606">Rumbaldkirke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410659">Rombalekirk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410683">Romerkirk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w410683">Romerkyrke</searchterm>
+  </extension>
+ </mads>

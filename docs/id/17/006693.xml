@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000171">
+  <authority ID="epns-deep-17-b-name-subparish-000171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006693">Weston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000178" type="broader">
+   <geographic>Weston</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w328847">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006694">Westone</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w328864">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006695">Weston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w328892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006696">Nordweston</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w328915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006697">Northweston, Suthweston</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w328949">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/006698">Weston in the Clay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd400091e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8500000" lat="53.2000000" gazref="geonames:2634321" source="geonames"/>
+   <geo easting="477500" northing="367500" long="-0.8413" lat="53.1989" kepnref="2468" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w328847">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328864">
+    <attestation variantID="epns-deep-17-b-name-w328864">
+     <date end="1130" begin="1130" subtype="simple">1130</date>
+     <source style="" id="ns206">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328892">
+    <date end="1184" begin="1184" subtype="simple">1184</date>
+    <source style="" id="ns206" underspec="ib">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328915">
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328949">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328949">
+    <date end="1525" begin="1525" subtype="simple">1525</date>
+    <source style="" id="ns299">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w328949">
+    <date end="1786" begin="1786" subtype="simple">1786</date>
+    <source style="" id="ns16">Bacon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w328847">Westone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328864">Westona</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328864">Weston</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328892">Nordweston</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328915">Northweston</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328915">Suthweston</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w328949">Weston in the Clay</searchterm>
+  </extension>
+ </mads>
+ 

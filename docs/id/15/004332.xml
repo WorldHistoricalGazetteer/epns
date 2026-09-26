@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000062">
+  <authority ID="epns-deep-15-b-name-subparish-000062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004332">Graveley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000071" type="broader">
+   <geographic>Graveley</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w221802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004333">Gravelai</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w221820">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004334">Gravele</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w221877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004335">Graveley(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w221890">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004336">Gravene</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w221904">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004337">Gravenl'</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w221924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/004338">Graveley Street</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace00078d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2105000" lat="51.9360600" gazref="geonames:2648195" source="geonames"/>
+   <geo long="-0.20351658399784" lat="51.93185887733695" gazref="unlock:11158273" source="unlock"/>
+   <geo easting="523500" northing="228500" long="-0.204759" lat="51.9413" kepnref="4633" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w221802">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w221820">
+    <attestation variantID="epns-deep-15-b-name-w221820">
+     <date subtype="simple" begin="1185" end="1185">1185</date>
+     <source style="" id="he317">Templars</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w221877">
+    <date end="1600" begin="1185">1185-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w221890">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="he112">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w221904">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="he112">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w221924">
+    <date subtype="simple" begin="1735" end="1735">1735</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w221802">Gravelai</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221820">Gravele</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221877">Graveleye</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221877">Graveley</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221890">Gravene</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221904">Gravenl'</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w221924">Graveley Street</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000161">
+  <authority ID="epns-deep-02-a-name-parish-000161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003229">Weston Turville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000014" type="broader">
+   <geographic>Stone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7576700" lat="51.7916800" gazref="geonames:2634307" source="geonames"/>
+   <geo long="-0.7603171939421501" lat="51.78616849748729" gazref="unlock:11319031" source="unlock"/>
+   <geo easting="485500" northing="210500" long="-0.761848" lat="51.7866" kepnref="11356" source="kepn"/>
+  </extension>
+ </mads>
+ 

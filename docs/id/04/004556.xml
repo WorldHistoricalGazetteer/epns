@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000171">
+  <authority ID="epns-deep-04-b-name-subparish-000171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004556">Churchill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000174" type="broader">
+   <geographic>Churchill</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w374954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004557">Cercehalle</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w374974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004558">Chirhulle</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w375004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004559">Chyrchull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w375023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004560">Churchulle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000567"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1833300" lat="52.4166700" gazref="geonames:2653032" source="geonames"/>
+   <geo long="-2.169091791149806" lat="52.41300244263911" gazref="unlock:11107225" source="unlock"/>
+   <geo easting="388500" northing="279500" long="-2.17048" lat="52.4134" kepnref="5348" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w374954">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w374974">
+    <date end="1260" begin="1240" subtype="circa">c. 1250</date>
+    <source style="" id="wo44">Dugd</source>
+    <item>v</item>
+    <page>83</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w375004">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w375023">
+    <date end="1292" begin="1292" subtype="simple">1292</date>
+    <source style="" id="wo86">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w375023">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="wo208">Wigorn</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w374954">Cercehalle</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w374974">Chirhulle</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w375004">Chyrchull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w375023">Churchulle</searchterm>
+  </extension>
+ </mads>
+ 

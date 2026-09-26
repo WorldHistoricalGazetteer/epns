@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000146">
+  <authority ID="epns-deep-09-b-name-subparish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007415">Torbryan</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000146" type="broader">
+   <geographic>Torbryan</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w336315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007416">Torra</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w336330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007417">Torre</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w336356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/007418">Torre Briane</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a4f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.656481909541148" lat="50.4859169049126" gazref="unlock:11302935" source="unlock"/>
+   <geo easting="282500" northing="66500" long="-3.65764" lat="50.4865" kepnref="15817" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w336315">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w336330">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>768</item>
+    <page>786</page>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w336356">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w336315">Torra</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w336330">Torre</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w336356">Torre Briane</searchterm>
+  </extension>
+ </mads>
+ 

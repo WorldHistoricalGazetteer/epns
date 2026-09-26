@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000108">
+  <authority ID="epns-deep-14-a-name-parish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004094">Lund</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000004" type="broader">
+   <geographic>Bainton Beacon Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5221100" lat="53.9192000" gazref="geonames:2643390" source="geonames"/>
+   <geo long="-0.5151107288665376" lat="53.92324693142756" gazref="unlock:11209627" source="unlock"/>
+   <geo easting="497500" northing="448500" long="-0.516762" lat="53.9235" kepnref="8567" source="kepn"/>
+  </extension>
+ </mads>
+ 

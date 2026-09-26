@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000011">
+  <authority ID="epns-deep-35-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002053">Farnhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000003" type="broader">
+   <geographic>Farnhill</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w69493">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002054">Fernehil</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002055">Fernehill</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002056">Fernehell</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69552">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002057">Fernhill, Fernhyll</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69621">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002058">Farnehil(l)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69685">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002059">Farnhil(l), Farnhille</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002060">Pharenhill</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w69784">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002061">Little Farnhelle</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006101"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9872400" lat="53.9113400" gazref="geonames:6691928" source="geonames"/>
+   <geo long="-2" lat="53.90995314" source="epns"/>
+   <geo long="-1.992387044555056" lat="53.91444865019601" gazref="unlock:11142291" source="unlock"/>
+   <geo easting="400500" northing="446500" long="-1.99386" lat="53.9146" kepnref="14850" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w69493">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69511">
+    <date subtype="simple" begin="1556" end="1556">1556</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69533">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="wr779" underspec="ib">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69552">
+    <date subtype="circa" begin="1130" end="1150">c. 1140</date>
+    <source style="" id="wr150">Dugd</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69552">
+    <date subtype="simple" begin="1155" end="1187">1155-87</date>
+    <source style="" id="wr796">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69552">
+    <date subtype="simple" begin="1537" end="1537">1537</date>
+    <source style="" id="wr711">Test</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69621">
+    <date subtype="simple" begin="1135" end="1154">1135-54</date>
+    <source style="" id="wr796">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69621">
+    <attestation variantID="epns-deep-35-b-name-w69621">
+     <date subtype="simple" begin="1259" end="1259">1259</date>
+     <source style="" id="wr217">Font</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w69621">
+     <date subtype="simple" begin="1537" end="1537">1537</date>
+     <source style="" id="wr711">Test</source>
+     <item>vi</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69685">
+    <date subtype="simple" begin="1156" end="1156">1156</date>
+    <source style="" id="wr796">YCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69685">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69685">
+    <attestation variantID="epns-deep-35-b-name-w69685">
+     <date subtype="simple" begin="1254" end="1254">1254</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w69685">
+     <date subtype="simple" begin="1423" end="1423">1423</date>
+     <source style="" id="wr28">Baild</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69763">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>ix</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w69784">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="" id="wr6">AD</source>
+    <item>ii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w69493">Fernehil</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69511">Fernehill</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69533">Fernehell</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69552">Fernhill</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69552">Fernhyll</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69621">Farnehill</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69621">Farnehil</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69685">Farnhill</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69685">Farnhil</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69685">Farnhille</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69763">Pharenhill</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w69784">Little Farnhelle</searchterm>
+  </extension>
+ </mads>
+ 

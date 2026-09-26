@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-a-parish-000004">
+  <authority ID="epns-deep-42-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/002093">Beetham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-w-subcounty-000002" type="broader">
+   <geographic>Kendal Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287693b47fc40c6f001375"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7619900" lat="54.2099300" gazref="geonames:7298095" source="geonames"/>
+   <geo long="-2.77576" lat="54.2087" source="epns"/>
+   <geo long="-2.774367921939331" lat="54.20858511474237" gazref="unlock:11073515" source="unlock"/>
+   <geo easting="349500" northing="479500" long="-2.77576" lat="54.2087" kepnref="5083" source="kepn"/>
+  </extension>
+ </mads>
+ 

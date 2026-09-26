@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000321">
+  <authority ID="epns-deep-16-a-name-parish-000321">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013096">Idmiston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000033" type="broader">
+   <geographic>Alderbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c84"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7207900" lat="51.1375700" gazref="geonames:2646291" source="geonames"/>
+   <geo long="-1.721259757731892" lat="51.13591459406133" gazref="unlock:11182157" source="unlock"/>
+   <geo easting="420500" northing="137500" long="-1.70836" lat="51.1364" kepnref="7471" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000242">
+  <authority ID="epns-deep-05-b-name-subparish-000242">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003110">Crathorne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000095" type="broader">
+   <geographic>Crathorne</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w232713">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003111">Gratorne, Cratorne</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003112">Crathorn</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w232798">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003113">Creythorne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000464"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3202200" lat="54.4615900" gazref="geonames:2652064" source="geonames"/>
+   <geo long="-1.313448774297616" lat="54.46079315360608" gazref="unlock:11120132" source="unlock"/>
+   <geo easting="444500" northing="507500" long="-1.31503" lat="54.4609" kepnref="5894" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w232713">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232713">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232759">
+    <attestation variantID="epns-deep-05-b-name-w232759">
+     <date subtype="simple" begin="1160" end="1175">c. 1160-75</date>
+     <source style="" id="ny236">YCh</source>
+     <page>688</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w232798">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w232713">Gratorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232713">Cratorne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232759">Crathorn</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w232798">Creythorne</searchterm>
+  </extension>
+ </mads>
+ 

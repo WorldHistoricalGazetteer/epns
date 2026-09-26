@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000086">
+  <authority ID="epns-deep-05-b-name-subparish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000797">Nunnington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000034" type="broader">
+   <geographic>Stonegrave</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w70018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000798">Nonnintune, Nonninctune, Noningtune, Nunnige-tun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w70079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000799">Nunintun, Nuninton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w70122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000800">Nunnington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9807800" lat="54.2045900" gazref="geonames:2641153" source="geonames"/>
+   <geo long="-0.9803255817998221" lat="54.20675885508291" gazref="unlock:11234097" source="unlock"/>
+   <geo easting="466500" northing="479500" long="-0.981933" lat="54.2069" kepnref="5737" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w70018">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w70079">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w70079">
+    <date subtype="simple" begin="1257" end="1257">1257</date>
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w70122">
+    <date subtype="simple" begin="1169" end="1169">1169</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w70122">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w70018">Nonnintune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70018">Nonninctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70018">Noningtune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70018">Nunnige-tune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70018">Nunnige-tun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70079">Nunintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70079">Nuninton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w70122">Nunnington</searchterm>
+  </extension>
+ </mads>
+ 

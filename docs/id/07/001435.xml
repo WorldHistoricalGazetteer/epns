@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000032">
+  <authority ID="epns-deep-07-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001435">Wivelsfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000032" type="broader">
+   <geographic>Wivelsfield</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w97486">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001436">Wifelesfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w97524">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001437">Wiuelesfeud, Wyvelesfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w97583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001438">Wyvesfe(i)ld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w97616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001439">Wyvelsfelde otherwise Wylsfelde</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w97665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001440">Weevelsfield</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000dbb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0908900" lat="50.9690800" gazref="geonames:2633719" source="geonames"/>
+   <geo long="-0.08428937775800059" lat="50.96765183248333" gazref="unlock:11324758" source="unlock"/>
+   <geo easting="534500" northing="120500" long="-0.0858651" lat="50.9682" kepnref="7051" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w97486">
+    <date end="775" begin="755" subtype="circa">c. 765</date>
+    <copydate end="1310" begin="1290">c. 1300</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>197</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97524">
+    <attestation variantID="epns-deep-07-b-name-w97524">
+     <date end="1235" begin="1235" subtype="simple">1235</date>
+     <source style="italic" id="su263">Sele</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w97524">
+     <date end="1408" begin="1408" subtype="simple">1408</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97583">
+    <date end="1506" begin="1506" subtype="simple">1506</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97583">
+    <date end="1674" begin="1674" subtype="simple">1674</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97616">
+    <date end="1580" begin="1580" subtype="simple">1580</date>
+    <source style="" id="su273">SRS</source>
+    <item>3</item>
+    <page>123</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97665">
+    <date end="1637" begin="1637" subtype="simple">1637</date>
+    <source style="" id="su273">SRS</source>
+    <item>13</item>
+    <page>164</page>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w97665">
+    <date end="1651" begin="1651" subtype="simple">1651</date>
+    <source style="" id="su273">SRS</source>
+    <item>23</item>
+    <page>232</page>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w97486">Wifelesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97524">Wiuelesfeud</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97524">Wyvelesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97583">Wyvesfeild</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97583">Wyvesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97616">Wyvelsfelde otherwise Wylsfelde</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w97665">Weevelsfield</searchterm>
+  </extension>
+ </mads>
+ 

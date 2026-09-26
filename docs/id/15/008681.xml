@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000155">
+  <authority ID="epns-deep-15-a-name-parish-000155">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/008681">Wormley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000008" type="broader">
+   <geographic>Hertford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace000756"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0242000" lat="51.7324000" gazref="geonames:2633535" source="geonames"/>
+   <geo long="-0.02320764893660014" lat="51.73111650222911" gazref="unlock:11327308" source="unlock"/>
+   <geo easting="536500" northing="205500" long="-0.0248213" lat="51.7316" kepnref="4710" source="kepn"/>
+  </extension>
+ </mads>
+ 

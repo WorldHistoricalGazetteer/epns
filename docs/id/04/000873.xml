@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000027">
+  <authority ID="epns-deep-04-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000873">Pensax</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000027" type="broader">
+   <geographic>Pensax</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w73565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000874">Pensaxan</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w73594">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000875">Pensex</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w73645">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000876">Pen(e)sey</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w73677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000877">Pensax</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4058800" lat="52.3176000" gazref="geonames:2640412" source="geonames"/>
+   <geo long="-2.403525341946545" lat="52.32252240514217" gazref="unlock:11243341" source="unlock"/>
+   <geo easting="372500" northing="269500" long="-2.40489" lat="52.3229" kepnref="5208" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w73565">
+    <date end="1100" begin="1000" subtype="century">11th</date>
+    <source style="" id="wo79">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73594">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <copydate end="1303" begin="1303">1303</copydate>
+    <source style="" id="wo7">AnnMon</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73594">
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="" id="wo214">WoP</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73594">
+    <date end="1355" begin="1355" subtype="simple">1355</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73645">
+    <date end="1255" begin="1255" subtype="simple">1255</date>
+    <source style="" id="wo208">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73645">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w73677">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w73565">Pensaxan</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w73594">Pensex</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w73645">Penesey</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w73645">Pensey</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w73677">Pensax</searchterm>
+  </extension>
+ </mads>
+ 

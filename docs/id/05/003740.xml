@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000314">
+  <authority ID="epns-deep-05-b-name-subparish-000314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003740">North Kilvington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000117" type="broader">
+   <geographic>Thornton le Street</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w273292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003741">Chelvintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w273312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003742">Keluintune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w273336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003743">North Kilvyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005cd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3506000" lat="54.2609900" gazref="geonames:2641322" source="geonames"/>
+   <geo long="-1.347444367614341" lat="54.26323763225435" gazref="unlock:11232719" source="unlock"/>
+   <geo easting="442500" northing="485500" long="-1.34901" lat="54.2634" kepnref="5967" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w273292">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w273312">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>51</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w273336">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w273292">Chelvintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w273312">Keluintune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w273336">North Kilvyngton</searchterm>
+  </extension>
+ </mads>
+ 

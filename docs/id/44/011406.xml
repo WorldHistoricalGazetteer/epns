@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-b-subparish-000049">
+  <authority ID="epns-deep-44-b-name-subparish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/011406">Stockport Etchells</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-a-parish-000010" type="broader">
+   <geographic>Northenden &amp; Stockport</geographic>
+  </related>
+  <variant ID="epns-deep-44-b-name-w492418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/011407">Stockport Etchells</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002016"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.240448807" lat="53.36136627" source="epns"/>
+   <geo easting="385500" northing="387500" long="-2.21944" lat="53.3841" kepnref="11738" source="kepn"/>
+   <attestation variantID="epns-deep-44-b-name-w492418">
+    <date end="1860" begin="1860" subtype="simple">1860</date>
+    <source style="" id="ch687">White</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-b-name-w492418">Stockport Etchells</searchterm>
+  </extension>
+ </mads>
+ 

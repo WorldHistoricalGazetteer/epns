@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000087">
+  <authority ID="epns-deep-09-b-name-subparish-000087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004371">Rewe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000087" type="broader">
+   <geographic>Rewe</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w199800">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004372">Reuwa</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w199815">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004373">Rewe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w199845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004374">Rewe juxta Stok Canonicorum</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w199885">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004375">Rewe juxta Sulferton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w199916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004376">Rewes</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w199948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/004377">Rew oth. Row</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a00"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4953100" lat="50.7876300" gazref="geonames:6324523" source="geonames"/>
+   <geo long="-3.496768721078694" lat="50.78489702418302" gazref="unlock:11254744" source="unlock"/>
+   <geo easting="294500" northing="99500" long="-3.49795" lat="50.7854" kepnref="15754" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w199800">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199815">
+    <attestation variantID="epns-deep-09-b-name-w199815">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>773</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199845">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199885">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199916">
+    <date end="1271" begin="1252" subtype="simple">1252-71</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199916">
+    <date end="1279" begin="1279" subtype="simple">1279</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w199948">
+    <date end="1750" begin="1750" subtype="simple">1750</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w199800">Reuwa</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199815">Rewe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199845">Rewe juxta Stok Canonicorum</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199885">Rewe juxta Sulferton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199916">Rewes</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199948">Rew</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w199948">Row</searchterm>
+  </extension>
+ </mads>
+ 

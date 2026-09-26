@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000140">
+  <authority ID="epns-deep-10-b-name-subparish-000140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003279">Marston Trussell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000140" type="broader">
+   <geographic>Marston Trussel</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w178856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003280">Mersitone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w178875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003281">Merston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w178916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003282">Merston Trussel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005ba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9965000" lat="52.4602600" gazref="geonames:7301948" source="geonames"/>
+   <geo long="-0.9769347719288698" lat="52.46264577822109" gazref="unlock:11214294" source="unlock"/>
+   <geo kepnexref="0144" long="-0.978468" lat="52.463" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w178856">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w178875">
+    <attestation variantID="epns-deep-10-b-name-w178875">
+     <date end="1220" begin="1220" subtype="simple">1220</date>
+     <source style="" id="nh99">Fees</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w178875">
+     <date end="1361" begin="1361" subtype="simple">1361</date>
+     <source style="" id="nh49">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w178916">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w178916">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w178856">Mersitone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w178875">Merstone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w178875">Merston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w178916">Merston Trussel</searchterm>
+  </extension>
+ </mads>
+ 

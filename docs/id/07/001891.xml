@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000047">
+  <authority ID="epns-deep-07-a-name-parish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001891">Piddinghoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000009" type="broader">
+   <geographic>Holmestrow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000be9"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0253000" lat="50.8083600" gazref="geonames:7300474" source="geonames"/>
+   <geo long="0.03674592780925368" lat="50.80370030967858" gazref="unlock:11245050" source="unlock"/>
+   <geo easting="543500" northing="103500" long="0.0355537" lat="50.8133" kepnref="7066" source="kepn"/>
+  </extension>
+ </mads>
+ 

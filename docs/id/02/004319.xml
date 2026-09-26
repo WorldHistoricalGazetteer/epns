@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000197">
+  <authority ID="epns-deep-02-a-name-parish-000197">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004319">Penn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000017" type="broader">
+   <geographic>Burnham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6769000" lat="51.6312300" gazref="geonames:2640448" source="geonames"/>
+   <geo long="-0.6778100733898417" lat="51.63239288464108" gazref="unlock:11242865" source="unlock"/>
+   <geo easting="491500" northing="193500" long="-0.679345" lat="51.6329" kepnref="11391" source="kepn"/>
+  </extension>
+ </mads>
+ 

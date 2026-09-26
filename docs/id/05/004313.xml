@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000378">
+  <authority ID="epns-deep-05-b-name-subparish-000378">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004313">Clifton on Ure</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000133" type="broader">
+   <geographic>Thornton Watlass</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w316427">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004314">Clifton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005d0"/>
+  </recordInfo>
+  <extension>
+   <geo easting="421500" northing="484500" long="-1.67147" lat="54.2557" kepnref="6031" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w316427">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w316427">Clifton</searchterm>
+  </extension>
+ </mads>
+ 

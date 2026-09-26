@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000099">
+  <authority ID="epns-deep-05-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000912">Spaunton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000041" type="broader">
+   <geographic>Lastingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w80698">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000913">Spantun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w80718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000914">Spaunton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w80756">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000915">Spantona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w80836">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000916">Spawnton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600051a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8908900" lat="54.3104000" gazref="geonames:7300816" source="geonames"/>
+   <geo long="-0.8859237587600994" lat="54.29581167994602" gazref="unlock:11288782" source="unlock"/>
+   <geo easting="472500" northing="489500" long="-0.887547" lat="54.296" kepnref="5749" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w80698">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80718">
+    <attestation variantID="epns-deep-05-b-name-w80718">
+     <date subtype="simple" begin="1086" end="1089">1086-9</date>
+     <source style="italic" id="ny123">MaryH</source>
+     <item>1</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80756">
+    <date subtype="simple" begin="1154" end="1156">1154-6</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>6 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80756">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny41">Cur</source>
+    <item>46, m. 3 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80756">
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80756">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80756">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w80836">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w80698">Spantune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w80698">Spantun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w80718">Spauntona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w80718">Spaunton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w80756">Spantona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w80836">Spawnton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-b-subparish-000044">
+  <authority ID="epns-deep-96-b-name-subparish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002281">Castle Camps</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-a-parish-000050" type="broader">
+   <geographic>Castle Camps</geographic>
+  </related>
+  <variant ID="epns-deep-96-b-name-w143879">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002282">Great Magna Ca(u)mpes</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w143941">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002283">Earl's Caumpes Comitis</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w144067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002284">Castlecampes</geographic>
+  </variant>
+  <variant ID="epns-deep-96-b-name-w144089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002285">Campes ad Castrum</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f00078e"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3798900" lat="52.0633400" gazref="geonames:2653603" source="geonames"/>
+   <geo long="0.3854962477284113" lat="52.06529032859505" gazref="unlock:11100740" source="unlock"/>
+   <geo easting="563500" northing="243500" long="0.383821" lat="52.0657" kepnref="4014" source="kepn"/>
+   <attestation variantID="epns-deep-96-b-name-w143879">
+    <date end="1236" begin="1236" subtype="simple">1236</date>
+    <source style="" id="ce28">Barnwell</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w143879">
+    <date end="1271" begin="1271" subtype="simple">1271</date>
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="" id="ce182">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w143941">
+    <date end="1218" begin="1218" subtype="simple">1218</date>
+    <source style="italic" id="ce427">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w144067">
+    <date end="1384" begin="1384" subtype="simple">1384</date>
+    <source style="" id="ce182">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-96-b-name-w144089">
+    <date end="1446" begin="1446" subtype="simple">1446</date>
+    <source style="italic" id="ce93">Cole</source>
+    <item>iv</item>
+   </attestation>
+   <searchterm variantID="epns-deep-96-b-name-w143879">Great Magna Caumpes</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w143879">Great Magna Campes</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w143941">Earl's Caumpes Comitis</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w144067">Castlecampes</searchterm>
+   <searchterm variantID="epns-deep-96-b-name-w144089">Campes ad Castrum</searchterm>
+  </extension>
+ </mads>
+ 

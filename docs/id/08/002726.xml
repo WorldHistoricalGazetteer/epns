@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000049">
+  <authority ID="epns-deep-08-a-name-parish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002726">Landcross</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000004" type="broader">
+   <geographic>Shebbear Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1930300" lat="50.9930000" gazref="geonames:7291213" source="geonames"/>
+   <geo long="-4.187400651921708" lat="50.98986205631069" gazref="unlock:11190963" source="unlock"/>
+   <geo easting="246500" northing="123500" long="-4.18851" lat="50.9904" kepnref="15506" source="kepn"/>
+  </extension>
+ </mads>
+ 

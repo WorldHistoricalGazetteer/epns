@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000084">
+  <authority ID="epns-deep-28-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014829">Newton Grange</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000085" type="broader">
+   <geographic>Newton Grange</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w537014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014830">Neutone</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w537031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014831">Neuton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w537082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014832">Neuton Graunge</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w537107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014833">Niuetone</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w537130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/014834">Newton Gra(u)nge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018cf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7683100" lat="53.0814200" gazref="geonames:7298382" source="geonames"/>
+   <geo long="-1.753667250903374" lat="53.07817326529173" gazref="unlock:11230918" source="unlock"/>
+   <geo easting="416500" northing="353500" long="-1.75513" lat="53.0785" kepnref="3361" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w537014">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537031">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db62">BurtCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537031">
+    <date subtype="simple" begin="1265" end="1265">1265</date>
+    <copydate end="1331" begin="1331">1331</copydate>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537031">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db544">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537082">
+    <date subtype="simple" begin="1391" end="1391">1391</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537107">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="db456">RBE</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537130">
+    <date subtype="simple" begin="1445" end="1445">1445</date>
+    <date subtype="simple" begin="1472" end="1472">1472</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537130">
+    <date subtype="simple" begin="1490" end="1490">1490</date>
+    <source style="italic" id="db64">BurtReg</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w537130">
+    <attestation variantID="epns-deep-28-b-name-w537130">
+     <date subtype="simple" begin="1545" end="1545">1545</date>
+     <source style="" id="db129">DbCh</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w537014">Neutone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537031">Neutona</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537031">Neuton</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537082">Neuton Graunge</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537107">Niuetone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537130">Newton Graunge</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w537130">Newton Grange</searchterm>
+  </extension>
+ </mads>
+ 

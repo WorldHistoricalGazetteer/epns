@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000046">
+  <authority ID="epns-deep-15-a-name-parish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002712">Rickmansworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000003" type="broader">
+   <geographic>Cashio Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace00072d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4729500" lat="51.6392800" gazref="geonames:2639381" source="geonames"/>
+   <geo long="-0.4897252548637743" lat="51.63911704717388" gazref="unlock:11255649" source="unlock"/>
+   <geo easting="505500" northing="194500" long="-0.476836" lat="51.6394" kepnref="4616" source="kepn"/>
+  </extension>
+ </mads>
+ 

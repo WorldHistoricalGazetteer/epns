@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000152">
+  <authority ID="epns-deep-10-a-name-parish-000152">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003458">Faxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000010" type="broader">
+   <geographic>Orlingbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00041d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8333300" lat="52.3666700" gazref="geonames:2649612" source="geonames"/>
+   <geo long="-0.8468266951060558" lat="52.37153315773539" gazref="unlock:11142558" source="unlock"/>
+   <geo easting="478500" northing="275500" long="-0.848372" lat="52.3719" kepnref="11022" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000109">
+  <authority ID="epns-deep-28-b-name-subparish-000109">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018554">Draycott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000106" type="broader">
+   <geographic>Draycott and Church Wilne</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w682471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018555">Draicot</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w682488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018556">Draicot(e), Draycot(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w682579">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018557">Dreycote</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w682608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/018558">Dracot</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00185a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3420500" lat="52.8964800" gazref="geonames:2651006" source="geonames"/>
+   <geo long="-1.338421885837197" lat="52.89678126158023" gazref="unlock:11131635" source="unlock"/>
+   <geo easting="444500" northing="333500" long="-1.33993" lat="52.8971" kepnref="3382" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w682471">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682488">
+    <date subtype="simple" begin="1188" end="1188">1188</date>
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <date subtype="simple" begin="1203" end="1203">1203</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682488">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682488">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682488">
+    <attestation variantID="epns-deep-28-b-name-w682488">
+     <date subtype="simple" begin="1243" end="1243">1243</date>
+     <source style="" id="db186">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682579">
+    <date subtype="simple" begin="1259" end="1259">1259</date>
+    <source style="italic" id="db295">LichChart</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682608">
+    <date subtype="simple" begin="1502" end="1502">1502</date>
+    <source style="italic" id="db589">WollCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w682608">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="db128">DbA</source>
+    <item>i</item>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w682471">Draicot</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682488">Draicote</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682488">Draicot</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682488">Draycote</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682488">Draycot</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682579">Dreycote</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w682608">Dracot</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000173">
+  <authority ID="epns-deep-05-b-name-subparish-000173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002135">Ruswarp</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000064" type="broader">
+   <geographic>Whitby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w168219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002136">Risewarp(e), Rysewarp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w168285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002137">Riswarp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w168304">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002138">Ruswarpe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005ef"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6309400" lat="54.4726300" gazref="geonames:2638928" source="geonames"/>
+   <geo long="-0.6341737232060221" lat="54.47300257428191" gazref="unlock:11275707" source="unlock"/>
+   <geo easting="488500" northing="509500" long="-0.635836" lat="54.4732" kepnref="5825" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w168219">
+    <attestation variantID="epns-deep-05-b-name-w168219">
+     <date subtype="simple" begin="1145" end="1148">1145-8</date>
+     <source style="" id="ny236">YCh</source>
+     <page>872</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w168219">
+     <date subtype="simple" begin="1351" end="1351">1351</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w168285">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w168304">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w168219">Risewarpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w168219">Risewarp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w168219">Rysewarpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w168219">Rysewarp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w168285">Riswarp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w168304">Ruswarpe</searchterm>
+  </extension>
+ </mads>
+ 

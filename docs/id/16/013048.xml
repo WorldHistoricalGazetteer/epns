@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000276">
+  <authority ID="epns-deep-16-b-name-subparish-000276">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013048">Pitton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000319" type="broader">
+   <geographic>Farley and Pitton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w643805">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013049">Putenton'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w643823">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013050">Putteton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w643843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013051">Putton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w643895">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013052">Putton(e) juxta Farlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w643931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013053">Putton alias Pitton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000dc6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7000000" lat="51.0666700" gazref="geonames:2640238" source="geonames"/>
+   <geo long="-1.693029084364046" lat="51.08188507648239" gazref="unlock:11246149" source="unlock"/>
+   <geo easting="421500" northing="131500" long="-1.69443" lat="51.0824" kepnref="7474" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w643805">
+    <date subtype="simple" begin="1165" end="1165">1165</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w643823">
+    <date subtype="simple" begin="1267" end="1267">1267</date>
+    <source style="" id="ws332">WIpm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w643843">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ws104">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w643843">
+    <attestation variantID="epns-deep-16-b-name-w643843">
+     <date subtype="simple" begin="1211" end="1211">1211</date>
+     <source style="" id="ws272">RBE</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w643843">
+     <date subtype="simple" begin="1402" end="1402">1402</date>
+     <source style="" id="ws103">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w643895">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w643931">
+    <date subtype="simple" begin="1726" end="1726">1726</date>
+    <source style="italic" id="ws276">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w643805">Putenton'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643823">Putteton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643843">Puttone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643843">Putton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643895">Puttone juxta Farlegh</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643895">Putton juxta Farlegh</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643931">Putton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w643931">Pitton</searchterm>
+  </extension>
+ </mads>
+ 

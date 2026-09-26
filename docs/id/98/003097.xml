@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000129">
+  <authority ID="epns-deep-98-b-name-subparish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003097">Upper Stondon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000130" type="broader">
+   <geographic>Upper Stondon</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w238048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003098">Standone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w238087">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003099">Staundon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w238138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003100">Stondon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w238236">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003101">Great Stondon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w238260">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/003102">Overstondon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003c5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3317036449365092" lat="52.00568735179515" gazref="unlock:11310483" source="unlock"/>
+   <geo easting="514500" northing="235500" long="-0.333293" lat="52.0061" kepnref="4353" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w238048">
+    <attestation variantID="epns-deep-98-b-name-w238048">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-98-b-name-w238048">
+     <date subtype="simple" begin="1712" end="1712">1712</date>
+     <source style="" id="bh16">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238087">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238087">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238087">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="bh192">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238087">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="bh3">AD</source>
+    <item>iv</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1388" end="1388">1388</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1390" end="1392">1390-2</date>
+    <source style="" id="bh39">CS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238138">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238236">
+    <date subtype="simple" begin="1320" end="1320">1320</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w238260">
+    <date subtype="simple" begin="1504" end="1504">1504</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w238048">Standone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w238087">Staundon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w238138">Stondone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w238138">Stondon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w238236">Great Stondon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w238260">Overstondon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000108">
+  <authority ID="epns-deep-06-a-name-parish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003444">Ferring</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000012" type="broader">
+   <geographic>Poling Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b89"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4478000" lat="50.8190400" gazref="geonames:7298376" source="geonames"/>
+   <geo long="-0.4456089775540021" lat="50.81112603833055" gazref="unlock:11143428" source="unlock"/>
+   <geo easting="509500" northing="102500" long="-0.447138" lat="50.8117" kepnref="6970" source="kepn"/>
+  </extension>
+ </mads>
+ 

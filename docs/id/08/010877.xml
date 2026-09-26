@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000187">
+  <authority ID="epns-deep-08-a-name-parish-000187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010877">Salcombe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000012" type="broader">
+   <geographic>Stanborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001826"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7687400" lat="50.2374300" gazref="geonames:2638682" source="geonames"/>
+   <geo long="-3.774223316651086" lat="50.24131467275006" gazref="unlock:11277019" source="unlock"/>
+   <geo easting="273500" northing="38500" long="-3.77502" lat="50.2329" kepnref="15646" source="kepn"/>
+  </extension>
+ </mads>
+ 

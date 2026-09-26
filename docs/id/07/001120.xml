@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000024">
+  <authority ID="epns-deep-07-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001120">Patcham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000004" type="broader">
+   <geographic>Whalesborne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000be2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1500300" lat="50.8639600" gazref="geonames:2640582" source="geonames"/>
+   <geo long="-0.1455228336305199" lat="50.86070788272655" gazref="unlock:11241109" source="unlock"/>
+   <geo easting="530500" northing="109500" long="-0.146731" lat="50.8703" kepnref="7043" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000314">
+  <authority ID="epns-deep-14-b-name-subparish-000314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006899">Cliffe, formerly Long Cliff</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000165" type="broader">
+   <geographic>Hemingbrough</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w446435">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006900">Clive</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w446450">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006901">Clif(f), Clyf(f)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w446521">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/006902">Clif(f) juxta Hemmyngburgh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004bb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9853500" lat="53.7908400" gazref="geonames:7290996" source="geonames"/>
+   <geo long="-0.990595872895256" lat="53.78435534023493" gazref="unlock:11109171" source="unlock"/>
+   <geo easting="466500" northing="432500" long="-0.992184" lat="53.7846" kepnref="8689" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w446435">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w446450">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <copydate end="1335" begin="1335">1335</copydate>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w446450">
+    <attestation variantID="epns-deep-14-b-name-w446450">
+     <date end="1200" begin="1200" subtype="simple">1200</date>
+     <source style="" id="ey63">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w446450">
+     <date end="1542" begin="1542" subtype="simple">1542</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w446521">
+    <date end="1314" begin="1314" subtype="simple">1314</date>
+    <source style="" id="ey87">Dunelm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w446435">Clive</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446450">Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446450">Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446450">Clyff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446450">Clyf</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446521">Cliff juxta Hemmyngburgh</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w446521">Clif juxta Hemmyngburgh</searchterm>
+   <searchterm madsID="epns-deep-14-b-subparish-000314">Cliffe</searchterm>
+   <searchterm madsID="epns-deep-14-b-subparish-000314">Long Cliff</searchterm>
+  </extension>
+ </mads>
+ 

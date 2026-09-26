@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000056">
+  <authority ID="epns-deep-27-b-name-subparish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/006673">Litton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000053" type="broader">
+   <geographic>Litton</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w263312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/006674">Litun</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w263327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/006675">Litton(e), Lytton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w263420">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/006676">Lutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018b2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7512700" lat="53.2725000" gazref="geonames:7294838" source="geonames"/>
+   <geo long="-1.752531684201707" lat="53.27595036801131" gazref="unlock:11197431" source="unlock"/>
+   <geo easting="416500" northing="375500" long="-1.75401" lat="53.2762" kepnref="3256" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w263312">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263327">
+    <date end="1225" begin="1200" subtype="simple">e. 13th</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263327">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="db128">DbA</source>
+    <item>v</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263327">
+    <date end="1254" begin="1254" subtype="simple">1254</date>
+    <source style="italic" id="db295">LichChart</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263327">
+    <date end="1265" begin="1265" subtype="simple">1265</date>
+    <source style="" id="db317">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263327">
+    <attestation variantID="epns-deep-27-b-name-w263327">
+     <date end="1277" begin="1277" subtype="simple">1277</date>
+     <source style="" id="db192">FF</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263420">
+    <date end="1302" begin="1302" subtype="simple">1302</date>
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="db182">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w263420">
+    <date end="1398" begin="1398" subtype="simple">1398</date>
+    <source style="" id="db195">Fine</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w263312">Litun</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w263327">Littone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w263327">Litton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w263327">Lyttone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w263327">Lytton</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w263420">Lutton</searchterm>
+  </extension>
+ </mads>
+ 

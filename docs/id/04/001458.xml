@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000048">
+  <authority ID="epns-deep-04-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001458">Bredicot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000048" type="broader">
+   <geographic>Bredicot</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w121133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001459">Bradigcotan</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001460">Bradingccotan</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001461">Bradecote</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001462">Bradicot(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121326">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001463">Brodecot</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w121348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001464">Bredicot</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000555"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1362400" lat="52.1913800" gazref="geonames:7299690" source="geonames"/>
+   <geo long="-2.13897913262624" lat="52.188259415878" gazref="unlock:11086335" source="unlock"/>
+   <geo easting="390500" northing="254500" long="-2.14037" lat="52.1887" kepnref="5226" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w121133">
+    <date end="840" begin="840" subtype="simple">840</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>428</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121176">
+    <date end="992" begin="978" subtype="simple">978-92</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo92">KCD</source>
+    <item>683</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121224">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121224">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121224">
+    <date end="1187" begin="1187" subtype="simple">1187</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121224">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="" id="wo16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121281">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveA</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121281">
+    <date end="1543" begin="1543" subtype="simple">1543</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121326">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121348">
+    <date end="1600" begin="1500" subtype="century">16th</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w121348">
+    <date end="1649" begin="1649" subtype="simple">1649</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w121133">Bradigcotan</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121176">Bradingccotan</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121224">Bradecote</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121281">Bradicote</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121281">Bradicot</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121326">Brodecot</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w121348">Bredicot</searchterm>
+  </extension>
+ </mads>
+ 

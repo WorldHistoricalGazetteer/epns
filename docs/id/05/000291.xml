@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000034">
+  <authority ID="epns-deep-05-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000291">Thornton Bridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000013" type="broader">
+   <geographic>Brafferton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w23382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000292">Torenton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w23403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000293">Thorneton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w23438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000294">Thorneton(a) brigge</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w23467">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000295">Thorenton on Swale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000432"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3609600" lat="54.1293600" gazref="geonames:7302050" source="geonames"/>
+   <geo easting="443500" northing="470500" long="-1.33582" lat="54.1285" kepnref="5685" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w23382">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w23403">
+    <attestation variantID="epns-deep-05-b-name-w23403">
+     <date subtype="century" begin="1200" end="1300">13</date>
+     <source style="italic" id="ny302">BylA</source>
+     <page>32</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w23438">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w23467">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w23382">Torentone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23382">Torenton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23403">Thornetona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23403">Thorneton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23438">Thornetona brigge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23438">Thorneton brigge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w23467">Thorenton on Swale</searchterm>
+  </extension>
+ </mads>
+ 

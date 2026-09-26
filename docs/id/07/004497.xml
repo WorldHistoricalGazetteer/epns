@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000088">
+  <authority ID="epns-deep-07-b-name-subparish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004497">Arlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000089" type="broader">
+   <geographic>Arlington</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w278300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004498">Erlington, Herlintone</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w278331">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004499">Erlington, Erlyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w278385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004500">Erdlynton</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w278419">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/004501">Arlyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000c9c"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2055200" lat="50.8559700" gazref="geonames:7298000" source="geonames"/>
+   <geo long="0.194861767542928" lat="50.84580597246653" gazref="unlock:11063722" source="unlock"/>
+   <geo easting="554500" northing="107500" long="0.193259" lat="50.8464" kepnref="7104" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w278300">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w278331">
+    <attestation variantID="epns-deep-07-b-name-w278331">
+     <date end="1230" begin="1230" subtype="simple">1230</date>
+     <source style="" id="su199">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w278331">
+     <date end="1610" begin="1610" subtype="simple">1610</date>
+     <source style="" id="su178">Norden</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w278385">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="su40">Chancery Warrants</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w278419">
+    <date end="1573" begin="1573" subtype="simple">1573</date>
+    <source style="italic" id="su100">FM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w278300">Erlington</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w278300">Herlintone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w278331">Erlington</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w278331">Erlyngton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w278385">Erdlynton</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w278419">Arlyngton</searchterm>
+  </extension>
+ </mads>
+ 

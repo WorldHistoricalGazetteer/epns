@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000015">
+  <authority ID="epns-deep-40-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001965">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000002" type="broader">
+   <geographic>Grumbald's Ash Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001992"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3525000" lat="51.5583300" gazref="geonames:2646547" source="geonames"/>
+   <geo long="-2.346268316" lat="51.56289039" source="epns"/>
+   <geo long="-2.33902119377271" lat="51.55841601692335" gazref="unlock:11179799" source="unlock"/>
+   <geo easting="375500" northing="184500" long="-2.35479" lat="51.5588" kepnref="6461" source="kepn"/>
+  </extension>
+ </mads>
+ 

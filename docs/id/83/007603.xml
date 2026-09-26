@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000013">
+  <authority ID="epns-deep-83-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/007603">Bishop Middleham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000474"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4882600" lat="54.6777800" gazref="geonames:2655578" source="geonames"/>
+   <geo long="-1.488224483" lat="54.67287564" source="epns"/>
+   <geo long="-1.48041312769683" lat="54.67733785012287" gazref="unlock:11077987" source="unlock"/>
+   <geo easting="433500" northing="531500" long="-1.48198" lat="54.6775" kepnref="7635" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000107">
+  <authority ID="epns-deep-40-a-name-parish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/013619">Tidenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000019" type="broader">
+   <geographic>Westbury Hundred (Detached)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a21"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6409800" lat="51.6587400" gazref="geonames:2635852" source="geonames"/>
+   <geo long="-2.63606581" lat="51.65160221" source="epns"/>
+   <geo long="-2.643357179236203" lat="51.65605942079311" gazref="unlock:11300887" source="unlock"/>
+   <geo easting="355500" northing="196500" long="-2.64479" lat="51.6655" kepnref="6552" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-ld-localdistrict-000001">
+  <authority ID="epns-deep-38-ld-name-localdistrict-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010256">Henmarsh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000009" type="broader">
+   <geographic>Kiftsgate Hundred (Upper Division)</geographic>
+  </related>
+  <variant ID="epns-deep-38-ld-name-w470877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/010257">Hennemerse</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab3000017"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-38-ld-name-w470877">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-ld-name-w470877">Hennemerse</searchterm>
+  </extension>
+ </mads>
+ 

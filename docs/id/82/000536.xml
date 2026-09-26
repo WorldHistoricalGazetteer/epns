@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000008">
+  <authority ID="epns-deep-82-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000536">Prescott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000001" type="broader">
+   <geographic>Baschurch</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w28256">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000537">Prestecote</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w28312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000538">Prestecot, Prestekote</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w28352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000539">Prescot</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w28399">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000540">Prescott, Prescote</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a62db47fc4463d000e86"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.852623298" lat="52.78317846" source="epns"/>
+   <geo long="-2.852711418955924" lat="52.78767426401961" gazref="unlock:11249791" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w28256">
+    <attestation variantID="epns-deep-82-b-name-w28256">
+     <date subtype="simple" begin="1190" end="1190">1190</date>
+     <date subtype="simple" begin="1191" end="1191">1</date>
+     <source style="" id="ss207">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-82-b-name-w28256">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="" id="ss279">SR</source>
+     <pername>(p)</pername>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w28312">
+    <date end="1327" begin="1190">1190-1327</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w28352">
+    <attestation variantID="epns-deep-82-b-name-w28352">
+     <date subtype="simple" begin="1508" end="1508">1508</date>
+     <source style="" id="ss4">AD</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w28399">
+    <date end="1600" begin="1508">1508-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w28256">Prestecote</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w28312">Prestecot</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w28312">Prestekote</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w28352">Prescot</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w28399">Prescott</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w28399">Prescote</searchterm>
+  </extension>
+ </mads>
+ 

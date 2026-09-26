@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000105">
+  <authority ID="epns-deep-09-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005403">Hennock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000105" type="broader">
+   <geographic>Hennock</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w245706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005404">Hainoc</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245729">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005405">Hanoch</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005406">Hanok</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245791">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005407">Hanek</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005408">Henoc</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005409">Henyk</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005410">Hynnok</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245871">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005411">Hyanac</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005412">Heynok</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005413">Heanok(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w245959">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/005414">Heannoke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001979"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6543200" lat="50.6156900" gazref="geonames:2647096" source="geonames"/>
+   <geo long="-3.647083960138324" lat="50.6209705207517" gazref="unlock:11170339" source="unlock"/>
+   <geo easting="283500" northing="80500" long="-3.64793" lat="50.6125" kepnref="15774" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w245706">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245729">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245744">
+    <attestation variantID="epns-deep-09-b-name-w245744">
+     <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+     <copydate end="1300" begin="1200">13th</copydate>
+     <source style="italic" id="de260">Torre</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w245744">
+     <date end="1450" begin="1450" subtype="simple">1450</date>
+     <source style="italic" id="de85">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245791">
+    <date end="1306" begin="1306" subtype="simple">1306</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245807">
+    <date end="1234" begin="1234" subtype="simple">1234</date>
+    <source style="" id="de83">Fees</source>
+    <item>396</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245828">
+    <date end="1550" begin="1530" subtype="circa">c. 1540</date>
+    <source style="italic" id="de50">CtRequests</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245854">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245871">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>786</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245893">
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245916">
+    <attestation variantID="epns-deep-09-b-name-w245916">
+     <date end="1292" begin="1292" subtype="simple">1292</date>
+     <source style="" id="de111">Ipm</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w245916">
+     <date end="1434" begin="1434" subtype="simple">1434</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w245959">
+    <date end="1450" begin="1450" subtype="simple">1450</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w245706">Hainoc</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245729">Hanoch</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245744">Hanok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245791">Hanek</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245807">Henoc</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245828">Henyk</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245854">Hynnok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245871">Hyanac</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245893">Heynok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245916">Heanoke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245916">Heanok</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w245959">Heannoke</searchterm>
+  </extension>
+ </mads>
+ 

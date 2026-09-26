@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000111">
+  <authority ID="epns-deep-39-b-name-subparish-000111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011528">Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000108" type="broader">
+   <geographic>Hill</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w537306">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011529">Hilla</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w537321">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011530">Hill(e), Hyll(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w537383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011531">Hulla, Hull(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w537468">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011532">Hull(e) juxta Berkele</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w537501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/011533">Hull(e) als. Hyll</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b26"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5155600" lat="51.6513900" gazref="geonames:2646900" source="geonames"/>
+   <geo long="-2.520320242" lat="51.64317968" source="epns"/>
+   <geo easting="364500" northing="195500" long="-2.51457" lat="51.6572" kepnref="6435" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w537306">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537321">
+    <date subtype="simple" begin="1248" end="1248">1248</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537321">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="go31">Aug</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537321">
+    <date subtype="simple" begin="1517" end="1517">1517</date>
+    <source style="italic" id="go271">InqEncl</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537321">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537383">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <source style="" id="go44">Berk</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537383">
+    <date subtype="simple" begin="1210" end="1212">1210-12</date>
+    <source style="" id="go430">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537383">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537383">
+    <attestation variantID="epns-deep-39-b-name-w537383">
+     <date subtype="simple" begin="1221" end="1221">1221</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-39-b-name-w537383">
+     <date subtype="simple" begin="1690" end="1690">1690</date>
+     <source style="" id="go316">M</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537468">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="go379">Orig</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w537501">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w537306">Hilla</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537321">Hille</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537321">Hill</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537321">Hylle</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537321">Hyll</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537383">Hulla</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537383">Hulle</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537383">Hull</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537468">Hulle juxta Berkele</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537468">Hull juxta Berkele</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537501">Hulle</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537501">Hull</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w537501">Hyll</searchterm>
+  </extension>
+ </mads>
+ 

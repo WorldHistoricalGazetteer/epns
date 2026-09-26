@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000063">
+  <authority ID="epns-deep-79-a-name-parish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/005822">Stratton Strawless</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d5f"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2688000" lat="52.7316300" gazref="geonames:7301866" source="geonames"/>
+   <geo long="1.288432924" lat="52.73164814" source="epns"/>
+   <geo long="1.296165796462025" lat="52.73593156913336" gazref="unlock:11294183" source="unlock"/>
+   <geo easting="622500" northing="320500" long="1.29436" lat="52.7363" kepnref="9216" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000125">
+  <authority ID="epns-deep-14-a-name-parish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004680">Low Catton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000005" type="broader">
+   <geographic>Wilton Beacon Division</geographic>
+  </related>
+  <variant ID="epns-deep-14-a-name-w307900">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004681">both Cattons</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9262700" lat="53.9743900" gazref="geonames:2643544" source="geonames"/>
+   <geo long="-0.9250608940404028" lat="53.97256263028348" gazref="unlock:11206930" source="unlock"/>
+   <geo kepnexref="510" long="-0.926916" lat="53.977223" source="kepn"/>
+   <attestation variantID="epns-deep-14-a-name-w307900">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ey264">ParlSurv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-a-name-w307900">both Cattons</searchterm>
+  </extension>
+ </mads>
+ 

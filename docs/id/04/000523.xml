@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000013">
+  <authority ID="epns-deep-04-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000523">Eastham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000001" type="broader">
+   <geographic>Doddingtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4909800" lat="52.3025800" gazref="geonames:7299671" source="geonames"/>
+   <geo long="-2.506134392595267" lat="52.31313602380614" gazref="unlock:11137320" source="unlock"/>
+   <geo easting="365500" northing="268500" long="-2.50748" lat="52.3135" kepnref="5192" source="kepn"/>
+  </extension>
+ </mads>
+ 

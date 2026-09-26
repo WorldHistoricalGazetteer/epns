@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000216">
+  <authority ID="epns-deep-05-b-name-subparish-000216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002884">Newton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000083" type="broader">
+   <geographic>Newton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w218899">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002885">Newetun, Nietona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w218925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002886">Newetunie sub Ohtnebercg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w218966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002887">Neuton sub Otneberch</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w219003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002888">Castell Neuton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600054b"/>
+  </recordInfo>
+  <extension>
+   <geo easting="457500" northing="513500" long="-1.11334" lat="54.5136" kepnref="5868" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w218899">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w218925">
+    <date subtype="simple" begin="1140" end="1153">1140-53</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w218966">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w219003">
+    <date subtype="simple" begin="1399" end="1399">1399</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w218899">Newetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w218899">Nietona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w218925">Newetunie sub Ohtnebercg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w218966">Neuton sub Otneberch</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w219003">Castell Neuton</searchterm>
+  </extension>
+ </mads>
+ 

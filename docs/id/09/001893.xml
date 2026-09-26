@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000041">
+  <authority ID="epns-deep-09-b-name-subparish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001893">Bishop's Nympton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000041" type="broader">
+   <geographic>Bishop's Nympton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w89197">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001894">Nimeton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w89226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001895">Nemetone Episcopi</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w89257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001896">Bysshopes Nymet</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w89282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001897">Bishops Nymeton</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w89307">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001898">Nymet Busshop</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018e1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7569000" lat="51.0148000" gazref="geonames:7298215" source="geonames"/>
+   <geo long="-3.774382494299145" lat="50.99686744663309" gazref="unlock:11078070" source="unlock"/>
+   <geo easting="275500" northing="123500" long="-3.77554" lat="50.9974" kepnref="15708" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w89197">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w89197">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w89226">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w89257">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w89282">
+    <date end="1377" begin="1377" subtype="simple">1377</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w89307">
+    <date end="1557" begin="1557" subtype="simple">1557</date>
+    <source style="" id="de277">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w89197">Nimetona</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w89197">Nimeton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w89226">Nemetone Episcopi</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w89257">Bysshopes Nymet</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w89282">Bishops Nymeton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w89307">Nymet Busshop</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000038">
+  <authority ID="epns-deep-98-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000926">Roxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000038" type="broader">
+   <geographic>Roxton</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w78430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000927">Rochestone, Rochesdone</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000928">Rokesdun</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000929">Rokesdon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78536">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000930">Rokesden</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000931">Rokisdun</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78599">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000932">Rockesden</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78619">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000933">Rockesdon, Rokkesdon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78664">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000934">Rokeston</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w78684">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000935">Roxton al. Rokesdon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a900039a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3159400" lat="52.1775600" gazref="geonames:2639029" source="geonames"/>
+   <geo long="-0.3107014885921923" lat="52.17624658936735" gazref="unlock:11273964" source="unlock"/>
+   <geo easting="515500" northing="254500" long="-0.312301" lat="52.1767" kepnref="4260" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w78430">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78462">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="bh108">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78462">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78490">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="bh8">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78490">
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <date subtype="simple" begin="1500" end="1500">1500</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78536">
+    <date subtype="simple" begin="1232" end="1232">1232</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78536">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78581">
+    <date subtype="simple" begin="1235" end="1235">1235</date>
+    <source style="" id="bh25">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78599">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78619">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78619">
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <date subtype="simple" begin="1338" end="1338">1338</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78664">
+    <date subtype="simple" begin="1398" end="1398">1398</date>
+    <source style="" id="bh94">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w78684">
+    <date subtype="simple" begin="1449" end="1449">1449</date>
+    <source style="" id="bh94">IpmR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w78430">Rochestone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78430">Rochesdone</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78462">Rokesdun</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78490">Rokesdon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78536">Rokesden</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78581">Rokisdun</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78599">Rockesden</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78619">Rockesdon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78619">Rokkesdon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78664">Rokeston</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78684">Roxton</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w78684">Rokesdon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000007">
+  <authority ID="epns-deep-31-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000403">Swinefleet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000002" type="broader">
+   <geographic>Whitgift</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w20672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000404">Swynefleth</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w20714">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000405">Swineflet(e), Swyneflet(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w20837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000406">Swyneflitt</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w20860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000407">Swinflet(e), Swynflet(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w20961">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000408">Swynfleit</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w20983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/000409">Swynflett</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810062a5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8333000" lat="53.6920500" gazref="geonames:2636386" source="geonames"/>
+   <geo long="-0.8338658332" lat="53.68854068" source="epns"/>
+   <geo long="-0.8261699196712574" lat="53.69296164825654" gazref="unlock:11296536" source="unlock"/>
+   <geo easting="477500" northing="422500" long="-0.827773" lat="53.6932" kepnref="14399" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w20672">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20672">
+    <date subtype="simple" begin="1190" end="1207">c. 1190-1207</date>
+    <source style="" id="wr796">YCh</source>
+    <item>492</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20714">
+    <date subtype="simple" begin="1189" end="1207">1189-1207</date>
+    <source style="" id="wr796">YCh</source>
+    <item>493</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20714">
+    <date subtype="simple" begin="1190" end="1220">1190-1220</date>
+    <source style="" id="wr796" underspec="ib">YCh</source>
+    <item>494</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20714">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr6">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20714">
+    <date subtype="simple" begin="1246" end="1246">1246</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>35d</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20714">
+    <attestation variantID="epns-deep-31-b-name-w20714">
+     <date subtype="simple" begin="1253" end="1253">1253</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w20714">
+     <date subtype="simple" begin="1382" end="1382">1382</date>
+     <source style="" id="wr49">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20837">
+    <date subtype="simple" begin="1618" end="1618">1618</date>
+    <source style="" id="wr553">PRRth</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20860">
+    <date subtype="simple" begin="1266" end="1266">1266</date>
+    <source style="" id="wr28">Baild</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20860">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20860">
+    <date subtype="simple" begin="1304" end="1304">1304</date>
+    <source style="" id="wr640">Selby</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20860">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20860">
+    <attestation variantID="epns-deep-31-b-name-w20860">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="wr474">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-31-b-name-w20860">
+     <date subtype="simple" begin="1448" end="1448">1448</date>
+     <source style="" id="wr474">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20961">
+    <date subtype="simple" begin="1549" end="1549">1549</date>
+    <source style="" id="wr799">YD</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w20983">
+    <date subtype="simple" begin="1557" end="1557">1557</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w20672">Swynefleth</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20714">Swineflete</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20714">Swineflet</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20714">Swyneflete</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20714">Swyneflet</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20837">Swyneflitt</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20860">Swinflete</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20860">Swinflet</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20860">Swynflete</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20860">Swynflet</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20961">Swynfleit</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w20983">Swynflett</searchterm>
+  </extension>
+ </mads>
+ 

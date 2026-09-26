@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000101">
+  <authority ID="epns-deep-05-b-name-subparish-000101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000934">Farndale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000042" type="broader">
+   <geographic>Kirkby Moorside</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w83210">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000935">Farnedale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w83252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000936">Farendale, Farendal(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w83348">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000937">Farndal(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000503"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9833300" lat="54.3666700" gazref="geonames:2649668" source="geonames"/>
+   <geo long="-0.9763219318488168" lat="54.36852218422714" gazref="unlock:11142267" source="unlock"/>
+   <geo easting="466500" northing="497500" long="-0.977938" lat="54.3687" kepnref="5751" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w83210">
+    <date subtype="simple" begin="1154" end="1163">c. 1154-63</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83210">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1416" end="1416">1416</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="century" begin="1175" end="1200">late 12</date>
+    <source style="italic" id="ny41">Cur</source>
+    <item>46, m. 3 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="simple" begin="1229" end="1229">1229</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="simple" begin="1286" end="1286">1286</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83252">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83348">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83348">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83348">
+    <date subtype="simple" begin="1371" end="1371">1371</date>
+    <source style="" id="ny13">Baildon</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w83348">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w83210">Farnedale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w83252">Farendale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w83252">Farendala</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w83252">Farendal</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w83348">Farndale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w83348">Farndal</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000039">
+  <authority ID="epns-deep-13-b-name-subparish-000039">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002382">Bentley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000039" type="broader">
+   <geographic>Bentley</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w123243">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002383">Benechelie</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w123269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002384">Benetleia</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w123336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002385">Benetlegh, Benetleye</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w123358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/002386">Bent(e)leye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287435b47fc40c5f000730"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5854700" lat="52.5500900" gazref="geonames:7292659" source="geonames"/>
+   <geo long="-1.579496361136668" lat="52.56522362814096" gazref="unlock:11075588" source="unlock"/>
+   <geo easting="428500" northing="295500" long="-1.58105" lat="52.5566" kepnref="4915" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w123243">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w123269">
+    <attestation variantID="epns-deep-13-b-name-w123269">
+     <date end="1221" begin="1221" subtype="simple">1221</date>
+     <source style="" id="wa171">Madox</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-13-b-name-w123269">
+     <date end="1301" begin="1301" subtype="simple">1301</date>
+     <source style="" id="wa138">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w123336">
+    <date end="1301" begin="1221">1221-1301</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w123358">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="wa105">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w123358">
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w123243">Benechelie</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w123269">Benetleia</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w123336">Benetlegh</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w123336">Benetleye</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w123358">Benteleye</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w123358">Bentleye</searchterm>
+  </extension>
+ </mads>
+ 

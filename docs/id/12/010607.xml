@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000224">
+  <authority ID="epns-deep-12-a-name-parish-000224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/010607">Witham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000011" type="broader">
+   <geographic>Witham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000d64"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6403800" lat="51.8000700" gazref="geonames:2633749" source="geonames"/>
+   <geo long="0.6325350155395867" lat="51.79919868838691" gazref="unlock:11324545" source="unlock"/>
+   <geo easting="582500" northing="214500" long="0.645329" lat="51.7994" kepnref="12402" source="kepn"/>
+  </extension>
+ </mads>
+ 

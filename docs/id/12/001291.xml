@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000021">
+  <authority ID="epns-deep-12-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/001291">Chigwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000003" type="broader">
+   <geographic>Ongar Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000be4"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0759600" lat="51.6199900" gazref="geonames:2653178" source="geonames"/>
+   <geo long="0.0731645740402944" lat="51.62153215401666" gazref="unlock:11104865" source="unlock"/>
+   <geo easting="543500" northing="193500" long="0.0715445" lat="51.622" kepnref="12217" source="kepn"/>
+  </extension>
+ </mads>
+ 

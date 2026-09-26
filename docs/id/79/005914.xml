@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000064">
+  <authority ID="epns-deep-79-a-name-parish-000064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/005914">Swanton Abbot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d64"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.3666700" lat="52.7833300" gazref="geonames:2636430" source="geonames"/>
+   <geo long="1.351710575" lat="52.78384301" source="epns"/>
+   <geo easting="626500" northing="325500" long="1.35695" lat="52.7795" kepnref="9217" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000053">
+  <authority ID="epns-deep-99-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001061">Easton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000053" type="broader">
+   <geographic>Easton</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w322770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001062">Estone</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w322796">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/001063">Eston al. Esson</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000335"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3299300" lat="52.3305700" gazref="geonames:2650365" source="geonames"/>
+   <geo long="-0.334224966253894" lat="52.32945033795253" gazref="unlock:11137446" source="unlock"/>
+   <geo easting="513500" northing="271500" long="-0.335828" lat="52.3299" kepnref="4181" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w322770">
+    <attestation variantID="epns-deep-99-b-name-w322770">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w322796">
+    <date subtype="simple" begin="1578" end="1578">1578</date>
+    <source style="" id="bh66">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w322770">Estone</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w322796">Eston</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w322796">Esson</searchterm>
+  </extension>
+ </mads>
+ 

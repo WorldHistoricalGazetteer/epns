@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000028">
+  <authority ID="epns-deep-23-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/003758">Aston Rowant</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000004" type="broader">
+   <geographic>Lewknor Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb000690"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9500600" lat="51.6849600" gazref="geonames:2656859" source="geonames"/>
+   <geo long="-0.9510622711696047" lat="51.6891076516238" gazref="unlock:11065060" source="unlock"/>
+   <geo easting="472500" northing="199500" long="-0.952568" lat="51.6896" kepnref="3549" source="kepn"/>
+  </extension>
+ </mads>
+ 

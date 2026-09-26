@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000017">
+  <authority ID="epns-deep-40-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/002280">Tortworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000002" type="broader">
+   <geographic>Grumbald's Ash Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a26"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4306500" lat="51.6325000" gazref="geonames:2635623" source="geonames"/>
+   <geo long="-2.433517395" lat="51.63453984" source="epns"/>
+   <geo long="-2.426334599501843" lat="51.63906303217523" gazref="unlock:11303348" source="unlock"/>
+   <geo easting="370500" northing="193500" long="-2.42767" lat="51.6395" kepnref="6463" source="kepn"/>
+  </extension>
+ </mads>
+ 

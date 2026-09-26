@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000189">
+  <authority ID="epns-deep-05-b-name-subparish-000189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002408">Easington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000070" type="broader">
+   <geographic>Easington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w188233">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002409">Esingetun, Esingeton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w188263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002410">Esintun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w188297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002411">Esinton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w188368">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002412">Esington, Esyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w188436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002413">Eassington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000479"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8505800" lat="54.5534500" gazref="geonames:6640029" source="geonames"/>
+   <geo long="-0.8481629991024457" lat="54.5471396596005" gazref="unlock:11135532" source="unlock"/>
+   <geo easting="474500" northing="517500" long="-0.849802" lat="54.5473" kepnref="5840" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w188233">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188263">
+    <date subtype="simple" begin="1119" end="1119">1119</date>
+    <date subtype="simple" begin="1129" end="1129">1129</date>
+    <date subtype="ante" begin="1149" end="1199">a. 1199</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188297">
+    <date subtype="simple" begin="1154" end="1161">1154-61</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188297">
+    <date subtype="simple" begin="1160" end="1175">1160-75</date>
+    <source style="" id="ny236">YCh</source>
+    <page>656</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188297">
+    <date subtype="simple" begin="1228" end="1228">1228</date>
+    <source style="" id="ny114">Lib</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188297">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188297">
+    <date subtype="simple" begin="1369" end="1369">1369</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188368">
+    <attestation variantID="epns-deep-05-b-name-w188368">
+     <date subtype="simple" begin="1154" end="1181">1154-81</date>
+     <source style="" id="ny81">Guis</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w188368">
+     <date subtype="simple" begin="1371" end="1371">1371</date>
+     <source style="" id="ny136">NCyWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w188436">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w188233">Esingetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188233">Esingeton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188263">Esintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188297">Esintona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188297">Esinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188368">Esington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188368">Esyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w188436">Eassington</searchterm>
+  </extension>
+ </mads>
+ 

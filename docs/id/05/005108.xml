@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-wp-subcounty-000012">
+  <authority ID="epns-deep-05-wp-name-subcounty-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005108">Gilling East Wapentake</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-hon-abovesubcounty-000001" type="broader">
+   <geographic>the Honour of Richmondshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-wp-name-w365724">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005109">Gillyngschire</geographic>
+  </variant>
+  <variant ID="epns-deep-05-wp-name-w365757">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005110">Gillyng, Gillyng wap</geographic>
+  </variant>
+  <variant ID="epns-deep-05-wp-name-w365795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005111">Gillyngest, Gillyngwest</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003e7"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-05-wp-name-w365724">
+    <date end="1157" begin="1157" subtype="simple">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w365757">
+    <date end="1157" begin="1157" subtype="simple">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w365795">
+    <date end="1310" begin="1290" subtype="circa">c. 1300</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>97</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-wp-name-w365724">Gillyngschire</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w365757">Gillyng</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w365757">Gillyng wap</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w365795">Gillyngest</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w365795">Gillyngwest</searchterm>
+  </extension>
+ </mads>
+ 

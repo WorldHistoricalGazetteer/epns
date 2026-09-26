@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000003">
+  <authority ID="epns-deep-81-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/000855">Barkby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00107b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0420900" lat="52.6818800" gazref="geonames:7291465" source="geonames"/>
+   <geo long="-1.060644195100525" lat="52.67912862499131" gazref="unlock:11070063" source="unlock"/>
+   <geo easting="463500" northing="309500" long="-1.06218" lat="52.6795" kepnref="8803" source="kepn"/>
+  </extension>
+ </mads>
+ 

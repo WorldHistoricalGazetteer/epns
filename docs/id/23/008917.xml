@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000086">
+  <authority ID="epns-deep-23-a-name-parish-000086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/008917">Bletchingdon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000009" type="broader">
+   <geographic>Ploughley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00069f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2721000" lat="51.8545500" gazref="geonames:2655353" source="geonames"/>
+   <geo long="-1.266708324551635" lat="51.85336272298183" gazref="unlock:11081117" source="unlock"/>
+   <geo easting="450500" northing="217500" long="-1.26818" lat="51.8538" kepnref="3607" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000136">
+  <authority ID="epns-deep-96-a-name-parish-000136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/005643">Soham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000014" type="broader">
+   <geographic>Staploe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00073a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3386900" lat="52.3317700" gazref="geonames:2637554" source="geonames"/>
+   <geo long="0.3413168172801702" lat="52.33597566536448" gazref="unlock:11286575" source="unlock"/>
+   <geo easting="559500" northing="273500" long="0.339635" lat="52.3364" kepnref="4095" source="kepn"/>
+  </extension>
+ </mads>
+ 

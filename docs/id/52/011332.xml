@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol52mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-52-a-parish-000034">
+  <authority ID="epns-deep-52-a-name-parish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/52/011332">West Stafford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-52-hu-subcounty-000004" type="broader">
+   <geographic>Culliford Tree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a88"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3951900" lat="50.7034100" gazref="geonames:7298426" source="geonames"/>
+   <geo long="-2.388055968" lat="50.70391715" source="epns"/>
+   <geo long="-2.389472305591765" lat="50.70391289334702" gazref="unlock:11317640" source="unlock"/>
+   <geo easting="372500" northing="89500" long="-2.39078" lat="50.7045" kepnref="11492" source="kepn"/>
+  </extension>
+ </mads>
+ 

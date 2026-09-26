@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol43mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-43-w-subcounty-000002">
+  <authority ID="epns-deep-43-w-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005969">West Ward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-43-ba-abovesubcounty-000001" type="broader">
+   <geographic>Westmorland Barony</geographic>
+  </related>
+  <variant ID="epns-deep-43-w-name-w306893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005970">Westwarde</geographic>
+  </variant>
+  <variant ID="epns-deep-43-w-name-w306923">
+   <geographic valueURI="http://placenames.org.uk/id/placename/43/005971">(the) West Ward</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287695b47fc40c6f001393"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-43-w-name-w306893">
+    <date subtype="simple" begin="1523" end="1523">1523</date>
+    <source style="italic" id="we416">SheriffAcct</source>
+    <item>9</item>
+   </attestation>
+   <attestation variantID="epns-deep-43-w-name-w306923">
+    <date subtype="simple" begin="1602" end="1602">1602</date>
+    <source style="" id="we221">Kend</source>
+    <item>iii</item>
+    <page>25</page>
+   </attestation>
+   <attestation variantID="epns-deep-43-w-name-w306923">
+    <date subtype="simple" begin="1671" end="1671">1671</date>
+    <source style="" id="we160">Fleming</source>
+   </attestation>
+   <attestation variantID="epns-deep-43-w-name-w306923">
+    <attestation variantID="epns-deep-43-w-name-w306923">
+     <date subtype="simple" begin="1687" end="1687">1687</date>
+     <source style="" id="we305">NWm</source>
+     <page>12</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-43-w-name-w306923">
+     <date subtype="circa" begin="1712" end="1732">c. 1722</date>
+     <source style="italic" id="we13">AnctHo</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-43-w-name-w306893">Westwarde</searchterm>
+   <searchterm variantID="epns-deep-43-w-name-w306923">the West Ward</searchterm>
+   <searchterm variantID="epns-deep-43-w-name-w306923">West Ward</searchterm>
+  </extension>
+ </mads>
+ 

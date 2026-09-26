@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000013">
+  <authority ID="epns-deep-81-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/005399">Gaddesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9813700" lat="52.7139700" gazref="geonames:2648957" source="geonames"/>
+   <geo long="-0.9708442851702617" lat="52.72333823345236" gazref="unlock:11149209" source="unlock"/>
+   <geo easting="469500" northing="314500" long="-0.972389" lat="52.7237" kepnref="8814" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000390">
+  <authority ID="epns-deep-12-a-name-parish-000390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017760">Little Dunmow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000017" type="broader">
+   <geographic>Dunmow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000ca5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4042600" lat="51.8665800" gazref="geonames:2644334" source="geonames"/>
+   <geo long="0.404044758869692" lat="51.86705191407464" gazref="unlock:11196225" source="unlock"/>
+   <geo kepnexref="0187" long="0.404041" lat="51.868118" source="kepn"/>
+  </extension>
+ </mads>
+ 

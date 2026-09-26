@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000107">
+  <authority ID="epns-deep-06-b-name-subparish-000107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003419">Burpham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000107" type="broader">
+   <geographic>Burpham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w265665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003420">Burhham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003421">Bercheham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003422">Burcham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003423">Burgham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265788">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003424">Burghham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265807">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003425">Bourgham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265830">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003426">Burfeham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w265854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003427">Burgham al. Burfam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cbe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5226200" lat="50.8706500" gazref="geonames:2654251" source="geonames"/>
+   <geo long="-0.5148481088406512" lat="50.86599293605771" gazref="unlock:11093813" source="unlock"/>
+   <geo easting="504500" northing="108500" long="-0.516371" lat="50.8666" kepnref="6969" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w265665">
+    <date subtype="circa" begin="910" end="930">c. 920</date>
+    <source style="" id="su106">Gale</source>
+    <item>i</item>
+    <page>748</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265711">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265730">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265747">
+    <attestation variantID="epns-deep-06-b-name-w265747">
+     <date subtype="simple" begin="1229" end="1229">1229</date>
+     <source style="" id="su96">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w265747">
+     <date subtype="simple" begin="1298" end="1298">1298</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265788">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265807">
+    <date subtype="simple" begin="1440" end="1440">1440</date>
+    <source style="" id="su43">Cicestr</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265830">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="su273">SRS</source>
+    <item>3</item>
+    <page>1</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w265854">
+    <date subtype="simple" begin="1631" end="1631">1631</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w265665">Burhham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265711">Bercheham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265730">Burcham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265747">Burgham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265788">Burghham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265807">Bourgham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265830">Burfeham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265854">Burgham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w265854">Burfam</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000051">
+  <authority ID="epns-deep-07-a-name-parish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001983">Forest Row</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000010" type="broader">
+   <geographic>East Grinstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b8f"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0326200" lat="51.0964100" gazref="geonames:2649210" source="geonames"/>
+   <geo long="0.03508680861526531" lat="51.09155408767231" gazref="unlock:11146716" source="unlock"/>
+   <geo kepnexref="0029" long="0.033789" lat="51.0995" source="kepn"/>
+  </extension>
+ </mads>
+ 

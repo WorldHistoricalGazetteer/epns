@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-b-subparish-000027">
+  <authority ID="epns-deep-32-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004896">Queensbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-ch-belowparish-000002" type="broader">
+   <geographic>Halifax Chapelry</geographic>
+  </related>
+  <variant ID="epns-deep-32-b-name-w207160">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/004897">Queen's Head</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006142"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.848278346" lat="53.76603389" source="epns"/>
+   <geo long="-1.855848962323999" lat="53.77053905958786" gazref="unlock:11251559" source="unlock"/>
+   <geo easting="410500" northing="430500" long="-1.84216" lat="53.7707" kepnref="14555" source="kepn"/>
+   <attestation variantID="epns-deep-32-b-name-w207160">
+    <date end="1821" begin="1821" subtype="simple">1821</date>
+    <source style="" id="wr255">HAS</source>
+    <page>44, 69</page>
+   </attestation>
+   <attestation variantID="epns-deep-32-b-name-w207160">
+    <date end="1822" begin="1822" subtype="simple">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-32-b-name-w207160">Queen's Head</searchterm>
+  </extension>
+ </mads>
+ 

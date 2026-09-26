@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-db-dbhundred-000004">
+  <authority ID="epns-deep-38-db-name-dbhundred-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007147">Waclescombe Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000006" type="broader">
+   <geographic>Bradley Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-38-db-name-w322485">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007148">Wacrescymbe hundredum</geographic>
+  </variant>
+  <variant ID="epns-deep-38-db-name-w322518">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/007149">Wacrescvmbe hd'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab3000013"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-38-db-name-w322485">
+    <date end="1100" begin="1000" subtype="century">11</date>
+    <source style="" id="go247">Heming</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-db-name-w322518">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-db-name-w322485">Wacrescymbe hundredum</searchterm>
+   <searchterm variantID="epns-deep-38-db-name-w322518">Wacrescvmbe hd'</searchterm>
+  </extension>
+ </mads>
+ 

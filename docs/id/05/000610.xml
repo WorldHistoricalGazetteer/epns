@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-wp-subcounty-000002">
+  <authority ID="epns-deep-05-wp-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000610">Ryedale Wapentake</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-co-county-000001" type="broader">
+   <geographic>North Riding of Yorkshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-wp-name-w50803">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000611">Maneshou wapentac</geographic>
+  </variant>
+  <variant ID="epns-deep-05-wp-name-w51140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000612">wapentagium de Ridal(e), wapentagium de Rydal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-wp-name-w51231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000613">Rydall(e), Ridall(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003ef"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-05-wp-name-w50803">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w51140">
+    <date end="1175" begin="1160" subtype="simple">c. 1160-75</date>
+    <source style="" id="ny236">YCh</source>
+    <page>195</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w51140">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w51231">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w51231">
+    <date end="1508" begin="1508" subtype="simple">1508</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w51231">
+    <date end="1619" begin="1619" subtype="simple">1619</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-wp-name-w50803">Maneshou wapentac</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51140">wapentagium de Ridale</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51140">wapentagium de Ridal</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51140">wapentagium de Rydale</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51140">wapentagium de Rydal</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51231">Rydalle</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51231">Rydall</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51231">Ridalle</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w51231">Ridall</searchterm>
+  </extension>
+ </mads>
+ 

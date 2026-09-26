@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000112">
+  <authority ID="epns-deep-98-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002630">Hyde (East and West)</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000113" type="broader">
+   <geographic>Hyde</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w203367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002631">la Hide</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w203388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002632">Esthide</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w203406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002633">Westhide</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w203425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002634">Esthith, Westhith</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a900036a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3811100" lat="51.8516000" gazref="geonames:7296195" source="geonames"/>
+   <geo long="-0.3667155317180353" lat="51.84430897640551" gazref="unlock:11136193" source="unlock"/>
+   <geo easting="511500" northing="218500" long="-0.382482" lat="51.854" kepnref="4336" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w203367">
+    <date subtype="simple" begin="1197" end="1197">1197</date>
+    <source style="" id="bh66">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w203388">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w203406">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w203425">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w203367">la Hide</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w203388">Esthide</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w203406">Westhide</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w203425">Esthith</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w203425">Westhith</searchterm>
+  </extension>
+ </mads>
+ 

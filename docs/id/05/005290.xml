@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000477">
+  <authority ID="epns-deep-05-b-name-subparish-000477">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005290">Croft</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000160" type="broader">
+   <geographic>Croft</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w376093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005291">Croft</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w376108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005292">Croft super Teyse</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w376136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005293">Crofst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000466"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5558500" lat="54.4828500" gazref="geonames:2651951" source="geonames"/>
+   <geo long="-1.56009553023782" lat="54.47991875685468" gazref="unlock:11122306" source="unlock"/>
+   <geo easting="428500" northing="509500" long="-1.56164" lat="54.4801" kepnref="6131" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w376093">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w376108">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w376136">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w376093">Croft</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w376108">Croft super Teyse</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w376136">Crofst</searchterm>
+  </extension>
+ </mads>
+ 

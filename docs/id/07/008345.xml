@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000146">
+  <authority ID="epns-deep-07-b-name-subparish-000146">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008345">Rye</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000147" type="broader">
+   <geographic>Rye</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w496066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008346">Ria, Rya</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w496108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008347">(on) Rie</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w496133">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008348">Rye, Rie</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w496165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008349">La Rye</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w496209">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/008350">Rey</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d6b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7337000" lat="50.9511400" gazref="geonames:2638909" source="geonames"/>
+   <geo long="0.7267360984601596" lat="50.95152555230472" gazref="unlock:11275837" source="unlock"/>
+   <geo easting="592500" northing="120500" long="0.73929" lat="50.9518" kepnref="7162" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w496066">
+    <attestation variantID="epns-deep-07-b-name-w496066">
+     <date end="1130" begin="1130" subtype="simple">1130</date>
+     <date end="1165" begin="1165" subtype="simple">1165</date>
+     <source style="" id="su199">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w496066">
+     <date end="1232" begin="1232" subtype="simple">1232</date>
+     <source style="" id="su44">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w496108">
+    <date end="1154" begin="1135" subtype="regnal">t. Steph</date>
+    <source style="" id="su47">coins</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w496133">
+    <attestation variantID="epns-deep-07-b-name-w496133">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="su3">AD</source>
+     <item>iii</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w496165">
+    <attestation variantID="epns-deep-07-b-name-w496165">
+     <date end="1222" begin="1222" subtype="simple">1222</date>
+     <source style="" id="su30">Bracton</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w496165">
+     <date end="1379" begin="1379" subtype="simple">1379</date>
+     <source style="" id="su131">IpmR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w496209">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="su288">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w496209">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="su178">Norden</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w496066">Ria</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496066">Rya</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496108">on Rie</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496108">Rie</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496133">Rye</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496133">Rie</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496165">La Rye</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w496209">Rey</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-hu-subcounty-000004">
+  <authority ID="epns-deep-10-hu-name-subcounty-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001070">King's Sutton Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-co-county-000001" type="broader">
+   <geographic>Northamptonshire</geographic>
+  </related>
+  <variant ID="epns-deep-10-hu-name-w62491">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001071">Suttunes</geographic>
+  </variant>
+  <variant ID="epns-deep-10-hu-name-w62519">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001072">Sutone, Sudtone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-hu-name-w62539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001073">Sutton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a63b47fc40bba0004f9"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-10-hu-name-w62491">
+    <date subtype="ante" begin="1026" end="1076">a. 1076</date>
+    <source style="" id="nh114">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-hu-name-w62519">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-hu-name-w62539">
+    <date subtype="simple" begin="1195" end="1195">1195</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-hu-name-w62491">Suttunes</searchterm>
+   <searchterm variantID="epns-deep-10-hu-name-w62519">Sutone</searchterm>
+   <searchterm variantID="epns-deep-10-hu-name-w62519">Sudtone</searchterm>
+   <searchterm variantID="epns-deep-10-hu-name-w62539">Sutton</searchterm>
+  </extension>
+ </mads>
+ 

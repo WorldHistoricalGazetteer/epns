@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000159">
+  <authority ID="epns-deep-10-b-name-subparish-000159">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003546">Mawsley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000159" type="broader">
+   <geographic>Mawsley</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w195154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003547">Malesleia</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w195223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003548">Malesle, Maleslee</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w195235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003549">Mallesle(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w195289">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003550">Mawesley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005bb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8155400" lat="52.3697200" gazref="geonames:6619946" source="geonames"/>
+   <geo long="-0.8321398807778895" lat="52.37138893526339" gazref="unlock:11214798" source="unlock"/>
+   <geo easting="479500" northing="276500" long="-0.83345" lat="52.3808" kepnref="11029" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w195154">
+    <attestation variantID="epns-deep-10-b-name-w195154">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="nh26">BM</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w195154">
+     <date end="1333" begin="1333" subtype="simple">1333</date>
+     <source style="italic" id="nh101">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195223">
+    <date end="1333" begin="1185">1185-1333</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195235">
+    <date end="1293" begin="1293" subtype="simple">1293</date>
+    <source style="" id="nh4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195235">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195235">
+    <date end="1325" begin="1325" subtype="simple">1325</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195235">
+    <date end="1356" begin="1356" subtype="simple">1356</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w195289">
+    <date end="1596" begin="1596" subtype="simple">1596</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w195154">Malesleia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w195223">Malesle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w195223">Maleslee</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w195235">Malleslee</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w195235">Mallesle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w195289">Mawesley</searchterm>
+  </extension>
+ </mads>
+ 

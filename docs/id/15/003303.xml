@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000045">
+  <authority ID="epns-deep-15-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003303">St Stephens</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000051" type="broader">
+   <geographic>St Stephens</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w169598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003304">Ecclesia Beati Stephani</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w169637">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003305">Ecclesia Sancti Stephani</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w169683">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003306">Saynt Stephyns</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w169707">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003307">parish of Senstevens</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3558044531609763" lat="51.74523477287426" gazref="unlock:11276948" source="unlock"/>
+   <geo kepnexref="0165" long="-0.348566" lat="51.741965" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w169598">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w169637">
+    <date subtype="simple" begin="1188" end="1188">1188</date>
+    <source style="" id="he187">MP</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w169637">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="he316">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w169683">
+    <date subtype="simple" begin="1552" end="1552">1552</date>
+    <source style="" id="he113">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w169707">
+    <date subtype="simple" begin="1655" end="1655">1655</date>
+    <source style="" id="he220">ParReg (Aldenham)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w169598">Ecclesia Beati Stephani</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w169637">Ecclesia Sancti Stephani</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w169683">Saynt Stephyns</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w169707">parish of Senstevens</searchterm>
+  </extension>
+ </mads>
+ 

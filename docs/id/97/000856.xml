@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000013">
+  <authority ID="epns-deep-97-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000856">Manea</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000004" type="broader">
+   <geographic>Hundred of South Witchford</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000723"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1785700" lat="52.4830400" gazref="geonames:2643121" source="geonames"/>
+   <geo long="0.1870805681932745" lat="52.48281732576446" gazref="unlock:11211908" source="unlock"/>
+   <geo easting="549500" northing="289500" long="0.200125" lat="52.4829" kepnref="4104" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000021">
+  <authority ID="epns-deep-67-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/004563">Langham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000002" type="broader">
+   <geographic>Oakham Soke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7538500" lat="52.6915200" gazref="geonames:2644932" source="geonames"/>
+   <geo long="-0.7495481287957575" lat="52.69423735763589" gazref="unlock:11191448" source="unlock"/>
+   <geo easting="484500" northing="311500" long="-0.751118" lat="52.6946" kepnref="2986" source="kepn"/>
+  </extension>
+ </mads>
+ 

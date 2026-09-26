@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000294">
+  <authority ID="epns-deep-16-b-name-subparish-000294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013779">Compton Chamberlayne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000339" type="broader">
+   <geographic>Compton Chamberlayne</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w680065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013780">Contone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w680082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013781">Cumpton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w680115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/013782">Compton Chamberleyne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000da8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9583600" lat="51.0650400" gazref="geonames:7299337" source="geonames"/>
+   <geo long="-1.964319271103619" lat="51.06429629521184" gazref="unlock:11114963" source="unlock"/>
+   <geo easting="402500" northing="129500" long="-1.96569" lat="51.0648" kepnref="7490" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w680065">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w680082">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="ws106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w680082">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w680115">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w680065">Contone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w680082">Cumpton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w680115">Compton Chamberleyne</searchterm>
+  </extension>
+ </mads>
+ 

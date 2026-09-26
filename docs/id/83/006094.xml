@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000010">
+  <authority ID="epns-deep-83-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/006094">Hartlepool</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a3800047d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2125000" lat="54.6861100" gazref="geonames:2647400" source="geonames"/>
+   <geo long="-1.208923844" lat="54.68036207" source="epns"/>
+   <geo long="-1.21659191662098" lat="54.68490741319019" gazref="unlock:11166755" source="unlock"/>
+   <geo easting="451500" northing="532500" long="-1.20268" lat="54.6849" kepnref="7745" source="kepn"/>
+  </extension>
+ </mads>
+ 

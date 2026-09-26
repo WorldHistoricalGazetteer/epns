@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000045">
+  <authority ID="epns-deep-31-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003270">Stapleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000012" type="broader">
+   <geographic>Darrington</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w142751">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003271">Stapleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w142782">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003272">Stapilton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w142863">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003273">Stapelton(a), Stapeltun</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w143007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003274">Stepelton</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w143028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/003275">Stappleton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2302400" lat="53.6674800" gazref="geonames:7301628" source="geonames"/>
+   <geo long="-1.243364656" lat="53.65586969" source="epns"/>
+   <geo long="-1.235717513804715" lat="53.66031712208679" gazref="unlock:11291355" source="unlock"/>
+   <geo easting="450500" northing="419500" long="-1.23711" lat="53.6695" kepnref="14436" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w142751">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142751">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142782">
+    <date subtype="simple" begin="1136" end="1140">1136-40</date>
+    <source style="" id="wr489">Pont</source>
+    <source style="" id="wr796">YCh</source>
+    <item>1469</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142782">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>26</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142782">
+    <date subtype="simple" begin="1379" end="1379">1379</date>
+    <source style="" id="wr577">PT</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <date subtype="simple" begin="1135" end="1140">1135- 40</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+    <copydate end="1230" begin="1230">1230</copydate>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <date subtype="simple" begin="1155" end="1158">1155-8</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1451</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="wr592">RBE</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <date subtype="circa" begin="1160" end="1180">c. 1170</date>
+    <source style="" id="wr313">Kirkst</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w142863">
+    <attestation variantID="epns-deep-31-b-name-w142863">
+     <date subtype="simple" begin="1220" end="1240">1220-40</date>
+     <source style="italic" id="wr51">Bodl</source>
+     <item>74</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w142863">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w143007">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w143028">
+    <date subtype="simple" begin="1558" end="1558">1558</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w143028">
+    <date subtype="simple" begin="1612" end="1612">1612</date>
+    <date subtype="simple" begin="1624" end="1624">1624</date>
+    <source style="" id="wr516">PRDr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w142751">Stapletone</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142751">Stapleton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142782">Stapiltona</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142782">Stapilton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142863">Stapeltona</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142863">Stapelton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w142863">Stapeltun</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w143007">Stepelton</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w143028">Stappleton</searchterm>
+  </extension>
+ </mads>
+ 

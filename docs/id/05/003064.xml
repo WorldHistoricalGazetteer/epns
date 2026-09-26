@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000234">
+  <authority ID="epns-deep-05-b-name-subparish-000234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003064">Seamer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000090" type="broader">
+   <geographic>Seamer</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w230107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003065">Semer, Semers</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w230136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003066">Semers in Clevelande</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w230171">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003067">Samara, Samare</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000598"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2303000" lat="54.4839000" gazref="geonames:2638289" source="geonames"/>
+   <geo long="-1.235813017430986" lat="54.48729197904218" gazref="unlock:11279759" source="unlock"/>
+   <geo easting="449500" northing="510500" long="-1.2374" lat="54.4874" kepnref="5886" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w230107">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w230136">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny78">Godr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w230171">
+    <date subtype="simple" begin="1133" end="1133">1133</date>
+    <date subtype="simple" begin="1140" end="1154">1140-54</date>
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w230171">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w230107">Semer</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w230107">Semers</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w230136">Semers in Clevelande</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w230171">Samara</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w230171">Samare</searchterm>
+  </extension>
+ </mads>
+ 

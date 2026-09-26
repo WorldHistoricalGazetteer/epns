@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000122">
+  <authority ID="epns-deep-31-b-name-subparish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/014748">Holme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000036" type="broader">
+   <geographic>Almondbury</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w649008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/014749">Holne</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w649071">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/014750">Holm(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827ab47fc40c81006053"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8391800" lat="53.5503000" gazref="geonames:2646729" source="geonames"/>
+   <geo long="-1.849051077" lat="53.55029328" source="epns"/>
+   <geo long="-1.841520406013978" lat="53.54579007518995" gazref="unlock:11177541" source="unlock"/>
+   <geo easting="410500" northing="406500" long="-1.84296" lat="53.555" kepnref="14514" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w649008">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649008">
+    <attestation variantID="epns-deep-31-b-name-w649008">
+     <date subtype="simple" begin="1274" end="1321">1274-1321</date>
+     <source style="" id="wr757">WCR</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649008">
+    <date subtype="simple" begin="1323" end="1323">1323</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>45</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649008">
+    <date subtype="simple" begin="1591" end="1591">1591</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649071">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649071">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w649071">
+    <date subtype="simple" begin="1392" end="1392">1392</date>
+    <date subtype="simple" begin="1492" end="1492">1492</date>
+    <source style="italic" id="wr384">MinAcct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w649008">Holne</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w649071">Holme</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w649071">Holm</searchterm>
+  </extension>
+ </mads>
+ 

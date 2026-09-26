@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000469">
+  <authority ID="epns-deep-05-b-name-subparish-000469">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005235">Girsby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000157" type="broader">
+   <geographic>Girsby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w373449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005236">Grisebi, Griseby</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005237">Grisibi</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w373529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005238">Grysby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000496"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4439700" lat="54.4666000" gazref="geonames:7291840" source="geonames"/>
+   <geo long="-1.452173864740429" lat="54.47048972725071" gazref="unlock:11152751" source="unlock"/>
+   <geo easting="435500" northing="508500" long="-1.45374" lat="54.4706" kepnref="6122" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w373449">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373449">
+    <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+    <source style="" id="ny209">SD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373449">
+    <attestation variantID="epns-deep-05-b-name-w373449">
+     <date subtype="simple" begin="1196" end="1196">1196</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373506">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w373529">
+    <date subtype="simple" begin="1128" end="1135">1128-35</date>
+    <source style="" id="ny236">YCh</source>
+    <page>944, etc.</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w373449">Grisebi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373449">Griseby</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373506">Grisibi</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w373529">Grysby</searchterm>
+  </extension>
+ </mads>
+ 

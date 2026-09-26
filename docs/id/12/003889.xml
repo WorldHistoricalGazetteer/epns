@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000070">
+  <authority ID="epns-deep-12-a-name-parish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003889">Grays Thurrock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000006" type="broader">
+   <geographic>Chafford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000c24"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3252100" lat="51.4756600" gazref="geonames:2648182" source="geonames"/>
+   <geo easting="561500" northing="178500" long="0.324464" lat="51.4824" kepnref="12259" source="kepn"/>
+  </extension>
+ </mads>
+ 

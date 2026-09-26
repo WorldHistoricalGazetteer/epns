@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000462">
+  <authority ID="epns-deep-05-b-name-subparish-000462">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005187">Bolton upon Swale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000156" type="broader">
+   <geographic>Bolton on Swale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w369767">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005188">Boletone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369785">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005189">Bo(h)eltona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005190">Bolton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w369855">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005191">Bolton oppon Swale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000423"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6167100" lat="54.3850600" gazref="geonames:2655229" source="geonames"/>
+   <geo easting="425500" northing="499500" long="-1.6088" lat="54.3904" kepnref="6116" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w369767">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369785">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369785">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369826">
+    <date subtype="circa" begin="1290" end="1310">c. 1300</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w369855">
+    <date subtype="simple" begin="1403" end="1403">1403</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w369767">Boletone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369785">Boheltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369785">Boeltona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369826">Bolton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w369855">Bolton oppon Swale</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000166">
+  <authority ID="epns-deep-09-b-name-subparish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008696">Willand</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000166" type="broader">
+   <geographic>Willand</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w392272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008697">Willelanda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392292">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008698">Willelande</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008699">La Willelaund</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008700">Wildelanda</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392365">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008701">(la) Wyldelonde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008702">Wildelonde</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w392445">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/008703">Wildelonde Prior</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a72"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3666700" lat="50.8833300" gazref="geonames:2633916" source="geonames"/>
+   <geo long="-3.37202028812266" lat="50.88536581851631" gazref="unlock:11323012" source="unlock"/>
+   <geo easting="303500" northing="110500" long="-3.37322" lat="50.8859" kepnref="15837" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w392272">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392292">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392313">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392336">
+    <date end="1158" begin="1155" subtype="simple">1155-8</date>
+    <copydate end="1334" begin="1334">1334</copydate>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392365">
+    <attestation variantID="epns-deep-09-b-name-w392365">
+     <date end="1244" begin="1244" subtype="simple">1244</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w392365">
+     <date end="1438" begin="1438" subtype="simple">1438</date>
+     <source style="" id="de22">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392433">
+    <date end="1438" begin="1244">1244-1438</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w392445">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w392272">Willelanda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392292">Willelande</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392313">La Willelaund</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392336">Wildelanda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392365">la Wyldelonde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392365">Wyldelonde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392433">Wildelonde</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w392445">Wildelonde Prior</searchterm>
+  </extension>
+ </mads>
+ 

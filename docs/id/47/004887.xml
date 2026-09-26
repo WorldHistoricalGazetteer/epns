@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-a-parish-000015">
+  <authority ID="epns-deep-47-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004887">Christleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-hu-subcounty-000001" type="broader">
+   <geographic>Broxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ee2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.8378900" lat="53.1850900" gazref="geonames:2653069" source="geonames"/>
+   <geo long="-2.838002325" lat="53.17886506" source="epns"/>
+   <geo long="-2.830608102103978" lat="53.18341308713361" gazref="unlock:11106859" source="unlock"/>
+   <geo easting="344500" northing="365500" long="-2.83195" lat="53.1837" kepnref="12074" source="kepn"/>
+  </extension>
+ </mads>
+ 

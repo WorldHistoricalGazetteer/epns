@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000514">
+  <authority ID="epns-deep-05-b-name-subparish-000514">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005672">Wycliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000176" type="broader">
+   <geographic>Wycliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w399041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005673">Witclive</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w399059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005674">Wigeclif</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w399080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005675">Wittecliff</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w399111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005676">Wycliff</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005f6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8182400" lat="54.5227800" gazref="geonames:2633463" source="geonames"/>
+   <geo long="-1.82229738153567" lat="54.52552839931442" gazref="unlock:11327782" source="unlock"/>
+   <geo easting="411500" northing="514500" long="-1.82382" lat="54.5257" kepnref="6169" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w399041">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w399059">
+    <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+    <source style="" id="ny209">SD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w399080">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>124 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w399111">
+    <attestation variantID="epns-deep-05-b-name-w399111">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w399041">Witclive</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w399059">Wigeclif</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w399080">Wittecliff</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w399111">Wycliff</searchterm>
+  </extension>
+ </mads>
+ 

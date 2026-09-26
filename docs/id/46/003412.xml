@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000027">
+  <authority ID="epns-deep-46-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003412">Shavington Cum Gresty</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000006" type="broader">
+   <geographic>Wybunbury</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w176608">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003413">Greasty cum Shavington</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w176645">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003414">Shavington cum Greastey</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w176699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/003415">Shavinton cum Gresty or Shavinton Woodnoth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368fb47fc408560020b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4521400" lat="53.0683400" gazref="geonames:7293012" source="geonames"/>
+   <geo easting="369500" northing="351500" long="-2.45653" lat="53.0599" kepnref="11919" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w176608">
+    <date end="1739" begin="1739" subtype="simple">1739</date>
+    <source style="" id="ch609">Sheaf</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w176645">
+    <date end="1724" begin="1724" subtype="simple">1724</date>
+    <source style="" id="ch430">NotCestr</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w176699">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <date end="1882" begin="1882" subtype="simple">1882</date>
+    <source style="" id="ch474">Orm2</source>
+    <item>iii</item>
+    <page>505</page>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w176608">Greasty cum Shavington</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w176645">Shavington cum Greastey</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w176699">Shavinton cum Gresty or Shavinton Woodnoth</searchterm>
+  </extension>
+ </mads>
+ 

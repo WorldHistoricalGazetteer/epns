@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000075">
+  <authority ID="epns-deep-05-b-name-subparish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000738">Coulton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000032" type="broader">
+   <geographic>Hovingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w62803">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000739">Coletun(e), Coltun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w62834">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000740">Colton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w62886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000741">Coltun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w62932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000742">Cowlton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004c6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0266300" lat="54.1584100" gazref="geonames:2652245" source="geonames"/>
+   <geo long="-1.027373723845176" lat="54.1622036227612" gazref="unlock:11117397" source="unlock"/>
+   <geo easting="463500" northing="474500" long="-1.02897" lat="54.1624" kepnref="5727" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w62803">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62834">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62834">
+    <attestation variantID="epns-deep-05-b-name-w62834">
+     <date subtype="simple" begin="1208" end="1208">1208</date>
+     <date subtype="simple" begin="1223" end="1223">1223</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w62834">
+     <date subtype="simple" begin="1399" end="1399">1399</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62886">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62886">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny121">Malton</source>
+    <page>101</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62886">
+    <date subtype="circa" begin="1275" end="1295">c. 1285</date>
+    <source style="italic" id="ny121" underspec="ib">Malton</source>
+    <item>99</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w62932">
+    <date subtype="simple" begin="1578" end="1578">1578</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w62803">Coletune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62803">Coletun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62803">Coltune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62803">Coltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62834">Colton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62886">Coltun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w62932">Cowlton</searchterm>
+  </extension>
+ </mads>
+ 

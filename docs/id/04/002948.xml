@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000117">
+  <authority ID="epns-deep-04-a-name-parish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002948">Bransford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000003" type="broader">
+   <geographic>Hundred Of Pershore</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b00047f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2997100" lat="52.1718200" gazref="geonames:2654884" source="geonames"/>
+   <geo long="-2.29977966545779" lat="52.16997745789124" gazref="unlock:11085802" source="unlock"/>
+   <geo easting="379500" northing="252500" long="-2.30115" lat="52.1704" kepnref="5292" source="kepn"/>
+  </extension>
+ </mads>
+ 

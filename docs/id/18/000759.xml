@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000022">
+  <authority ID="epns-deep-18-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000759">Hanwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000003" type="broader">
+   <geographic>Elthorne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a00001fb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3351700" lat="51.5180900" gazref="geonames:2647516" source="geonames"/>
+   <geo long="-0.3354222916792352" lat="51.51112512601621" gazref="unlock:11165481" source="unlock"/>
+   <geo easting="515500" northing="180500" long="-0.336991" lat="51.5116" kepnref="4728" source="kepn"/>
+  </extension>
+ </mads>
+ 

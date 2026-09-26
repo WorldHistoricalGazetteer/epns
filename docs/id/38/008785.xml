@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000093">
+  <authority ID="epns-deep-38-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008785">Eyford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000093" type="broader">
+   <geographic>Eyford</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w398752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008786">Aiforde</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w398769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008787">Heyford, Heiford</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w398812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008788">Hayford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w398844">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008789">Eyford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w398920">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008790">Eyvorde</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w398946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/008791">Exford als. Eysford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001afd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.796398474" lat="51.9229105" source="epns"/>
+   <geo long="-1.803650236862375" lat="51.92741954422396" gazref="unlock:11141220" source="unlock"/>
+   <geo easting="413500" northing="225500" long="-1.80507" lat="51.9279" kepnref="6283" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w398752">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398769">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398769">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398812">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398812">
+    <date subtype="simple" begin="1551" end="1551">1551</date>
+    <source style="" id="go396">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398844">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398844">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="go174">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398844">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398844">
+    <attestation variantID="epns-deep-38-b-name-w398844">
+     <date subtype="simple" begin="1360" end="1360">1360</date>
+     <source style="" id="go274">Ipm</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w398844">
+     <date subtype="simple" begin="1752" end="1752">1752</date>
+     <source style="" id="go410">PR</source>
+     <page>14</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398920">
+    <date subtype="simple" begin="1318" end="1318">1318</date>
+    <source style="" id="go535">WinchLB</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w398946">
+    <date subtype="simple" begin="1618" end="1618">1618</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w398752">Aiforde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398769">Heyford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398769">Heiford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398812">Hayforde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398812">Hayford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398844">Eyforde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398844">Eyford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398920">Eyvorde</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398946">Exford</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w398946">Eysford</searchterm>
+  </extension>
+ </mads>
+ 

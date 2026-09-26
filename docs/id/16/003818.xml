@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000075">
+  <authority ID="epns-deep-16-b-name-subparish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003818">Westwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000079" type="broader">
+   <geographic>Westwood</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w191948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003819">(to) Westwuda</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w191982">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003820">Westwode</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w192034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003821">Westwude</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w192044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003822">Overwestwode, Nether Westwode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e6c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2738900" lat="51.3311100" gazref="geonames:2634228" source="geonames"/>
+   <geo long="-2.279938259521454" lat="51.33375642236766" gazref="unlock:11319201" source="unlock"/>
+   <geo easting="380500" northing="159500" long="-2.28128" lat="51.3343" kepnref="7247" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w191948">
+    <date subtype="simple" begin="987" end="987">987</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ws153">KCD</source>
+    <item>658</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w191982">
+    <attestation variantID="epns-deep-16-b-name-w191982">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ws74">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w192034">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w192044">
+    <date subtype="simple" begin="1363" end="1363">1363</date>
+    <source style="" id="ws144">Inq aqd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w191948">to Westwuda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w191948">Westwuda</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w191982">Westwode</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w192034">Westwude</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w192044">Overwestwode</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w192044">Nether Westwode</searchterm>
+  </extension>
+ </mads>
+ 

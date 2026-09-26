@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000225">
+  <authority ID="epns-deep-09-b-name-subparish-000225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011595">Seaton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000225" type="broader">
+   <geographic>Seaton</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w526593">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011596">æt Fleote</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w526626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011597">Fluta</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w526646">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011598">Seton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w526675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011599">Seton(e) juxta Coliford</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w526711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011600">Seetone</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w526730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011601">Seton-havyn</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a0e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.0699900" lat="50.7049400" gazref="geonames:2638278" source="geonames"/>
+   <geo long="-3.069396928342172" lat="50.70865259704573" gazref="unlock:11279866" source="unlock"/>
+   <geo easting="324500" northing="90500" long="-3.07063" lat="50.7092" kepnref="15896" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w526593">
+    <date end="1005" begin="1005" subtype="simple">1005</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="de117">KCD</source>
+    <item>1301</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w526626">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w526646">
+    <attestation variantID="epns-deep-09-b-name-w526646">
+     <date end="1238" begin="1238" subtype="simple">1238</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w526675">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w526711">
+    <date end="1445" begin="1445" subtype="simple">1445</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w526730">
+    <date end="1478" begin="1478" subtype="simple">1478</date>
+    <source style="" id="de279">Wm Wo</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w526593">æt Fleote</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526626">Fluta</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526646">Setone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526646">Seton</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526675">Setone juxta Coliford</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526675">Seton juxta Coliford</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526711">Seetone</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w526730">Seton-havyn</searchterm>
+  </extension>
+ </mads>
+ 

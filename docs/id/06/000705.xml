@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000024">
+  <authority ID="epns-deep-06-a-name-parish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000705">Compton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000003" type="broader">
+   <geographic>Westbourne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b61"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8964200" lat="50.9269500" gazref="geonames:2652493" source="geonames"/>
+   <geo long="-0.8972089506040614" lat="50.92419501031668" gazref="unlock:11114949" source="unlock"/>
+   <geo easting="477500" northing="114500" long="-0.898691" lat="50.9248" kepnref="6885" source="kepn"/>
+  </extension>
+ </mads>
+ 

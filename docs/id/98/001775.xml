@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000072">
+  <authority ID="epns-deep-98-a-name-parish-000072">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001775">Langford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000006" type="broader">
+   <geographic>Biggleswade Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000285"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2716500" lat="52.0546000" gazref="geonames:2644937" source="geonames"/>
+   <geo long="-0.2717187313978032" lat="52.04978580921669" gazref="unlock:11191412" source="unlock"/>
+   <geo easting="518500" northing="241500" long="-0.27297" lat="52.0592" kepnref="4295" source="kepn"/>
+  </extension>
+ </mads>
+ 

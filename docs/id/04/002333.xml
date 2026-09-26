@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-a-parish-000090">
+  <authority ID="epns-deep-04-a-name-parish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002333">Queenhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-hu-subcounty-000002" type="broader">
+   <geographic>Oswaldslow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0cb47fc40d6b0004ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2170200" lat="52.0307800" gazref="geonames:7297518" source="geonames"/>
+   <geo long="-2.211359010151735" lat="52.02630327699421" gazref="unlock:11251504" source="unlock"/>
+   <geo easting="385500" northing="236500" long="-2.21273" lat="52.0267" kepnref="5264" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000175">
+  <authority ID="epns-deep-13-a-name-parish-000175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007070">Norton Lindsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6700900" lat="52.2659500" gazref="geonames:2641185" source="geonames"/>
+   <geo long="-1.670242332748814" lat="52.26880336611497" gazref="unlock:11233789" source="unlock"/>
+   <geo easting="422500" northing="263500" long="-1.67169" lat="52.2692" kepnref="4875" source="kepn"/>
+  </extension>
+ </mads>
+ 

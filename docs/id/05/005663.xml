@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000512">
+  <authority ID="epns-deep-05-b-name-subparish-000512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005663">Hutton Magna</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000175" type="broader">
+   <geographic>Hutton Magna</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w398698">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005664">Hotton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398714">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005665">Magna Hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005666">Hoton Longuillers</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w398782">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005667">Hoton in Richemundsire</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8062200" lat="54.5099200" gazref="geonames:2646333" source="geonames"/>
+   <geo long="-1.806929872773491" lat="54.50752893286932" gazref="unlock:11181826" source="unlock"/>
+   <geo easting="412500" northing="512500" long="-1.80845" lat="54.5077" kepnref="6167" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w398698">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398714">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398743">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w398782">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny93">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w398698">Hotton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398714">Magna Hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398743">Hoton Longuillers</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w398782">Hoton in Richemundsire</searchterm>
+  </extension>
+ </mads>
+ 

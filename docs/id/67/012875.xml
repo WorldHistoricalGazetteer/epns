@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000052">
+  <authority ID="epns-deep-67-a-name-parish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/012875">Lyddington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000005" type="broader">
+   <geographic>Wrangdike Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7106700" lat="52.5645600" gazref="geonames:2644525" source="geonames"/>
+   <geo long="-0.7088753955794569" lat="52.56792201936505" gazref="unlock:11209899" source="unlock"/>
+   <geo easting="487500" northing="297500" long="-0.710444" lat="52.5683" kepnref="3017" source="kepn"/>
+  </extension>
+ </mads>
+ 

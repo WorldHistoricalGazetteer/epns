@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000434">
+  <authority ID="epns-deep-05-b-name-subparish-000434">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004920">West Burton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w356008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004921">Burton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w356023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004922">West Burton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600040b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9666700" lat="54.2833300" gazref="geonames:2634485" source="geonames"/>
+   <geo long="-1.976962787639311" lat="54.27398953637554" gazref="unlock:11316470" source="unlock"/>
+   <geo easting="401500" northing="486500" long="-1.97845" lat="54.2742" kepnref="6087" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w356008">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w356023">
+    <date subtype="simple" begin="1284" end="1284">1284</date>
+    <source style="italic" id="ny22">Bodl</source>
+    <item>133 a</item>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w356008">Burton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w356023">West Burton</searchterm>
+  </extension>
+ </mads>
+ 

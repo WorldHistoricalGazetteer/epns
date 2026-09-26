@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000474">
+  <authority ID="epns-deep-05-b-name-subparish-000474">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005264">East Cowton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000159" type="broader">
+   <geographic>Cowton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w374844">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005265">Cudton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005266">Cuton(a), Kuton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374911">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005267">Coutona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374938">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005268">Est Coutona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w374959">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005269">Coutona Temple</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000456"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5269700" lat="54.4236700" gazref="geonames:2650476" source="geonames"/>
+   <geo long="-1.529844469755241" lat="54.42587609345853" gazref="unlock:11135811" source="unlock"/>
+   <geo easting="430500" northing="503500" long="-1.53139" lat="54.426" kepnref="6129" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w374844">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374860">
+    <attestation variantID="epns-deep-05-b-name-w374860">
+     <date subtype="regnal" begin="1154" end="1189">Hy 2</date>
+     <source style="" id="ny21">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w374860">
+     <date subtype="simple" begin="1243" end="1243">1243</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374911">
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374938">
+    <date subtype="simple" begin="1314" end="1314">1314</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w374959">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w374844">Cudton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374860">Cutona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374860">Cuton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374860">Kutona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374860">Kuton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374911">Coutona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374938">Est Coutona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w374959">Coutona Temple</searchterm>
+  </extension>
+ </mads>
+ 

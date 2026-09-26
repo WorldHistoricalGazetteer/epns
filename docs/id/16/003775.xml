@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000073">
+  <authority ID="epns-deep-16-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003775">Holt</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000077" type="broader">
+   <geographic>Holt</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w190045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003776">Holt(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w190091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003777">la Holte</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w190112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003778">Holte juxta Bradford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w190142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003779">Hol, Holte, Houlte</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w190178">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/003780">Hoult</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000de3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1972200" lat="51.3555600" gazref="geonames:2646703" source="geonames"/>
+   <geo long="-2.193879925875688" lat="51.35191599097731" gazref="unlock:11177837" source="unlock"/>
+   <geo kepnexref="213" long="-2.197623" lat="51.356346" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w190045">
+    <date subtype="regnal" begin="1154" end="1189">t. Hy 2</date>
+    <source style="italic" id="ws298">Shaston</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w190045">
+    <attestation variantID="epns-deep-16-b-name-w190045">
+     <date subtype="simple" begin="1242" end="1242">1242</date>
+     <source style="" id="ws104">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w190091">
+    <date subtype="simple" begin="1257" end="1257">1257</date>
+    <source style="italic" id="ws111">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w190112">
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w190142">
+    <date subtype="regnal" begin="1558" end="1603">t. Eliz</date>
+    <source style="" id="ws333">WM</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w190178">
+    <date subtype="simple" begin="1637" end="1637">1637</date>
+    <source style="italic" id="ws250">Phillipps</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w190045">Holte</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190045">Holt</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190091">la Holte</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190112">Holte juxta Bradford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190142">Hol</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190142">Holte</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190142">Houlte</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w190178">Hoult</searchterm>
+  </extension>
+ </mads>
+ 

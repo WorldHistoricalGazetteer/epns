@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000191">
+  <authority ID="epns-deep-05-b-name-subparish-000191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002448">Liverton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000072" type="broader">
+   <geographic>Liverton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w190913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002449">Liuretun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w190931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002450">Livertun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w190973">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002451">Liverton(a), Lyverton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w191033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002452">Leverton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000523"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9000000" lat="54.5166700" gazref="geonames:2644206" source="geonames"/>
+   <geo long="-0.8950216069449447" lat="54.52959983525344" gazref="unlock:11197467" source="unlock"/>
+   <geo easting="471500" northing="515500" long="-0.896655" lat="54.5297" kepnref="5842" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w190913">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w190931">
+    <date subtype="simple" begin="1165" end="1175">1165-75</date>
+    <source style="" id="ny236">YCh</source>
+    <page>890</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w190931">
+    <date subtype="post" begin="1180" end="1230">p. 1180</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w190973">
+    <date subtype="simple" begin="1175" end="1180">1175-80</date>
+    <source style="" id="ny236">YCh</source>
+    <page>889</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w190973">
+    <attestation variantID="epns-deep-05-b-name-w190973">
+     <date subtype="simple" begin="1181" end="1181">1181</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w191033">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w191033">
+    <date subtype="simple" begin="1300" end="1300">1300</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w191033">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w191033">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w190913">Liuretun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w190931">Livertun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w190973">Livertona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w190973">Liverton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w190973">Lyvertona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w190973">Lyverton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w191033">Leverton</searchterm>
+  </extension>
+ </mads>
+ 

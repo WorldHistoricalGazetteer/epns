@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000138">
+  <authority ID="epns-deep-05-b-name-subparish-000138">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001411">Thornton Dale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000049" type="broader">
+   <geographic>Thornton Dale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w117551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001412">Torentun(e), Torentona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w117583">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001413">Thornetun, Thorneton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w117620">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001414">Thorneton in vallem de Pykerynge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7166700" lat="54.2333300" gazref="geonames:2635964" source="geonames"/>
+   <geo easting="483500" northing="482500" long="-0.720528" lat="54.2314" kepnref="5788" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w117551">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w117583">
+    <date subtype="simple" begin="1157" end="1158">1157-8</date>
+    <source style="" id="ny236">YCh</source>
+    <page>402</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w117620">
+    <attestation variantID="epns-deep-05-b-name-w117620">
+     <date subtype="simple" begin="1248" end="1248">1248</date>
+     <source style="" id="ny231">Whitby</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w117551">Torentune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w117551">Torentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w117551">Torentona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w117583">Thornetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w117583">Thorneton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w117620">Thorneton in vallem de Pykerynge</searchterm>
+  </extension>
+ </mads>
+ 

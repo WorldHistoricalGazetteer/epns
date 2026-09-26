@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000033">
+  <authority ID="epns-deep-49-b-name-subparish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/009245">Woodley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000038" type="broader">
+   <geographic>Woodley and Sandford</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w311147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/009246">Wodlegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w311166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/009247">Wodleyhe</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w311192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/009248">Woodley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001bc1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8956500" lat="51.4538400" gazref="geonames:7292771" source="geonames"/>
+   <geo long="-0.9134687057399747" lat="51.44596110513697" gazref="unlock:11326425" source="unlock"/>
+   <geo easting="476500" northing="173500" long="-0.900366" lat="51.4553" kepnref="3057" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w311147">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="italic" id="be21">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w311166">
+    <date end="1341" begin="1341" subtype="simple">1341</date>
+    <source style="" id="be231">NonInq</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w311192">
+    <date end="1761" begin="1761" subtype="simple">1761</date>
+    <source style="" id="be312">Rocque</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w311147">Wodlegh'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w311166">Wodleyhe</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w311192">Woodley</searchterm>
+  </extension>
+ </mads>
+ 

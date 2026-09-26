@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000112">
+  <authority ID="epns-deep-15-b-name-subparish-000112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007292">Stanstead Abbots</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000132" type="broader">
+   <geographic>Stanstead Abbots</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w356924">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007293">Stan(e)stede</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w356976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007294">Stan(e)stede juxta Ware</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w357011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007295">Stanstude</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w357033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007296">Stanested(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w357066">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/007297">Stanstede Abbots</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0193500" lat="51.7870400" gazref="geonames:7295259" source="geonames"/>
+   <geo easting="538500" northing="211500" long="0.00650916" lat="51.785" kepnref="4689" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w356924">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w356924">
+    <attestation variantID="epns-deep-15-b-name-w356924">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="italic" id="he114">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w356924">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="he110">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w356976">
+    <date subtype="simple" begin="1321" end="1321">1321</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w357011">
+    <date subtype="circa" begin="1237" end="1257">c. 1247</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w357033">
+    <date subtype="simple" begin="1261" end="1261">1261</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w357033">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="" id="he29">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w357066">
+    <date subtype="simple" begin="1318" end="1325">1318-25</date>
+    <source style="" id="he146">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w356924">Stanestede</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w356924">Stanstede</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w356976">Stanestede juxta Ware</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w356976">Stanstede juxta Ware</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w357011">Stanstude</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w357033">Stanestede</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w357033">Stanested</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w357066">Stanstede Abbots</searchterm>
+  </extension>
+ </mads>
+ 

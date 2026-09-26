@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000382">
+  <authority ID="epns-deep-12-a-name-parish-000382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017393">Barnston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000017" type="broader">
+   <geographic>Dunmow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858beb47fc40a98000bb6"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3847400" lat="51.8544400" gazref="geonames:2656279" source="geonames"/>
+   <geo long="0.3885802846655059" lat="51.84937942781264" gazref="unlock:11070660" source="unlock"/>
+   <geo easting="564500" northing="219500" long="0.386914" lat="51.8499" kepnref="12542" source="kepn"/>
+  </extension>
+ </mads>
+ 

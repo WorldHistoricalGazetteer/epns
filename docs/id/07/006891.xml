@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000120">
+  <authority ID="epns-deep-07-b-name-subparish-000120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006891">Hooe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000121" type="broader">
+   <geographic>Hooe</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w412847">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006892">Hov</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w412860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006893">Hou</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w412921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006894">Ou-</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w412932">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006895">Ho</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w412975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006896">Hoo</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w413008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006897">(al. Howe)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d17"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3893500" lat="50.8552000" gazref="geonames:7293478" source="geonames"/>
+   <geo easting="568500" northing="109500" long="0.392866" lat="50.8605" kepnref="7136" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w412847">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w412860 epns-deep-07-b-name-w412921">
+    <attestation variantID="epns-deep-07-b-name-w412860 epns-deep-07-b-name-w412921">
+     <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+     <copydate end="1431" begin="1431">1431</copydate>
+     <source style="" id="su206">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w412860 epns-deep-07-b-name-w412921">
+     <date end="1332" begin="1332" subtype="simple">1332</date>
+     <source style="" id="su271">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w412932">
+    <attestation variantID="epns-deep-07-b-name-w412932">
+     <date end="1087" begin="1066" subtype="regnal">t. Wm 1</date>
+     <copydate end="1312" begin="1312">1312</copydate>
+     <source style="" id="su37">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w412932">
+     <date end="1280" begin="1280" subtype="simple">1280</date>
+     <source style="" id="su164">Misc</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w412975">
+    <attestation variantID="epns-deep-07-b-name-w412975">
+     <date end="1261" begin="1261" subtype="simple">1261</date>
+     <source style="italic" id="su13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w412975">
+     <date end="1535" begin="1535" subtype="simple">1535</date>
+     <source style="" id="su288">VE</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w413008">
+    <date end="1611" begin="1611" subtype="simple">1611</date>
+    <source style="italic" id="su238">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w412847">Hov</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w412860">Hou</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w412921">Ou-</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w412932">Ho</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w412975">Hoo</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w413008">Howe</searchterm>
+  </extension>
+ </mads>
+ 

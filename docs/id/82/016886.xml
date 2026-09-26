@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000100">
+  <authority ID="epns-deep-82-b-name-subparish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016886">Aston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000030" type="broader">
+   <geographic>Wem</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w647400">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016887">Eastun</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647425">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016888">Estona</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647473">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016889">Eston'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647495">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016890">Hestuna sub Wrekena</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016891">Aston'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647577">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016892">Aston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016893">Aston' iuxta Wrokene</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647630">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016894">Aston' sub Wrekene</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647662">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016895">Astoun under the Wrekene</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w647696">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/016896">Aston subtus Wreken</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64cb47fc4463d000f52"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7000000" lat="52.8500000" gazref="geonames:2656869" source="geonames"/>
+   <geo long="-2.698049106" lat="52.85341667" source="epns"/>
+   <geo long="-2.690595310186779" lat="52.85166317609084" gazref="unlock:11064985" source="unlock"/>
+   <geo easting="363500" northing="284500" long="-2.53857" lat="52.4572" kepnref="13299" source="kepn"/>
+   <attestation variantID="epns-deep-82-b-name-w647400">
+    <date end="975" begin="975" subtype="simple">975</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ss256">S</source>
+    <page>802</page>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647425">
+    <attestation variantID="epns-deep-82-b-name-w647425">
+     <date end="1154" begin="1134" subtype="circa">c.1144</date>
+     <source style="" id="ss262">SAC</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-82-b-name-w647425">
+     <date end="1249" begin="1249" subtype="simple">1249</date>
+     <source style="" id="ss262">SAC</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647473">
+    <date end="1249" begin="1134">c.1144-1249</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647495">
+    <date end="1197" begin="1177" subtype="circa">c.1187</date>
+    <source style="" id="ss262">SAC</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647527">
+    <attestation variantID="epns-deep-82-b-name-w647527">
+     <date end="1240" begin="1231" subtype="simple">1231-40</date>
+     <source style="" id="ss262">SAC</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647577">
+    <date end="1600" begin="1231">1231-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647587">
+    <date end="1262" begin="1261" subtype="simple">1261-2</date>
+    <source style="italic" id="ss100">ForProc</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647630">
+    <date end="1272" begin="1271" subtype="simple">1271-2</date>
+    <source style="italic" id="ss100" underspec="ib">ForProc</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647662">
+    <date end="1397" begin="1397" subtype="simple">1397</date>
+    <source style="" id="ss37">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w647696">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="ss305">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w647400">Eastun</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647425">Estona</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647473">Eston'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647495">Hestuna sub Wrekena</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647527">Aston'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647577">Astone</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647577">Aston</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647587">Aston' iuxta Wrokene</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647630">Aston' sub Wrekene</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647662">Astoun under the Wrekene</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w647696">Aston subtus Wreken</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000052">
+  <authority ID="epns-deep-15-b-name-subparish-000052">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003930">Newnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000058" type="broader">
+   <geographic>Newnham</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w200272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003931">Neuhā</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w200302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003932">Neweham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w200342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003933">Newenham</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w200387">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003934">Neunham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1878200" lat="52.0209800" gazref="geonames:2641604" source="geonames"/>
+   <geo long="-0.185349468692823" lat="52.02150879471971" gazref="unlock:11230509" source="unlock"/>
+   <geo easting="524500" northing="237500" long="-0.186957" lat="52.022" kepnref="4611" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w200272">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200272">
+    <date subtype="simple" begin="1119" end="1146">1119-46</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200302">
+    <date subtype="regnal" begin="1189" end="1199">t. Ric 1</date>
+    <copydate end="1301" begin="1301">1301</copydate>
+    <source style="" id="he49">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200302">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="he217">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200342">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200342">
+    <date subtype="simple" begin="1210" end="1212">1210-12</date>
+    <source style="" id="he266">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200342">
+    <date subtype="simple" begin="1217" end="1217">1217</date>
+    <source style="" id="he112">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w200387">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="he316">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w200272">Neuhā</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w200302">Neweham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w200342">Newenham</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w200387">Neunham</searchterm>
+  </extension>
+ </mads>
+ 

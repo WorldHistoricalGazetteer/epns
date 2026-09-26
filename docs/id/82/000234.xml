@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000003">
+  <authority ID="epns-deep-82-b-name-subparish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000234">Boreatton (Hall)</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000001" type="broader">
+   <geographic>Baschurch</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w15317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000235">Acton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15350">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000236">Acton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15379">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000237">Boreatton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15409">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000238">Borow Attoon</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000239">Bore Atton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15468">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000240">Boare Acton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w15496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/000241">Boracton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a62cb47fc4463d000e81"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.870773912" lat="52.80102827" source="epns"/>
+   <geo long="-2.867718210278626" lat="52.79655628477505" gazref="unlock:11083089" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w15317">
+    <date subtype="simple" begin="1291" end="1292">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15317">
+    <date subtype="regnal" begin="1509" end="1547">Hy 8</date>
+    <source style="italic" id="ss400">RentSur</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15350">
+    <date subtype="simple" begin="1545" end="1545">1545</date>
+    <copydate end="1773" begin="1773">1773</copydate>
+    <source style="italic" id="ss267">SBL</source>
+    <item>17285</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15379">
+    <attestation variantID="epns-deep-82-b-name-w15379">
+     <date subtype="simple" begin="1577" end="1577">1577</date>
+     <source style="" id="ss266">Saxton</source>
+    </attestation>
+    <passim>et seq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15409">
+    <date subtype="simple" begin="1600" end="1600">1600</date>
+    <source style="" id="ss197">OB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15431">
+    <date subtype="simple" begin="1600" end="1600">1600</date>
+    <source style="" id="ss197">OB</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15431">
+    <date subtype="simple" begin="1609" end="1609">1609</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>6146</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15468">
+    <date subtype="simple" begin="1649" end="1649">1649</date>
+    <source style="" id="ss265">SAS</source>
+    <item>4/VII</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w15496">
+    <date subtype="simple" begin="1672" end="1672">1672</date>
+    <source style="" id="ss124">HTR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w15317">Acton'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15350">Acton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15379">Boreatton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15409">Borow Attoon</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15431">Bore Atton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15468">Boare Acton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w15496">Boracton</searchterm>
+  </extension>
+ </mads>
+ 

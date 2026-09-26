@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000179">
+  <authority ID="epns-deep-10-a-name-parish-000179">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003909">Sywell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000012" type="broader">
+   <geographic>Hamfordshoe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7972800" lat="52.2985600" gazref="geonames:2636339" source="geonames"/>
+   <geo long="-0.7900445501899566" lat="52.2990315502778" gazref="unlock:11296945" source="unlock"/>
+   <geo easting="482500" northing="267500" long="-0.791593" lat="52.2994" kepnref="11049" source="kepn"/>
+  </extension>
+ </mads>
+ 

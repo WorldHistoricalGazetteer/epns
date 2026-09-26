@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-a-parish-000031">
+  <authority ID="epns-deep-28-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006289">South Normanton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-hu-subcounty-000001" type="broader">
+   <geographic>Scarsdale Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cd7b47fc4095c0017af"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3426200" lat="53.1063700" gazref="geonames:2637358" source="geonames"/>
+   <geo long="-1.335253637136751" lat="53.10354245284535" gazref="unlock:11287805" source="unlock"/>
+   <geo easting="444500" northing="356500" long="-1.33677" lat="53.1038" kepnref="3312" source="kepn"/>
+  </extension>
+ </mads>
+ 

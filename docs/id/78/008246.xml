@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol78mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-78-a-parish-000010">
+  <authority ID="epns-deep-78-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/78/008246">Garthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-78-hu-subcounty-000001" type="broader">
+   <geographic>Framland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010aa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7543300" lat="52.7831500" gazref="geonames:7295445" source="geonames"/>
+   <geo long="-0.7620526991158" lat="52.77528922896418" gazref="unlock:11150759" source="unlock"/>
+   <geo easting="483500" northing="320500" long="-0.763624" lat="52.7756" kepnref="8738" source="kepn"/>
+  </extension>
+ </mads>
+ 

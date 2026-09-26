@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-a-parish-000008">
+  <authority ID="epns-deep-97-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000472">Littleport</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-hu-subcounty-000002" type="broader">
+   <geographic>Ely Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f00071b"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3060300" lat="52.4578400" gazref="geonames:2644268" source="geonames"/>
+   <geo long="0.3033941165245911" lat="52.45363031220586" gazref="unlock:11197332" source="unlock"/>
+   <geo easting="556500" northing="286500" long="0.301712" lat="52.454" kepnref="4099" source="kepn"/>
+  </extension>
+ </mads>
+ 

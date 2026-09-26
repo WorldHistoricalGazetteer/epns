@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000020">
+  <authority ID="epns-deep-76-b-name-subparish-000020">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/003947">Burcot</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000010" type="broader">
+   <geographic>Wrockwardine</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w184120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/003948">Burcote</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w184140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/003949">Burcot</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w184168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/003950">Burcott</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a653b47fc4463d000f80"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.557894391" lat="52.69502297" source="epns"/>
+   <geo long="-2.554878059845435" lat="52.69054272682179" gazref="unlock:11092549" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w184120">
+    <date end="1292" begin="1291" subtype="simple">1291-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w184140">
+    <date end="1655" begin="1655" subtype="simple">1655</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>8</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w184168">
+    <date end="1711" begin="1711" subtype="simple">1711</date>
+    <source style="" id="ss231" underspec="ib">PR(L)</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w184120">Burcote</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w184140">Burcot</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w184168">Burcott</searchterm>
+  </extension>
+ </mads>
+ 

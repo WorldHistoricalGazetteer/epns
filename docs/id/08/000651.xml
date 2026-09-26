@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000010">
+  <authority ID="epns-deep-08-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000651">East Down</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000010" type="broader">
+   <geographic>East Down</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w36231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000652">Duna</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w36245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000653">Estdoune</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w36265">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000654">Estdone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001953"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0201600" lat="51.1552100" gazref="geonames:7294917" source="geonames"/>
+   <geo long="-3.994980123145459" lat="51.15520525786394" gazref="unlock:11135848" source="unlock"/>
+   <geo easting="259500" northing="141500" long="-4.01041" lat="51.1555" kepnref="15467" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w36231">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w36245">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w36265">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w36231">Duna</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w36245">Estdoune</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w36265">Estdone</searchterm>
+  </extension>
+ </mads>
+ 

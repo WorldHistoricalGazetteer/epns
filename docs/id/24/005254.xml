@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000070">
+  <authority ID="epns-deep-24-b-name-subparish-000070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005254">Ascot under Wychwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000064" type="broader">
+   <geographic>Ascot under Wychwood</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w199188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005255">Estcot'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w199207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005256">Estone</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w199234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/005257">Ascote</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb00078d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5646900" lat="51.8671100" gazref="geonames:2656991" source="geonames"/>
+   <geo easting="429500" northing="218500" long="-1.57298" lat="51.8643" kepnref="3699" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w199188">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="ox76">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w199207">
+    <date subtype="simple" begin="1220" end="1228">1220-8</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="ox219">Sar</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w199234">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ox77">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w199188">Estcot'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w199207">Estone</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w199234">Ascote</searchterm>
+  </extension>
+ </mads>
+ 

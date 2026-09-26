@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000051">
+  <authority ID="epns-deep-05-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000515">Claxton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000023" type="broader">
+   <geographic>Bossall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w43097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000516">Claxtorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w43115">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000517">Claxton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w43145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000518">Clauston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600042a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9506600" lat="54.0313500" gazref="geonames:7292085" source="geonames"/>
+   <geo long="-0.9387059666314144" lat="54.03560819653797" gazref="unlock:11108358" source="unlock"/>
+   <geo easting="469500" northing="460500" long="-0.940311" lat="54.0358" kepnref="5701" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w43097">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w43115">
+    <attestation variantID="epns-deep-05-b-name-w43115">
+     <date subtype="simple" begin="1282" end="1282">1282</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w43145">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w43097">Claxtorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w43115">Claxtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w43115">Claxton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w43145">Clauston</searchterm>
+  </extension>
+ </mads>
+ 

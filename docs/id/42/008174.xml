@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000051">
+  <authority ID="epns-deep-42-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008174">Troutbeck</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000007" type="broader">
+   <geographic>Windermere</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w407636">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008175">Trutebek</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w407677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008176">Trutbek</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w407703">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008177">Trout(e)bek, Trout(e)beck(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w407809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008178">-in Kendale</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w407835">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008179">Trowt(e)be(c)k(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w407910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/008180">Trought(e)bek</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9148100" lat="54.4171300" gazref="geonames:2635430" source="geonames"/>
+   <geo long="-2.91852" lat="54.4234" source="epns"/>
+   <geo easting="340500" northing="503500" long="-2.91852" lat="54.4234" kepnref="5119" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w407636">
+    <date subtype="simple" begin="1272" end="1272">1272</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407636">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="we23">Ass</source>
+    <item>15</item>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407636">
+    <date subtype="simple" begin="1345" end="1345">1345</date>
+    <source style="" id="we71">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407677">
+    <date subtype="simple" begin="1444" end="1444">1444</date>
+    <source style="italic" id="we64">ChancM</source>
+    <page>18</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407703">
+    <date subtype="simple" begin="1324" end="1324">1324</date>
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407703">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407703">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="italic" id="we424">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407703">
+    <attestation variantID="epns-deep-42-b-name-w407703">
+     <date subtype="simple" begin="1340" end="1340">1340</date>
+     <source style="" id="we62">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w407703">
+     <date subtype="simple" begin="1656" end="1656">1656</date>
+     <source style="" id="we92">CW</source>
+     <item>xxiv</item>
+     <page>72</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407809">
+    <date subtype="simple" begin="1352" end="1352">1352</date>
+    <source style="" id="we272">Misc</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407835">
+    <date subtype="simple" begin="1390" end="1394">1390-4</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>43</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407835">
+    <attestation variantID="epns-deep-42-b-name-w407835">
+     <date subtype="simple" begin="1439" end="1439">1439</date>
+     <source style="italic" id="we270">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-42-b-name-w407835">
+     <date subtype="simple" begin="1588" end="1588">1588</date>
+     <source style="italic" id="we83">Comm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407910">
+    <date subtype="simple" begin="1437" end="1437">1437</date>
+    <date subtype="simple" begin="1443" end="1443">1443</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>45</page>
+    <item>ii</item>
+    <page>44</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407910">
+    <date subtype="simple" begin="1446" end="1446">1446</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w407910">
+    <date subtype="simple" begin="1451" end="1451">1451</date>
+    <source style="" id="we158">Fine</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w407636">Trutebek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407677">Trutbek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutebek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutbek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutebecke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutebeck</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutbecke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407703">Troutbeck</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407809">-in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtebecke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtebeck</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtebeke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtebek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtbecke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtbeck</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtbeke</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407835">Trowtbek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407910">Troughtebek</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w407910">Troughtbek</searchterm>
+  </extension>
+ </mads>
+ 

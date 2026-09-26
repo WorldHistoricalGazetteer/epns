@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000302">
+  <authority ID="epns-deep-10-b-name-subparish-000302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006846">Glinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000303" type="broader">
+   <geographic>Glinton</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w375711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006847">Clinton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w375765">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006848">Glinton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w375804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006849">Clemton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w375826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006850">Glintonhowe</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w375847">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006851">Glenton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00057a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2962900" lat="52.6392100" gazref="geonames:2648409" source="geonames"/>
+   <geo long="-0.2930973172666815" lat="52.63459235210436" gazref="unlock:11155451" source="unlock"/>
+   <geo easting="515500" northing="305500" long="-0.294718" lat="52.635" kepnref="11174" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w375711">
+    <date end="1060" begin="1060" subtype="simple">1060</date>
+    <copydate end="1360" begin="1340">c. 1350</copydate>
+    <source style="" id="nh139">KCD</source>
+    <item>809</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375711">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="nh4">AD</source>
+    <item>ii</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375711">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375765">
+    <attestation variantID="epns-deep-10-b-name-w375765">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w375765">
+     <date end="1227" begin="1227" subtype="simple">1227</date>
+     <source style="" id="nh44">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375804">
+    <date end="1194" begin="1194" subtype="simple">1194</date>
+    <source style="" id="nh63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375826">
+    <date end="1209" begin="1209" subtype="simple">1209</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w375847">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w375711">Clinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w375765">Glintone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w375765">Glinton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w375804">Clemton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w375826">Glintonhowe</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w375847">Glenton</searchterm>
+  </extension>
+ </mads>
+ 

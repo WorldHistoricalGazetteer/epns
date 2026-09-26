@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-a-parish-000014">
+  <authority ID="epns-deep-46-a-name-parish-000014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/006379">Acton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-hu-subcounty-000001" type="broader">
+   <geographic>Nantwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ecb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5489300" lat="53.0683500" gazref="geonames:7299882" source="geonames"/>
+   <geo long="-2.5523136" lat="53.07265038" source="epns"/>
+   <geo long="-2.544907180742852" lat="53.07718074465703" gazref="unlock:11056494" source="unlock"/>
+   <geo easting="363500" northing="353500" long="-2.54628" lat="53.0775" kepnref="11939" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000009">
+  <authority ID="epns-deep-05-b-name-subparish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000080">Earswick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000005" type="broader">
+   <geographic>Huntington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w5549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000081">Edresuuic, Edrezuic</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5578">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000082">Ethericewyk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5613">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000083">(H)everswyk'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000084">Herswyk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5669">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000085">Etheirwike</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5689">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000086">Etherswik</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5710">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000087">Ereswick</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5732">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000088">Erswick</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004cd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0548200" lat="54.0072700" gazref="geonames:2650529" source="geonames"/>
+   <geo long="-1.046198728277949" lat="54.00954168793644" gazref="unlock:11135375" source="unlock"/>
+   <geo easting="462500" northing="457500" long="-1.04779" lat="54.0097" kepnref="5661" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w5549">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5578">
+    <date subtype="simple" begin="1200" end="1225">e. 13</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>47 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5613">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5613">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5651">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5669">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5689">
+    <date subtype="simple" begin="1322" end="1322">1322</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5710">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5732">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w5549">Edresuuic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5549">Edrezuic</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5578">Ethericewyk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5613">Heverswyk'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5613">everswyk'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5651">Herswyk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5669">Etheirwike</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5689">Etherswik</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5710">Ereswick</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5732">Erswick</searchterm>
+  </extension>
+ </mads>
+ 

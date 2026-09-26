@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000009">
+  <authority ID="epns-deep-79-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/000663">Felbrigg</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d13"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2799100" lat="52.9087700" gazref="geonames:2649584" source="geonames"/>
+   <geo long="1.271655053" lat="52.90300711" source="epns"/>
+   <geo long="1.279417561395043" lat="52.90729112306945" gazref="unlock:11142772" source="unlock"/>
+   <geo easting="620500" northing="339500" long="1.2776" lat="52.9077" kepnref="9161" source="kepn"/>
+  </extension>
+ </mads>
+ 

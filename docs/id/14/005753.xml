@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000245">
+  <authority ID="epns-deep-14-b-name-subparish-000245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005753">Willerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000139" type="broader">
+   <geographic>Kirk Ella</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w375058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005754">Wilgardi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005755">Wil(l)ardebi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375128">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005756">Wollerby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4418600" lat="53.7609900" gazref="geonames:2633911" source="geonames"/>
+   <geo long="-0.4449988007483226" lat="53.76054027069981" gazref="unlock:11323035" source="unlock"/>
+   <geo easting="502500" northing="430500" long="-0.446651" lat="53.7608" kepnref="8623" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w375058">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375076">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375076">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="ey63">Cur</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375076">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="ey16">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375128">
+    <date end="1566" begin="1566" subtype="simple">1566</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w375058">Wilgardi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375076">Willardebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375076">Wilardebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375128">Wollerby</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000515">
+  <authority ID="epns-deep-05-b-name-subparish-000515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005687">Egglestone Abbey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000177" type="broader">
+   <geographic>Rokeby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w400001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005688">Eghistun, Eghiston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w400029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005689">Egleston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w400107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005690">Egliston</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w400164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005691">Eggleston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600057f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9091600" lat="54.5265200" gazref="geonames:7293121" source="geonames"/>
+   <geo long="-1.899537140989707" lat="54.53460513732688" gazref="unlock:11138256" source="unlock"/>
+   <geo easting="406500" northing="515500" long="-1.90105" lat="54.5347" kepnref="6171" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w400001">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400029">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400029">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400029">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>124 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400029">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400029">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400107">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny28">BylE</source>
+    <page>31</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400107">
+    <date subtype="simple" begin="1398" end="1398">1398</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400107">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="" id="ny71">Fount</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400107">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400164">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w400164">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w400001">Eghistun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w400001">Eghiston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w400029">Egleston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w400107">Egliston</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w400164">Eggleston</searchterm>
+  </extension>
+ </mads>
+ 

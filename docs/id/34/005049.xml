@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000054">
+  <authority ID="epns-deep-34-b-name-subparish-000054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005049">Copgrove</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000022" type="broader">
+   <geographic>Copgrove</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w207531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005050">Copegrave</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w207575">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005051">Coppegraua, Coppegrave</geographic>
+  </variant>
+  <variant ID="epns-deep-34-b-name-w207660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/005052">Copgraue, Copgrave</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4745300" lat="54.0642200" gazref="geonames:2652402" source="geonames"/>
+   <geo long="-1.480488319" lat="54.06163975" source="epns"/>
+   <geo long="-1.472791717416847" lat="54.06610200495754" gazref="unlock:11115770" source="unlock"/>
+   <geo easting="434500" northing="463500" long="-1.47433" lat="54.0663" kepnref="14774" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w207531">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207531">
+    <date end="1300" begin="1200" subtype="century">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>vi</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207531">
+    <date end="1214" begin="1214" subtype="simple">1214</date>
+    <source style="" id="wr2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207575">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207575">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <date end="1200" begin="1200" subtype="simple">1200</date>
+    <source style="" id="wr111">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207575">
+    <attestation variantID="epns-deep-34-b-name-w207575">
+     <date end="1220" begin="1220" subtype="simple">1220</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-34-b-name-w207575">
+     <date end="1362" begin="1362" subtype="simple">1362</date>
+     <source style="" id="wr6">AD</source>
+     <item>i</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207660">
+    <date end="1276" begin="1276" subtype="simple">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207660">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="wr701">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-34-b-name-w207660">
+    <attestation variantID="epns-deep-34-b-name-w207660">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-34-b-name-w207660">
+     <date end="1606" begin="1606" subtype="simple">1606</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w207531">Copegrave</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w207575">Coppegraua</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w207575">Coppegrave</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w207660">Copgraue</searchterm>
+   <searchterm variantID="epns-deep-34-b-name-w207660">Copgrave</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000447">
+  <authority ID="epns-deep-05-b-name-subparish-000447">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005030">Grinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000151" type="broader">
+   <geographic>Grinton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w361600">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005031">Grinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w361627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005032">Grenton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9335900" lat="54.3802600" gazref="geonames:2647860" source="geonames"/>
+   <geo long="-1.930707321663297" lat="54.38183051242205" gazref="unlock:11161445" source="unlock"/>
+   <geo easting="404500" northing="498500" long="-1.93221" lat="54.382" kepnref="6100" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w361600">
+    <attestation variantID="epns-deep-05-b-name-w361600">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361627">
+    <date subtype="circa" begin="1180" end="1185">c. 1180-5</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1140</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w361627">
+    <attestation variantID="epns-deep-05-b-name-w361627">
+     <date subtype="circa" begin="1281" end="1301">c. 1291</date>
+     <source style="" id="ny305">Tax</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w361627">
+     <date subtype="simple" begin="1397" end="1397">1397</date>
+     <source style="italic" id="ny8">Archd</source>
+     <page>18 d</page>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w361600">Grinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361627">Grentone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w361627">Grenton</searchterm>
+  </extension>
+ </mads>
+ 

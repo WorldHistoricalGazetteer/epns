@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000053">
+  <authority ID="epns-deep-31-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004180">Pontefract Park</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000015" type="broader">
+   <geographic>Pontefract</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w188829">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004181">parco Pontisfracti</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w188876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004182">parco de Pontefracto</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w188916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004183">Pontefreit Parke</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w188945">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004184">the parke of Pomfrett</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w188983">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/004185">Pontefract Park(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810061fa"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.333586486" lat="53.69236333" source="epns"/>
+   <geo long="-1.325942180470372" lat="53.6968165106893" gazref="unlock:11247831" source="unlock"/>
+   <geo kepnexref="295" long="-1.332121" lat="53.703109" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w188829">
+    <date subtype="circa" begin="1210" end="1230">c. 1220</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188829">
+    <date subtype="simple" begin="1446" end="1446">1446</date>
+    <source style="" id="wr712">TestLds</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188876">
+    <date subtype="simple" begin="1608" end="1608">1608</date>
+    <source style="italic" id="wr384">MinAcct</source>
+    <page>12</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188916">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188945">
+    <date subtype="simple" begin="1552" end="1552">1552</date>
+    <source style="" id="wr712">TestLds</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188983">
+    <date subtype="simple" begin="1659" end="1659">1659</date>
+    <source style="" id="wr776">WillS</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w188983">
+    <date subtype="simple" begin="1822" end="1822">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w188829">parco Pontisfracti</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w188876">parco de Pontefracto</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w188916">Pontefreit Parke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w188945">the parke of Pomfrett</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w188983">Pontefract Parke</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w188983">Pontefract Park</searchterm>
+  </extension>
+ </mads>
+ 

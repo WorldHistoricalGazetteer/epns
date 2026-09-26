@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000016">
+  <authority ID="epns-deep-45-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/013015">Middlewich</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000002" type="broader">
+   <geographic>Northwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4440200" lat="53.1929600" gazref="geonames:2642573" source="geonames"/>
+   <geo long="-2.443073947" lat="53.19177645" source="epns"/>
+   <geo long="-2.441604967339651" lat="53.19448004412921" gazref="unlock:11218670" source="unlock"/>
+   <geo kepnexref="444" long="-2.44244" lat="53.1408" source="kepn"/>
+  </extension>
+ </mads>
+ 

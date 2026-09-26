@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000172">
+  <authority ID="epns-deep-05-b-name-subparish-000172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002116">Newholm</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000064" type="broader">
+   <geographic>Whitby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w166540">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002117">Neu(e)ham</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w166559">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002118">Neweham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6647377638838436" lat="54.48233290304263" gazref="unlock:11230097" source="unlock"/>
+   <geo easting="486500" northing="510500" long="-0.666397" lat="54.4825" kepnref="5824" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w166540">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w166559">
+    <date subtype="simple" begin="1100" end="1125">c. 1100-1125</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w166540">Neueham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w166540">Neuham</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w166559">Neweham</searchterm>
+  </extension>
+ </mads>
+ 

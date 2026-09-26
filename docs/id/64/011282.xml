@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000030">
+  <authority ID="epns-deep-64-a-name-parish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/011282">Somerby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f44"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3920800" lat="53.5430500" gazref="geonames:7291904" source="geonames"/>
+   <geo long="-0.3925676318823511" lat="53.54408170766395" gazref="unlock:11286656" source="unlock"/>
+   <geo easting="506500" northing="406500" long="-0.394216" lat="53.5443" kepnref="10850" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000102">
+  <authority ID="epns-deep-35-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016180">Dent</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000029" type="broader">
+   <geographic>Dent</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w602854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016181">Denet</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w602906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016182">Deneth</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w602925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016183">Dent(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w602986">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016184">Dent(e) in Lonesdale</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w603016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/016185">Dent(e) towne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4547600" lat="54.2777500" gazref="geonames:2651362" source="geonames"/>
+   <geo long="-2.460685764" lat="54.26861615" source="epns"/>
+   <geo long="-2.45305735995617" lat="54.27314068024105" gazref="unlock:11128767" source="unlock"/>
+   <geo easting="370500" northing="486500" long="-2.45449" lat="54.2733" kepnref="14939" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w602854">
+    <date subtype="simple" begin="1202" end="1208">1202-8</date>
+    <source style="" id="wr24">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602854">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602854">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="wr82">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602906">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="wr581">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602925">
+    <date subtype="simple" begin="1278" end="1278">1278</date>
+    <source style="" id="wr309">Kend</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602925">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="wr310">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602925">
+    <attestation variantID="epns-deep-35-b-name-w602925">
+     <date subtype="simple" begin="1307" end="1307">1307</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w602925">
+     <date subtype="simple" begin="1660" end="1660">1660</date>
+     <source style="" id="wr128">Dep</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w602986">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w603016">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="wr277">Holinshed</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w603016">
+    <date subtype="simple" begin="1685" end="1685">1685</date>
+    <source style="" id="wr491">PR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w602854">Denet</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w602906">Deneth</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w602925">Dente</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w602925">Dent</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w602986">Dente in Lonesdale</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w602986">Dent in Lonesdale</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w603016">Dente towne</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w603016">Dent towne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000230">
+  <authority ID="epns-deep-10-a-name-parish-000230">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005045">Wilbarston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000014" type="broader">
+   <geographic>Corby Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004e1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8033000" lat="52.4863600" gazref="geonames:2633927" source="geonames"/>
+   <geo long="-0.799595703912663" lat="52.48795353959276" gazref="unlock:11322832" source="unlock"/>
+   <geo easting="481500" northing="288500" long="-0.801151" lat="52.4883" kepnref="11100" source="kepn"/>
+  </extension>
+ </mads>
+ 

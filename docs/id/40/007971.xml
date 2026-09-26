@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-db-dbhundred-000006">
+  <authority ID="epns-deep-40-db-name-dbhundred-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007971">Langbridge Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000013" type="broader">
+   <geographic>Dudstone &amp; King's Barton Hundred (Lower Division)</geographic>
+  </related>
+  <variant ID="epns-deep-40-db-name-w360140">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/007972">Langebrige hd', (In) Tolangebriges hd'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328599eb47fc40ab300000d"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-40-db-name-w360140">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-db-name-w360140">Langebrige hd'</searchterm>
+   <searchterm variantID="epns-deep-40-db-name-w360140">In Tolangebriges hd'</searchterm>
+   <searchterm variantID="epns-deep-40-db-name-w360140">Tolangebriges hd'</searchterm>
+  </extension>
+ </mads>
+ 

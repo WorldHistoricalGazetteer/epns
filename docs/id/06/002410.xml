@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-hu-subcounty-000009">
+  <authority ID="epns-deep-06-hu-name-subcounty-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002410">Bury Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-ra-abovesubcounty-000002" type="broader">
+   <geographic>Rape of Arundel</geographic>
+  </related>
+  <variant ID="epns-deep-06-hu-name-w194051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002411">Berie</geographic>
+  </variant>
+  <variant ID="epns-deep-06-hu-name-w194074">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002412">Byri</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287238b47fc40c36000c61"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-06-hu-name-w194051">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-hu-name-w194051">
+    <date end="1179" begin="1179" subtype="simple">1179</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-hu-name-w194074">
+    <date end="1188" begin="1188" subtype="simple">1188</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-hu-name-w194051">Berie</searchterm>
+   <searchterm variantID="epns-deep-06-hu-name-w194074">Byri</searchterm>
+  </extension>
+ </mads>
+ 

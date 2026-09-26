@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000025">
+  <authority ID="epns-deep-79-a-name-parish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/002244">Suffield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d60"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.3213900" lat="52.8345100" gazref="geonames:7297695" source="geonames"/>
+   <geo long="1.310711127" lat="52.82996803" source="epns"/>
+   <geo long="1.319149012218894" lat="52.84322502478562" gazref="unlock:11295128" source="unlock"/>
+   <geo easting="623500" northing="332500" long="1.31733" lat="52.8436" kepnref="9178" source="kepn"/>
+  </extension>
+ </mads>
+ 

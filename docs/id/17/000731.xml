@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000007">
+  <authority ID="epns-deep-17-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000731">Everton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000007" type="broader">
+   <geographic>Everton</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w42533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000732">Evretone</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w42551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000733">Evreton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w42569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000734">Everton</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w42595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000735">Evertune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd400087b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9617700" lat="53.4210400" gazref="geonames:7296071" source="geonames"/>
+   <geo long="-0.9542093618140496" lat="53.41546352517589" gazref="unlock:11140959" source="unlock"/>
+   <geo easting="469500" northing="391500" long="-0.955785" lat="53.4157" kepnref="2315" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w42533">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w42551">
+    <date end="1280" begin="1280" subtype="simple">1280</date>
+    <source style="italic" id="ns13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w42569">
+    <attestation variantID="epns-deep-17-b-name-w42569">
+     <date end="1184" begin="1184" subtype="simple">1184</date>
+     <source style="" id="ns206">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w42595">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="" id="ns42">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w42533">Evretone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w42551">Evreton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w42569">Everton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w42595">Evertune</searchterm>
+  </extension>
+ </mads>
+ 

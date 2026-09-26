@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000037">
+  <authority ID="epns-deep-67-b-name-subparish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/008826">Lyndon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000037" type="broader">
+   <geographic>Lyndon</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w463900">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/008827">Lyndon(e), Lindon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w463996">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/008828">Lindun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w464033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/008829">Lynden', Linden'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d000407"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6560600" lat="52.6278200" gazref="geonames:7292233" source="geonames"/>
+   <geo long="-0.662706211503806" lat="52.63034981548132" gazref="unlock:11210099" source="unlock"/>
+   <geo easting="490500" northing="304500" long="-0.664283" lat="52.6307" kepnref="3002" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w463900">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <date subtype="simple" begin="1197" end="1197">1197</date>
+    <source style="" id="rd264">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w463900">
+    <attestation variantID="epns-deep-67-b-name-w463900">
+     <date subtype="simple" begin="1202" end="1202">1202</date>
+     <date subtype="simple" begin="1203" end="1203">1203</date>
+     <source style="" id="rd18">Ass</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-67-b-name-w463900">
+     <date subtype="simple" begin="1543" end="1543">1543</date>
+     <date subtype="simple" begin="1552" end="1552">1552</date>
+     <date subtype="simple" begin="1553" end="1553">1553</date>
+     <source style="italic" id="rd66">Conant</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w463996">
+    <date subtype="simple" begin="1175" end="1200">l12</date>
+    <source style="" id="rd80">Dane</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w463996">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="italic" id="rd130">FF</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w464033">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="rd357">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w464033">
+    <date subtype="simple" begin="1540" end="1540">1540</date>
+    <source style="italic" id="rd66">Conant</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w464033">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="rd334">Speed</source>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w463900">Lyndone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w463900">Lyndon</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w463900">Lindone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w463900">Lindon</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w463996">Lindune</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w463996">Lindun</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w464033">Lynden'</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w464033">Linden'</searchterm>
+  </extension>
+ </mads>
+ 

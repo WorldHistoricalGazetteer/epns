@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000173">
+  <authority ID="epns-deep-02-a-name-parish-000173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003650">Radnage</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000016" type="broader">
+   <geographic>Desborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002c8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8647100" lat="51.6654500" gazref="geonames:7294246" source="geonames"/>
+   <geo long="-0.8647210916928734" lat="51.67031966400238" gazref="unlock:11251979" source="unlock"/>
+   <geo easting="478500" northing="197500" long="-0.866236" lat="51.6708" kepnref="11369" source="kepn"/>
+  </extension>
+ </mads>
+ 

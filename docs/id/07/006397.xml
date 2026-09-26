@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000113">
+  <authority ID="epns-deep-07-a-name-parish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006397">Brightling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000032" type="broader">
+   <geographic>Netherfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b4c"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.3969200" lat="50.9636400" gazref="geonames:2654712" source="geonames"/>
+   <geo long="0.4000342408623054" lat="50.9676953021913" gazref="unlock:11087238" source="unlock"/>
+   <geo easting="568500" northing="121500" long="0.398404" lat="50.9683" kepnref="7128" source="kepn"/>
+  </extension>
+ </mads>
+ 

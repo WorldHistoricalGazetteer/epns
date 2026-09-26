@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000046">
+  <authority ID="epns-deep-38-a-name-parish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/004424">Tetbury Upton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000003" type="broader">
+   <geographic>Longtree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a1c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1722600" lat="51.6381400" gazref="geonames:7295168" source="geonames"/>
+   <geo long="-2.173477824" lat="51.6531965" source="epns"/>
+   <geo long="-2.166266113658287" lat="51.65770379396427" gazref="unlock:11298823" source="unlock"/>
+   <geo kepnexref="346" long="-2.174191" lat="51.655572" source="kepn"/>
+  </extension>
+ </mads>
+ 

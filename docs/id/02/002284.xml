@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000125">
+  <authority ID="epns-deep-02-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002284">Chilton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000124" type="broader">
+   <geographic>Chilton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w162795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002285">Ciltone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w162812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002286">Chilton'</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w162843">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002287">Chilton Marescalli</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000341"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0037900" lat="51.7986900" gazref="geonames:2653154" source="geonames"/>
+   <geo long="-1.006561378272256" lat="51.79749950232949" gazref="unlock:11104991" source="unlock"/>
+   <geo easting="468500" northing="211500" long="-1.00806" lat="51.798" kepnref="11318" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w162795">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w162812">
+    <attestation variantID="epns-deep-02-b-name-w162812">
+     <date end="1158" begin="1152" subtype="simple">1152-8</date>
+     <source style="" id="bu79">NLC</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w162843">
+    <date end="1240" begin="1237" subtype="simple">1237-40</date>
+    <source style="" id="bu37">Fees</source>
+    <page>1448</page>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w162795">Ciltone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w162812">Chilton'</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w162843">Chilton Marescalli</searchterm>
+  </extension>
+ </mads>
+ 

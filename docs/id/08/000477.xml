@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000006">
+  <authority ID="epns-deep-08-b-name-subparish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000477">Braunton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000006" type="broader">
+   <geographic>Braunton</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w25203">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000478">Branton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w25248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000479">Brauntone</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w25271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000480">Brampton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w25312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000481">Bramton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w25361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000482">Brompton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018f2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.1613100" lat="51.1084700" gazref="geonames:2654858" source="geonames"/>
+   <geo long="-4.164362779551905" lat="51.10722040192726" gazref="unlock:11085969" source="unlock"/>
+   <geo easting="248500" northing="136500" long="-4.16548" lat="51.1077" kepnref="15463" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w25203">
+    <attestation variantID="epns-deep-08-b-name-w25203">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="de59">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w25203">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>782</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25248">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25271">
+    <attestation variantID="epns-deep-08-b-name-w25271">
+     <date end="1157" begin="1157" subtype="simple">1157</date>
+     <source style="" id="de225">RBE</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w25271">
+     <date end="1302" begin="1302" subtype="simple">1302</date>
+     <source style="" id="de22">BM</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25312">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <date end="1172" begin="1172" subtype="simple">1172</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25312">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25312">
+    <date end="1235" begin="1229" subtype="simple">1229-35</date>
+    <source style="" id="de34">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w25361">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w25203">Brantona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25203">Branton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25248">Brauntone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25271">Bramptone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25271">Brampton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25312">Bramtona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25312">Bramton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w25361">Brompton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000032">
+  <authority ID="epns-deep-27-b-name-subparish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004074">Eyam Woodlands</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000029" type="broader">
+   <geographic>Eyam Woodlands</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w167143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004075">Woodlontt</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w167164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004076">Woodland</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w167198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004077">Woodlands Hamblet</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00186d"/>
+  </recordInfo>
+  <extension>
+   <geo easting="422500" northing="377500" long="-1.66389" lat="53.294" kepnref="3232" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w167143">
+    <date end="1483" begin="1461" subtype="regnal">Ed 4</date>
+    <source style="italic" id="db151">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w167164">
+    <date end="1603" begin="1558" subtype="regnal">Eliz</date>
+    <source style="italic" id="db151" underspec="ib">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w167164">
+    <date end="1665" begin="1665" subtype="simple">1665</date>
+    <source style="italic" id="db32">Bateman</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w167198">
+    <date end="1670" begin="1670" subtype="simple">1670</date>
+    <source style="italic" id="db140">Derby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w167143">Woodlontt</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w167164">Woodland</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w167198">Woodlands Hamblet</searchterm>
+  </extension>
+ </mads>
+ 

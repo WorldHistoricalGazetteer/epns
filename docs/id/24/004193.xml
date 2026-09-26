@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000048">
+  <authority ID="epns-deep-24-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004193">Crawley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000045" type="broader">
+   <geographic>Crawley</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w156312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004194">Croule</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w156338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004195">Craule(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w156357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004196">Craule</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w156402">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004197">Crawle</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w156418">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/004198">Crawele</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb0007ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5068400" lat="51.8058900" gazref="geonames:2652052" source="geonames"/>
+   <geo long="-1.49962471438202" lat="51.80063141871304" gazref="unlock:11120189" source="unlock"/>
+   <geo easting="434500" northing="212500" long="-1.50097" lat="51.8101" kepnref="3680" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w156312">
+    <date subtype="simple" begin="1214" end="1214">1214</date>
+    <source style="" id="ox77">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w156312">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w156338">
+    <date subtype="simple" begin="1214" end="1214">1214</date>
+    <source style="" id="ox77">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w156357">
+    <attestation variantID="epns-deep-24-b-name-w156357">
+     <date subtype="simple" begin="1227" end="1227">1227</date>
+     <source style="" id="ox42">Cl</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w156357">
+     <date subtype="circa" begin="1374" end="1394">c. 1384</date>
+     <source style="" id="ox74">Eynsh</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w156402">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ox77">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w156418">
+    <date subtype="simple" begin="1387" end="1387">1387</date>
+    <source style="" id="ox42">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w156312">Croule</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w156338">Craulee</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w156338">Craule</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w156357">Craule</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w156402">Crawle</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w156418">Crawele</searchterm>
+  </extension>
+ </mads>
+ 

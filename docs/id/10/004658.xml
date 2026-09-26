@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000213">
+  <authority ID="epns-deep-10-a-name-parish-000213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004658">Dingley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000014" type="broader">
+   <geographic>Corby Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000406"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8754000" lat="52.4823900" gazref="geonames:7301960" source="geonames"/>
+   <geo long="-0.8587309079972248" lat="52.47954730022063" gazref="unlock:11129585" source="unlock"/>
+   <geo easting="477500" northing="287500" long="-0.860279" lat="52.4799" kepnref="11083" source="kepn"/>
+  </extension>
+ </mads>
+ 

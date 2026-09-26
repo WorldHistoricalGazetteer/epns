@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000085">
+  <authority ID="epns-deep-16-a-name-parish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/004004">Hilperton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000010" type="broader">
+   <geographic>Melksham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c7d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1801400" lat="51.3385300" gazref="geonames:7300348" source="geonames"/>
+   <geo long="-2.179448279670169" lat="51.33395346288064" gazref="unlock:11175563" source="unlock"/>
+   <geo easting="387500" northing="159500" long="-2.1808" lat="51.3345" kepnref="7251" source="kepn"/>
+  </extension>
+ </mads>
+ 

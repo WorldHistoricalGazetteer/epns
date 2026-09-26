@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000059">
+  <authority ID="epns-deep-05-b-name-subparish-000059">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000557">Thornton le Clay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000025" type="broader">
+   <geographic>Foston</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w47127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000558">Torentun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w47148">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000559">Thorneton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600048f"/>
+  </recordInfo>
+  <extension>
+   <geo easting="468500" northing="465500" long="-0.954449" lat="54.0809" kepnref="5709" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w47127">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47148">
+    <date subtype="simple" begin="1100" end="1115">c. 1100-15</date>
+    <source style="" id="ny236">YCh</source>
+    <page>1001</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w47148">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w47127">Torentune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47127">Torentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w47148">Thorneton</searchterm>
+  </extension>
+ </mads>
+ 

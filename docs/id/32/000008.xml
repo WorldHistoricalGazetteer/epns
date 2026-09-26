@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-ld-localdistrict-000001">
+  <authority ID="epns-deep-32-ld-name-localdistrict-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000008">Blackstone Edge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-wp-subcounty-000001" type="broader">
+   <geographic>Morley Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-32-ld-name-w1780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000009">Blackesteynegge</geographic>
+  </variant>
+  <variant ID="epns-deep-32-ld-name-w1806">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000010">Blakestanegg</geographic>
+  </variant>
+  <variant ID="epns-deep-32-ld-name-w1831">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000011">Blakestonedge</geographic>
+  </variant>
+  <variant ID="epns-deep-32-ld-name-w1860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/000012">Blackston(e) edge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328780fb47fc40c81000008"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-32-ld-name-w1780">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-ld-name-w1806">
+    <date subtype="simple" begin="1331" end="1331">1331</date>
+    <source style="italic" id="wr23">Ass</source>
+    <item>5</item>
+   </attestation>
+   <attestation variantID="epns-deep-32-ld-name-w1831">
+    <date subtype="simple" begin="1414" end="1414">1414</date>
+    <source style="" id="wr754">Watson</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-ld-name-w1860">
+    <date subtype="century" begin="1500" end="1600">16</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-32-ld-name-w1860">
+    <date subtype="simple" begin="1551" end="1551">1551</date>
+    <source style="italic" id="wr756">WCR</source>
+    <item>9d</item>
+   </attestation>
+   <attestation variantID="epns-deep-32-ld-name-w1860">
+    <date subtype="simple" begin="1696" end="1696">1696</date>
+    <source style="" id="wr801">YDr</source>
+   </attestation>
+   <searchterm variantID="epns-deep-32-ld-name-w1780">Blackesteynegge</searchterm>
+   <searchterm variantID="epns-deep-32-ld-name-w1806">Blakestanegg</searchterm>
+   <searchterm variantID="epns-deep-32-ld-name-w1831">Blakestonedge</searchterm>
+   <searchterm variantID="epns-deep-32-ld-name-w1860">Blackstone edge</searchterm>
+   <searchterm variantID="epns-deep-32-ld-name-w1860">Blackston edge</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000006">
+  <authority ID="epns-deep-81-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/002072">Beeby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00107e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0161100" lat="52.6667100" gazref="geonames:7298389" source="geonames"/>
+   <geo long="-1.016474056594691" lat="52.66977928473821" gazref="unlock:11073236" source="unlock"/>
+   <geo easting="466500" northing="308500" long="-1.01801" lat="52.6701" kepnref="8806" source="kepn"/>
+  </extension>
+ </mads>
+ 

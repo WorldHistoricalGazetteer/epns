@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-a-parish-000015">
+  <authority ID="epns-deep-67-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/003254">Belton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-hu-subcounty-000002" type="broader">
+   <geographic>Oakham Soke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f71b47fc40c0d0003b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7949600" lat="52.6019000" gazref="geonames:2655935" source="geonames"/>
+   <geo long="-0.7964029322715722" lat="52.60480961347962" gazref="unlock:11075018" source="unlock"/>
+   <geo easting="481500" northing="301500" long="-0.797963" lat="52.6052" kepnref="2980" source="kepn"/>
+  </extension>
+ </mads>
+ 

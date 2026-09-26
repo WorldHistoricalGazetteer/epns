@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000110">
+  <authority ID="epns-deep-14-b-name-subparish-000110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002535">Grindale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000058" type="broader">
+   <geographic>Bridlington</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w162589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002536">Grendele, Gerendele</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162618">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002537">Grendale, Grendal(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002538">Grendall(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162733">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002539">Grandala</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162759">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002540">Grenedala, Grenedale</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002541">Gryndale</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w162815">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002542">Gryndall(e), Grindall(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d00046e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2736300" lat="54.1245300" gazref="geonames:2647870" source="geonames"/>
+   <geo long="-0.2629586059303283" lat="54.12663281148045" gazref="unlock:11161390" source="unlock"/>
+   <geo easting="513500" northing="471500" long="-0.26465" lat="54.1268" kepnref="8495" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w162589">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162618">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162618">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162618">
+    <attestation variantID="epns-deep-14-b-name-w162618">
+     <date end="1207" begin="1207" subtype="simple">1207</date>
+     <source style="" id="ey63">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w162618">
+     <date end="1342" begin="1342" subtype="simple">1342</date>
+     <source style="italic" id="ey329">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162699">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="ey369">YD</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162699">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162733">
+    <date end="1157" begin="1155" subtype="simple">1155-7</date>
+    <source style="" id="ey367">YCh</source>
+    <item>1148</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162759">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162759">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="ey160">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162797">
+    <date end="1333" begin="1333" subtype="simple">1333</date>
+    <source style="italic" id="ey329">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162815">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w162815">
+    <date end="1650" begin="1650" subtype="simple">1650</date>
+    <source style="" id="ey264">ParlSurv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w162589">Grendele</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162589">Gerendele</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162618">Grendale</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162618">Grendala</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162618">Grendal</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162699">Grendalle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162699">Grendall</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162733">Grandala</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162759">Grenedala</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162759">Grenedale</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162797">Gryndale</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162815">Gryndalle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162815">Gryndall</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162815">Grindalle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w162815">Grindall</searchterm>
+  </extension>
+ </mads>
+ 

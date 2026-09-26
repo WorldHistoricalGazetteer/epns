@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000076">
+  <authority ID="epns-deep-86-a-name-parish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/021627">Lyme Regis</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000007" type="broader">
+   <geographic>Whitchurch Canonicorum Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d002a10"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.9347700" lat="50.7265400" gazref="geonames:2643314" source="geonames"/>
+   <geo long="-2.930929148" lat="50.72602918" source="epns"/>
+   <geo long="-2.928131463974436" lat="50.72785074343131" gazref="unlock:11210025" source="unlock"/>
+   <geo easting="333500" northing="92500" long="-2.94354" lat="50.7283" kepnref="11650" source="kepn"/>
+  </extension>
+ </mads>
+ 

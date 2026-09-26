@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000025">
+  <authority ID="epns-deep-99-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000501">Colne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000025" type="broader">
+   <geographic>Colne</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w280214">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000502">Colne</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w280264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000503">Colen, Collen</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w280287">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000504">Cone</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000329"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0166700" lat="52.3666700" gazref="geonames:2652545" source="geonames"/>
+   <geo long="0.01943057118171901" lat="52.35990342083871" gazref="unlock:11114307" source="unlock"/>
+   <geo easting="537500" northing="276500" long="0.0181949" lat="52.3693" kepnref="4154" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w280214">
+    <date subtype="regnal" begin="1042" end="1066">Edw Conf</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="bh99">KCD</source>
+    <item>907</item>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w280214">
+    <attestation variantID="epns-deep-99-b-name-w280214">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="bh49">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w280264">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="bh169">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w280287">
+    <date subtype="circa" begin="1650" end="1670">c. 1660</date>
+    <source style="" id="bh235">Moore</source>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w280214">Colne</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w280264">Colen</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w280264">Collen</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w280287">Cone</searchterm>
+  </extension>
+ </mads>
+ 

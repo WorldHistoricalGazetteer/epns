@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000045">
+  <authority ID="epns-deep-82-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006104">Marton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000008" type="broader">
+   <geographic>Myddle</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w243833">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006105">Marton' iuxta Mudle</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w243865">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006106">Marton'</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w243886">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006107">Merton</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w243908">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/006108">Martin in Middle parish</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a640b47fc4463d000f05"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.826429562" lat="52.80943705" source="epns"/>
+   <geo long="-2.823394769246167" lat="52.80586287056135" gazref="unlock:11214405" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w243833">
+    <date subtype="simple" begin="1292" end="1295">1292-5</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w243865">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ss279">SR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w243886">
+    <date subtype="simple" begin="1452" end="1452">1452</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>4525</item>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w243908">
+    <date subtype="simple" begin="1684" end="1684">1684</date>
+    <source style="" id="ss229">PR(StA)</source>
+    <page>5</page>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w243833">Marton' iuxta Mudle</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w243865">Marton'</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w243886">Merton</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w243908">Martin in Middle parish</searchterm>
+  </extension>
+ </mads>
+ 

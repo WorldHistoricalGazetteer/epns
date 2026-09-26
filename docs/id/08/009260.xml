@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000162">
+  <authority ID="epns-deep-08-b-name-subparish-000162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009260">Ermington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000162" type="broader">
+   <geographic>Ermington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w476277">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009261">Ermentona, Hermentona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w476308">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009262">Ermintona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w476369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009263">Ermingtona, Ermyngtona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w476393">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009264">Armyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001959"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9163700" lat="50.3623300" gazref="geonames:2649932" source="geonames"/>
+   <geo long="-3.919458099394967" lat="50.36493985353177" gazref="unlock:11140317" source="unlock"/>
+   <geo easting="263500" northing="53500" long="-3.92058" lat="50.3655" kepnref="15620" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w476277">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w476308">
+    <attestation variantID="epns-deep-08-b-name-w476308">
+     <date end="1189" begin="1154" subtype="regnal">t. Hy 2</date>
+     <source style="" id="de174">Oliver</source>
+     <page>135</page>
+    </attestation>
+    <passim>passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w476369">
+    <date end="1600" begin="1154">t. Hy 2-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w476393">
+    <date end="1614" begin="1614" subtype="simple">1614</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w476277">Ermentona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w476277">Hermentona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w476308">Ermintona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w476369">Ermingtona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w476369">Ermyngtona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w476393">Armyngton</searchterm>
+  </extension>
+ </mads>
+ 

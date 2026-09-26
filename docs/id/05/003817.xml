@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000327">
+  <authority ID="epns-deep-05-b-name-subparish-000327">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003817">Brompton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000120" type="broader">
+   <geographic>Northallerton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w279084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003818">Bruntun, Bruntone</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w279111">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003819">Bromtune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000554"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4166700" lat="54.3500000" gazref="geonames:2654583" source="geonames"/>
+   <geo long="-1.422829168840399" lat="54.36249433356526" gazref="unlock:11088626" source="unlock"/>
+   <geo easting="437500" northing="496500" long="-1.42439" lat="54.3627" kepnref="5980" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w279084">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279111">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w279111">
+    <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+    <source style="" id="ny209">SD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w279084">Bruntun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279084">Bruntone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w279111">Bromtune</searchterm>
+  </extension>
+ </mads>
+ 

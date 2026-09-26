@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000259">
+  <authority ID="epns-deep-14-b-name-subparish-000259">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005963">South Cliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000145" type="broader">
+   <geographic>North Cave</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w387904">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005964">Cliue</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w387919">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005965">Clif(f), Clyf(f)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w387989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005966">Sud Clif(f)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w388018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005967">Suth(e) Clif(f)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w388064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005968">South Clif(f)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000511"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6848000" lat="53.8172100" gazref="geonames:7298462" source="geonames"/>
+   <geo long="-0.6707832122291664" lat="53.81719532522006" gazref="unlock:11287184" source="unlock"/>
+   <geo easting="487500" northing="436500" long="-0.672411" lat="53.8174" kepnref="8636" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w387904">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w387919">
+    <date end="1204" begin="1201" subtype="simple">1201-4</date>
+    <source style="italic" id="ey301">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w387919">
+    <attestation variantID="epns-deep-14-b-name-w387919">
+     <date end="1259" begin="1259" subtype="simple">1259</date>
+     <source style="" id="ey16">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w387919">
+     <date end="1466" begin="1466" subtype="simple">1466</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w387989">
+    <date end="1225" begin="1200" subtype="simple">early 13th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w388018">
+    <attestation variantID="epns-deep-14-b-name-w388018">
+     <date end="1231" begin="1231" subtype="simple">1231</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w388018">
+     <date end="1331" begin="1331" subtype="simple">1331</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w388064">
+    <attestation variantID="epns-deep-14-b-name-w388064">
+     <date end="1303" begin="1303" subtype="simple">1303</date>
+     <source style="" id="ey159">KF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w388064">
+     <date end="1523" begin="1523" subtype="simple">1523</date>
+     <source style="" id="ey347">Test</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w387904">Cliue</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387919">Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387919">Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387919">Clyff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387919">Clyf</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387989">Sud Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w387989">Sud Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388018">Suthe Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388018">Suthe Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388018">Suth Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388018">Suth Clif</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388064">South Cliff</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w388064">South Clif</searchterm>
+  </extension>
+ </mads>
+ 

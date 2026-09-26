@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-a-parish-000006">
+  <authority ID="epns-deep-44-a-name-parish-000006">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/006768">Taxal</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-hu-subcounty-000001" type="broader">
+   <geographic>Macclesfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f1c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9921400" lat="53.3147900" gazref="geonames:2636168" source="geonames"/>
+   <geo long="-1.984990824" lat="53.30766923" source="epns"/>
+   <geo long="-1.992494621451642" lat="53.31216598599095" gazref="unlock:11298197" source="unlock"/>
+   <geo easting="400500" northing="379500" long="-1.99394" lat="53.3124" kepnref="11720" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000102">
+  <authority ID="epns-deep-06-b-name-subparish-000102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003163">Rudgwick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000102" type="broader">
+   <geographic>Rudgwick</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w248372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003164">Regwic</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w248388">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003165">Reggewik</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w248406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003166">Rugewik</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d68"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4516400" lat="51.0873500" gazref="geonames:2638992" source="geonames"/>
+   <geo long="-0.4505582773285454" lat="51.09000684153429" gazref="unlock:11275126" source="unlock"/>
+   <geo easting="508500" northing="133500" long="-0.452097" lat="51.0906" kepnref="6964" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w248372">
+    <date subtype="simple" begin="1210" end="1210">1210</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w248388">
+    <date subtype="simple" begin="1225" end="1225">1225</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w248406">
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w248372">Regwic</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w248388">Reggewik</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w248406">Rugewik</searchterm>
+  </extension>
+ </mads>
+ 

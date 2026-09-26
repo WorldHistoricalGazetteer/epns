@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000031">
+  <authority ID="epns-deep-40-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/003547">Pucklechurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000005" type="broader">
+   <geographic>Pucklechurch Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4338900" lat="51.4858300" gazref="geonames:3345395" source="geonames"/>
+   <geo long="-2.446468201" lat="51.48161916" source="epns"/>
+   <geo long="-2.439310657094757" lat="51.48614316269553" gazref="unlock:11250599" source="unlock"/>
+   <geo easting="370500" northing="176500" long="-2.42624" lat="51.4867" kepnref="6477" source="kepn"/>
+  </extension>
+ </mads>
+ 

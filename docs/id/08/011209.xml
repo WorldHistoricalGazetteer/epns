@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000195">
+  <authority ID="epns-deep-08-a-name-parish-000195">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011209">Chivelstone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000013" type="broader">
+   <geographic>Coleridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001739"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7083900" lat="50.2303000" gazref="geonames:7293330" source="geonames"/>
+   <geo long="-3.703808950696143" lat="50.2333734607498" gazref="unlock:11106726" source="unlock"/>
+   <geo easting="278500" northing="38500" long="-3.70495" lat="50.234" kepnref="15654" source="kepn"/>
+  </extension>
+ </mads>
+ 

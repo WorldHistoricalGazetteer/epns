@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000032">
+  <authority ID="epns-deep-15-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/001947">Wigginton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000002" type="broader">
+   <geographic>Dacorum Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace000754"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6387500" lat="51.7832900" gazref="geonames:2633945" source="geonames"/>
+   <geo long="-0.6443570102296944" lat="51.78488849958656" gazref="unlock:11322754" source="unlock"/>
+   <geo easting="494500" northing="210500" long="-0.631409" lat="51.7852" kepnref="4600" source="kepn"/>
+  </extension>
+ </mads>
+ 

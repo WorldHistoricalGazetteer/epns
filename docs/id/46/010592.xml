@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-b-subparish-000084">
+  <authority ID="epns-deep-46-b-name-subparish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010592">Oakmere, Oakmere Hall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-a-parish-000021" type="broader">
+   <geographic>Delamere Forest</geographic>
+  </related>
+  <variant ID="epns-deep-46-b-name-w538232">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010593">Oakmere</geographic>
+  </variant>
+  <variant ID="epns-deep-46-b-name-w538252">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/010594">Oakmere Lodge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f9f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6405400" lat="53.2199600" gazref="geonames:6620300" source="geonames"/>
+   <geo long="-2.644020255" lat="53.21603195" source="epns"/>
+   <geo long="-2.63659898483224" lat="53.22056799442154" gazref="unlock:11234718" source="unlock"/>
+   <geo easting="357500" northing="369500" long="-2.63797" lat="53.2208" kepnref="11975" source="kepn"/>
+   <attestation variantID="epns-deep-46-b-name-w538232">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="italic" id="ch210">EnclA</source>
+   </attestation>
+   <attestation variantID="epns-deep-46-b-name-w538252">
+    <date end="1842" begin="1842" subtype="simple">1842</date>
+    <source style="" id="ch477">OS</source>
+   </attestation>
+   <searchterm variantID="epns-deep-46-b-name-w538232">Oakmere</searchterm>
+   <searchterm variantID="epns-deep-46-b-name-w538252">Oakmere Lodge</searchterm>
+   <searchterm madsID="epns-deep-46-b-subparish-000084">Oakmere</searchterm>
+   <searchterm madsID="epns-deep-46-b-subparish-000084">Oakmere Hall</searchterm>
+  </extension>
+ </mads>
+ 

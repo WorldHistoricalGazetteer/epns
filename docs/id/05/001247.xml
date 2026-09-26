@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000129">
+  <authority ID="epns-deep-05-b-name-subparish-000129">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001247">Hartoft</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000047" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w105589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001248">Haretoft</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w105635">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001249">Hartoft</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000544"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8360300" lat="54.3548000" gazref="geonames:7291677" source="geonames"/>
+   <geo long="-0.8534488719520713" lat="54.35842891569758" gazref="unlock:11166814" source="unlock"/>
+   <geo easting="474500" northing="496500" long="-0.855079" lat="54.3586" kepnref="5780" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w105589">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w105589">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="italic" id="ny68">ForP</source>
+    <page>246</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w105589">
+    <date subtype="simple" begin="1349" end="1349">1349</date>
+    <source style="" id="ny94">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w105635">
+    <date subtype="simple" begin="1335" end="1335">1335</date>
+    <source style="italic" id="ny68">ForP</source>
+    <page>244</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w105635">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w105589">Haretoft</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w105635">Hartoft</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000253">
+  <authority ID="epns-deep-05-b-name-subparish-000253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003226">Ellenthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000100" type="broader">
+   <geographic>Kirby Hill</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w240017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003227">Adelingestorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w240040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003228">Edelyn(g)thorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w240104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003229">Edelingetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w240126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003230">Ellyngthorpe</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w240168">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003231">Ellinthrope</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004e5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3585200" lat="54.1008800" gazref="geonames:7300760" source="geonames"/>
+   <geo long="-1.365280163852855" lat="54.10153781990486" gazref="unlock:11139252" source="unlock"/>
+   <geo easting="441500" northing="467500" long="-1.36684" lat="54.1017" kepnref="5906" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w240017">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240040">
+    <date subtype="simple" begin="1154" end="1189">1154-89</date>
+    <source style="italic" id="ny123">MaryH</source>
+    <item>6 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240040">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>106</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240040">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240104">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240126">
+    <date subtype="simple" begin="1523" end="1523">1523</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240126">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>570</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w240168">
+    <date subtype="simple" begin="1574" end="1574">1574</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w240017">Adelingestorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240040">Edelyngthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240040">Edelynthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240104">Edelingetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240126">Ellyngthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w240168">Ellinthrope</searchterm>
+  </extension>
+ </mads>
+ 

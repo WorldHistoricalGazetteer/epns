@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000364">
+  <authority ID="epns-deep-12-a-name-parish-000364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016535">Pentlow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000016" type="broader">
+   <geographic>Hinckford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000ce5"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.6368400" lat="52.0716800" gazref="geonames:7298511" source="geonames"/>
+   <geo long="0.6494269721568715" lat="52.08663134981391" gazref="unlock:11243414" source="unlock"/>
+   <geo easting="581500" northing="246500" long="0.647721" lat="52.0871" kepnref="12525" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000482">
+  <authority ID="epns-deep-05-b-name-subparish-000482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005328">Manfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000162" type="broader">
+   <geographic>Manfield</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w378743">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005329">Mannefelt</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378762">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005330">Mannefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378781">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005331">Manefeld(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005332">Manafeld</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w378867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005333">Manfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000530"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6611700" lat="54.5162700" gazref="geonames:2643120" source="geonames"/>
+   <geo long="-1.6523999253765" lat="54.51617148838442" gazref="unlock:11211916" source="unlock"/>
+   <geo easting="422500" northing="513500" long="-1.65394" lat="54.5163" kepnref="6135" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w378743">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378762">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378781">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378781">
+    <attestation variantID="epns-deep-05-b-name-w378781">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>5 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w378781">
+     <date subtype="simple" begin="1280" end="1280">1280</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378837">
+    <date subtype="simple" begin="1146" end="1154">1146-54</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378837">
+    <date subtype="simple" begin="1294" end="1294">1294</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w378867">
+    <attestation variantID="epns-deep-05-b-name-w378867">
+     <date subtype="simple" begin="1310" end="1310">1310</date>
+     <source style="" id="ny165">Pap</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w378743">Mannefelt</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378762">Mannefeld</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378781">Manefelde</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378781">Manefeld</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378837">Manafeld</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w378867">Manfeld</searchterm>
+  </extension>
+ </mads>
+ 

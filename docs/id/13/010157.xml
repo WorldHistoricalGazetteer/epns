@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000261">
+  <authority ID="epns-deep-13-a-name-parish-000261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/010157">Whitchurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000013" type="broader">
+   <geographic>Barcheston Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006fd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6895300" lat="52.1341200" gazref="geonames:2634131" source="geonames"/>
+   <geo long="-1.671239064951406" lat="52.13393406888179" gazref="unlock:11320210" source="unlock"/>
+   <geo easting="422500" northing="248500" long="-1.67268" lat="52.1343" kepnref="4823" source="kepn"/>
+  </extension>
+ </mads>
+ 

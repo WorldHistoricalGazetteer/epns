@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000411">
+  <authority ID="epns-deep-05-b-name-subparish-000411">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004588">Thornton Steward</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000141" type="broader">
+   <geographic>Thornton Steward</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w334828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004589">Tornenton(e), Tornetune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334861">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004590">Thorneton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334888">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004591">Thorneton Dapifer</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w334911">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004592">Thorneton Steward</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005cf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7280500" lat="54.2791700" gazref="geonames:2635959" source="geonames"/>
+   <geo long="-1.731175645677775" lat="54.28268043425284" gazref="unlock:11300004" source="unlock"/>
+   <geo easting="417500" northing="487500" long="-1.7327" lat="54.2828" kepnref="6063" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w334828">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334861">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>83</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334888">
+    <date subtype="simple" begin="1157" end="1157">1157</date>
+    <source style="italic" id="ny195" underspec="ib">RichReg</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w334911">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w334828">Tornentone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334828">Tornenton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334828">Tornetune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334861">Thorneton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334888">Thorneton Dapifer</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w334911">Thorneton Steward</searchterm>
+  </extension>
+ </mads>
+ 

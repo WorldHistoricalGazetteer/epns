@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol44mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-44-a-parish-000013">
+  <authority ID="epns-deep-44-a-name-parish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/015403">Mottram in Longdendale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-44-hu-subcounty-000001" type="broader">
+   <geographic>Macclesfield Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-44-a-name-w652355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/44/015404">Hofinchel, Hofinghel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f00"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0116100" lat="53.4590300" gazref="geonames:2642131" source="geonames"/>
+   <geo long="-2.015059837" lat="53.45150352" source="epns"/>
+   <geo long="-2.00753071602111" lat="53.45600020825674" gazref="unlock:11223710" source="unlock"/>
+   <geo kepnexref="4242" long="-2.00898" lat="53.4563" source="kepn"/>
+   <attestation variantID="epns-deep-44-a-name-w652355">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-44-a-name-w652355">Hofinchel</searchterm>
+   <searchterm variantID="epns-deep-44-a-name-w652355">Hofinghel</searchterm>
+  </extension>
+ </mads>
+ 

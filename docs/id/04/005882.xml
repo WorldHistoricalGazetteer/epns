@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000216">
+  <authority ID="epns-deep-04-b-name-subparish-000216">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005882">King's Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000204" type="broader">
+   <geographic>King's Norton</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w474317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005883">Nortune</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w474334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005884">Northone Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w474362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/005885">Kynges Norton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005b7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.919129865449907" lat="52.41309569198253" gazref="unlock:11186927" source="unlock"/>
+   <geo easting="405500" northing="279500" long="-1.92055" lat="52.4135" kepnref="5397" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w474317">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w474334">
+    <date end="1286" begin="1286" subtype="simple">1286</date>
+    <source style="" id="wo208">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w474362">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="" id="wo208" underspec="ib">Wigorn</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w474317">Nortune</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w474334">Northone Regis</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w474362">Kynges Norton</searchterm>
+  </extension>
+ </mads>
+ 

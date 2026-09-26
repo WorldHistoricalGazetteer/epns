@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000431">
+  <authority ID="epns-deep-05-b-name-subparish-000431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004854">Aysgarth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w351967">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004855">Echescard</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w351986">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004856">Aykescart(h), Aikeskarth, Aykeskarth</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w352060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004857">Ayksc(h)arth</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w352088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004858">Aykesgarth</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w352126">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004859">Ayskarth(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w352169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004860">Asegarth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000408"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9832200" lat="54.2905000" gazref="geonames:2656699" source="geonames"/>
+   <geo long="-1.992317585019437" lat="54.2919680693828" gazref="unlock:11066256" source="unlock"/>
+   <geo easting="401500" northing="488500" long="-1.97844" lat="54.2921" kepnref="6081" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w351967">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w351986">
+    <attestation variantID="epns-deep-05-b-name-w351986">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny51">Easby</source>
+     <page>249</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w351986">
+     <date subtype="simple" begin="1420" end="1420">1420</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w352060">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <date subtype="simple" begin="1330" end="1330">1330</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w352088">
+    <date subtype="simple" begin="1374" end="1374">1374</date>
+    <source style="italic" id="ny8">Archd</source>
+    <page>9 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w352088">
+    <date subtype="simple" begin="1388" end="1388">1388</date>
+    <source style="" id="ny94">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w352126">
+    <attestation variantID="epns-deep-05-b-name-w352126">
+     <date subtype="simple" begin="1400" end="1400">1400</date>
+     <source style="" id="ny166">Pat</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w352126">
+     <date subtype="simple" begin="1574" end="1574">1574</date>
+     <source style="" id="ny65">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w352169">
+    <date subtype="simple" begin="1687" end="1687">1687</date>
+    <source style="" id="ny313">Grinton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w351967">Echescard</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w351986">Aykescarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w351986">Aykescart</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w351986">Aikeskarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w351986">Aykeskarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352060">Aykscharth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352060">Aykscarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352088">Aykesgarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352126">Ayskarthe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352126">Ayskarth</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w352169">Asegarth</searchterm>
+  </extension>
+ </mads>
+ 

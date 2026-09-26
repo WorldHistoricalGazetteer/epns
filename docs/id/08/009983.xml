@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000172">
+  <authority ID="epns-deep-08-b-name-subparish-000172">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009983">South Brent</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000172" type="broader">
+   <geographic>South Brent</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w508828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009984">Brenta</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508854">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009985">Brenth'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508877">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009986">Brente</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508917">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009987">Brentte</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508936">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009988">Brentte juxta Uggeburgh</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508976">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009989">Southbrynt</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w508996">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/009990">Brent al. Southbrent</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a1e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.8342600" lat="50.4265400" gazref="geonames:2637471" source="geonames"/>
+   <geo long="-3.837565306957138" lat="50.42922844280798" gazref="unlock:11287109" source="unlock"/>
+   <geo easting="269500" northing="60500" long="-3.8387" lat="50.4298" kepnref="15630" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w508828">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508828">
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508854">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>767</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508877">
+    <attestation variantID="epns-deep-08-b-name-w508877">
+     <date end="1244" begin="1244" subtype="simple">1244</date>
+     <source style="italic" id="de13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w508877">
+     <date end="1337" begin="1337" subtype="simple">1337</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508917">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508936">
+    <date end="1322" begin="1322" subtype="simple">1322</date>
+    <date end="1325" begin="1325" subtype="simple">1325</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508976">
+    <date end="1497" begin="1497" subtype="simple">1497</date>
+    <source style="italic" id="de48">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w508996">
+    <date end="1714" begin="1714" subtype="simple">1714</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w508828">Brenta</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508854">Brenth'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508877">Brente</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508917">Brentte</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508936">Brentte juxta Uggeburgh</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508976">Southbrynt</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508996">Brent</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w508996">Southbrent</searchterm>
+  </extension>
+ </mads>
+ 

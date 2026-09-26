@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000091">
+  <authority ID="epns-deep-06-b-name-subparish-000091">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002812">Middleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000091" type="broader">
+   <geographic>Middleton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w223701">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002813">Middelton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223745">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002814">Mildetun'</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223769">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002815">Mildelton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223789">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002816">Medelton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6200400" lat="50.7935700" gazref="geonames:2642583" source="geonames"/>
+   <geo easting="497500" northing="100500" long="-0.617937" lat="50.7959" kepnref="6953" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w223701">
+    <attestation variantID="epns-deep-06-b-name-w223701">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w223701">
+     <date subtype="simple" begin="1493" end="1493">1493</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223745">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="su95">Fees</source>
+    <item>72</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223769">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223789">
+    <date subtype="simple" begin="1514" end="1514">1514</date>
+    <source style="" id="su151">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w223701">Middeltone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223701">Middelton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223745">Mildetun'</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223769">Mildelton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223789">Medelton</searchterm>
+  </extension>
+ </mads>
+ 

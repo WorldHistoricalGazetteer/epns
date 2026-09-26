@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-c.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-96-a-parish-000043">
+  <authority ID="epns-deep-96-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/96/002079">Whittlesford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-96-hu-subcounty-000004" type="broader">
+   <geographic>Whittlesford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328735ab47fc40c4f000758"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1496900" lat="52.1134500" gazref="geonames:2634009" source="geonames"/>
+   <geo long="0.154404872681217" lat="52.11470881869801" gazref="unlock:11322232" source="unlock"/>
+   <geo easting="547500" northing="248500" long="0.152755" lat="52.1152" kepnref="4022" source="kepn"/>
+  </extension>
+ </mads>
+ 

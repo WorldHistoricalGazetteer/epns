@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000238">
+  <authority ID="epns-deep-17-b-name-subparish-000238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008263">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000250" type="broader">
+   <geographic>Clifton with Glapton</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w408226">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008264">Clitone, Cliftone, Clistone</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w408263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008265">Clifton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w408317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008266">Clyfton(a) and Cliftun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w408344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/008267">Clifton(a) juxta Notingham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c05b47fc40bd4000859"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1833300" lat="52.9000000" gazref="geonames:2652841" source="geonames"/>
+   <geo long="-1.189599674095279" lat="52.90484981481946" gazref="unlock:11109244" source="unlock"/>
+   <geo easting="454500" northing="334500" long="-1.19113" lat="52.9052" kepnref="13" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w408226">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w408263">
+    <attestation variantID="epns-deep-17-b-name-w408263">
+     <date end="1165" begin="1165" subtype="simple">1165</date>
+     <source style="" id="ns206">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w408317">
+    <date end="1600" begin="1165">1165-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w408344">
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ns267">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w408226">Clitone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408226">Cliftone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408226">Clistone</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408263">Cliftona</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408263">Clifton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408317">Clyftona</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408317">Clyfton</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408317">Cliftune</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408317">Cliftun</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408344">Cliftona juxta Notingham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w408344">Clifton juxta Notingham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000449">
+  <authority ID="epns-deep-05-b-name-subparish-000449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005059">Muker</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000151" type="broader">
+   <geographic>Grinton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w363190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005060">Meuhaker</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w363208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005061">Muaker</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w363228">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005062">Mewacre</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w363251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005063">Mewker</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004a2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1435400" lat="54.3764600" gazref="geonames:2641999" source="geonames"/>
+   <geo long="-2.146252388036885" lat="54.37277366573407" gazref="unlock:11224932" source="unlock"/>
+   <geo easting="390500" northing="497500" long="-2.14772" lat="54.3729" kepnref="6102" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w363190">
+    <date subtype="simple" begin="1274" end="1274">1274</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w363208">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w363228">
+    <date subtype="century" begin="1500" end="1600">16</date>
+    <source style="" id="ny220">VCH</source>
+    <item>i</item>
+    <page>242</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w363251">
+    <date subtype="simple" begin="1606" end="1606">1606</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w363190">Meuhaker</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w363208">Muaker</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w363228">Mewacre</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w363251">Mewker</searchterm>
+  </extension>
+ </mads>
+ 

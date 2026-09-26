@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000034">
+  <authority ID="epns-deep-15-a-name-parish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/002130">Bushey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000002" type="broader">
+   <geographic>Dacorum Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace0006dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3605300" lat="51.6431600" gazref="geonames:2654179" source="geonames"/>
+   <geo long="-0.3593844460748296" lat="51.64636115127319" gazref="unlock:11094452" source="unlock"/>
+   <geo easting="513500" northing="195500" long="-0.360956" lat="51.6469" kepnref="4585" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-a-parish-000009">
+  <authority ID="epns-deep-45-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/004529">Knutsford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-hu-subcounty-000001" type="broader">
+   <geographic>Bucklow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001ef9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3748200" lat="53.3028900" gazref="geonames:2645093" source="geonames"/>
+   <geo long="-2.367682160343994" lat="53.30260983146246" gazref="unlock:11189632" source="unlock"/>
+   <geo kepnexref="426" long="-2.37133" lat="53.300622" source="kepn"/>
+  </extension>
+ </mads>
+ 

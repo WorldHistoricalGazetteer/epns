@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000312">
+  <authority ID="epns-deep-05-b-name-subparish-000312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003717">Murton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000116" type="broader">
+   <geographic>Hawnby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w271921">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003718">Mortun, Mortona, Mortonam, Mortonie</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w271998">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003719">Murton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004b5"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0107000" lat="53.9660700" gazref="geonames:6955370" source="geonames"/>
+   <geo long="-1.001499318870675" lat="53.96423295278024" gazref="unlock:11225303" source="unlock"/>
+   <geo easting="465500" northing="452500" long="-1.00309" lat="53.9644" kepnref="5962" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w271921">
+    <attestation variantID="epns-deep-05-b-name-w271921">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w271921">
+     <date subtype="simple" begin="1376" end="1376">1376</date>
+     <source style="" id="ny48">Dugd</source>
+     <item>v</item>
+     <page>348</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w271998">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>355</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w271921">Mortun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w271921">Mortona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w271921">Mortonam</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w271921">Mortonie</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w271998">Murton</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000045">
+  <authority ID="epns-deep-10-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001075">Astwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000045" type="broader">
+   <geographic>Astwell with Falcutt</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w63107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001076">Estwell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001077">Astwell</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001078">Astewelle juxta Wapenham</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w63241">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001079">Astewell(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000514"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.116758454297443" lat="52.09511754405569" gazref="unlock:11065080" source="unlock"/>
+   <geo easting="460500" northing="244500" long="-1.11826" lat="52.0955" kepnref="10914" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w63107">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63107">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <source style="" id="nh215">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63107">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <date end="1191" begin="1191" subtype="simple">1191</date>
+    <source style="" id="nh215">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63107">
+    <date end="1216" begin="1216" subtype="simple">1216</date>
+    <source style="" id="nh52">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63107">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="nh99">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63176">
+    <attestation variantID="epns-deep-10-b-name-w63176">
+     <date end="1253" begin="1253" subtype="simple">1253</date>
+     <source style="italic" id="nh16">Ass</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63204">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63241">
+    <date end="1310" begin="1290" subtype="circa">c. 1300</date>
+    <source style="" id="nh4">AD</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w63241">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w63107">Estwelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63107">Estwell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63176">Astwell</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63204">Astewelle juxta Wapenham</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63241">Astewelle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w63241">Astewell</searchterm>
+  </extension>
+ </mads>
+ 

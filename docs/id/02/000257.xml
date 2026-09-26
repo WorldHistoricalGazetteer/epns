@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000015">
+  <authority ID="epns-deep-02-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000257">Weston Underwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000014" type="broader">
+   <geographic>Weston Underwood</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w17893">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000258">Westone</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w17910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000259">Weston by Laundene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w17939">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000260">Weston by Olneye</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w17966">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000261">Westone Underwode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003da"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7386200" lat="52.1457400" gazref="geonames:2634304" source="geonames"/>
+   <geo long="-0.7357430768673591" lat="52.14559962093885" gazref="unlock:11319037" source="unlock"/>
+   <geo easting="486500" northing="250500" long="-0.737292" lat="52.146" kepnref="11207" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w17893">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w17910">
+    <date end="1281" begin="1281" subtype="simple">1281</date>
+    <source style="" id="bu57">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w17939">
+    <date end="1344" begin="1344" subtype="simple">1344</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w17966">
+    <date end="1363" begin="1363" subtype="simple">1363</date>
+    <source style="" id="bu18">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w17893">Westone</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w17910">Weston by Laundene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w17939">Weston by Olneye</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w17966">Westone Underwode</searchterm>
+  </extension>
+ </mads>
+ 

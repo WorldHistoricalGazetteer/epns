@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-a-parish-000022">
+  <authority ID="epns-deep-88-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/006487">Knaptoft</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-hu-subcounty-000001" type="broader">
+   <geographic>Guthlaxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010c2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0764800" lat="52.4904900" gazref="geonames:7295428" source="geonames"/>
+   <geo long="-1.079211558291893" lat="52.49945138265623" gazref="unlock:11188578" source="unlock"/>
+   <geo easting="462500" northing="289500" long="-1.08073" lat="52.4998" kepnref="8892" source="kepn"/>
+  </extension>
+ </mads>
+ 

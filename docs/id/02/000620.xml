@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000041">
+  <authority ID="epns-deep-02-a-name-parish-000041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000620">Hardmead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000003" type="broader">
+   <geographic>Moulsoe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000289"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6326300" lat="52.1164800" gazref="geonames:7301824" source="geonames"/>
+   <geo long="-0.6342885391398033" lat="52.1174918501364" gazref="unlock:11165767" source="unlock"/>
+   <geo easting="493500" northing="247500" long="-0.635848" lat="52.1179" kepnref="11234" source="kepn"/>
+  </extension>
+ </mads>
+ 

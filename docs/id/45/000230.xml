@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000002">
+  <authority ID="epns-deep-45-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/000230">Sale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000002" type="broader">
+   <geographic>Ashton on Mersey</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w10609">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/000231">Sala</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w10636">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/000232">Sale</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w10692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/000233">la Sale</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w10731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/000234">Sale behind Alteringham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001f4c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3244300" lat="53.4251900" gazref="geonames:2638678" source="geonames"/>
+   <geo long="-2.315987118" lat="53.41512822" source="epns"/>
+   <geo long="-2.323544702906042" lat="53.41960399869838" gazref="unlock:11277031" source="unlock"/>
+   <geo easting="378500" northing="391500" long="-2.32496" lat="53.4199" kepnref="11764" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w10609">
+    <date subtype="simple" begin="1199" end="1216">1199-1216</date>
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w10636">
+    <date subtype="simple" begin="1199" end="1216">1199-1216</date>
+    <source style="" id="ch686">Whall</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w10636">
+    <date subtype="simple" begin="1260" end="1260">1260</date>
+    <source style="" id="ch138">Court</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w10692">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ch138">Court</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w10692">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="" id="ch115">ChRR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w10731">
+    <date subtype="circa" begin="1693" end="1713">c.1703</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w10609">Sala</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w10636">Sale</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w10692">la Sale</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w10731">Sale behind Alteringham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000027">
+  <authority ID="epns-deep-06-a-name-parish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000779">Lavant</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000003" type="broader">
+   <geographic>Westbourne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bbe"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7838100" lat="50.8698900" gazref="geonames:2644805" source="geonames"/>
+   <geo long="-0.7705942785081392" lat="50.8689673023845" gazref="unlock:11136258" source="unlock"/>
+   <geo easting="486500" northing="108500" long="-0.772089" lat="50.8695" kepnref="6888" source="kepn"/>
+  </extension>
+ </mads>
+ 

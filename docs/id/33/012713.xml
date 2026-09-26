@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000104">
+  <authority ID="epns-deep-33-b-name-subparish-000104">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012713">Colton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000040" type="broader">
+   <geographic>Bolton Percy</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w527837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012714">Coletun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w527866">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012715">Colton, Kolton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w527944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/012716">Kolton Chaumont</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006098"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1781500" lat="53.8961500" gazref="geonames:8051270" source="geonames"/>
+   <geo long="-1.178288769" lat="53.88916336" source="epns"/>
+   <geo long="-1.170591977296679" lat="53.89360634139719" gazref="unlock:11114411" source="unlock"/>
+   <geo easting="454500" northing="444500" long="-1.17216" lat="53.8938" kepnref="14690" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w527837">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527837">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="wr49">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527866">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527866">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="" id="wr24">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527866">
+    <date end="1269" begin="1269" subtype="simple">1269</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527866">
+    <attestation variantID="epns-deep-33-b-name-w527866">
+     <date end="1276" begin="1276" subtype="simple">1276</date>
+     <source style="" id="wr601">RH</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w527866">
+     <date end="1543" begin="1543" subtype="simple">1543</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w527944">
+    <date end="1373" begin="1373" subtype="simple">1373</date>
+    <source style="" id="wr294">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w527837">Coletune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w527837">Coletun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w527866">Colton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w527866">Kolton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w527944">Kolton Chaumont</searchterm>
+  </extension>
+ </mads>
+ 

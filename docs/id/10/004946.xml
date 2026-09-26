@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000225">
+  <authority ID="epns-deep-10-b-name-subparish-000225">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004946">Sutton Bassett</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000225" type="broader">
+   <geographic>Sutton Bassett</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w268189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004947">Sutone</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w268205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004948">Sutton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w268235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004949">Sutton Basset</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w268260">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004950">Sutton juxta Dyngele</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w268291">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/004951">Sutton by Weston upon Wylond</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000606"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8640400" lat="52.5030700" gazref="geonames:7301964" source="geonames"/>
+   <geo long="-0.8580324685149083" lat="52.50651491196614" gazref="unlock:11295822" source="unlock"/>
+   <geo easting="477500" northing="290500" long="-0.859581" lat="52.5069" kepnref="11095" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w268189">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w268205">
+    <attestation variantID="epns-deep-10-b-name-w268205">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="nh256">RotDom</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w268235">
+    <date end="1309" begin="1309" subtype="simple">1309</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w268260">
+    <date end="1317" begin="1317" subtype="simple">1317</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w268291">
+    <date end="1394" begin="1394" subtype="simple">1394</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w268189">Sutone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w268205">Sutton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w268235">Sutton Basset</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w268260">Sutton juxta Dyngele</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w268291">Sutton by Weston upon Wylond</searchterm>
+  </extension>
+ </mads>
+ 

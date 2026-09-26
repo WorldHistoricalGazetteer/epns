@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000283">
+  <authority ID="epns-deep-05-b-name-subparish-000283">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003477">Angram Grange</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000108" type="broader">
+   <geographic>Coxwold</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w255989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003478">Angrum</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w256037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003479">Angrame Graunge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000459"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2138800" lat="54.1790100" gazref="geonames:7296791" source="geonames"/>
+   <geo long="-1.210813512676343" lat="54.18152290419548" gazref="unlock:11062538" source="unlock"/>
+   <geo easting="451500" northing="476500" long="-1.21239" lat="54.1817" kepnref="5935" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w255989">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w255989">
+    <date subtype="simple" begin="1293" end="1293">1293</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w255989">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w255989">
+    <date subtype="simple" begin="1333" end="1333">1333</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w256037">
+    <date subtype="simple" begin="1538" end="1538">1538</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w255989">Angrum</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w256037">Angrame Graunge</searchterm>
+  </extension>
+ </mads>
+ 

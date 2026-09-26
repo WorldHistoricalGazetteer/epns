@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000034">
+  <authority ID="epns-deep-27-b-name-subparish-000034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004249">Green Fairfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000031" type="broader">
+   <geographic>Green Fairfield</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w172675">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004250">Greene Fayrfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w172702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004251">Greenefeirefeild</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w172730">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004252">Grenefairefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w172754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004253">Grenefairfield Manor</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c00187e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8619200" lat="53.2668500" gazref="geonames:7293269" source="geonames"/>
+   <geo easting="409500" northing="374500" long="-1.85901" lat="53.2674" kepnref="3234" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w172675">
+    <date end="1483" begin="1461" subtype="regnal">Ed 4</date>
+    <source style="italic" id="db151">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w172702">
+    <date end="1547" begin="1509" subtype="regnal">Hy 8</date>
+    <source style="italic" id="db151" underspec="ib">DuLa</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w172730">
+    <date end="1558" begin="1558" subtype="simple">1558</date>
+    <source style="italic" id="db193">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w172754">
+    <date end="1565" begin="1565" subtype="simple">1565</date>
+    <source style="" id="db286">Lanc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w172675">Greene Fayrfeld</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w172702">Greenefeirefeild</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w172730">Grenefairefeld</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w172754">Grenefairfield Manor</searchterm>
+  </extension>
+ </mads>
+ 

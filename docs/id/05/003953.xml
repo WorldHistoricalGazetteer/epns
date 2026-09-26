@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000343">
+  <authority ID="epns-deep-05-b-name-subparish-000343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003953">Welbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000124" type="broader">
+   <geographic>East Harlsey</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w288756">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003954">Welberga</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w288774">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003955">Welleberg(e), Welleberga</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w288833">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003956">Welleberc, Welleberh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w288878">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003957">Welleberyg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w288898">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003958">Wel(le)byry</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w288928">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003959">Welbery</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600047e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3885300" lat="54.4156800" gazref="geonames:2634594" source="geonames"/>
+   <geo long="-1.39125094167405" lat="54.41626897726655" gazref="unlock:11315470" source="unlock"/>
+   <geo easting="439500" northing="502500" long="-1.39282" lat="54.4164" kepnref="5965" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w288756">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288774">
+    <attestation variantID="epns-deep-05-b-name-w288774">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ny43">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w288774">
+     <date subtype="circa" begin="1281" end="1301">c. 1291</date>
+     <source style="" id="ny305">Tax</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288833">
+    <date subtype="simple" begin="1198" end="1198">1198</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288833">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny238">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288878">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288898">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288898">
+    <date subtype="simple" begin="1344" end="1344">1344</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288928">
+    <date subtype="simple" begin="1400" end="1400">1400</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288928">
+    <date subtype="simple" begin="1403" end="1403">1403</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w288928">
+    <date subtype="simple" begin="1508" end="1508">1508</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w288756">Welberga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288774">Welleberge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288774">Welleberg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288774">Welleberga</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288833">Welleberc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288833">Welleberh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288878">Welleberyg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288898">Wellebyry</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288898">Welbyry</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w288928">Welbery</searchterm>
+  </extension>
+ </mads>
+ 

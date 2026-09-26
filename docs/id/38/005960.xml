@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000055">
+  <authority ID="epns-deep-38-a-name-parish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/005960">Stroud</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000004" type="broader">
+   <geographic>Bisley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a14"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2119600" lat="51.7458700" gazref="geonames:7298630" source="geonames"/>
+   <geo long="-2.217277195" lat="51.74304582" source="epns"/>
+   <geo long="-2.224542062546409" lat="51.74752898643504" gazref="unlock:11294642" source="unlock"/>
+   <geo easting="385500" northing="205500" long="-2.21142" lat="51.748" kepnref="6245" source="kepn"/>
+  </extension>
+ </mads>
+ 

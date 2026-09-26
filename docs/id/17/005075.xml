@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-b-subparish-000116">
+  <authority ID="epns-deep-17-b-name-subparish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005075">Radford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-a-parish-000121" type="broader">
+   <geographic>Radford</geographic>
+  </related>
+  <variant ID="epns-deep-17-b-name-w251952">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005076">Redeford</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w251970">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005077">Radeford</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w252014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005078">Radefort</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w252043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005079">Radefort juxta Notyngham</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w252077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005080">Radford</geographic>
+  </variant>
+  <variant ID="epns-deep-17-b-name-w252106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/005081">Rafford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286c06b47fc40bd40008dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.173705002870243" lat="52.95868379325357" gazref="unlock:11251943" source="unlock"/>
+   <geo easting="455500" northing="340500" long="-1.17524" lat="52.959" kepnref="27" source="kepn"/>
+   <attestation variantID="epns-deep-17-b-name-w251952">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ns65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w251970">
+    <attestation variantID="epns-deep-17-b-name-w251970">
+     <date end="1108" begin="1108" subtype="simple">1108</date>
+     <copydate end="1316" begin="1316">1316</copydate>
+     <source style="" id="ns42">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-17-b-name-w251970">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="italic" id="ns102">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w252014">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <source style="" id="ns300">Wollaton</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w252043">
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="italic" id="ns102">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w252077">
+    <date end="1209" begin="1209" subtype="simple">1209</date>
+    <source style="italic" id="ns102" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w252077">
+    <date end="1226" begin="1226" subtype="simple">1226</date>
+    <source style="" id="ns84">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-17-b-name-w252106">
+    <date end="1225" begin="1225" subtype="simple">1225</date>
+    <source style="" id="ns213">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-17-b-name-w251952">Redeford</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w251970">Radeford</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w252014">Radefort</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w252043">Radefort juxta Notyngham</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w252077">Radford</searchterm>
+   <searchterm variantID="epns-deep-17-b-name-w252106">Rafford</searchterm>
+  </extension>
+ </mads>
+ 

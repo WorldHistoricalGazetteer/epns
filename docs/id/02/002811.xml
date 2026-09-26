@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000144">
+  <authority ID="epns-deep-02-a-name-parish-000144">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002811">Aylesbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000013" type="broader">
+   <geographic>Aylesbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e300023a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8145800" lat="51.8166500" gazref="geonames:2656719" source="geonames"/>
+   <geo long="-0.8175950389920431" lat="51.81373601657134" gazref="unlock:11066189" source="unlock"/>
+   <geo easting="481500" northing="213500" long="-0.819121" lat="51.8142" kepnref="11339" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000350">
+  <authority ID="epns-deep-05-b-name-subparish-000350">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004011">Wath</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000126" type="broader">
+   <geographic>Hutton Conyers</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w294404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004012">Wat</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w294438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004013">Wath</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w294472">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004014">Waz</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004d9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5000000" lat="54.1833300" gazref="geonames:2634673" source="geonames"/>
+   <geo long="-1.501845931626749" lat="54.19206657597897" gazref="unlock:11314662" source="unlock"/>
+   <geo easting="432500" northing="476500" long="-1.5035" lat="54.1833" kepnref="6002" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w294404">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294404">
+    <date subtype="simple" begin="1239" end="1239">1239</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294404">
+    <date subtype="simple" begin="1249" end="1249">1249</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294438">
+    <attestation variantID="epns-deep-05-b-name-w294438">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294472">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w294404">Wat</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294438">Wath</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294472">Waz</searchterm>
+  </extension>
+ </mads>
+ 

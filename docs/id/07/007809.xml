@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000137">
+  <authority ID="epns-deep-07-a-name-parish-000137">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/007809">Ewhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000040" type="broader">
+   <geographic>Staple Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b84"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5413100" lat="50.9783900" gazref="geonames:7298484" source="geonames"/>
+   <geo long="0.5580327820359332" lat="50.99132555751891" gazref="unlock:11141090" source="unlock"/>
+   <geo easting="579500" northing="124500" long="0.556384" lat="50.9919" kepnref="7152" source="kepn"/>
+  </extension>
+ </mads>
+ 

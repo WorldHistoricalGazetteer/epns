@@ -79,6 +79,21 @@ files and never shown as an identifier. The exports use DEEP's published URIs
 resolve, which the files say. Any resolvable namespace (a w3id, say) is a governance decision, not
 an engineering one, and is not taken in this repository.
 
+## Persistent identifiers, prepared
+
+The site can address any record by DEEP's own county-wide serial, the number in the record's 2013 URI:
+`#u=02/000002` opens Bunsty Hundred (`http://placenames.org.uk/id/placename/02/000002`). For the 15,587
+records at parish level and above, `docs/id/<county>/<serial>.json|.geojson|.xml` are static PLATO,
+LPF and original-MADS representations (`process/export_records.py`), so a resolver that content-
+negotiates can land every branch on a file that exists. Minor names and field-names have no static
+machine file (three formats for every record would be 1.6 million files); their HTML view generates
+the formats in the browser, and a machine request for one answers 404 with a page that carries a person
+to the record. That cut is deliberate and stated rather than hidden behind a redirect to a neighbour.
+
+A w3id namespace (`whg-epns`) that carries the `{county}/{serial}` pair unchanged has been drafted on
+the owner's fork of `perma-id/w3id.org` (branch `whg-epns`); registering it is a governance decision
+and is not taken here.
+
 ## Layout
 
 ```
@@ -88,6 +103,8 @@ process/export_site.py            DuckDB -> docs/data/ (core index, per-county f
 process/build_symphonym_index.py  name keys -> int8 Symphonym v8 matrix, docs/data/symphonym/ (system python)
 process/export_plato.py           DuckDB -> data/export/: PLATO (validated) + LPF, stamped with the PLATO commit; --sample, --verify
 process/build_downloads.py        data/export + parquet + duckdb -> release bundles and docs/downloads.html (sizes/digests read, not typed)
+process/export_records.py         per-record static PLATO/LPF/MADS for parish level and above -> docs/id/<county>/<serial>.*
+process/rehome.sh                 one-pass rewrite of every absolute URL/key after a repository transfer or rename
 docs/                             the Pages site: index.html, css/, js/, symphonym/ (model + tokeniser), data/
 tools/pages/shot.py               headless Playwright checks of the site (system python)
 ```

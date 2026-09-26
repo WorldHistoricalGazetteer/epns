@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000075">
+  <authority ID="epns-deep-86-a-name-parish-000075">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/021250">Dalwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000007" type="broader">
+   <geographic>Whitchurch Canonicorum Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d0029c9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.0712900" lat="50.7966100" gazref="geonames:2651542" source="geonames"/>
+   <geo long="-3.067211623" lat="50.79951122" source="epns"/>
+   <geo long="-3.071448061354842" lat="50.79857348151741" gazref="unlock:11126909" source="unlock"/>
+   <geo kepnexref="389" long="-3.07268" lat="50.7991" source="kepn"/>
+  </extension>
+ </mads>
+ 

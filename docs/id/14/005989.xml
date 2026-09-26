@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000261">
+  <authority ID="epns-deep-14-b-name-subparish-000261">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005989">North Newbald</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000147" type="broader">
+   <geographic>North Newbald</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w389817">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005990">to msebotle</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w389871">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005991">(æt) neowe boldan</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w389913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005992">Niuuebold, Niwebolt</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w389942">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005993">Neubald, Newbald</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w389997">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005994">Neuebald, Newebald</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w390046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005995">North Newebald</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w390094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005996">Newebaud, Neubaud</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w390127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005997">Newball</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000518"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6166700" lat="53.8166700" gazref="geonames:2641294" source="geonames"/>
+   <geo long="-0.6100382807014219" lat="53.81650673498247" gazref="unlock:11232901" source="unlock"/>
+   <geo easting="491500" northing="436500" long="-0.611673" lat="53.8167" kepnref="8638" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w389817">
+    <date end="963" begin="963" subtype="simple">963</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="ey301">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w389871">
+    <date end="972" begin="972" subtype="simple">972</date>
+    <copydate end="1210" begin="1190">c. 1200</copydate>
+    <source style="" id="ey22">BCS</source>
+    <item>1279</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w389913">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w389942">
+    <attestation variantID="epns-deep-14-b-name-w389942">
+     <date end="1186" begin="1154" subtype="simple">1154-86</date>
+     <source style="italic" id="ey301">RegAlb</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w389942">
+     <date end="1524" begin="1524" subtype="simple">1524</date>
+     <source style="italic" id="ey31">Bev</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w389997">
+    <attestation variantID="epns-deep-14-b-name-w389997">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="ey160">KI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w389997">
+     <date end="1371" begin="1371" subtype="simple">1371</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w390046">
+    <attestation variantID="epns-deep-14-b-name-w390046">
+     <date end="1348" begin="1348" subtype="simple">1348</date>
+     <source style="" id="ey52">Ch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w390046">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w390094">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w390094">
+    <date end="1268" begin="1268" subtype="simple">1268</date>
+    <source style="" id="ey91">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w390127">
+    <date end="1569" begin="1569" subtype="simple">1569</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w389817">to msebotle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389871">æt neowe boldan</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389871">neowe boldan</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389913">Niuuebold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389913">Niwebolt</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389942">Neubald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389942">Newbald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389997">Neuebald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w389997">Newebald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w390046">North Newebald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w390094">Newebaud</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w390094">Neubaud</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w390127">Newball</searchterm>
+  </extension>
+ </mads>
+ 

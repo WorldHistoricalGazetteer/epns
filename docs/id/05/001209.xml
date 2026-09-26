@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000125">
+  <authority ID="epns-deep-05-b-name-subparish-000125">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001209">Thornton Riseborough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000046" type="broader">
+   <geographic>Sinnington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w102510">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001210">Tornitun, Tornentun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w102539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001211">Torinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w102557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001212">Torneton sub Riseberg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w102592">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001213">Torenton voc. Riseberge</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w102625">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001214">Thornton under Isbergh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a2"/>
+  </recordInfo>
+  <extension>
+   <geo easting="475500" northing="483500" long="-0.842974" lat="54.2416" kepnref="5775" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w102510">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w102539">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w102557">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w102592">
+    <date subtype="simple" begin="1310" end="1310">1310</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w102625">
+    <date subtype="simple" begin="1406" end="1406">1406</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w102510">Tornitun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w102510">Tornentun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w102539">Torinton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w102557">Torneton sub Riseberg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w102592">Torenton voc. Riseberge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w102625">Thornton under Isbergh</searchterm>
+  </extension>
+ </mads>
+ 

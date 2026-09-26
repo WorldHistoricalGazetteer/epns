@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000080">
+  <authority ID="epns-deep-79-a-name-parish-000080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/007245">Hempstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000003" type="broader">
+   <geographic>Holt Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d1e"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.1166700" lat="52.8833300" gazref="geonames:2647124" source="geonames"/>
+   <geo long="1.121898462" lat="52.88905286" source="epns"/>
+   <geo long="1.129643987518356" lat="52.89334692690146" gazref="unlock:11169853" source="unlock"/>
+   <geo kepnexref="483" long="1.56631" lat="52.8004" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol17mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-17-a-parish-000003">
+  <authority ID="epns-deep-17-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/17/000633">West Burton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-17-wpd-belowsubcounty-000001" type="broader">
+   <geographic>North Clay Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286bedb47fc40bd4000811"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8108700" lat="53.3632300" gazref="geonames:7296926" source="geonames"/>
+   <geo long="-0.8203049426580944" lat="53.36027471272063" gazref="unlock:11316471" source="unlock"/>
+   <geo easting="478500" northing="385500" long="-0.821895" lat="53.3606" kepnref="2310" source="kepn"/>
+  </extension>
+ </mads>
+ 

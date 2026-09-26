@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000017">
+  <authority ID="epns-deep-64-a-name-parish-000017">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/006193">East Halton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000ef1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2795500" lat="53.6628500" gazref="geonames:2650431" source="geonames"/>
+   <geo long="-0.2822312029156783" lat="53.65942400092405" gazref="unlock:11136054" source="unlock"/>
+   <geo easting="514500" northing="419500" long="-0.268773" lat="53.6595" kepnref="10832" source="kepn"/>
+  </extension>
+ </mads>
+ 

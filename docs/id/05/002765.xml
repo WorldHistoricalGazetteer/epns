@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000207">
+  <authority ID="epns-deep-05-b-name-subparish-000207">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002765">Eston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000079" type="broader">
+   <geographic>Ormesby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w210334">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002766">Astun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w210352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002767">Eston(a)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600055b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1434000" lat="54.5593200" gazref="geonames:2649886" source="geonames"/>
+   <geo long="-1.141499802699778" lat="54.56755329782306" gazref="unlock:11140741" source="unlock"/>
+   <geo easting="455500" northing="519500" long="-1.1431" lat="54.5677" kepnref="5860" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w210334">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w210352">
+    <attestation variantID="epns-deep-05-b-name-w210352">
+     <date subtype="simple" begin="1160" end="1172">1160-72</date>
+     <source style="" id="ny236">YCh</source>
+     <page>772</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w210334">Astune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210334">Astun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210352">Estona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w210352">Eston</searchterm>
+  </extension>
+ </mads>
+ 

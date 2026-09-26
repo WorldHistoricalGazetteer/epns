@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000063">
+  <authority ID="epns-deep-09-a-name-parish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003259">Shobrooke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000005" type="broader">
+   <geographic>West Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001836"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5950300" lat="50.8065400" gazref="geonames:7293314" source="geonames"/>
+   <geo long="-3.625025983185028" lat="50.80116909387618" gazref="unlock:11283116" source="unlock"/>
+   <geo easting="286500" northing="101500" long="-3.61201" lat="50.8019" kepnref="15730" source="kepn"/>
+  </extension>
+ </mads>
+ 

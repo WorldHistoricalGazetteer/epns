@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000237">
+  <authority ID="epns-deep-10-b-name-subparish-000237">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005211">Denford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000237" type="broader">
+   <geographic>Denford</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w282438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005212">Deneford(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w282480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005213">Danefort</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w282506">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005214">Denford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w282532">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005215">Derneford</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w282567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005216">Doneford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000556"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5439900" lat="52.3783000" gazref="geonames:2651380" source="geonames"/>
+   <geo long="-0.5381351343817525" lat="52.37710960455633" gazref="unlock:11128604" source="unlock"/>
+   <geo easting="499500" northing="276500" long="-0.539716" lat="52.3775" kepnref="11107" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w282438">
+    <attestation variantID="epns-deep-10-b-name-w282438">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w282438">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282480">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <source style="" id="nh280">St Werb</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282506">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282506">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282532">
+    <date end="1241" begin="1241" subtype="simple">1241</date>
+    <source style="" id="nh215">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282532">
+    <date end="1249" begin="1249" subtype="simple">1249</date>
+    <source style="" id="nh49">Cl</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w282567">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="nh253">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w282438">Deneforde</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w282438">Deneford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w282480">Danefort</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w282506">Denford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w282532">Derneford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w282567">Doneford</searchterm>
+  </extension>
+ </mads>
+ 

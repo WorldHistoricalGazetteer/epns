@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000151">
+  <authority ID="epns-deep-10-b-name-subparish-000151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003447">Great Cransley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000151" type="broader">
+   <geographic>Great Cransley</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w189343">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003448">Cranslea bricg</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w189381">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003449">Cranesleg, Craneslea</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w189469">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003450">Cranysleg and Cranesleye, Cranesle, Craneslegh</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w189507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003451">Craunisle</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w189527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/003452">Crannesley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00057e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7731447808292765" lat="52.37978290623622" gazref="unlock:11158648" source="unlock"/>
+   <geo easting="483500" northing="276500" long="-0.774698" lat="52.3802" kepnref="11021" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w189343">
+    <date end="956" begin="956" subtype="simple">956</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="" id="nh20">BCS</source>
+    <item>943</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w189381">
+    <attestation variantID="epns-deep-10-b-name-w189381">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="nh69">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-10-b-name-w189381">
+     <date end="1458" begin="1458" subtype="simple">1458</date>
+     <source style="" id="nh4">AD</source>
+     <item>vi</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w189469">
+    <date end="1458" begin="1086">1086-1458</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w189507">
+    <date end="1266" begin="1266" subtype="simple">1266</date>
+    <source style="" id="nh132">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w189527">
+    <date end="1530" begin="1530" subtype="simple">1530</date>
+    <source style="" id="nh4">AD</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w189343">Cranslea bricg</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189381">Cranesleg</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189381">Craneslea</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189469">Cranysleg</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189469">Cranesleye</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189469">Cranesle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189469">Craneslegh</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189507">Craunisle</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w189527">Crannesley</searchterm>
+  </extension>
+ </mads>
+ 

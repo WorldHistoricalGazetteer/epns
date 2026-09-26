@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000030">
+  <authority ID="epns-deep-28-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006049">Dunston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000030" type="broader">
+   <geographic>Newbold and Dunston</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w233248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006050">Don(e)ston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w233330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006051">Dun(e)ston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w233404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/006052">Dunstan</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018ce"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.452810553545577" lat="53.25697191132801" gazref="unlock:11134520" source="unlock"/>
+   <geo easting="437500" northing="373500" long="-1.43933" lat="53.2572" kepnref="3311" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w233248">
+    <date subtype="simple" begin="1101" end="1108">1101-8</date>
+    <source style="" id="db461">RegLich</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233248">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233248">
+    <attestation variantID="epns-deep-28-b-name-w233248">
+     <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+     <source style="italic" id="db589">WollCh</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w233248">
+     <date subtype="simple" begin="1484" end="1484">1484</date>
+     <source style="" id="db129">DbCh</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233330">
+    <date subtype="simple" begin="1258" end="1258">1258</date>
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233330">
+    <date subtype="simple" begin="1298" end="1298">1298</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233330">
+    <date subtype="simple" begin="1312" end="1312">1312</date>
+    <source style="" id="db262">Inq aqd</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233330">
+    <attestation variantID="epns-deep-28-b-name-w233330">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="" id="db389">Pat</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w233404">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db544">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w233248">Donestone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233248">Doneston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233248">Donstone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233248">Donston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233330">Dunestone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233330">Duneston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233330">Dunstone</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233330">Dunston</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w233404">Dunstan</searchterm>
+  </extension>
+ </mads>
+ 

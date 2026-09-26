@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000181">
+  <authority ID="epns-deep-04-b-name-subparish-000181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004814">Cakemore</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000183" type="broader">
+   <geographic>Halesowen</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w396681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004815">Cackemore, Cakkemore</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396721">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004816">Cakmore</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w396747">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004817">Cackemor</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000594"/>
+  </recordInfo>
+  <extension>
+   <geo easting="397500" northing="285500" long="-2.03821" lat="52.4674" kepnref="5347" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w396681">
+    <date end="1270" begin="1270" subtype="simple">1270</date>
+    <source style="" id="wo34">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396681">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <source style="" id="wo144">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396721">
+    <date end="1500" begin="1500" subtype="simple">1500</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo119">Nash</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w396747">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo209">Wills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w396681">Cackemore</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396681">Cakkemore</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396721">Cakmore</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w396747">Cackemor</searchterm>
+  </extension>
+ </mads>
+ 

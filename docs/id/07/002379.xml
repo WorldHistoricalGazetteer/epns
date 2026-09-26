@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000056">
+  <authority ID="epns-deep-07-b-name-subparish-000056">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002379">Lindfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000057" type="broader">
+   <geographic>Lindfield</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w155910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002380">Lindefeldia, Lendenfelda</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w155958">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002381">Lindefeld, Lyndefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w156018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002382">Lyndefeld Bardolf</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w156045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002383">Linfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w156064">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002384">Linfeild or Lindfeild Dorchter</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d30"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0807700" lat="51.0116500" gazref="geonames:2644480" source="geonames"/>
+   <geo long="-0.08243777030199737" lat="51.01259312174046" gazref="unlock:11195189" source="unlock"/>
+   <geo easting="534500" northing="125500" long="-0.0840155" lat="51.0132" kepnref="7074" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w155910">
+    <date end="765" begin="765" subtype="simple">765</date>
+    <copydate end="1310" begin="1290">c. 1300</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>197</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w155958">
+    <attestation variantID="epns-deep-07-b-name-w155958">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="su3">AD</source>
+     <item>iii</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-07-b-name-w155958">
+     <date end="1483" begin="1483" subtype="simple">1483</date>
+     <source style="" id="su3">AD</source>
+     <item>vi</item>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w156018">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w156045">
+    <date end="1590" begin="1590" subtype="simple">1590</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w156064">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="su190">Ogilby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w155910">Lindefeldia</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w155910">Lendenfelda</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w155958">Lindefeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w155958">Lyndefeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w156018">Lyndefeld Bardolf</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w156045">Linfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w156064">Linfeild</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w156064">Lindfeild Dorchter</searchterm>
+  </extension>
+ </mads>
+ 

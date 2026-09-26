@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000076">
+  <authority ID="epns-deep-30-b-name-subparish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/008443">Ulley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000050" type="broader">
+   <geographic>Treeton</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w379385">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/008444">Ollei(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w379403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/008445">Ullay, Ulley</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w379497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/008446">Ulley or Brampton Ulley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c8100628a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3022200" lat="53.3820000" gazref="geonames:2635194" source="geonames"/>
+   <geo long="-1.30844282" lat="53.37758478" source="epns"/>
+   <geo long="-1.30085267851094" lat="53.38203668125568" gazref="unlock:11309217" source="unlock"/>
+   <geo easting="446500" northing="387500" long="-1.30239" lat="53.3823" kepnref="14335" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w379385">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379403">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>xii</item>
+    <page>100</page>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379403">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="wr311">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379403">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="wr355">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379403">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="wr10">Aid</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379403">
+    <attestation variantID="epns-deep-30-b-name-w379403">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="wr740">Vill</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w379403">
+     <date subtype="simple" begin="1527" end="1527">1527</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w379497">
+    <date subtype="simple" begin="1822" end="1822">1822</date>
+    <source style="" id="wr325">Langd</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w379385">Olleie</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w379385">Ollei</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w379403">Ullay</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w379403">Ulley</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w379497">Ulley or Brampton Ulley</searchterm>
+  </extension>
+ </mads>
+ 

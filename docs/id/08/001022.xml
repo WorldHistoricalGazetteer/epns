@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000018">
+  <authority ID="epns-deep-08-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/001022">Marwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000001" type="broader">
+   <geographic>Braunton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0801400" lat="51.1189800" gazref="geonames:2642934" source="geonames"/>
+   <geo long="-4.079110541472652" lat="51.11776230851063" gazref="unlock:11214468" source="unlock"/>
+   <geo easting="254500" northing="137500" long="-4.08024" lat="51.1183" kepnref="15475" source="kepn"/>
+  </extension>
+ </mads>
+ 

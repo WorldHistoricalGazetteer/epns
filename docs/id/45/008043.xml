@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000053">
+  <authority ID="epns-deep-45-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008043">Lower Whitley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000010" type="broader">
+   <geographic>Great Budworth</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w342642">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008044">Nether Witelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w342674">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008045">Nether Whitelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w342835">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008046">Whitelegh Inferior</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w342869">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/008047">Lower Whitley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856001fd1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5796800" lat="53.3065300" gazref="geonames:6951031" source="geonames"/>
+   <geo long="-2.585218218" lat="53.29724486" source="epns"/>
+   <geo long="-2.577898042744816" lat="53.31076654811248" gazref="unlock:11208959" source="unlock"/>
+   <geo easting="361500" northing="379500" long="-2.57928" lat="53.311" kepnref="11809" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w342642">
+    <date subtype="regnal" begin="1216" end="1272">H3</date>
+    <copydate end="1666" begin="1666">1666</copydate>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w342674">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="ch107">ChF</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w342835">
+    <date subtype="circa" begin="1310" end="1330">c.1320</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w342869">
+    <date subtype="simple" begin="1544" end="1544">1544</date>
+    <source style="italic" id="ch6">AD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w342642">Nether Witelegh</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w342674">Nether Whitelegh</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w342835">Whitelegh Inferior</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w342869">Lower Whitley</searchterm>
+  </extension>
+ </mads>
+ 

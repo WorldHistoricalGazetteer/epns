@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000028">
+  <authority ID="epns-deep-02-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000432">Fenny Stratford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000027" type="broader">
+   <geographic>Fenny Stratford</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w31535">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000433">Fenni Stratford</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w31560">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000434">Fenny Stretford</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300035b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7179600" lat="51.9968000" gazref="geonames:2649552" source="geonames"/>
+   <geo long="-0.7106701575339189" lat="52.00145320700083" gazref="unlock:11143165" source="unlock"/>
+   <geo easting="488500" northing="234500" long="-0.712216" lat="52.0019" kepnref="11220" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w31535">
+    <date end="1252" begin="1252" subtype="simple">1252</date>
+    <source style="" id="bu15">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w31560">
+    <date end="1338" begin="1338" subtype="simple">1338</date>
+    <source style="" id="bu93">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w31535">Fenni Stratford</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w31560">Fenny Stretford</searchterm>
+  </extension>
+ </mads>
+ 

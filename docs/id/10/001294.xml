@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000055">
+  <authority ID="epns-deep-10-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001294">Marston St Lawrence</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000055" type="broader">
+   <geographic>Marston St Lawrence</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w74311">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001295">Merestone, Merestona</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001296">Merston(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001297">Merston by Bannebury</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74438">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001298">Mersshton Scī Laurencii</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74471">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001299">Mersshton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74490">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001300">Lawrence Marston</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w74523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001301">Larrens Marston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.219254630322488" lat="52.07785726193696" gazref="unlock:11214291" source="unlock"/>
+   <geo easting="453500" northing="242500" long="-1.22074" lat="52.0783" kepnref="10925" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w74311">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="nh69">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74311">
+    <date end="1129" begin="1121" subtype="simple">1121-9</date>
+    <source style="" id="nh109">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74311">
+    <date end="1336" begin="1336" subtype="simple">1336</date>
+    <source style="" id="nh4">AD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74367">
+    <attestation variantID="epns-deep-10-b-name-w74367">
+     <date end="1181" begin="1181" subtype="simple">1181</date>
+     <source style="" id="nh215">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-10-b-name-w74367">
+     <date end="1316" begin="1316" subtype="simple">1316</date>
+     <source style="" id="nh97">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74405">
+    <date end="1396" begin="1396" subtype="simple">1396</date>
+    <source style="" id="nh221">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74438">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="" id="nh245">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74471">
+    <date end="1383" begin="1383" subtype="simple">1383</date>
+    <source style="" id="nh49">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74490">
+    <date end="1547" begin="1509" subtype="regnal">t. Hy 8</date>
+    <source style="" id="nh4">AD</source>
+    <item>iii</item>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w74523">
+    <date end="1539" begin="1539" subtype="simple">1539</date>
+    <source style="" id="nh155">LP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w74311">Merestone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74311">Merestona</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74367">Merstone</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74367">Merston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74405">Merston by Bannebury</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74438">Mersshton Scī Laurencii</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74471">Mersshton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74490">Lawrence Marston</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w74523">Larrens Marston</searchterm>
+  </extension>
+ </mads>
+ 

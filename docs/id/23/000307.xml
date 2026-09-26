@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000002">
+  <authority ID="epns-deep-23-a-name-parish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/000307">Cowley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-ct-countytown-000001" type="broader">
+   <geographic>Oxford</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2074200" lat="51.7313900" gazref="geonames:2652191" source="geonames"/>
+   <geo long="-1.210674974208575" lat="51.73610076540123" gazref="unlock:11298531" source="unlock"/>
+   <geo easting="455500" northing="204500" long="-1.19767" lat="51.7365" kepnref="3523" source="kepn"/>
+  </extension>
+ </mads>
+ 

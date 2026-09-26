@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000024">
+  <authority ID="epns-deep-97-b-name-subparish-000024">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001582">March</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000027" type="broader">
+   <geographic>March</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w454616">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001583">Merc(c)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454636">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001584">Merche, Mercha</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001585">Merch(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001586">Merch</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454725">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001587">Merk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454752">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001588">March(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001589">March(e) by Welle</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454823">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001590">Mersh</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w454842">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/001591">Marsh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0882800" lat="52.5513100" gazref="geonames:2643071" source="geonames"/>
+   <geo long="0.08704100454884416" lat="52.54757252655174" gazref="unlock:11213447" source="unlock"/>
+   <geo easting="541500" northing="297500" long="0.0858059" lat="52.5569" kepnref="4117" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w454616">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ce237">InqEl</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454636">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ce116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454660">
+    <attestation variantID="epns-deep-97-b-name-w454660">
+     <date end="1170" begin="1170" subtype="simple">1170</date>
+     <source style="" id="ce267">LibEl</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-97-b-name-w454660">
+     <date end="1355" begin="1355" subtype="simple">1355</date>
+     <source style="italic" id="ce463">Walden</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454706">
+    <date end="1819" begin="1819" subtype="simple">1819</date>
+    <source style="" id="ce62">Carter</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454725">
+    <date end="1236" begin="1236" subtype="simple">1236</date>
+    <source style="" id="ce71">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454725">
+    <date end="1298" begin="1298" subtype="simple">1298</date>
+    <source style="italic" id="ce20">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454752">
+    <attestation variantID="epns-deep-97-b-name-w454752">
+     <date end="1286" begin="1286" subtype="simple">1286</date>
+     <source style="italic" id="ce292">MinAcct</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-97-b-name-w454752">
+     <date end="1554" begin="1554" subtype="simple">1554</date>
+     <source style="" id="ce343">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454795">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="ce343" underspec="ib">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454823">
+    <date end="1576" begin="1576" subtype="simple">1576</date>
+    <source style="" id="ce407">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w454842">
+    <date end="1700" begin="1600" subtype="century">17th</date>
+    <source style="italic" id="ce8">AdvL</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w454616">Mercc</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454616">Merc</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454636">Merche</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454636">Mercha</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454660">Merche</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454660">Merch</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454706">Merch</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454725">Merke</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454725">Merk</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454752">Marche</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454752">March</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454795">Marche by Welle</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454795">March by Welle</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454823">Mersh</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w454842">Marsh</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000142">
+  <authority ID="epns-deep-28-b-name-subparish-000142">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021723">Sinfin Moor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000137" type="broader">
+   <geographic>Sinfin Moor</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w793414">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021724">Sidenefenmor</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w793440">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021725">Synfenmore</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w793460">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/021726">Swinfin Moor</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001901"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.472435550106175" lat="52.87947102897073" gazref="unlock:11284201" source="unlock"/>
+   <geo easting="435500" northing="331500" long="-1.47393" lat="52.8798" kepnref="3413" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w793414">
+    <date subtype="regnal" begin="1216" end="1272">Hy 3</date>
+    <source style="" id="db124">Darley</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w793440">
+    <date subtype="simple" begin="1588" end="1588">1588</date>
+    <source style="italic" id="db193">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w793460">
+    <date subtype="simple" begin="1593" end="1593">1593</date>
+    <source style="italic" id="db140">Derby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w793414">Sidenefenmor</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w793440">Synfenmore</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w793460">Swinfin Moor</searchterm>
+  </extension>
+ </mads>
+ 

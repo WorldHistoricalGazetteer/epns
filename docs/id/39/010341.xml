@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000101">
+  <authority ID="epns-deep-39-a-name-parish-000101">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/010341">Beverston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000012" type="broader">
+   <geographic>Berkeley Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab300190c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1992300" lat="51.6423800" gazref="geonames:2655784" source="geonames"/>
+   <geo long="-2.202310557" lat="51.63516578" source="epns"/>
+   <geo long="-2.195104574288862" lat="51.63967484370825" gazref="unlock:11076358" source="unlock"/>
+   <geo easting="386500" northing="193500" long="-2.19647" lat="51.6401" kepnref="6428" source="kepn"/>
+  </extension>
+ </mads>
+ 

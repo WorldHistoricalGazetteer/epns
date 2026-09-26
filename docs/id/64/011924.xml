@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol64mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-64-a-parish-000032">
+  <authority ID="epns-deep-64-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/64/011924">Thornton Curtis</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-64-wp-subcounty-000001" type="broader">
+   <geographic>Yarborough Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f52"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3560400" lat="53.6456800" gazref="geonames:2635965" source="geonames"/>
+   <geo long="-0.3585671961759422" lat="53.64251431100476" gazref="unlock:11299957" source="unlock"/>
+   <geo easting="508500" northing="417500" long="-0.360225" lat="53.6428" kepnref="10853" source="kepn"/>
+  </extension>
+ </mads>
+ 

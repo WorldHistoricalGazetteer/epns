@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000049">
+  <authority ID="epns-deep-98-a-name-parish-000049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/001237">Millbrook</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000004" type="broader">
+   <geographic>Redbornstoke Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000293"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5243800" lat="52.0388200" gazref="geonames:2642525" source="geonames"/>
+   <geo long="-0.5201547786057139" lat="52.03518327306931" gazref="unlock:11219722" source="unlock"/>
+   <geo easting="501500" northing="238500" long="-0.521724" lat="52.0356" kepnref="4271" source="kepn"/>
+  </extension>
+ </mads>
+ 

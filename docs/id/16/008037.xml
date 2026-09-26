@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-hudb-belowsubcounty-000007">
+  <authority ID="epns-deep-16-hudb-name-belowsubcounty-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008037">Rowborough Regis Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000020" type="broader">
+   <geographic>Potterne and Cannings</geographic>
+  </related>
+  <variant ID="epns-deep-16-hudb-name-w393120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008038">Hundred de Roubergh Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-16-hudb-name-w393161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008039">Rowbergh Regis</geographic>
+  </variant>
+  <variant ID="epns-deep-16-hudb-name-w393187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008040">Roborowe Regis</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-16-hudb-name-w393120">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <date end="1332" begin="1332" subtype="simple">1332</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-hudb-name-w393161">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="ws103">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-hudb-name-w393187">
+    <date end="1547" begin="1547" subtype="simple">1547</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-hudb-name-w393120">Hundred de Roubergh Regis</searchterm>
+   <searchterm variantID="epns-deep-16-hudb-name-w393161">Rowbergh Regis</searchterm>
+   <searchterm variantID="epns-deep-16-hudb-name-w393187">Roborowe Regis</searchterm>
+  </extension>
+ </mads>
+ 

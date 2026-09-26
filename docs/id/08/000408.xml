@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000004">
+  <authority ID="epns-deep-08-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/000408">Bittadon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000001" type="broader">
+   <geographic>Braunton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001704"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0821200" lat="51.1535700" gazref="geonames:2655540" source="geonames"/>
+   <geo long="-4.080726333107877" lat="51.15371086438184" gazref="unlock:11078187" source="unlock"/>
+   <geo easting="254500" northing="141500" long="-4.08185" lat="51.1542" kepnref="15461" source="kepn"/>
+  </extension>
+ </mads>
+ 

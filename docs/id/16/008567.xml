@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000187">
+  <authority ID="epns-deep-16-b-name-subparish-000187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008567">Bromham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000213" type="broader">
+   <geographic>Bromham</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w421696">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008568">Bromham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w421746">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008569">Brumham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w421767">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008570">Bromham al. Brumham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w421799">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008571">Bramham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w421815">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008572">Bromeham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d8b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0373800" lat="51.3887900" gazref="geonames:7300312" source="geonames"/>
+   <geo long="-2.05030471094016" lat="51.38803645052312" gazref="unlock:11088586" source="unlock"/>
+   <geo easting="396500" northing="165500" long="-2.05167" lat="51.3885" kepnref="7367" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w421696">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421696">
+    <attestation variantID="epns-deep-16-b-name-w421696">
+     <date subtype="regnal" begin="1087" end="1100">t. early Wm 2</date>
+     <source style="" id="ws32">BM Facs</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421746">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws100">ExonDB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421767">
+    <date subtype="simple" begin="1760" end="1760">1760</date>
+    <source style="italic" id="ws276">Recov</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421799">
+    <date subtype="simple" begin="1168" end="1168">1168</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421815">
+    <date subtype="simple" begin="1433" end="1433">1433</date>
+    <source style="" id="ws56">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421815">
+    <date subtype="simple" begin="1458" end="1458">1458</date>
+    <date subtype="simple" begin="1494" end="1494">1494</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w421815">
+    <date subtype="simple" begin="1576" end="1576">1576</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w421696">Bromham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w421746">Brumham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w421767">Bromham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w421767">Brumham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w421799">Bramham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w421815">Bromeham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000108">
+  <authority ID="epns-deep-16-b-name-subparish-000108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005337">Boyton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000114" type="broader">
+   <geographic>Boyton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w263049">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005338">Boientone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w263068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005339">Boynton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w263086">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005340">Boiton'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w263102">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005341">Boiton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w263154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/005342">Boyton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000d80"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0711100" lat="51.1550000" gazref="geonames:3345425" source="geonames"/>
+   <geo long="-2.064350061759235" lat="51.15421514886038" gazref="unlock:11084519" source="unlock"/>
+   <geo easting="395500" northing="139500" long="-2.06571" lat="51.1547" kepnref="7277" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w263049">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w263068">
+    <date subtype="simple" begin="1366" end="1366">1366</date>
+    <source style="" id="ws145">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w263086">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w263102">
+    <attestation variantID="epns-deep-16-b-name-w263102">
+     <date subtype="simple" begin="1242" end="1242">1242</date>
+     <source style="" id="ws104">Fees</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w263154">
+    <date end="1600" begin="1242">1242-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w263049">Boientone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w263068">Boynton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w263086">Boiton'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w263102">Boiton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w263154">Boyton</searchterm>
+  </extension>
+ </mads>
+ 

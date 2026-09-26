@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-b-subparish-000119">
+  <authority ID="epns-deep-98-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002846">Streatley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-a-parish-000120" type="broader">
+   <geographic>Streatley</geographic>
+  </related>
+  <variant ID="epns-deep-98-b-name-w218212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002847">Strætlea</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002848">Stradlei, Strailli, Stradli</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218285">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002849">Stradlega, Stradlee, Stradlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218363">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002850">Stredlea, Stredle(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002851">Stratleg(h), Stratle(y)</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218550">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002852">Stretleg, Stretleye, Stretle</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218588">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002853">Stretle juxta Sewendon</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218660">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002854">Stradeleye</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218681">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002855">Strettle</geographic>
+  </variant>
+  <variant ID="epns-deep-98-b-name-w218711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002856">Stretly</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003b6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4437400" lat="51.9462800" gazref="geonames:2636672" source="geonames"/>
+   <geo long="-0.4358460938733575" lat="51.94416839845594" gazref="unlock:11294263" source="unlock"/>
+   <geo easting="507500" northing="228500" long="-0.437421" lat="51.9446" kepnref="4343" source="kepn"/>
+   <attestation variantID="epns-deep-98-b-name-w218212">
+    <date subtype="circa" begin="1043" end="1063">c. 1053</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="" id="bh99">KCD</source>
+    <item>920</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218248">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218285">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218285">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="bh65">Fees</source>
+    <item>887</item>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218285">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218363">
+    <date subtype="simple" begin="1171" end="1171">1171</date>
+    <source style="" id="bh142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218363">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="bh122">NI</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1302" end="1302">1302</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="bh93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1307" end="1307">1307</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="bh64">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218408">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="bh201">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218550">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="bh31">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218588">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218588">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="italic" id="bh186">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218588">
+    <date subtype="simple" begin="1390" end="1392">1390-2</date>
+    <source style="" id="bh39">CS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218588">
+    <date subtype="simple" begin="1526" end="1526">1526</date>
+    <source style="" id="bh108">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218588">
+    <date subtype="simple" begin="1766" end="1766">1766</date>
+    <source style="" id="bh96">J</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218660">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="bh9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218681">
+    <date subtype="simple" begin="1305" end="1305">1305</date>
+    <source style="italic" id="bh113">Merton</source>
+    <page>400</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-98-b-name-w218711">
+    <date subtype="simple" begin="1806" end="1806">1806</date>
+    <source style="" id="bh111">Lysons</source>
+   </attestation>
+   <searchterm variantID="epns-deep-98-b-name-w218212">Strætlea</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218248">Stradlei</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218248">Strailli</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218248">Stradli</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218285">Stradlega</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218285">Stradlee</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218285">Stradlegh</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218363">Stredlea</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218363">Stredley</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218363">Stredle</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218408">Stratlegh</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218408">Stratleg</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218408">Stratley</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218408">Stratle</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218550">Stretleg</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218550">Stretleye</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218550">Stretle</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218588">Stretle juxta Sewendon</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218660">Stradeleye</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218681">Strettle</searchterm>
+   <searchterm variantID="epns-deep-98-b-name-w218711">Stretly</searchterm>
+  </extension>
+ </mads>
+ 

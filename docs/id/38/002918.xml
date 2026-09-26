@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000032">
+  <authority ID="epns-deep-38-a-name-parish-000032">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002918">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000002" type="broader">
+   <geographic>Crowthorne and Minety Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9333300" lat="51.7000000" gazref="geonames:2639918" source="geonames"/>
+   <geo long="-1.942116643" lat="51.69827155" source="epns"/>
+   <geo long="-1.934874755779901" lat="51.70276459139126" gazref="unlock:11249849" source="unlock"/>
+   <geo easting="404500" northing="200500" long="-1.93627" lat="51.7032" kepnref="6223" source="kepn"/>
+  </extension>
+ </mads>
+ 

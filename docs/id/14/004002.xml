@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-a-parish-000105">
+  <authority ID="epns-deep-14-a-name-parish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/004002">Lockington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-wpd-belowsubcounty-000004" type="broader">
+   <geographic>Bainton Beacon Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285473b47fc40a4d0003e9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4857200" lat="53.9141500" gazref="geonames:2643788" source="geonames"/>
+   <geo long="-0.4849884923883696" lat="53.91388086165067" gazref="unlock:11204460" source="unlock"/>
+   <geo easting="499500" northing="447500" long="-0.486643" lat="53.9141" kepnref="8563" source="kepn"/>
+  </extension>
+ </mads>
+ 

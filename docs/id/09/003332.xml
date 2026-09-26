@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000065">
+  <authority ID="epns-deep-09-a-name-parish-000065">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003332">Stockleigh Pomeroy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000005" type="broader">
+   <geographic>West Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e00184e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5971900" lat="50.8206400" gazref="geonames:2636884" source="geonames"/>
+   <geo long="-3.597266334684216" lat="50.81954108863606" gazref="unlock:11292532" source="unlock"/>
+   <geo easting="287500" northing="103500" long="-3.59844" lat="50.8201" kepnref="15732" source="kepn"/>
+  </extension>
+ </mads>
+ 

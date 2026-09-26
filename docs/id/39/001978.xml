@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-a-parish-000028">
+  <authority ID="epns-deep-39-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/001978">Alderton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-hu-subcounty-000003" type="broader">
+   <geographic>Tewkesbury Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30018ee"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0068700" lat="51.9889100" gazref="geonames:7293610" source="geonames"/>
+   <geo long="-2" lat="51.99502099" source="epns"/>
+   <geo long="-1.992717571990433" lat="51.99052570114609" gazref="unlock:11058081" source="unlock"/>
+   <geo easting="400500" northing="233500" long="-1.99411" lat="51.9999" kepnref="6354" source="kepn"/>
+  </extension>
+ </mads>
+ 

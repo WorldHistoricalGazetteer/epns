@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000276">
+  <authority ID="epns-deep-12-b-name-subparish-000276">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016766">Stambourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000370" type="broader">
+   <geographic>Stambourne</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w828430">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016767">Stanburna</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828449">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016768">Stanburn(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016769">Stamburn</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016770">Stamborne</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016771">Stalburn</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828576">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016772">Stamborn, Magna Stanberge (Stanburgne)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w828624">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/016773">Stanburn (rectius Stanburg)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e94"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.5079200" lat="52.0205700" gazref="geonames:2637105" source="geonames"/>
+   <geo long="0.5141517513937585" lat="52.0176457017787" gazref="unlock:11290654" source="unlock"/>
+   <geo easting="572500" northing="238500" long="0.512464" lat="52.0181" kepnref="12531" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w828430">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828449">
+    <date subtype="simple" begin="1221" end="1254">1221-54</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828449">
+    <attestation variantID="epns-deep-12-b-name-w828449">
+     <date subtype="simple" begin="1227" end="1247">1227-47</date>
+     <source style="" id="ex313">Pat</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828494">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828494">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="italic" id="ex19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828494">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="" id="ex152">Fine</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828539">
+    <date subtype="simple" begin="1358" end="1358">1358</date>
+    <source style="italic" id="ex100">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828558">
+    <date subtype="simple" begin="1275" end="1275">1275</date>
+    <source style="" id="ex355">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828576">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w828624">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="ex147" underspec="ib">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w828430">Stanburna</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828449">Stanburne</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828449">Stanburn</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828494">Stamburn</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828539">Stamborne</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828558">Stalburn</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828576">Stamborn</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828576">Magna Stanberge Stanburgne</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828576">Magna Stanberge</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828624">Stanburn rectius Stanburg</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w828624">Stanburn</searchterm>
+  </extension>
+ </mads>
+ 

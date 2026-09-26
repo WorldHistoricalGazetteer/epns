@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000038">
+  <authority ID="epns-deep-16-b-name-subparish-000038">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001929">Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000039" type="broader">
+   <geographic>Norton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w102212">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001930">Nort(h)un</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w102262">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001931">Nortone</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w102314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001932">Norton, Nortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w102333">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001933">Nortone by Malmesbury</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w102367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/001934">Northton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e23"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1650000" lat="51.5594400" gazref="geonames:2641207" source="geonames"/>
+   <geo easting="388500" northing="184500" long="-2.16727" lat="51.5593" kepnref="7207" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w102212">
+    <date subtype="simple" begin="931" end="931">931</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25">BCS</source>
+    <item>671</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102212">
+    <date subtype="simple" begin="937" end="937">937</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ws25" underspec="ib">BCS</source>
+    <item>719</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102262">
+    <attestation variantID="epns-deep-16-b-name-w102262">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ws74">DB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102314">
+    <date end="1600" begin="1086">1086-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102333">
+    <date subtype="simple" begin="1408" end="1408">1408</date>
+    <source style="" id="ws245">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102367">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w102367">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="ws312">Tax</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w102212">Northun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102212">Nortun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102262">Nortone</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102314">Norton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102314">Nortune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102314">Nortun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102333">Nortone by Malmesbury</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w102367">Northton</searchterm>
+  </extension>
+ </mads>
+ 

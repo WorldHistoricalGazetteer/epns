@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000097">
+  <authority ID="epns-deep-15-b-name-subparish-000097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006292">Buckland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000110" type="broader">
+   <geographic>Buckland</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w313136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006293">Bochelande</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w313156">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006294">Bocland(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w313223">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006295">Boclond(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w313235">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006296">Bocland juxta Buntyngford</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w313272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006297">Buklond</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w313290">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006298">Buckeland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace00077a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0267800" lat="51.9844300" gazref="geonames:2654404" source="geonames"/>
+   <geo long="-0.02669956298164889" lat="51.98298544250952" gazref="unlock:11091706" source="unlock"/>
+   <geo easting="535500" northing="233500" long="-0.0283233" lat="51.9834" kepnref="4670" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w313136">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313156">
+    <date subtype="century" begin="1100" end="1200">12th</date>
+    <source style="" id="he62">Colch</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313156">
+    <attestation variantID="epns-deep-15-b-name-w313156">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="he74">Cur</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313223">
+    <date end="1600" begin="1198">1198-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313235">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313272">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="he146">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w313290">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w313136">Bochelande</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313156">Boclande</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313156">Bocland</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313223">Boclonde</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313223">Boclond</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313235">Bocland juxta Buntyngford</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313272">Buklond</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w313290">Buckeland</searchterm>
+  </extension>
+ </mads>
+ 

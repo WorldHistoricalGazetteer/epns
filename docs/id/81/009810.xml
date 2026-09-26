@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol81mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-81-a-parish-000022">
+  <authority ID="epns-deep-81-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/81/009810">Lowesby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-81-hu-subcounty-000001" type="broader">
+   <geographic>East Goscote Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010ca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9316900" lat="52.6605600" gazref="geonames:2643493" source="geonames"/>
+   <geo long="-0.9279710960903657" lat="52.66002065598378" gazref="unlock:11209061" source="unlock"/>
+   <geo easting="472500" northing="307500" long="-0.929518" lat="52.6604" kepnref="8821" source="kepn"/>
+  </extension>
+ </mads>
+ 

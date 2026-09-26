@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000100">
+  <authority ID="epns-deep-38-a-name-parish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/009265">Upper Slaughter</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000007" type="broader">
+   <geographic>Slaughter Hundred (Lower Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a31"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7754900" lat="51.9072100" gazref="geonames:2635108" source="geonames"/>
+   <geo long="-1.781942744" lat="51.90490083" source="epns"/>
+   <geo long="-1.774651664976487" lat="51.90938383780848" gazref="unlock:11310458" source="unlock"/>
+   <geo easting="416500" northing="222500" long="-1.76158" lat="51.9008" kepnref="6289" source="kepn"/>
+  </extension>
+ </mads>
+ 

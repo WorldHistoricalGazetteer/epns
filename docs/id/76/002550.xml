@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol76mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-76-b-subparish-000011">
+  <authority ID="epns-deep-76-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002550">Wrockwardine Wood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-76-a-parish-000006" type="broader">
+   <geographic>Oakengates</geographic>
+  </related>
+  <variant ID="epns-deep-76-b-name-w115931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002551">Rocwaredine Wood</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w116114">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002552">Workwardyne Wood</geographic>
+  </variant>
+  <variant ID="epns-deep-76-b-name-w116143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/76/002553">Wrockwardine Wood</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a642b47fc4463d000f0d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.449935864" lat="52.70177535" source="epns"/>
+   <geo long="-2.436598008007338" lat="52.7000280740772" gazref="unlock:11327679" source="unlock"/>
+   <attestation variantID="epns-deep-76-b-name-w115931">
+    <date end="1634" begin="1634" subtype="simple">1634</date>
+    <source style="" id="ss231">PR(L)</source>
+    <page>8</page>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w116114">
+    <date end="1661" begin="1661" subtype="simple">1661</date>
+    <source style="italic" id="ss151">Lilco</source>
+   </attestation>
+   <attestation variantID="epns-deep-76-b-name-w116143">
+    <date end="1794" begin="1794" subtype="simple">1794</date>
+    <source style="italic" id="ss151" underspec="ib">Lilco</source>
+   </attestation>
+   <searchterm variantID="epns-deep-76-b-name-w115931">Rocwaredine Wood</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w116114">Workwardyne Wood</searchterm>
+   <searchterm variantID="epns-deep-76-b-name-w116143">Wrockwardine Wood</searchterm>
+  </extension>
+ </mads>
+ 

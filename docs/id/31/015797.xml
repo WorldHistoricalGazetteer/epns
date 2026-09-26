@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol31mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-31-b-subparish-000127">
+  <authority ID="epns-deep-31-b-name-subparish-000127">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015797">Meltham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-31-a-parish-000036" type="broader">
+   <geographic>Almondbury</geographic>
+  </related>
+  <variant ID="epns-deep-31-b-name-w681356">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015798">Meltha'</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w681373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015799">Meltham</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w681451">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015800">Melthame</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w681483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015801">Melteham</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w681513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015802">Muletham</geographic>
+  </variant>
+  <variant ID="epns-deep-31-b-name-w681533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/31/015803">Meltam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827ab47fc40c81006058"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8500000" lat="53.5833300" gazref="geonames:2642766" source="geonames"/>
+   <geo long="-1.864030636" lat="53.58626871" source="epns"/>
+   <geo long="-1.856461535063175" lat="53.59075578696795" gazref="unlock:11217017" source="unlock"/>
+   <geo easting="409500" northing="410500" long="-1.85794" lat="53.591" kepnref="14519" source="kepn"/>
+   <attestation variantID="epns-deep-31-b-name-w681356">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681373">
+    <date subtype="simple" begin="1255" end="1255">1255</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681373">
+    <date subtype="simple" begin="1297" end="1297">1297</date>
+    <source style="" id="wr355">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681373">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681373">
+    <attestation variantID="epns-deep-31-b-name-w681373">
+     <date subtype="simple" begin="1347" end="1347">1347</date>
+     <date subtype="simple" begin="1361" end="1361">1361</date>
+     <source style="" id="wr140">DodsN</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-31-b-name-w681373">
+     <date subtype="simple" begin="1588" end="1588">1588</date>
+     <source style="" id="wr355">LS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681451">
+    <date subtype="simple" begin="1583" end="1583">1583</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681451">
+    <date subtype="simple" begin="1608" end="1608">1608</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681483">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681483">
+    <date subtype="simple" begin="1388" end="1388">1388</date>
+    <source style="" id="wr140">DodsN</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681513">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="wr740">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681533">
+    <date subtype="simple" begin="1405" end="1405">1405</date>
+    <source style="italic" id="wr798">YD</source>
+    <page>24</page>
+   </attestation>
+   <attestation variantID="epns-deep-31-b-name-w681533">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <source style="" id="wr799">YD</source>
+    <item>i</item>
+   </attestation>
+   <searchterm variantID="epns-deep-31-b-name-w681356">Meltha'</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w681373">Meltham</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w681451">Melthame</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w681483">Melteham</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w681513">Muletham</searchterm>
+   <searchterm variantID="epns-deep-31-b-name-w681533">Meltam</searchterm>
+  </extension>
+ </mads>
+ 

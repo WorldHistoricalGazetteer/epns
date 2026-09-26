@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000081">
+  <authority ID="epns-deep-15-a-name-parish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005011">Watton at Stone</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000004" type="broader">
+   <geographic>Broadwater Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b94b47fc40ace00074e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1138100" lat="51.8584200" gazref="geonames:2634660" source="geonames"/>
+   <geo long="-0.1192928131028169" lat="51.85859863735989" gazref="unlock:11314758" source="unlock"/>
+   <geo easting="530500" northing="219500" long="-0.106388" lat="51.8588" kepnref="4644" source="kepn"/>
+  </extension>
+ </mads>
+ 

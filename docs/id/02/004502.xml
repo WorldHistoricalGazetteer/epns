@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000205">
+  <authority ID="epns-deep-02-b-name-subparish-000205">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004502">Horton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000208" type="broader">
+   <geographic>Horton</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w320147">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004503">Hortune</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w320164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004504">Horton by Colbroke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e300037b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5424500" lat="51.4731500" gazref="geonames:2646548" source="geonames"/>
+   <geo long="-0.5385518319091906" lat="51.4688663105273" gazref="unlock:11179802" source="unlock"/>
+   <geo easting="501500" northing="176500" long="-0.539809" lat="51.4784" kepnref="11402" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w320147">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w320164">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="bu40">Fine</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w320147">Hortune</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w320164">Horton by Colbroke</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000043">
+  <authority ID="epns-deep-15-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003092">St Michaels</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000049" type="broader">
+   <geographic>St Michaels</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w158181">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003093">(parochianorum) Sancti Michaelis</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w158231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003094">ecclesiam Sancti Michaelis</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w158271">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003095">Seynt Mighell parissh</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w158304">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003096">Seynt Michellys</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007c8"/>
+  </recordInfo>
+  <extension>
+   <geo easting="511500" northing="207500" long="-0.386017" lat="51.7551" kepnref="4622" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w158181">
+    <date subtype="simple" begin="1119" end="1146">1119-46</date>
+    <source style="" id="he121">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w158231">
+    <date subtype="simple" begin="1349" end="1396">1349-96</date>
+    <source style="" id="he121" underspec="ib">Gesta</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w158271">
+    <date subtype="simple" begin="1524" end="1524">1524</date>
+    <source style="italic" id="he298">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w158304">
+    <date subtype="simple" begin="1526" end="1526">1526</date>
+    <source style="italic" id="he268">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w158181">parochianorum Sancti Michaelis</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w158181">Sancti Michaelis</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w158231">ecclesiam Sancti Michaelis</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w158271">Seynt Mighell parissh</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w158304">Seynt Michellys</searchterm>
+  </extension>
+ </mads>
+ 

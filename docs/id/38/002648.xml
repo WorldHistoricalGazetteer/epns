@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000028">
+  <authority ID="epns-deep-38-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002648">Kemble</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000002" type="broader">
+   <geographic>Crowthorne and Minety Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001997"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0180600" lat="51.6766700" gazref="geonames:2645838" source="geonames"/>
+   <geo long="-2.028918763" lat="51.66231332" source="epns"/>
+   <geo long="-2.021686932744963" lat="51.65781947412669" gazref="unlock:11184940" source="unlock"/>
+  </extension>
+ </mads>
+ 

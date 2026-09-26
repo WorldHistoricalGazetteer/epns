@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000022">
+  <authority ID="epns-deep-07-a-name-parish-000022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001074">Brighton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000004" type="broader">
+   <geographic>Whalesborne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b4d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1394700" lat="50.8283800" gazref="geonames:2654710" source="geonames"/>
+   <geo long="-0.1320387483598833" lat="50.84250384019652" gazref="unlock:11087251" source="unlock"/>
+   <geo easting="531500" northing="105500" long="-0.133963" lat="50.8341" kepnref="7041" source="kepn"/>
+  </extension>
+ </mads>
+ 

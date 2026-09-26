@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-a-parish-000021">
+  <authority ID="epns-deep-38-a-name-parish-000021">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002294">Coates</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-hu-subcounty-000002" type="broader">
+   <geographic>Crowthorne and Minety Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001936"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0292200" lat="51.6982900" gazref="geonames:7293576" source="geonames"/>
+   <geo long="-2.028941684" lat="51.69828224" source="epns"/>
+   <geo long="-2.021708421458409" lat="51.70278063437451" gazref="unlock:11111242" source="unlock"/>
+   <geo easting="398500" northing="201500" long="-2.0231" lat="51.7122" kepnref="6212" source="kepn"/>
+  </extension>
+ </mads>
+ 

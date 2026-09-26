@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000095">
+  <authority ID="epns-deep-08-a-name-parish-000095">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004906">Luffincott</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000006" type="broader">
+   <geographic>Black Torrington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017d1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.3624200" lat="50.7270600" gazref="geonames:2643421" source="geonames"/>
+   <geo long="-4.359297393719254" lat="50.72565913798962" gazref="unlock:11209451" source="unlock"/>
+   <geo easting="233500" northing="94500" long="-4.36038" lat="50.7262" kepnref="15552" source="kepn"/>
+  </extension>
+ </mads>
+ 

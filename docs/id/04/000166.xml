@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-hu-subcounty-000001">
+  <authority ID="epns-deep-04-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000166">Doddingtree Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-co-county-000001" type="broader">
+   <geographic>Worcestershire</geographic>
+  </related>
+  <variant ID="epns-deep-04-hu-name-w9902">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000167">Dodintret, Dodintreu, Dodentreu</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w9943">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000168">Dudintree</geographic>
+  </variant>
+  <variant ID="epns-deep-04-hu-name-w9975">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000169">Dodintre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a0eb47fc40d6b000536"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-04-hu-name-w9902">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w9943">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="wo190">Surv</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w9943">
+    <date subtype="simple" begin="1175" end="1175">1175</date>
+    <source style="" id="wo142">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-hu-name-w9975">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="wo170">RH</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-hu-name-w9902">Dodintret</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w9902">Dodintreu</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w9902">Dodentreu</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w9943">Dudintree</searchterm>
+   <searchterm variantID="epns-deep-04-hu-name-w9975">Dodintre</searchterm>
+  </extension>
+ </mads>
+ 

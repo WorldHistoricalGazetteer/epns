@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000025">
+  <authority ID="epns-deep-07-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001157">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000025" type="broader">
+   <geographic>Preston</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w79325">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001158">Prestetone</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w79345">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001159">Prestitun</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w79369">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001160">Bisshopespreston</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w79395">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/001161">Preston Ep'i</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d5d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1462358048357983" lat="50.84273029381169" gazref="unlock:11249864" source="unlock"/>
+   <geo easting="531500" northing="107500" long="-0.133245" lat="50.8521" kepnref="7044" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w79325">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w79345">
+    <date end="1212" begin="1212" subtype="simple">1212</date>
+    <source style="" id="su95">Fees</source>
+    <item>72</item>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w79369">
+    <date end="1319" begin="1319" subtype="simple">1319</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w79395">
+    <date end="1340" begin="1340" subtype="simple">1340</date>
+    <source style="" id="su176">NI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w79325">Prestetone</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w79345">Prestitun</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w79369">Bisshopespreston</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w79395">Preston Ep'i</searchterm>
+  </extension>
+ </mads>
+ 

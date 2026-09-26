@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000007">
+  <authority ID="epns-deep-16-a-name-parish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/000486">Stanton Fitzwarren</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000001" type="broader">
+   <geographic>Highworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000cf7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7445500" lat="51.6120000" gazref="geonames:2637045" source="geonames"/>
+   <geo long="-1.74723715004968" lat="51.61258788933614" gazref="unlock:11291158" source="unlock"/>
+   <geo easting="417500" northing="190500" long="-1.74865" lat="51.6131" kepnref="7170" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-b-subparish-000094">
+  <authority ID="epns-deep-11-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006353">Compton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-a-parish-000094" type="broader">
+   <geographic>Compton</geographic>
+  </related>
+  <variant ID="epns-deep-11-b-name-w349403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006354">Conton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006355">Comton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349447">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006356">Cumpton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349482">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006357">Cumpton juxta Guldeford</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349527">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006358">Compton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006359">Estcompton</geographic>
+  </variant>
+  <variant ID="epns-deep-11-b-name-w349587">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/006360">Cometon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287118b47fc40c23000ab9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6290100" lat="51.2207100" gazref="geonames:7291934" source="geonames"/>
+   <geo long="-0.6326954529241933" lat="51.20919581849629" gazref="unlock:11114951" source="unlock"/>
+   <geo easting="495500" northing="147500" long="-0.633953" lat="51.2187" kepnref="8334" source="kepn"/>
+   <attestation variantID="epns-deep-11-b-name-w349403">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="sr75">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349403">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349431">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349447">
+    <attestation variantID="epns-deep-11-b-name-w349447">
+     <date end="1190" begin="1190" subtype="simple">1190</date>
+     <source style="" id="sr232">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-11-b-name-w349447">
+     <date end="1339" begin="1339" subtype="simple">1339</date>
+     <source style="" id="sr106">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349482">
+    <date end="1313" begin="1313" subtype="simple">1313</date>
+    <source style="italic" id="sr16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349482">
+    <date end="1321" begin="1321" subtype="simple">1321</date>
+    <source style="" id="sr106">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349527">
+    <date end="1287" begin="1287" subtype="simple">1287</date>
+    <date end="1312" begin="1312" subtype="simple">1312</date>
+    <source style="" id="sr142">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349551">
+    <date end="1467" begin="1467" subtype="simple">1467</date>
+    <source style="" id="sr192">Moulton</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349551">
+    <date end="1571" begin="1571" subtype="simple">1571</date>
+    <source style="italic" id="sr107">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-11-b-name-w349587">
+    <date end="1601" begin="1601" subtype="simple">1601</date>
+    <source style="" id="sr298">SrWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-11-b-name-w349403">Contone</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349403">Conton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349431">Comton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349447">Cumpton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349482">Cumpton juxta Guldeford</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349527">Compton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349551">Estcompton</searchterm>
+   <searchterm variantID="epns-deep-11-b-name-w349587">Cometon</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000177">
+  <authority ID="epns-deep-02-a-name-parish-000177">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/003754">Wooburn</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000016" type="broader">
+   <geographic>Desborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002ff"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6930000" lat="51.5788800" gazref="geonames:2633675" source="geonames"/>
+   <geo long="-0.6938051346358632" lat="51.57861464660012" gazref="unlock:11325063" source="unlock"/>
+   <geo easting="490500" northing="187500" long="-0.695336" lat="51.5791" kepnref="11373" source="kepn"/>
+  </extension>
+ </mads>
+ 

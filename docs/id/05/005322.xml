@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-a-parish-000162">
+  <authority ID="epns-deep-05-a-name-parish-000162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005322">Manfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000012" type="broader">
+   <geographic>Gilling East Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0db47fc40bc6000399"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6611700" lat="54.5162700" gazref="geonames:2643120" source="geonames"/>
+   <geo long="-1.6523999253765" lat="54.51617148838442" gazref="unlock:11211916" source="unlock"/>
+   <geo easting="422500" northing="513500" long="-1.65394" lat="54.5163" kepnref="6135" source="kepn"/>
+  </extension>
+ </mads>
+ 

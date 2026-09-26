@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol11mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-11-a-parish-000046">
+  <authority ID="epns-deep-11-a-name-parish-000046">
+   <geographic valueURI="http://placenames.org.uk/id/placename/11/002370">Fetcham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-11-hu-subcounty-000004" type="broader">
+   <geographic>Copthorne Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287107b47fc40c23000a2f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3558200" lat="51.2887900" gazref="geonames:7287910" source="geonames"/>
+   <geo long="-0.3578964474630952" lat="51.28660495677752" gazref="unlock:11143494" source="unlock"/>
+   <geo easting="514500" northing="156500" long="-0.359134" lat="51.2961" kepnref="8286" source="kepn"/>
+  </extension>
+ </mads>
+ 

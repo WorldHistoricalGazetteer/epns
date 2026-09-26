@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000150">
+  <authority ID="epns-deep-02-b-name-subparish-000150">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002930">Hampden (Great and Little)</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000148" type="broader">
+   <geographic>Great and Little Hampden</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w203158">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002931">Hamdenam</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w203176">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002932">Hamedene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w203211">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002933">Hampdene</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w203249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/002934">Hamdene</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e3000363"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7666700" lat="51.7000000" gazref="geonames:2647558" source="geonames"/>
+   <geo long="-0.7769999259715136" lat="51.70540975534677" gazref="unlock:11158813" source="unlock"/>
+   <geo easting="484500" northing="201500" long="-0.778526" lat="51.7059" kepnref="11343" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w203158">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w203176">
+    <date end="1260" begin="1240" subtype="circa">c. 1250</date>
+    <source style="" id="bu98">Rec.</source>
+    <item>xi</item>
+    <page>344</page>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w203211">
+    <date end="1210" begin="1190" subtype="circa">c. 1200</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="bu75">Miss</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w203249">
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="italic" id="bu9">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w203249">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w203249">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w203158">Hamdenam</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w203176">Hamedene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w203211">Hampdene</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w203249">Hamdene</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol21mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-21-b-subparish-000089">
+  <authority ID="epns-deep-21-b-name-subparish-000089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008504">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-21-a-parish-000094" type="broader">
+   <geographic>Preston Quarter</geographic>
+  </related>
+  <variant ID="epns-deep-21-b-name-w362476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008505">Prestun</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w362525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008506">Prestona</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w362555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008507">Preston</geographic>
+  </variant>
+  <variant ID="epns-deep-21-b-name-w362588">
+   <geographic valueURI="http://placenames.org.uk/id/placename/21/008508">Preston Quarter</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9001023"/>
+  </recordInfo>
+  <extension>
+   <geo easting="297500" northing="512500" long="-3.58415" lat="54.4974" kepnref="4557" source="kepn"/>
+   <attestation variantID="epns-deep-21-b-name-w362476">
+    <attestation variantID="epns-deep-21-b-name-w362476">
+     <date end="1145" begin="1125" subtype="circa">c. 1135</date>
+     <source style="italic" id="cu202">Lowther</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w362525">
+    <date end="1199" begin="1189" subtype="regnal">t. Ric. i</date>
+    <copydate end="1308" begin="1308">1308</copydate>
+    <source style="" id="cu45">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w362555">
+    <attestation variantID="epns-deep-21-b-name-w362555">
+     <date end="1220" begin="1200" subtype="circa">c. 1210</date>
+     <source style="" id="cu369">StB</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-21-b-name-w362588">
+    <date end="1705" begin="1705" subtype="simple">1705</date>
+    <source style="" id="cu75">CW (OS)</source>
+    <item>ix</item>
+   </attestation>
+   <searchterm variantID="epns-deep-21-b-name-w362476">Prestun</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w362525">Prestona</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w362555">Preston</searchterm>
+   <searchterm variantID="epns-deep-21-b-name-w362588">Preston Quarter</searchterm>
+  </extension>
+ </mads>
+ 

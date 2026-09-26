@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000057">
+  <authority ID="epns-deep-08-b-name-subparish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002993">Northam</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000057" type="broader">
+   <geographic>Northam</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w156383">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002994">Northam</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w156408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002995">Norham</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w156431">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002996">Northeham</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019de"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2208400" lat="51.0506700" gazref="geonames:7294946" source="geonames"/>
+   <geo long="-4.218450893344931" lat="51.04324422913778" gazref="unlock:11233272" source="unlock"/>
+   <geo easting="244500" northing="129500" long="-4.21956" lat="51.0438" kepnref="15514" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w156383">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w156408">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <date end="1238" begin="1238" subtype="simple">1238</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w156431">
+    <date end="1485" begin="1475" subtype="simple">1475-85</date>
+    <source style="" id="de72">ECP</source>
+    <item>2</item>
+    <page>439</page>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w156383">Northam</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w156408">Norham</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w156431">Northeham</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000096">
+  <authority ID="epns-deep-15-a-name-parish-000096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005649">Hinxworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000005" type="broader">
+   <geographic>Odsey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000702"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1984400" lat="52.0481600" gazref="geonames:2646839" source="geonames"/>
+   <geo long="-0.198833661672732" lat="52.04869406866631" gazref="unlock:11175839" source="unlock"/>
+   <geo easting="523500" northing="240500" long="-0.20044" lat="52.0491" kepnref="4655" source="kepn"/>
+  </extension>
+ </mads>
+ 

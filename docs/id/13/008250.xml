@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-hudb-belowsubcounty-000010">
+  <authority ID="epns-deep-13-hudb-name-belowsubcounty-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008250">Tremelau Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hu-subcounty-000004" type="broader">
+   <geographic>Kineton Hundred</geographic>
+  </related>
+  <variant ID="epns-deep-13-hudb-name-w422925">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008251">Treme(s)lau</geographic>
+  </variant>
+  <variant ID="epns-deep-13-hudb-name-w422946">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008252">Tremelawa</geographic>
+  </variant>
+  <variant ID="epns-deep-13-hudb-name-w422974">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008253">Tremlawe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-13-hudb-name-w422925">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wa77">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-hudb-name-w422946">
+    <date subtype="simple" begin="1180" end="1180">1180</date>
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <date subtype="simple" begin="1191" end="1191">1191</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-hudb-name-w422974">
+    <date subtype="simple" begin="1187" end="1187">1187</date>
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="wa213">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-hudb-name-w422925">Tremeslau</searchterm>
+   <searchterm variantID="epns-deep-13-hudb-name-w422925">Tremelau</searchterm>
+   <searchterm variantID="epns-deep-13-hudb-name-w422946">Tremelawa</searchterm>
+   <searchterm variantID="epns-deep-13-hudb-name-w422974">Tremlawe</searchterm>
+  </extension>
+ </mads>
+ 

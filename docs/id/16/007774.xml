@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000165">
+  <authority ID="epns-deep-16-b-name-subparish-000165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007774">Stockton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000184" type="broader">
+   <geographic>Stockton</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w381498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007775">Stottune</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381516">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007776">Stoctun'</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381533">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007777">Stocton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381597">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007778">Stokton</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007779">Stocktun</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381633">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007780">Stokton juxta Codeford</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w381665">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/007781">Stoketon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e50"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0319400" lat="51.1452800" gazref="geonames:3345423" source="geonames"/>
+   <geo long="-2.021445858561303" lat="51.14523783400219" gazref="unlock:11292592" source="unlock"/>
+   <geo easting="398500" northing="138500" long="-2.02281" lat="51.1458" kepnref="7342" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w381498">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381516">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ws240">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381533">
+    <attestation variantID="epns-deep-16-b-name-w381533">
+     <date subtype="simple" begin="1189" end="1189">1189</date>
+     <source style="" id="ws30">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w381533">
+     <date subtype="simple" begin="1350" end="1350">1350</date>
+     <source style="italic" id="ws10">AddCh</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381597">
+    <date end="1350" begin="1189">1189-1350</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381606">
+    <date subtype="circa" begin="1240" end="1260">c. 1250</date>
+    <source style="italic" id="ws278">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381633">
+    <date subtype="simple" begin="1355" end="1355">1355</date>
+    <source style="italic" id="ws108">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w381665">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="italic" id="ws276">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w381498">Stottune</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381516">Stoctun'</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381533">Stocton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381597">Stokton</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381606">Stocktun</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381633">Stokton juxta Codeford</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w381665">Stoketon</searchterm>
+  </extension>
+ </mads>
+ 

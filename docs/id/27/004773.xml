@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000043">
+  <authority ID="epns-deep-27-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004773">Over Haddon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000040" type="broader">
+   <geographic>Over Haddon</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w192476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004774">Hadd' Superior</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w192505">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004775">Haddon' superiore</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w192531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004776">Uuer Haddon(e), Uure Haddon(e), Uvere Haddon(e), Ufre Haddon(e), Huwer Haddon(e), Houre Haddon(e), Hover(e) Haddon(e), Ouer(e) Haddon(e), Over(e) Haddon(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w192738">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004777">Vuerheldon'</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w192768">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004778">Vuerheddon'</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w192793">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/004779">Vfrehedon'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c0018e0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7154600" lat="53.1933900" gazref="geonames:7294842" source="geonames"/>
+   <geo long="-1.693119392150656" lat="53.1949031833487" gazref="unlock:11237773" source="unlock"/>
+   <geo easting="420500" northing="366500" long="-1.6946" lat="53.1952" kepnref="3243" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w192476">
+    <date end="1209" begin="1189" subtype="circa">c. 1199</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192505">
+    <date end="1210" begin="1210" subtype="simple">1210</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192531">
+    <date end="1216" begin="1199" subtype="regnal">John</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192531">
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="db116">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192531">
+    <attestation variantID="epns-deep-27-b-name-w192531">
+     <date end="1230" begin="1230" subtype="simple">1230</date>
+     <source style="" id="db82">ChancR</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192738">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192768">
+    <date end="1207" begin="1207" subtype="simple">1207</date>
+    <source style="" id="db379" underspec="ib">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w192793">
+    <date end="1230" begin="1230" subtype="simple">1230</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w192476">Hadd' Superior</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192505">Haddon' superiore</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uuer Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uuer Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uure Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uure Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uvere Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Uvere Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ufre Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ufre Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Huwer Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Huwer Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Houre Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Houre Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Hovere Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Hovere Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Hover Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Hover Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ouere Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ouere Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ouer Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Ouer Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Overe Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Overe Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Over Haddone</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192531">Over Haddon</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192738">Vuerheldon'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192768">Vuerheddon'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w192793">Vfrehedon'</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol83mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-83-a-parish-000005">
+  <authority ID="epns-deep-83-a-name-parish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/83/003527">Elton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-83-w-subcounty-000001" type="broader">
+   <geographic>Stockton Ward</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-11-07</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532853a7b47fc40a38000477"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3834100" lat="54.5491900" gazref="geonames:7297261" source="geonames"/>
+   <geo long="-1.381582841" lat="54.54654671" source="epns"/>
+   <geo long="-1.373784119712192" lat="54.55100213789635" gazref="unlock:11139822" source="unlock"/>
+   <geo easting="440500" northing="517500" long="-1.37536" lat="54.5511" kepnref="7737" source="kepn"/>
+  </extension>
+ </mads>
+ 

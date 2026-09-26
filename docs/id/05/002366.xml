@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000186">
+  <authority ID="epns-deep-05-b-name-subparish-000186">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002366">Ugthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000068" type="broader">
+   <geographic>Lythe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w185825">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002367">Ug(h)etorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w185845">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002368">Uggethorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w185892">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002369">Ugthorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w185939">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002370">Hugethorpe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600052d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7753100" lat="54.4902900" gazref="geonames:2635222" source="geonames"/>
+   <geo long="-0.7724957965240052" lat="54.49246388400318" gazref="unlock:11309098" source="unlock"/>
+   <geo easting="479500" northing="511500" long="-0.774142" lat="54.4926" kepnref="5837" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w185825">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w185845">
+    <attestation variantID="epns-deep-05-b-name-w185845">
+     <date subtype="simple" begin="1161" end="1161">1161</date>
+     <source style="" id="ny236">YCh</source>
+     <page>619</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w185845">
+     <date subtype="simple" begin="1242" end="1242">1242</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w185892">
+    <date subtype="circa" begin="1170" end="1190">c. 1180</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w185892">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w185892">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w185939">
+    <date subtype="simple" begin="1262" end="1262">1262</date>
+    <source style="" id="ny81">Guis</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w185825">Ughetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185825">Ugetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185845">Uggethorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185845">Uggethorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185892">Ugthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185892">Ugthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w185939">Hugethorpe</searchterm>
+  </extension>
+ </mads>
+ 

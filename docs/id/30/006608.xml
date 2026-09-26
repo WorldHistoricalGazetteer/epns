@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-b-subparish-000055">
+  <authority ID="epns-deep-30-b-name-subparish-000055">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006608">Edlington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-a-parish-000036" type="broader">
+   <geographic>Edlington</geographic>
+  </related>
+  <variant ID="epns-deep-30-b-name-w302910">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006609">Eilintone, Ellintone</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w302940">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006610">Edelington'</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w303022">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006611">Edelinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w303054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006612">Edlingtun, Edlington', Edlyngton'</geographic>
+  </variant>
+  <variant ID="epns-deep-30-b-name-w303192">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/006613">Edlinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060f9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1829300" lat="53.4733900" gazref="geonames:7291078" source="geonames"/>
+   <geo long="-1.201533915" lat="53.46681591" source="epns"/>
+   <geo long="-1.193916636871136" lat="53.47126087102918" gazref="unlock:11235548" source="unlock"/>
+   <geo easting="454500" northing="398500" long="-1.18023" lat="53.4804" kepnref="14313" source="kepn"/>
+   <attestation variantID="epns-deep-30-b-name-w302910">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w302940">
+    <date subtype="simple" begin="1194" end="1199">1194-9</date>
+    <source style="" id="wr796">YCh</source>
+    <item>viii</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w302940">
+    <date subtype="simple" begin="1223" end="1223">1223</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w302940">
+    <date subtype="simple" begin="1250" end="1250">1250</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w302940">
+    <attestation variantID="epns-deep-30-b-name-w302940">
+     <date subtype="simple" begin="1268" end="1268">1268</date>
+     <source style="" id="wr206">FF</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-30-b-name-w302940">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="wr740">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303022">
+    <date subtype="simple" begin="1210" end="1210">1210</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303022">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="" id="wr601">RH</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <date subtype="simple" begin="1196" end="1201">1196-1201</date>
+    <source style="" id="wr796">YCh</source>
+    <item>viii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="wr341">Lewes</source>
+    <item>295</item>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="wr201">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <date subtype="simple" begin="1246" end="1246">1246</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303054">
+    <attestation variantID="epns-deep-30-b-name-w303054">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-30-b-name-w303054">
+     <date subtype="simple" begin="1641" end="1641">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303192">
+    <date subtype="simple" begin="1202" end="1208">1202-8</date>
+    <source style="" id="wr24">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-30-b-name-w303192">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="wr464">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-30-b-name-w302910">Eilintone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w302910">Ellintone</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w302940">Edelington'</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w303022">Edelinton'</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w303054">Edlingtun</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w303054">Edlington'</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w303054">Edlyngton'</searchterm>
+   <searchterm variantID="epns-deep-30-b-name-w303192">Edlinton</searchterm>
+  </extension>
+ </mads>
+ 

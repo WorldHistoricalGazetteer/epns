@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000015">
+  <authority ID="epns-deep-86-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/003149">Powerstock</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000002" type="broader">
+   <geographic>Eggardon Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a3d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6864900" lat="50.7635500" gazref="geonames:2639950" source="geonames"/>
+   <geo long="-2.68491537" lat="50.76280965" source="epns"/>
+   <geo long="-2.68779098787189" lat="50.7654913377004" gazref="unlock:11249636" source="unlock"/>
+   <geo easting="351500" northing="96500" long="-2.68907" lat="50.7661" kepnref="11502" source="kepn"/>
+  </extension>
+ </mads>
+ 

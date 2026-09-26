@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000190">
+  <authority ID="epns-deep-08-b-name-subparish-000190">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010922">Woodleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000189" type="broader">
+   <geographic>Woodleigh</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w549867">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010923">Wudeleage, æt Wudeleage</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w549913">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010924">Odelea</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w549929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010925">Wodelegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w549954">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/010926">Wodelegh juxta Lodeswell(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a79"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7486000" lat="50.3277400" gazref="geonames:2633635" source="geonames"/>
+   <geo long="-3.777234502328997" lat="50.32222526472592" gazref="unlock:11326420" source="unlock"/>
+   <geo easting="273500" northing="48500" long="-3.77837" lat="50.3228" kepnref="15648" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w549867">
+    <date end="1012" begin="1008" subtype="simple">1008-12</date>
+    <source style="" id="de46">Crawford</source>
+    <item>10</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w549913">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w549929">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>765</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w549954">
+    <date end="1338" begin="1338" subtype="simple">1338</date>
+    <source style="italic" id="de85">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w549954">
+    <date end="1339" begin="1339" subtype="simple">1339</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w549867">Wudeleage</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w549867">æt Wudeleage</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w549913">Odelea</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w549929">Wodelegh'</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w549954">Wodelegh juxta Lodeswelle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w549954">Wodelegh juxta Lodeswell</searchterm>
+  </extension>
+ </mads>
+ 

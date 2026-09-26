@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000047">
+  <authority ID="epns-deep-12-b-name-subparish-000047">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003560">Noak Hill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000062" type="broader">
+   <geographic>Noak Hill</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w188219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003561">Noak Hill</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w188238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003562">Nookhill</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w188258">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/003563">Noke Hill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000e60"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.2319578790225381" lat="51.61861967501228" gazref="unlock:11231564" source="unlock"/>
+   <geo kepnexref="0170" long=" 0.2327" lat="51.619" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w188219">
+    <date subtype="simple" begin="1490" end="1490">1490</date>
+    <source style="italic" id="ex100">Ct</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w188238">
+    <date subtype="simple" begin="1523" end="1523">1523</date>
+    <source style="italic" id="ex385">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w188258">
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <source style="" id="ex615">SWealdPR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w188258">
+    <date subtype="simple" begin="1650" end="1650">1650</date>
+    <source style="" id="ex128">EAS</source>
+    <item>viii</item>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w188219">Noak Hill</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w188238">Nookhill</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w188258">Noke Hill</searchterm>
+  </extension>
+ </mads>
+ 

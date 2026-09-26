@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol18mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-18-a-parish-000016">
+  <authority ID="epns-deep-18-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/18/000582">Twickenham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-18-hu-subcounty-000002" type="broader">
+   <geographic>Isleworth Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282a52b47fc407a0000218"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.3296800" lat="51.4454000" gazref="geonames:2635308" source="geonames"/>
+   <geo long="-0.3377118465083884" lat="51.44820389432152" gazref="unlock:11307400" source="unlock"/>
+   <geo easting="514500" northing="173500" long="-0.353662" lat="51.4489" kepnref="4755" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-b-subparish-000119">
+  <authority ID="epns-deep-24-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008794">Horley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-a-parish-000104" type="broader">
+   <geographic>Horley</geographic>
+  </related>
+  <variant ID="epns-deep-24-b-name-w336448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008795">Hornelie</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w336496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008796">Hornele(ia), Hornel'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w336531">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008797">Hornlege</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w336581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008798">Hornle(e), Hornley(e), Hornlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w336627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008799">Hornilegh'</geographic>
+  </variant>
+  <variant ID="epns-deep-24-b-name-w336664">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/008800">Hemele, Horuele, Houele</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e38b47fc40beb00080b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3909300" lat="52.0912700" gazref="geonames:2646605" source="geonames"/>
+   <geo long="-1.394241250991455" lat="52.08787813239723" gazref="unlock:11179297" source="unlock"/>
+   <geo easting="441500" northing="243500" long="-1.39571" lat="52.0883" kepnref="3738" source="kepn"/>
+   <attestation variantID="epns-deep-24-b-name-w336448">
+    <attestation variantID="epns-deep-24-b-name-w336448">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="ox54">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-24-b-name-w336448">
+     <date subtype="simple" begin="1344" end="1344">1344</date>
+     <source style="" id="ox42">Cl</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w336496">
+    <date end="1344" begin="1086">1086-1344</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w336531">
+    <attestation variantID="epns-deep-24-b-name-w336531">
+     <date subtype="simple" begin="1222" end="1222">1222</date>
+     <source style="" id="ox77">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-24-b-name-w336531">
+     <date subtype="simple" begin="1428" end="1428">1428</date>
+     <source style="" id="ox75">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w336581">
+    <date end="1428" begin="1222">1222-1428</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w336627">
+    <date subtype="simple" begin="1239" end="1239">1239</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="ox205">RegAntiquiss</source>
+   </attestation>
+   <attestation variantID="epns-deep-24-b-name-w336664">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="italic" id="ox15">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-24-b-name-w336448">Hornelie</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336496">Horneleia</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336496">Hornele</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336496">Hornel'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336531">Hornlege</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336581">Hornlee</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336581">Hornle</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336581">Hornleye</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336581">Hornley</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336581">Hornlegh</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336627">Hornilegh'</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336664">Hemele</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336664">Horuele</searchterm>
+   <searchterm variantID="epns-deep-24-b-name-w336664">Houele</searchterm>
+  </extension>
+ </mads>
+ 

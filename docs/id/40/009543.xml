@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000076">
+  <authority ID="epns-deep-40-a-name-parish-000076">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009543">Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000014" type="broader">
+   <geographic>Botloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30019e1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4666700" lat="52.0166700" gazref="geonames:2639916" source="geonames"/>
+   <geo long="-2.480775418" lat="52.00303166" source="epns"/>
+   <geo long="-2.47353879499788" lat="52.00755768991806" gazref="unlock:11249848" source="unlock"/>
+   <geo easting="368500" northing="234500" long="-2.46031" lat="52.008" kepnref="6522" source="kepn"/>
+  </extension>
+ </mads>
+ 

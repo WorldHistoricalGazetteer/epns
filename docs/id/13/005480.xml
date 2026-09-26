@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000130">
+  <authority ID="epns-deep-13-a-name-parish-000130">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/005480">Harbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000007" type="broader">
+   <geographic>Stoneleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f000671"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4570600" lat="52.2353700" gazref="geonames:2647502" source="geonames"/>
+   <geo long="-1.450856909362388" lat="52.23202105197356" gazref="unlock:11165581" source="unlock"/>
+   <geo easting="437500" northing="259500" long="-1.45233" lat="52.2324" kepnref="5028" source="kepn"/>
+  </extension>
+ </mads>
+ 

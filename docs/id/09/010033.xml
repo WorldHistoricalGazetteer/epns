@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000194">
+  <authority ID="epns-deep-09-a-name-parish-000194">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/010033">Colaton Raleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000015" type="broader">
+   <geographic>East Budleigh Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e00174c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3069100" lat="50.6799100" gazref="geonames:2652621" source="geonames"/>
+   <geo long="-3.309376043096434" lat="50.67922146000797" gazref="unlock:11113411" source="unlock"/>
+   <geo easting="307500" northing="87500" long="-3.31058" lat="50.6798" kepnref="15865" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000188">
+  <authority ID="epns-deep-13-a-name-parish-000188">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/007555">Wolverton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f00070a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6985900" lat="52.2582800" gazref="geonames:2633687" source="geonames"/>
+   <geo long="-1.699614432657792" lat="52.25989036720195" gazref="unlock:11324987" source="unlock"/>
+   <geo easting="420500" northing="262500" long="-1.70106" lat="52.2603" kepnref="4889" source="kepn"/>
+  </extension>
+ </mads>
+ 

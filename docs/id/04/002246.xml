@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000082">
+  <authority ID="epns-deep-04-b-name-subparish-000082">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002246">Little Malvern</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000082" type="broader">
+   <geographic>Little Malvern</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w195827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002247">parve Malvernie, minor Malvernie, la petite Maluerne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b0005bf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3374100" lat="52.0620300" gazref="geonames:2644293" source="geonames"/>
+   <geo long="-2.342820381119739" lat="52.06196097982339" gazref="unlock:11196689" source="unlock"/>
+   <geo easting="377500" northing="240500" long="-2.32959" lat="52.0624" kepnref="5257" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w195827">
+    <date end="1232" begin="1232" subtype="simple">1232</date>
+    <source style="" id="wo28">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w195827">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w195827">
+    <date end="1275" begin="1275" subtype="simple">1275</date>
+    <source style="italic" id="wo10">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w195827">parve Malvernie</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w195827">minor Malvernie</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w195827">la petite Maluerne</searchterm>
+  </extension>
+ </mads>
+ 

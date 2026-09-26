@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000099">
+  <authority ID="epns-deep-02-a-name-parish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/001627">Whitchurch</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000008" type="broader">
+   <geographic>Cottesloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002f8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8378400" lat="51.8816000" gazref="geonames:2634125" source="geonames"/>
+   <geo long="-0.8304698563736471" lat="51.87681171936593" gazref="unlock:11320201" source="unlock"/>
+   <geo easting="480500" northing="220500" long="-0.831997" lat="51.8773" kepnref="11293" source="kepn"/>
+  </extension>
+ </mads>
+ 

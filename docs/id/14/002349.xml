@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000100">
+  <authority ID="epns-deep-14-b-name-subparish-000100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002349">Garton on the Wolds</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000052" type="broader">
+   <geographic>Garton on the Wolds</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w149080">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002350">Gartun(e), Garton</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149107">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002351">Garton(a), Gartun, Gartone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002352">Gartun(e) in Waldo</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149217">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002353">Gartun(e) super Waldas</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149249">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002354">Gartun(e) in Wald</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002355">Gartun(e) juxta Wetewang</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149316">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002356">Gartun(e) on the Wold</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w149355">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/002357">Gartun(e) le Woold, Gartun(e) in le Woold</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285499b47fc40a4d0004ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5028000" lat="54.0209800" gazref="geonames:2648806" source="geonames"/>
+   <geo easting="498500" northing="459500" long="-0.49799" lat="54.0221" kepnref="8483" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w149080">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149107">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="italic" id="ey161">Kirkham</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149107">
+    <attestation variantID="epns-deep-14-b-name-w149107">
+     <date end="1157" begin="1156" subtype="simple">1156-7</date>
+     <source style="" id="ey367">YCh</source>
+     <item>354</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w149107">
+     <date end="1518" begin="1518" subtype="simple">1518</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149189">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149217">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149249">
+    <date end="1347" begin="1347" subtype="simple">1347</date>
+    <source style="" id="ey32">BevAct</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149282">
+    <date end="1376" begin="1376" subtype="simple">1376</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149316">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <date end="1559" begin="1559" subtype="simple">1559</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w149355">
+    <date end="1610" begin="1610" subtype="simple">1610</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w149080">Gartune</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149080">Gartun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149080">Garton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149107">Gartona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149107">Garton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149107">Gartun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149107">Gartone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149189">Gartune in Waldo</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149189">Gartun in Waldo</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149217">Gartune super Waldas</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149217">Gartun super Waldas</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149249">Gartune in Wald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149249">Gartun in Wald</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149282">Gartune juxta Wetewang</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149282">Gartun juxta Wetewang</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149316">Gartune on the Wold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149316">Gartun on the Wold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149355">Gartune le Woold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149355">Gartun le Woold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149355">Gartune in le Woold</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w149355">Gartun in le Woold</searchterm>
+  </extension>
+ </mads>
+ 

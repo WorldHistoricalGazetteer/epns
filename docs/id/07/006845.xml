@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000119">
+  <authority ID="epns-deep-07-b-name-subparish-000119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006845">Catsfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000120" type="broader">
+   <geographic>Catsfield</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w410272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006846">Cedesfeld, Cedesfelle</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w410303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006847">Catesfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w410349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006848">Catisfelde</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w410373">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/006849">Cattesfeld(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cc3"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.4517700" lat="50.8968300" gazref="geonames:2653503" source="geonames"/>
+   <geo long="0.4389591962908252" lat="50.89492812913019" gazref="unlock:11101693" source="unlock"/>
+   <geo easting="572500" northing="113500" long="0.451533" lat="50.8952" kepnref="7135" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w410272">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w410303">
+    <attestation variantID="epns-deep-07-b-name-w410303">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <copydate end="1432" begin="1432">1432</copydate>
+     <source style="" id="su206">Pat</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w410303">
+     <date end="1332" begin="1332" subtype="simple">1332</date>
+     <source style="" id="su271">SR</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w410349">
+    <date end="1594" begin="1594" subtype="simple">1594</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w410373">
+    <attestation variantID="epns-deep-07-b-name-w410373">
+     <date end="1200" begin="1100" subtype="century">12th</date>
+     <source style="" id="su24">Bello</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w410373">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w410272">Cedesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w410272">Cedesfelle</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w410303">Catesfeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w410349">Catisfelde</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w410373">Cattesfelde</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w410373">Cattesfeld</searchterm>
+  </extension>
+ </mads>
+ 

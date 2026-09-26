@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol46mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-46-a-parish-000004">
+  <authority ID="epns-deep-46-a-name-parish-000004">
+   <geographic valueURI="http://placenames.org.uk/id/placename/46/001526">Nantwich</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-46-hu-subcounty-000001" type="broader">
+   <geographic>Nantwich Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53283654b47fc40856001f01"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5205100" lat="53.0687800" gazref="geonames:2641892" source="geonames"/>
+   <geo long="-2.522351425" lat="53.06379545" source="epns"/>
+   <geo long="-2.514943353580854" lat="53.0683239562684" gazref="unlock:11226787" source="unlock"/>
+   <geo easting="365500" northing="352500" long="-2.51632" lat="53.0686" kepnref="11903" source="kepn"/>
+  </extension>
+ </mads>
+ 

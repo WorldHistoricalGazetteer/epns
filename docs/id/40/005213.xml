@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000043">
+  <authority ID="epns-deep-40-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005213">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000041" type="broader">
+   <geographic>Clifton</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w229605">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005214">Clistone</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w229623">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005215">Clifton(e), Clyfton(e), Clyftun</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w229735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/005216">Clyftun iuxta Bristoll'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001aca"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6200000" lat="51.4611100" gazref="geonames:2652843" source="geonames"/>
+   <geo long="-2.633437193" lat="51.46277301" source="epns"/>
+   <geo long="-2.626178156797836" lat="51.45831632359087" gazref="unlock:11109248" source="unlock"/>
+   <geo easting="357500" northing="173500" long="-2.61309" lat="51.4589" kepnref="6487" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w229605">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w229623">
+    <date end="1167" begin="1167" subtype="simple">1167</date>
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="go388">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w229623">
+    <date end="1243" begin="1220" subtype="simple">1220-43</date>
+    <source style="" id="go44">Berk</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w229623">
+    <date end="1262" begin="1262" subtype="simple">1262</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w229623">
+    <attestation variantID="epns-deep-40-b-name-w229623">
+     <date end="1274" begin="1274" subtype="simple">1274</date>
+     <source style="" id="go159">Episc</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-40-b-name-w229623">
+     <date end="1656" begin="1656" subtype="simple">1656</date>
+     <source style="" id="go410">PR</source>
+     <page>16</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w229735">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w229605">Clistone</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229623">Cliftone</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229623">Clifton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229623">Clyftone</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229623">Clyfton</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229623">Clyftun</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w229735">Clyftun iuxta Bristoll'</searchterm>
+  </extension>
+ </mads>
+ 

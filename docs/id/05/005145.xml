@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000456">
+  <authority ID="epns-deep-05-b-name-subparish-000456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005145">Morton upon Swale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000153" type="broader">
+   <geographic>Ainderby Steeple</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w367839">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005146">Mortun(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w367858">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005147">Mortun(e) on Swale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003f3"/>
+  </recordInfo>
+  <extension>
+   <geo easting="432500" northing="491500" long="-1.50188" lat="54.3181" kepnref="6109" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w367839">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w367858">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w367839">Mortune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367839">Mortun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367858">Mortune on Swale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w367858">Mortun on Swale</searchterm>
+  </extension>
+ </mads>
+ 

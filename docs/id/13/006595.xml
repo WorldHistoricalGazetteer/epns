@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000158">
+  <authority ID="epns-deep-13-a-name-parish-000158">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006595">Bidford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f00062b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8500000" lat="52.1500000" gazref="geonames:2655705" source="geonames"/>
+   <geo long="-1.846484423056939" lat="52.16126694822008" gazref="unlock:11076614" source="unlock"/>
+   <geo easting="410500" northing="252500" long="-1.84787" lat="52.1707" kepnref="4858" source="kepn"/>
+  </extension>
+ </mads>
+ 

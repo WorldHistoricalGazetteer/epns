@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000042">
+  <authority ID="epns-deep-06-a-name-parish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001218">Eartham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000005" type="broader">
+   <geographic>Box and Stockbridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b71"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6672500" lat="50.8769400" gazref="geonames:2650527" source="geonames"/>
+   <geo long="-0.6708765883551071" lat="50.87686822880406" gazref="unlock:11135379" source="unlock"/>
+   <geo easting="494500" northing="109500" long="-0.658173" lat="50.8773" kepnref="6903" source="kepn"/>
+  </extension>
+ </mads>
+ 

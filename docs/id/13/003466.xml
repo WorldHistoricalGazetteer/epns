@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-b-subparish-000069">
+  <authority ID="epns-deep-13-b-name-subparish-000069">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003466">Hydes Pastures</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-a-parish-000071" type="broader">
+   <geographic>Hydes Pastures</geographic>
+  </related>
+  <variant ID="epns-deep-13-b-name-w182344">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003467">la Hyda, Hyda</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w182408">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003468">la Hide</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w182417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003469">Hide, Hyde, Hyde juxta Hinkeley</geographic>
+  </variant>
+  <variant ID="epns-deep-13-b-name-w182458">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/003470">Hide Pastures</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287436b47fc40c5f000784"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.417680722932477" lat="52.52857429308546" gazref="unlock:11181976" source="unlock"/>
+   <geo kepnexref="0194" long="-1.419180" lat="52.528945" source="kepn"/>
+   <attestation variantID="epns-deep-13-b-name-w182344">
+    <date end="1200" begin="1100" subtype="century">12th</date>
+    <source style="" id="wa5">AD</source>
+    <item>ii</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w182344">
+    <attestation variantID="epns-deep-13-b-name-w182344">
+     <date end="1202" begin="1202" subtype="simple">1202</date>
+     <source style="" id="wa108">FF</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w182408">
+    <date end="1600" begin="1202">1202-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w182417">
+    <date end="1447" begin="1447" subtype="simple">1447</date>
+    <source style="italic" id="wa109">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-13-b-name-w182458">
+    <date end="1667" begin="1667" subtype="simple">1667</date>
+    <source style="italic" id="wa131">HT</source>
+   </attestation>
+   <searchterm variantID="epns-deep-13-b-name-w182344">la Hyda</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182344">Hyda</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182408">la Hide</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182417">Hide</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182417">Hyde</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182417">Hyde juxta Hinkeley</searchterm>
+   <searchterm variantID="epns-deep-13-b-name-w182458">Hide Pastures</searchterm>
+  </extension>
+ </mads>
+ 

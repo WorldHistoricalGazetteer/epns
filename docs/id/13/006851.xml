@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000166">
+  <authority ID="epns-deep-13-a-name-parish-000166">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/006851">Temple Grafton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000008" type="broader">
+   <geographic>Ferncumbe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006e6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8219400" lat="52.1915100" gazref="geonames:2636118" source="geonames"/>
+   <geo long="-1.817132933343165" lat="52.18819956238126" gazref="unlock:11298554" source="unlock"/>
+   <geo easting="412500" northing="255500" long="-1.81852" lat="52.1976" kepnref="4886" source="kepn"/>
+  </extension>
+ </mads>
+ 

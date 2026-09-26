@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol27mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-27-b-subparish-000011">
+  <authority ID="epns-deep-27-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001452">Brough</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-27-a-parish-000011" type="broader">
+   <geographic>Brough and Shatton</geographic>
+  </related>
+  <variant ID="epns-deep-27-b-name-w62980">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001453">Burc</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001454">Burg', Burgo, Burgum</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001455">Burgh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63108">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001456">Brugh</geographic>
+  </variant>
+  <variant ID="epns-deep-27-b-name-w63145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/27/001457">Brough</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001822"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.722127618666264" lat="53.33881189681101" gazref="unlock:11089654" source="unlock"/>
+   <geo easting="418500" northing="382500" long="-1.72361" lat="53.3391" kepnref="3211" source="kepn"/>
+   <attestation variantID="epns-deep-27-b-name-w62980">
+    <date end="1195" begin="1195" subtype="simple">1195</date>
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <date end="1205" begin="1205" subtype="simple">1205</date>
+    <date end="1206" begin="1206" subtype="simple">1206</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63011">
+    <attestation variantID="epns-deep-27-b-name-w63011">
+     <date end="1196" begin="1196" subtype="simple">1196</date>
+     <source style="" id="db379">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-27-b-name-w63011">
+     <date end="1362" begin="1362" subtype="simple">1362</date>
+     <source style="" id="db264">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63060">
+    <date end="1330" begin="1330" subtype="simple">1330</date>
+    <source style="italic" id="db23">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63060">
+    <date end="1339" begin="1339" subtype="simple">1339</date>
+    <date end="1800" begin="1700" subtype="century">18th</date>
+    <source style="" id="db128">DbA</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63108">
+    <date end="1348" begin="1348" subtype="simple">1348</date>
+    <source style="" id="db128">DbA</source>
+    <item>xxxvi</item>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63108">
+    <date end="1532" begin="1532" subtype="simple">1532</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-27-b-name-w63145">
+    <attestation variantID="epns-deep-27-b-name-w63145">
+     <date end="1658" begin="1658" subtype="simple">1658</date>
+     <source style="" id="db128">DbA</source>
+     <item>xi</item>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-27-b-name-w62980">Burc</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63011">Burg'</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63011">Burgo</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63011">Burgum</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63060">Burghe</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63060">Burgh</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63108">Brugh</searchterm>
+   <searchterm variantID="epns-deep-27-b-name-w63145">Brough</searchterm>
+  </extension>
+ </mads>
+ 

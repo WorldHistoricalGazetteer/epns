@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000010">
+  <authority ID="epns-deep-04-b-name-subparish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000447">Clifton-on-Teme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000010" type="broader">
+   <geographic>Clifton-on-Teme</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w39514">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000448">Cliftun ultra Tamedam</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w39556">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/000449">Clistune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00056a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="371500" northing="261500" long="-2.41888" lat="52.2509" kepnref="5188" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w39514">
+    <date end="934" begin="934" subtype="simple">934</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>700</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w39556">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wo40">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w39514">Cliftun ultra Tamedam</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w39556">Clistune</searchterm>
+  </extension>
+ </mads>
+ 

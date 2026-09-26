@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000196">
+  <authority ID="epns-deep-16-b-name-subparish-000196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009183">Lyneham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000222" type="broader">
+   <geographic>Lyneham</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w450948">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009184">Linham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w450969">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009185">Lynham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w451029">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009186">Linham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w451037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009187">Lyneham</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w451054">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009188">Linum</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f8b47fc40d38000e06"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9666700" lat="51.5166700" gazref="geonames:2643298" source="geonames"/>
+   <geo long="-1.963976190256487" lat="51.50494540814548" gazref="unlock:11210143" source="unlock"/>
+   <geo easting="402500" northing="179500" long="-1.96535" lat="51.5144" kepnref="7378" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w450948">
+    <date subtype="simple" begin="1224" end="1224">1224</date>
+    <source style="" id="ws290">SarumCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w450969">
+    <attestation variantID="epns-deep-16-b-name-w450969">
+     <date subtype="simple" begin="1268" end="1268">1268</date>
+     <source style="italic" id="ws19">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-16-b-name-w450969">
+     <date subtype="simple" begin="1349" end="1349">1349</date>
+     <source style="italic" id="ws108">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w451029">
+    <date end="1349" begin="1268">1268-1349</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w451037">
+    <date subtype="simple" begin="1571" end="1571">1571</date>
+    <source style="italic" id="ws302">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w451054">
+    <date subtype="simple" begin="1694" end="1694">1694</date>
+    <source style="" id="ws244">ParReg</source>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w450948">Linham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w450969">Lynham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w451029">Linham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w451037">Lyneham</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w451054">Linum</searchterm>
+  </extension>
+ </mads>
+ 

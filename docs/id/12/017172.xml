@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-b-subparish-000282">
+  <authority ID="epns-deep-12-b-name-subparish-000282">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017172">Twinstead</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-a-parish-000376" type="broader">
+   <geographic>Twinstead</geographic>
+  </related>
+  <variant ID="epns-deep-12-b-name-w844677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017173">Tumesteda</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017174">Tuinstede, Toynsted</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844731">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017175">Twinsted(e), Twynsted(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844791">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017176">Twistud</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844809">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017177">Twysted</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017178">Twisted or Twensted</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844856">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017179">Dunstede</geographic>
+  </variant>
+  <variant ID="epns-deep-12-b-name-w844874">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/017180">Wynstede</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858efb47fc40a98000eb6"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7024600" lat="51.9926500" gazref="geonames:7298515" source="geonames"/>
+   <geo long="0.7168712382449182" lat="51.99515382400105" gazref="unlock:11307430" source="unlock"/>
+   <geo easting="586500" northing="236500" long="0.715161" lat="51.9956" kepnref="12537" source="kepn"/>
+   <attestation variantID="epns-deep-12-b-name-w844677">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ex112">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844702">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ex150">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844731">
+    <date subtype="simple" begin="1202" end="1254">1202-54</date>
+    <source style="" id="ex150" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844731">
+    <attestation variantID="epns-deep-12-b-name-w844731">
+     <date subtype="simple" begin="1217" end="1217">1217</date>
+     <source style="" id="ex45">Bracton</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844791">
+    <date subtype="simple" begin="1217" end="1217">1217</date>
+    <source style="" id="ex74">ClR</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844809">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="ex147">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844826">
+    <date subtype="simple" begin="1594" end="1594">1594</date>
+    <source style="" id="ex266">N</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844856">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ex73">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-12-b-name-w844874">
+    <date subtype="simple" begin="1504" end="1504">1504</date>
+    <source style="italic" id="ex255">MinAcct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-12-b-name-w844677">Tumesteda</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844702">Tuinstede</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844702">Toynsted</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844731">Twinstede</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844731">Twinsted</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844731">Twynstede</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844731">Twynsted</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844791">Twistud</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844809">Twysted</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844826">Twisted or Twensted</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844856">Dunstede</searchterm>
+   <searchterm variantID="epns-deep-12-b-name-w844874">Wynstede</searchterm>
+  </extension>
+ </mads>
+ 

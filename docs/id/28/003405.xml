@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000015">
+  <authority ID="epns-deep-28-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003405">Clowne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000016" type="broader">
+   <geographic>Clowne</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w130511">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003406">(æt) Clune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w130549">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003407">Clune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w130607">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003408">Cloune</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w130682">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/003409">Clowne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf4b47fc4095c001841"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2640600" lat="53.2744900" gazref="geonames:2652771" source="geonames"/>
+   <geo long="-1.257625395458995" lat="53.27389643333225" gazref="unlock:11109829" source="unlock"/>
+   <geo easting="449500" northing="375500" long="-1.25916" lat="53.2742" kepnref="3297" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w130511">
+    <date subtype="circa" begin="992" end="1012">c. 1002</date>
+    <copydate end="1110" begin="1090">c. 1100</copydate>
+    <source style="" id="db25">ASWills</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130549">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="db127">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130549">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <date subtype="simple" begin="1240" end="1240">1240</date>
+    <source style="" id="db192">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130549">
+    <date subtype="simple" begin="1266" end="1266">1266</date>
+    <source style="" id="db124">Darley</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130549">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130607">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="" id="db196">FineR</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130607">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="db78">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130607">
+    <date subtype="simple" begin="1317" end="1317">1317</date>
+    <source style="italic" id="db244">HarlCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130607">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <date subtype="century" begin="1500" end="1600">16th</date>
+    <source style="" id="db453">RadCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130682">
+    <date subtype="simple" begin="1535" end="1535">1535</date>
+    <source style="" id="db567">Val</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w130682">
+    <attestation variantID="epns-deep-28-b-name-w130682">
+     <date subtype="simple" begin="1545" end="1545">1545</date>
+     <source style="italic" id="db8">AddCh</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w130511">æt Clune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w130511">Clune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w130549">Clune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w130607">Cloune</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w130682">Clowne</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000301">
+  <authority ID="epns-deep-10-b-name-subparish-000301">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006805">Eye</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000302" type="broader">
+   <geographic>Eye</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w373270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006806">Ege</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w373313">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006807">Eia</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w373336">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006808">Eya</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w373362">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006809">Eye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba00056c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1920900" lat="52.6080000" gazref="geonames:2649788" source="geonames"/>
+   <geo long="-0.1908154145922951" lat="52.60609840238576" gazref="unlock:11141196" source="unlock"/>
+   <geo easting="522500" northing="302500" long="-0.192447" lat="52.6065" kepnref="11173" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w373270">
+    <date end="963" begin="963" subtype="simple">963</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <ms>E</ms>
+    <source style="" id="nh13">ASC</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373270">
+    <date end="1125" begin="1105" subtype="circa">c. 1115</date>
+    <source style="" id="nh78">Dugd</source>
+    <item>i</item>
+    <page>390</page>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373313">
+    <date end="1128" begin="1125" subtype="simple">1125-8</date>
+    <source style="" id="nh47">ChronPetro</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373336">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <copydate end="1332" begin="1332">1332</copydate>
+    <date end="1227" begin="1227" subtype="simple">1227</date>
+    <source style="" id="nh44">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373362">
+    <date end="1284" begin="1284" subtype="simple">1284</date>
+    <source style="" id="nh97">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373362">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <source style="" id="nh221">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w373362">
+    <date end="1306" begin="1306" subtype="simple">1306</date>
+    <date end="1348" begin="1348" subtype="simple">1348</date>
+    <source style="" id="nh44">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w373270">Ege</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w373313">Eia</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w373336">Eya</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w373362">Eye</searchterm>
+  </extension>
+ </mads>
+ 

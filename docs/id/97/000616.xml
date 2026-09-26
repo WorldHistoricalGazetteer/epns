@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000008">
+  <authority ID="epns-deep-97-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000616">Coveney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000010" type="broader">
+   <geographic>Coveney</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w407016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000617">Coueneia</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w407061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000618">(insulam de) Coueneya</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w407098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000619">Coueney(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w407132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000620">Couenhe</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w407145">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000621">Covene</geographic>
+  </variant>
+  <variant ID="epns-deep-97-b-name-w407164">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000622">Conye</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f00079a"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.1884800" lat="52.4166600" gazref="geonames:2652224" source="geonames"/>
+   <geo long="0.1839659049425692" lat="52.41992577383837" gazref="unlock:11117788" source="unlock"/>
+   <geo easting="548500" northing="282500" long="0.182299" lat="52.4203" kepnref="4101" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w407016">
+    <date end="1070" begin="1050" subtype="circa">c. 1060</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="ce246">KCD</source>
+    <item>932</item>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407016">
+    <date end="1170" begin="1170" subtype="simple">1170</date>
+    <source style="" id="ce267">LibEl</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407061">
+    <date end="1170" begin="1150" subtype="circa">c. 1160</date>
+    <source style="italic" id="ce149">Ely</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407098">
+    <attestation variantID="epns-deep-97-b-name-w407098">
+     <date end="1251" begin="1251" subtype="simple">1251</date>
+     <source style="italic" id="ce155">ElyCouch</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407132">
+    <date end="1251" begin="1251" subtype="simple">1251</date>
+    <source style="italic" id="ce155" underspec="ib">ElyCouch</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407145">
+    <date end="1310" begin="1310" subtype="simple">1310</date>
+    <source style="" id="ce343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-97-b-name-w407164">
+    <date end="1319" begin="1319" subtype="simple">1319</date>
+    <source style="" id="ce81">Cl</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w407016">Coueneia</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407061">insulam de Coueneya</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407061">Coueneya</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407098">Coueneye</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407098">Coueney</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407132">Couenhe</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407145">Covene</searchterm>
+   <searchterm variantID="epns-deep-97-b-name-w407164">Conye</searchterm>
+  </extension>
+ </mads>
+ 

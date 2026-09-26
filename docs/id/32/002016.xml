@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol32mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-32-a-parish-000003">
+  <authority ID="epns-deep-32-a-name-parish-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/32/002016">Halifax</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-32-wp-subcounty-000001" type="broader">
+   <geographic>Morley Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fa8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8500000" lat="53.7166700" gazref="geonames:2647632" source="geonames"/>
+   <geo long="-1.85600272785541" lat="53.72559374906407" gazref="unlock:11163912" source="unlock"/>
+   <geo easting="409500" northing="425500" long="-1.85748" lat="53.7258" kepnref="14542" source="kepn"/>
+  </extension>
+ </mads>
+ 

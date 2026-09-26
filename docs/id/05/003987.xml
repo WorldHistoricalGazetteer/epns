@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-wp-subcounty-000009">
+  <authority ID="epns-deep-05-wp-name-subcounty-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003987">Halikeld Wapentake</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-hon-abovesubcounty-000001" type="broader">
+   <geographic>the Honour of Richmondshire</geographic>
+  </related>
+  <variant ID="epns-deep-05-wp-name-w292569">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003988">Halichelde</geographic>
+  </variant>
+  <variant ID="epns-deep-05-wp-name-w292589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003989">Halikeldshir</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003e9"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-05-wp-name-w292569">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-wp-name-w292589">
+    <date end="1157" begin="1157" subtype="simple">1157</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82 d</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-wp-name-w292569">Halichelde</searchterm>
+   <searchterm variantID="epns-deep-05-wp-name-w292589">Halikeldshir</searchterm>
+  </extension>
+ </mads>
+ 

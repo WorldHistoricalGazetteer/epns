@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000116">
+  <authority ID="epns-deep-09-a-name-parish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/006094">Bishopsteignton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000008" type="broader">
+   <geographic>Exminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001703"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5385200" lat="50.5519300" gazref="geonames:2655558" source="geonames"/>
+   <geo long="-3.545800032964701" lat="50.55040219080325" gazref="unlock:11078108" source="unlock"/>
+   <geo easting="290500" northing="73500" long="-3.54697" lat="50.551" kepnref="15786" source="kepn"/>
+  </extension>
+ </mads>
+ 

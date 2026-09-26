@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000278">
+  <authority ID="epns-deep-05-b-name-subparish-000278">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003434">Balk</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000105" type="broader">
+   <geographic>Kirby Knowle</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w253014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003435">Balc(h), Balk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w253085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003436">Bawke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2692100" lat="54.2218200" gazref="geonames:7291830" source="geonames"/>
+   <geo long="-1.271629892568884" lat="54.20887194477581" gazref="unlock:11067869" source="unlock"/>
+   <geo easting="447500" northing="479500" long="-1.2732" lat="54.209" kepnref="5929" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w253014">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="" id="ny238">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w253014">
+    <date subtype="simple" begin="1192" end="1199">1192-9</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w253014">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny28">BylE</source>
+    <page>70 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w253014">
+    <date subtype="simple" begin="1226" end="1226">1226</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w253014">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w253085">
+    <date subtype="simple" begin="1622" end="1622">1622</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w253014">Balch</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w253014">Balc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w253014">Balke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w253014">Balk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w253085">Bawke</searchterm>
+  </extension>
+ </mads>
+ 

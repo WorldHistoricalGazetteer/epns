@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000501">
+  <authority ID="epns-deep-05-b-name-subparish-000501">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005526">Marrick</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000169" type="broader">
+   <geographic>Marrick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w391061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005527">Marige</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w391088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005528">Marrich</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w391110">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005529">Marrig(g)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w391162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005530">Maryg'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w391183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005531">Marrik(e), Marryk</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000531"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8846700" lat="54.3796100" gazref="geonames:2642995" source="geonames"/>
+   <geo long="-1.884512285933014" lat="54.38179516645511" gazref="unlock:11213983" source="unlock"/>
+   <geo easting="407500" northing="498500" long="-1.88602" lat="54.3819" kepnref="6156" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w391061">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391061">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny197">Riev</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391088">
+    <date subtype="circa" begin="1140" end="1160">c. 1150</date>
+    <source style="" id="ny78">Godr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391110">
+    <attestation variantID="epns-deep-05-b-name-w391110">
+     <date subtype="simple" begin="1157" end="1157">1157</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>82 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w391110">
+     <date subtype="simple" begin="1400" end="1400">1400</date>
+     <source style="" id="ny217">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391162">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="italic" id="ny194">Rich</source>
+    <page>34</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391183">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391183">
+    <date subtype="simple" begin="1328" end="1328">1328</date>
+    <source style="" id="ny14">Banco</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w391183">
+    <date subtype="simple" begin="1393" end="1393">1393</date>
+    <date subtype="simple" begin="1483" end="1483">1483</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w391061">Marige</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391088">Marrich</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391110">Marrigg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391110">Marrig</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391162">Maryg'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391183">Marrike</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391183">Marrik</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w391183">Marryk</searchterm>
+  </extension>
+ </mads>
+ 

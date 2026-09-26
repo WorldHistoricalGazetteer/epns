@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol24mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-24-a-parish-000083">
+  <authority ID="epns-deep-24-a-name-parish-000083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/24/007146">Chipping Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-24-hu-subcounty-000003" type="broader">
+   <geographic>Chadlington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb0006b6"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5453000" lat="51.9410900" gazref="geonames:2653139" source="geonames"/>
+   <geo long="-1.541765437496156" lat="51.93568337161226" gazref="unlock:11106625" source="unlock"/>
+   <geo easting="431500" northing="227500" long="-1.54312" lat="51.9451" kepnref="3717" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000023">
+  <authority ID="epns-deep-05-b-name-subparish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000206">Linton upon Ouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000010" type="broader">
+   <geographic>Newton on Ouse</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w17364">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000207">Lingtona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17382">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000208">Linton', Lynton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w17417">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000209">Lynton' super Usam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600054d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2500000" lat="54.0333300" gazref="geonames:2644427" source="geonames"/>
+   <geo easting="449500" northing="460500" long="-1.24565" lat="54.0381" kepnref="5675" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w17364">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17382">
+    <attestation variantID="epns-deep-05-b-name-w17382">
+     <date subtype="simple" begin="1176" end="1176">1176</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w17417">
+    <date subtype="simple" begin="1336" end="1336">1336</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w17364">Lingtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17382">Linton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17382">Lynton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w17417">Lynton' super Usam</searchterm>
+  </extension>
+ </mads>
+ 

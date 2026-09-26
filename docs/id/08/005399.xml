@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000105">
+  <authority ID="epns-deep-08-a-name-parish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005399">Sampford Courtenay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000006" type="broader">
+   <geographic>Black Torrington Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001828"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9425200" lat="50.7942600" gazref="geonames:2638618" source="geonames"/>
+   <geo long="-3.937082878073236" lat="50.79640363338142" gazref="unlock:11277380" source="unlock"/>
+   <geo easting="263500" northing="101500" long="-3.93822" lat="50.7969" kepnref="15562" source="kepn"/>
+  </extension>
+ </mads>
+ 

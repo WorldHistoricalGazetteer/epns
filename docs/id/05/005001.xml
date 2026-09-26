@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000440">
+  <authority ID="epns-deep-05-b-name-subparish-000440">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005001">Barden</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000149" type="broader">
+   <geographic>Hauxwell</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w360165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005002">Bernedan</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005003">Berdene</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005004">Barden</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ae"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7846800" lat="54.3479600" gazref="geonames:7301624" source="geonames"/>
+   <geo long="-1.77696800222867" lat="54.33670343202937" gazref="unlock:11069798" source="unlock"/>
+   <geo easting="414500" northing="493500" long="-1.77848" lat="54.3369" kepnref="6094" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w360165">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360183">
+    <attestation variantID="epns-deep-05-b-name-w360183">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w360183">
+     <date subtype="simple" begin="1285" end="1285">1285</date>
+     <source style="" id="ny102">KI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360231">
+    <date subtype="simple" begin="1552" end="1552">1552</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w360165">Bernedan</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360183">Berdene</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360231">Barden</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000099">
+  <authority ID="epns-deep-06-b-name-subparish-000099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003045">Parham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000099" type="broader">
+   <geographic>Parham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w240293">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003046">Perham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w240358">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003047">Pereham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w240444">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003048">Parham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w240498">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003049">Perreham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w240523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003050">Parrum</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000d4f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5143500" lat="50.9193000" gazref="geonames:7301550" source="geonames"/>
+   <geo long="-0.4846849425206816" lat="50.91956967356687" gazref="unlock:11239531" source="unlock"/>
+   <geo easting="506500" northing="114500" long="-0.486214" lat="50.9201" kepnref="6961" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w240293">
+    <date subtype="simple" begin="959" end="959">959</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>1050</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240293">
+    <attestation variantID="epns-deep-06-b-name-w240293">
+     <date subtype="simple" begin="1086" end="1086">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-06-b-name-w240293">
+     <date subtype="simple" begin="1438" end="1438">1438</date>
+     <source style="" id="su43">Cicestr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240358">
+    <date subtype="ante" begin="1016" end="1066">a. 1066</date>
+    <copydate end="1200" begin="1100">12th</copydate>
+    <source style="" id="su136">KCD</source>
+    <item>824</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240358">
+    <date subtype="simple" begin="1042" end="1066">1042-66</date>
+    <date subtype="simple" begin="1066" end="1066">1066</date>
+    <date subtype="simple" begin="1137" end="1157">1137-57</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="su293">Westminster Domesday</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240444">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240444">
+    <date subtype="simple" begin="1121" end="1125">1121-5</date>
+    <source style="italic" id="su293">Westminster Domesday</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240444">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240498">
+    <date subtype="simple" begin="1186" end="1186">1186</date>
+    <source style="" id="su199">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w240523">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="italic" id="su426">Church Consistory Court Depositions</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w240293">Perham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w240358">Pereham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w240444">Parham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w240498">Perreham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w240523">Parrum</searchterm>
+  </extension>
+ </mads>
+ 

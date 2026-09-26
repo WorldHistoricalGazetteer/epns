@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-b-subparish-000037">
+  <authority ID="epns-deep-99-b-name-subparish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000788">Upwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-a-parish-000037" type="broader">
+   <geographic>Upwood</geographic>
+  </related>
+  <variant ID="epns-deep-99-b-name-w304204">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000789">Upehude</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w304221">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000790">Upwude</geographic>
+  </variant>
+  <variant ID="epns-deep-99-b-name-w304237">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000791">Upwode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a90003c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1490900" lat="52.4260800" gazref="geonames:2635076" source="geonames"/>
+   <geo long="-0.1540833505900787" lat="52.42568825474339" gazref="unlock:11310843" source="unlock"/>
+   <geo easting="525500" northing="282500" long="-0.155711" lat="52.4261" kepnref="4165" source="kepn"/>
+   <attestation variantID="epns-deep-99-b-name-w304204">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="bh49">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w304221">
+    <date subtype="simple" begin="1253" end="1253">1253</date>
+    <source style="" id="bh16">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-99-b-name-w304237">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="bh3">AD</source>
+    <item>vi</item>
+   </attestation>
+   <searchterm variantID="epns-deep-99-b-name-w304204">Upehude</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w304221">Upwude</searchterm>
+   <searchterm variantID="epns-deep-99-b-name-w304237">Upwode</searchterm>
+  </extension>
+ </mads>
+ 

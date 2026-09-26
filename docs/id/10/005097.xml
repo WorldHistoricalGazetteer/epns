@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000231">
+  <authority ID="epns-deep-10-a-name-parish-000231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/005097">Addington, Great and Little</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000015" type="broader">
+   <geographic>Huxloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003b2"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5936100" lat="52.3655900" gazref="geonames:2648179" source="geonames"/>
+   <geo long="-0.5974536326668951" lat="52.35984475895698" gazref="unlock:11158411" source="unlock"/>
+   <geo easting="495500" northing="274500" long="-0.599027" lat="52.3602" kepnref="11101" source="kepn"/>
+  </extension>
+ </mads>
+ 

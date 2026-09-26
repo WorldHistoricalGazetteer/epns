@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-a-parish-000009">
+  <authority ID="epns-deep-88-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/002817">Bruntingthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-hu-subcounty-000001" type="broader">
+   <geographic>Guthlaxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf00108a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1132300" lat="52.5034900" gazref="geonames:2654457" source="geonames"/>
+   <geo long="-1.108672849272313" lat="52.49967697086208" gazref="unlock:11090426" source="unlock"/>
+   <geo easting="460500" northing="289500" long="-1.11019" lat="52.5001" kepnref="8877" source="kepn"/>
+  </extension>
+ </mads>
+ 

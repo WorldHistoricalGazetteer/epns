@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000079">
+  <authority ID="epns-deep-40-a-name-parish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/009722">Taynton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000014" type="broader">
+   <geographic>Botloe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab3001a18"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3959700" lat="51.8961400" gazref="geonames:7300601" source="geonames"/>
+   <geo long="-2.392342962" lat="51.886465" source="epns"/>
+   <geo long="-2.385116066012451" lat="51.89098563991264" gazref="unlock:11298243" source="unlock"/>
+   <geo easting="373500" northing="221500" long="-2.38646" lat="51.8914" kepnref="6525" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000183">
+  <authority ID="epns-deep-09-a-name-parish-000183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009683">Butterleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000014" type="broader">
+   <geographic>Cliston Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e00172b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.4599500" lat="50.8629100" gazref="geonames:2654158" source="geonames"/>
+   <geo long="-3.456737843044926" lat="50.86635108481761" gazref="unlock:11094741" source="unlock"/>
+   <geo easting="297500" northing="108500" long="-3.45793" lat="50.8669" kepnref="15854" source="kepn"/>
+  </extension>
+ </mads>
+ 

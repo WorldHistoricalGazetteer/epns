@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000088">
+  <authority ID="epns-deep-08-b-name-subparish-000088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004484">Halwill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000088" type="broader">
+   <geographic>Halwill</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w228688">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004485">Halgewilla</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228708">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004486">Halgewille</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228729">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004487">Halgawille</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228749">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004488">Haliwill</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228767">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004489">Halywell</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228786">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004490">Hal(e)ghewill(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228829">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004491">Hal(e)ghewill(e) juxta Blaketoriton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w228875">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/004492">Halleghwille</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001970"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2083900" lat="50.7781100" gazref="geonames:2647590" source="geonames"/>
+   <geo long="-4.234012700462349" lat="50.77310316529344" gazref="unlock:11164732" source="unlock"/>
+   <geo easting="242500" northing="99500" long="-4.23511" lat="50.7736" kepnref="15545" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w228688">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228708">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228729">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228749">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228767">
+    <date end="1296" begin="1296" subtype="simple">1296</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228786">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>778</item>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228786">
+    <date end="1283" begin="1283" subtype="simple">1283</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228829">
+    <date end="1318" begin="1318" subtype="simple">1318</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w228875">
+    <date end="1355" begin="1355" subtype="simple">1355</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w228688">Halgewilla</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228708">Halgewille</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228729">Halgawille</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228749">Haliwill</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228767">Halywell</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228786">Haleghewille</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228786">Haleghewill</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228786">Halghewille</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228786">Halghewill</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228829">Haleghewille juxta Blaketoriton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228829">Haleghewill juxta Blaketoriton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228829">Halghewille juxta Blaketoriton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228829">Halghewill juxta Blaketoriton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w228875">Halleghwille</searchterm>
+  </extension>
+ </mads>
+ 

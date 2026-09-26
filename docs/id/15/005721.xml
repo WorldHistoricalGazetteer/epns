@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000085">
+  <authority ID="epns-deep-15-b-name-subparish-000085">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005721">Radwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000098" type="broader">
+   <geographic>Radwell</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w285464">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005722">to readan wylles heafdon, of readan wylles heafdon</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w285542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005723">molendin. de Radewellesheved</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w285582">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005724">Radeuuelle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w285602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005725">Radewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w285650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/005726">Radewelle juxta Baldok</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace0007b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.2012700" lat="52.0184900" gazref="geonames:2639712" source="geonames"/>
+   <geo long="-0.2152006084725281" lat="52.00397936347113" gazref="unlock:11252001" source="unlock"/>
+   <geo easting="523500" northing="235500" long="-0.202243" lat="52.0042" kepnref="4657" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w285464">
+    <date subtype="simple" begin="1007" end="1007">1007</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="he68">Crawford</source>
+    <item>xi</item>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w285542">
+    <date subtype="century" begin="1300" end="1400">14th</date>
+    <source style="italic" id="he141">Hosp</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w285582">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w285602">
+    <attestation variantID="epns-deep-15-b-name-w285602">
+     <date subtype="simple" begin="1185" end="1185">1185</date>
+     <source style="" id="he317">Templars</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-15-b-name-w285602">
+     <date subtype="simple" begin="1303" end="1303">1303</date>
+     <source style="" id="he110">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w285650">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w285464">to readan wylles heafdon</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w285464">of readan wylles heafdon</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w285542">molendin. de Radewellesheved</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w285582">Radeuuelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w285602">Radewelle</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w285650">Radewelle juxta Baldok</searchterm>
+  </extension>
+ </mads>
+ 

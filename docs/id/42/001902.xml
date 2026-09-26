@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000013">
+  <authority ID="epns-deep-42-b-name-subparish-000013">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001902">Holme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000002" type="broader">
+   <geographic>Burton</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w96944">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001903">Holm(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w97044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001904">Holm(e) in Kendal(e), Holm(e) in Kendell</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w97135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001905">Holm(e) in Burton</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w97163">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/001906">Hulme</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013ac"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7224300" lat="54.2064400" gazref="geonames:7293214" source="geonames"/>
+   <geo long="-2.72976" lat="54.209" source="epns"/>
+   <geo long="-2.728212034563449" lat="54.19988426532287" gazref="unlock:11177539" source="unlock"/>
+   <geo easting="352500" northing="479500" long="-2.72976" lat="54.209" kepnref="5080" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w96944">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="we101">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w96944">
+    <date subtype="simple" begin="1184" end="1190">1184-90</date>
+    <source style="" id="we80">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w96944">
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>2</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w96944">
+    <date subtype="simple" begin="1190" end="1195">1190-5</date>
+    <source style="" id="we227">LaCh</source>
+    <page>400</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w96944">
+    <attestation variantID="epns-deep-42-b-name-w96944">
+     <date subtype="simple" begin="1208" end="1208">1208</date>
+     <source style="" id="we90">Cur</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w96944">
+     <date subtype="simple" begin="1777" end="1777">1777</date>
+     <source style="" id="we251">M</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w97044">
+    <date subtype="simple" begin="1359" end="1359">1359</date>
+    <date subtype="simple" begin="1390" end="1390">1390</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>293-4</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w97044">
+    <date subtype="simple" begin="1382" end="1382">1382</date>
+    <source style="italic" id="we156">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w97044">
+    <date subtype="simple" begin="1465" end="1465">1465</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w97135">
+    <date subtype="simple" begin="1543" end="1543">1543</date>
+    <source style="italic" id="we156">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w97163">
+    <date subtype="simple" begin="1608" end="1608">1608</date>
+    <source style="italic" id="we156" underspec="ib">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w96944">Holme</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w96944">Holm</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holme in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holme in Kendal</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holm in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holm in Kendal</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holme in Kendell</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97044">Holm in Kendell</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97135">Holme in Burton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97135">Holm in Burton</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w97163">Hulme</searchterm>
+  </extension>
+ </mads>
+ 

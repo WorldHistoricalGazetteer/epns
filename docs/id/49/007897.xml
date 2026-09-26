@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000028">
+  <authority ID="epns-deep-49-b-name-subparish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007897">Sandhurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000031" type="broader">
+   <geographic>Sandhurst</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w268224">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007898">San(d)herst</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w268244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007899">Sandh'st</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w268300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/007900">Sandhurst, Sandherst</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b92"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7865500" lat="51.3467500" gazref="geonames:2638580" source="geonames"/>
+   <geo long="-0.8007193610424267" lat="51.35493092794334" gazref="unlock:11196940" source="unlock"/>
+   <geo easting="483500" northing="161500" long="-0.802463" lat="51.3465" kepnref="3052" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w268224">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <source style="" id="be256">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w268244">
+    <attestation variantID="epns-deep-49-b-name-w268244">
+     <date end="1185" begin="1185" subtype="simple">1185</date>
+     <source style="" id="be315">RR</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w268300">
+    <date end="1600" begin="1185">1185-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w268224">Sandherst</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w268224">Sanherst</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w268244">Sandh'st</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w268300">Sandhurst</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w268300">Sandherst</searchterm>
+  </extension>
+ </mads>
+ 

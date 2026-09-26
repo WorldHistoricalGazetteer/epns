@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000113">
+  <authority ID="epns-deep-10-a-name-parish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/002607">Cosgrove</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000008" type="broader">
+   <geographic>Cleyley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0003f3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8480100" lat="52.0751800" gazref="geonames:2652295" source="geonames"/>
+   <geo long="-0.8398973767321949" lat="52.07473395319249" gazref="unlock:11116852" source="unlock"/>
+   <geo easting="479500" northing="242500" long="-0.841431" lat="52.0752" kepnref="10983" source="kepn"/>
+  </extension>
+ </mads>
+ 

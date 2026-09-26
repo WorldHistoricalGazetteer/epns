@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000073">
+  <authority ID="epns-deep-33-b-name-subparish-000073">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/007794">Carlton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000029" type="broader">
+   <geographic>Guiseley</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w337706">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/007795">Carletun(e), Carleton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w337799">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/007796">East(e) Carleton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w337837">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/007797">Karleton</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w337871">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/007798">Westcarlton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c8100612f"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6626700" lat="53.8807000" gazref="geonames:7297806" source="geonames"/>
+   <geo long="-1.680567327" lat="53.87357262" source="epns"/>
+   <geo easting="421500" northing="443500" long="-1.67437" lat="53.8872" kepnref="14660" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w337706">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337706">
+    <date end="1240" begin="1220" subtype="circa">c. 1230</date>
+    <source style="italic" id="wr51">Bodl</source>
+    <item>76</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337706">
+    <date end="1285" begin="1285" subtype="simple">1285</date>
+    <source style="" id="wr311">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337706">
+    <attestation variantID="epns-deep-33-b-name-w337706">
+     <date end="1303" begin="1303" subtype="simple">1303</date>
+     <source style="" id="wr10">Aid</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w337706">
+     <date end="1641" begin="1641" subtype="simple">1641</date>
+     <source style="" id="wr590">Rates</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337799">
+    <date end="1577" begin="1577" subtype="simple">1577</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337799">
+    <date end="1606" begin="1606" subtype="simple">1606</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337837">
+    <date end="1225" begin="1200" subtype="simple">1200- 25</date>
+    <source style="" id="wr264">Hem</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337837">
+    <date end="1271" begin="1271" subtype="simple">1271</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w337871">
+    <date end="1556" begin="1556" subtype="simple">1556</date>
+    <source style="" id="wr712">TestLds</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w337706">Carletune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337706">Carletun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337706">Carleton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337799">Easte Carleton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337799">East Carleton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337837">Karleton</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w337871">Westcarlton</searchterm>
+  </extension>
+ </mads>
+ 

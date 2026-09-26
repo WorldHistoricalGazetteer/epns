@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol49mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-49-b-subparish-000016">
+  <authority ID="epns-deep-49-b-name-subparish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005033">Earley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-49-a-parish-000019" type="broader">
+   <geographic>Earley</geographic>
+  </related>
+  <variant ID="epns-deep-49-b-name-w182496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005034">Herlei</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w182512">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005035">Erlega</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w182565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005036">Erleia, Erley(e), Erleg', Erle(g), Erlegh', Erleg(h), Erlee</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w182626">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005037">Herleg'</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w182656">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005038">Arle</geographic>
+  </variant>
+  <variant ID="epns-deep-49-b-name-w182680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/49/005039">Arlegh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e4fb47fc407ba001b4e"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9238400" lat="51.4408500" gazref="geonames:2650555" source="geonames"/>
+   <geo long="-0.9136820539307303" lat="51.4369701238887" gazref="unlock:11135245" source="unlock"/>
+   <geo easting="475500" northing="171500" long="-0.915182" lat="51.4375" kepnref="3040" source="kepn"/>
+   <attestation variantID="epns-deep-49-b-name-w182496">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182512">
+    <attestation variantID="epns-deep-49-b-name-w182512">
+     <date end="1177" begin="1177" subtype="simple">1177</date>
+     <source style="" id="be256">P</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182565">
+    <date end="1600" begin="1177">1177-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182626">
+    <date end="1197" begin="1197" subtype="simple">1197</date>
+    <source style="italic" id="be124">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182626">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182656">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="be178">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182656">
+    <date end="1428" begin="1428" subtype="simple">1428</date>
+    <source style="" id="be118">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-49-b-name-w182680">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="be365">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-49-b-name-w182496">Herlei</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182512">Erlega</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erleia</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erleye</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erley</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erleg'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erleg</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erle</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erlegh'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erlegh</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erleg</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182565">Erlee</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182626">Herleg'</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182656">Arle</searchterm>
+   <searchterm variantID="epns-deep-49-b-name-w182680">Arlegh</searchterm>
+  </extension>
+ </mads>
+ 

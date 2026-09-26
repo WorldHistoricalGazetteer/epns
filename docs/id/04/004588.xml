@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000174">
+  <authority ID="epns-deep-04-b-name-subparish-000174">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004588">Dodderhill</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000177" type="broader">
+   <geographic>Dodderhill</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w379270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004589">Dudrenhull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w379315">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004590">Duderhull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w379403">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004591">Doderhull</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w379433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/004592">Dodderhull, Doderhyll</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b000576"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.1034200" lat="52.2877400" gazref="geonames:7292795" source="geonames"/>
+   <geo easting="392500" northing="265500" long="-2.11136" lat="52.2876" kepnref="5352" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w379270">
+    <date end="1180" begin="1096" subtype="simple">1096-1180</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w379315">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <copydate end="1260" begin="1240">c. 1250</copydate>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w379315">
+    <date end="1175" begin="1175" subtype="simple">1175</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="" id="wo197">Thomas</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w379315">
+    <date end="1160" begin="1140" subtype="circa">c. 1150</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="italic" id="wo79">Hearne's Heming</source>
+    <page>536</page>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w379403">
+    <date end="1300" begin="1200" subtype="century">13th</date>
+    <source style="" id="wo208">Wigorn</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w379433">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="wo201">VE</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w379270">Dudrenhull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w379315">Duderhull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w379403">Doderhull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w379433">Dodderhull</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w379433">Doderhyll</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000352">
+  <authority ID="epns-deep-05-b-name-subparish-000352">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004022">Kirklington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000127" type="broader">
+   <geographic>Kirklington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w294826">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004023">Cherdinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w294846">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004024">Chirtlintuna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w294876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004025">Kirtlyngton, Kirtlington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w294947">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004026">Kirtelington, Kyrtelington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w295011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004027">Kertlinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w295063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004028">Kirclinton, Kirklinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w295106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004029">Kirkelington, Kirkelynton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000513"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5000000" lat="54.2166700" gazref="geonames:2645251" source="geonames"/>
+   <geo long="-1.516753678087686" lat="54.22808128955327" gazref="unlock:11188083" source="unlock"/>
+   <geo easting="431500" northing="481500" long="-1.5183" lat="54.2283" kepnref="6003" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w294826">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294846">
+    <date subtype="simple" begin="1145" end="1153">1145-53</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>35</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294876">
+    <attestation variantID="epns-deep-05-b-name-w294876">
+     <date subtype="century" begin="1100" end="1200">12</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>80 d, 84 d</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w294876">
+     <date subtype="simple" begin="1449" end="1449">1449</date>
+     <source style="" id="ny217">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w294947">
+    <attestation variantID="epns-deep-05-b-name-w294947">
+     <date subtype="simple" begin="1198" end="1198">1198</date>
+     <source style="" id="ny71">Fount</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w294947">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+    <attestation variantID="epns-deep-05-b-name-w294947">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny118">LS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295011">
+    <date subtype="simple" begin="1207" end="1207">1207</date>
+    <source style="" id="ny1">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295011">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295011">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295011">
+    <date subtype="simple" begin="1239" end="1239">1239</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295063">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295063">
+    <date subtype="simple" begin="1575" end="1575">1575</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295106">
+    <date subtype="simple" begin="1276" end="1276">1276</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>ii</item>
+    <page>18 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295106">
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w295106">
+    <date subtype="simple" begin="1396" end="1396">1396</date>
+    <source style="" id="ny165">Pap</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w294826">Cherdinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294846">Chirtlintuna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294876">Kirtlyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294876">Kirtlington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294947">Kirtelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w294947">Kyrtelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w295011">Kertlinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w295063">Kirclinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w295063">Kirklinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w295106">Kirkelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w295106">Kirkelynton</searchterm>
+  </extension>
+ </mads>
+ 

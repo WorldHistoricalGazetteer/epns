@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-b-subparish-000312">
+  <authority ID="epns-deep-10-b-name-subparish-000312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007049">St Martins Without</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-a-parish-000313" type="broader">
+   <geographic>St Martins Without (, Stamford)</geographic>
+  </related>
+  <variant ID="epns-deep-10-b-name-w386452">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007050">Stanfort</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w386480">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007051">Stanford, Stanforton'</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w386520">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007052">Staunford in com Norhampton</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w386558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007053">Staunford ultra pontem</geographic>
+  </variant>
+  <variant ID="epns-deep-10-b-name-w386600">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007054">Stamforde Barne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba0005f6"/>
+  </recordInfo>
+  <extension>
+   <geo easting="502500" northing="307500" long="-0.486116" lat="52.6556" kepnref="11184" source="kepn"/>
+   <attestation variantID="epns-deep-10-b-name-w386452">
+    <date end="1128" begin="1125" subtype="simple">1125-8</date>
+    <source style="" id="nh47">ChronPetro</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w386480">
+    <date end="1230" begin="1210" subtype="circa">c. 1220</date>
+    <source style="" id="nh297">WellsR</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w386520">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="italic" id="nh16">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w386558">
+    <date end="1310" begin="1290" subtype="circa">c. 1300</date>
+    <source style="italic" id="nh225">PeterbA</source>
+   </attestation>
+   <attestation variantID="epns-deep-10-b-name-w386600">
+    <date end="1558" begin="1558" subtype="simple">1558</date>
+    <source style="italic" id="nh101">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-10-b-name-w386452">Stanfort</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w386480">Stanford</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w386480">Stanforton'</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w386520">Staunford in com Norhampton</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w386558">Staunford ultra pontem</searchterm>
+   <searchterm variantID="epns-deep-10-b-name-w386600">Stamforde Barne</searchterm>
+  </extension>
+ </mads>
+ 

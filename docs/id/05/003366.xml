@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000270">
+  <authority ID="epns-deep-05-b-name-subparish-000270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003366">Fawdington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000102" type="broader">
+   <geographic>Topcliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w249666">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003367">Faldingtun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249686">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003368">Faldinton, Faldynton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249727">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003369">Faldington, Faldyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249774">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003370">Fawdington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005dd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3269500" lat="54.1498600" gazref="geonames:7296805" source="geonames"/>
+   <geo long="-1.333973209136092" lat="54.14631221182029" gazref="unlock:11142498" source="unlock"/>
+   <geo easting="443500" northing="472500" long="-1.33554" lat="54.1465" kepnref="5922" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w249666">
+    <date subtype="simple" begin="1247" end="1247">1247</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249686">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249686">
+    <date subtype="simple" begin="1404" end="1404">1404</date>
+    <source style="" id="ny62">Fabr</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249727">
+    <attestation variantID="epns-deep-05-b-name-w249727">
+     <date subtype="century" begin="1200" end="1300">13</date>
+     <source style="italic" id="ny28">BylE</source>
+     <page>32</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249774">
+    <date subtype="simple" begin="1541" end="1541">1541</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>355</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w249666">Faldingtun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249686">Faldinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249686">Faldynton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249727">Faldington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249727">Faldyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249774">Fawdington</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000026">
+  <authority ID="epns-deep-05-b-name-subparish-000026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000227">Alne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000011" type="broader">
+   <geographic>Alne</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w18896">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000228">Alne, Alna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18938">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000229">Aulna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18952">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000230">Aune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18968">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000231">Alen</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18984">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000232">Awne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003f8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2401400" lat="54.0837500" gazref="geonames:2657446" source="geonames"/>
+   <geo long="-1.243262588025984" lat="54.08285477896032" gazref="unlock:11061289" source="unlock"/>
+   <geo easting="449500" northing="465500" long="-1.24483" lat="54.083" kepnref="5676" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w18896">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18896">
+    <attestation variantID="epns-deep-05-b-name-w18896">
+     <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+     <source style="" id="ny209">SD</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18938">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18952">
+    <date subtype="simple" begin="1237" end="1237">1237</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18968">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18984">
+    <date subtype="simple" begin="1402" end="1402">1402</date>
+    <date subtype="simple" begin="1454" end="1454">1454</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18984">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18984">
+    <date subtype="simple" begin="1581" end="1581">1581</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w18896">Alne</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18896">Alna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18938">Aulna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18952">Aune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18968">Alen</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18984">Awne</searchterm>
+  </extension>
+ </mads>
+ 

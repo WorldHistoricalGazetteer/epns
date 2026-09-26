@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-ld-localdistrict-000003">
+  <authority ID="epns-deep-05-ld-name-localdistrict-000003">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002189">Cleveland</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-wp-subcounty-000005" type="broader">
+   <geographic>Langbargh East Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-05-ld-name-w173960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002190">Cliveland(a), Clyveland(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-ld-name-w174041">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002191">Clieveland</geographic>
+  </variant>
+  <variant ID="epns-deep-05-ld-name-w174116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002192">Cleueland</geographic>
+  </variant>
+  <variant ID="epns-deep-05-ld-name-w174154">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002193">Cleiveland</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286aecb47fc40bc6000002"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-05-ld-name-w173960">
+    <date end="1114" begin="1104" subtype="simple">1104-14</date>
+    <source style="" id="ny236">YCh</source>
+    <page>932</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-ld-name-w173960">
+    <attestation variantID="epns-deep-05-ld-name-w173960">
+     <date end="1140" begin="1120" subtype="circa">c. 1130</date>
+     <source style="" id="ny209">SD</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-ld-name-w173960">
+     <date end="1452" begin="1452" subtype="simple">1452</date>
+     <source style="" id="ny217">Test</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-ld-name-w174041">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>v</item>
+    <page>508</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-ld-name-w174116">
+    <attestation variantID="epns-deep-05-ld-name-w174116">
+     <date end="1280" begin="1260" subtype="circa">c. 1270</date>
+     <source style="italic" id="ny89">Heal</source>
+     <page>103</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-ld-name-w174154">
+    <date end="1621" begin="1621" subtype="simple">1621</date>
+    <source style="" id="ny146">NR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-ld-name-w173960">Clivelanda</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w173960">Cliveland</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w173960">Clyvelanda</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w173960">Clyveland</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w174041">Clieveland</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w174116">Cleueland</searchterm>
+   <searchterm variantID="epns-deep-05-ld-name-w174154">Cleiveland</searchterm>
+  </extension>
+ </mads>
+ 

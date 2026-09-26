@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000293">
+  <authority ID="epns-deep-10-a-name-parish-000293">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/006470">Wadenhoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000019" type="broader">
+   <geographic>Navisford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5144700" lat="52.4419000" gazref="geonames:2634919" source="geonames"/>
+   <geo long="-0.5066379188635393" lat="52.4396590686512" gazref="unlock:11312023" source="unlock"/>
+   <geo easting="501500" northing="283500" long="-0.508225" lat="52.4401" kepnref="11164" source="kepn"/>
+  </extension>
+ </mads>
+ 

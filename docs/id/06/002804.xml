@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000090">
+  <authority ID="epns-deep-06-b-name-subparish-000090">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002804">Ford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000090" type="broader">
+   <geographic>Ford</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w223077">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002805">Fordes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002806">Vorde</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223136">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002807">Forde</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223151">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002808">Forde near Arundell</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002809">Foord</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w223208">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002810">Fourde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cfc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5812500" lat="50.8224200" gazref="geonames:2649239" source="geonames"/>
+   <geo easting="500500" northing="103500" long="-0.574564" lat="50.8223" kepnref="6952" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w223077">
+    <attestation variantID="epns-deep-06-b-name-w223077">
+     <date subtype="circa" begin="1184" end="1204">c. 1194</date>
+     <source style="" id="su103">France</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w223077">
+     <date subtype="simple" begin="1310" end="1310">1310</date>
+     <source style="" id="su130">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223120">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223136">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223151">
+    <date subtype="simple" begin="1329" end="1329">1329</date>
+    <source style="" id="su44">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223180">
+    <date subtype="simple" begin="1580" end="1580">1580</date>
+    <source style="" id="su156">MarC</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223180">
+    <date subtype="simple" begin="1710" end="1710">1710</date>
+    <source style="" id="su157">MarL</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w223208">
+    <date subtype="simple" begin="1584" end="1584">1584</date>
+    <source style="" id="su253">SAC</source>
+    <item>12</item>
+    <page>257</page>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w223077">Fordes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223120">Vorde</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223136">Forde</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223151">Forde near Arundell</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223180">Foord</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w223208">Fourde</searchterm>
+  </extension>
+ </mads>
+ 

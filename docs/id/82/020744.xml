@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000122">
+  <authority ID="epns-deep-82-b-name-subparish-000122">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/020744">New Woodhouse</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000032" type="broader">
+   <geographic>Whitchurch</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w766062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/020745">Newewodhous</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w766089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/020746">Newodehous</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w766112">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/020747">New Woodhouses</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a652b47fc4463d000f75"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.609132454" lat="52.97347957" source="epns"/>
+   <attestation variantID="epns-deep-82-b-name-w766062">
+    <date subtype="simple" begin="1401" end="1402">1401-2</date>
+    <source style="" id="ss293">Talbot</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w766089">
+    <date subtype="simple" begin="1419" end="1420">1419-20</date>
+    <source style="" id="ss293" underspec="ib">Talbot</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w766112">
+    <date subtype="simple" begin="1782" end="1782">1782</date>
+    <source style="italic" id="ss267">SBL</source>
+    <item>4318</item>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w766062">Newewodhous</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w766089">Newodehous</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w766112">New Woodhouses</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol71mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-71-a-parish-000016">
+  <authority ID="epns-deep-71-a-name-parish-000016">
+   <geographic valueURI="http://placenames.org.uk/id/placename/71/004604">Grainsby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-71-wp-subcounty-000002" type="broader">
+   <geographic>Haverstoe Wapentake</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286817b47fc40b93000f00"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0663900" lat="53.4772800" gazref="geonames:2648233" source="geonames"/>
+   <geo long="-0.07863669059870818" lat="53.47651236379448" gazref="unlock:11157415" source="unlock"/>
+   <geo easting="527500" northing="399500" long="-0.0803199" lat="53.4768" kepnref="10600" source="kepn"/>
+  </extension>
+ </mads>
+ 

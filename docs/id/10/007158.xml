@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000319">
+  <authority ID="epns-deep-10-a-name-parish-000319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/007158">Wansford</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000020" type="broader">
+   <geographic>Nassaborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba0004cb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4166700" lat="52.5833300" gazref="geonames:2634805" source="geonames"/>
+   <geo long="-0.4132238522977474" lat="52.5823120658117" gazref="unlock:11313038" source="unlock"/>
+   <geo easting="507500" northing="299500" long="-0.414828" lat="52.5827" kepnref="11190" source="kepn"/>
+  </extension>
+ </mads>
+ 

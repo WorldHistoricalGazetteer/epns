@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000079">
+  <authority ID="epns-deep-10-a-name-parish-000079">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001871">Lilbourne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000005" type="broader">
+   <geographic>Guilsborough Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba00045a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1755800" lat="52.3876600" gazref="geonames:2644511" source="geonames"/>
+   <geo long="-1.169796449237622" lat="52.3832345683435" gazref="unlock:11194853" source="unlock"/>
+   <geo easting="456500" northing="276500" long="-1.1713" lat="52.3836" kepnref="10949" source="kepn"/>
+  </extension>
+ </mads>
+ 

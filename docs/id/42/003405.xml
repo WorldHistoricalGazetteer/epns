@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol42mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-42-b-subparish-000023">
+  <authority ID="epns-deep-42-b-name-subparish-000023">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003405">Preston Richard</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-42-a-parish-000005" type="broader">
+   <geographic>Heversham</geographic>
+  </related>
+  <variant ID="epns-deep-42-b-name-w182659">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003406">Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w182770">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003407">Preston(a) in Kendale</geographic>
+  </variant>
+  <variant ID="epns-deep-42-b-name-w182848">
+   <geographic valueURI="http://placenames.org.uk/id/placename/42/003408">Preston(a) Richard, Preston(a) Rychard</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532876a2b47fc40c6f0013ba"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7175000" lat="54.2546300" gazref="geonames:7300167" source="geonames"/>
+   <geo long="-2.71521" lat="54.2541" source="epns"/>
+   <geo easting="353500" northing="484500" long="-2.71521" lat="54.2541" kepnref="5092" source="kepn"/>
+   <attestation variantID="epns-deep-42-b-name-w182659">
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="we221">Kend</source>
+    <item>i</item>
+    <page>2</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182659">
+    <date subtype="simple" begin="1190" end="1195">1190-5</date>
+    <source style="" id="we227">LaCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182659">
+    <date subtype="simple" begin="1190" end="1220">1190-1220</date>
+    <source style="" id="we80">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182659">
+    <attestation variantID="epns-deep-42-b-name-w182659">
+     <date subtype="simple" begin="1256" end="1256">1256</date>
+     <date subtype="simple" begin="1295" end="1295">1295</date>
+     <source style="" id="we221">Kend</source>
+     <item>ii</item>
+     <page>203</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w182659">
+     <date subtype="simple" begin="1618" end="1618">1618</date>
+     <source style="" id="we511">PR(K)</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182770">
+    <date subtype="simple" begin="1184" end="1190">1184-90</date>
+    <date subtype="simple" begin="1190" end="1190">1190</date>
+    <source style="" id="we80">Cockers</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182770">
+    <date subtype="simple" begin="1445" end="1445">1445</date>
+    <source style="" id="we221">Kend</source>
+    <item>ii</item>
+    <page>208</page>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182770">
+    <date subtype="simple" begin="1477" end="1477">1477</date>
+    <source style="" id="we343">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182848">
+    <date subtype="simple" begin="1303" end="1303">1303</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182848">
+    <date subtype="simple" begin="1337" end="1337">1337</date>
+    <source style="italic" id="we424">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182848">
+    <date subtype="simple" begin="1375" end="1375">1375</date>
+    <source style="" id="we208">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-42-b-name-w182848">
+    <attestation variantID="epns-deep-42-b-name-w182848">
+     <date subtype="simple" begin="1383" end="1383">1383</date>
+     <source style="italic" id="we345">Pedw</source>
+     <item>79d</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-42-b-name-w182848">
+     <date subtype="simple" begin="1657" end="1657">1657</date>
+     <source style="italic" id="we83">Comm</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-42-b-name-w182659">Prestona</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182659">Preston</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182770">Prestona in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182770">Preston in Kendale</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182848">Prestona Richard</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182848">Preston Richard</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182848">Prestona Rychard</searchterm>
+   <searchterm variantID="epns-deep-42-b-name-w182848">Preston Rychard</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000269">
+  <authority ID="epns-deep-05-b-name-subparish-000269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003356">Topcliffe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000102" type="broader">
+   <geographic>Topcliffe</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w249067">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003357">Topeclive</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249119">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003358">Toppecliue</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249173">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003359">Topclif</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w249215">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003360">Topleffe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3882100" lat="54.1776900" gazref="geonames:2635683" source="geonames"/>
+   <geo long="-1.379365199355602" lat="54.18250926212536" gazref="unlock:11302798" source="unlock"/>
+   <geo easting="439500" northing="476500" long="-1.39624" lat="54.1828" kepnref="5913" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w249067">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249067">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249067">
+    <date subtype="simple" begin="1236" end="1236">1236</date>
+    <source style="" id="ny34">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249067">
+    <date subtype="simple" begin="1251" end="1251">1251</date>
+    <source style="" id="ny168">Percy</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249119">
+    <attestation variantID="epns-deep-05-b-name-w249119">
+     <date subtype="simple" begin="1154" end="1181">1154-81</date>
+     <source style="italic" id="ny300">RegAlb</source>
+     <item>i</item>
+     <page>70</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w249119">
+     <date subtype="simple" begin="1301" end="1301">1301</date>
+     <source style="" id="ny118">LS</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249173">
+    <attestation variantID="epns-deep-05-b-name-w249173">
+     <date subtype="simple" begin="1288" end="1288">1288</date>
+     <source style="" id="ny52">Ebor</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w249173">
+     <date subtype="simple" begin="1371" end="1371">1371</date>
+     <source style="" id="ny62">Fabr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w249215">
+    <date subtype="simple" begin="1519" end="1519">1519</date>
+    <source style="" id="ny206">Sanct</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w249067">Topeclive</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249119">Toppecliue</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249173">Topclif</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w249215">Topleffe</searchterm>
+  </extension>
+ </mads>
+ 

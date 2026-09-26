@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol82mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-82-b-subparish-000106">
+  <authority ID="epns-deep-82-b-name-subparish-000106">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018019">Northwood</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-82-a-parish-000030" type="broader">
+   <geographic>Wem</geographic>
+  </related>
+  <variant ID="epns-deep-82-b-name-w678654">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018020">Northwode</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w678680">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018021">Northwood</geographic>
+  </variant>
+  <variant ID="epns-deep-82-b-name-w678735">
+   <geographic valueURI="http://placenames.org.uk/id/placename/82/018022">Northwoode</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53d8a64db47fc4463d000f58"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.793847942" lat="52.89417179" source="epns"/>
+   <geo long="-2.795367543509133" lat="52.89596080559536" gazref="unlock:11233645" source="unlock"/>
+   <attestation variantID="epns-deep-82-b-name-w678654">
+    <date subtype="simple" begin="1290" end="1290">1290</date>
+    <date subtype="simple" begin="1368" end="1368">1368</date>
+    <source style="" id="ss131">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-82-b-name-w678680 epns-deep-82-b-name-w678735">
+    <date subtype="simple" begin="1586" end="1587">1586-7</date>
+    <source style="italic" id="ss400">RentSur</source>
+   </attestation>
+   <searchterm variantID="epns-deep-82-b-name-w678654">Northwode</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w678680">Northwood</searchterm>
+   <searchterm variantID="epns-deep-82-b-name-w678735">Northwoode</searchterm>
+  </extension>
+ </mads>
+ 

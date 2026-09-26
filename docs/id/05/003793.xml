@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000323">
+  <authority ID="epns-deep-05-b-name-subparish-000323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003793">North Otterington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000119" type="broader">
+   <geographic>North Otterington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w276565">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003794">Otrin(c)tun(e), Otrin(c) tona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276638">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003795">Otheringeton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276662">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003796">Ot(e)rington'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276719">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003797">North Ot(e)rington'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w276749">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003798">Oterinton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000550"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4394200" lat="54.3098600" gazref="geonames:7296813" source="geonames"/>
+   <geo long="-1.439076428015715" lat="54.29965244212156" gazref="unlock:11232923" source="unlock"/>
+   <geo easting="436500" northing="489500" long="-1.44063" lat="54.2998" kepnref="5975" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w276565">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276565">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276565">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>i</item>
+    <page>68</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276638">
+    <date subtype="simple" begin="1208" end="1208">1208</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276662">
+    <date subtype="simple" begin="1208" end="1210">1208-10</date>
+    <source style="" id="ny64">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276662">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="italic" id="ny12">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276662">
+    <date subtype="simple" begin="1254" end="1254">1254</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276719">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="ny52" underspec="ib">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w276749">
+    <date subtype="simple" begin="1227" end="1227">1227</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrinctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrinctun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrintune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrinc tona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276565">Otrin tona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276638">Otheringeton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276662">Oterington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276662">Otrington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276719">North Oterington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276719">North Otrington'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w276749">Oterinton</searchterm>
+  </extension>
+ </mads>
+ 

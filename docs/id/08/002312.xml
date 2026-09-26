@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000040">
+  <authority ID="epns-deep-08-b-name-subparish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002312">Alwington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000040" type="broader">
+   <geographic>Alwington</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w124653">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002313">Alwinetona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w124673">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002314">Alwenton</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w124691">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002315">Alwynton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w124739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002316">Alwyngton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e0018c3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2780000" lat="51.0002600" gazref="geonames:7297978" source="geonames"/>
+   <geo long="-4.272831041304744" lat="50.98823050379756" gazref="unlock:11061563" source="unlock"/>
+   <geo easting="240500" northing="123500" long="-4.27393" lat="50.9888" kepnref="15497" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w124653">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w124673">
+    <date end="1237" begin="1237" subtype="simple">1237</date>
+    <source style="" id="de40">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w124691">
+    <attestation variantID="epns-deep-08-b-name-w124691">
+     <date end="1242" begin="1242" subtype="simple">1242</date>
+     <source style="" id="de83">Fees</source>
+     <item>795</item>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-08-b-name-w124691">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="de82">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w124739">
+    <date end="1303" begin="1303" subtype="simple">1303</date>
+    <date end="1316" begin="1316" subtype="simple">1316</date>
+    <source style="" id="de82">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w124653">Alwinetona</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w124673">Alwenton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w124691">Alwyntone</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w124691">Alwynton</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w124739">Alwyngton</searchterm>
+  </extension>
+ </mads>
+ 

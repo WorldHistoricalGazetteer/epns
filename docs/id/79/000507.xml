@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000008">
+  <authority ID="epns-deep-79-a-name-parish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/000507">Cromer</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000001" type="broader">
+   <geographic>North Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d0c"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2989200" lat="52.9312300" gazref="geonames:2651930" source="geonames"/>
+   <geo long="1.303394232" lat="52.92911113" source="epns"/>
+   <geo long="1.296309884990752" lat="52.93380634884304" gazref="unlock:11122448" source="unlock"/>
+   <geo easting="621500" northing="342500" long="1.29449" lat="52.9342" kepnref="9160" source="kepn"/>
+  </extension>
+ </mads>
+ 

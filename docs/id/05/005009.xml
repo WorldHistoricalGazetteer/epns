@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000442">
+  <authority ID="epns-deep-05-b-name-subparish-000442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005009">Hauxwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000149" type="broader">
+   <geographic>Hauxwell</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w360529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005010">Hauoc(he)swelle</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360554">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005011">Houcheswell</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360578">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005012">Houkeswella, Haukeswella, Haukeswelle</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w360677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005013">Hauekeswell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004b0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7431100" lat="54.3390300" gazref="geonames:2650419" source="geonames"/>
+   <geo long="-1.746205281965956" lat="54.3366426591021" gazref="unlock:11136085" source="unlock"/>
+   <geo easting="416500" northing="493500" long="-1.74773" lat="54.3368" kepnref="6093" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w360529">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360554">
+    <date subtype="simple" begin="1166" end="1166">1166</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360578">
+    <date subtype="simple" begin="1177" end="1177">1177</date>
+    <source style="" id="ny164">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360578">
+    <attestation variantID="epns-deep-05-b-name-w360578">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84 d</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w360578">
+     <date subtype="simple" begin="1362" end="1362">1362</date>
+     <source style="italic" id="ny8">Archd</source>
+     <page>5 d</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w360677">
+    <date subtype="simple" begin="1219" end="1219">1219</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w360529">Hauocheswelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360529">Hauocswelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360554">Houcheswell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360578">Houkeswella</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360578">Haukeswella</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360578">Haukeswelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w360677">Hauekeswell</searchterm>
+  </extension>
+ </mads>
+ 

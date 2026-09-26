@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-b-subparish-000027">
+  <authority ID="epns-deep-02-b-name-subparish-000027">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000421">Stoke Hammond</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-a-parish-000026" type="broader">
+   <geographic>Stoke Hammond</geographic>
+  </related>
+  <variant ID="epns-deep-02-b-name-w30895">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000422">Stoches</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w30912">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000423">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w30960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000424">Stokes Hamund</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w30989">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000425">Stoke Hamund</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w31012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000426">Stoke Hamond</geographic>
+  </variant>
+  <variant ID="epns-deep-02-b-name-w31034">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000427">Stokehamon</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ee4b47fc407e30003bd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7190000" lat="51.9567500" gazref="geonames:2636850" source="geonames"/>
+   <geo long="-0.7119600685562461" lat="51.95650571414568" gazref="unlock:11292731" source="unlock"/>
+   <geo easting="488500" northing="229500" long="-0.713504" lat="51.957" kepnref="11219" source="kepn"/>
+   <attestation variantID="epns-deep-02-b-name-w30895">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="bu25">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w30912">
+    <date end="1185" begin="1185" subtype="simple">1185</date>
+    <source style="" id="bu103">Rot Dom</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w30912">
+    <date end="1198" begin="1198" subtype="simple">1198</date>
+    <source style="" id="bu42">Fines</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w30912">
+    <date end="1235" begin="1235" subtype="simple">1235</date>
+    <source style="" id="bu37">Fees</source>
+    <item>462</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w30960">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="bu37">Fees</source>
+    <item>883</item>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w30989">
+    <date end="1247" begin="1247" subtype="simple">1247</date>
+    <source style="italic" id="bu9">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w31012">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="bu36">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w31034">
+    <date end="1535" begin="1535" subtype="simple">1535</date>
+    <source style="" id="bu116">VE</source>
+   </attestation>
+   <attestation variantID="epns-deep-02-b-name-w31034">
+    <date end="1603" begin="1558" subtype="regnal">Eliz</date>
+    <source style="" id="bu16">ChancP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-02-b-name-w30895">Stoches</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w30912">Stokes</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w30960">Stokes Hamund</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w30989">Stoke Hamund</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w31012">Stoke Hamond</searchterm>
+   <searchterm variantID="epns-deep-02-b-name-w31034">Stokehamon</searchterm>
+  </extension>
+ </mads>
+ 

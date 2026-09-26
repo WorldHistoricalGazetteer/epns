@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-b-subparish-000153">
+  <authority ID="epns-deep-08-b-name-subparish-000153">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008693">Plympton Erle</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-a-parish-000153" type="broader">
+   <geographic>Plympton Erle or St Maurice</geographic>
+  </related>
+  <variant ID="epns-deep-08-b-name-w446664">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008694">Plympton Comitis</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w446691">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008695">Plympton Erle</geographic>
+  </variant>
+  <variant ID="epns-deep-08-b-name-w446722">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/008696">Plympton Earls</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e0019f4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.0602200" lat="50.3907400" gazref="geonames:2640192" source="geonames"/>
+   <geo easting="253500" northing="56500" long="-4.06226" lat="50.3901" kepnref="15610" source="kepn"/>
+   <attestation variantID="epns-deep-08-b-name-w446664">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w446691">
+    <date end="1500" begin="1400" subtype="century">15th</date>
+    <source style="" id="de72">ECP</source>
+    <item>1</item>
+    <page>260</page>
+   </attestation>
+   <attestation variantID="epns-deep-08-b-name-w446722">
+    <date end="1485" begin="1485" subtype="simple">1485</date>
+    <source style="" id="de111">Ipm</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-b-name-w446664">Plympton Comitis</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w446691">Plympton Erle</searchterm>
+   <searchterm variantID="epns-deep-08-b-name-w446722">Plympton Earls</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-a-parish-000009">
+  <authority ID="epns-deep-40-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/001278">Alderley</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-hu-subcounty-000002" type="broader">
+   <geographic>Grumbald's Ash Hundred (Upper Division)</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285a9fb47fc40ab30018ed"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3358000" lat="51.6164700" gazref="geonames:2657547" source="geonames"/>
+   <geo long="-2.332234066" lat="51.61688538" source="epns"/>
+   <geo long="-2.339422969923758" lat="51.61236934048539" gazref="unlock:11058025" source="unlock"/>
+   <geo easting="376500" northing="190500" long="-2.34077" lat="51.6128" kepnref="6455" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000476">
+  <authority ID="epns-deep-05-b-name-subparish-000476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005278">South Cowton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000159" type="broader">
+   <geographic>Cowton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w375555">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005279">Couton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w375581">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005280">Suth Couton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w375607">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005281">Atloucouton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000458"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5500000" lat="54.4166700" gazref="geonames:2637447" source="geonames"/>
+   <geo easting="428500" northing="503500" long="-1.56222" lat="54.4261" kepnref="6185" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w375555">
+    <date subtype="simple" begin="1158" end="1158">1158</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w375581">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>134</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w375607">
+    <date subtype="simple" begin="1158" end="1158">1158</date>
+    <source style="italic" id="ny195">RichReg</source>
+    <page>82 d</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w375555">Couton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w375581">Suth Couton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w375607">Atloucouton</searchterm>
+  </extension>
+ </mads>
+ 

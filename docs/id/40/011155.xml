@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000094">
+  <authority ID="epns-deep-40-b-name-subparish-000094">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011155">East Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000092" type="broader">
+   <geographic>East Dean</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w496748">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011156">Dene, Dena</geographic>
+  </variant>
+  <variant ID="epns-deep-40-b-name-w496795">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011157">Estdene</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001af0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.508486891" lat="51.87702846" source="epns"/>
+   <geo long="-2.501273236744627" lat="51.88155619968001" gazref="unlock:11135835" source="unlock"/>
+   <geo easting="365500" northing="220500" long="-2.50261" lat="51.882" kepnref="6538" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w496748">
+    <date end="1204" begin="1204" subtype="simple">1204</date>
+    <source style="" id="go388">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w496748">
+    <date end="1217" begin="1212" subtype="simple">1212-17</date>
+    <source style="" id="go430">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w496748">
+    <date end="1220" begin="1220" subtype="simple">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-40-b-name-w496795">
+    <date end="1320" begin="1320" subtype="simple">1320</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w496748">Dene</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w496748">Dena</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w496795">Estdene</searchterm>
+  </extension>
+ </mads>
+ 

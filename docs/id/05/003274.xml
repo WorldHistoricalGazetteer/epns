@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000260">
+  <authority ID="epns-deep-05-b-name-subparish-000260">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003274">Norton le Clay</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000101" type="broader">
+   <geographic>Cundall</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w243281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003275">Norton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w243300">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003276">Norton(e) in le Drit</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w243330">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003277">Norton(e) in the Cley</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w243367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003278">Norton(e) in luto</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600046a"/>
+  </recordInfo>
+  <extension>
+   <geo easting="440500" northing="471500" long="-1.38159" lat="54.1378" kepnref="5912" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w243281">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w243300">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w243330">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w243367">
+    <date subtype="simple" begin="1578" end="1578">1578</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w243281">Nortone</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243281">Norton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243300">Nortone in le Drit</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243300">Norton in le Drit</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243330">Nortone in the Cley</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243330">Norton in the Cley</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243367">Nortone in luto</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w243367">Norton in luto</searchterm>
+  </extension>
+ </mads>
+ 

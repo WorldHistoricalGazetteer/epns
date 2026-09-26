@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000248">
+  <authority ID="epns-deep-12-a-name-parish-000248">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/011426">Peldon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000013" type="broader">
+   <geographic>Winstree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000ce4"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.8855200" lat="51.8131300" gazref="geonames:2640513" source="geonames"/>
+   <geo long="0.8799323053331572" lat="51.81138486217755" gazref="unlock:11241836" source="unlock"/>
+   <geo easting="599500" northing="216500" long="0.892699" lat="51.8115" kepnref="12422" source="kepn"/>
+  </extension>
+ </mads>
+ 

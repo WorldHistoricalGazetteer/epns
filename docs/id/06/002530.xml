@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000081">
+  <authority ID="epns-deep-06-b-name-subparish-000081">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002530">Houghton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000081" type="broader">
+   <geographic>Houghton</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w201297">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002531">Hohtun</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002532">Hocton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201372">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002533">Hotton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201416">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002534">Hout(t)on</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201445">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002535">Hogton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201468">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002536">Hozton</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w201484">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/002537">Hoghton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d1a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5530500" lat="50.8944300" gazref="geonames:2646528" source="geonames"/>
+   <geo long="-0.5566362093401346" lat="50.89349939450619" gazref="unlock:11179991" source="unlock"/>
+   <geo easting="501500" northing="111500" long="-0.558156" lat="50.8941" kepnref="6943" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w201297">
+    <date subtype="simple" begin="683" end="683">683</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <page>64</page>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201323">
+    <date subtype="simple" begin="957" end="957">957</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="" id="su21">BCS</source>
+    <item>997</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201323">
+    <date subtype="circa" begin="1220" end="1240">c. 1230</date>
+    <source style="" id="su37">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201323">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201372">
+    <date subtype="regnal" begin="1100" end="1135">t. Hy 1</date>
+    <copydate end="1400" begin="1300">14th</copydate>
+    <source style="italic" id="su401">LibB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201372">
+    <date subtype="simple" begin="1210" end="1212">1210-12</date>
+    <source style="" id="su237">RBE</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201416">
+    <date subtype="simple" begin="1263" end="1263">1263</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201416">
+    <date subtype="simple" begin="1273" end="1273">1273</date>
+    <source style="" id="su130">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201445">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201468">
+    <date subtype="simple" begin="1296" end="1296">1296</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201484">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <date subtype="simple" begin="1332" end="1332">1332</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w201484">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w201297">Hohtun</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201323">Hocton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201372">Hottone</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201372">Hotton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201416">Houtton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201416">Houton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201445">Hogton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201468">Hozton</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w201484">Hoghton</searchterm>
+  </extension>
+ </mads>
+ 

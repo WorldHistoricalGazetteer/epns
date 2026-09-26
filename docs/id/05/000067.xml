@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000008">
+  <authority ID="epns-deep-05-b-name-subparish-000008">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000067">Stockton on the Forest</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000004" type="broader">
+   <geographic>Stockton on the Forest</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w5014">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000068">Stocthun, Stochetun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000069">Stocatuna</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5070">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000070">Stoketon', Stoceton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5132">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000071">Stoc(k)ton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w5162">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000072">Stoc(k)ton on the more</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005b9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0018200" lat="53.9963700" gazref="geonames:6692306" source="geonames"/>
+   <geo long="-1.000854347196742" lat="53.99119508906239" gazref="unlock:11292611" source="unlock"/>
+   <geo easting="465500" northing="455500" long="-1.00245" lat="53.9914" kepnref="5659" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w5014">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5043">
+    <date subtype="simple" begin="1145" end="1153">1145-53</date>
+    <source style="italic" id="ny113">Leon</source>
+    <item>35</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5070">
+    <attestation variantID="epns-deep-05-b-name-w5070">
+     <date subtype="simple" begin="1170" end="1188">1170-88</date>
+     <source style="italic" id="ny113">Leon</source>
+     <item>288</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w5070">
+     <date subtype="simple" begin="1316" end="1316">1316</date>
+     <source style="" id="ny223">Vill</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5132">
+    <date subtype="simple" begin="1218" end="1218">1218</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5132">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w5162">
+    <date subtype="simple" begin="1577" end="1577">1577</date>
+    <source style="" id="ny207">Saxton</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w5014">Stocthun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5014">Stochetun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5043">Stocatuna</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5070">Stoketon'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5070">Stoceton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5132">Stockton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5132">Stocton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5162">Stockton on the more</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w5162">Stocton on the more</searchterm>
+  </extension>
+ </mads>
+ 

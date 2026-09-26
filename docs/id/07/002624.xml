@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-b-subparish-000058">
+  <authority ID="epns-deep-07-b-name-subparish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002624">Little Horsted</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-a-parish-000059" type="broader">
+   <geographic>Little Horsted</geographic>
+  </related>
+  <variant ID="epns-deep-07-b-name-w170459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002625">Horstede</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w170496">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002626">Horstude</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w170520">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002627">Esthorstede</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w170542">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002628">Parva Horstede</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w170567">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002629">Horstede juxta Huckefeld</geographic>
+  </variant>
+  <variant ID="epns-deep-07-b-name-w170604">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002630">Horstede Lytel</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000d32"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0917500" lat="50.9461500" gazref="geonames:2644309" source="geonames"/>
+   <geo long="0.09993439300635081" lat="50.946494793307" gazref="unlock:11196494" source="unlock"/>
+   <geo easting="547500" northing="118500" long="0.0983387" lat="50.9471" kepnref="7076" source="kepn"/>
+   <attestation variantID="epns-deep-07-b-name-w170459">
+    <attestation variantID="epns-deep-07-b-name-w170459">
+     <date end="1086" begin="1086" subtype="simple">1086</date>
+     <source style="" id="su65">DB</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-07-b-name-w170459">
+     <date end="1326" begin="1326" subtype="simple">1326</date>
+     <source style="" id="su94">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w170496">
+    <date end="1165" begin="1165" subtype="simple">1165</date>
+    <source style="" id="su148">LN</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w170520">
+    <date end="1288" begin="1288" subtype="simple">1288</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w170542">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w170567">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-07-b-name-w170604">
+    <date end="1355" begin="1355" subtype="simple">1355</date>
+    <source style="italic" id="su100">FM</source>
+   </attestation>
+   <searchterm variantID="epns-deep-07-b-name-w170459">Horstede</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w170496">Horstude</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w170520">Esthorstede</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w170542">Parva Horstede</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w170567">Horstede juxta Huckefeld</searchterm>
+   <searchterm variantID="epns-deep-07-b-name-w170604">Horstede Lytel</searchterm>
+  </extension>
+ </mads>
+ 

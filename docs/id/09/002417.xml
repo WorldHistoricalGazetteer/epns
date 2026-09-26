@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000050">
+  <authority ID="epns-deep-09-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/002417">Thelbridge</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000003" type="broader">
+   <geographic>Witheridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001865"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.7166700" lat="50.9000000" gazref="geonames:2636037" source="geonames"/>
+   <geo long="-3.727976348378491" lat="50.8986270106335" gazref="unlock:11299258" source="unlock"/>
+   <geo easting="278500" northing="112500" long="-3.72914" lat="50.8992" kepnref="15717" source="kepn"/>
+  </extension>
+ </mads>
+ 

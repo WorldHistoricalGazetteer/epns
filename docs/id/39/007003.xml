@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol39mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-39-b-subparish-000068">
+  <authority ID="epns-deep-39-b-name-subparish-000068">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007003">Bishop's Norton &amp; Prior's Norton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-39-a-parish-000066" type="broader">
+   <geographic>Norton</geographic>
+  </related>
+  <variant ID="epns-deep-39-b-name-w350934">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007004">Nortvne, Nortune</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w350960">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007005">Nortuna, Norton, Nortuun</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w351057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007006">Norton Episcopi, Norton Prioris</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w351100">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007007">Norhtona</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w351123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007008">Northton'</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w351143">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007009">Northon(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-39-b-name-w351175">
+   <geographic valueURI="http://placenames.org.uk/id/placename/39/007010">Northon(a) iuxta Glouc'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b65"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.218100807" lat="51.91389265" source="epns"/>
+   <geo long="-2.225393350420486" lat="51.91837564288024" gazref="unlock:11078069" source="unlock"/>
+   <geo easting="385500" northing="224500" long="-2.21222" lat="51.9188" kepnref="6393" source="kepn"/>
+   <attestation variantID="epns-deep-39-b-name-w350934">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w350960">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w350960">
+    <date subtype="simple" begin="1221" end="1221">1221</date>
+    <source style="" id="go172">Eyre</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w350960">
+    <date subtype="simple" begin="1222" end="1222">1222</date>
+    <source style="" id="go227">GlR</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w350960">
+    <attestation variantID="epns-deep-39-b-name-w350960">
+     <date subtype="simple" begin="1248" end="1248">1248</date>
+     <source style="" id="go84">Ch</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-39-b-name-w350960">
+     <date subtype="simple" begin="1672" end="1672">1672</date>
+     <source style="" id="go410">PR</source>
+     <page>14</page>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w351057">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="go471">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w351100">
+    <date subtype="simple" begin="1106" end="1106">1106</date>
+    <source style="italic" id="go510">Tewk</source>
+    <item>71</item>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w351123">
+    <date subtype="simple" begin="1287" end="1287">1287</date>
+    <source style="italic" id="go25">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w351143">
+    <date subtype="simple" begin="1138" end="1138">1138</date>
+    <date subtype="simple" begin="1263" end="1284">1263-84</date>
+    <source style="" id="go225">Glouc</source>
+   </attestation>
+   <attestation variantID="epns-deep-39-b-name-w351175">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-39-b-name-w350934">Nortvne</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w350934">Nortune</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w350960">Nortuna</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w350960">Norton</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w350960">Nortuun</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351057">Norton Episcopi</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351057">Norton Prioris</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351100">Norhtona</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351123">Northton'</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351143">Northona</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351143">Northon</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351175">Northona iuxta Glouc'</searchterm>
+   <searchterm variantID="epns-deep-39-b-name-w351175">Northon iuxta Glouc'</searchterm>
+   <searchterm madsID="epns-deep-39-b-subparish-000068">Bishop's Norton</searchterm>
+   <searchterm madsID="epns-deep-39-b-subparish-000068">Prior's Norton</searchterm>
+  </extension>
+ </mads>
+ 

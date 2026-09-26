@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol40mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-40-b-subparish-000096">
+  <authority ID="epns-deep-40-b-name-subparish-000096">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011653">West Dean</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-40-a-parish-000094" type="broader">
+   <geographic>West Dean</geographic>
+  </related>
+  <variant ID="epns-deep-40-b-name-w522812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/40/011654">Wastadene, Westdene</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001bd1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.581008206" lat="51.86770068" source="epns"/>
+   <geo easting="361500" northing="209500" long="-2.55949" lat="51.7828" kepnref="6540" source="kepn"/>
+   <attestation variantID="epns-deep-40-b-name-w522812">
+    <date end="1135" begin="1100" subtype="regnal">Hy 1</date>
+    <date end="1189" begin="1154" subtype="regnal">Hy 2</date>
+    <source style="" id="go134">Monast</source>
+   </attestation>
+   <searchterm variantID="epns-deep-40-b-name-w522812">Wastadene</searchterm>
+   <searchterm variantID="epns-deep-40-b-name-w522812">Westdene</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000406">
+  <authority ID="epns-deep-05-b-name-subparish-000406">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004537">Tunstall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000139" type="broader">
+   <geographic>Catterick</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w331459">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004538">Tunestale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w331478">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004539">Tunstale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600044b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6727700" lat="54.3597300" gazref="geonames:7296871" source="geonames"/>
+   <geo long="-1.66915470931618" lat="54.35443251132375" gazref="unlock:11306981" source="unlock"/>
+   <geo easting="421500" northing="496500" long="-1.67061" lat="54.3636" kepnref="6058" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w331459">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w331478">
+    <attestation variantID="epns-deep-05-b-name-w331478">
+     <date subtype="simple" begin="1157" end="1157">1157</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>82</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w331459">Tunestale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w331478">Tunstale</searchterm>
+  </extension>
+ </mads>
+ 

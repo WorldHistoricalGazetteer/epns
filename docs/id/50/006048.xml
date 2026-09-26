@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-a-parish-000037">
+  <authority ID="epns-deep-50-a-name-parish-000037">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/006048">Hinton Waldrist</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-hu-subcounty-000004" type="broader">
+   <geographic>Ganfield Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e31b47fc407ba001aa1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.4680900" lat="51.6854700" gazref="geonames:7292145" source="geonames"/>
+   <geo long="-1.457517600581413" lat="51.68354569568218" gazref="unlock:11175824" source="unlock"/>
+   <geo easting="438500" northing="199500" long="-1.44439" lat="51.6929" kepnref="3139" source="kepn"/>
+  </extension>
+ </mads>
+ 

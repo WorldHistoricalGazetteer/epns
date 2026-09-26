@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol72mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-72-a-parish-000036">
+  <authority ID="epns-deep-72-a-name-parish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/72/006380">Barton Turf</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-72-hu-subcounty-000004" type="broader">
+   <geographic>Tunstead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000ced"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.4856100" lat="52.7358300" gazref="geonames:7298991" source="geonames"/>
+   <geo long="1.482770467" lat="52.75307917" source="epns"/>
+   <geo long="1.489807697213692" lat="52.7483756039496" gazref="unlock:11071295" source="unlock"/>
+   <geo easting="635500" northing="322500" long="1.48797" lat="52.7488" kepnref="9666" source="kepn"/>
+  </extension>
+ </mads>
+ 

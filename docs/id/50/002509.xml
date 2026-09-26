@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol50mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-50-hu-subcounty-000002">
+  <authority ID="epns-deep-50-hu-name-subcounty-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002509">Lambourn Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-50-co-county-000001" type="broader">
+   <geographic>Berkshire</geographic>
+  </related>
+  <variant ID="epns-deep-50-hu-name-w98690">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002510">Lamborne</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w98708">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002511">Lamburn</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w98756">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002512">Lamburn', Lamburne</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w98776">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002513">Launburn'</geographic>
+  </variant>
+  <variant ID="epns-deep-50-hu-name-w98797">
+   <geographic valueURI="http://placenames.org.uk/id/placename/50/002514">manor and hundred of Chepyng Lambourne</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282e37b47fc407ba001b11"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-50-hu-name-w98690">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="be84">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w98708">
+    <attestation variantID="epns-deep-50-hu-name-w98708">
+     <date end="1180" begin="1180" subtype="simple">1180</date>
+     <source style="" id="be256">P</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w98756">
+    <date end="1600" begin="1180">1180-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w98776">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="" id="be121">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-50-hu-name-w98797">
+    <date end="1367" begin="1367" subtype="simple">1367</date>
+    <source style="" id="be260">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-50-hu-name-w98690">Lamborne</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w98708">Lamburn</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w98756">Lamburn'</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w98756">Lamburne</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w98776">Launburn'</searchterm>
+   <searchterm variantID="epns-deep-50-hu-name-w98797">manor and hundred of Chepyng Lambourne</searchterm>
+  </extension>
+ </mads>
+ 

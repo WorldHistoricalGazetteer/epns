@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000342">
+  <authority ID="epns-deep-05-b-name-subparish-000342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003939">East Harlsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000124" type="broader">
+   <geographic>East Harlsey</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w287911">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003940">Herlesege</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w287930">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003941">Esteharlsay</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600047d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3480700" lat="54.3919200" gazref="geonames:2650423" source="geonames"/>
+   <geo long="-1.345449529130907" lat="54.38906457747401" gazref="unlock:11136074" source="unlock"/>
+   <geo easting="442500" northing="499500" long="-1.34702" lat="54.3892" kepnref="5964" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w287911">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w287930">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">YChant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w287911">Herlesege</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w287930">Esteharlsay</searchterm>
+  </extension>
+ </mads>
+ 

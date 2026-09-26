@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-b-subparish-000093">
+  <authority ID="epns-deep-15-b-name-subparish-000093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006085">Anstey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-a-parish-000106" type="broader">
+   <geographic>Anstey</geographic>
+  </related>
+  <variant ID="epns-deep-15-b-name-w303093">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006086">Anestige, Anestei</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006087">Anesti</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303183">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006088">Anesty</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303191">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006089">Anestie</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303220">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006090">Parva Anesti</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303244">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006091">Annestey</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303263">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006092">Ainesti</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303286">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006093">Ansti</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303302">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006094">Ansty</geographic>
+  </variant>
+  <variant ID="epns-deep-15-b-name-w303317">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/006095">Anstey ad castrum</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ba0b47fc40ace000764"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0435600" lat="51.9762600" gazref="geonames:2657269" source="geonames"/>
+   <geo long="0.04565717032543608" lat="51.97275729448882" gazref="unlock:11062696" source="unlock"/>
+   <geo easting="540500" northing="232500" long="0.0440255" lat="51.9732" kepnref="4665" source="kepn"/>
+   <attestation variantID="epns-deep-15-b-name-w303093">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="he80">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303120">
+    <attestation variantID="epns-deep-15-b-name-w303120">
+     <date subtype="century" begin="1100" end="1200">12th</date>
+     <source style="" id="he62">Colch</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-15-b-name-w303120">
+     <date subtype="simple" begin="1330" end="1330">1330</date>
+     <source style="" id="he146">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303183">
+    <date end="1330" begin="1100">12th-1330</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303191">
+    <date subtype="simple" begin="1199" end="1199">1199</date>
+    <source style="italic" id="he114">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303191">
+    <date subtype="simple" begin="1200" end="1200">1200</date>
+    <source style="" id="he74">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303220">
+    <date subtype="simple" begin="1212" end="1212">1212</date>
+    <source style="" id="he112">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303244">
+    <date subtype="simple" begin="1360" end="1360">1360</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303263">
+    <date subtype="simple" begin="1203" end="1206">1203-6</date>
+    <source style="" id="he118">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303286">
+    <date subtype="simple" begin="1271" end="1271">1271</date>
+    <source style="" id="he224">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303302">
+    <date subtype="simple" begin="1428" end="1428">1428</date>
+    <source style="" id="he110">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-15-b-name-w303317">
+    <date subtype="simple" begin="1642" end="1660">1642-60</date>
+    <source style="" id="he92">ECP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-15-b-name-w303093">Anestige</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303093">Anestei</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303120">Anesti</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303183">Anesty</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303191">Anestie</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303220">Parva Anesti</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303244">Annestey</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303263">Ainesti</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303286">Ansti</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303302">Ansty</searchterm>
+   <searchterm variantID="epns-deep-15-b-name-w303317">Anstey ad castrum</searchterm>
+  </extension>
+ </mads>
+ 

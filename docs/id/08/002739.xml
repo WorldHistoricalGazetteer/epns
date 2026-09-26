@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000050">
+  <authority ID="epns-deep-08-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/002739">Langtree</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000004" type="broader">
+   <geographic>Shebbear Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e0017c7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-4.2000000" lat="50.9166700" gazref="geonames:2644898" source="geonames"/>
+   <geo long="-4.198243735352198" lat="50.91770074455584" gazref="unlock:11191792" source="unlock"/>
+   <geo easting="245500" northing="115500" long="-4.19935" lat="50.9182" kepnref="15507" source="kepn"/>
+  </extension>
+ </mads>
+ 

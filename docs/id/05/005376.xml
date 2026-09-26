@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000488">
+  <authority ID="epns-deep-05-b-name-subparish-000488">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005376">Brompton on Swale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000165" type="broader">
+   <geographic>Easby</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w381254">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005377">Brunton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381280">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005378">Brumton(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w381319">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005379">Brumpton on Swale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000475"/>
+  </recordInfo>
+  <extension>
+   <geo easting="421500" northing="499500" long="-1.6704" lat="54.3905" kepnref="6143" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w381254">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381254">
+    <date subtype="simple" begin="1231" end="1231">1231</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381280">
+    <date subtype="simple" begin="1160" end="1160">1160</date>
+    <source style="italic" id="ny51">Easby</source>
+    <page>2 d</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381280">
+    <date subtype="century" begin="1100" end="1200">12</date>
+    <source style="italic" id="ny51" underspec="ib">Easby</source>
+    <item>149</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w381319">
+    <attestation variantID="epns-deep-05-b-name-w381319">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>83 d</page>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w381254">Brunton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381280">Brumtona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381280">Brumton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w381319">Brumpton on Swale</searchterm>
+  </extension>
+ </mads>
+ 

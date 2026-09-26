@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol70mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-70-hu-subcounty-000001">
+  <authority ID="epns-deep-70-hu-name-subcounty-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000002">Ford Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-70-co-county-000001" type="broader">
+   <geographic>Shropshire</geographic>
+  </related>
+  <variant ID="epns-deep-70-hu-name-w16">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000003">Ford'</geographic>
+  </variant>
+  <variant ID="epns-deep-70-hu-name-w34">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000004">Forda</geographic>
+  </variant>
+  <variant ID="epns-deep-70-hu-name-w51">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000005">Forde</geographic>
+  </variant>
+  <variant ID="epns-deep-70-hu-name-w76">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000006">Ford</geographic>
+  </variant>
+  <variant ID="epns-deep-70-hu-name-w92">
+   <geographic valueURI="http://placenames.org.uk/id/placename/70/000007">La Forde</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53f1a181b47fc42616000247"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-70-hu-name-w16">
+    <date end="1204" begin="1203" subtype="simple">1203-4</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-hu-name-w34">
+    <date end="1221" begin="1221" subtype="simple">1221</date>
+    <source style="" id="ss88">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-hu-name-w51">
+    <attestation variantID="epns-deep-70-hu-name-w51">
+     <date end="1285" begin="1284" subtype="simple">1284-5</date>
+     <source style="" id="ss85">FA</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-70-hu-name-w76">
+    <date end="1346" begin="1346" subtype="simple">1346</date>
+    <source style="" id="ss85">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-70-hu-name-w92">
+    <date end="1256" begin="1255" subtype="simple">1255-6</date>
+    <date end="1272" begin="1271" subtype="simple">71-2</date>
+    <source style="italic" id="ss10">Ass</source>
+   </attestation>
+   <searchterm variantID="epns-deep-70-hu-name-w16">Ford'</searchterm>
+   <searchterm variantID="epns-deep-70-hu-name-w34">Forda</searchterm>
+   <searchterm variantID="epns-deep-70-hu-name-w51">Forde</searchterm>
+   <searchterm variantID="epns-deep-70-hu-name-w76">Ford</searchterm>
+   <searchterm variantID="epns-deep-70-hu-name-w92">La Forde</searchterm>
+  </extension>
+ </mads>
+ 

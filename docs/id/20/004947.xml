@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol20mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-20-b-subparish-000043">
+  <authority ID="epns-deep-20-b-name-subparish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004947">Kirkbride</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-20-a-parish-000048" type="broader">
+   <geographic>Kirkbride</geographic>
+  </related>
+  <variant ID="epns-deep-20-b-name-w202539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004948">Chirchebrid</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w202559">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004949">Kirkebride</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w202651">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004950">Kyrkebride and -brid, -bryd(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w202672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004951">Kirkbrid</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w202744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004952">Kyrck- and -bryd, -bride</geographic>
+  </variant>
+  <variant ID="epns-deep-20-b-name-w202754">
+   <geographic valueURI="http://placenames.org.uk/id/placename/20/004953">Kyerkeb'</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532847f8b47fc408f9001000"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.2018300" lat="54.8932900" gazref="geonames:2645318" source="geonames"/>
+   <geo long="-3.208590873779403" lat="54.89712962197909" gazref="unlock:11187823" source="unlock"/>
+   <geo easting="323500" northing="556500" long="-3.19436" lat="54.8974" kepnref="4406" source="kepn"/>
+   <attestation variantID="epns-deep-20-b-name-w202539">
+    <date end="1163" begin="1163" subtype="simple">1163</date>
+    <source style="" id="cu288">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202559">
+    <date end="1195" begin="1175" subtype="circa">c. 1185</date>
+    <source style="" id="cu402">Weth</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202559">
+    <attestation variantID="epns-deep-20-b-name-w202559">
+     <date end="1189" begin="1189" subtype="simple">1189</date>
+     <source style="" id="cu288">P</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-20-b-name-w202559">
+     <date end="1385" begin="1385" subtype="simple">1385</date>
+     <source style="italic" id="cu121">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202651">
+    <date end="1385" begin="1189">1189-1385</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202672">
+    <attestation variantID="epns-deep-20-b-name-w202672">
+     <date end="1190" begin="1190" subtype="simple">1190</date>
+     <source style="italic" id="cu164">HolmC</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202744">
+    <date end="1600" begin="1190">1190-1600</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-20-b-name-w202754">
+    <date end="1201" begin="1201" subtype="simple">1201</date>
+    <source style="" id="cu49">ChR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-20-b-name-w202539">Chirchebrid</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202559">Kirkebride</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202651">Kyrkebride</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202651">-brid</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202651">-bryde</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202651">-bryd</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202672">Kirkbrid</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202744">Kyrck- and -bryd</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202744">-bride</searchterm>
+   <searchterm variantID="epns-deep-20-b-name-w202754">Kyerkeb'</searchterm>
+  </extension>
+ </mads>
+ 

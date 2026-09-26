@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-h.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-99-a-parish-000031">
+  <authority ID="epns-deep-99-a-name-parish-000031">
+   <geographic valueURI="http://placenames.org.uk/id/placename/99/000586">Ramsey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-99-hu-subcounty-000002" type="broader">
+   <geographic>Hurstingstone Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002a8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1070300" lat="52.4481600" gazref="geonames:2639664" source="geonames"/>
+   <geo long="-0.1088293662567921" lat="52.45194993458578" gazref="unlock:11252454" source="unlock"/>
+   <geo easting="528500" northing="285500" long="-0.110464" lat="52.4524" kepnref="4160" source="kepn"/>
+  </extension>
+ </mads>
+ 

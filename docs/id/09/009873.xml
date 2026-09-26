@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000189">
+  <authority ID="epns-deep-09-b-name-subparish-000189">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009873">East Budleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000189" type="broader">
+   <geographic>East Budleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w444312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009874">Bodeleia</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444337">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009875">Bodelie</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444353">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009876">Estbodelegh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444390">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009877">Boddelegh(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444423">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009878">Budelega</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444447">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009879">Buddele(ghe)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444507">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009880">Buteleg</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w444525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/009881">Budleigh al. East Budleigh</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f37b47fc4097e001952"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.3195200" lat="50.6525900" gazref="geonames:2650493" source="geonames"/>
+   <geo long="-3.322769233417902" lat="50.65208742664835" gazref="unlock:11135698" source="unlock"/>
+   <geo easting="306500" northing="84500" long="-3.32397" lat="50.6527" kepnref="15860" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w444312">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444337">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444353">
+    <date end="1377" begin="1327" subtype="regnal">t. Ed 3</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444353">
+    <date end="1412" begin="1412" subtype="simple">1412</date>
+    <source style="" id="de188">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444390">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444390">
+    <date end="1364" begin="1364" subtype="simple">1364</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444423">
+    <date end="1129" begin="1125" subtype="simple">1125-9</date>
+    <source style="" id="de90">France</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444447">
+    <attestation variantID="epns-deep-09-b-name-w444447">
+     <date end="1216" begin="1210" subtype="simple">c. 1210-16</date>
+     <source style="" id="de103">HMC</source>
+     <item>iv</item>
+     <page>64</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-09-b-name-w444447">
+     <date end="1269" begin="1269" subtype="simple">1269</date>
+     <source style="" id="de321">Exon</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444507">
+    <date end="1219" begin="1219" subtype="simple">1219</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w444525">
+    <date end="1671" begin="1671" subtype="simple">1671</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w444312">Bodeleia</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444337">Bodelie</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444353">Estbodelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444390">Boddeleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444390">Boddelegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444423">Budelega</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444447">Buddeleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444447">Buddele</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444507">Buteleg</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444525">Budleigh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w444525">East Budleigh</searchterm>
+  </extension>
+ </mads>
+ 

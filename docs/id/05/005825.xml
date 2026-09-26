@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000528">
+  <authority ID="epns-deep-05-b-name-subparish-000528">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005825">Lartington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000182" type="broader">
+   <geographic>Romaldkirk</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w409357">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005826">Lertinton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w409376">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005827">Lyrtington, Lyrtyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w409454">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005828">Lertinctona</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w409487">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005829">Lirthinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w409509">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005830">Lirtington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w409562">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/005831">Lertington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000584"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9723900" lat="54.5541500" gazref="geonames:2644841" source="geonames"/>
+   <geo long="-1.976806051723391" lat="54.55262042922856" gazref="unlock:11192143" source="unlock"/>
+   <geo easting="401500" northing="517500" long="-1.97831" lat="54.5527" kepnref="6183" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w409357">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409376">
+    <date subtype="circa" begin="1120" end="1140">c. 1130</date>
+    <source style="" id="ny209">SD</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409376">
+    <attestation variantID="epns-deep-05-b-name-w409376">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>84</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w409376">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="" id="ny14">Banco</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409454">
+    <date subtype="simple" begin="1154" end="1169">1154-69</date>
+    <source style="" id="ny122">Marrick</source>
+    <item>231</item>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409487">
+    <date subtype="simple" begin="1252" end="1252">1252</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409509">
+    <date subtype="simple" begin="1283" end="1283">1283</date>
+    <source style="italic" id="ny194">Rich</source>
+    <page>28</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409509">
+    <date subtype="simple" begin="1289" end="1289">1289</date>
+    <source style="" id="ny52">Ebor</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409509">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409509">
+    <date subtype="simple" begin="1301" end="1301">1301</date>
+    <source style="" id="ny118">LS</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w409562">
+    <date subtype="simple" begin="1403" end="1403">1403</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w409357">Lertinton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409376">Lyrtington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409376">Lyrtyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409454">Lertinctona</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409487">Lirthinton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409509">Lirtington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w409562">Lertington</searchterm>
+  </extension>
+ </mads>
+ 

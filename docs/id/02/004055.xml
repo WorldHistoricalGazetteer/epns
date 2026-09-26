@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000185">
+  <authority ID="epns-deep-02-a-name-parish-000185">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/004055">Boveney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000017" type="broader">
+   <geographic>Burnham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e3000243"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6526600" lat="51.4922900" gazref="geonames:6946033" source="geonames"/>
+   <geo long="-0.6531746467418483" lat="51.48822520353644" gazref="unlock:11083951" source="unlock"/>
+   <geo easting="493500" northing="177500" long="-0.654706" lat="51.4887" kepnref="11380" source="kepn"/>
+  </extension>
+ </mads>
+ 

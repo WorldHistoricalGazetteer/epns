@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol02mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-02-a-parish-000043">
+  <authority ID="epns-deep-02-a-name-parish-000043">
+   <geographic valueURI="http://placenames.org.uk/id/placename/02/000636">Moulsoe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-02-hu-subcounty-000003" type="broader">
+   <geographic>Moulsoe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282ecdb47fc407e30002b3"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6732600" lat="52.0688000" gazref="geonames:2642126" source="geonames"/>
+   <geo long="-0.6796885557748751" lat="52.06405587985036" gazref="unlock:11223753" source="unlock"/>
+   <geo easting="490500" northing="241500" long="-0.68124" lat="52.0645" kepnref="11236" source="kepn"/>
+  </extension>
+ </mads>
+ 

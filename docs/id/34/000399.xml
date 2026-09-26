@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol34mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-34-b-subparish-000007">
+  <authority ID="epns-deep-34-b-name-subparish-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000399">Thornville</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-34-a-parish-000003" type="broader">
+   <geographic>Whixley</geographic>
+  </related>
+  <variant ID="epns-deep-34-b-name-w17937">
+   <geographic valueURI="http://placenames.org.uk/id/placename/34/000400">Thornvill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827cb47fc40c810062ad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3069700" lat="53.9859800" gazref="geonames:7296851" source="geonames"/>
+   <geo long="-1.313755537" lat="53.9799042" source="epns"/>
+   <geo long="-1.306056307491519" lat="53.98435581067222" gazref="unlock:11236333" source="unlock"/>
+   <geo easting="445500" northing="454500" long="-1.30761" lat="53.9846" kepnref="14727" source="kepn"/>
+   <attestation variantID="epns-deep-34-b-name-w17937">
+    <date end="1771" begin="1771" subtype="simple">1771</date>
+    <source style="" id="wr362">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-34-b-name-w17937">Thornvill</searchterm>
+  </extension>
+ </mads>
+ 

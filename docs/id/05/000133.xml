@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000015">
+  <authority ID="epns-deep-05-b-name-subparish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000133">Clifton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000008" type="broader">
+   <geographic>Overton</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w9570">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000134">Cliftune</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600056b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1012100" lat="53.9744600" gazref="geonames:2652839" source="geonames"/>
+   <geo long="-1.092756548960507" lat="53.9739457894399" gazref="unlock:11109239" source="unlock"/>
+   <geo easting="459500" northing="453500" long="-1.09434" lat="53.9742" kepnref="5667" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w9570">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w9570">Cliftune</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol12mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-12-a-parish-000135">
+  <authority ID="epns-deep-12-a-name-parish-000135">
+   <geographic valueURI="http://placenames.org.uk/id/placename/12/006286">Paglesham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-12-hu-subcounty-000008" type="broader">
+   <geographic>Rochford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532858bfb47fc40a98000ce0"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.7881300" lat="51.5996500" gazref="geonames:7291168" source="geonames"/>
+   <geo long="0.7802910621023892" lat="51.60690784782639" gazref="unlock:11238616" source="unlock"/>
+   <geo easting="592500" northing="193500" long="0.778591" lat="51.6074" kepnref="12318" source="kepn"/>
+  </extension>
+ </mads>
+ 

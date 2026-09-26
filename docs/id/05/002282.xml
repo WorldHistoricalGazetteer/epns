@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000178">
+  <authority ID="epns-deep-05-b-name-subparish-000178">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002282">Westerdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000067" type="broader">
+   <geographic>Westerdale</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w181324">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002283">Westerdale, Westerdala</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w181371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002284">Westerdaill</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005e8"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9666700" lat="54.4333300" gazref="geonames:2634442" source="geonames"/>
+   <geo long="-0.9745297989891191" lat="54.44041553654684" gazref="unlock:11318397" source="unlock"/>
+   <geo easting="466500" northing="505500" long="-0.976149" lat="54.4406" kepnref="5829" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w181324">
+    <attestation variantID="epns-deep-05-b-name-w181324">
+     <date subtype="simple" begin="1154" end="1181">1154-81</date>
+     <source style="" id="ny197">Riev</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w181371">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <copydate end="1600" begin="1500">16</copydate>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w181371">
+    <date subtype="simple" begin="1582" end="1582">1582</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w181324">Westerdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w181324">Westerdala</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w181371">Westerdaill</searchterm>
+  </extension>
+ </mads>
+ 

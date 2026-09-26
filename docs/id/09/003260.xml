@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000063">
+  <authority ID="epns-deep-09-b-name-subparish-000063">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003260">Shobrooke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000063" type="broader">
+   <geographic>Shobrooke</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w149513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003261">(of) sceoca broces (forda)</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149554">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003262">Sotebroca</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149580">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003263">Sotebroch</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149598">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003264">Sokebroc, Schokebrocke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003265">Shokebrok juxta Criditon</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149669">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003266">Shogbroke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149699">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003267">Shoggebroke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149722">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003268">Shackbroke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149744">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003269">Shabbroke</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149763">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003270">Shawbrook</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w149786">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/003271">Shobbrooke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a17"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.5950300" lat="50.8065400" gazref="geonames:7293314" source="geonames"/>
+   <geo long="-3.625025983185028" lat="50.80116909387618" gazref="unlock:11283116" source="unlock"/>
+   <geo easting="286500" northing="101500" long="-3.61201" lat="50.8019" kepnref="15730" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w149513">
+    <date end="938" begin="938" subtype="simple">938</date>
+    <source style="" id="de17">BCS</source>
+    <item>726</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149554">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de321">DB (Exon)</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149580">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de320">Exch</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149598">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149632">
+    <date end="1289" begin="1289" subtype="simple">1289</date>
+    <source style="italic" id="de13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149669">
+    <date end="1329" begin="1329" subtype="simple">1329</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149669">
+    <date end="1524" begin="1524" subtype="simple">1524</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149699">
+    <date end="1450" begin="1450" subtype="simple">1450</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149722">
+    <date end="1371" begin="1371" subtype="simple">1371</date>
+    <source style="" id="de321">Exon</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149744">
+    <date end="1541" begin="1541" subtype="simple">1541</date>
+    <source style="italic" id="de250">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149763">
+    <date end="1675" begin="1675" subtype="simple">1675</date>
+    <source style="" id="de172">Ogilby</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w149786">
+    <date end="1694" begin="1694" subtype="simple">1694</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w149513">of sceoca broces forda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149513">of sceoca broces</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149513">sceoca broces forda</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149513">sceoca broces</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149554">Sotebroca</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149580">Sotebroch</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149598">Sokebroc</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149598">Schokebrocke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149632">Shokebrok juxta Criditon</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149669">Shogbroke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149699">Shoggebroke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149722">Shackbroke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149744">Shabbroke</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149763">Shawbrook</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w149786">Shobbrooke</searchterm>
+  </extension>
+ </mads>
+ 

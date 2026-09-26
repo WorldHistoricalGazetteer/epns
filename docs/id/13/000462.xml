@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000010">
+  <authority ID="epns-deep-13-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000462">Tamworth</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hud-belowsubcounty-000001" type="broader">
+   <geographic>Tamworth Division</geographic>
+  </related>
+  <variant ID="epns-deep-13-a-name-w22213">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000463">(in) Tamouuorðie</geographic>
+  </variant>
+  <variant ID="epns-deep-13-a-name-w22250">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000464">(æt) Tome worðige</geographic>
+  </variant>
+  <variant ID="epns-deep-13-a-name-w22281">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000465">Tomeworðig</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f0006e4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6958700" lat="52.6339900" gazref="geonames:2636276" source="geonames"/>
+   <geo long="-1.667545551579195" lat="52.62843967420376" gazref="unlock:11297430" source="unlock"/>
+   <geo kepnexref="0191" long="-1.669" lat="52.6288" source="kepn"/>
+   <attestation variantID="epns-deep-13-a-name-w22213">
+    <date end="718" begin="718" subtype="simple">718</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wa23">BCS</source>
+    <item>239</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-a-name-w22250">
+    <date end="799" begin="799" subtype="simple">799</date>
+    <source style="" id="wa23">BCS</source>
+    <item>293</item>
+   </attestation>
+   <attestation variantID="epns-deep-13-a-name-w22281">
+    <date end="808" begin="808" subtype="simple">808</date>
+    <source style="" id="wa23">BCS</source>
+    <item>326</item>
+   </attestation>
+   <searchterm variantID="epns-deep-13-a-name-w22213">in Tamouuorðie</searchterm>
+   <searchterm variantID="epns-deep-13-a-name-w22213">Tamouuorðie</searchterm>
+   <searchterm variantID="epns-deep-13-a-name-w22250">æt Tome worðige</searchterm>
+   <searchterm variantID="epns-deep-13-a-name-w22250">Tome worðige</searchterm>
+   <searchterm variantID="epns-deep-13-a-name-w22281">Tomeworðig</searchterm>
+  </extension>
+ </mads>
+ 

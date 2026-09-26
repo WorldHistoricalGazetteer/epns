@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000048">
+  <authority ID="epns-deep-14-b-name-subparish-000048">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001211">Tunstall</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000025" type="broader">
+   <geographic>Tunstall</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w79551">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001212">Tunestal(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79607">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001213">Donestal(l)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79655">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001214">Dunstall</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79677">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001215">Tuntstall(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79728">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001216">Tuntstall(e) in Holdernesse</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79771">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001217">Tunstal</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79835">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001218">Tonestal</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79853">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001219">Thunestalle</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w79876">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001220">Townstall in Holdernes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000566"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.0200800" lat="53.7687500" gazref="geonames:2635354" source="geonames"/>
+   <geo long="-0.02004447014506727" lat="53.76326357691674" gazref="unlock:11306984" source="unlock"/>
+   <geo easting="530500" northing="431500" long="-0.021748" lat="53.7635" kepnref="8430" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w79551">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79551">
+    <date end="1199" begin="1189" subtype="regnal">t. Ric 1</date>
+    <source style="" id="ey39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79551">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="ey91">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79607">
+    <date end="1102" begin="1098" subtype="simple">1098-1102</date>
+    <date end="1115" begin="1115" subtype="simple">1115</date>
+    <date end="1162" begin="1160" subtype="simple">1160-2</date>
+    <source style="" id="ey367">YCh</source>
+    <item>1300-7</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79655">
+    <date end="1282" begin="1282" subtype="simple">1282</date>
+    <source style="" id="ey2">Abbr</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79677">
+    <attestation variantID="epns-deep-14-b-name-w79677">
+     <date end="1199" begin="1189" subtype="regnal">t. Ric 1</date>
+     <source style="" id="ey63">Cur</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-14-b-name-w79677">
+     <date end="1542" begin="1542" subtype="simple">1542</date>
+     <source style="" id="ey215">NCWills</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79728">
+    <date end="1334" begin="1334" subtype="simple">1334</date>
+    <date end="1335" begin="1335" subtype="simple">1335</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79771">
+    <date end="1208" begin="1208" subtype="simple">1208</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79771">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="italic" id="ey301">RegAlb</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79771">
+    <date end="1231" begin="1231" subtype="simple">1231</date>
+    <source style="italic" id="ey17">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79771">
+    <date end="1260" begin="1260" subtype="simple">1260</date>
+    <source style="italic" id="ey303">Rental</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79771">
+    <date end="1301" begin="1301" subtype="simple">1301</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79835">
+    <date end="1299" begin="1299" subtype="simple">1299</date>
+    <source style="" id="ey52">Ch</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79853">
+    <date end="1326" begin="1326" subtype="simple">1326</date>
+    <source style="" id="ey86">Dugd</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w79876">
+    <date end="1539" begin="1539" subtype="simple">1539</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w79551">Tunestale</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79551">Tunestal</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79607">Donestall</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79607">Donestal</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79655">Dunstall</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79677">Tuntstalle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79677">Tuntstall</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79728">Tuntstalle in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79728">Tuntstall in Holdernesse</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79771">Tunstal</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79835">Tonestal</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79853">Thunestalle</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w79876">Townstall in Holdernes</searchterm>
+  </extension>
+ </mads>
+ 

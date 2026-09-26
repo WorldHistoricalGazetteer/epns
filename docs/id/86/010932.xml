@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000050">
+  <authority ID="epns-deep-86-a-name-parish-000050">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/010932">Leigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000005" type="broader">
+   <geographic>Yetminster Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a8b47fc4099d002a05"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.5500000" lat="50.8666700" gazref="geonames:2644666" source="geonames"/>
+   <geo long="-2.544424219" lat="50.87597052" source="epns"/>
+   <geo long="-2.54724611742113" lat="50.8741591189995" gazref="unlock:11193772" source="unlock"/>
+   <geo easting="361500" northing="108500" long="-2.54854" lat="50.8747" kepnref="11683" source="kepn"/>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-a-parish-000015">
+  <authority ID="epns-deep-06-a-name-parish-000015">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/000433">Chithurst</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-hu-subcounty-000002" type="broader">
+   <geographic>Dumpford Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287233b47fc40c36000b5a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8002600" lat="51.0012000" gazref="geonames:2653120" source="geonames"/>
+   <geo long="-0.7955335670423486" lat="51.00413410518927" gazref="unlock:11106703" source="unlock"/>
+   <geo easting="484500" northing="123500" long="-0.79703" lat="51.0047" kepnref="6876" source="kepn"/>
+  </extension>
+ </mads>
+ 

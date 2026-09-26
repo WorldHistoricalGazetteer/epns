@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000025">
+  <authority ID="epns-deep-05-b-name-subparish-000025">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000218">Aldwark</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000011" type="broader">
+   <geographic>Alne</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w18291">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000219">A(l)deuuerc</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18312">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000220">Aldwerc</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18328">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000221">Aldewerk(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18380">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000222">Audewerk</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18404">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000223">Aldewark</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w18442">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000224">Oldewarke</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60003f7"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2833300" lat="54.0666700" gazref="geonames:2657525" source="geonames"/>
+   <geo long="-1.289428486587062" lat="54.06515864947405" gazref="unlock:11058149" source="unlock"/>
+   <geo easting="446500" northing="463500" long="-1.29099" lat="54.0654" kepnref="5677" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w18291">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18312">
+    <date subtype="simple" begin="1176" end="1176">1176</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18328">
+    <attestation variantID="epns-deep-05-b-name-w18328">
+     <date subtype="simple" begin="1175" end="1203">1175-1203</date>
+     <source style="" id="ny236">YCh</source>
+     <page>797</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w18328">
+     <date subtype="simple" begin="1410" end="1410">1410</date>
+     <source style="" id="ny241">YI</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18380">
+    <date subtype="simple" begin="1224" end="1224">1224</date>
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18404">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <copydate end="1603" begin="1558">Eliz</copydate>
+    <source style="" id="ny223">Vill</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18404">
+    <date subtype="simple" begin="1399" end="1399">1399</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w18442">
+    <date subtype="simple" begin="1536" end="1536">1536</date>
+    <source style="" id="ny237">Y Chant</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w18291">Aldeuuerc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18291">Adeuuerc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18312">Aldwerc</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18328">Aldewerke</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18328">Aldewerk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18380">Audewerk</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18404">Aldewark</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w18442">Oldewarke</searchterm>
+  </extension>
+ </mads>
+ 

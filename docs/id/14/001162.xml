@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000044">
+  <authority ID="epns-deep-14-b-name-subparish-000044">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001162">Flinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000022" type="broader">
+   <geographic>Humbleton</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w74026">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001163">Flentun, Flintone</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w74053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/001164">Flinton(e), Flynton(e)</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d0004dc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1480200" lat="53.8077800" gazref="geonames:2649299" source="geonames"/>
+   <geo long="-0.1393611895910735" lat="53.81012770806897" gazref="unlock:11145570" source="unlock"/>
+   <geo easting="522500" northing="436500" long="-0.141053" lat="53.8104" kepnref="8427" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w74026">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w74053">
+    <date end="1165" begin="1163" subtype="simple">1163-5</date>
+    <source style="" id="ey45">Bridl</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w74053">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <source style="" id="ey367">YCh</source>
+    <page>1312</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w74053">
+    <attestation variantID="epns-deep-14-b-name-w74053">
+     <date end="1226" begin="1226" subtype="simple">1226</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w74053">
+     <date end="1828" begin="1828" subtype="simple">1828</date>
+     <source style="" id="ey167">Langd</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w74026">Flentun</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w74026">Flintone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w74053">Flintone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w74053">Flinton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w74053">Flyntone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w74053">Flynton</searchterm>
+  </extension>
+ </mads>
+ 

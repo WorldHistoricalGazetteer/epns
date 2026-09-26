@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000083">
+  <authority ID="epns-deep-05-b-name-subparish-000083">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000778">Gilling</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000033" type="broader">
+   <geographic>Gilling</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w67427">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000779">Ghellinge, Gellinge</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w67456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000780">Gylling', Gilling'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w67513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000781">Gillinges</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w67544">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000782">Gillingaridale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo long="-1.0591000" lat="54.1851900" gazref="geonames:2648659" source="geonames"/>
+   <geo long="-1.057594471068505" lat="54.18042158778795" gazref="unlock:11152553" source="unlock"/>
+   <geo kepnexref="0052" long="-1.05899" lat="54.1896" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w67427">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w67456">
+    <date subtype="simple" begin="1135" end="1147">1135-47</date>
+    <source style="italic" id="ny124">Mary Y</source>
+    <page>215</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w67456">
+    <attestation variantID="epns-deep-05-b-name-w67456">
+     <date subtype="simple" begin="1167" end="1167">1167</date>
+     <source style="" id="ny164">P</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w67513">
+    <date subtype="simple" begin="1239" end="1239">1239</date>
+    <source style="italic" id="ny300">RegAlb</source>
+    <item>iii</item>
+    <page>34</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w67544">
+    <date subtype="simple" begin="1308" end="1308">1308</date>
+    <source style="" id="ny31">Ch</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w67427">Ghellinge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w67427">Gellinge</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w67456">Gylling'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w67456">Gilling'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w67513">Gillinges</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w67544">Gillingaridale</searchterm>
+  </extension>
+ </mads>
+ 

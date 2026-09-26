@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000124">
+  <authority ID="epns-deep-05-b-name-subparish-000124">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001201">Sinnington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000046" type="broader">
+   <geographic>Sinnington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w101686">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001202">Siuenintun, Sevenictun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101718">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001203">Siuerinctune</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101740">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001204">Siuilinton'</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101773">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001205">Sivilington</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001206">Sivelington, Syvelington, Syvelingthun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101896">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001207">Synnyngton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w101916">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001208">Sinington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60005a1"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8583800" lat="54.2621900" gazref="geonames:2637812" source="geonames"/>
+   <geo long="-0.8561934236408129" lat="54.25957793195337" gazref="unlock:11284253" source="unlock"/>
+   <geo easting="474500" northing="485500" long="-0.857819" lat="54.2598" kepnref="5772" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w101686">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101718">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101740">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="ny164">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101740">
+    <date subtype="circa" begin="1190" end="1210">c. 1200</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101773">
+    <date subtype="simple" begin="1183" end="1193">1183-93</date>
+    <source style="" id="ny236">YCh</source>
+    <page>595</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101773">
+    <date subtype="simple" begin="1201" end="1201">1201</date>
+    <source style="" id="ny33">ChR</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101812">
+    <attestation variantID="epns-deep-05-b-name-w101812">
+     <date subtype="simple" begin="1185" end="1205">1185-1205</date>
+     <source style="" id="ny236">YCh</source>
+     <page>597</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w101812">
+     <date subtype="simple" begin="1327" end="1327">1327</date>
+     <source style="" id="ny14">Banco</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101896">
+    <date subtype="simple" begin="1580" end="1580">1580</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w101916">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w101686">Siuenintun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101686">Sevenictun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101718">Siuerinctune</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101740">Siuilinton'</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101773">Sivilington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101812">Sivelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101812">Syvelington</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101812">Syvelingthun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101896">Synnyngton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w101916">Sinington</searchterm>
+  </extension>
+ </mads>
+ 

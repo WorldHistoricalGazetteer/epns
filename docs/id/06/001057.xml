@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000036">
+  <authority ID="epns-deep-06-b-name-subparish-000036">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001057">West Stoke</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000036" type="broader">
+   <geographic>West Stoke</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w89062">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001058">Stokes</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w89089">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001059">Stoke Juxta Cycestre</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w89120">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001060">West Stoke Juxta Cycestre</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724fb47fc40c36000dab"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8166700" lat="50.8666700" gazref="geonames:2634264" source="geonames"/>
+   <geo long="-0.827432381071035" lat="50.86955218664527" gazref="unlock:11317646" source="unlock"/>
+   <geo easting="483500" northing="108500" long="-0.814712" lat="50.87" kepnref="6897" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w89062">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="su57">Cur</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w89062">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w89089">
+    <date subtype="simple" begin="1288" end="1288">1288</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w89120">
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="" id="su3">AD</source>
+    <item>v</item>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w89062">Stokes</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w89089">Stoke Juxta Cycestre</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w89120">West Stoke Juxta Cycestre</searchterm>
+  </extension>
+ </mads>
+ 

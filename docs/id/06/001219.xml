@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000042">
+  <authority ID="epns-deep-06-b-name-subparish-000042">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001219">Eartham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000042" type="broader">
+   <geographic>Eartham</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w102088">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001220">Ercheham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001221">Erecham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102131">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001222">Urtham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102161">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001223">Ertham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102202">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001224">Erthham</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102219">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001225">Ertham Bovedon</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w102245">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/001226">Ertham al. Bowdown</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cdf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6672500" lat="50.8769400" gazref="geonames:2650527" source="geonames"/>
+   <geo long="-0.6708765883551071" lat="50.87686822880406" gazref="unlock:11135379" source="unlock"/>
+   <geo easting="494500" northing="109500" long="-0.658173" lat="50.8773" kepnref="6903" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w102088">
+    <date subtype="regnal" begin="1100" end="1135">t. Hy 1</date>
+    <source style="italic" id="su4">AD</source>
+    <item>461</item>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102113">
+    <date subtype="simple" begin="1291" end="1291">1291</date>
+    <source style="" id="su282">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102131">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="" id="su235">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102131">
+    <date subtype="simple" begin="1279" end="1279">1279</date>
+    <source style="italic" id="su13">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102131">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102161">
+    <attestation variantID="epns-deep-06-b-name-w102161">
+     <date subtype="simple" begin="1279" end="1279">1279</date>
+     <source style="italic" id="su13">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-06-b-name-w102161">
+     <date subtype="simple" begin="1402" end="1402">1402</date>
+     <source style="" id="su43">Cicestr</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102202">
+    <date subtype="simple" begin="1306" end="1306">1306</date>
+    <source style="" id="su96">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102219">
+    <date subtype="simple" begin="1397" end="1397">1397</date>
+    <source style="" id="su131">IpmR</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w102245">
+    <date subtype="simple" begin="1547" end="1547">1547</date>
+    <source style="" id="su206">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w102088">Ercheham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102113">Erecham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102131">Urtham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102161">Ertham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102202">Erthham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102219">Ertham Bovedon</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102245">Ertham</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w102245">Bowdown</searchterm>
+  </extension>
+ </mads>
+ 

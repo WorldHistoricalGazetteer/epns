@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000433">
+  <authority ID="epns-deep-05-b-name-subparish-000433">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004910">Bishopdale</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000148" type="broader">
+   <geographic>Aysgarth</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w355545">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004911">Biscop(p)edale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w355596">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004912">Bis(s)hopdale</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w355652">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/004913">Bishdale</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc600040a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.023032200650928" lat="54.26500122832709" gazref="unlock:11078008" source="unlock"/>
+   <geo easting="398500" northing="485500" long="-2.02452" lat="54.2652" kepnref="6086" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w355545">
+    <date subtype="simple" begin="1202" end="1202">1202</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w355545">
+    <date subtype="simple" begin="1230" end="1250">c. 1230-50</date>
+    <source style="" id="ny21">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w355545">
+    <date subtype="simple" begin="1279" end="1281">1279-81</date>
+    <source style="" id="ny190">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w355596">
+    <attestation variantID="epns-deep-05-b-name-w355596">
+     <date subtype="simple" begin="1289" end="1289">1289</date>
+     <source style="italic" id="ny195">RichReg</source>
+     <page>124</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w355596">
+     <date subtype="simple" begin="1519" end="1519">1519</date>
+     <source style="" id="ny206">Sanct</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w355652">
+    <date subtype="simple" begin="1589" end="1589">1589</date>
+    <source style="" id="ny30">Cai</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w355545">Biscoppedale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w355545">Biscopedale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w355596">Bisshopdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w355596">Bishopdale</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w355652">Bishdale</searchterm>
+  </extension>
+ </mads>
+ 

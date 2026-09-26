@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol86mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-86-a-parish-000010">
+  <authority ID="epns-deep-86-a-name-parish-000010">
+   <geographic valueURI="http://placenames.org.uk/id/placename/86/002107">Swyre</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-86-hu-subcounty-000001" type="broader">
+   <geographic>Uggescombe Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532852a9b47fc4099d002a65"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.6694700" lat="50.6915300" gazref="geonames:2636362" source="geonames"/>
+   <geo long="-2.668293722" lat="50.69095552" source="epns"/>
+   <geo long="-2.672579809247416" lat="50.69362949323636" gazref="unlock:11296731" source="unlock"/>
+   <geo easting="352500" northing="88500" long="-2.67385" lat="50.6942" kepnref="11643" source="kepn"/>
+  </extension>
+ </mads>
+ 

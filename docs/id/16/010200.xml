@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000238">
+  <authority ID="epns-deep-16-a-name-parish-000238">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/010200">Broad Hinton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000026" type="broader">
+   <geographic>Selkley Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000c18"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.8478600" lat="51.4887000" gazref="geonames:2654647" source="geonames"/>
+   <geo long="-1.848759797598931" lat="51.48686839755941" gazref="unlock:11087692" source="unlock"/>
+   <geo easting="410500" northing="176500" long="-1.85015" lat="51.4874" kepnref="7394" source="kepn"/>
+  </extension>
+ </mads>
+ 

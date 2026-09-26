@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000169">
+  <authority ID="epns-deep-14-b-name-subparish-000169">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003669">Leppington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000096" type="broader">
+   <geographic>Scrayingham</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w237349">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003670">Lepinton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w237405">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003671">Lepenton'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w237424">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003672">Lepigtona</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w237448">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003673">Lepington', Lepyngton'</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w237502">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/003674">Leppington</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000539"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8342400" lat="54.0402400" gazref="geonames:6287656" source="geonames"/>
+   <geo long="-0.8315844165960682" lat="54.04360423197132" gazref="unlock:11194109" source="unlock"/>
+   <geo easting="476500" northing="461500" long="-0.833203" lat="54.0438" kepnref="8548" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w237349">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237349">
+    <attestation variantID="epns-deep-14-b-name-w237349">
+     <date end="1166" begin="1166" subtype="simple">1166</date>
+     <source style="" id="ey299">RBE</source>
+     <pername>(p)</pername>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w237349">
+     <date end="1335" begin="1335" subtype="simple">1335</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237405">
+    <date end="1196" begin="1196" subtype="simple">1196</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237424">
+    <date end="1200" begin="1175" subtype="simple">late 12th</date>
+    <source style="" id="ey369">YD</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237448">
+    <attestation variantID="epns-deep-14-b-name-w237448">
+     <date end="1246" begin="1246" subtype="simple">1246</date>
+     <source style="italic" id="ey17">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w237448">
+     <date end="1525" begin="1525" subtype="simple">1525</date>
+     <source style="" id="ey112">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237502">
+    <date end="1281" begin="1279" subtype="simple">1279-81</date>
+    <source style="" id="ey297">QW</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237502">
+    <date end="1530" begin="1530" subtype="simple">1530</date>
+    <source style="" id="ey347">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w237502">
+    <date end="1595" begin="1595" subtype="simple">1595</date>
+    <source style="" id="ey215">NCWills</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w237349">Lepintone</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237349">Lepinton</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237405">Lepenton'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237424">Lepigtona</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237448">Lepington'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237448">Lepyngton'</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w237502">Leppington</searchterm>
+  </extension>
+ </mads>
+ 

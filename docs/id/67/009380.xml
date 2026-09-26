@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000040">
+  <authority ID="epns-deep-67-b-name-subparish-000040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009380">Normanton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000040" type="broader">
+   <geographic>Normanton</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w495915">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009381">Normanton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w495988">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009382">Normenton'</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w496011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009383">Northmanton</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w496033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009384">Nortmanton</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w496053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/009385">Normanneton</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d00040c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6035500" lat="52.6464000" gazref="geonames:7292234" source="geonames"/>
+   <geo long="-0.6178232485658198" lat="52.64781755918347" gazref="unlock:11231905" source="unlock"/>
+   <geo easting="493500" northing="306500" long="-0.619406" lat="52.6482" kepnref="3005" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w495915">
+    <date subtype="simple" begin="1183" end="1183">1183</date>
+    <source style="" id="rd264">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w495915">
+    <date subtype="simple" begin="1205" end="1205">1205</date>
+    <source style="" id="rd303">RFinib</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w495915">
+    <attestation variantID="epns-deep-67-b-name-w495915">
+     <date subtype="simple" begin="1234" end="1234">1234</date>
+     <source style="" id="rd307">RHug</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-67-b-name-w495915">
+     <date subtype="simple" begin="1610" end="1610">1610</date>
+     <source style="" id="rd334">Speed</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w495988">
+    <date subtype="simple" begin="1180" end="1180">1180</date>
+    <source style="" id="rd264">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w496011">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="" id="rd169">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w496033">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="italic" id="rd337">SR</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w496053">
+    <date subtype="simple" begin="1375" end="1375">1375</date>
+    <source style="" id="rd214">Misc</source>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w495915">Normantone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w495915">Normanton</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w495988">Normenton'</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w496011">Northmanton</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w496033">Nortmanton</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w496053">Normanneton</searchterm>
+  </extension>
+ </mads>
+ 

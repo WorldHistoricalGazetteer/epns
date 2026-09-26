@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol15mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-15-a-parish-000058">
+  <authority ID="epns-deep-15-a-name-parish-000058">
+   <geographic valueURI="http://placenames.org.uk/id/placename/15/003929">Newnham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-15-hu-subcounty-000003" type="broader">
+   <geographic>Cashio Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285b93b47fc40ace000720"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.1878200" lat="52.0209800" gazref="geonames:2641604" source="geonames"/>
+   <geo long="-0.185349468692823" lat="52.02150879471971" gazref="unlock:11230509" source="unlock"/>
+   <geo easting="524500" northing="237500" long="-0.186957" lat="52.022" kepnref="4611" source="kepn"/>
+  </extension>
+ </mads>
+ 

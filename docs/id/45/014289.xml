@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000116">
+  <authority ID="epns-deep-45-b-name-subparish-000116">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014289">Moston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000017" type="broader">
+   <geographic>Warmingham</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w656497">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014290">Moston</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w656523">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014291">Moston iuxta Wermyncham</geographic>
+  </variant>
+  <variant ID="epns-deep-45-b-name-w656558">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/014292">Mostun</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc4085600207a"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.4177600" lat="53.1472500" gazref="geonames:7294349" source="geonames"/>
+   <geo long="-2.418669485" lat="53.14511655" source="epns"/>
+   <geo long="-2.411236516962946" lat="53.14963860210401" gazref="unlock:11223670" source="unlock"/>
+   <geo easting="372500" northing="361500" long="-2.41263" lat="53.1499" kepnref="11870" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w656497">
+    <attestation variantID="epns-deep-45-b-name-w656497">
+     <date subtype="simple" begin="1200" end="1225">e13</date>
+     <source style="" id="ch174">Dieul</source>
+    </attestation>
+    <passim>et freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w656523">
+    <date subtype="simple" begin="1319" end="1319">1319</date>
+    <source style="" id="ch506">Plea</source>
+   </attestation>
+   <attestation variantID="epns-deep-45-b-name-w656558">
+    <date subtype="simple" begin="1351" end="1351">1351</date>
+    <source style="" id="ch96">Chamb</source>
+    <pername>(p)</pername>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w656497">Moston</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w656523">Moston iuxta Wermyncham</searchterm>
+   <searchterm variantID="epns-deep-45-b-name-w656558">Mostun</searchterm>
+  </extension>
+ </mads>
+ 

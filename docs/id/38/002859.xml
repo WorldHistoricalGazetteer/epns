@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000030">
+  <authority ID="epns-deep-38-b-name-subparish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002859">Poole Keynes</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000030" type="broader">
+   <geographic>Poole Keynes</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w137155">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002860">Pole</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w137231">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/002861">Pole Canes</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b76"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9975600" lat="51.6560300" gazref="geonames:7300584" source="geonames"/>
+   <geo long="-2.014456521" lat="51.65332373" source="epns"/>
+   <geo long="-1.992771022170372" lat="51.65782125382617" gazref="unlock:11248046" source="unlock"/>
+   <attestation variantID="epns-deep-38-b-name-w137155">
+    <date begin="" end="" subtype="no date">n.d</date>
+    <source style="" id="go39">BCS</source>
+    <item>673</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w137155">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w137155">
+    <date subtype="simple" begin="1241" end="1241">1241</date>
+    <source style="" id="go96">Cl</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w137155">
+    <attestation variantID="epns-deep-38-b-name-w137155">
+     <date subtype="simple" begin="1268" end="1268">1268</date>
+     <source style="italic" id="go25">Ass</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-38-b-name-w137155">
+     <date subtype="simple" begin="1315" end="1315">1315</date>
+     <source style="" id="go274">Ipm</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w137231">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="go316">M</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w137155">Pole</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w137231">Pole Canes</searchterm>
+  </extension>
+ </mads>
+ 

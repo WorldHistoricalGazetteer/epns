@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000338">
+  <authority ID="epns-deep-05-b-name-subparish-000338">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003886">Ellerbeck</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000123" type="broader">
+   <geographic>Osmotherley</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w283650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003887">Elrebec</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w283667">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/003888">Alrebec</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000564"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3375100" lat="54.3676600" gazref="geonames:7296803" source="geonames"/>
+   <geo long="-1.330488336876577" lat="54.36201751107249" gazref="unlock:11139279" source="unlock"/>
+   <geo easting="443500" northing="496500" long="-1.33206" lat="54.3622" kepnref="5991" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w283650">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283667">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w283667">
+    <date subtype="simple" begin="1088" end="1088">1088</date>
+    <source style="italic" id="ny120">LVD</source>
+    <item>50 d</item>
+    <page>51</page>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w283650">Elrebec</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w283667">Alrebec</searchterm>
+  </extension>
+ </mads>
+ 

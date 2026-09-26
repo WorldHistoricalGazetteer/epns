@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-ld-localdistrict-000001">
+  <authority ID="epns-deep-33-ld-name-localdistrict-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000011">Elmet</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-wp-subcounty-000001" type="broader">
+   <geographic>Barkston Ash Wapentake</geographic>
+  </related>
+  <variant ID="epns-deep-33-ld-name-w1184">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000012">Elmed sætna</geographic>
+  </variant>
+  <variant ID="epns-deep-33-ld-name-w1222">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000013">Elmet setena, Elmed setna</geographic>
+  </variant>
+  <variant ID="epns-deep-33-ld-name-w1264">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000014">in silua Elmete</geographic>
+  </variant>
+  <variant ID="epns-deep-33-ld-name-w1293">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000015">Elmet</geographic>
+  </variant>
+  <variant ID="epns-deep-33-ld-name-w1310">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/000016">Elmeth</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328780fb47fc40c8100000c"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-33-ld-name-w1184">
+    <date subtype="century" begin="600" end="700">7</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <source style="" id="wr33">BCS</source>
+    <item>297</item>
+   </attestation>
+   <attestation variantID="epns-deep-33-ld-name-w1222">
+    <date subtype="century" begin="600" end="700">7</date>
+    <copydate end="1010" begin="990">c. 1000</copydate>
+    <ms>A</ms>
+    <source style="" id="wr33" underspec="ib">BCS</source>
+    <page>297</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-ld-name-w1264">
+    <date subtype="circa" begin="720" end="740">c. 730</date>
+    <source style="" id="wr37">Bede</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-ld-name-w1293">
+    <date subtype="circa" begin="790" end="810">c. 800</date>
+    <source style="" id="wr412">HB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-ld-name-w1310">
+    <date subtype="simple" begin="1431" end="1431">1431</date>
+    <source style="" id="wr474">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-ld-name-w1184">Elmed sætna</searchterm>
+   <searchterm variantID="epns-deep-33-ld-name-w1222">Elmet setena</searchterm>
+   <searchterm variantID="epns-deep-33-ld-name-w1222">Elmed setna</searchterm>
+   <searchterm variantID="epns-deep-33-ld-name-w1264">in silua Elmete</searchterm>
+   <searchterm variantID="epns-deep-33-ld-name-w1293">Elmet</searchterm>
+   <searchterm variantID="epns-deep-33-ld-name-w1310">Elmeth</searchterm>
+  </extension>
+ </mads>
+ 

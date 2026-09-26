@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol10mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-10-a-parish-000053">
+  <authority ID="epns-deep-10-a-name-parish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/10/001266">Helmdon</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-10-hu-subcounty-000004" type="broader">
+   <geographic>King's Sutton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286a61b47fc40bba000441"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1437800" lat="52.0903400" gazref="geonames:2647153" source="geonames"/>
+   <geo long="-1.146124602409921" lat="52.08634205176686" gazref="unlock:11169689" source="unlock"/>
+   <geo easting="458500" northing="243500" long="-1.14762" lat="52.0868" kepnref="10923" source="kepn"/>
+  </extension>
+ </mads>
+ 

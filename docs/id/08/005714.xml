@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-hu-subcounty-000007">
+  <authority ID="epns-deep-08-hu-name-subcounty-000007">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005714">Lifton Hundred</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-co-county-000001" type="broader">
+   <geographic>Devon</geographic>
+  </related>
+  <variant ID="epns-deep-08-hu-name-w288099">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005715">Listona</geographic>
+  </variant>
+  <variant ID="epns-deep-08-hu-name-w288123">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005716">Liftune</geographic>
+  </variant>
+  <variant ID="epns-deep-08-hu-name-w288139">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/005717">Liftona</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f17b47fc4097e0018af"/>
+  </recordInfo>
+  <extension>
+   <attestation variantID="epns-deep-08-hu-name-w288099">
+    <date subtype="simple" begin="1084" end="1084">1084</date>
+    <source style="" id="de94">Geld Roll</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w288123">
+    <date subtype="simple" begin="1167" end="1167">1167</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-08-hu-name-w288139">
+    <date subtype="simple" begin="1168" end="1168">1168</date>
+    <source style="" id="de181">P</source>
+   </attestation>
+   <searchterm variantID="epns-deep-08-hu-name-w288099">Listona</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w288123">Liftune</searchterm>
+   <searchterm variantID="epns-deep-08-hu-name-w288139">Liftona</searchterm>
+  </extension>
+ </mads>
+ 

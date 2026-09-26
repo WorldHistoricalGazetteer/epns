@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-a-parish-000033">
+  <authority ID="epns-deep-09-a-name-parish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/001466">Winkleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-hu-subcounty-000002" type="broader">
+   <geographic>North Tawton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f14b47fc4097e001892"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.9430000" lat="50.8558100" gazref="geonames:2633818" source="geonames"/>
+   <geo long="-3.939689431601188" lat="50.85932238528611" gazref="unlock:11324093" source="unlock"/>
+   <geo easting="262500" northing="108500" long="-3.95502" lat="50.8596" kepnref="15700" source="kepn"/>
+  </extension>
+ </mads>
+ 

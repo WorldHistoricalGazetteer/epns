@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol14mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-14-b-subparish-000247">
+  <authority ID="epns-deep-14-b-name-subparish-000247">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005765">North Ferriby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-14-a-parish-000140" type="broader">
+   <geographic>North Ferriby</geographic>
+  </related>
+  <variant ID="epns-deep-14-b-name-w375529">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005766">Ferebi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375545">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005767">Ferebi, Fereby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375627">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005768">Feribi, Ferybi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375702">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005769">North Feribi</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375739">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005770">Ferrybi, Ferryby</geographic>
+  </variant>
+  <variant ID="epns-deep-14-b-name-w375778">
+   <geographic valueURI="http://placenames.org.uk/id/placename/14/005771">Ferby</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328549ab47fc40a4d000514"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5052000" lat="53.7212400" gazref="geonames:2641356" source="geonames"/>
+   <geo long="-0.5072518878972117" lat="53.71638166678859" gazref="unlock:11232431" source="unlock"/>
+   <geo easting="498500" northing="425500" long="-0.508895" lat="53.7166" kepnref="8624" source="kepn"/>
+   <attestation variantID="epns-deep-14-b-name-w375529">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="ey73">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375545">
+    <date end="1093" begin="1088" subtype="simple">1088-93</date>
+    <source style="" id="ey367">YCh</source>
+    <item>350</item>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375545">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <date end="1191" begin="1191" subtype="simple">1191</date>
+    <source style="" id="ey262">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375545">
+    <date end="1234" begin="1234" subtype="simple">1234</date>
+    <date end="1240" begin="1240" subtype="simple">1240</date>
+    <source style="" id="ey112">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375545">
+    <date end="1294" begin="1294" subtype="simple">1294</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375545">
+    <date end="1297" begin="1297" subtype="simple">1297</date>
+    <source style="" id="ey265">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375627">
+    <date end="1153" begin="1150" subtype="simple">1150-3</date>
+    <source style="" id="ey367">YCh</source>
+    <page>1107</page>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375627">
+    <attestation variantID="epns-deep-14-b-name-w375627">
+     <date end="1157" begin="1156" subtype="simple">1156-7</date>
+     <source style="" id="ey367" underspec="ib">YCh</source>
+     <item>354</item>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-14-b-name-w375627">
+     <date end="1546" begin="1546" subtype="simple">1546</date>
+     <source style="" id="ey368">YChant</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375702">
+    <attestation variantID="epns-deep-14-b-name-w375702">
+     <date end="1284" begin="1284" subtype="simple">1284</date>
+     <source style="" id="ey19">Baildon</source>
+    </attestation>
+    <passim>et passim</passim>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375739">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="ey32">BevAct</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375739">
+    <date end="1637" begin="1637" subtype="simple">1637</date>
+    <source style="" id="ey39">BM</source>
+   </attestation>
+   <attestation variantID="epns-deep-14-b-name-w375778">
+    <date end="1305" begin="1305" subtype="simple">1305</date>
+    <source style="" id="ey371">YI</source>
+   </attestation>
+   <searchterm variantID="epns-deep-14-b-name-w375529">Ferebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375545">Ferebi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375545">Fereby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375627">Feribi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375627">Ferybi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375702">North Feribi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375739">Ferrybi</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375739">Ferryby</searchterm>
+   <searchterm variantID="epns-deep-14-b-name-w375778">Ferby</searchterm>
+  </extension>
+ </mads>
+ 

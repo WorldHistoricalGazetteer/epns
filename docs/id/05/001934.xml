@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000165">
+  <authority ID="epns-deep-05-b-name-subparish-000165">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001934">Suffield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000061" type="broader">
+   <geographic>Hackness</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w154903">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001935">Sudfelt, Sudfeld</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w154929">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001936">Suffeld</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w154953">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/001937">Suthfeld</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004ad"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.486197270927226" lat="54.30044592192807" gazref="unlock:11295127" source="unlock"/>
+   <geo easting="498500" northing="490500" long="-0.48787" lat="54.3006" kepnref="5816" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w154903">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w154929">
+    <date subtype="simple" begin="1108" end="1114">1108-14</date>
+    <source style="" id="ny231">Whitby</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w154953">
+    <date subtype="simple" begin="1155" end="1165">1155-65</date>
+    <source style="" id="ny231" underspec="ib">Whitby</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w154903">Sudfelt</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w154903">Sudfeld</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w154929">Suffeld</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w154953">Suthfeld</searchterm>
+  </extension>
+ </mads>
+ 

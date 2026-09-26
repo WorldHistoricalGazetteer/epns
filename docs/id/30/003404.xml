@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol30mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-30-a-parish-000018">
+  <authority ID="epns-deep-30-a-name-parish-000018">
+   <geographic valueURI="http://placenames.org.uk/id/placename/30/003404">Hampole</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-30-wpd-belowsubcounty-000001" type="broader">
+   <geographic>Lower Strafforth Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-11</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288217b47fc40c81005fa9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.2343900" lat="53.5944000" gazref="geonames:7296615" source="geonames"/>
+   <geo long="-1.237015600077488" lat="53.58840930096346" gazref="unlock:11165065" source="unlock"/>
+   <geo easting="450500" northing="410500" long="-1.23857" lat="53.5887" kepnref="14285" source="kepn"/>
+  </extension>
+ </mads>
+ 

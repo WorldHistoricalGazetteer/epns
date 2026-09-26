@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol38mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-38-b-subparish-000060">
+  <authority ID="epns-deep-38-b-name-subparish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006360">North Cerney</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-38-a-parish-000060" type="broader">
+   <geographic>North Cerney</geographic>
+  </related>
+  <variant ID="epns-deep-38-b-name-w288557">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006361">into Cyrnea</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288589">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006362">Cernei, Cerney(a), Cerneye, Cernay(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288672">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006363">Nort-</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288692">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006364">North(e)-</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288749">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006365">Cyrneia</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288768">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006366">Northserneye</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288790">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006367">Sareney</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288808">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006368">Sarney(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288827">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006369">North Sarney(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-38-b-name-w288860">
+   <geographic valueURI="http://placenames.org.uk/id/placename/38/006370">North Cherney</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285ad5b47fc40ab3001b62"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.9719800" lat="51.7705800" gazref="geonames:2641403" source="geonames"/>
+   <geo long="-1.971018089" lat="51.76122731" source="epns"/>
+   <geo long="-1.963769002903797" lat="51.76572210632242" gazref="unlock:11232163" source="unlock"/>
+   <geo easting="402500" northing="208500" long="-1.96515" lat="51.7752" kepnref="6250" source="kepn"/>
+   <attestation variantID="epns-deep-38-b-name-w288557">
+    <date subtype="simple" begin="852" end="852">852</date>
+    <copydate end="1300" begin="1200">13th</copydate>
+    <source style="" id="go39">BCS</source>
+    <item>466</item>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288589">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="go116">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288589">
+    <attestation variantID="epns-deep-38-b-name-w288589">
+     <date subtype="simple" begin="1125" end="1189">1125-89</date>
+     <source style="" id="go225">Glouc</source>
+    </attestation>
+    <passim>freq</passim>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288589">
+    <date subtype="simple" begin="1220" end="1220">1220</date>
+    <source style="" id="go175">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288672">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="" id="go159">Episc</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288692">
+    <date subtype="simple" begin="1277" end="1277">1277</date>
+    <source style="" id="go535">WinchLB</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288692">
+    <attestation variantID="epns-deep-38-b-name-w288692">
+     <date subtype="simple" begin="1279" end="1279">1279</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-38-b-name-w288692">
+     <date subtype="simple" begin="1564" end="1564">1564</date>
+     <source style="italic" id="go181">FF</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288749">
+    <date subtype="simple" begin="1209" end="1209">1209</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288768">
+    <date subtype="simple" begin="1311" end="1311">1311</date>
+    <source style="italic" id="go181" underspec="ib">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288790">
+    <date subtype="simple" begin="1387" end="1387">1387</date>
+    <source style="" id="go274">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288808">
+    <date subtype="simple" begin="1392" end="1392">1392</date>
+    <source style="" id="go274" underspec="ib">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288827">
+    <date subtype="simple" begin="1421" end="1421">1421</date>
+    <date subtype="simple" begin="1570" end="1570">1570</date>
+    <source style="" id="go274" underspec="ib">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-38-b-name-w288860">
+    <date subtype="simple" begin="1646" end="1646">1646</date>
+    <source style="italic" id="go181">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-38-b-name-w288557">into Cyrnea</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cernei</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cerneya</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cerney</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cerneye</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cernaya</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288589">Cernay</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288672">Nort-</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288692">Northe-</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288692">North-</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288749">Cyrneia</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288768">Northserneye</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288790">Sareney</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288808">Sarneye</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288808">Sarney</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288827">North Sarneye</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288827">North Sarney</searchterm>
+   <searchterm variantID="epns-deep-38-b-name-w288860">North Cherney</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol79mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-79-a-parish-000057">
+  <authority ID="epns-deep-79-a-name-parish-000057">
+   <geographic valueURI="http://placenames.org.uk/id/placename/79/005215">Marsham</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-79-hu-subcounty-000002" type="broader">
+   <geographic>South Erpingham Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532869cbb47fc40bab000d37"/>
+  </recordInfo>
+  <extension>
+   <geo long="1.2461500" lat="52.7671400" gazref="geonames:7301864" source="geonames"/>
+   <geo long="1.246075399" lat="52.75979963" source="epns"/>
+   <geo long="1.254479280258596" lat="52.77306186204191" gazref="unlock:11214191" source="unlock"/>
+   <geo easting="619500" northing="323500" long="1.252" lat="52.7645" kepnref="9210" source="kepn"/>
+  </extension>
+ </mads>
+ 

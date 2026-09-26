@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol35mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-35-b-subparish-000012">
+  <authority ID="epns-deep-35-b-name-subparish-000012">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002093">Carleton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-35-a-parish-000004" type="broader">
+   <geographic>Carleton</geographic>
+  </related>
+  <variant ID="epns-deep-35-b-name-w70582">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002094">Carlentone</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w70602">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002095">Carleton(e), Karleton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w70711">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002096">Karleton(e) in Craven(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w70780">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002097">Carlton</geographic>
+  </variant>
+  <variant ID="epns-deep-35-b-name-w70804">
+   <geographic valueURI="http://placenames.org.uk/id/placename/35/002098">Carlton in Craven</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c810060cc"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0500000" lat="53.9333300" gazref="geonames:2653780" source="geonames"/>
+   <geo long="-2.060936327" lat="53.93690415" source="epns"/>
+   <geo long="-2.068560751473226" lat="53.94139578791683" gazref="unlock:11098456" source="unlock"/>
+   <geo easting="397500" northing="449500" long="-2.03956" lat="53.9416" kepnref="14852" source="kepn"/>
+   <attestation variantID="epns-deep-35-b-name-w70582">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70602">
+    <date subtype="simple" begin="1119" end="1147">1119-47</date>
+    <source style="" id="wr150">Dugd</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70602">
+    <date subtype="simple" begin="1120" end="1135">1120-35</date>
+    <date subtype="simple" begin="1135" end="1140">1135-40</date>
+    <date subtype="simple" begin="1184" end="1184">1184</date>
+    <source style="" id="wr796">YCh</source>
+    <item>vii</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70602">
+    <attestation variantID="epns-deep-35-b-name-w70602">
+     <date subtype="simple" begin="1184" end="1184">1184</date>
+     <source style="" id="wr49">BM</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-35-b-name-w70602">
+     <date subtype="simple" begin="1441" end="1441">1441</date>
+     <source style="" id="wr134">DiocV</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70711">
+    <date subtype="simple" begin="1292" end="1292">1292</date>
+    <source style="" id="wr161">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70711">
+    <attestation variantID="epns-deep-35-b-name-w70711">
+     <date subtype="simple" begin="1304" end="1304">1304</date>
+     <source style="" id="wr805">YI</source>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-35-b-name-w70711">
+     <date subtype="simple" begin="1399" end="1399">1399</date>
+     <source style="" id="wr779">WillY</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70780">
+    <date subtype="simple" begin="1120" end="1120">1120</date>
+    <source style="" id="wr150">Dugd</source>
+    <item>vi</item>
+   </attestation>
+   <attestation variantID="epns-deep-35-b-name-w70804">
+    <date subtype="simple" begin="1459" end="1459">1459</date>
+    <source style="" id="wr75">Calv</source>
+   </attestation>
+   <searchterm variantID="epns-deep-35-b-name-w70582">Carlentone</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70602">Carletone</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70602">Carleton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70602">Karletone</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70602">Karleton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70711">Karletone in Cravene</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70711">Karletone in Craven</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70711">Karleton in Cravene</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70711">Karleton in Craven</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70780">Carlton</searchterm>
+   <searchterm variantID="epns-deep-35-b-name-w70804">Carlton in Craven</searchterm>
+  </extension>
+ </mads>
+ 

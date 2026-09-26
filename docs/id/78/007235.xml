@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol78mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-78-a-parish-000009">
+  <authority ID="epns-deep-78-a-name-parish-000009">
+   <geographic valueURI="http://placenames.org.uk/id/placename/78/007235">Freeby</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-78-hu-subcounty-000001" type="broader">
+   <geographic>Framland Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010a4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.8107600" lat="52.7725500" gazref="geonames:2649082" source="geonames"/>
+   <geo long="-0.806519134738376" lat="52.77574489382099" gazref="unlock:11147965" source="unlock"/>
+   <geo easting="480500" northing="320500" long="-0.808085" lat="52.7761" kepnref="8737" source="kepn"/>
+  </extension>
+ </mads>
+ 

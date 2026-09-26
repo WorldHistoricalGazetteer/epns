@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol47mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-47-b-subparish-000051">
+  <authority ID="epns-deep-47-b-name-subparish-000051">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004290">Golborne Bellow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-47-a-parish-000012" type="broader">
+   <geographic>Tattenhall</geographic>
+  </related>
+  <variant ID="epns-deep-47-b-name-w230606">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004291">Belewgolburn</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w230632">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004292">Golburne Belewe</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w230788">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004293">-Bello(u), -Bellewe</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w230834">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004294">-Belleau</geographic>
+  </variant>
+  <variant ID="epns-deep-47-b-name-w230865">
+   <geographic valueURI="http://placenames.org.uk/id/placename/47/004295">Golborne Bellows, or Golborne Below</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328368eb47fc40856002065"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.7870100" lat="53.1268400" gazref="geonames:7294395" source="geonames"/>
+   <geo long="-2.79212089" lat="53.12523761" source="epns"/>
+   <geo easting="347500" northing="359500" long="-2.78608" lat="53.1301" kepnref="12067" source="kepn"/>
+   <attestation variantID="epns-deep-47-b-name-w230606">
+    <date end="1310" begin="1290" subtype="circa">c.1300</date>
+    <source style="italic" id="ch113">Chol</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230632">
+    <date end="1304" begin="1304" subtype="simple">1304</date>
+    <source style="" id="ch96">Chamb</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230788">
+    <date end="1415" begin="1415" subtype="simple">1415</date>
+    <source style="" id="ch115">ChRR</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230788">
+    <date end="1597" begin="1597" subtype="simple">1597</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230834">
+    <date end="1602" begin="1602" subtype="simple">1602</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230834">
+    <date end="1842" begin="1842" subtype="simple">1842</date>
+    <source style="" id="ch477">OS</source>
+   </attestation>
+   <attestation variantID="epns-deep-47-b-name-w230865">
+    <date end="1656" begin="1656" subtype="simple">1656</date>
+    <source style="" id="ch474">Orm2</source>
+   </attestation>
+   <searchterm variantID="epns-deep-47-b-name-w230606">Belewgolburn</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230632">Golburne Belewe</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230788">-Bellou</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230788">-Bello</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230788">-Bellewe</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230834">-Belleau</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230865">Golborne Bellows</searchterm>
+   <searchterm variantID="epns-deep-47-b-name-w230865">Golborne Below</searchterm>
+  </extension>
+ </mads>
+ 

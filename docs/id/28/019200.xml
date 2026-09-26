@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol28mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-28-b-subparish-000117">
+  <authority ID="epns-deep-28-b-name-subparish-000117">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019200">West Hallam</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-28-a-parish-000113" type="broader">
+   <geographic>West Hallam</geographic>
+  </related>
+  <variant ID="epns-deep-28-b-name-w709802">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019201">Westhal'</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w709833">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019202">Westhalum</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w709931">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019203">Westhalā</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w709951">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019204">Westhalam</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w709977">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019205">West hallam</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w710005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019206">Westhalom</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w710040">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019207">Westehalme</geographic>
+  </variant>
+  <variant ID="epns-deep-28-b-name-w710061">
+   <geographic valueURI="http://placenames.org.uk/id/placename/28/019208">Westhaln</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284cf5b47fc4095c001933"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.3584600" lat="52.9709300" gazref="geonames:2634405" source="geonames"/>
+   <geo long="-1.352214830733073" lat="52.96878110398669" gazref="unlock:11316956" source="unlock"/>
+   <geo easting="443500" northing="341500" long="-1.35372" lat="52.9691" kepnref="3389" source="kepn"/>
+   <attestation variantID="epns-deep-28-b-name-w709802">
+    <date subtype="simple" begin="1210" end="1210">1210</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709802">
+    <date subtype="simple" begin="1221" end="1230">1221-30</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <date subtype="simple" begin="1230" end="1230">1230</date>
+    <source style="" id="db379">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <date subtype="simple" begin="1234" end="1234">1234</date>
+    <source style="italic" id="db121">Dale</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <date subtype="simple" begin="1242" end="1242">1242</date>
+    <source style="" id="db379">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <date subtype="simple" begin="1243" end="1243">1243</date>
+    <source style="" id="db186">Fees</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <date subtype="simple" begin="1269" end="1269">1269</date>
+    <source style="italic" id="db23">Ass</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709833">
+    <attestation variantID="epns-deep-28-b-name-w709833">
+     <date subtype="simple" begin="1281" end="1281">1281</date>
+     <source style="italic" id="db23" underspec="ib">Ass</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-28-b-name-w709833">
+     <date subtype="simple" begin="1431" end="1431">1431</date>
+     <source style="" id="db182">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709931">
+    <date subtype="regnal" begin="1272" end="1307">Ed 1</date>
+    <source style="" id="db129">DbCh</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709951">
+    <date subtype="simple" begin="1442" end="1442">1442</date>
+    <source style="italic" id="db313">Middleton</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w709977">
+    <date subtype="simple" begin="1601" end="1601">1601</date>
+    <source style="" id="db128">DbA</source>
+    <item>xvi</item>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w710005">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <source style="" id="db182">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w710005">
+    <date subtype="simple" begin="1346" end="1346">1346</date>
+    <date subtype="simple" begin="1351" end="1351">1351</date>
+    <source style="italic" id="db98">Cor</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w710040">
+    <date subtype="simple" begin="1371" end="1371">1371</date>
+    <source style="italic" id="db98">Cor</source>
+   </attestation>
+   <attestation variantID="epns-deep-28-b-name-w710061">
+    <date subtype="simple" begin="1411" end="1411">1411</date>
+    <source style="" id="db389">Pat</source>
+   </attestation>
+   <searchterm variantID="epns-deep-28-b-name-w709802">Westhal'</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w709833">Westhalum</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w709931">Westhalā</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w709951">Westhalam</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w709977">West hallam</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w710005">Westhalom</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w710040">Westehalme</searchterm>
+   <searchterm variantID="epns-deep-28-b-name-w710061">Westhaln</searchterm>
+  </extension>
+ </mads>
+ 

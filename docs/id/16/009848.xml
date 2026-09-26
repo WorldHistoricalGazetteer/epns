@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-a-parish-000234">
+  <authority ID="epns-deep-16-a-name-parish-000234">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/009848">Ramsbury</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-hu-subcounty-000025" type="broader">
+   <geographic>Ramsbury Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886dab47fc40d38000cdd"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.6025700" lat="51.4437300" gazref="geonames:2639667" source="geonames"/>
+   <geo long="-1.604288120474205" lat="51.44133530095875" gazref="unlock:11252422" source="unlock"/>
+   <geo easting="427500" northing="171500" long="-1.60571" lat="51.4418" kepnref="7391" source="kepn"/>
+  </extension>
+ </mads>
+ 

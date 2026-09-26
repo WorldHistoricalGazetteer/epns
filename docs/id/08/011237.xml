@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol08mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-08-a-parish-000196">
+  <authority ID="epns-deep-08-a-name-parish-000196">
+   <geographic valueURI="http://placenames.org.uk/id/placename/08/011237">Cornworthy</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-08-hu-subcounty-000013" type="broader">
+   <geographic>Coleridge Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f13b47fc4097e001756"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.6483700" lat="50.3883800" gazref="geonames:2652351" source="geonames"/>
+   <geo long="-3.653033351122684" lat="50.38702255670231" gazref="unlock:11116389" source="unlock"/>
+   <geo easting="282500" northing="55500" long="-3.65419" lat="50.3876" kepnref="15655" source="kepn"/>
+  </extension>
+ </mads>
+ 

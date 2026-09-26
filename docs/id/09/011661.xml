@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol09mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-09-b-subparish-000227">
+  <authority ID="epns-deep-09-b-name-subparish-000227">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011661">Southleigh</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-09-a-parish-000227" type="broader">
+   <geographic>Southleigh</geographic>
+  </related>
+  <variant ID="epns-deep-09-b-name-w529237">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011662">Lega</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w529251">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011663">Suthlege</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w529269">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011664">Suthlegh</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w529293">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011665">Southleghe</geographic>
+  </variant>
+  <variant ID="epns-deep-09-b-name-w529314">
+   <geographic valueURI="http://placenames.org.uk/id/placename/09/011666">Sowley</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53284f38b47fc4097e001a24"/>
+  </recordInfo>
+  <extension>
+   <geo long="-3.1333300" lat="50.7333300" gazref="geonames:2637385" source="geonames"/>
+   <geo long="-3.12668910006989" lat="50.73509511441762" gazref="unlock:11288391" source="unlock"/>
+   <geo easting="320500" northing="93500" long="-3.12791" lat="50.7357" kepnref="15898" source="kepn"/>
+   <attestation variantID="epns-deep-09-b-name-w529237">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="de59">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w529251">
+    <date end="1228" begin="1228" subtype="simple">1228</date>
+    <source style="" id="de84">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w529269">
+    <date end="1242" begin="1242" subtype="simple">1242</date>
+    <source style="" id="de83">Fees</source>
+    <item>792</item>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w529293">
+    <date end="1291" begin="1291" subtype="simple">1291</date>
+    <source style="" id="de258">Tax</source>
+   </attestation>
+   <attestation variantID="epns-deep-09-b-name-w529314">
+    <date end="1555" begin="1555" subtype="simple">1555</date>
+    <source style="italic" id="de226">Recov</source>
+   </attestation>
+   <searchterm variantID="epns-deep-09-b-name-w529237">Lega</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w529251">Suthlege</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w529269">Suthlegh</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w529293">Southleghe</searchterm>
+   <searchterm variantID="epns-deep-09-b-name-w529314">Sowley</searchterm>
+  </extension>
+ </mads>
+ 

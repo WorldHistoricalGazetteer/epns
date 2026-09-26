@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol23mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-23-a-parish-000033">
+  <authority ID="epns-deep-23-a-name-parish-000033">
+   <geographic valueURI="http://placenames.org.uk/id/placename/23/004332">Lewknor</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-23-hu-subcounty-000004" type="broader">
+   <geographic>Lewknor Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-01</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286e22b47fc40beb00070b"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9672300" lat="51.6713800" gazref="geonames:2644553" source="geonames"/>
+   <geo long="-0.9659375181071442" lat="51.67125439526871" gazref="unlock:11194450" source="unlock"/>
+   <geo easting="471500" northing="197500" long="-0.967441" lat="51.6717" kepnref="3554" source="kepn"/>
+  </extension>
+ </mads>
+ 

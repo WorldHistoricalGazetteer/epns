@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol45mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-45-b-subparish-000105">
+  <authority ID="epns-deep-45-b-name-subparish-000105">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/013222">Kinderton cum Hulme</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-45-a-parish-000016" type="broader">
+   <geographic>Middlewich</geographic>
+  </related>
+  <variant ID="epns-deep-45-b-name-w598577">
+   <geographic valueURI="http://placenames.org.uk/id/placename/45/013223">Kynderton cum Hulm</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+  </recordInfo>
+  <extension>
+   <geo easting="370500" northing="376500" long="-2.44392" lat="53.2846" kepnref="11860" source="kepn"/>
+   <attestation variantID="epns-deep-45-b-name-w598577">
+    <date subtype="simple" begin="1430" end="1430">1430</date>
+    <source style="italic" id="ch162">Dav</source>
+   </attestation>
+   <searchterm variantID="epns-deep-45-b-name-w598577">Kynderton cum Hulm</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol07mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-07-a-parish-000060">
+  <authority ID="epns-deep-07-a-name-parish-000060">
+   <geographic valueURI="http://placenames.org.uk/id/placename/07/002652">Maresfield</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-07-hu-subcounty-000013" type="broader">
+   <geographic>Rushmonden Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53287234b47fc40c36000bcc"/>
+  </recordInfo>
+  <extension>
+   <geo long="0.0877600" lat="50.9972600" gazref="geonames:2643051" source="geonames"/>
+   <geo long="0.08812550575058486" lat="51.00067392555182" gazref="unlock:11213602" source="unlock"/>
+   <geo easting="546500" northing="124500" long="0.086529" lat="51.0012" kepnref="7077" source="kepn"/>
+  </extension>
+ </mads>
+ 

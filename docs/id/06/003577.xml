@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol06mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-06-b-subparish-000113">
+  <authority ID="epns-deep-06-b-name-subparish-000113">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003577">East Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-06-a-parish-000113" type="broader">
+   <geographic>East Preston</geographic>
+  </related>
+  <variant ID="epns-deep-06-b-name-w274303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003578">Prestetune</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w274323">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003579">Prestetona</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w274342">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003580">Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w274361">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003581">Preston(a) juxta Arrundell</geographic>
+  </variant>
+  <variant ID="epns-deep-06-b-name-w274397">
+   <geographic valueURI="http://placenames.org.uk/id/placename/06/003582">Est Preston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328724eb47fc40c36000cea"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.4906100" lat="50.8135300" gazref="geonames:2650352" source="geonames"/>
+   <geo long="-0.4739888285293229" lat="50.81150075699512" gazref="unlock:11136521" source="unlock"/>
+   <geo easting="506500" northing="102500" long="-0.489703" lat="50.8123" kepnref="6975" source="kepn"/>
+   <attestation variantID="epns-deep-06-b-name-w274303">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="su65">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w274323">
+    <date subtype="simple" begin="1180" end="1180">1180</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w274342">
+    <date subtype="simple" begin="1179" end="1179">1179</date>
+    <source style="" id="su199">P</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w274361">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <source style="" id="su94">FA</source>
+   </attestation>
+   <attestation variantID="epns-deep-06-b-name-w274397">
+    <date subtype="simple" begin="1327" end="1327">1327</date>
+    <source style="" id="su271">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-06-b-name-w274303">Prestetune</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274323">Prestetona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274342">Prestona</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274342">Preston</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274361">Prestona juxta Arrundell</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274361">Preston juxta Arrundell</searchterm>
+   <searchterm variantID="epns-deep-06-b-name-w274397">Est Preston</searchterm>
+  </extension>
+ </mads>
+ 

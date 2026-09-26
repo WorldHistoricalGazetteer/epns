@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000045">
+  <authority ID="epns-deep-04-b-name-subparish-000045">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001399">Berrow</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000045" type="broader">
+   <geographic>Berrow</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w113812">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/001400">la Berwe, la Berge</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a22b47fc40d6b00054c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.3143200" lat="52.0127300" gazref="geonames:7291711" source="geonames"/>
+   <geo long="-2.298697022723468" lat="52.00813074656198" gazref="unlock:11075869" source="unlock"/>
+   <geo easting="379500" northing="234500" long="-2.30006" lat="52.0086" kepnref="5223" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w113812">
+    <date end="1190" begin="1190" subtype="simple">1190</date>
+    <copydate end="1800" begin="1700">18th</copydate>
+    <source style="italic" id="wo79">Hearne's Heming</source>
+    <page>537</page>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w113812">la Berwe</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w113812">la Berge</searchterm>
+  </extension>
+ </mads>
+ 

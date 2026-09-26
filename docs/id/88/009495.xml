@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol88mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-88-a-parish-000030">
+  <authority ID="epns-deep-88-a-name-parish-000030">
+   <geographic valueURI="http://placenames.org.uk/id/placename/88/009495">Peatling Parva</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-88-hu-subcounty-000001" type="broader">
+   <geographic>Guthlaxton Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf0010d9"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.1345500" lat="52.4991400" gazref="geonames:2640533" source="geonames"/>
+   <geo long="-1.138134524499952" lat="52.49989522503579" gazref="unlock:11241584" source="unlock"/>
+   <geo kepnexref="0113" long="-1.12683" lat="52.5159" source="kepn"/>
+  </extension>
+ </mads>
+ 

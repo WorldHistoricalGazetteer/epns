@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000001">
+  <authority ID="epns-deep-13-a-name-parish-000001">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/000022">Austrey</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hud-belowsubcounty-000001" type="broader">
+   <geographic>Tamworth Division</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741cb47fc40c5f000618"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.5667900" lat="52.6567700" gazref="geonames:2656763" source="geonames"/>
+   <geo long="-1.563849946345565" lat="52.65507583185513" gazref="unlock:11065942" source="unlock"/>
+   <geo easting="429500" northing="306500" long="-1.56532" lat="52.6554" kepnref="4909" source="kepn"/>
+  </extension>
+ </mads>
+ 

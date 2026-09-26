@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000011">
+  <authority ID="epns-deep-05-b-name-subparish-000011">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000098">Towthorpe</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000005" type="broader">
+   <geographic>Huntington</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w6525">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000099">Touetorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6543">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000100">Touthorp(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6595">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000101">Thouthorp(h)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6650">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000102">Towethorp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6669">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000103">Towthorpp</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w6688">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000104">Towthroppe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004cf"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.030731413732734" lat="54.01840705819465" gazref="unlock:11303945" source="unlock"/>
+   <geo easting="462500" northing="458500" long="-1.04758" lat="54.0187" kepnref="5662" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w6525">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6543">
+    <attestation variantID="epns-deep-05-b-name-w6543">
+     <date subtype="simple" begin="1157" end="1170">c. 1157-70</date>
+     <source style="" id="ny236">YCh</source>
+     <page>1084</page>
+    </attestation>
+    <passim>et freq to</passim>
+    <attestation variantID="epns-deep-05-b-name-w6543">
+     <date subtype="simple" begin="1310" end="1310">1310</date>
+     <source style="" id="ny31">Ch</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6595">
+    <date subtype="simple" begin="1180" end="1200">1180-c. 1200</date>
+    <source style="" id="ny236">YCh</source>
+    <page>65</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6595">
+    <date subtype="simple" begin="1280" end="1280">1280</date>
+    <source style="" id="ny52">Ebor</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6595">
+    <date subtype="simple" begin="1295" end="1295">1295</date>
+    <source style="italic" id="ny67">For</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6650">
+    <date subtype="simple" begin="1372" end="1372">1372</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6669">
+    <date subtype="simple" begin="1419" end="1419">1419</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w6688">
+    <date subtype="simple" begin="1316" end="1316">1316</date>
+    <copydate end="1603" begin="1558">Eliz</copydate>
+    <source style="italic" id="ny101">KF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w6525">Touetorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6543">Touthorpe</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6543">Touthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6595">Thouthorph</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6595">Thouthorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6650">Towethorp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6669">Towthorpp</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w6688">Towthroppe</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol04mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-04-b-subparish-000103">
+  <authority ID="epns-deep-04-b-name-subparish-000103">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002704">Upton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-04-a-parish-000105" type="broader">
+   <geographic>Upton-on-Severn</geographic>
+  </related>
+  <variant ID="epns-deep-04-b-name-w228436">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002705">Uptun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w228483">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002706">Upentona</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w228513">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002707">Optun</geographic>
+  </variant>
+  <variant ID="epns-deep-04-b-name-w228539">
+   <geographic valueURI="http://placenames.org.uk/id/placename/04/002708">Upton super Sabrinam</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53288a23b47fc40d6b000606"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.2180200" lat="52.0625800" gazref="geonames:2635080" source="geonames"/>
+   <geo easting="385500" northing="240500" long="-2.2129" lat="52.0627" kepnref="5278" source="kepn"/>
+   <attestation variantID="epns-deep-04-b-name-w228436">
+    <date end="897" begin="897" subtype="simple">897</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>575</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w228436">
+    <date end="962" begin="962" subtype="simple">962</date>
+    <copydate end="1100" begin="1000">11th</copydate>
+    <source style="" id="wo12">BCS</source>
+    <item>1088</item>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w228483">
+    <date end="1096" begin="1076" subtype="circa">c. 1086</date>
+    <copydate end="1190" begin="1190">1190</copydate>
+    <source style="italic" id="wo54">EveB</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w228513">
+    <date end="1189" begin="1189" subtype="simple">1189</date>
+    <copydate end="1250" begin="1230">c. 1240</copydate>
+    <source style="italic" id="wo211">WoC</source>
+   </attestation>
+   <attestation variantID="epns-deep-04-b-name-w228539">
+    <date end="1327" begin="1327" subtype="simple">1327</date>
+    <source style="" id="wo183">SR</source>
+   </attestation>
+   <searchterm variantID="epns-deep-04-b-name-w228436">Uptun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w228483">Upentona</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w228513">Optun</searchterm>
+   <searchterm variantID="epns-deep-04-b-name-w228539">Upton super Sabrinam</searchterm>
+  </extension>
+ </mads>
+ 

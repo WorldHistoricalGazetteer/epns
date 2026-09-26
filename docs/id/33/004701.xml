@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol33mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-33-b-subparish-000053">
+  <authority ID="epns-deep-33-b-name-subparish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004701">Great Preston</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-33-a-parish-000021" type="broader">
+   <geographic>Kippax</geographic>
+  </related>
+  <variant ID="epns-deep-33-b-name-w211098">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004702">Prestun(e), Prest(una), Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w211253">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004703">Great Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w211298">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004704">Grete Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w211329">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004705">Grett Preston(a)</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w211360">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004706">Priston</geographic>
+  </variant>
+  <variant ID="epns-deep-33-b-name-w211377">
+   <geographic valueURI="http://placenames.org.uk/id/placename/33/004707">Great Purston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328827bb47fc40c81006186"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.39326053" lat="53.75560537" source="epns"/>
+   <geo long="-1.385610987588713" lat="53.760062312019" gazref="unlock:11159184" source="unlock"/>
+   <geo easting="440500" northing="429500" long="-1.38715" lat="53.7603" kepnref="14638" source="kepn"/>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1086" begin="1086" subtype="simple">1086</date>
+    <source style="" id="wr123">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1166" begin="1146" subtype="circa">c. 1156</date>
+    <source style="" id="wr489">Pont</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1166" begin="1166" subtype="simple">1166</date>
+    <source style="" id="wr464">P</source>
+    <pername>(p)</pername>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1185" begin="1175" subtype="simple">1175-85</date>
+    <source style="" id="wr796">YCh</source>
+    <page>1662</page>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1210" begin="1210" subtype="simple">1210</date>
+    <date end="1240" begin="1220" subtype="circa">c. 1230</date>
+    <source style="" id="wr489">Pont</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <date end="1258" begin="1258" subtype="simple">1258</date>
+    <source style="" id="wr805">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211098">
+    <attestation variantID="epns-deep-33-b-name-w211098">
+     <date end="1285" begin="1285" subtype="simple">1285</date>
+     <source style="" id="wr311">KI</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-33-b-name-w211098">
+     <date end="1428" begin="1428" subtype="simple">1428</date>
+     <source style="" id="wr197">FA</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211253">
+    <date end="1488" begin="1488" subtype="simple">1488</date>
+    <source style="" id="wr294">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211253">
+    <date end="1543" begin="1543" subtype="simple">1543</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211253">
+    <date end="1611" begin="1611" subtype="simple">1611</date>
+    <source style="" id="wr206">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211298">
+    <date end="1527" begin="1527" subtype="simple">1527</date>
+    <source style="" id="wr779">WillY</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211329">
+    <date end="1538" begin="1538" subtype="simple">1538</date>
+    <source style="" id="wr712">TestLds</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211360">
+    <date end="1525" begin="1525" subtype="simple">1525</date>
+    <source style="" id="wr712" underspec="ib">TestLds</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211377">
+    <date end="1608" begin="1608" subtype="simple">1608</date>
+    <source style="" id="wr542">PRKp</source>
+   </attestation>
+   <attestation variantID="epns-deep-33-b-name-w211377">
+    <date end="1661" begin="1661" subtype="simple">1661</date>
+    <source style="" id="wr791">WYD</source>
+   </attestation>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Prestune</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Prestun</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Prestuna</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Prest</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Prestona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211098">Preston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211253">Great Prestona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211253">Great Preston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211298">Grete Prestona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211298">Grete Preston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211329">Grett Prestona</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211329">Grett Preston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211360">Priston</searchterm>
+   <searchterm variantID="epns-deep-33-b-name-w211377">Great Purston</searchterm>
+  </extension>
+ </mads>
+ 

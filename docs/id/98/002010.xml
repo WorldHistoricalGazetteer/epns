@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000084">
+  <authority ID="epns-deep-98-a-name-parish-000084">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/002010">Dunstable</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000007" type="broader">
+   <geographic>Manshead Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a9000246"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5209900" lat="51.8860000" gazref="geonames:2650657" source="geonames"/>
+   <geo long="-0.5251787151111726" lat="51.88237343085569" gazref="unlock:11134479" source="unlock"/>
+   <geo easting="502500" northing="221500" long="-0.512218" lat="51.8827" kepnref="4308" source="kepn"/>
+  </extension>
+ </mads>
+ 

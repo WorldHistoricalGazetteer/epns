@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol19mads-e.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-97-b-subparish-000002">
+  <authority ID="epns-deep-97-b-name-subparish-000002">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000134">Ely College</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-97-a-parish-000002" type="broader">
+   <geographic>Ely College</geographic>
+  </related>
+  <variant ID="epns-deep-97-b-name-w377612">
+   <geographic valueURI="http://placenames.org.uk/id/placename/97/000135">Ely College</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-23</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328736fb47fc40c4f0007a7"/>
+  </recordInfo>
+  <extension>
+   <geo kepnexref="368" long="0.259668" lat="52.398753" source="kepn"/>
+   <attestation variantID="epns-deep-97-b-name-w377612">
+    <date end="1591" begin="1591" subtype="simple">1591</date>
+    <source style="italic" id="ce481">WMP</source>
+   </attestation>
+   <searchterm variantID="epns-deep-97-b-name-w377612">Ely College</searchterm>
+  </extension>
+ </mads>
+ 

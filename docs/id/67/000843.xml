@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol67mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-67-b-subparish-000005">
+  <authority ID="epns-deep-67-b-name-subparish-000005">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000843">Exton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-67-a-parish-000005" type="broader">
+   <geographic>Exton</geographic>
+  </related>
+  <variant ID="epns-deep-67-b-name-w39810">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000844">Exentune</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w39828">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000845">Exton(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-67-b-name-w39906">
+   <geographic valueURI="http://placenames.org.uk/id/placename/67/000846">Exston</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-29</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286f79b47fc40c0d0003fb"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.6346300" lat="52.6910600" gazref="geonames:2649796" source="geonames"/>
+   <geo long="-0.631197353106173" lat="52.6929298056704" gazref="unlock:11141170" source="unlock"/>
+   <geo easting="492500" northing="311500" long="-0.632781" lat="52.6933" kepnref="2970" source="kepn"/>
+   <attestation variantID="epns-deep-67-b-name-w39810">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="rd85">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w39828">
+    <date subtype="simple" begin="1107" end="1107">1107</date>
+    <source style="" id="rd300">Reg</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w39828">
+    <attestation variantID="epns-deep-67-b-name-w39828">
+     <date subtype="simple" begin="1185" end="1185">1185</date>
+     <date subtype="simple" begin="1192" end="1192">1192</date>
+     <source style="" id="rd264">P</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w39828">
+     <date subtype="simple" begin="1207" end="1207">1207</date>
+     <source style="" id="rd264" underspec="ib">P</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w39828">
+    <date subtype="simple" begin="1610" end="1610">1610</date>
+    <source style="" id="rd334">Speed</source>
+   </attestation>
+   <attestation variantID="epns-deep-67-b-name-w39906">
+    <attestation variantID="epns-deep-67-b-name-w39906">
+     <date subtype="simple" begin="1326" end="1326">1326</date>
+     <date subtype="simple" begin="1330" end="1330">1330</date>
+     <source style="" id="rd266">Pat</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-67-b-name-w39906">
+     <date subtype="simple" begin="1535" end="1535">1535</date>
+     <source style="" id="rd357">VE</source>
+    </attestation>
+   </attestation>
+   <searchterm variantID="epns-deep-67-b-name-w39810">Exentune</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w39828">Extone</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w39828">Exton</searchterm>
+   <searchterm variantID="epns-deep-67-b-name-w39906">Exston</searchterm>
+  </extension>
+ </mads>
+ 

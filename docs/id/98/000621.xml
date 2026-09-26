@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol03mads-b.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-98-a-parish-000028">
+  <authority ID="epns-deep-98-a-name-parish-000028">
+   <geographic valueURI="http://placenames.org.uk/id/placename/98/000621">Stevington</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-98-hu-subcounty-000002" type="broader">
+   <geographic>Willey Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53282b23b47fc407a90002c4"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.5551500" lat="52.1684800" gazref="geonames:2636935" source="geonames"/>
+   <geo long="-0.559540759393293" lat="52.17055562927415" gazref="unlock:11291959" source="unlock"/>
+   <geo easting="498500" northing="253500" long="-0.561111" lat="52.171" kepnref="4250" source="kepn"/>
+  </extension>
+ </mads>
+ 

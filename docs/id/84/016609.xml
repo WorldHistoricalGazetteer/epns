@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol84mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-84-a-parish-000053">
+  <authority ID="epns-deep-84-a-name-parish-000053">
+   <geographic valueURI="http://placenames.org.uk/id/placename/84/016609">West Langton</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-84-hu-subcounty-000001" type="broader">
+   <geographic>Gartree Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-09-19</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53285cccb47fc40adf001103"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9546500" lat="52.5240400" gazref="geonames:7293868" source="geonames"/>
+   <geo long="-0.9314753597699779" lat="52.51619224795896" gazref="unlock:11317199" source="unlock"/>
+   <geo easting="472500" northing="292500" long="-0.932798" lat="52.5256" kepnref="8774" source="kepn"/>
+  </extension>
+ </mads>
+ 

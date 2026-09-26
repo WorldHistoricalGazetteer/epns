@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000187">
+  <authority ID="epns-deep-05-b-name-subparish-000187">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002376">Hinderwell</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000069" type="broader">
+   <geographic>Hinderwell</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w186270">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002377">Hildrewelle, Ildrewelle</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w186303">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002378">Hilderwell(e), Hylderwell(e)</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w186371">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002379">Hildrewell</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w186410">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/002380">Hynderwell, Hinderwell</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc60004c0"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.7735900" lat="54.5382600" gazref="geonames:2646865" source="geonames"/>
+   <geo long="-0.7711476855873771" lat="54.53739326402841" gazref="unlock:11175684" source="unlock"/>
+   <geo easting="479500" northing="516500" long="-0.772796" lat="54.5375" kepnref="5838" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w186270">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186303">
+    <attestation variantID="epns-deep-05-b-name-w186303">
+     <date subtype="simple" begin="1139" end="1148">1139-48</date>
+     <source style="" id="ny236">YCh</source>
+     <page>906</page>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-05-b-name-w186303">
+     <date subtype="simple" begin="1475" end="1475">1475</date>
+     <source style="" id="ny166">Pat</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186371">
+    <date subtype="simple" begin="1347" end="1347">1347</date>
+    <source style="" id="ny166">Pat</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186371">
+    <date subtype="simple" begin="1348" end="1348">1348</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186371">
+    <date subtype="simple" begin="1404" end="1404">1404</date>
+    <source style="" id="ny241">YI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186410">
+    <date subtype="simple" begin="1468" end="1468">1468</date>
+    <source style="" id="ny217">Test</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186410">
+    <date subtype="simple" begin="1490" end="1490">1490</date>
+    <source style="" id="ny93">Ipm</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186410">
+    <date subtype="simple" begin="1573" end="1573">1573</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w186410">
+    <date subtype="simple" begin="1665" end="1665">1665</date>
+    <source style="" id="ny224">Visit</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w186270">Hildrewelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186270">Ildrewelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186303">Hilderwelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186303">Hilderwell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186303">Hylderwelle</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186303">Hylderwell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186371">Hildrewell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186410">Hynderwell</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w186410">Hinderwell</searchterm>
+  </extension>
+ </mads>
+ 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol16mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-16-b-subparish-000180">
+  <authority ID="epns-deep-16-b-name-subparish-000180">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008265">Potterne</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-16-a-parish-000205" type="broader">
+   <geographic>Potterne</geographic>
+  </related>
+  <variant ID="epns-deep-16-b-name-w404367">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008266">Poterne</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w404456">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008267">Potern and Poterna</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w404476">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008268">Pottern</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w404494">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008269">Pottren</geographic>
+  </variant>
+  <variant ID="epns-deep-16-b-name-w404515">
+   <geographic valueURI="http://placenames.org.uk/id/placename/16/008270">Potterin</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-31</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/532886f9b47fc40d38000e2d"/>
+  </recordInfo>
+  <extension>
+   <geo long="-2.0051900" lat="51.3291700" gazref="geonames:2639971" source="geonames"/>
+   <geo long="-2.007176546154899" lat="51.32509791711859" gazref="unlock:11249350" source="unlock"/>
+   <geo easting="399500" northing="158500" long="-2.00855" lat="51.3256" kepnref="7358" source="kepn"/>
+   <attestation variantID="epns-deep-16-b-name-w404367">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ws74">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404367">
+    <date subtype="simple" begin="1148" end="1148">1148</date>
+    <source style="" id="ws140">HMC Var</source>
+    <item>i</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404367">
+    <attestation variantID="epns-deep-16-b-name-w404367">
+     <date subtype="simple" begin="1195" end="1195">1195</date>
+     <source style="" id="ws106">FF</source>
+    </attestation>
+    <passim>et passim to</passim>
+    <attestation variantID="epns-deep-16-b-name-w404367">
+     <date subtype="simple" begin="1291" end="1291">1291</date>
+     <source style="" id="ws312">Tax</source>
+    </attestation>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404456">
+    <date end="1291" begin="1195">1195-1291</date>
+    <source>unspecified sources</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404476">
+    <date subtype="simple" begin="1281" end="1281">1281</date>
+    <source style="italic" id="ws19">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404494">
+    <date subtype="simple" begin="1585" end="1585">1585</date>
+    <source style="" id="ws333">WM</source>
+    <item>xxi</item>
+   </attestation>
+   <attestation variantID="epns-deep-16-b-name-w404515">
+    <date subtype="simple" begin="1589" end="1589">1589</date>
+    <source style="" id="ws7">AD</source>
+    <item>iv</item>
+   </attestation>
+   <searchterm variantID="epns-deep-16-b-name-w404367">Poterne</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w404456">Potern</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w404456">Poterna</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w404476">Pottern</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w404494">Pottren</searchterm>
+   <searchterm variantID="epns-deep-16-b-name-w404515">Potterin</searchterm>
+  </extension>
+ </mads>
+ 

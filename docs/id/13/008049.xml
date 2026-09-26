@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol13mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-13-a-parish-000198">
+  <authority ID="epns-deep-13-a-name-parish-000198">
+   <geographic valueURI="http://placenames.org.uk/id/placename/13/008049">Wootton Wawen</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-13-hudb-belowsubcounty-000009" type="broader">
+   <geographic>Pathlow Hundred</geographic>
+  </related>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/5328741db47fc40c5f00070c"/>
+  </recordInfo>
+  <extension>
+   <geo long="-1.7806000" lat="52.2681200" gazref="geonames:2633565" source="geonames"/>
+   <geo long="-1.772832535244957" lat="52.26904529165872" gazref="unlock:11327175" source="unlock"/>
+   <geo easting="415500" northing="263500" long="-1.77427" lat="52.2694" kepnref="5016" source="kepn"/>
+  </extension>
+ </mads>
+ 

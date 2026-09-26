@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The original <mads> element from vol05mads.xml (DEEP, Jisc 2017 release). Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International License. -->
+<mads xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="epns-deep-05-b-subparish-000097">
+  <authority ID="epns-deep-05-b-name-subparish-000097">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000891">Hutton le Hole</geographic>
+  </authority>
+  <related xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#epns-deep-05-a-parish-000041" type="broader">
+   <geographic>Lastingham</geographic>
+  </related>
+  <variant ID="epns-deep-05-b-name-w78257">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000892">Hotun</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w78272">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000893">(Hege)hoton</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w78294">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000894">Hoton subtus le Hegh</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w78335">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000895">Hoton Underheg</geographic>
+  </variant>
+  <variant ID="epns-deep-05-b-name-w78359">
+   <geographic valueURI="http://placenames.org.uk/id/placename/05/000896">Hewton under Heighe</geographic>
+  </variant>
+  <recordInfo>
+   <recordCreationDate>2013-10-10</recordCreationDate>
+   <recordContentSource valueURI="http://epns.nottingham.ac.uk/browse/id/53286b32b47fc40bc6000518"/>
+  </recordInfo>
+  <extension>
+   <geo long="-0.9166700" lat="54.2833300" gazref="geonames:2646334" source="geonames"/>
+   <geo easting="470500" northing="490500" long="-0.918035" lat="54.3052" kepnref="5748" source="kepn"/>
+   <attestation variantID="epns-deep-05-b-name-w78257">
+    <date subtype="simple" begin="1086" end="1086">1086</date>
+    <source style="" id="ny43">DB</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w78272">
+    <date subtype="simple" begin="1204" end="1204">1204</date>
+    <source style="" id="ny11">Ass</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w78294">
+    <date subtype="century" begin="1200" end="1300">13</date>
+    <source style="" id="ny48">Dugd</source>
+    <item>iii</item>
+    <page>560</page>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w78335">
+    <date subtype="simple" begin="1285" end="1285">1285</date>
+    <source style="" id="ny102">KI</source>
+   </attestation>
+   <attestation variantID="epns-deep-05-b-name-w78359">
+    <date subtype="simple" begin="1579" end="1579">1579</date>
+    <source style="" id="ny65">FF</source>
+   </attestation>
+   <searchterm variantID="epns-deep-05-b-name-w78257">Hotun</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w78272">Hegehoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w78272">hoton</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w78294">Hoton subtus le Hegh</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w78335">Hoton Underheg</searchterm>
+   <searchterm variantID="epns-deep-05-b-name-w78359">Hewton under Heighe</searchterm>
+  </extension>
+ </mads>
+ 
