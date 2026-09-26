@@ -16,5 +16,5 @@
  *   MapTiler key would 403 silently. OpenStreetMap needs no key either.
  */
 export const CONFIG = {
-  cartoKey: 'cb1_2e5i_1_2d303d63fc7c8b2560a39a12',   // CARTO_API_KEY, domain-restricted
+  cartoKey: 'cb1_2yg5_1_9504b922f13f07d40819d950',   // CARTO_API_KEY, domain-restricted
 };

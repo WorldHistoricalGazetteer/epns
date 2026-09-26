@@ -27,7 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXP = ROOT / "data" / "export"
-REPO = "docuracy/deep"
+REPO = "WorldHistoricalGazetteer/epns"
 LICENCE_TEXT = ("Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and "
                 "released under a Creative Commons Attribution-NonCommercial 4.0 International License.")
 

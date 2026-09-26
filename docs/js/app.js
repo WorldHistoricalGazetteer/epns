@@ -564,7 +564,7 @@ async function openFormat(kind) {
     const prov = meta.plato_tag
       ? `PLATO <a href="https://github.com/pelagios/place-attestation-ontology/releases/tag/${esc(meta.plato_tag)}" target="_blank" rel="noopener">${esc(meta.plato_tag)}</a> (release ${esc(meta.plato_versionInfo_at_commit || '')}, ${commitLink})`
       : `PLATO ${commitLink} (owl:versionInfo there reads ${esc(meta.plato_versionInfo_at_commit || '?')} and is not the provenance)`;
-    caveat = `Place-centric PLATO, generated against ${prov}. ${entity.attestations.length} attestations; nothing in the record is dropped. Identifiers are DEEP's own placenames.org.uk URIs, which no longer resolve.`;
+    caveat = `Place-centric PLATO, generated against ${prov}. ${entity.attestations.length} attestations; nothing in the record is dropped. Identifiers are <code>https://w3id.org/whg-epns/&lt;county&gt;/&lt;serial&gt;</code>, DEEP's own 2013 numbering under a namespace registered by the World Historical Gazetteer; the original DEEP URI is kept in the headword attestation's notes.`;
   } else if (kind === 'lpf') {
     const { feature, dropped } = toLpf(rec, ctx);
     text = JSON.stringify(feature, null, 2); body = lpfHTML(feature, dropped); filename = `${id}.lpf.json`;
@@ -855,7 +855,9 @@ async function openByU(ref) {
   if (S.byU.has(key)) { await openPlace(S.byU.get(key)); return true; }
   const shard = await shardFor(m[1]).catch(() => null);
   if (!shard) return false;
-  const rec = shard.places.find((r) => r.u === parseInt(m[2], 10));
+  const n = parseInt(m[2], 10);
+  // DEEP numbered records and name forms in one county-wide sequence: a form's serial opens its record
+  const rec = shard.places.find((r) => r.u === n) || shard.places.find((r) => (r.v || []).some((v) => v[2] === n));
   if (!rec) return false;
   await openPlace(rec.g);
   return true;

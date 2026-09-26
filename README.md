@@ -10,7 +10,7 @@ MADS XML, turned into:
    township → minor names and field-names, the attestations set out as the volumes print them, and
    a MapLibre map with CARTO, OpenStreetMap and Ordnance Survey six-inch (NLS) basemaps.
 
-**Live site:** https://docuracy.github.io/deep/
+**Live site:** https://worldhistoricalgazetteer.github.io/epns/
 
 > **Data licence.** "Digitisation of English Placenames MADS data is licensed to Jisc by the English
 > Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International
@@ -42,7 +42,7 @@ The full profile, and why LPF cannot hold it without loss, is written up in
 
 ## Downloads and exports
 
-The [downloads page](https://docuracy.github.io/deep/downloads.html) offers the whole corpus in three
+The [downloads page](https://worldhistoricalgazetteer.github.io/epns/downloads.html) offers the whole corpus in three
 shapes, all built from the same DuckDB by `process/export_plato.py` and `process/build_downloads.py`
 and attached to a GitHub release (they are too large and too rarely rebuilt for git history):
 
@@ -68,16 +68,21 @@ the headless checks require the browser port to produce identical objects for th
 
 ## Identifiers
 
-Nothing is minted here. The DEEP record id (`epns-deep-<county>-<code>-<type>-<seq>`) is read
-verbatim from the XML's `<mads ID>` attribute, never composed; all 539,372 are unique, all match the
-pattern, and parse-then-compose round-trips every one, which `build_db.py` asserts on every build.
-The sequence numbers are DEEP's own (they are not dense and do not follow document order, so they were
-not assigned by this build). The site's integer `gid` is a build artefact used only inside its data
-files and never shown as an identifier. The exports use DEEP's published URIs
-(`http://placenames.org.uk/id/placename/<county>/<n>`, one per record and one per name form) as
-`@id`s; they are unique, they are the only identifiers the corpus ever had, and they no longer
-resolve, which the files say. Any resolvable namespace (a w3id, say) is a governance decision, not
-an engineering one, and is not taken in this repository.
+The DEEP record id (`epns-deep-<county>-<code>-<type>-<seq>`) is read verbatim from the XML's `<mads ID>`
+attribute, never composed; all 539,372 are unique, all match the pattern, and parse-then-compose
+round-trips every one, which `build_db.py` asserts on every build. The sequence numbers are DEEP's own
+(not dense, not in document order, so not assigned here). The site's integer `gid` is a build artefact
+used only inside its data files.
+
+DEEP also published a URI for every record and every name form, `http://placenames.org.uk/id/placename/
+<county>/<serial>`, numbered in one county-wide sequence. That domain has changed hands and now serves
+an unrelated commercial site; the project's record pages at `epns.nottingham.ac.uk` answer 200 with the
+university home page for every path. The exports and the per-record files therefore identify records
+and name forms as **`https://w3id.org/whg-epns/<county>/<serial>`**: DEEP's own pair, unchanged, under a
+w3id namespace registered by the World Historical Gazetteer (decision of 26 September 2026), so a 2013
+URI maps to its w3id by prefix substitution alone. The original DEEP URI is kept on every record as
+provenance. Until the registration is merged at `perma-id/w3id.org` the URIs are declared but not yet
+resolvable; the export manifest says so.
 
 ## Persistent identifiers, prepared
 
@@ -90,9 +95,9 @@ machine file (three formats for every record would be 1.6 million files); their 
 the formats in the browser, and a machine request for one answers 404 with a page that carries a person
 to the record. That cut is deliberate and stated rather than hidden behind a redirect to a neighbour.
 
-A w3id namespace (`whg-epns`) that carries the `{county}/{serial}` pair unchanged has been drafted on
-the owner's fork of `perma-id/w3id.org` (branch `whg-epns`); registering it is a governance decision
-and is not taken here.
+The w3id namespace `whg-epns` (branch `whg-epns` on the owner's fork of `perma-id/w3id.org`) resolves
+`/{county}/{serial}` by content negotiation to these files, the record's map view, or the original MADS,
+and `/data/*` to the latest release. A name form's serial resolves to the record that carries it.
 
 ## Layout
 
@@ -165,4 +170,4 @@ Library of Scotland.
 Survey data: English Place-Name Society, digitised by DEEP and published by Jisc, CC BY-NC 4.0. Cite the
 county volume for any name; each place page shows its DEEP record identifier. This repository:
 Gadd, Stephen. 2026. *DEEP — the English place-name survey, as data and as a map*.
-https://github.com/docuracy/deep.
+https://github.com/WorldHistoricalGazetteer/epns.

@@ -4,7 +4,7 @@
     /usr/bin/python3 tools/pages/shot.py --serve                 # every check against docs/ on a loopback server
     /usr/bin/python3 tools/pages/shot.py --serve --check search
     /usr/bin/python3 tools/pages/shot.py --serve --prove-it-fails
-    /usr/bin/python3 tools/pages/shot.py --url https://docuracy.github.io/deep/
+    /usr/bin/python3 tools/pages/shot.py --url https://worldhistoricalgazetteer.github.io/epns/
 
 Run from the repository root. Exits non-zero if any check fails. Screenshots go to
 tools/pages/out/.

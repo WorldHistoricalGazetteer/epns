@@ -23,12 +23,15 @@ attestation-centric profile's `newSpatialEntities` escape hatch, which the schem
 "sparingly". The place-centric document is the honest shape; each entity's attestations are the
 same objects and can be re-emitted attestation-centric with an `about` in one line.
 
-IDENTIFIERS. Nothing is minted. A SpatialEntity's @id is the URI DEEP itself published for the
-record (http://placenames.org.uk/id/placename/<county>/<n>), and a Name's @id is DEEP's URI for
-the form. Both are dead: the domain now resolves to an unrelated business. They remain the only
-identifiers the corpus ever had, they are unique, and using them records that fact rather than
-papering over it. Attestations are addressed by fragment on the record's URI (#a<pos>, #headword,
-#s<n>, #g<n>). The DEEP record id (epns-deep-...) is carried in the headword attestation's notes.
+IDENTIFIERS. A SpatialEntity's @id is https://w3id.org/whg-epns/<county>/<serial>, and a Name's @id
+the same pattern with the form's own serial: the <county>/<serial> pair is DEEP's, carried unchanged
+from the URIs it published in 2013 (http://placenames.org.uk/id/placename/<county>/<serial>), which
+no longer resolve because the domain has changed hands. DEEP numbered records and name forms in one
+county-wide sequence, so a form's serial resolves to the record that carries it. The w3id namespace
+is registered by the World Historical Gazetteer (decision of 26 Sep 2026); until the registration
+is merged the URIs are declared but not yet resolvable, and the manifest says so. The original DEEP
+URI and record id (epns-deep-...) are kept in the headword attestation's notes as provenance.
+Attestations are addressed by fragment on the record's URI (#a<pos>, #headword, #s<n>, #g<n>).
 
 WHAT IS EXERCISED, and where each DEEP element lands (the mapping the LPF export cannot make):
   attestation <date>          -> timespans[] with the editors' bracket as start/end earliest/latest
@@ -63,7 +66,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "deep.duckdb"
 OUT = ROOT / "data" / "export"
 PLATO_REPO = Path("/home/stephen/PycharmProjects/place-attestation-ontology")
-SITE = "https://docuracy.github.io/deep/"
+SITE = "https://worldhistoricalgazetteer.github.io/epns/"
+W3ID = "https://w3id.org/whg-epns/"
+
+
+def w3id_of(deep_uri: str | None) -> str | None:
+    """DEEP's <county>/<serial> pair, re-homed under the w3id namespace."""
+    m = re.search(r"/(\d+)/(\d+)$", deep_uri or "")
+    return f"{W3ID}{m.group(1)}/{int(m.group(2)):06d}" if m else None
 LICENCE = "https://creativecommons.org/licenses/by-nc/4.0/"
 LICENCE_TEXT = ("Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and "
                 "released under a Creative Commons Attribution-NonCommercial 4.0 International License.")
@@ -198,11 +208,11 @@ class Exporter:
 
     def entity(self, p, names, atts, dates, passim, terms, geos, notes, tree):
         pid, cc, code, ptype, seq, title, title_uri, auth_type, parent, ptitle, csrc, created, vol = p
-        uri = title_uri
+        uri = w3id_of(title_uri)
         if not title:                                   # one record in the corpus has an empty headword element
             title = f"[headword text missing in source: {pid}]"
         A = []
-        name_uri = {n[0]: (n[2], n[3]) for n in names if n[2]}   # name_id -> (toponym, uri); a few variants have no text at all
+        name_uri = {n[0]: (n[2], w3id_of(n[3])) for n in names if n[2]}   # name_id -> (toponym, w3id); a few variants have no text at all
         blank = {n[0] for n in names if not n[2]}
         # 1. the headword: types, hierarchy, provenance
         aat, aat_label, _ = TYPES.get(ptype, TYPES["feature"])
@@ -210,7 +220,7 @@ class Exporter:
               "names": [{"toponym": title, "language": "en"}],   # DEEP's URI for the headword IS the entity's @id, so it is not repeated here
               "types": [{"identifier": AAT + aat, "label": aat_label, "sourceLabel": f"{AUTH_WORD.get(auth_type) or TYPE_WORD.get(ptype, ptype)} (DEEP type '{ptype}', code '{code}')"}],
               "citations": [{"source": self.volume_source(cc)}],
-              "notes": f"DEEP record {pid}; digitised {created}; the record's own URI no longer resolves"}
+              "notes": f"DEEP record {pid}; digitised {created}; DEEP URI {title_uri} (no longer resolves)"}
         if parent and tree.get(parent):
             hw["relations"] = [{"relatesTo": tree[parent], "relationType": "http://vocab.getty.edu/ontology#broaderPartitive",
                                 "relationLabel": f"within {ptitle} (the survey's arrangement; structural, not dated)"}]
@@ -291,20 +301,21 @@ class Exporter:
 
     def gazetteer(self, cc=None):
         scope = f"county volume {self.county_name.get(cc, cc)}" if cc else "all 66 volumes"
-        return {"@id": SITE, "title": f"DEEP: the English Place-Name Society survey ({scope})",
+        return {"@id": W3ID, "title": f"DEEP: the English Place-Name Society survey ({scope})",
                 "description": (f"Place-centric PLATO serialisation of the DEEP MADS XML (Jisc, 2017 release; mirrored 2026-09-26), {scope}. "
                                 + (f"Generated and schema-validated against PLATO {self.tag} (release {self.version_info}, commit {self.sha}). "
                                    if self.tag else
                                    f"Generated against PLATO commit {self.sha} (schemas validated at that commit; owl:versionInfo there reads {self.version_info} and is not the provenance). ")
+                                + f"Identifiers are https://w3id.org/whg-epns/<county>/<serial>, carrying DEEP's own 2013 numbering (registration by the World Historical Gazetteer, pending merge at generation time). "
                                 + f"Licence: {LICENCE_TEXT} This serialisation is an adaptation and carries the same terms. plato_commit={self.sha}"),
-                "contributor": "Conversion: Stephen Gadd (github.com/docuracy/deep). Data: English Place-Name Society, digitised by DEEP, published by Jisc.",
+                "contributor": "Conversion: Stephen Gadd (github.com/WorldHistoricalGazetteer/epns). Data: English Place-Name Society, digitised by DEEP, published by Jisc.",
                 "licence": LICENCE}
 
     def county_rows(self, cc):
         con = self.con
         places = con.execute("""SELECT place_id, county_code, type_code, type, seq, title, title_uri, auth_type, parent_id, parent_title, content_source, created, volume
                                 FROM place WHERE county_code=? ORDER BY rowid""", [cc]).fetchall()
-        tree = {r[0]: r[1] for r in con.execute("SELECT place_id, title_uri FROM place WHERE county_code=?", [cc]).fetchall()}
+        tree = {r[0]: w3id_of(r[1]) for r in con.execute("SELECT place_id, title_uri FROM place WHERE county_code=?", [cc]).fetchall()}
         def grouped(sql):
             d = defaultdict(list)
             for row in con.execute(sql, [cc]).fetchall():
@@ -457,6 +468,7 @@ def assemble(out: Path, sha: str, version_info: str, tag: str | None = None):
         files.append({"file": p.name, "bytes": p.stat().st_size, "sha256": sha256_file(p)})
     old = json.loads((out / "manifest.json").read_text()) if (out / "manifest.json").exists() else {}
     manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_tag": tag, "plato_versionInfo_at_commit": version_info,
+                "identifiers": {"namespace": W3ID, "pattern": W3ID + "<county>/<serial>", "note": "DEEP's own 2013 numbering under a w3id namespace registered by WHG; resolvable once the perma-id/w3id.org registration is merged"},
                 "plato_repo": "https://github.com/pelagios/place-attestation-ontology", "validated": True, "schema_errors": 0,
                 "assembled_from_county_files": True, "previous_generated": old.get("generated"),
                 "source": "http://mads.digitalresources.jisc.ac.uk/mads2017/ (files dated 2017; mirrored 2026-09-26)", "licence": LICENCE, "licence_text": LICENCE_TEXT,
@@ -602,6 +614,7 @@ def main():
         for p in (out / "deep-plato.jsonl.gz", out / "deep-lpf.geojsonl.gz"):
             files.append({"file": p.name, "bytes": p.stat().st_size, "sha256": sha256_file(p)})
     manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_tag": tag, "plato_versionInfo_at_commit": version_info,
+                "identifiers": {"namespace": W3ID, "pattern": W3ID + "<county>/<serial>", "note": "DEEP's own 2013 numbering under a w3id namespace registered by WHG; resolvable once the perma-id/w3id.org registration is merged"},
                 "plato_repo": "https://github.com/pelagios/place-attestation-ontology", "validated": not args.no_validate, "schema_errors": n_val_err,
                 "source": "http://mads.digitalresources.jisc.ac.uk/mads2017/ (files dated 2017; mirrored 2026-09-26)", "licence": LICENCE, "licence_text": LICENCE_TEXT,
                 "entities": ex.n_ent, "attestations": ex.n_att, "files": files}

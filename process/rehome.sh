@@ -18,7 +18,7 @@
 # It does not transfer, rename or publish anything: those are done in the GitHub UI by the owner.
 set -euo pipefail
 ORG=${1:?org}; REPO=${2:?repo}; URL=${3:?pages url with trailing slash}; CARTO=${4:?carto key valid for the new origin}
-OLD_URL="https://docuracy.github.io/deep/"; OLD_REPO="docuracy/deep"
+OLD_URL="https://worldhistoricalgazetteer.github.io/epns/"; OLD_REPO="WorldHistoricalGazetteer/epns"
 cd "$(dirname "$0")/.."
 git grep -l "$OLD_URL\|$OLD_REPO" -- docs/index.html docs/404.html README.md LICENSE process tools | while read -r f; do
   sed -i "s#$OLD_URL#$URL#g; s#github.com/$OLD_REPO#github.com/$ORG/$REPO#g; s#\"$OLD_REPO\"#\"$ORG/$REPO\"#g" "$f"

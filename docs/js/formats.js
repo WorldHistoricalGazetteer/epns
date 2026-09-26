@@ -46,7 +46,11 @@ const DEEP_SOURCE = { title: 'DEEP: Digital Exposure of English Place-names (201
   uri: 'http://mads.digitalresources.jisc.ac.uk/mads2017/' };
 
 const y = (n) => (n < 0 ? '-' + String(Math.abs(n)).padStart(4, '0') : String(n).padStart(4, '0'));
-const uriOf = (cc, num) => `http://placenames.org.uk/id/placename/${cc}/${String(num).padStart(6, '0')}`;
+/* DEEP's <county>/<serial> pair under the w3id namespace registered by WHG (26 Sep 2026); the pair is
+   DEEP's 2013 numbering unchanged, so its dead placenames.org.uk URI maps by prefix substitution. */
+export const W3ID = 'https://w3id.org/whg-epns/';
+const uriOf = (cc, num) => `${W3ID}${cc}/${String(num).padStart(6, '0')}`;
+const deepUriOf = (cc, num) => `http://placenames.org.uk/id/placename/${cc}/${String(num).padStart(6, '0')}`;
 
 /* Python dict insertion order is significant for the equality check, so keys are set in the same
    order as the Python builds them. */
@@ -120,7 +124,7 @@ export function toPlato(rec, ctx) {
   const hw = { '@id': `${uri}#headword`, formStatus: PLATO + 'Headword', names: [{ toponym: rec.t, language: 'en' }],
     types: [{ identifier: AAT + aat, label: aatLabel, sourceLabel: `${AUTH_WORD[rec.at] || TYPE_WORD[ptype] || ptype} (DEEP type '${ptype}', code '${rec.code}')` }],
     citations: [{ source: volumeSource(ctx) }],
-    notes: `DEEP record ${deepId(rec, ctx)}; digitised ${rec.cr ?? 'None'}; the record's own URI no longer resolves` };
+    notes: `DEEP record ${deepId(rec, ctx)}; digitised ${rec.cr ?? 'None'}; DEEP URI ${deepUriOf(ctx.code, rec.u)} (no longer resolves)` };
   const parent = rec.p >= 0 ? ctx.byGid.get(rec.p) : null;
   if (parent && parent.u != null) {
     hw.relations = [{ relatesTo: uriOf(ctx.code, parent.u), relationType: 'http://vocab.getty.edu/ontology#broaderPartitive',
@@ -276,7 +280,7 @@ export function toMads(rec, ctx) {
   const type = ctx.types[rec.ty];
   const id = deepId(rec, ctx);
   const nameBase = `epns-deep-${ctx.code}-${rec.code}-name`;
-  const uri = (num) => uriOf(ctx.code, num);
+  const uri = (num) => deepUriOf(ctx.code, num);   // the source file's own URIs, as it had them
   const parent = rec.p >= 0 ? ctx.byGid.get(rec.p) : null;
   const out = [];
   out.push(`<mads ID="${esc(id)}">`);
