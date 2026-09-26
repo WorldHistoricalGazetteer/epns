@@ -149,12 +149,12 @@ def main():
 <main>
   <p class="back"><a href="./">‹ Back to the map</a></p>
   <h1>Downloads</h1>
-  <p>The whole corpus, in three shapes for three purposes. Every file below was generated from the same DuckDB build of the DEEP XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed.</p>
+  <p>The whole corpus, in three shapes for three purposes: the English Place-Name Society survey volumes as digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc, the UK higher-education technology body. Every file below was generated from the same DuckDB build of that XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed. Nottingham's own <a href="https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx">Digital Survey of English Place-Names</a> continues to develop the material; these files are the 2017 release as open data.</p>
   {access_note}
   <div class="licence">{LICENCE_TEXT}<br /><span class="small">Every file on this page derives from that data and carries the same terms. The PLATO and LPF serialisations are adaptations of it and therefore cannot be offered under CC BY or CC0.</span></div>
 
   <h2>1. PLATO — lossless</h2>
-  <p>Every element of every record: {man["entities"]:,} SpatialEntities and {man["attestations"]:,} attestations, with dated citations, locators, copy-dates on witness sources, occurrence counts and contexts, headword and normalised form status, coordinates per gazetteer and GeoNames identity relations. This is the format to use if you want the attestations.</p>
+  <p>Every element of every record: {man["entities"]:,} SpatialEntities and {man["attestations"]:,} <b>attestations in PLATO's sense</b>, that is every sourced claim (a headword, a dated spelling, a normalised form, a coordinate from a gazetteer, a place in the hierarchy). Of those, {counts["attestation"]:,} are <b>dated citations of spellings</b>, which is what the survey and the rest of this site call an attestation; the two words are kept apart here because the numbers differ by a factor of three. With locators, copy-dates on witness sources, occurrence counts and contexts, headword and normalised form status, coordinates per gazetteer and GeoNames identity relations. This is the format to use if you want the citations.</p>
   <table><tr><th>File</th><th>What</th><th>Size</th><th>sha256</th></tr>
   {row("deep-plato.jsonl.gz", "JSON Lines: a header line (gazetteer + provenance), then one <code>spatialEntity</code> per line, then the identityRelations. Reassembles into one place-centric document.", plato_whole)}
   {row("export-manifest.json", "The build manifest: PLATO commit, digests of every file, counts.", {"bytes": (EXP / "manifest.json").stat().st_size, "sha256": sha256(EXP / "manifest.json")})}

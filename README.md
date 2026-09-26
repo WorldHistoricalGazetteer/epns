@@ -1,8 +1,8 @@
 # DEEP — the English place-name survey, as data and as a map
 
 The [English Place-Name Society](https://www.nottingham.ac.uk/research/groups/epns/) survey volumes, as
-digitised by the DEEP project (Digital Exposure of English Place-names, 2013) and published by Jisc in
-MADS XML, turned into:
+digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc,
+the UK higher-education technology body, as MADS XML, turned into:
 
 1. a **DuckDB database and Parquet tables** for analysis (`process/build_db.py`), and
 2. a **static single-page explorer** for GitHub Pages (`docs/`): full-text and phonetic search over
@@ -11,6 +11,13 @@ MADS XML, turned into:
    a MapLibre map with CARTO, OpenStreetMap and Ordnance Survey six-inch (NLS) basemaps.
 
 **Live site:** https://worldhistoricalgazetteer.github.io/epns/
+
+This is a second, machine-readable route into the material, not a replacement for the first: the
+Institute for Name-Studies at Nottingham has continued to develop its [Digital Survey of English
+Place-Names](https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx)
+since 2013, and its [Key to English Place-Names](https://kepn.nottingham.ac.uk/) holds the etymologies.
+What is here is the 2017 release as open data, with persistent identifiers, because the 2013 project's
+own record URIs no longer resolve.
 
 > **Data licence.** "Digitisation of English Placenames MADS data is licensed to Jisc by the English
 > Place Names Society and released under a Creative Commons Attribution-NonCommercial 4.0 International
@@ -27,7 +34,8 @@ MADS XML, turned into:
 | Place records | 539,372 |
 | of which field-names (no spellings or coordinates of their own) | 378,543 |
 | Name forms (headword + variant spellings, each with a URI) | 820,567 |
-| Attestations (dated citations of a spelling in a source) | 429,536 |
+| Dated citations of a spelling in a source (the survey's "attestations") | 429,536 |
+| Attestations in PLATO's sense in the export (every sourced claim: headwords, citations, normalised forms, coordinates, hierarchy) | 1,414,328 |
 | Dates on attestations | 441,237 |
 | Normalised search forms | 391,777 |
 | Distinct source abbreviations (the bibliography itself was never published) | 7,049 |

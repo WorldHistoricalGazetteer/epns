@@ -771,18 +771,24 @@ async function openById(short) {
    under one heading and each volume is labelled by what it covers: its top-level divisions, or,
    where a volume has a single division (every Lincolnshire volume is "Lindsey"), that division's
    own children. The volume number is shown so a reader can cite the right book. */
+const DIVISION_TYPES = new Set(['province', 'subcounty', 'dbhundred', 'halfhundred', 'liberty', 'abovesubcounty', 'belowsubcounty', 'localdistrict', 'forest']);
 function volumeLabel(co) {
-  const kids = (S.kids.get(co.gid) || []).filter((j) => typeName(j) !== 'fn');
-  let names = kids.map((j) => title(j));
-  let prefix = '';
-  if (kids.length === 1) {
-    prefix = names[0] + ': ';
-    names = (S.kids.get(C().gid[kids[0]]) || []).filter((j) => typeName(j) !== 'fn').map((j) => title(j));
+  // walk down single-child chains (Lincolnshire: Lindsey -> North Riding -> wapentakes) until a
+  // level with several DIVISIONS; parishes are never listed, so a one-hundred volume reads as its hundred
+  const chain = [];
+  let gid = co.gid;
+  let divs = [];
+  for (let depth = 0; depth < 5; depth++) {
+    const kids = (S.kids.get(gid) || []).filter((j) => DIVISION_TYPES.has(typeName(j)));
+    if (kids.length === 0) break;
+    if (kids.length === 1) { chain.push(title(kids[0])); gid = C().gid[kids[0]]; continue; }
+    divs = kids.map((j) => title(j).replace(/\s+(Hundred|Wapentake|Ward|Rape|Barony|Liberty)$/i, ''));
+    break;
   }
-  names = names.map((n) => n.replace(/\s+(Hundred|Wapentake|Ward|Rape|Barony|Liberty)$/i, ''));
-  let text = prefix + names.join(', ');
-  if (text.length > 70) text = text.slice(0, 67).replace(/,?\s+\S*$/, '') + '…';
-  return `vol. ${co.vol}: ${text}`;
+  let text = chain.length ? chain.join(' › ') + (divs.length ? ': ' : '') : '';
+  text += divs.join(', ');
+  if (text.length > 72) text = text.slice(0, 69).replace(/,?\s+\S*$/, '') + '…';
+  return `vol. ${co.vol}${text ? ': ' + text : ''}`;
 }
 function fillCounties() {
   const sel = $('nav-county');
@@ -806,7 +812,7 @@ function fillStats() {
   $('stats').innerHTML = `<table>
     <tr><td>Places</td><td><b>${fmt(k.place)}</b></td><td>of which field-names</td><td>${fmt(k.place_fn)}</td></tr>
     <tr><td>Name forms</td><td><b>${fmt(k.name)}</b></td><td>normalised search forms</td><td>${fmt(k.searchterm)}</td></tr>
-    <tr><td>Attestations</td><td><b>${fmt(k.attestation)}</b></td><td>dated ${k.date_min}–${k.date_max}</td><td>${fmt(k.attestation_date)} dates</td></tr>
+    <tr><td>Dated citations of spellings</td><td><b>${fmt(k.attestation)}</b></td><td>dated ${k.date_min}–${k.date_max}</td><td>${fmt(k.attestation_date)} dates</td></tr>
     <tr><td>Source abbreviations</td><td><b>${fmt(k.source)}</b></td><td>county volumes</td><td>${S.counties.length}</td></tr>
     <tr><td>Places with coordinates</td><td><b>${fmt(k.place_located_own)}</b></td><td>coordinate candidates</td><td>${fmt(k.geo)}</td></tr></table>`;
   $('stat-own').textContent = fmt(k.place_located_own);
