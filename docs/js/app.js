@@ -410,7 +410,9 @@ function crumbsFor(i) {
 const shortId = (i) => `${countyOf(i)?.code}-${C().code[i]}-${typeName(i)}-${String(C().seq[i]).padStart(6, '0')}`;
 const shortIdRec = (rec, code) => `${code}-${rec.code}-${C().types[rec.ty]}-${String(rec.seq).padStart(6, '0')}`;
 
-function renderAtt(a, ai) {
+/* One attestation as the volume prints it, split into its date part and the rest so the two views
+   can arrange them differently. `ai` indexes rec.a for the tooltip. */
+function attParts(a) {
   const dates = (a.d || []).map((d) => esc(d[3])).join(', ');
   const copy = a.c && a.c[0] ? ` <span class="ap">(${esc(a.c[0])})</span>` : '';
   const src = a.s ? `<span class="src${a.s[2] ? ' it' : ''}">${esc(a.s[1] || '')}</span>` : '';
@@ -418,33 +420,88 @@ function renderAtt(a, ai) {
   const ap = [x.page, x.item, x.folio ? `f. ${x.folio}` : null, x.entry, x.appendix ? `app. ${x.appendix}` : null, x.note ? `n. ${x.note}` : null, x.number,
               x.ms ? `(${x.ms})` : null, x.pername, x.times].filter(Boolean).map(esc).join(' ');
   const u = a.u ? ` <span class="u">${a.u}.</span>` : '';
-  return `<span class="att" tabindex="0" data-a="${ai}">${dates}${copy} ${src}${ap ? ' <span class="ap">' + ap + '</span>' : ''}${u}</span>`;
+  return { dates: dates + copy, rest: `${src}${ap ? ' <span class="ap">' + ap + '</span>' : ''}${u}` };
+}
+function renderAtt(a, ai) {
+  const { dates, rest } = attParts(a);
+  return `<span class="att" tabindex="0" data-a="${ai}">${dates} ${rest}</span>`;
 }
 const isWrapper = (a) => !(a.d && a.d.length) && !(a.s && a.s[1]) && !a.c && !a.x;
 
+/* The unit of display is a citation, or an et-passim run (a wrapper's children joined by the run's
+   text, "et passim to" / "et freq to", which runs straight on with no comma). Each unit carries the
+   spellings it cites, its document position, and a sort key from the editors' year-bracket. */
+function attUnits(rec) {
+  const atts = (rec.a || []).map((a, ai) => ({ a, ai })).sort((p, q) => p.a.p - q.a.p);
+  const passim = (rec.ps || []);
+  const afterPos = (pos) => passim.filter(([pp]) => pp === pos).map(([, t]) => `<span class="passim">${esc(t)}</span>`).join(' ');
+  const units = [];
+  for (const { a, ai } of atts) {
+    if (a.pa != null) continue;                                  // children are emitted with their wrapper
+    const members = isWrapper(a) ? atts.filter((k) => k.a.pa === a.p) : [{ a, ai }];
+    if (!members.length) continue;
+    const lead = members[0].a;
+    const begins = members.flatMap((m) => (m.a.d || []).map((d) => d[1]).filter((v) => v != null));
+    const ends = members.flatMap((m) => (m.a.d || []).map((d) => d[2]).filter((v) => v != null));
+    const vids = [...new Set(members.flatMap((m) => m.a.v || []))];
+    let html = '';
+    for (const m of members) { html += (html ? ' ' : '') + renderAtt(m.a, m.ai); const ps = afterPos(m.a.p); if (ps) html += ' ' + ps; }
+    units.push({ begin: begins.length ? Math.min(...begins) : Infinity, end: ends.length ? Math.max(...ends) : Infinity, pos: lead.p, vids, members, html: html.trim() });
+  }
+  return units;
+}
+
+/* View 1: as printed. Spellings in the volume's order, each followed by its citations. */
+function renderFormsPrinted(rec, units) {
+  const items = rec.v.map(([vid, text]) => {
+    const mine = units.filter((u) => u.vids.includes(vid));
+    let html = '';
+    for (const u of mine) html += (html ? (html.endsWith('</span>') && /passim">[^<]*<\/span>$/.test(html) ? ' ' : ', ') : '') + u.html;
+    return `<li data-v="${esc(vid)}"><b>${esc(text)}</b> ${html}</li>`;
+  });
+  return `<ul class="forms">${items.join('')}</ul>`;
+}
+
+/* View 2: chronological. One row per citation (a run is one row at its first date), ordered by the
+   start of the editors' bracket, then its end, then the volume's order; undated citations last. A
+   regnal date sorts by the start of the reign and a century by its first year, which is the bracket
+   the volume itself gives. Copy-dates do not move a row: the citation is dated by the text, not the
+   witness. */
+function renderFormsChron(rec, units) {
+  const formOf = new Map(rec.v.map(([vid, text]) => [vid, text]));
+  const sorted = units.slice().sort((x, y) => x.begin - y.begin || x.end - y.end || x.pos - y.pos);
+  const rows = sorted.map((u) => {
+    const forms = u.vids.map((v) => esc(formOf.get(v) || v)).join(', ');
+    const parts = u.members.map((m, k) => { const { dates, rest } = attParts(m.a); return { dates, rest, ai: m.ai, a: m.a, k }; });
+    const lead = parts[0];
+    const run = parts.slice(1).map((pt) => {
+      const ps = (rec.ps || []).filter(([pp]) => pp === parts[parts.indexOf(pt) - 1].a.p).map(([, t]) => `<span class="passim">${esc(t)}</span>`).join(' ');
+      return `${ps ? ps + ' ' : ''}<span class="att" tabindex="0" data-a="${pt.ai}">${pt.dates} ${pt.rest}</span>`;
+    }).join(' ');
+    const b = u.begin === Infinity ? '' : u.begin;
+    /* the row itself is the tooltip target for the lead citation; a run's further citations are
+       their own targets inside the citation cell */
+    return `<li class="chron att" tabindex="0" data-a="${lead.ai}" data-v="${esc(u.vids[0] || '')}" data-b="${b}"><span class="yr">${lead.dates || '<span class="ap">n.d.</span>'}</span><b>${forms}</b><span class="cite">${lead.rest}${run ? ' ' + run : ''}</span></li>`;
+  });
+  return `<ul class="forms chron">${rows.join('')}</ul>`;
+}
+
+function formsView() {
+  const h = new URLSearchParams(location.hash.replace(/^#/, '')).get('view');
+  if (h === 'printed' || h === 'date') return h;
+  try { return localStorage.getItem('deep_forms_view') === 'printed' ? 'printed' : 'date'; } catch { return 'date'; }
+}
 function renderForms(rec) {
   if (!rec.v || !rec.v.length) return '';
-  const atts = (rec.a || []).map((a, ai) => ({ a, ai })).sort((p, q) => p.a.p - q.a.p);
-  const passim = (rec.ps || []).slice().sort((p, q) => p[0] - q[0]);
-  const afterPos = (pos) => passim.filter(([pp]) => pp === pos).map(([, t]) => `<span class="passim">${esc(t)}</span>`).join(' ');
-  const items = rec.v.map(([vid, text]) => {
-    const mine = atts.filter(({ a }) => (a.v || []).includes(vid) && a.pa == null);
-    /* Citations are comma-separated, as the volumes print them, except that a run's text ("et
-       passim to", "et freq to") runs straight on to the next citation with no comma. */
-    let html = '';
-    const emit = (piece, runText) => { html += (html ? (html.endsWith('</span> ') ? '' : ', ') : '') + piece + (runText ? ' ' + runText + ' ' : ''); };
-    for (const { a, ai } of mine) {
-      if (isWrapper(a)) {
-        /* the wrapper says nothing itself; its children do, and the run's text sits after the
-           child it follows in the volume */
-        for (const c of atts.filter((k) => k.a.pa === a.p)) emit(renderAtt(c.a, c.ai), afterPos(c.a.p));
-        continue;
-      }
-      emit(renderAtt(a, ai), afterPos(a.p));
-    }
-    return `<li data-v="${esc(vid)}"><b>${esc(text)}</b> ${html.trim()}</li>`;
-  });
-  return `<h3>Spellings and attestations <a href="#" class="how" id="how-to-read" title="How to read these">how to read</a></h3><ul class="forms">${items.join('')}</ul>`;
+  const units = attUnits(rec);
+  const view = formsView();
+  const body = view === 'printed' ? renderFormsPrinted(rec, units) : renderFormsChron(rec, units);
+  return `<h3>Spellings and attestations
+      <span class="view-tog" role="group" aria-label="Order">
+        <button type="button" data-view="date" aria-pressed="${view === 'date'}">by date</button><button type="button" data-view="printed" aria-pressed="${view === 'printed'}">as printed</button>
+      </span>
+      <a href="#" class="how" id="how-to-read" title="How to read these">how to read</a></h3>
+    <div id="forms-wrap" data-n="${units.reduce((n, u) => n + u.members.length, 0)}">${body}</div>`;
 }
 
 /* ── attestation tooltips ────────────────────────────────────────────────────────────────────
@@ -501,6 +558,13 @@ function wireTooltips() {
   d.addEventListener('focusout', (e) => { if (e.target.closest('.att')) hide(); });
   d.addEventListener('click', (e) => { const el = e.target.closest('.att'); if (el) { e.preventDefault(); el === current && !tip.hidden ? hide() : show(el); } });
   d.addEventListener('scroll', hide);
+  // in the chronological list, hovering a row lights up every other row of the same spelling
+  d.addEventListener('pointerover', (e) => {
+    const li = e.target.closest('li.chron'); if (!li) return;
+    d.querySelectorAll('li.chron.hl').forEach((x) => x.classList.remove('hl'));
+    if (li.dataset.v) d.querySelectorAll(`li.chron[data-v="${CSS.escape(li.dataset.v)}"]`).forEach((x) => x.classList.add('hl'));
+  });
+  d.addEventListener('pointerleave', () => d.querySelectorAll('li.chron.hl').forEach((x) => x.classList.remove('hl')));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
   tip.addEventListener('pointerleave', hide);
 }
@@ -581,7 +645,7 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   S.current = gid;
   S.currentRec = rec;
   showDrawer(h);
-  if (push) history.replaceState(null, '', `#id=${shortIdRec(rec, shard.code)}`);
+  if (push) { const hp = new URLSearchParams(location.hash.replace(/^#/, '')); const v = hp.get('view'); history.replaceState(null, '', `#id=${shortIdRec(rec, shard.code)}${v === 'printed' ? '&view=printed' : ''}`); }
   const c = C();
   const li = i !== undefined ? i : pi;
   selectOnMap(li !== undefined && c.geo[li] === 1 ? c.gid[li] : -1);
@@ -652,6 +716,19 @@ function wireUI() {
     if (f) { e.preventDefault(); const [lon, lat] = f.dataset.fly.split(',').map(Number); S.map.flyTo({ center: [lon, lat], zoom: Math.max(S.map.getZoom(), 13) }); return; }
     if (e.target.closest('.close')) { hideDrawer(); return; }
     if (e.target.id === 'back-results') { S.current = null; showDrawer(S.lastResults); selectOnMap(-1); return; }
+    const tog = e.target.closest('.view-tog button');
+    if (tog && S.currentRec) {
+      const view = tog.dataset.view;
+      try { localStorage.setItem('deep_forms_view', view); } catch { /* fine */ }
+      const hp = new URLSearchParams(location.hash.replace(/^#/, ''));
+      if (view === 'printed') hp.set('view', 'printed'); else hp.delete('view');
+      history.replaceState(null, '', '#' + hp.toString());
+      const units = attUnits(S.currentRec);
+      $('forms-wrap').innerHTML = view === 'printed' ? renderFormsPrinted(S.currentRec, units) : renderFormsChron(S.currentRec, units);
+      d.querySelectorAll('.view-tog button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
+      window.deep.renders++;
+      return;
+    }
     if (e.target.id === 'how-to-read') {
       e.preventDefault();
       openInfo(); document.getElementById('reading')?.scrollIntoView({ block: 'start' });

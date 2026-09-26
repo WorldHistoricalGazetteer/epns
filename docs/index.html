@@ -7,7 +7,7 @@
   <meta name="description" content="Every place-name and historical spelling in the English Place-Name Society survey volumes as digitised by DEEP (2013): searchable, mapped, browsable by county, hundred, parish and township." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="css/app.css?v=2" />
+  <link rel="stylesheet" href="css/app.css?v=3" />
 </head>
 <body>
   <div id="map"></div>
@@ -66,7 +66,7 @@
         <p>Basemaps: <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> on <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>, OpenStreetMap itself, or the Ordnance Survey six-inch second edition (1888–1913) served by the <a href="https://maps.nls.uk/" target="_blank" rel="noopener">National Library of Scotland</a> under CC BY 3.0, whose sheets show the landscape roughly as the earliest survey volumes were being compiled.</p>
 
         <h3 id="reading">Reading an entry</h3>
-        <p>Spellings are set out as the survey prints them: the form in bold, then each attestation as <i>date source</i>. <b>Hover, tap or tab to any attestation</b> for a plain-English gloss of every token in it. The conventions, in brief:</p>
+        <p>Spellings are listed <b>by date</b> (one row per citation, ordered by the start of the editors' year-bracket, undated last, a recurring run at its first date) or <b>as printed</b> (the form in bold, then its citations, in the volume's order); the toggle remembers your choice. <b>Hover, tap or tab to any attestation</b> for a plain-English gloss of every token in it. The conventions, in brief:</p>
         <ul>
           <li><b>Dates.</b> A bare year is the date of the document. <i>c.</i> is <i>circa</i>; <i>a.</i> and <i>p.</i> are <i>ante</i> and <i>post</i>, before and after; <i>13th</i> or <i>13</i> is the century; <i>t. Hy 3</i> is <i>tempore</i>, in the reign of Henry III, and <i>e.</i>, <i>m.</i>, <i>l.</i> before a reign or century mean early, mid, late. The editors' year-bracket for each is in the tooltip.</li>
           <li><b>Copy-dates.</b> A date in brackets after the date, as in <i>921 (c. 925) ASC (A)</i> or <i>c. 1127 (l13)</i>, is when the surviving copy was made: the spelling is read in a late-13th-century copy, not the 1127 original. A letter in brackets after the source names the manuscript.</li>
@@ -89,6 +89,6 @@
   </div>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script type="module" src="js/app.js?v=2"></script>
+  <script type="module" src="js/app.js?v=3"></script>
 </body>
 </html>

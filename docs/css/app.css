@@ -50,7 +50,18 @@ button { font: inherit; }
 .forms { margin: .2rem 0; padding: 0; list-style: none; }
 .forms li { margin: .35rem 0; line-height: 1.45; }
 .forms b { font-weight: bold; }
-.att { white-space: normal; cursor: help; border-bottom: 1px dotted #b9b1a0; padding-bottom: 1px; }
+.forms.chron li { display: grid; grid-template-columns: 5.6em minmax(0, 1fr) minmax(0, 1.4fr); gap: 0 .55rem; align-items: baseline; margin: .12rem 0; padding: .1rem .25rem; border-radius: 3px; border-bottom: none; }
+.forms.chron .yr { font-variant-numeric: tabular-nums; color: #3a3526; }
+.forms.chron li b { font-weight: bold; }
+.forms.chron .cite .att { border-bottom: none; }
+.forms.chron li.hl { background: #efe6cf; }
+.forms.chron li:hover, .forms.chron li:focus { background: #ece7da; outline: none; }
+.view-tog { display: inline-flex; margin-left: .5rem; vertical-align: middle; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.view-tog button { font-family: system-ui, sans-serif; font-size: .68rem; text-transform: none; letter-spacing: 0; padding: .12rem .45rem; border: none; background: #fff; color: var(--accent); cursor: pointer; }
+.view-tog button + button { border-left: 1px solid var(--line); }
+.view-tog button[aria-pressed="true"] { background: var(--accent); color: #fff; cursor: default; }
+.att { white-space: normal; cursor: help; }
+.forms:not(.chron) .att { border-bottom: 1px dotted #b9b1a0; padding-bottom: 1px; }
 .att:hover, .att:focus { background: #ece7da; outline: none; border-bottom-color: var(--accent); }
 #drawer h3 .how { font-size: .7rem; text-transform: none; letter-spacing: 0; margin-left: .5rem; font-weight: normal; }
 #att-tip { position: fixed; z-index: 1200; width: min(420px, 92vw); background: #fffdf8; color: var(--ink); border: 1px solid var(--line);

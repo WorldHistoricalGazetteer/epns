@@ -35,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import http.server
+import re
 import json
 import os
 import socketserver
@@ -194,10 +195,25 @@ def check_place(page, rep: Report):
     rep.add("place: opening a result renders the place page", wait_render(page, before, 90_000))
     txt = page.evaluate("document.getElementById('drawer').innerText")
     rep.add("place: headword and DEEP id shown", "Bunsty Hundred" in txt and "epns-deep-02-hu-subcounty-000001" in txt)
-    rep.add("place: attestations rendered EPNS-style (1086 DB)", "1086 DB" in txt, "")
+    # by date: "1086  Bonestou  DB" on one row; as printed: "Bonestou 1086 DB"
+    row = page.evaluate("[...document.querySelectorAll('#drawer .forms li')].map(li => li.innerText.replace(/\\s+/g,' ')).find(t => t.includes('1086') && t.includes('DB')) || ''")
+    rep.add("place: the Domesday attestation is rendered (1086 · Bonestou · DB)", "Bonestou" in row and "1086" in row and "DB" in row, row[:60])
     rep.add("place: breadcrumb reaches the county", "Buckinghamshire" in txt)
     rep.add("place: children listed (parishes of the hundred)", "Cold Brayfield" in txt)
     rep.add("place: URL fragment carries the id", page.evaluate("location.hash") == "#id=02-hu-subcounty-000001", page.evaluate("location.hash"))
+    # chronological view (default): rows ordered by begin year, undated last, and complete
+    order = page.evaluate("[...document.querySelectorAll('#drawer .forms.chron li')].map(li => li.dataset.b)")
+    years = [int(b) for b in order if b != ""]
+    dated_then_undated = order == [b for b in order if b != ""] + [b for b in order if b == ""]
+    rep.add("forms: chronological rows are in non-decreasing year order", len(years) > 5 and years == sorted(years) and dated_then_undated, f"{len(order)} rows, {years[:4]}…{years[-2:]}")
+    n_chron = page.evaluate("document.querySelectorAll('#forms-wrap .att').length")
+    n_expect = page.evaluate("+document.getElementById('forms-wrap').dataset.n")
+    page.evaluate("document.querySelector('.view-tog button[data-view=printed]').click()")
+    n_printed = page.evaluate("document.querySelectorAll('#forms-wrap .att').length")
+    rep.add("forms: both views hold every attestation", n_chron == n_printed == n_expect and n_expect > 0, f"chron {n_chron}, printed {n_printed}, record {n_expect}")
+    rep.add("forms: toggle reflected in the URL", "view=printed" in page.evaluate("location.hash"))
+    page.evaluate("document.querySelector('.view-tog button[data-view=date]').click()")
+    page.screenshot(path=str(OUT / "forms-chron.png"))
     # tooltips: hover the first attestation; the panel must appear and gloss the source (DB = Domesday Book)
     forms = page.evaluate("document.querySelector('#drawer .forms')?.innerText || ''")
     rep.add("place: no empty attestation in the forms (', ,')", forms != "" and ", ," not in forms, forms[:60].replace("\n", " | "))
@@ -210,12 +226,17 @@ def check_place(page, rep: Report):
     page.mouse.move(700, 450)
     page.wait_for_timeout(200)
     rep.add("tooltip: hides when the pointer leaves", page.evaluate("document.getElementById('att-tip').hidden"))
-    # the Portland line from the report: a passim run with a copy-date; no ', ,' and a copy-date gloss
+    # the Portland line from the report: a passim run with a copy-date; no ', ,' and a copy-date gloss.
+    # First in the chronological view: the run is ONE row at its first date, running on to the last.
     page.evaluate("location.hash = '#id=52-b-subparish-000031'")
     before = page.evaluate("window.deep.renders")
     wait_render(page, before, 90_000)
+    row = page.evaluate("[...document.querySelectorAll('#drawer .forms.chron li')].map(li => li.innerText.replace(/\\s+/g,' ')).find(t => t.includes('Portlond(e)') && t.includes('1268')) || ''")
+    rep.add("forms: a passim run is one chronological row", "1268" in row and "1460" in row and re.search(r"et (passim|freq)", row) is not None, row[:90])
+    # then the printed view, which the toggle must persist into (set here, read on the next place)
+    page.evaluate("document.querySelector('.view-tog button[data-view=printed]').click()")
+    rep.add("forms: 'as printed' selected persists as the pressed state", page.evaluate("document.querySelector('.view-tog button[data-view=printed]').getAttribute('aria-pressed') === 'true'"))
     line = page.evaluate("[...document.querySelectorAll('#drawer .forms li')].map(li => li.innerText).find(t => t.startsWith('Portlond(e)')) || ''")
-    import re
     rep.add("place: Portland's passim run renders without an empty item", line.startswith("Portlond(e)") and ", ," not in line
             and re.search(r"\bet (passim|freq)\b[^,]*\d{4}", line) is not None, line[:90])
     page.hover("#drawer .forms li[data-v='w579358'] .att")
@@ -224,6 +245,12 @@ def check_place(page, rep: Report):
     rep.add("tooltip: copy-date (l13) glossed as late 13th century", "late 13th century" in tiptxt and "1275" in tiptxt, tiptxt[:120].replace("\n", " | "))
     page.screenshot(path=str(OUT / "tooltip-portland.png"))
     page.mouse.move(700, 450)
+    # persistence across places: reopen Bunsty Hundred and expect the printed view still selected
+    page.evaluate("location.hash = '#id=02-hu-subcounty-000001&view=printed'")
+    before = page.evaluate("window.deep.renders")
+    wait_render(page, before, 90_000)
+    rep.add("forms: view choice persists across places", page.evaluate("!!document.querySelector('#drawer .forms:not(.chron)') && document.querySelector('.view-tog button[data-view=printed]').getAttribute('aria-pressed') === 'true'"))
+    page.evaluate("document.querySelector('.view-tog button[data-view=date]').click()")
     # a field-name, which lives only in the county file, opens via its id
     page.evaluate("location.hash = '#id=28-e-fn-000001'")
     before = page.evaluate("window.deep.renders")
