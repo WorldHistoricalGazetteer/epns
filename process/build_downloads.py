@@ -116,6 +116,13 @@ def main():
         f'<a href="https://github.com/{REPO}/issues">the issue tracker</a> or the contact on the map\'s information panel.</div>')
     print("anonymous access to release assets:", "yes" if anon_ok else f"no ({anon_err}); access note added")
 
+    commit_link = f'<a href="https://github.com/pelagios/place-attestation-ontology/commit/{man["plato_commit"]}"><code>{man["plato_commit"][:12]}</code></a>'
+    prov = (f'generated and schema-validated against PLATO <a href="https://github.com/pelagios/place-attestation-ontology/releases/tag/{man["plato_tag"]}">{man["plato_tag"]}</a> '
+            f'(release {man["plato_versionInfo_at_commit"]}, commit {commit_link}); the Citation class, source dating, occurrence and form status this export uses are first released in that version'
+            if man.get("plato_tag") else
+            f'generated and validated against PLATO commit {commit_link}. That commit\'s <code>owl:versionInfo</code> reads <code>{man["plato_versionInfo_at_commit"]}</code>, which is not the provenance: '
+            f'the terms this export uses are on <code>main</code> and in no release')
+
     row = lambda name, desc, f: f'<tr><td><a href="{base}{name}">{name}</a></td><td>{desc}</td><td class="num">{mb(f["bytes"])}</td><td class="sha">{f["sha256"][:16]}…</td></tr>'
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -153,7 +160,7 @@ def main():
   {row("export-manifest.json", "The build manifest: PLATO commit, digests of every file, counts.", {"bytes": (EXP / "manifest.json").stat().st_size, "sha256": sha256(EXP / "manifest.json")})}
   {row("deep-plato-counties.tar", "The 66 per-county place-centric documents (gzipped JSON), each a complete, schema-valid PLATO file for one survey volume.", analytic[1])}
   </table>
-  <p class="small"><b>Provenance:</b> generated and validated against PLATO commit <a href="https://github.com/pelagios/place-attestation-ontology/commit/{man["plato_commit"]}"><code>{man["plato_commit"][:12]}</code></a>. That commit's <code>owl:versionInfo</code> still reads <code>{man["plato_versionInfo_at_commit"]}</code>, which is not the provenance: the Citation class, source dating, occurrence and form status this export uses are on <code>main</code> and in no release. Each file carries <code>plato_commit=</code> in its header and <code>export_plato.py --verify</code> fails if any file and the manifest disagree. Schema errors at build: {man["schema_errors"]}.</p>
+  <p class="small"><b>Provenance:</b> {prov}. Each file carries <code>plato_commit=</code> in its header and <code>export_plato.py --verify</code> fails if any file and the manifest disagree. Schema errors at build: {man["schema_errors"]}.</p>
 
   <h2>2. Parquet and DuckDB — for analysis</h2>
   <p>The tables the site and the exports are built from: <code>place</code>, <code>name</code>, <code>attestation</code>, <code>attestation_date</code>, <code>passim</code>, <code>searchterm</code>, <code>geo</code>, <code>note</code>, plus the derived <code>source</code>, <code>place_tree</code> and <code>place_point</code>. If you are counting, joining or plotting, this is what you want.</p>

@@ -53,10 +53,13 @@ and attached to a GitHub release (they are too large and too rarely rebuilt for 
 | **LPF** v1.3 (GeoJSON Text Sequence; 66 per-county FeatureCollections) | GIS and gazetteer interoperability | lossy, and 95.7% of features have null geometry; the page says exactly what is dropped |
 
 Every PLATO and LPF file carries `plato_commit=<sha>` in its header and the manifest carries the same
-sha; `export_plato.py --verify` fails loudly if they disagree. The commit, not PLATO's
-`owl:versionInfo`, is the provenance, because the terms the export exercises (`plato:Citation` with
-locator and attribution status, `source_timespan`, `derived_from`, `occurrence_count`,
-`occurrence_context`, `form_status`) are on PLATO's `main` and in no tagged release.
+sha; `export_plato.py --verify` fails loudly if they disagree. The exporter reads the schema out of that
+exact commit with `git show`, so the stamp names what validated the output. Where the commit carries a
+release tag whose name matches `owl:versionInfo` the files also cite the version (the current exports
+are against PLATO v0.4.0, the first release to carry `plato:Citation` with locator and attribution
+status, `source_timespan`, `derived_from`, `occurrence_count`, `occurrence_context` and
+`form_status`); where it does not, the files say so rather than quote a version string that does not
+describe them.
 
 Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
 through in place) and **as MADS** (regenerated), generated in the browser by `docs/js/formats.js`, a

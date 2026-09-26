@@ -279,7 +279,10 @@ def check_formats(page, rep: Report):
     wait_render(page, before, 30_000)
     body = page.evaluate("document.getElementById('fmt-body').innerText")
     cav = page.evaluate("document.getElementById('fmt-caveat').innerText")
-    rep.add("formats: PLATO view opens with Headword formStatus and the commit", "https://w3id.org/plato#Headword" in body and "commit" in cav and "0bc4e0bc7e3f" in cav, cav[:100])
+    expect = json.loads((ROOT / "docs" / "data" / "plato-sample.json").read_text())
+    want = expect["plato_commit"][:12]
+    rep.add("formats: PLATO view opens with Headword formStatus and the commit the fixture was built at", "https://w3id.org/plato#Headword" in body and "commit" in cav and want in cav
+            and (not expect.get("plato_tag") or expect["plato_tag"] in cav), cav[:100])
     page.evaluate("document.getElementById('fmt-close').click()")
     # LPF view with losses struck in place
     before = page.evaluate("window.deep.renders")

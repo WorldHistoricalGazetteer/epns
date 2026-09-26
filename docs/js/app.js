@@ -559,7 +559,11 @@ async function openFormat(kind) {
     const doc = identityRelations.length ? { spatialEntity: entity, identityRelations } : { spatialEntity: entity };
     text = JSON.stringify(doc, null, 2); body = jsonHTML(doc); filename = `${id}.plato.json`;
     title = 'PLATO';
-    caveat = `Place-centric PLATO, generated against <a href="https://github.com/pelagios/place-attestation-ontology/commit/${esc(meta.plato_commit || '')}" target="_blank" rel="noopener">commit <code>${esc((meta.plato_commit || '').slice(0, 12))}</code></a> (owl:versionInfo there reads ${esc(meta.plato_versionInfo_at_commit || '?')} and is not the provenance). ${entity.attestations.length} attestations; nothing in the record is dropped. Identifiers are DEEP's own placenames.org.uk URIs, which no longer resolve.`;
+    const commitLink = `<a href="https://github.com/pelagios/place-attestation-ontology/commit/${esc(meta.plato_commit || '')}" target="_blank" rel="noopener">commit <code>${esc((meta.plato_commit || '').slice(0, 12))}</code></a>`;
+    const prov = meta.plato_tag
+      ? `PLATO <a href="https://github.com/pelagios/place-attestation-ontology/releases/tag/${esc(meta.plato_tag)}" target="_blank" rel="noopener">${esc(meta.plato_tag)}</a> (release ${esc(meta.plato_versionInfo_at_commit || '')}, ${commitLink})`
+      : `PLATO ${commitLink} (owl:versionInfo there reads ${esc(meta.plato_versionInfo_at_commit || '?')} and is not the provenance)`;
+    caveat = `Place-centric PLATO, generated against ${prov}. ${entity.attestations.length} attestations; nothing in the record is dropped. Identifiers are DEEP's own placenames.org.uk URIs, which no longer resolve.`;
   } else if (kind === 'lpf') {
     const { feature, dropped } = toLpf(rec, ctx);
     text = JSON.stringify(feature, null, 2); body = lpfHTML(feature, dropped); filename = `${id}.lpf.json`;

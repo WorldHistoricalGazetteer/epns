@@ -148,8 +148,10 @@ def load_validator(sha):
 
 
 class Exporter:
-    def __init__(self, sha, con):
+    def __init__(self, sha, con, tag=None, version_info=None):
         self.sha = sha
+        self.tag = tag
+        self.version_info = version_info
         self.con = con
         self.county_name = dict(con.execute("SELECT county_code, title FROM place WHERE type='county'").fetchall())
         self.volume = dict(con.execute("SELECT county_code, any_value(volume) FROM place GROUP BY 1").fetchall())
@@ -291,8 +293,10 @@ class Exporter:
         scope = f"county volume {self.county_name.get(cc, cc)}" if cc else "all 66 volumes"
         return {"@id": SITE, "title": f"DEEP: the English Place-Name Society survey ({scope})",
                 "description": (f"Place-centric PLATO serialisation of the DEEP MADS XML (Jisc, 2017 release; mirrored 2026-09-26), {scope}. "
-                                f"Generated against PLATO commit {self.sha} (schemas validated at that commit; owl:versionInfo there still reads 0.3.0 and is not the provenance). "
-                                f"Licence: {LICENCE_TEXT} This serialisation is an adaptation and carries the same terms. plato_commit={self.sha}"),
+                                + (f"Generated and schema-validated against PLATO {self.tag} (release {self.version_info}, commit {self.sha}). "
+                                   if self.tag else
+                                   f"Generated against PLATO commit {self.sha} (schemas validated at that commit; owl:versionInfo there reads {self.version_info} and is not the provenance). ")
+                                + f"Licence: {LICENCE_TEXT} This serialisation is an adaptation and carries the same terms. plato_commit={self.sha}"),
                 "contributor": "Conversion: Stephen Gadd (github.com/docuracy/deep). Data: English Place-Name Society, digitised by DEEP, published by Jisc.",
                 "licence": LICENCE}
 
@@ -409,13 +413,13 @@ class Exporter:
         return feat
 
 
-def assemble(out: Path, sha: str, version_info: str):
+def assemble(out: Path, sha: str, version_info: str, tag: str | None = None):
     """Whole-corpus files from the per-county ones. Every county file must carry the same plato_commit
     stamp as the one being assembled under, or the result would mix models; that is checked here."""
     con = duckdb.connect(str(DB), read_only=True)
     codes = sorted(dict(con.execute("SELECT county_code, title FROM place WHERE type='county'").fetchall()))
     names = dict(con.execute("SELECT county_code, title FROM place WHERE type='county'").fetchall())
-    ex = Exporter(sha, con)
+    ex = Exporter(sha, con, tag, version_info)
     files, n_ent, n_att = [], 0, 0
     t0 = time.time()
     with gzip.open(out / "deep-plato.jsonl.gz", "wt", encoding="utf-8") as whole, gzip.open(out / "deep-lpf.geojsonl.gz", "wt", encoding="utf-8") as whole_lpf:
@@ -452,7 +456,7 @@ def assemble(out: Path, sha: str, version_info: str):
     for p in (out / "deep-plato.jsonl.gz", out / "deep-lpf.geojsonl.gz"):
         files.append({"file": p.name, "bytes": p.stat().st_size, "sha256": sha256_file(p)})
     old = json.loads((out / "manifest.json").read_text()) if (out / "manifest.json").exists() else {}
-    manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_versionInfo_at_commit": version_info,
+    manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_tag": tag, "plato_versionInfo_at_commit": version_info,
                 "plato_repo": "https://github.com/pelagios/place-attestation-ontology", "validated": True, "schema_errors": 0,
                 "assembled_from_county_files": True, "previous_generated": old.get("generated"),
                 "source": "http://mads.digitalresources.jisc.ac.uk/mads2017/ (files dated 2017; mirrored 2026-09-26)", "licence": LICENCE, "licence_text": LICENCE_TEXT,
@@ -514,16 +518,20 @@ def main():
     if not re.fullmatch(r"[0-9a-f]{40}", sha):
         sys.exit(f"not a full commit sha: {sha}")
     version_info = re.search(r'owl:versionInfo\s+"([^"]+)"', git_show(sha, "ontology.ttl")).group(1)
+    # A tag at exactly this commit whose name matches versionInfo makes the release citable by
+    # version; otherwise the commit is the only honest provenance and the files say so.
+    tags = subprocess.check_output(["git", "-C", str(PLATO_REPO), "tag", "--points-at", sha], text=True).split()
+    tag = next((t for t in tags if t.lstrip("v") == version_info), None)
     validator = None if args.no_validate else load_validator(sha)
     con = duckdb.connect(str(DB), read_only=True)
-    ex = Exporter(sha, con)
+    ex = Exporter(sha, con, tag, version_info)
     if args.assemble:
-        assemble(out, sha, version_info)
+        assemble(out, sha, version_info, tag)
         return
     if args.sample is not None:
         ids = args.sample or ["02-hu-subcounty-000001", "02-a-parish-000001", "52-b-subparish-000031", "96-ct-countytown-000001", "28-e-fn-000001", "05-b-subparish-000001"]
         want = {"epns-deep-" + i: i for i in ids}
-        sample = {"plato_commit": sha, "plato_versionInfo_at_commit": version_info, "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "records": {}}
+        sample = {"plato_commit": sha, "plato_tag": tag, "plato_versionInfo_at_commit": version_info, "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "records": {}}
         for cc in sorted({i.split("-")[0] for i in ids}):
             doc = ex.county_document(cc)
             if validator:
@@ -593,12 +601,12 @@ def main():
         whole.close(); whole_lpf.close()
         for p in (out / "deep-plato.jsonl.gz", out / "deep-lpf.geojsonl.gz"):
             files.append({"file": p.name, "bytes": p.stat().st_size, "sha256": sha256_file(p)})
-    manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_versionInfo_at_commit": version_info,
+    manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "plato_commit": sha, "plato_tag": tag, "plato_versionInfo_at_commit": version_info,
                 "plato_repo": "https://github.com/pelagios/place-attestation-ontology", "validated": not args.no_validate, "schema_errors": n_val_err,
                 "source": "http://mads.digitalresources.jisc.ac.uk/mads2017/ (files dated 2017; mirrored 2026-09-26)", "licence": LICENCE, "licence_text": LICENCE_TEXT,
                 "entities": ex.n_ent, "attestations": ex.n_att, "files": files}
     (out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
-    print(f"\n{ex.n_ent:,} entities, {ex.n_att:,} attestations; schema errors {n_val_err}; plato_commit {sha[:12]} (versionInfo there: {version_info}); {time.time() - t0:.0f}s")
+    print(f"\n{ex.n_ent:,} entities, {ex.n_att:,} attestations; schema errors {n_val_err}; plato_commit {sha[:12]} ({'tag ' + tag if tag else 'untagged'}, versionInfo {version_info}); {time.time() - t0:.0f}s")
     if n_val_err:
         sys.exit(2)
 
