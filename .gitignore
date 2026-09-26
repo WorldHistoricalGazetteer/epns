@@ -1,5 +1,6 @@
-# Project data (423 MB of MADS XML, fetched by wget; see README)
-data/
+# Source data (423 MB of MADS XML, fetched by process/fetch_data.sh). ANCHORED: the unanchored
+# form `data/` also swallowed docs/data, the built site data, and Pages deployed an empty site.
+/data/
 
 # Virtual environments
 .venv/

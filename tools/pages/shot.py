@@ -106,6 +106,11 @@ def check_boot(page, rep: Report, url: str):
     flags = wait_ready(page)
     rep.add("boot: window.deep.ready", flags["ready"], json.dumps(flags))
     if not flags["ready"]:
+        # Say WHY, from the page's own words: the veil carries the boot error, and the 404 of a
+        # missing data file reads as "Unexpected token '<'" there. A bare "not ready" once hid a
+        # deploy with no data behind it for a whole verification pass.
+        veil = page.evaluate("document.getElementById('veil-msg')?.innerText || ''")
+        rep.add("boot: page's own message", False, veil[:160])
         return False
     # the first-visit modal must be open on a fresh profile, and closable
     rep.add("boot: info modal open on first visit", page.evaluate("!document.getElementById('info-modal').hidden"))
