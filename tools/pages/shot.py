@@ -376,6 +376,30 @@ def check_identifiers(page, rep: Report, url: str):
         except Exception as e:  # noqa: BLE001
             got[ext] = (getattr(e, "code", str(e)), False, False)
     rep.add("ids: static PLATO / LPF / MADS files exist for a parish-level record", all(v[0] == 200 and v[1] and v[2] for v in got.values()), json.dumps(got))
+    # source IRIs: every citation in the record names its source by IRI, and each IRI has its own file
+    W = "https://w3id.org/whg-epns/"
+    try:
+        with urllib.request.urlopen(base + "id/02/000002.json", timeout=30) as resp:
+            rec = json.loads(resp.read())
+        srcs = [c["source"] for a in rec["spatialEntities"][0].get("attestations", []) for c in a.get("citations", []) if "source" in c]
+        srcs += [s["derivedFrom"] for s in srcs if "derivedFrom" in s]
+        unnamed = [s for s in srcs if not str(s.get("@id", "")).startswith(W)]
+        rep.add("ids: every cited source in a record has a whg-epns IRI", bool(srcs) and not unnamed, f"{len(srcs)} sources, {len(unnamed)} without an IRI")
+        want = sorted({s["@id"] for s in srcs})[:3] + [W + "source/DB", W + "volume/52", W + "source/ASC/witness/B-c-1000", W + "source/deep"]
+        res = {}
+        for iri in want:
+            try:
+                with urllib.request.urlopen(base + "id/" + iri[len(W):] + ".json", timeout=30) as resp:
+                    d = json.loads(resp.read())
+                    nodes = {x.get("@id"): x for x in d.get("@graph", [])}
+                    doc = next((x for x in nodes.values() if x.get("foaf:primaryTopic", {}).get("@id") == iri), {})
+                    # the source node names itself; the licence sits on the document node, never on the source
+                    res[iri[len(W):]] = resp.status == 200 and iri in nodes and "@context" in d and "dcterms:license" in doc and "dcterms:license" not in nodes[iri]
+            except Exception as e:  # noqa: BLE001
+                res[iri[len(W):]] = getattr(e, "code", str(e))
+        rep.add("ids: source IRIs dereference to JSON-LD naming themselves", all(v is True for v in res.values()), json.dumps(res))
+    except Exception as e:  # noqa: BLE001
+        rep.add("ids: every cited source in a record has a whg-epns IRI", False, str(e)[:120])
     # a record below parish level has no static machine file: 404 (an honest one), and the 404 page routes people
     try:
         urllib.request.urlopen(base + "id/28/000105.json", timeout=30)
@@ -468,6 +492,7 @@ def check_downloads(page, rep: Report, url: str):
     rep.add("downloads: licence statement present verbatim", "licensed to Jisc by the English Place Names Society" in txt)
     hrefs = page.evaluate("[...document.querySelectorAll('main a[href*=\"releases/download\"]')].map(a => a.href)")
     rep.add("downloads: release asset links listed", len(hrefs) >= 5, f"{len(hrefs)} links")
+    rep.add("downloads: RDF triples offered", any(h.endswith("/deep-plato.nt.gz") for h in hrefs), f"{len(hrefs)} links")
     # Every asset link must resolve. Checked from Python, not the page: a cross-origin HEAD from the
     # browser is blocked by CORS and would report a failure that says nothing about the file.
     import urllib.request

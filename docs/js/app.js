@@ -14,7 +14,7 @@
  */
 import { CONFIG } from './config.js?v=1';
 import { cached, clearAll, usage } from './store.js?v=1';
-import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=1';
+import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=2';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -518,7 +518,7 @@ async function platoMeta() {
 }
 function fmtCtx() {
   const sh = S.currentShard;
-  return { code: sh.code, name: sh.name, volume: sh.volume, types: C().types, byGid: sh.byGid };
+  return { code: sh.code, name: sh.name, volume: sh.volume, sources: sh.sources, types: C().types, byGid: sh.byGid };
 }
 function jsonHTML(obj) {
   // pretty JSON with light syntax colouring; strings escaped

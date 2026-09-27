@@ -41,6 +41,10 @@ from pathlib import Path
 
 import duckdb
 
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sources as SRC  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "deep.duckdb"
 OUT = ROOT / "docs" / "data"
@@ -173,12 +177,14 @@ def main():
         return name_id.rsplit("-", 1)[-1] if name_id else ""
 
     EXTRA = ["page", "item", "folio", "ms", "pername", "entry", "appendix", "note", "number", "times"]
+    source_reg = SRC.registry(con)
     county_files = []
     by_county = defaultdict(list)
     for i, p in enumerate(places):
         by_county[p[2]].append((i, p))
     for cc in sorted(by_county):
         recs = []
+        srcs = {}      # the county's sources, keyed as formats.js looks them up: 'n:'+text (national) or sid / 'x-'+slug(text)
         gids = [i for i, _ in by_county[cc]]
         for i, p in by_county[cc]:
             r, pid, _, code, typ, seq, title, at, parent, ptitle, csrc, created, nv, na, ng, turi, volf = p
@@ -197,6 +203,13 @@ def main():
                 for (aid, pos, pa, vids, sid, stext, style, under, ctext, cb, ce, *extra) in atts[pid]:
                     pos_of[aid] = pos
                     a = {"p": pos, "v": [short_vid(v) for v in (vids or [])], "s": [sid, stext, 1 if style == "italic" else 0]}
+                    if stext or sid:
+                        if SRC.is_national(stext):
+                            d = SRC.national_description(stext); srcs["n:" + stext] = [d["@id"], d["title"], d["citation"]]
+                        else:
+                            k = sid if sid else "x-" + SRC.slug(stext)
+                            d = source_reg.get((cc, k)) or SRC.class_description(cc, county_name.get(cc, cc), sid, stext, style)
+                            srcs[k] = [d["@id"], d["title"], d["citation"]]
                     if pa is not None:
                         a["pa"] = pos_of.get(pa)
                     if under:
@@ -220,7 +233,7 @@ def main():
                 rec["n"] = [t for (t,) in notes[pid]]
             recs.append(rec)
         volume = by_county[cc][0][1][16]
-        info = dump(OUT / "county" / f"{cc}.json", {"code": cc, "name": county_name.get(cc), "volume": volume, "gidFrom": gids[0], "gidTo": gids[-1], "places": recs})
+        info = dump(OUT / "county" / f"{cc}.json", {"code": cc, "name": county_name.get(cc), "volume": volume, "gidFrom": gids[0], "gidTo": gids[-1], "sources": srcs, "places": recs})
         info.update({"code": cc, "name": county_name.get(cc), "gidFrom": gids[0], "gidTo": gids[-1], "n": len(recs)})
         county_files.append(info)
     print(f"{len(county_files)} county files, {sum(f['bytes'] for f in county_files) / 1e6:.1f} MB in {time.time() - t0:.0f}s")

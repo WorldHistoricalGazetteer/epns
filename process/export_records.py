@@ -4,6 +4,8 @@
     .venv/bin/python process/export_records.py            # records at parish level and above (15,587 x 3 files)
     .venv/bin/python process/export_records.py --all      # every non-field-name record (160,829 x 3; not deployed)
 
+Also one JSON-LD file per source IRI (docs/id/source/**, docs/id/volume/<county>.json): see write_sources().
+
 WHY A TIER, AND WHICH CUT. A persistent URL that content-negotiates has to land on a file that exists,
 and GitHub Pages serves statics only. Three machine formats for all 539,372 records would be 1.6
 million files; for the 160,829 non-field-name records, 482,000. The corpus is top-light: 15,587
@@ -38,7 +40,8 @@ import duckdb
 from lxml import etree
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from export_plato import DB, LICENCE_TEXT, Exporter, PLATO_REPO, STAMP_RE, git_show, load_validator  # noqa: E402
+from export_plato import DB, DEEP_SOURCE, GAZ, LICENCE_TEXT, Exporter, PLATO_REPO, STAMP_RE, git_show, load_validator  # noqa: E402
+import sources as SRCIRI  # noqa: E402
 import re
 import subprocess
 
@@ -47,6 +50,7 @@ SRC = ROOT / "data" / "mads2017"
 OUT = ROOT / "docs" / "id"
 UPPER = ("county", "province", "subcounty", "dbhundred", "halfhundred", "liberty", "abovesubcounty", "belowsubcounty",
          "localdistrict", "parish", "borough", "countytown", "subparish", "chapelry", "belowparish", "forest", "feature")
+PAGES = "https://worldhistoricalgazetteer.github.io/epns/"
 LPF_CONTEXT = "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/main/linkedplaces-context-v1.1.jsonld"
 
 
@@ -125,15 +129,111 @@ def main():
                                                               ensure_ascii=False, separators=(",", ":")))
             n_json += 1
         print(f"  {cc} {ex.county_name.get(cc, ''):28s} done  {time.time() - t0:4.0f}s", flush=True)
+    # 3. Sources: one JSON-LD file per minted IRI (process/sources.py), so a source IRI dereferences to
+    #    triples about itself. Collected from EVERY citation in the corpus, not just the tier above.
+    n_src, ctx_commit = write_sources(ex, con)
+    print(f"  {n_src:,} source, volume and gazetteer files; context from PLATO {ctx_commit[:12]}  {time.time() - t0:4.0f}s", flush=True)
     total = sum(1 for _ in OUT.rglob("*.*"))
     size = sum(p.stat().st_size for p in OUT.rglob("*.*"))
     (OUT / "manifest.json").write_text(json.dumps({"plato_commit": sha, "plato_tag": tag, "tier": "all non-field-name records" if args.all else "parish level and above",
-                                                   "records": n_json, "files": total, "bytes": size, "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}, indent=1))
+                                                   "records": n_json, "sources": n_src, "source_context_commit": ctx_commit, "files": total, "bytes": size, "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}, indent=1))
     print(f"{n_json:,} records, {total:,} files, {size / 1e6:.0f} MB; schema errors {errs}; plato_commit {sha[:12]}{' ' + tag if tag else ''}; {time.time() - t0:.0f}s")
     if n_xml != n_json:
         sys.exit(f"MADS files ({n_xml}) and PLATO files ({n_json}) disagree")
     if errs:
         sys.exit(2)
+
+
+CITES_PATH = ("attestations", "citations", "source")     # where the PLATO context scopes the Source terms
+
+
+def source_context():
+    """The Source terms exactly as PLATO's own context scopes them under attestations > citations > source,
+    lifted from the latest commit of the context on PLATO main (it postdates the v0.4.0 tag the records are
+    validated against), with the prefixes they use. The context types nothing (its own $comment says so),
+    so a file whose object states no authorityType also states its rdf:type."""
+    commit = subprocess.check_output(["git", "-C", str(PLATO_REPO), "log", "-1", "--format=%H", "origin/main", "--",
+                                      "schemas/plato.context.jsonld"], text=True).strip()
+    full = json.loads(git_show(commit, "schemas/plato.context.jsonld"))["@context"]
+    scoped = full
+    for k in CITES_PATH:
+        scoped = scoped[k]["@context"]
+    ctx = {k: full[k] for k in ("@version", "plato", "rdf", "rdfs", "xsd", "skos", "dcterms", "foaf")}
+    ctx.update(scoped)
+    return ctx, commit
+
+
+def write_sources(ex, con):
+    ctx, commit = source_context()
+    rows = con.execute("""SELECT p.county_code, a.source_id, a.source_text, a.source_style, a.source_underspec, a.copydate_text,
+                                 a.copydate_begin, a.copydate_end, a.ms FROM attestation a JOIN place p USING (place_id)""").fetchall()
+    keys = ("cc", "source_id", "source_text", "source_style", "source_underspec", "copydate_text", "copydate_begin", "copydate_end", "ms")
+    seen, text = {}, {}
+    bad = []
+
+    def add(o):
+        j = json.dumps(o, sort_keys=True)
+        if o["@id"] in text and text[o["@id"]] != j:
+            bad.append(o["@id"])
+        seen[o["@id"]], text[o["@id"]] = o, j
+        if "derivedFrom" in o:
+            add(o["derivedFrom"])
+
+    for r in rows:
+        a = dict(zip(keys, r))
+        o = ex.source_for(a, a["cc"])
+        if o:
+            add(o)
+    for cc in ex.county_name:
+        add(ex.volume_source(cc))
+    for o in list(GAZ.values()) + [DEEP_SOURCE]:
+        add(o)
+    if bad:
+        sys.exit(f"{len(set(bad))} source IRIs would carry two descriptions, e.g. {bad[0]}: fix process/sources.py first")
+    folded = {}
+    for iri in seen:
+        folded.setdefault(iri.lower(), []).append(iri)
+    clash = [v for v in folded.values() if len(v) > 1]
+    if clash:
+        print(f"  NOTE {len(clash)} source IRIs differ only in case (distinct on Pages, not on a case-folding filesystem), e.g. {clash[0]}")
+    for iri, o in seen.items():
+        assert iri.startswith(SRCIRI.W3ID), iri
+        f = OUT / (iri[len(SRCIRI.W3ID):] + ".json")
+        f.parent.mkdir(parents=True, exist_ok=True)
+        typed = {} if "authorityType" in o else {"@type": "plato:Source"}   # authorityType is rdf:type already (Source or Dataset)
+        # Two nodes: the source, and this file about it. The licence is the DESCRIPTION's (an adaptation of
+        # the DEEP data); on the source node it would assert that Domesday Book or GeoNames is CC BY-NC.
+        doc = {"@id": PAGES + "id/" + iri[len(SRCIRI.W3ID):] + ".json", "foaf:primaryTopic": {"@id": iri},
+               "dcterms:license": {"@id": "https://creativecommons.org/licenses/by-nc/4.0/"},
+               "dcterms:source": {"@id": SRCIRI.W3ID}}
+        f.write_text(json.dumps({"@context": ctx, "@graph": [{**typed, **o}, doc]}, ensure_ascii=False, separators=(",", ":")))
+    check_sources(ctx, [OUT / (iri[len(SRCIRI.W3ID):] + ".json") for iri in seen])
+    return len(seen), commit
+
+
+def check_sources(ctx, files, n=400):
+    """Expand then compact a sample of the source files with their own context and require them unchanged:
+    a key the context does not define is dropped by expansion, so it would show here. The check is first
+    shown to fail on a planted undefined key, or it proves nothing."""
+    import random
+    from pyld import jsonld
+
+    def strip(o):
+        return {k: strip(v) for k, v in o.items() if k != "@context"} if isinstance(o, dict) else [strip(x) for x in o] if isinstance(o, list) else o
+
+    def survives(d):
+        return strip(jsonld.compact(jsonld.expand(d), ctx)) == strip(d)
+
+    planted = json.loads(files[0].read_text()) | {"notAPlatoTerm": "x"}
+    if survives(planted):
+        sys.exit("source JSON-LD check cannot fail: a planted undefined key survived expansion")
+    rng = random.Random(0)
+    sample = [f for f in files if "/source/" not in str(f) or "/gazetteer/" in str(f) or f.name == "deep.json"]   # volumes, gazetteers, DEEP
+    sample += rng.sample(files, min(n, len(files))) + [f for f in files if "/witness/" in str(f)][:50]
+    bad = [f for f in sample if not survives(json.loads(f.read_text()))]
+    if bad:
+        sys.exit(f"{len(bad)} of {len(sample)} source files lose keys in JSON-LD expansion, e.g. {bad[0]}")
+    print(f"  JSON-LD round trip: {len(sample)} source files unchanged (planted undefined key caught)", flush=True)
 
 
 if __name__ == "__main__":

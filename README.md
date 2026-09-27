@@ -50,13 +50,14 @@ The full profile, and why LPF cannot hold it without loss, is written up in
 
 ## Downloads and exports
 
-The [downloads page](https://worldhistoricalgazetteer.github.io/epns/downloads.html) offers the whole corpus in three
-shapes, all built from the same DuckDB by `process/export_plato.py` and `process/build_downloads.py`
+The [downloads page](https://worldhistoricalgazetteer.github.io/epns/downloads.html) offers the whole corpus in four
+shapes, all built from the same DuckDB by `process/export_plato.py`, `process/export_rdf.py` and `process/build_downloads.py`
 and attached to a GitHub release (they are too large and too rarely rebuilt for git history):
 
 | Format | For | Loss |
 |---|---|---|
 | **PLATO** place-centric JSON (JSON Lines whole-corpus file; 66 per-county documents) | anyone who wants the attestations | none: every element of every record, validated against the schema at a named PLATO commit |
+| **RDF**, N-Triples (`deep-plato.nt.gz`) | triple stores, SPARQL | none beyond PLATO's: the PLATO files expanded with PLATO's own JSON-LD context |
 | **Parquet** tables and the **DuckDB** database | counting, joining, plotting | none |
 | **LPF** v1.3 (GeoJSON Text Sequence; 66 per-county FeatureCollections) | GIS and gazetteer interoperability | lossy, and 95.7% of features have null geometry; the page says exactly what is dropped |
 
@@ -68,6 +69,16 @@ are against PLATO v0.4.0, the first release to carry `plato:Citation` with locat
 status, `source_timespan`, `derived_from`, `occurrence_count`, `occurrence_context` and
 `form_status`); where it does not, the files say so rather than quote a version string that does not
 describe them.
+
+The triples come from the validated PLATO files, whose digests `export_rdf.py` checks against the
+manifest first, expanded by PLATO's own context (the latest commit of `schemas/plato.context.jsonld`,
+which postdates v0.4.0). The context's `$comment` lists what a context cannot do; the exporter does three
+of those things by rule from `ontology.ttl` at the same commit. It types every node by the rdfs:domain and
+rdfs:range of the predicates that touch it (single named `plato:` classes only), gives typed literals
+their declared XSD datatype and timespan bounds `xsd:gYear`, and writes representative points as
+`geo:wktLiteral`. Names get no language tag, since the spellings are several languages in one field.
+The 66 county files share one gazetteer node, described once from the corpus header; blank nodes are
+relabelled per county.
 
 Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
 through in place) and **as MADS** (regenerated), generated in the browser by `docs/js/formats.js`, a
@@ -107,6 +118,34 @@ The w3id namespace `whg-epns` (branch `whg-epns` on the owner's fork of `perma-i
 `/{county}/{serial}` by content negotiation to these files, the record's map view, or the original MADS,
 and `/data/*` to the latest release. A name form's serial resolves to the record that carries it.
 
+### Sources
+
+Every citation's source has an IRI too, so the exports triplify to a graph in which a source is one
+node, not 414,770 anonymous copies of one (`process/sources.py` holds the rule, and every writer
+imports it):
+
+| IRI | What it names |
+|---|---|
+| `https://w3id.org/whg-epns/source/<abbrev>` | a **national** source, one archive series or printed work whichever volume cites it (`source/DB`, `source/Pat`); a curated list of 78 |
+| `…/source/<county>/<DEEP source id>` | a source **as one county volume cites it** (`source/52/do41`); `…/source/<county>/x-<abbrev>` where DEEP gave no id |
+| `<either>/witness/<ms>-<copy date>` | the copy a form is read in, derived from the work (`source/ASC/witness/B-c-1000`) |
+| `…/volume/<county>` | the county volume |
+| `…/source/gazetteer/<name>`, `…/source/deep` | the coordinate gazetteers, and the DEEP project: `authorityType` "dataset", so `plato:Dataset`, not `plato:Source` |
+
+Breadth of citation cannot tell the two kinds apart (tithe awards are cited in 59 counties, court
+rolls in 43), and an abbreviation such as *Ct* or *TA* names a kind of record, not a document, so
+*Ct* in Cheshire and *Ct* in Dorset must not share an IRI. The national list is therefore curated from
+the abbreviations cited in 20 or more volumes, and anything off it is treated as the county's own:
+more nodes rather than false merges. Path segments keep ASCII letters and digits and turn any other run
+into one hyphen; a `?` in a copy date is kept as `q`, because `?14` and `14` are different claims.
+Where DEEP spells one source id several ways, the IRI's title is the commonest spelling; the MADS keeps
+the rest. `export_records.py` refuses to write if any IRI would carry two different descriptions.
+
+Each IRI dereferences to `docs/id/<path>.json` (10,353 files): the source as JSON-LD, with PLATO's own
+term definitions for a citation's source lifted into the file's context from the latest commit of
+PLATO's JSON-LD context, which postdates the v0.4.0 release the records validate against. The build
+round-trips a sample through expansion and compaction and requires them unchanged.
+
 ## Layout
 
 ```
@@ -116,7 +155,10 @@ process/export_site.py            DuckDB -> docs/data/ (core index, per-county f
 process/build_symphonym_index.py  name keys -> int8 Symphonym v8 matrix, docs/data/symphonym/ (system python)
 process/export_plato.py           DuckDB -> data/export/: PLATO (validated) + LPF, stamped with the PLATO commit; --sample, --verify
 process/build_downloads.py        data/export + parquet + duckdb -> release bundles and docs/downloads.html (sizes/digests read, not typed)
-process/export_records.py         per-record static PLATO/LPF/MADS for parish level and above -> docs/id/<county>/<serial>.*
+process/export_rdf.py             data/export PLATO files -> deep-plato.nt.gz (N-Triples via PLATO's JSON-LD context), appended to the manifest
+process/export_records.py         per-record static PLATO/LPF/MADS for parish level and above -> docs/id/<county>/<serial>.*,
+                                  and one JSON-LD file per source IRI -> docs/id/source/**, docs/id/volume/<county>.json
+process/sources.py                the source-IRI rule and the national list, imported by every writer
 process/rehome.sh                 one-pass rewrite of every absolute URL/key after a repository transfer or rename
 docs/                             the Pages site: index.html, css/, js/, symphonym/ (model + tokeniser), data/
 tools/pages/shot.py               headless Playwright checks of the site (system python)
@@ -130,7 +172,8 @@ process/fetch_data.sh                                   # once; 423 MB
 .venv/bin/python process/build_db.py                    # ~45 s; fails loudly if any count disagrees
 .venv/bin/python process/export_site.py                 # ~2 min -> docs/data/
 /usr/bin/python3 process/build_symphonym_index.py       # ~6 min; needs torch + onnxruntime + the indexing repo's tokeniser
-.venv/bin/python process/export_plato.py                # ~40 min with validation -> data/export/ (+ --sample for the fixture)
+.venv/bin/python process/export_plato.py                # ~25 min with validation -> data/export/ (+ --sample for the fixture)
+.venv/bin/python process/export_rdf.py                  # ~12 min on 12 processes -> data/export/deep-plato.nt.gz
 .venv/bin/python process/build_downloads.py --tag data-YYYY-MM-DD   # bundles + docs/downloads.html; then gh release upload
 /usr/bin/python3 tools/pages/shot.py --serve            # headless checks; --prove-it-fails to check the checks
 ```

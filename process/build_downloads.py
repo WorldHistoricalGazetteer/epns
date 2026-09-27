@@ -80,6 +80,9 @@ def main():
     (EXP / "analytic.json").write_text(json.dumps(analytic, indent=1))
     plato_whole = files["deep-plato.jsonl.gz"]
     lpf_whole = files["deep-lpf.geojsonl.gz"]
+    rdf_whole, rdf = files["deep-plato.nt.gz"], man["rdf"]
+    if rdf_whole["file"] != rdf["file"]:
+        sys.exit("manifest rdf block and file list disagree")
     per_county_plato = sum(f["bytes"] for k, f in files.items() if k.startswith("plato/"))
     per_county_lpf = sum(f["bytes"] for k, f in files.items() if k.startswith("lpf/"))
     located = counts["place_located_own"]
@@ -89,7 +92,7 @@ def main():
     if args.check:
         rel = json.loads(subprocess.check_output(["gh", "release", "view", args.tag, "-R", REPO, "--json", "assets"], text=True))
         have = {a["name"]: a for a in rel["assets"]}
-        want = ["deep-plato.jsonl.gz", "deep-lpf.geojsonl.gz", "deep-parquet.tar", "deep.duckdb.gz", "export-manifest.json", "deep-plato-counties.tar", "deep-lpf-counties.tar"]
+        want = ["deep-plato.jsonl.gz", "deep-plato.nt.gz", "deep-lpf.geojsonl.gz", "deep-parquet.tar", "deep.duckdb.gz", "export-manifest.json", "deep-plato-counties.tar", "deep-lpf-counties.tar"]
         bad = [w for w in want if w not in have]
         if bad:
             sys.exit(f"release {args.tag} is missing: {bad}")
@@ -149,12 +152,12 @@ def main():
 <main>
   <p class="back"><a href="./">‹ Back to the map</a></p>
   <h1>Downloads</h1>
-  <p>The whole corpus, in three shapes for three purposes: the English Place-Name Society survey volumes as digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc, the UK higher-education technology body. Every file below was generated from the same DuckDB build of that XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed. Nottingham's own <a href="https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx">Digital Survey of English Place-Names</a> continues to develop the material; these files are the 2017 release as open data.</p>
+  <p>The whole corpus, in four shapes for four purposes: the English Place-Name Society survey volumes as digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc, the UK higher-education technology body. Every file below was generated from the same DuckDB build of that XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed. Nottingham's own <a href="https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx">Digital Survey of English Place-Names</a> continues to develop the material; these files are the 2017 release as open data.</p>
   {access_note}
   <div class="licence">{LICENCE_TEXT}<br /><span class="small">Every file on this page derives from that data and carries the same terms. The PLATO and LPF serialisations are adaptations of it and therefore cannot be offered under CC BY or CC0.</span></div>
 
   <h2>1. PLATO — lossless</h2>
-  <p>Every element of every record: {man["entities"]:,} SpatialEntities and {man["attestations"]:,} <b>attestations in PLATO's sense</b>, that is every sourced claim (a headword, a dated spelling, a normalised form, a coordinate from a gazetteer, a place in the hierarchy). Of those, {counts["attestation"]:,} are <b>dated citations of spellings</b>, which is what the survey and the rest of this site call an attestation; the two words are kept apart here because the numbers differ by a factor of three. With locators, copy-dates on witness sources, occurrence counts and contexts, headword and normalised form status, coordinates per gazetteer and GeoNames identity relations. This is the format to use if you want the citations.</p>
+  <p>Every element of every record: {man["entities"]:,} SpatialEntities and {man["attestations"]:,} <b>attestations in PLATO's sense</b>, that is every sourced claim (a headword, a dated spelling, a normalised form, a coordinate from a gazetteer, a place in the hierarchy). Of those, {counts["attestation"]:,} are <b>dated citations of spellings</b>, which is what the survey and the rest of this site call an attestation; the two words are kept apart here because the numbers differ by a factor of three. With locators, copy-dates on witness sources, occurrence counts and contexts, headword and normalised form status, coordinates per gazetteer and GeoNames identity relations. This is the format to use if you want the citations. Every cited source is named by an IRI, <code>https://w3id.org/whg-epns/source/…</code>: one per national source such as Domesday Book (<code>source/DB</code>), one per source as each county volume cites it (<code>source/52/do41</code>), and one per copy a form is read in, derived from its work. Each IRI dereferences to a small JSON-LD description; the scheme and the reasoning behind the national list are in the repository <a href="https://github.com/{REPO}#sources">README</a>.</p>
   <table><tr><th>File</th><th>What</th><th>Size</th><th>sha256</th></tr>
   {row("deep-plato.jsonl.gz", "JSON Lines: a header line (gazetteer + provenance), then one <code>spatialEntity</code> per line, then the identityRelations. Reassembles into one place-centric document.", plato_whole)}
   {row("export-manifest.json", "The build manifest: PLATO commit, digests of every file, counts.", {"bytes": (EXP / "manifest.json").stat().st_size, "sha256": sha256(EXP / "manifest.json")})}
@@ -162,7 +165,13 @@ def main():
   </table>
   <p class="small"><b>Provenance:</b> {prov}. Each file carries <code>plato_commit=</code> in its header and <code>export_plato.py --verify</code> fails if any file and the manifest disagree. Schema errors at build: {man["schema_errors"]}.</p>
 
-  <h2>2. Parquet and DuckDB — for analysis</h2>
+  <h2>2. RDF — the same data as triples</h2>
+  <p>The PLATO export as one graph of {rdf["triples"]:,} triples in N-Triples, for a triple store or SPARQL. It is produced from the validated PLATO files above by <a href="https://github.com/pelagios/place-attestation-ontology/blob/{rdf["context_commit"]}/schemas/plato.context.jsonld">PLATO's own JSON-LD context</a> (commit <code>{rdf["context_commit"][:12]}</code>), so every predicate is a term of the <a href="https://w3id.org/plato">PLATO ontology</a> and nothing is mapped by hand. Places, attestations and sources have IRIs under <code>https://w3id.org/whg-epns/</code>, as do the name forms DEEP numbered; citations, timespans, geometries and the remaining names are blank nodes. Following the ontology's declared domains and ranges, the conversion adds what a JSON-LD context cannot: <code>rdf:type</code> for every node, <code>xsd:gYear</code> on timespan bounds, and <code>geo:wktLiteral</code> representative points. Name strings carry no language tag, because the survey's spellings are Old English, Middle English, Anglo-Norman and Latin in one field.</p>
+  <table><tr><th>File</th><th>What</th><th>Size</th><th>sha256</th></tr>
+  {row("deep-plato.nt.gz", "N-Triples, gzipped; the header comments carry the PLATO commits and the licence. Loads into Apache Jena (<code>riot</code>, TDB), GraphDB, Oxigraph, QLever or rdflib.", rdf_whole)}
+  </table>
+
+  <h2>3. Parquet and DuckDB — for analysis</h2>
   <p>The tables the site and the exports are built from: <code>place</code>, <code>name</code>, <code>attestation</code>, <code>attestation_date</code>, <code>passim</code>, <code>searchterm</code>, <code>geo</code>, <code>note</code>, plus the derived <code>source</code>, <code>place_tree</code> and <code>place_point</code>. If you are counting, joining or plotting, this is what you want.</p>
   <table><tr><th>File</th><th>What</th><th>Size</th><th>sha256</th></tr>
   {row("deep-parquet.tar", "Eight Parquet tables (zstd), one per element type; readable by DuckDB, pandas, Polars, R, Spark.", analytic[0])}
@@ -170,7 +179,7 @@ def main():
   </table>
   <p class="small">Schema and example queries are in the repository <a href="https://github.com/{REPO}#the-database">README</a>.</p>
 
-  <h2>3. Linked Places Format — interoperability, with a caveat</h2>
+  <h2>4. Linked Places Format — interoperability, with a caveat</h2>
   <div class="caveat"><b>It is valid GeoJSON, so QGIS, ArcGIS and any GIS will open it. Before you do:</b> only <b>{located:,} of {total:,}</b> records ({100 - null_pct:.1f}%) carry coordinates, so <b>{null_pct:.1f}% of features have <code>null</code> geometry</b> and will not appear on a map at all. Of those with coordinates, most carry two to four points from different gazetteers as a <code>GeometryCollection</code>, which some GIS software flattens or refuses. The {total - located:,} unlocated features are still useful: they carry the hierarchy in <code>relations[]</code>, so a township's field-names can be placed by their parent.</div>
   <p>LPF v1.3 cannot hold the attestations without loss. In this export: a citation keeps a label and a single year, so the editors' date brackets, regnal and <i>circa</i> semantics collapse; page, folio, item and manuscript references, copy-dates, the <i>(p)</i> personal-name marker, occurrence counts and the italic-for-manuscript convention are dropped; <code>citations[]</code> and <code>when</code> sit in parallel arrays with no link between a source and its span; <i>et passim</i> runs become separate citations; names have no URIs; the {counts["searchterm"]:,} normalised search forms are omitted rather than conflated with attested spellings; record ids and creation dates have no slot. The eight classes of loss and why they matter are set out in <a href="https://github.com/LinkedPasts/linked-places-format/discussions/53">LPF discussion 53</a>. <b>If you want the attestations, use the PLATO file.</b> Each place page on the map shows this record's LPF with its losses struck through in place.</p>
   <table><tr><th>File</th><th>What</th><th>Size</th><th>sha256</th></tr>
