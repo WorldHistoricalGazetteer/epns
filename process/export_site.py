@@ -160,6 +160,10 @@ def main():
         return d
 
     variants = rows_by_place("SELECT place_id, name_id, toponym, uri FROM name WHERE kind='variant' ORDER BY rowid")
+    # the authority heading, which DEEP gave the record's own URI; it joins a record's spellings only where a
+    # citation or search term names it (27,447 citations do), or the page and formats.js would lose them
+    authority = {pid: (nid, text, uri) for pid, nid, text, uri in
+                 con.execute("SELECT place_id, name_id, toponym, uri FROM name WHERE kind='authority'").fetchall()}
     dates = defaultdict(list)
     for aid, sub, b, e, txt in con.execute("SELECT attestation_id, subtype, begin, \"end\", text FROM attestation_date ORDER BY attestation_id, seq").fetchall():
         dates[aid].append([sub, b, e, txt])
@@ -173,7 +177,7 @@ def main():
     print(f"detail tables loaded in {time.time() - t0:.0f}s")
 
     def short_vid(name_id: str) -> str:
-        # epns-deep-02-hu-name-w22 -> w22 ; the headword id has no short form and is not needed
+        # epns-deep-02-hu-name-w22 -> w22 ; an authority heading's id shortens the same way (06/001111: 000318)
         return name_id.rsplit("-", 1)[-1] if name_id else ""
 
     EXTRA = ["page", "item", "folio", "ms", "pername", "entry", "appendix", "note", "number", "times"]
@@ -231,6 +235,11 @@ def main():
                 rec["st"] = [[short_vid(v) if v else None, term] for v, term in sterms[pid]]
             if pid in notes:
                 rec["n"] = [t for (t,) in notes[pid]]
+            if pid in authority and authority[pid][1]:
+                nid, text, uri = authority[pid]
+                sv = short_vid(nid)
+                if any(sv in a["v"] for a in rec.get("a", [])) or any(v == sv for v, _ in rec.get("st", [])):
+                    rec["v"] = [[sv, text, uri_num(uri)]] + rec.get("v", [])
             recs.append(rec)
         volume = by_county[cc][0][1][16]
         info = dump(OUT / "county" / f"{cc}.json", {"code": cc, "name": county_name.get(cc), "volume": volume, "gidFrom": gids[0], "gidTo": gids[-1], "sources": srcs, "places": recs})

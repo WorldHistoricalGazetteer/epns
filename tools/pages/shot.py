@@ -356,6 +356,13 @@ def check_identifiers(page, rep: Report, url: str):
     page.evaluate("location.hash = '#u=02/999999'")
     wait_render(page, before, 30_000)
     rep.add("ids: an unknown serial says so", "No record numbered" in page.evaluate("document.getElementById('drawer').innerText"))
+    # a record whose one cited spelling is its own heading (DEEP gave heading and record one URI): the page
+    # showed no spellings at all before the heading joined the record's name list
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("location.hash = '#u=06/001111'")
+    wait_render(page, before, 30_000)
+    li = page.evaluate("[...document.querySelectorAll('#drawer ul.forms li')].map(x => x.innerText).join(' | ')")
+    rep.add("ids: a citation of the heading itself is shown (Norton, 06/001111)", "Norton" in li, li[:100])
     # static files for a parish-level record
     base = url if url.endswith("/") else url + "/"
     import urllib.request

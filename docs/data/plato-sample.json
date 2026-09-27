@@ -2,7 +2,7 @@
  "plato_commit": "ca0afadabec1e23a145c0b03df77e8f151f79832",
  "plato_tag": "v0.4.0",
  "plato_versionInfo_at_commit": "0.4.0",
- "generated": "2026-09-27T09:22:38Z",
+ "generated": "2026-09-27T12:49:12Z",
  "records": {
   "02-hu-subcounty-000001": {
    "plato": {
@@ -896,7 +896,7 @@
       "title": "GeoNames",
       "uri": "https://www.geonames.org/"
      },
-     "assertedBy": "DEEP (2013)"
+     "assertedBy": "https://w3id.org/whg-epns/source/deep"
     }
    ],
    "lpf": {
@@ -1316,7 +1316,7 @@
       "title": "GeoNames",
       "uri": "https://www.geonames.org/"
      },
-     "assertedBy": "DEEP (2013)"
+     "assertedBy": "https://w3id.org/whg-epns/source/deep"
     }
    ],
    "lpf": {
@@ -1490,6 +1490,160 @@
       "relationType": "gvp:broaderPartitive",
       "relationTo": "https://w3id.org/whg-epns/05/000019",
       "label": "within Holtby"
+     }
+    ]
+   }
+  },
+  "06-d-mappedname-000318": {
+   "plato": {
+    "@id": "https://w3id.org/whg-epns/06/001111",
+    "label": "Norton",
+    "attestations": [
+     {
+      "@id": "https://w3id.org/whg-epns/06/001111#headword",
+      "formStatus": "https://w3id.org/plato#Headword",
+      "names": [
+       {
+        "toponym": "Norton",
+        "language": "en"
+       }
+      ],
+      "types": [
+       {
+        "identifier": "http://vocab.getty.edu/aat/300008347",
+        "label": "inhabited place",
+        "sourceLabel": "minor name (DEEP type 'mappedname', code 'd')"
+       }
+      ],
+      "citations": [
+       {
+        "source": {
+         "@id": "https://w3id.org/whg-epns/volume/06",
+         "title": "English Place-Name Society survey, volume 6: Sussex",
+         "citation": "The survey volume as digitised by DEEP (file vol06mads.xml); the volume's own list of sources expands the abbreviations",
+         "authorityType": "source"
+        }
+       }
+      ],
+      "notes": "DEEP record epns-deep-06-d-mappedname-000318; digitised 2013-09-19; DEEP URI http://placenames.org.uk/id/placename/06/001111 (no longer resolves)",
+      "relations": [
+       {
+        "relatesTo": "https://w3id.org/whg-epns/06/001074",
+        "relationType": "http://vocab.getty.edu/ontology#broaderPartitive",
+        "relationLabel": "within Aldingbourne (the survey's arrangement; structural, not dated)"
+       }
+      ],
+      "created": "2013-09-19T00:00:00Z"
+     },
+     {
+      "@id": "https://w3id.org/whg-epns/06/001111#a1",
+      "names": [
+       {
+        "@id": "https://w3id.org/whg-epns/06/001111#name",
+        "toponym": "Norton"
+       }
+      ],
+      "timespans": [
+       {
+        "label": "1279",
+        "startEarliest": "1279",
+        "startLatest": "1279",
+        "endEarliest": "1279",
+        "endLatest": "1279",
+        "startPrecision": "year",
+        "endPrecision": "year",
+        "edtfString": "1279",
+        "precisionValue": 0
+       }
+      ],
+      "citations": [
+       {
+        "source": {
+         "@id": "https://w3id.org/whg-epns/source/Ass",
+         "title": "Ass",
+         "citation": "Assize Rolls (pleas before the itinerant royal justices). A national source, abbreviated 'Ass' in the English Place-Name Society survey volumes",
+         "authorityType": "source"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "identityRelations": [],
+   "lpf": {
+    "@id": "https://w3id.org/whg-epns/06/001111",
+    "type": "Feature",
+    "properties": {
+     "title": "Norton",
+     "ccodes": [
+      "GB"
+     ],
+     "fclasses": [
+      "P"
+     ]
+    },
+    "names": [
+     {
+      "toponym": "Norton",
+      "lang": "en",
+      "citations": [
+       {
+        "label": "English Place-Name Society survey, volume 6: Sussex"
+       }
+      ]
+     },
+     {
+      "toponym": "Norton",
+      "citations": [
+       {
+        "label": "1279 Ass",
+        "year": 1279
+       }
+      ],
+      "when": {
+       "timespans": [
+        {
+         "start": {
+          "in": "1279"
+         },
+         "end": {
+          "in": "1279"
+         }
+        }
+       ]
+      }
+     }
+    ],
+    "types": [
+     {
+      "identifier": "http://vocab.getty.edu/aat/300008347",
+      "label": "inhabited place",
+      "sourceLabels": [
+       {
+        "label": "minor name",
+        "lang": "en"
+       }
+      ]
+     }
+    ],
+    "geometry": null,
+    "when": {
+     "timespans": [
+      {
+       "start": {
+        "in": "1279"
+       },
+       "end": {
+        "in": "1279"
+       }
+      }
+     ]
+    },
+    "relations": [
+     {
+      "relationType": "gvp:broaderPartitive",
+      "relationTo": "https://w3id.org/whg-epns/06/001074",
+      "label": "within Aldingbourne"
      }
     ]
    }
@@ -8697,7 +8851,7 @@
       "title": "GeoNames",
       "uri": "https://www.geonames.org/"
      },
-     "assertedBy": "DEEP (2013)"
+     "assertedBy": "https://w3id.org/whg-epns/source/deep"
     }
    ],
    "lpf": {

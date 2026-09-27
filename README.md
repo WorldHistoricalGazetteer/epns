@@ -77,8 +77,9 @@ of those things by rule from `ontology.ttl` at the same commit. It types every n
 rdfs:range of the predicates that touch it (single named `plato:` classes only), gives typed literals
 their declared XSD datatype and timespan bounds `xsd:gYear`, and writes representative points as
 `geo:wktLiteral`. Names get no language tag, since the spellings are several languages in one field.
-The 66 county files share one gazetteer node, described once from the corpus header; blank nodes are
-relabelled per county.
+The 66 county files share one gazetteer node, described once from the corpus header; a copy witness's
+date is named `<witness>#timespan`, so it is written once rather than once per citing record; blank nodes
+are relabelled per county.
 
 Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
 through in place) and **as MADS** (regenerated), generated in the browser by `docs/js/formats.js`, a

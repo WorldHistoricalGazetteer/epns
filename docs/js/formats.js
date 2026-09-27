@@ -122,7 +122,7 @@ export function toPlato(rec, ctx) {
   const A = [];
   const nameUri = new Map();
   const blank = new Set();
-  for (const [vid, text, num] of rec.v || []) { if (text) nameUri.set(vid, [text, uriOf(ctx.code, num)]); else blank.add(vid); }
+  for (const [vid, text, num] of rec.v || []) { if (text) nameUri.set(vid, [text, uriOf(ctx.code, num) + (num === rec.u ? '#name' : '')]); else blank.add(vid); }   // the authority heading shares the record's URI
   const [aat, aatLabel] = TYPES[ptype] || TYPES.feature;
   const hw = { '@id': `${uri}#headword`, formStatus: PLATO + 'Headword', names: [{ toponym: rec.t, language: 'en' }],
     types: [{ identifier: AAT + aat, label: aatLabel, sourceLabel: `${AUTH_WORD[rec.at] || TYPE_WORD[ptype] || ptype} (DEEP type '${ptype}', code '${rec.code}')` }],
@@ -192,7 +192,7 @@ export function toPlato(rec, ctx) {
     A.push(ga);
     if (ref && String(ref).startsWith('geonames:')) {
       idr.push({ subject: uri, object: GEONAMES(String(ref).split(':')[1]), identityType: 'closeMatch', basis: `DEEP geo element, source geonames, gazref ${ref}`,
-        source: GAZ.geonames, assertedBy: 'DEEP (2013)' });
+        source: GAZ.geonames, assertedBy: DEEP_SOURCE['@id'] });
     }
   });
   return { entity: { '@id': uri, label: rec.t, attestations: A }, identityRelations: idr };

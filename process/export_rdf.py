@@ -11,7 +11,7 @@ here: a key the context does not define does not become a triple. The inputs are
 manifest's sha256 first, so the triples cannot come from files other than the ones the manifest describes.
 
 WHAT IS ADDED, AND WHY. The context's own $comment lists what a context cannot do and a triplifier must.
-This one does three of those things, each by rule from the ontology (ontology.ttl at the same PLATO commit), not by hand:
+This one does three of those things, and one more,, each by rule from the ontology (ontology.ttl at the same PLATO commit), not by hand:
 
   rdf:type      For every triple, the subject is typed with the predicate's rdfs:domain and an IRI or
                 blank-node object with its rdfs:range, where that is one named plato: class. This is the
@@ -23,6 +23,8 @@ This one does three of those things, each by rule from the ontology (ontology.tt
                 are years, zero-padded: '0990'), xsd:date for a full date. Anything else stays plain.
   repr_point    The context yields an RDF list of two numbers; the ontology declares geo:wktLiteral, so
                 it becomes "POINT(lon lat)"^^geo:wktLiteral.
+  timespans     A copy witness's date is named <witness IRI>#timespan instead of a blank node, so the
+                witness and its date are written once, not once per record that cites it.
 
 Not done: name strings carry no language tag. DEEP's forms are Old English, Middle English, Anglo-Norman
 and Latin spellings in one field, and 'en' on Bonestou would be false.
@@ -104,6 +106,13 @@ def wkt(node):
         for x in node:
             wkt(x)
     elif isinstance(node, dict):
+        # a witness is shared by every record that cites it; its timespan, a blank node in the JSON, would be
+        # minted again by each one. Named <witness>#timespan it is one node, written once like the witness.
+        ts = P + "source_timespan"
+        if "/witness/" in node.get("@id", "") and ts in node:
+            for t in node[ts]:
+                if isinstance(t, dict) and "@id" not in t:
+                    t["@id"] = node["@id"] + "#timespan"
         k = P + "repr_point"
         if k in node:
             out = []
