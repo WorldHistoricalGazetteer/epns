@@ -405,6 +405,12 @@ def check_identifiers(page, rep: Report, url: str):
             except Exception as e:  # noqa: BLE001
                 res[iri[len(W):]] = getattr(e, "code", str(e))
         rep.add("ids: source IRIs dereference to JSON-LD naming themselves", all(v is True for v in res.values()), json.dumps(res))
+        with urllib.request.urlopen(base + "id/02/000008.json", timeout=30) as resp:     # Cold Brayfield has GeoNames matches
+            asserted = {r.get("assertedBy") for r in json.loads(resp.read()).get("identityRelations", [])}
+        with urllib.request.urlopen(base + "id/agent/deep.json", timeout=30) as resp:
+            ag = {x.get("@id"): x for x in json.loads(resp.read()).get("@graph", [])}
+        rep.add("ids: identity relations are asserted by the DEEP agent, which dereferences",
+                asserted == {W + "agent/deep"} and "plato:Contributor" in ag.get(W + "agent/deep", {}).get("@type", []), json.dumps(sorted(asserted)))
     except Exception as e:  # noqa: BLE001
         rep.add("ids: every cited source in a record has a whg-epns IRI", False, str(e)[:120])
     # a record below parish level has no static machine file: 404 (an honest one), and the 404 page routes people

@@ -192,7 +192,7 @@ export function toPlato(rec, ctx) {
     A.push(ga);
     if (ref && String(ref).startsWith('geonames:')) {
       idr.push({ subject: uri, object: GEONAMES(String(ref).split(':')[1]), identityType: 'closeMatch', basis: `DEEP geo element, source geonames, gazref ${ref}`,
-        source: GAZ.geonames, assertedBy: DEEP_SOURCE['@id'] });
+        source: GAZ.geonames, assertedBy: `${W3ID}agent/deep` });   // the DEEP project as agent (process/sources.py)
     }
   });
   return { entity: { '@id': uri, label: rec.t, attestations: A }, identityRelations: idr };

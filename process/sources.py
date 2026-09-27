@@ -110,6 +110,15 @@ def volume_iri(cc: str) -> str:
 
 GAZETTEER_IRI = {k: f"{W3ID}source/gazetteer/{k}" for k in ("geonames", "unlock", "kepn", "epns")}
 DEEP_IRI = f"{W3ID}source/deep"
+# The DEEP project as an AGENT (plato:Contributor, a foaf/prov Agent): who made the 2013 GeoNames matches.
+# Kept apart from DEEP_IRI, the dataset, which is evidence rather than an agent (PLATO session, 2026-09-27).
+DEEP_AGENT_IRI = f"{W3ID}agent/deep"
+DEEP_AGENT = {"@id": DEEP_AGENT_IRI, "@type": ["plato:Contributor", "foaf:Organization"],
+              "plato:contributor_name": "DEEP: Digital Exposure of English Place-names (2011-13)",
+              "dcterms:description": "The Jisc-funded project that digitised the English Place-Name Society survey volumes "
+                                     "and matched their places to GeoNames, Unlock and KEPN; the asserting agent of every "
+                                     "GeoNames identity relation in this dataset.",
+              "rdfs:seeAlso": {"@id": DEEP_IRI}}
 
 
 def national_description(text: str) -> dict:

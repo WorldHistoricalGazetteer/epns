@@ -304,7 +304,7 @@ class Exporter:
             A.append(ga)
             if gazref and gazref.startswith("geonames:"):
                 idr.append({"subject": uri, "object": GEONAMES.format(gazref.split(":", 1)[1]), "identityType": "closeMatch",
-                            "basis": f"DEEP geo element, source geonames, gazref {gazref}", "source": GAZ["geonames"], "assertedBy": DEEP_SOURCE["@id"]})   # an IRI: the context coerces assertedBy to @id
+                            "basis": f"DEEP geo element, source geonames, gazref {gazref}", "source": GAZ["geonames"], "assertedBy": SRC.DEEP_AGENT_IRI})   # an agent IRI, not the dataset: the context coerces it to @id
         self.n_att += len(A)
         self.n_ent += 1
         return {"@id": uri, "label": title, "attestations": A}, idr

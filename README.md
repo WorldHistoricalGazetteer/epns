@@ -131,6 +131,7 @@ imports it):
 | `…/source/<county>/<DEEP source id>` | a source **as one county volume cites it** (`source/52/do41`); `…/source/<county>/x-<abbrev>` where DEEP gave no id |
 | `<either>/witness/<ms>-<copy date>` | the copy a form is read in, derived from the work (`source/ASC/witness/B-c-1000`) |
 | `…/volume/<county>` | the county volume |
+| `…/agent/deep` | the DEEP project as the **agent** that made the 2013 GeoNames matches (`plato:Contributor`), kept apart from the dataset, which is evidence |
 | `…/source/gazetteer/<name>`, `…/source/deep` | the coordinate gazetteers, and the DEEP project: `authorityType` "dataset", so `plato:Dataset`, not `plato:Source` |
 
 Breadth of citation cannot tell the two kinds apart (tithe awards are cited in 59 counties, court

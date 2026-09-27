@@ -208,10 +208,19 @@ def write_sources(ex, con):
                "dcterms:source": {"@id": SRCIRI.W3ID}}
         f.write_text(json.dumps({"@context": ctx, "@graph": [{**typed, **o}, doc]}, ensure_ascii=False, separators=(",", ":")))
     check_sources(ctx, [OUT / (iri[len(SRCIRI.W3ID):] + ".json") for iri in seen])
+    # the DEEP project as agent: full IRIs through the prefixes only, so nothing here depends on PLATO's term names
+    a = SRCIRI.DEEP_AGENT
+    f = OUT / (a["@id"][len(SRCIRI.W3ID):] + ".json")
+    f.parent.mkdir(parents=True, exist_ok=True)
+    doc = {"@id": PAGES + "id/" + a["@id"][len(SRCIRI.W3ID):] + ".json", "foaf:primaryTopic": {"@id": a["@id"]},
+           "dcterms:license": {"@id": "https://creativecommons.org/licenses/by-nc/4.0/"}, "dcterms:source": {"@id": SRCIRI.W3ID}}
+    agent_doc = {"@context": {k: ctx[k] for k in ("@version", "plato", "rdfs", "dcterms", "foaf")}, "@graph": [a, doc]}
+    check_sources(agent_doc["@context"], [], n=0, extra=[agent_doc])
+    f.write_text(json.dumps(agent_doc, ensure_ascii=False, separators=(",", ":")))
     return len(seen), commit
 
 
-def check_sources(ctx, files, n=400):
+def check_sources(ctx, files, n=400, extra=()):
     """Expand then compact a sample of the source files with their own context and require them unchanged:
     a key the context does not define is dropped by expansion, so it would show here. The check is first
     shown to fail on a planted undefined key, or it proves nothing."""
@@ -224,6 +233,11 @@ def check_sources(ctx, files, n=400):
     def survives(d):
         return strip(jsonld.compact(jsonld.expand(d), ctx)) == strip(d)
 
+    if extra:
+        bad = [d for d in extra if not survives(d)]
+        if bad:
+            sys.exit(f"JSON-LD round trip changed {bad[0].get('@graph', [{}])[0].get('@id')}")
+        return
     planted = json.loads(files[0].read_text()) | {"notAPlatoTerm": "x"}
     if survives(planted):
         sys.exit("source JSON-LD check cannot fail: a planted undefined key survived expansion")
