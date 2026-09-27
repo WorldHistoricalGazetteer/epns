@@ -315,6 +315,17 @@ def check_formats(page, rep: Report):
     body = page.evaluate("document.getElementById('fmt-body').innerText")
     rep.add("formats: MADS view regenerates the record", '<mads ID="epns-deep-02-hu-subcounty-000001">' in body and '<attestation variantID=' in body and "<geographic" in body)
     page.evaluate("document.getElementById('fmt-close').click()")
+    # RDF view: N-Triples built in the page (jsonld.js, loaded on first use), stamped with the pinned context commit
+    rules = json.loads((ROOT / "docs" / "data" / "rdf" / "rules.json").read_text())
+    before = page.evaluate("window.deep.renders")
+    page.evaluate("document.querySelector('.formats button[data-fmt=rdf]').click()")
+    wait_render(page, before, 90_000)
+    body = page.evaluate("document.getElementById('fmt-body').innerText")
+    cav = page.evaluate("document.getElementById('fmt-caveat').innerText")
+    rep.add("formats: RDF view gives N-Triples typing the record as a PLATO SpatialEntity, at the pinned context commit",
+            "<https://w3id.org/whg-epns/02/000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/plato#SpatialEntity> ." in body
+            and rules["context_commit"][:12] in cav and "triples" in cav, cav[:100] if "triples" in cav else body[:160])
+    page.evaluate("document.getElementById('fmt-close').click()")
     # parity: for every sample record, the browser port must equal the Python export exactly
     res = page.evaluate("""async () => {
       const sample = await (await fetch('data/plato-sample.json', {cache:'no-cache'})).json();
@@ -333,6 +344,22 @@ def check_formats(page, rep: Report):
     # the comparator's own control: a record compared with a mutated copy of itself must differ
     ctl = page.evaluate("""() => { const rec = window.deep.state.currentRec, ctx = window.deep.formats.ctx(); const a = window.deep.formats.toPlato(rec, ctx).entity; const b = JSON.parse(JSON.stringify(a)); b.attestations[0].notes += 'x'; return JSON.stringify(a) !== JSON.stringify(b); }""")
     rep.add("formats: the parity comparator can fail (mutated copy differs)", ctl)
+    # RDF parity: the browser's triples for each sample record, canonicalised, must equal the Python's
+    res = page.evaluate("""async () => {
+      const [sample, want] = await Promise.all(['data/plato-sample.json', 'data/rdf/sample.json'].map(u => fetch(u, {cache:'no-cache'}).then(r => r.json())));
+      const out = {ok: [], bad: [], control: null};
+      const got = {};
+      for (const [sid, ref] of Object.entries(sample.records)) {
+        const r = await window.deep.formats.toRdf(ref.plato, ref.identityRelations);
+        got[sid] = await window.deep.formats.rdfCanonical(r.text);
+        (want.records[sid] && got[sid] === want.records[sid].canonical ? out.ok : out.bad).push(sid);
+      }
+      const ids = Object.keys(got);
+      out.control = got[ids[0]] !== want.records[ids[1]].canonical;   // a different record's graph must not match
+      return out;
+    }""")
+    rep.add(f"formats: browser RDF equals the Python triplifier's graph on all {len(res['ok']) + len(res['bad'])} sample records (canonical N-Quads)",
+            len(res["bad"]) == 0 and len(res["ok"]) >= 5 and res["control"], ", ".join(res["bad"])[:120] or f"{len(res['ok'])} records; control differs: {res['control']}")
 
 
 def check_identifiers(page, rep: Report, url: str):

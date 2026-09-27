@@ -91,7 +91,7 @@ def main():
     # silently broke phonetic search on the live site, because the matrix survived and its manifest
     # did not.
     for old in OUT.rglob("*.json"):
-        if old.name == "plato-sample.json" or "symphonym" in old.parts:
+        if old.name == "plato-sample.json" or "symphonym" in old.parts or "rdf" in old.parts:   # rdf/: export_rdf.py --site
             continue
         old.unlink()
 

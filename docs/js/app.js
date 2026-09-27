@@ -15,6 +15,7 @@
 import { CONFIG } from './config.js?v=1';
 import { cached, clearAll, usage } from './store.js?v=1';
 import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=2';
+import { toRdf, canonical as rdfCanonical } from './rdf.js?v=1';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -572,6 +573,17 @@ async function openFormat(kind) {
     title = 'Linked Places Format (lossy)';
     const n = [...dropped.values()].reduce((a, v) => a + v.length, 0);
     caveat = `Valid LPF v1.3 (a GeoJSON Feature). <b>${n} thing${n === 1 ? '' : 's'} PLATO carries for this record ${n === 1 ? 'has' : 'have'} no slot here</b> and ${n === 1 ? 'is' : 'are'} struck through in place. The eight classes of loss are set out in <a href="https://github.com/LinkedPasts/linked-places-format/discussions/53" target="_blank" rel="noopener">LPF discussion 53</a>; for the attestations, use the PLATO view or download.`;
+  } else if (kind === 'rdf') {
+    const { entity, identityRelations } = toPlato(rec, ctx);
+    let r;
+    try { r = await toRdf(entity, identityRelations); } catch (e) {
+      r = null; text = ''; body = esc(`Could not build the triples: ${e.message || e}. The RDF view loads jsonld.js from cdn.jsdelivr.net on first use.`);
+    }
+    if (r) { text = r.text; body = esc(text); }
+    filename = `${id}.nt`;
+    title = 'RDF (N-Triples)';
+    const c = r ? r.commit : '';
+    caveat = `${r ? r.n.toLocaleString('en-GB') + ' triples: ' : ''}the PLATO view of this record, expanded with PLATO's own <a href="https://github.com/pelagios/place-attestation-ontology/blob/${esc(c)}/schemas/plato.context.jsonld" target="_blank" rel="noopener">JSON-LD context</a> (commit <code>${esc(c.slice(0, 12))}</code>) and typed by the ontology's domains and ranges, as in the whole-corpus <code>deep-plato.nt.gz</code> on the <a href="downloads.html">downloads page</a>. Every predicate is a PLATO term. Blank-node labels (<code>_:b0</code>…) are local to this view.`;
   } else {
     text = toMads(rec, ctx); body = esc(text); filename = `${id}.xml`;
     title = 'MADS XML';
@@ -582,11 +594,11 @@ async function openFormat(kind) {
   $('fmt-caveat').innerHTML = caveat + ' <span class="small">Licence: CC BY-NC 4.0, as the source data.</span>';
   $('fmt-body').innerHTML = body;
   $('fmt-copy').onclick = () => navigator.clipboard?.writeText(text).then(() => { $('fmt-copy').textContent = 'Copied'; setTimeout(() => { $('fmt-copy').textContent = 'Copy'; }, 1500); });
-  $('fmt-download').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type: kind === 'mads' ? 'application/xml' : 'application/json' })); a.download = filename; a.click(); URL.revokeObjectURL(a.href); };
+  $('fmt-download').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type: kind === 'mads' ? 'application/xml' : kind === 'rdf' ? 'application/n-triples' : 'application/json' })); a.download = filename; a.click(); URL.revokeObjectURL(a.href); };
   m.hidden = false; document.body.style.overflow = 'hidden';
   window.deep.renders++;
 }
-window.deep.formats = { toPlato, toLpf, toMads, ctx: () => fmtCtx() };
+window.deep.formats = { toPlato, toLpf, toMads, toRdf, rdfCanonical, ctx: () => fmtCtx() };
 
 /* ── attestation tooltips ────────────────────────────────────────────────────────────────────
    One floating panel, filled from the structured record rather than from the printed string, so a
@@ -735,7 +747,8 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   h += `<div class="formats"><span class="meta">This record as</span>
         <button type="button" data-fmt="plato" title="PLATO place-centric JSON: every element of the record, with nothing dropped">PLATO</button>
         <button type="button" data-fmt="lpf" title="Linked Places Format v1.3: valid, and lossy; what it drops is shown in place">LPF <span class="ap">(lossy)</span></button>
-        <button type="button" data-fmt="mads" title="The source MADS XML, regenerated from the parsed record">MADS</button></div>`;
+        <button type="button" data-fmt="mads" title="The source MADS XML, regenerated from the parsed record">MADS</button>
+        <button type="button" data-fmt="rdf" title="RDF triples (N-Triples): the PLATO view expanded with PLATO's JSON-LD context, as in the whole-corpus deep-plato.nt.gz">RDF</button></div>`;
   S.current = gid;
   S.currentRec = rec;
   S.currentShard = shard;

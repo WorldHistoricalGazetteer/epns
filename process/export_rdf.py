@@ -126,17 +126,24 @@ def wkt(node):
 
 
 def county(cc):
-    from pyld import jsonld
     doc = json.load(gzip.open(EXP / "plato" / f"deep-plato-{cc}.json.gz"))
     doc["gazetteer"] = G["gaz"]
-    doc["@context"] = G["ctx"]
+    return cc, triples(doc, f"c{cc}")
+
+
+def triples(doc, label=None):
+    """One PLATO document -> N-Triples lines: expand with the context, name witness dates, WKT points, then type
+    and datatype by the ontology. docs/js/rdf.js is a port of exactly this, checked by the harness."""
+    from pyld import jsonld
+    doc = dict(doc, **{"@context": G["ctx"]})
     exp = jsonld.expand(doc)
     wkt(exp)
     lines = jsonld.to_rdf(exp, {"format": "application/n-quads"}).splitlines()
     dom, rng, dt = G["dom"], G["rng"], G["dt"]
     out, types = [], set()
     for ln in lines:
-        ln = re.sub(r"_:b(\d+)", rf"_:c{cc}b\1", ln)
+        if label:
+            ln = re.sub(r"_:b(\d+)", rf"_:{label}b\1", ln)
         s, p, rest = ln.split(" ", 2)
         m = PLAIN.match(ln)
         if m:
@@ -153,15 +160,20 @@ def county(cc):
         o = rest[:-2]
         if p in rng and (o.startswith("<") or o.startswith("_:")):
             types.add(f"{o} {RDFTYPE} {rng[p]} .")
-    return cc, out + sorted(types - set(out))       # pyld already types sources from authorityType
+    return out + sorted(types - set(out))       # pyld already types sources from authorityType
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--county", help="one county, to stdout")
     ap.add_argument("--procs", type=int, default=12)
+    ap.add_argument("--site", action="store_true",
+                    help="write docs/data/rdf/ (context, rules, canonical fixture graphs) for the per-record RDF view, "
+                         "pinned to the context commit the published deep-plato.nt.gz was built with; touches no export")
     args = ap.parse_args()
     man = json.loads((EXP / "manifest.json").read_text())
+    if args.site:
+        return site(man)
     ctx_commit = git("log", "-1", "--format=%H", "origin/main", "--", "schemas/plato.context.jsonld").strip()
     ctx, dom, rng, dt = schema(ctx_commit)
     with gzip.open(EXP / "deep-plato.jsonl.gz", "rt", encoding="utf-8") as f:
@@ -208,6 +220,33 @@ def main():
                   "per_county": per, "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     (EXP / "manifest.json").write_text(json.dumps(man, indent=1))
     print(f"{n:,} triples -> {out} ({entry['bytes'] / 1e6:.0f} MB) in {time.time() - t0:.0f}s; context {ctx_commit[:12]}")
+
+
+def site(man):
+    """The browser's per-record RDF view (docs/js/rdf.js) needs the same context and rules as the corpus file,
+    and a fixture to prove it produces the same graph: the seven records of docs/data/plato-sample.json, as
+    canonical N-Quads (RDFC-1.0 / URDNA2015), so blank-node labels do not matter."""
+    from pyld import jsonld
+    commit = man["rdf"]["context_commit"]
+    ctx, dom, rng, dt = schema(commit)
+    init(ctx, dom, rng, dt, None)
+    out = ROOT / "docs" / "data" / "rdf"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "context.jsonld").write_text(json.dumps({"@context": ctx}, ensure_ascii=False, separators=(",", ":")))
+    (out / "rules.json").write_text(json.dumps({"context_commit": commit, "domain": dom, "range": rng, "datatype": dt,
+                                                "bounds": sorted(BOUNDS), "gazetteer": "https://w3id.org/whg-epns/"}, indent=1))
+    sample = json.loads((ROOT / "docs" / "data" / "plato-sample.json").read_text())
+    recs = {}
+    for rid, r in sample["records"].items():
+        doc = {"gazetteer": {"@id": "https://w3id.org/whg-epns/"}, "spatialEntities": [r["plato"]]}
+        if r.get("identityRelations"):
+            doc["identityRelations"] = r["identityRelations"]
+        nq = "\n".join(triples(doc)) + "\n"
+        recs[rid] = {"triples": nq.count("\n"), "canonical": jsonld.normalize(
+            nq, {"algorithm": "URDNA2015", "inputFormat": "application/n-quads", "format": "application/n-quads"})}
+    (out / "sample.json").write_text(json.dumps({"context_commit": commit, "plato_commit": sample["plato_commit"], "records": recs}, ensure_ascii=False))
+    print(f"docs/data/rdf/: context and rules at PLATO {commit[:12]}; {len(recs)} canonical fixture graphs, "
+          f"{sum(r['triples'] for r in recs.values()):,} triples")
 
 
 if __name__ == "__main__":

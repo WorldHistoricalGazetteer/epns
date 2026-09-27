@@ -82,9 +82,13 @@ date is named `<witness>#timespan`, so it is written once rather than once per c
 are relabelled per county.
 
 Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
-through in place) and **as MADS** (regenerated), generated in the browser by `docs/js/formats.js`, a
-port of the Python exporter. `docs/data/plato-sample.json` is the Python's output for six records;
-the headless checks require the browser port to produce identical objects for them.
+through in place), **as MADS** (regenerated) and **as RDF** (N-Triples), generated in the browser by
+`docs/js/formats.js`, a port of the Python exporter, and `docs/js/rdf.js`, a port of `export_rdf.py`'s
+triplifier that loads jsonld.js on first use. `docs/data/plato-sample.json` is the Python's output for
+seven records, and `docs/data/rdf/` (written by `export_rdf.py --site`) holds the context and ontology
+rules pinned to the commit the published triples were built with, plus the Python's canonical graphs for
+the same seven records. The headless checks require the browser to produce identical JSON and, after
+RDFC-1.0 canonicalisation, identical graphs.
 
 ## Identifiers
 
@@ -176,6 +180,7 @@ process/fetch_data.sh                                   # once; 423 MB
 /usr/bin/python3 process/build_symphonym_index.py       # ~6 min; needs torch + onnxruntime + the indexing repo's tokeniser
 .venv/bin/python process/export_plato.py                # ~25 min with validation -> data/export/ (+ --sample for the fixture)
 .venv/bin/python process/export_rdf.py                  # ~12 min on 12 processes -> data/export/deep-plato.nt.gz
+.venv/bin/python process/export_rdf.py --site           # docs/data/rdf/ for the per-record RDF view (seconds)
 .venv/bin/python process/build_downloads.py --tag data-YYYY-MM-DD   # bundles + docs/downloads.html; then gh release upload
 /usr/bin/python3 tools/pages/shot.py --serve            # headless checks; --prove-it-fails to check the checks
 ```
