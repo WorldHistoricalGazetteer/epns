@@ -57,7 +57,7 @@ const deepUriOf = (cc, num) => `http://placenames.org.uk/id/placename/${cc}/${St
 export function timespan(sub, b, e, text) {
   if (b == null || e == null) return null;
   if (b > e) [b, e] = [e, b];
-  const ts = { label: text };
+  const ts = text ? { sourceLabel: text } : {};   // the date as written (PLATO 0.5.0: label is for named periods)
   if (sub === 'simple' && b === e) {
     Object.assign(ts, { startEarliest: y(b), startLatest: y(b), endEarliest: y(e), endLatest: y(e), startPrecision: 'year', endPrecision: 'year', edtfString: y(b) });
   } else if (sub === 'ante') {
@@ -76,6 +76,7 @@ export function timespan(sub, b, e, text) {
 
 /* ctx: { code (county), name (county name), volume (file name), types (type words), byGid (Map gid -> rec) } */
 /* process/sources.py's slug(), exactly: runs of anything but ASCII letters and digits become one hyphen. */
+const CITO_EVIDENCE = 'http://purl.org/spar/cito/citesAsEvidence';
 const slug = (s) => String(s || '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 function volumeSource(ctx) {
   const vol = /vol(\d+)/.exec(ctx.volume || '')?.[1];
@@ -91,8 +92,10 @@ function sourceFor(a, ctx) {
   const work = { '@id': d[0], title: d[1], citation: d[2], authorityType: 'source' };
   if (ctext || cb || ce || ms) {
     const witness = { '@id': `${d[0]}/witness/${slug(ms) || 'copy'}-${slug(String(ctext || '').replace(/\?/g, ' q ')) || 'undated'}`, title: `${d[1]}${ms ? ' (' + ms + ')' : ''}, the copy read`, authorityType: 'source', derivedFrom: work };
-    const ts = timespan(cb != null && ce != null && cb !== ce ? 'circa' : 'simple', cb ?? null, ce ?? null, ctext || (ms || ''));
-    if (ts) { ts.label = ctext ? ctext.replace(/\b([A-Za-z]+)\.\s*(?=\S)/g, '$1. ') : `copy (${ms})`; witness.timespan = ts; }
+    // the copy date as printed; where the corpus prints one witness's date two ways, the county file carries the commonest
+    const ts = timespan(cb != null && ce != null && cb !== ce ? 'circa' : 'simple', cb ?? null, ce ?? null,
+      ctext ? (ctx.sources?.['w:' + witness['@id']] ?? ctext) : null);
+    if (ts) witness.timespan = { '@id': `${witness['@id']}#timespan`, ...ts };
     return witness;
   }
   return work;
@@ -106,6 +109,7 @@ function citation(a, ctx) {
     x.appendix ? 'appendix ' + x.appendix : null, x.note ? 'note ' + x.note : null, x.number].filter(Boolean);
   if (loc.length) c.locator = loc.join(', ');
   if (a.u === 'ib' || a.u === 'id') c.attributionStatus = PLATO + 'AttributionInferred';
+  c.citationFunction = CITO_EVIDENCE;   // DEEP's <attestation>: the document the form was read in
   return c;
 }
 const isWrapper = (a) => !(a.d && a.d.length) && !(a.s && a.s[1]) && !a.c && !a.x;
@@ -154,7 +158,7 @@ export function toPlato(rec, ctx) {
         notes: t ? `a run: the volume's '${t}' between these citations` : "a run: the spelling recurs between these citations (the volume's wording was not captured)" };
       if (ds.length) {
         const b = Math.min(...ds.map((d) => d[1])), e = Math.max(...ds.map((d) => d[2]));
-        run.timespans = [{ startEarliest: y(b), startLatest: y(b), endEarliest: y(e), endLatest: y(e), label: `${b}–${e}, recurring` }];
+        run.timespans = [{ startEarliest: y(b), startLatest: y(b), endEarliest: y(e), endLatest: y(e) }];   // the run's wording is in notes
       }
       A.push(run);
       continue;
@@ -191,7 +195,7 @@ export function toPlato(rec, ctx) {
     if (e != null && n != null) ga.notes = `also given on the British National Grid (EPSG:27700): E ${e} N ${n}`;
     A.push(ga);
     if (ref && String(ref).startsWith('geonames:')) {
-      idr.push({ subject: uri, object: GEONAMES(String(ref).split(':')[1]), identityType: 'closeMatch', basis: `DEEP geo element, source geonames, gazref ${ref}`,
+      idr.push({ subject: uri, object: GEONAMES(String(ref).split(':')[1]), identityType: 'unspecified', basis: `DEEP geo element, source geonames, gazref ${ref}`,
         source: GAZ.geonames, assertedBy: `${W3ID}agent/deep` });   // the DEEP project as agent (process/sources.py)
     }
   });
@@ -223,11 +227,11 @@ export function toLpf(rec, ctx) {
     for (const c of a.citations || []) {
       const src = c.source;
       let lab = src.title;
-      if (src.derivedFrom) { lab = src.derivedFrom.title; drop(a.names[0].toponym, `witness "${src.title}" with its own date ${src.timespan?.label ?? ''} (derivedFrom ${lab}) collapses to "${lab}"`); }
+      if (src.derivedFrom) { lab = src.derivedFrom.title; drop(a.names[0].toponym, `witness "${src.title}" with its own date ${src.timespan?.sourceLabel ?? ''} (derivedFrom ${lab}) collapses to "${lab}"`); }
       if (c.locator) drop(a.names[0].toponym, `locator "${c.locator}"`);
       if (c.attributionStatus) drop(a.names[0].toponym, 'attributionStatus AttributionInferred (the volume said ibidem)');
       if (/italics/.test(src.citation || '')) drop(a.names[0].toponym, `source "${src.title}" set in italics (manuscript source): the roman/italic distinction`);
-      cits.push({ label: [(a.timespans || [{}])[0].label || '', lab].filter(Boolean).join(' ') });
+      cits.push({ label: [(a.timespans || [{}])[0].sourceLabel || '', lab].filter(Boolean).join(' ') });
     }
     let yr = null;
     for (const t of a.timespans || []) {
@@ -236,7 +240,7 @@ export function toLpf(rec, ctx) {
     }
     if (yr != null && cits.length) cits[0].year = yr;
     for (const t of a.timespans || []) {
-      if (t.startEarliest !== t.startLatest || t.endEarliest !== t.endLatest || t.precisionValue) drop(a.names[0].toponym, `date "${t.label}" is a bracket ${t.startEarliest}–${t.endLatest}; the citation keeps only year ${yr}`);
+      if (t.startEarliest !== t.startLatest || t.endEarliest !== t.endLatest || t.precisionValue) drop(a.names[0].toponym, `date "${t.sourceLabel ?? ''}" is a bracket ${t.startEarliest}–${t.endLatest}; the citation keeps only year ${yr}`);
     }
     if (a.occurrenceCount != null) drop(a.names[0].toponym, `occurrenceCount ${a.occurrenceCount}`);
     if (a.occurrenceContext) drop(a.names[0].toponym, 'occurrenceContext InPersonalName: the "(p)" marker');

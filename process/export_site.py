@@ -182,6 +182,7 @@ def main():
 
     EXTRA = ["page", "item", "folio", "ms", "pername", "entry", "appendix", "note", "number", "times"]
     source_reg = SRC.registry(con)
+    witness_label = SRC.witness_labels(con)     # the few witnesses whose date the corpus prints two ways
     county_files = []
     by_county = defaultdict(list)
     for i, p in enumerate(places):
@@ -214,6 +215,10 @@ def main():
                             k = sid if sid else "x-" + SRC.slug(stext)
                             d = source_reg.get((cc, k)) or SRC.class_description(cc, county_name.get(cc, cc), sid, stext, style)
                             srcs[k] = [d["@id"], d["title"], d["citation"]]
+                    if ctext and (stext or sid):
+                        wi = SRC.witness_iri(SRC.work_iri(cc, sid, stext), extra[3], ctext)    # extra[3] is ms
+                        if wi in witness_label:
+                            srcs["w:" + wi] = witness_label[wi]
                     if pa is not None:
                         a["pa"] = pos_of.get(pa)
                     if under:

@@ -65,29 +65,44 @@ Every PLATO and LPF file carries `plato_commit=<sha>` in its header and the mani
 sha; `export_plato.py --verify` fails loudly if they disagree. The exporter reads the schema out of that
 exact commit with `git show`, so the stamp names what validated the output. Where the commit carries a
 release tag whose name matches `owl:versionInfo` the files also cite the version (the current exports
-are against PLATO v0.4.0, the first release to carry `plato:Citation` with locator and attribution
-status, `source_timespan`, `derived_from`, `occurrence_count`, `occurrence_context` and
-`form_status`); where it does not, the files say so rather than quote a version string that does not
-describe them.
+are against PLATO v0.5.0); where it does not, the files say so rather than quote a version string that
+does not describe them.
+
+**Each data release is a frozen snapshot.** PLATO 0.5.0 makes a published gazetteer append-only: an
+attestation is never deleted or changed, only superseded or retracted by a new one. So a rebuild is a new
+release under a new name (`process/release.json`), and an uploaded release is never replaced. The
+gazetteer header names the snapshot `https://w3id.org/whg-epns/release/<name>`, with `version`,
+`status: published`, `isVersionOf` the living namespace root and `previousVersion` the release before.
+
+Under 0.5.0 the export also:
+- puts dates as the volume writes them ("c. 925") in a timespan's `sourceLabel`, because `label` is now
+  for named periods. A copy witness's date is printed two ways in the corpus for 7 witnesses; each takes
+  its commonest printing, and the MADS keeps the others.
+- gives `citationFunction` cito:citesAsEvidence to the citations of DEEP's `<attestation>` elements, the
+  documents a form was read in, and to nothing else, because nowhere else does the data say why a source
+  is cited.
+- gives the GeoNames matches `identityType: unspecified`, because DEEP does not say how strong they are.
+- names each copy witness's date `<witness>#timespan` in the JSON itself, so the JSON Lines and the
+  N-Triples describe one graph.
 
 The triples come from the validated PLATO files, whose digests `export_rdf.py` checks against the
-manifest first, expanded by PLATO's own context (the latest commit of `schemas/plato.context.jsonld`,
-which postdates v0.4.0). The context's `$comment` lists what a context cannot do; the exporter does three
+manifest first, expanded by PLATO's own context at the commit the records are validated against. The context's `$comment` lists what a context cannot do; the exporter does three
 of those things by rule from `ontology.ttl` at the same commit. It types every node by the rdfs:domain and
 rdfs:range of the predicates that touch it (single named `plato:` classes only), gives typed literals
 their declared XSD datatype and timespan bounds `xsd:gYear`, and writes representative points as
 `geo:wktLiteral`. Names get no language tag, since the spellings are several languages in one field.
 The 66 county files share one gazetteer node, described once from the corpus header; a copy witness's
-date is named `<witness>#timespan`, so it is written once rather than once per citing record; blank nodes
+date is named `<witness>#timespan` in the PLATO JSON itself, so the triples carry one node per date, not one
+per citing record; blank nodes
 are relabelled per county.
 
 Each place page on the map also shows its own record **as PLATO**, **as LPF** (with the losses struck
 through in place), **as MADS** (regenerated) and **as RDF** (N-Triples), generated in the browser by
 `docs/js/formats.js`, a port of the Python exporter, and `docs/js/rdf.js`, a port of `export_rdf.py`'s
 triplifier that loads jsonld.js on first use. `docs/data/plato-sample.json` is the Python's output for
-seven records, and `docs/data/rdf/` (written by `export_rdf.py --site`) holds the context and ontology
+eight records, and `docs/data/rdf/` (written by `export_rdf.py --site`) holds the context and ontology
 rules pinned to the commit the published triples were built with, plus the Python's canonical graphs for
-the same seven records. The headless checks require the browser to produce identical JSON and, after
+the same eight records. The headless checks require the browser to produce identical JSON and, after
 RDFC-1.0 canonicalisation, identical graphs.
 
 ## Identifiers
@@ -105,8 +120,8 @@ university home page for every path. The exports and the per-record files theref
 and name forms as **`https://w3id.org/whg-epns/<county>/<serial>`**: DEEP's own pair, unchanged, under a
 w3id namespace registered by the World Historical Gazetteer (decision of 26 September 2026), so a 2013
 URI maps to its w3id by prefix substitution alone. The original DEEP URI is kept on every record as
-provenance. Until the registration is merged at `perma-id/w3id.org` the URIs are declared but not yet
-resolvable; the export manifest says so.
+provenance. The registration was merged at `perma-id/w3id.org` (pull request 6754), and the URIs
+resolve.
 
 ## Persistent identifiers, prepared
 
@@ -148,8 +163,8 @@ Where DEEP spells one source id several ways, the IRI's title is the commonest s
 the rest. `export_records.py` refuses to write if any IRI would carry two different descriptions.
 
 Each IRI dereferences to `docs/id/<path>.json` (10,353 files): the source as JSON-LD, with PLATO's own
-term definitions for a citation's source lifted into the file's context from the latest commit of
-PLATO's JSON-LD context, which postdates the v0.4.0 release the records validate against. The build
+term definitions for a citation's source lifted into the file's context from PLATO's JSON-LD context at
+the commit the records are validated against. The build
 round-trips a sample through expansion and compaction and requires them unchanged.
 
 ## Layout

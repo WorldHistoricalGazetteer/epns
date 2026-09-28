@@ -147,13 +147,10 @@ def main():
 CITES_PATH = ("attestations", "citations", "source")     # where the PLATO context scopes the Source terms
 
 
-def source_context():
+def source_context(commit):
     """The Source terms exactly as PLATO's own context scopes them under attestations > citations > source,
-    lifted from the latest commit of the context on PLATO main (it postdates the v0.4.0 tag the records are
-    validated against), with the prefixes they use. The context types nothing (its own $comment says so),
+    lifted from the context at the PLATO commit the records are validated against, with the prefixes they use. The context types nothing (its own $comment says so),
     so a file whose object states no authorityType also states its rdf:type."""
-    commit = subprocess.check_output(["git", "-C", str(PLATO_REPO), "log", "-1", "--format=%H", "origin/main", "--",
-                                      "schemas/plato.context.jsonld"], text=True).strip()
     full = json.loads(git_show(commit, "schemas/plato.context.jsonld"))["@context"]
     scoped = full
     for k in CITES_PATH:
@@ -164,7 +161,7 @@ def source_context():
 
 
 def write_sources(ex, con):
-    ctx, commit = source_context()
+    ctx, commit = source_context(ex.sha)     # the commit the records are validated against (v0.5.0 carries the context)
     rows = con.execute("""SELECT p.county_code, a.source_id, a.source_text, a.source_style, a.source_underspec, a.copydate_text,
                                  a.copydate_begin, a.copydate_end, a.ms FROM attestation a JOIN place p USING (place_id)""").fetchall()
     keys = ("cc", "source_id", "source_text", "source_style", "source_underspec", "copydate_text", "copydate_begin", "copydate_end", "ms")

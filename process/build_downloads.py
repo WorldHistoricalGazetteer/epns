@@ -28,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EXP = ROOT / "data" / "export"
 REPO = "WorldHistoricalGazetteer/epns"
+RELEASE = json.loads((Path(__file__).resolve().parent / "release.json").read_text())
 LICENCE_TEXT = ("Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and "
                 "released under a Creative Commons Attribution-NonCommercial 4.0 International License.")
 
@@ -67,7 +68,7 @@ def bundle_analytic() -> list[dict]:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--tag", required=True, help="the GitHub release tag the assets are (to be) attached to")
+    ap.add_argument("--tag", default=RELEASE["name"], help="the GitHub release tag the assets are (to be) attached to (default: process/release.json)")
     ap.add_argument("--check", action="store_true", help="verify every asset named on the page exists in the release")
     ap.add_argument("--no-bundle", action="store_true", help="do not rebuild the parquet tar / duckdb gz")
     args = ap.parse_args()
@@ -121,7 +122,7 @@ def main():
 
     commit_link = f'<a href="https://github.com/pelagios/place-attestation-ontology/commit/{man["plato_commit"]}"><code>{man["plato_commit"][:12]}</code></a>'
     prov = (f'generated and schema-validated against PLATO <a href="https://github.com/pelagios/place-attestation-ontology/releases/tag/{man["plato_tag"]}">{man["plato_tag"]}</a> '
-            f'(release {man["plato_versionInfo_at_commit"]}, commit {commit_link}); the Citation class, source dating, occurrence and form status this export uses are first released in that version'
+            f'(release {man["plato_versionInfo_at_commit"]}, commit {commit_link})'
             if man.get("plato_tag") else
             f'generated and validated against PLATO commit {commit_link}. That commit\'s <code>owl:versionInfo</code> reads <code>{man["plato_versionInfo_at_commit"]}</code>, which is not the provenance: '
             f'the terms this export uses are on <code>main</code> and in no release')
@@ -154,6 +155,7 @@ def main():
   <h1>Downloads</h1>
   <p>The whole corpus, in four shapes for four purposes: the English Place-Name Society survey volumes as digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc, the UK higher-education technology body. Every file below was generated from the same DuckDB build of that XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed. Nottingham's own <a href="https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx">Digital Survey of English Place-Names</a> continues to develop the material; these files are the 2017 release as open data.</p>
   {access_note}
+  <p class="small"><b>Release {args.tag}</b>, a frozen snapshot of the living gazetteer <code>https://w3id.org/whg-epns/</code>: PLATO 0.5.0 makes a published gazetteer append-only, so a release is never regenerated in place, and a correction comes as a new release. The previous release, <a href="https://github.com/{REPO}/releases/tag/{RELEASE["previous"]}">{RELEASE["previous"]}</a>, stays where it is.</p>
   <div class="licence">{LICENCE_TEXT}<br /><span class="small">Every file on this page derives from that data and carries the same terms. The PLATO and LPF serialisations are adaptations of it and therefore cannot be offered under CC BY or CC0.</span></div>
 
   <h2>1. PLATO — lossless</h2>

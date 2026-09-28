@@ -11,7 +11,7 @@ here: a key the context does not define does not become a triple. The inputs are
 manifest's sha256 first, so the triples cannot come from files other than the ones the manifest describes.
 
 WHAT IS ADDED, AND WHY. The context's own $comment lists what a context cannot do and a triplifier must.
-This one does three of those things, and one more,, each by rule from the ontology (ontology.ttl at the same PLATO commit), not by hand:
+This one does three of those things, each by rule from the ontology (ontology.ttl at the same PLATO commit), not by hand:
 
   rdf:type      For every triple, the subject is typed with the predicate's rdfs:domain and an IRI or
                 blank-node object with its rdfs:range, where that is one named plato: class. This is the
@@ -23,8 +23,6 @@ This one does three of those things, and one more,, each by rule from the ontolo
                 are years, zero-padded: '0990'), xsd:date for a full date. Anything else stays plain.
   repr_point    The context yields an RDF list of two numbers; the ontology declares geo:wktLiteral, so
                 it becomes "POINT(lon lat)"^^geo:wktLiteral.
-  timespans     A copy witness's date is named <witness IRI>#timespan instead of a blank node, so the
-                witness and its date are written once, not once per record that cites it.
 
 Not done: name strings carry no language tag. DEEP's forms are Old English, Middle English, Anglo-Norman
 and Latin spellings in one field, and 'en' on Bonestou would be false.
@@ -32,7 +30,8 @@ and Latin spellings in one field, and 'en' on Bonestou would be false.
 ONE GRAPH, NOT 66. Every county file names the same gazetteer node (https://w3id.org/whg-epns/), with a
 county-specific title; merged, that node would carry 66 titles. The corpus-wide gazetteer header from
 deep-plato.jsonl.gz replaces them, so it is described once. Triples about shared nodes (the gazetteer,
-sources, volumes, and the types of outside IRIs such as GeoNames features) are written once. Blank nodes are relabelled per county (_:c52b123), since pyld numbers
+sources, volumes, witness dates, which the JSON names <witness>#timespan, and the types of outside IRIs
+such as GeoNames features) are written once. Blank nodes are relabelled per county (_:c52b123), since pyld numbers
 each document from _:b0.
 """
 from __future__ import annotations
@@ -106,13 +105,6 @@ def wkt(node):
         for x in node:
             wkt(x)
     elif isinstance(node, dict):
-        # a witness is shared by every record that cites it; its timespan, a blank node in the JSON, would be
-        # minted again by each one. Named <witness>#timespan it is one node, written once like the witness.
-        ts = P + "source_timespan"
-        if "/witness/" in node.get("@id", "") and ts in node:
-            for t in node[ts]:
-                if isinstance(t, dict) and "@id" not in t:
-                    t["@id"] = node["@id"] + "#timespan"
         k = P + "repr_point"
         if k in node:
             out = []
@@ -174,11 +166,13 @@ def main():
     man = json.loads((EXP / "manifest.json").read_text())
     if args.site:
         return site(man)
-    ctx_commit = git("log", "-1", "--format=%H", "origin/main", "--", "schemas/plato.context.jsonld").strip()
+    ctx_commit = man["plato_commit"]      # context and ontology at the commit the records were validated against (v0.5.0 carries both)
     ctx, dom, rng, dt = schema(ctx_commit)
     with gzip.open(EXP / "deep-plato.jsonl.gz", "rt", encoding="utf-8") as f:
         gaz = json.loads(f.readline())["gazetteer"]
     init(ctx, dom, rng, dt, gaz)
+    global GAZ_IRI
+    GAZ_IRI = f"<{gaz['@id']}>"             # the release snapshot: its own triples are written once
     if args.county:
         for ln in county(args.county)[1]:
             print(ln)
@@ -229,16 +223,18 @@ def site(man):
     from pyld import jsonld
     commit = man["rdf"]["context_commit"]
     ctx, dom, rng, dt = schema(commit)
+    with gzip.open(EXP / "deep-plato.jsonl.gz", "rt", encoding="utf-8") as f:
+        gaz_id = json.loads(f.readline())["gazetteer"]["@id"]     # the release snapshot, as in the corpus file
     init(ctx, dom, rng, dt, None)
     out = ROOT / "docs" / "data" / "rdf"
     out.mkdir(parents=True, exist_ok=True)
     (out / "context.jsonld").write_text(json.dumps({"@context": ctx}, ensure_ascii=False, separators=(",", ":")))
     (out / "rules.json").write_text(json.dumps({"context_commit": commit, "domain": dom, "range": rng, "datatype": dt,
-                                                "bounds": sorted(BOUNDS), "gazetteer": "https://w3id.org/whg-epns/"}, indent=1))
+                                                "bounds": sorted(BOUNDS), "gazetteer": gaz_id}, indent=1))
     sample = json.loads((ROOT / "docs" / "data" / "plato-sample.json").read_text())
     recs = {}
     for rid, r in sample["records"].items():
-        doc = {"gazetteer": {"@id": "https://w3id.org/whg-epns/"}, "spatialEntities": [r["plato"]]}
+        doc = {"gazetteer": {"@id": gaz_id}, "spatialEntities": [r["plato"]]}
         if r.get("identityRelations"):
             doc["identityRelations"] = r["identityRelations"]
         nq = "\n".join(triples(doc)) + "\n"

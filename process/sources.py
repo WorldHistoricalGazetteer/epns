@@ -98,10 +98,19 @@ def witness_iri(work: str, ms: str | None, ctext: str | None) -> str:
     return f"{work}/witness/{slug(ms) or 'copy'}-{slug((ctext or '').replace('?', ' q ')) or 'undated'}"
 
 
-def copy_label(ctext: str) -> str:
-    """The printed copy date with its abbreviation spacing made uniform ('c.1230' -> 'c. 1230'), so that
-    one witness IRI carries one label; the MADS keeps the printed form."""
-    return re.sub(r"\b([A-Za-z]+)\.\s*(?=\S)", r"\1. ", ctext)
+def witness_labels(con) -> dict:
+    """witness IRI -> the copy date as printed, for the witnesses whose citations print it more than one way.
+    PLATO 0.5.0 puts a date as the source writes it in sourceLabel, so it is not normalised; one witness IRI
+    still needs one description, so where the corpus prints its date two ways ('c. 1000', 'c.1000') the
+    commonest printing is the witness's, ties to the first in code-point order. The MADS keeps every printing.
+    Every other witness takes its date exactly as its citation prints it."""
+    from collections import Counter, defaultdict
+    seen = defaultdict(Counter)
+    for cc, sid, text, ctext, ms in con.execute("""SELECT p.county_code, a.source_id, a.source_text, a.copydate_text, a.ms
+                                                  FROM attestation a JOIN place p USING (place_id) WHERE a.copydate_text IS NOT NULL
+                                                  AND a.copydate_text <> '' AND (a.source_text IS NOT NULL OR a.source_id IS NOT NULL)""").fetchall():
+        seen[witness_iri(work_iri(cc, sid, text), ms, ctext)][ctext] += 1
+    return {w: sorted(c.items(), key=lambda kv: (-kv[1], kv[0]))[0][0] for w, c in seen.items() if len(c) > 1}
 
 
 def volume_iri(cc: str) -> str:

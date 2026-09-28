@@ -1,5 +1,5 @@
 {
- "context_commit": "9d2c36e251be0d927e24cb75ac2f861406627767",
+ "context_commit": "fa0d247ccc0263f8f19c8d7cdcd163df96935d1e",
  "domain": {
   "<https://w3id.org/plato#attests_about>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#attests_name>": "<https://w3id.org/plato#Attestation>",
@@ -13,6 +13,7 @@
   "<https://w3id.org/plato#has_relation_type>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#meta_attestation_about>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#has_meta_type>": "<https://w3id.org/plato#Attestation>",
+  "<https://w3id.org/plato#negated>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#sequence>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#connection_metadata>": "<https://w3id.org/plato#Attestation>",
   "<https://w3id.org/plato#notes>": "<https://w3id.org/plato#Attestation>",
@@ -25,6 +26,7 @@
   "<https://w3id.org/plato#cites>": "<https://w3id.org/plato#Citation>",
   "<https://w3id.org/plato#locator>": "<https://w3id.org/plato#Citation>",
   "<https://w3id.org/plato#attribution_status>": "<https://w3id.org/plato#Citation>",
+  "<https://w3id.org/plato#citation_function>": "<https://w3id.org/plato#Citation>",
   "<https://w3id.org/plato#identity_subject>": "<https://w3id.org/plato#IdentityRelation>",
   "<https://w3id.org/plato#identity_object>": "<https://w3id.org/plato#IdentityRelation>",
   "<https://w3id.org/plato#identity_type>": "<https://w3id.org/plato#IdentityRelation>",
@@ -66,6 +68,7 @@
   "<https://w3id.org/plato#type_identifier>": "<https://w3id.org/plato#Type>",
   "<https://w3id.org/plato#type_label>": "<https://w3id.org/plato#Type>",
   "<https://w3id.org/plato#property_type>": "<https://w3id.org/plato#PropertyValue>",
+  "<https://w3id.org/plato#universe>": "<https://w3id.org/plato#PropertyValue>",
   "<https://w3id.org/plato#property_label>": "<https://w3id.org/plato#PropertyValue>",
   "<https://w3id.org/plato#value_literal>": "<https://w3id.org/plato#PropertyValue>",
   "<https://w3id.org/plato#value_datatype>": "<https://w3id.org/plato#PropertyValue>",
@@ -128,6 +131,7 @@
   "<https://w3id.org/plato#has_timespan>": "<https://w3id.org/plato#Timespan>",
   "<https://w3id.org/plato#attests_type>": "<https://w3id.org/plato#Type>",
   "<https://w3id.org/plato#attests_property>": "<https://w3id.org/plato#PropertyValue>",
+  "<https://w3id.org/plato#universe>": "<https://w3id.org/plato#PropertyValue>",
   "<https://w3id.org/plato#sourced_by>": "<https://w3id.org/plato#Authority>",
   "<https://w3id.org/plato#cites>": "<https://w3id.org/plato#Authority>",
   "<https://w3id.org/plato#identity_sourced_by>": "<https://w3id.org/plato#Authority>",
@@ -170,5 +174,5 @@
   "<https://w3id.org/plato#start_earliest>",
   "<https://w3id.org/plato#start_latest>"
  ],
- "gazetteer": "https://w3id.org/whg-epns/"
+ "gazetteer": "https://w3id.org/whg-epns/release/data-2026-09-28"
 }
