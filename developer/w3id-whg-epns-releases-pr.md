@@ -1,7 +1,7 @@
 # PR body for perma-id/w3id.org — `whg-epns`: release identifiers
 
 *Branch `whg-epns-releases` on the fork `docuracy/w3id.org`, one commit (ce8d11de, rebased on upstream 79d537ca).
-Files: `ids/whg-epns/.htaccess` (+7 lines), `ids/whg-epns/README.md` (+3/-1). Opened together with the
+Files: `ids/whg-epns/.htaccess` (+8/-1), `ids/whg-epns/README.md` (+2). Opened together with the
 `plato` namespace's versioned-IRI request, by the maintainer listed for both directories.*
 
 ---
