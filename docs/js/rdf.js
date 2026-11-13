@@ -24,7 +24,7 @@ const LEX = {
   integer: /^[+-]?\d+$/,
 };
 const PLAIN = /^(\S+) (<[^>]+>) "((?:[^"\\]|\\.)*)" \.$/;
-const JSONLD = 'https://cdn.jsdelivr.net/npm/jsonld@8.3.3/+esm';
+const JSONLD = new URL('../vendor/jsonld/jsonld.mjs', import.meta.url).href;   // vendored jsonld 8.3.3, bundled (docs/vendor/README.md)
 
 let loaded = null;
 async function load() {

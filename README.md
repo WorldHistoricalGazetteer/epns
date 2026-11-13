@@ -228,6 +228,16 @@ Static, server-less, "fetch only what you need". At boot it loads the 161k non-f
 opened; the name index (`names/`) when you first search; and the phonetic model and matrix only when
 the toggle is on. All of it is cached in IndexedDB under the manifest's digests.
 
+**Offline.** The page works with no network once it has been visited, with these parts needing one: the
+basemap tiles (the map is grey, the points still draw), the release downloads and the w3id addresses.
+Three things make that so. `docs/sw.js` (a service worker) keeps the page's own code; `docs/vendor/`
+holds MapLibre, onnxruntime-web, any-ascii and jsonld, pinned and served from this site instead of
+unpkg and jsdelivr (versions, digests and licences in `docs/vendor/README.md`; the one import the
+unmodifiable `symphonym/preprocess.js` makes from a CDN is answered from there by the service worker);
+and `boot()` starts from the last manifest saved in IndexedDB when the network fetch fails. The ⓘ panel's
+"Save everything for offline use" fetches all county files and the phonetic model first. The harness's
+`offline` check proves it in a browser whose network is gone, with controls that fail if it is not.
+
 Phonetic matching is [Symphonym v8](https://doi.org/10.5281/zenodo.22767194), run in the browser with
 onnxruntime-web. The model, vocabularies and tokeniser port are copied unmodified from
 [whg3](https://github.com/WorldHistoricalGazetteer/whg3) and hash-checked on load; the offline matrix

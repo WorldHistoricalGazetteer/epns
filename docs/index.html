@@ -6,7 +6,7 @@
   <title>DEEP — English place-name survey explorer</title>
   <meta name="description" content="Every place-name and historical spelling in the English Place-Name Society survey volumes as digitised by DEEP (2013): searchable, mapped, browsable by county, hundred, parish and township." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="vendor/maplibre-gl/maplibre-gl.css" />
   <link rel="stylesheet" href="css/app.css?v=4" />
 </head>
 <body>
@@ -80,6 +80,7 @@
 
         <h3>Storage</h3>
         <p>Data files are cached in your browser (IndexedDB) after the first download, so later visits are quick and the site works with a poor connection. <button id="clear-cache" type="button">Clear cached data</button> <span class="small" id="cache-size"></span></p>
+        <p><b>Offline.</b> After one visit the page, its code and the data you have opened are kept, and the page starts without a network. <button id="prep-offline" type="button">Save everything for offline use</button> <span class="small" id="prep-msg"></span><br /><span class="small">Saves all 66 county files (about 134 MB) and the phonetic model and index (about 50 MB), so every record, search and sound-alike match works with no connection. <b>Not available offline:</b> the basemaps (CARTO, OpenStreetMap, the OS six-inch sheets: tiles come from the network, so the map is blank grey, with the place points still drawn), the release downloads and the w3id addresses.</span></p>
 
         <h3>Credits and code</h3>
         <p>Survey data © English Place-Name Society, digitised by DEEP (Digital Exposure of English Place-names, 2011–13) and published by Jisc in 2017, CC BY-NC 4.0; the continuing Digital Survey is the Institute for Name-Studies', University of Nottingham. Symphonym v8 © Stephen Gadd, CC BY 4.0, with the browser tokeniser and runtime integration from the <a href="https://github.com/WorldHistoricalGazetteer/whg3" target="_blank" rel="noopener">World Historical Gazetteer</a> (BSD 3-Clause, University of Pittsburgh). Map rendering by <a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre GL</a>. This site and its data pipeline are open source at <a href="https://github.com/WorldHistoricalGazetteer/epns" target="_blank" rel="noopener">github.com/WorldHistoricalGazetteer/epns</a>, where corrections and suggestions are welcome as issues.</p>
@@ -100,7 +101,8 @@
     </div>
   </div>
 
-  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script type="module" src="js/app.js?v=10"></script>
+  <script src="vendor/maplibre-gl/maplibre-gl.js"></script>
+  <script type="module" src="js/app.js?v=11"></script>
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});</script>
 </body>
 </html>

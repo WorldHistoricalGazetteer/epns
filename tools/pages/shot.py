@@ -568,7 +568,125 @@ def check_cache(page, rep: Report, url: str):
     rep.add("cache: core.json served from IndexedDB (no network request)", len(fetched) == 0, f"{len(fetched)} request(s)")
 
 
-CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "ids": None, "downloads": None, "cache": None}
+def check_offline(pw, rep: Report, url: str, httpd=None):
+    """The page must START, and the record, search, sound-alike and RDF views must work, with no network at all.
+
+    It uses its OWN browser profile in a temporary directory (never the user's), in two phases that share
+    that profile, so the service worker and IndexedDB survive between them:
+      1. online: load the page, wait for the service worker, press "save everything for offline use";
+      2. the browser is closed and started again with the network GONE, and the page is loaded in it.
+    "Gone" means: for a deployed URL, every hostname fails to resolve (--host-resolver-rules), which
+    reaches the service worker's own fetches too (Playwright's context.set_offline does NOT: measured,
+    a service worker still reached the server); for --serve, the loopback server is stopped.
+    Controls, because "works offline" passes whenever the network quietly stayed on:
+      - a cross-origin fetch must be blocked;
+      - a same-origin fetch of a file that exists nowhere must fail at the NETWORK (a 404 would mean the
+        server answered, so the browser was never offline).
+    Basemap tiles are NOT expected to load offline; the check asserts the place points still draw."""
+    import shutil
+    import tempfile
+    prof = tempfile.mkdtemp(prefix="deep-offline-")
+    try:
+        ctx = pw.chromium.launch_persistent_context(prof, viewport={"width": 1400, "height": 900})
+        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        page.goto(url, wait_until="load", timeout=60_000)
+        wait_ready(page)
+        sw = page.evaluate("""async () => { if (!('serviceWorker' in navigator)) return 'unsupported';
+            const t = new Promise(r => setTimeout(() => r('none'), 8000));
+            return await Promise.race([navigator.serviceWorker.ready.then(() => 'ready'), t]); }""")
+        rep.add("offline: service worker state (information)", True, sw)
+        if page.query_selector("#prep-offline"):
+            page.evaluate("document.getElementById('info-modal').hidden = false")
+            page.evaluate("document.getElementById('prep-offline').click()")
+            try:
+                page.wait_for_function("document.getElementById('prep-msg').innerText.startsWith('done') || document.getElementById('prep-msg').innerText.startsWith('stopped')", timeout=420_000)
+            except Exception:
+                pass
+            msg = page.evaluate("document.getElementById('prep-msg').innerText")
+            rep.add("offline: 'save everything for offline use' completes", msg.startswith("done"), msg[:100])
+        else:
+            rep.add("offline: page offers 'save everything for offline use'", False, "no #prep-offline button")
+        page.wait_for_timeout(1500)   # let IndexedDB writes finish before the browser is closed
+        ctx.close()
+        # phase 2: the network is gone
+        args = ["--host-resolver-rules=MAP * ~NOTFOUND"]
+        if httpd is not None:   # loopback is the one host the local server needs; stopping it is what cuts that
+            httpd.shutdown()
+            httpd.server_close()
+            args = ["--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE 127.0.0.1"]
+        ctx = pw.chromium.launch_persistent_context(prof, args=args, viewport={"width": 1400, "height": 900})
+        try:
+            p2 = ctx.pages[0] if ctx.pages else ctx.new_page()
+            errs = []
+            p2.on("pageerror", lambda e: errs.append(str(e)[:120]))
+            try:
+                p2.goto(url, wait_until="load", timeout=30_000)
+            except Exception as e:  # noqa: BLE001
+                rep.add("offline: the page document loads", False, str(e)[:100])
+                return
+            # the controls first: if either fails, nothing below means anything
+            other = p2.evaluate("fetch('https://example.org/', {mode: 'no-cors'}).then(() => 'reached').catch(() => 'blocked')")
+            rep.add("offline control: a cross-origin fetch is blocked", other == "blocked", other)
+            same = p2.evaluate("fetch('offline-control-' + Date.now() + '.txt').then(r => 'server answered ' + r.status).catch(() => 'network failed')")
+            rep.add("offline control: a same-origin fetch of a file that is not cached fails at the network", same == "network failed", same)
+            flags = wait_ready(p2, 60_000)
+            veil = p2.evaluate("document.getElementById('veil-msg')?.innerText || ''")
+            rep.add("offline: the page starts with no network (window.deep.ready)", flags["ready"], (json.dumps(flags) + " " + veil)[:140])
+            if not flags["ready"]:
+                return
+            p2.evaluate("document.getElementById('info-close')?.click()")
+            n = p2.evaluate("window.deep.map.queryRenderedFeatures({layers:['places']}).length")
+            rep.add("offline: place points still draw (basemap tiles are not expected)", n > 100, f"{n} features")
+            if not wait_index(p2):
+                rep.add("offline: name index loads from the cache", False)
+                return
+            before = p2.evaluate("window.deep.renders")
+            p2.fill("#q", "Bunsty")
+            wait_render(p2, before)
+            txt = p2.evaluate("document.getElementById('drawer').innerText")
+            rep.add("offline: search finds Bunsty Hundred", "Bunsty Hundred" in txt, txt[:60].replace("\n", " | "))
+            before = p2.evaluate("window.deep.renders")
+            p2.fill("#q", "qzxqzxqzx")
+            wait_render(p2, before)
+            rep.add("offline: nonsense still finds nothing (paired with the hit above)", "No spelling matches" in p2.evaluate("document.getElementById('drawer').innerText"))
+            # a county the page has not opened in THIS tab: its file must come from IndexedDB
+            rep.add("offline: a field-name opens (its county file comes from the cache)", goto_id(p2, "28-e-fn-000001", 60_000))
+            rep.add("offline: that record names its township", "Alfreton" in p2.evaluate("document.getElementById('drawer').innerText"))
+            # the RDF view needs jsonld.js: vendored, so no CDN
+            goto_id(p2, "02-hu-subcounty-000001")
+            before = p2.evaluate("window.deep.renders")
+            p2.evaluate("document.querySelector('.formats button[data-fmt=rdf]').click()")
+            wait_render(p2, before, 60_000)
+            body = p2.evaluate("document.getElementById('fmt-body').innerText")
+            rep.add("offline: the N-Triples view builds (jsonld.js is local)", "<https://w3id.org/plato#" in body and "Could not build" not in body, body[:70].replace("\n", " "))
+            p2.evaluate("document.getElementById('fmt-modal').hidden = true")
+            # sound-alike: model, matrix and runtime from the cache
+            p2.evaluate("document.getElementById('phon').click()")
+            try:
+                p2.wait_for_function("window.deep.state.phonReady === true", timeout=120_000)
+                ok = True
+            except Exception:
+                ok = False
+            rep.add("offline: phonetic model and index load from the cache", ok, p2.evaluate("document.getElementById('status')?.innerText || ''")[:80])
+            if ok:
+                before = p2.evaluate("window.deep.renders")
+                p2.fill("#q", "Snotingaham")
+                wait_render(p2, before)
+                try:
+                    p2.wait_for_function("(() => { const t = document.getElementById('drawer').innerText.toLowerCase(); return t.includes('snotingaham') && (t.includes('sounds like') || t.includes('nothing sounds') || document.querySelector('#drawer .rs .score')); })()", timeout=60_000)   # the query must be IN the drawer: the previous query's 'Nothing sounds…' is still there
+                except Exception:
+                    pass
+                nsc = p2.evaluate("document.querySelectorAll('#drawer .rs .score').length")
+                rep.add("offline: a sound-alike query returns scored candidates", nsc > 0, f"{nsc} scores; " + p2.evaluate("document.getElementById('drawer').innerText")[:160].replace("\n", " | "))
+            p2.screenshot(path=str(OUT / "offline.png"))
+            rep.add("offline: no uncaught page errors", not errs, "; ".join(errs)[:120])
+        finally:
+            ctx.close()
+    finally:
+        shutil.rmtree(prof, ignore_errors=True)
+
+
+CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "ids": None, "downloads": None, "cache": None, "offline": None}
 
 
 def main():
@@ -621,6 +739,11 @@ def main():
                 check_downloads(page, rep, url)
             if "cache" in wanted:
                 check_cache(page, rep, url)
+            if "offline" in wanted:   # last: it cuts the network for the context
+                try:
+                    check_offline(pw, rep, url, httpd)
+                except Exception as e:  # noqa: BLE001
+                    rep.add("offline: harness exception", False, str(e)[:160])
         browser.close()
     if httpd:
         httpd.shutdown()

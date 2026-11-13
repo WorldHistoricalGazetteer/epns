@@ -107,6 +107,10 @@ export async function cached(path, version, { binary = false, onProgress = null,
   return data;
 }
 
+/* The last manifest that was fetched, kept so the page can start with no network (see boot() in app.js). */
+export async function saveManifest(m) { return put('__manifest__', 'last', m); }
+export async function loadManifest() { const h = await get('__manifest__'); return h ? h.data : null; }
+
 /* Drop everything: the modal offers this so a visitor can reclaim the space. */
 export async function clearAll() {
   const db = await open();

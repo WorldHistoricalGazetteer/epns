@@ -31,7 +31,7 @@ const DIM = 128;
 const PHON_TOPK = 300;       // phonetic candidates considered
 const DICE_VETO = 0.35;      // a candidate spelt less like the query than this is withheld
 const COS_MIN = 0.70;        // and the cosine floor WHG's index uses still applies to the survivors
-const ORT_DIST = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.27.0/dist/';
+const ORT_DIST = new URL('../vendor/onnxruntime-web/', import.meta.url).href;   // vendored onnxruntime-web 1.27.0 (docs/vendor/README.md)
 const ASSETS = {               // sha256 of the v8 set shipped in docs/symphonym/ (md5s in the provenance file)
   'symphonym.onnx':    { sha256: 'b674453fc9d5cc4e5f1a723dba246e0840982d2ab40c575760e3246cee43ddd3', bytes: 8472929 },
   'char_vocab.json':   { sha256: 'a5a2da8c9161b0d455d437fcedd00e45d96cee72947a8a9d0bbbe1dac1ad9ab9', bytes: 2137210 },

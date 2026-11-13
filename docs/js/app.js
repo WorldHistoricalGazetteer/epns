@@ -13,9 +13,9 @@
  *    is bumped after every drawer render. Wait on those, never on MapLibre's events or the network.
  */
 import { CONFIG } from './config.js?v=1';
-import { cached, clearAll, usage } from './store.js?v=1';
+import { cached, clearAll, usage, saveManifest, loadManifest } from './store.js?v=2';
 import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=2';
-import { toRdf, canonical as rdfCanonical } from './rdf.js?v=1';
+import { toRdf, canonical as rdfCanonical } from './rdf.js?v=2';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -292,7 +292,7 @@ function selectOnMap(gid) {
 
 /* ── worker ─────────────────────────────────────────────────────────────────────────────── */
 function startWorker() {
-  const w = new Worker('js/search.worker.js?v=3', { type: 'module' });
+  const w = new Worker('js/search.worker.js?v=4', { type: 'module' });
   S.worker = w;
   w.onmessage = ({ data: m }) => {
     if (m.type === 'progress') {
@@ -577,7 +577,7 @@ async function openFormat(kind) {
     const { entity, identityRelations } = toPlato(rec, ctx);
     let r;
     try { r = await toRdf(entity, identityRelations); } catch (e) {
-      r = null; text = ''; body = esc(`Could not build the triples: ${e.message || e}. The RDF view loads jsonld.js from cdn.jsdelivr.net on first use.`);
+      r = null; text = ''; body = esc(`Could not build the triples: ${e.message || e}. The RDF view loads jsonld.js, which is part of this site, on first use.`);
     }
     if (r) { text = r.text; body = esc(text); }
     filename = `${id}.nt`;
@@ -888,6 +888,7 @@ function wireUI() {
   modal.addEventListener('click', (e) => { if (e.target === modal || e.target.id === 'info-close') closeInfo(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) closeInfo(); });
   $('clear-cache').addEventListener('click', async () => { await clearAll(); location.reload(); });
+  $('prep-offline').addEventListener('click', prepareOffline);
   const fm = $('fmt-modal');
   const closeFmt = () => { fm.hidden = true; document.body.style.overflow = ''; };
   fm.addEventListener('click', (e) => { if (e.target === fm || e.target.id === 'fmt-close') closeFmt(); });
@@ -924,11 +925,47 @@ async function applyHash() {
   else if (h.get('q')) { $('q').value = h.get('q'); doSearch(h.get('q')); }
 }
 
+/* Fetch everything the page can need, once, so that it all works with no network: every county file,
+   the phonetic model, matrix and runtime, and the RDF view's files. Each goes through the same
+   cached() / service-worker routes as normal use, so nothing here is a second copy. */
+async function prepareOffline() {
+  const btn = $('prep-offline'), msg = $('prep-msg');
+  btn.disabled = true;
+  try {
+    if (!('serviceWorker' in navigator)) throw new Error('this browser has no service worker, so the page code cannot be kept');
+    await navigator.serviceWorker.ready;
+    const cs = S.manifest.counties;
+    for (let i = 0; i < cs.length; i++) { msg.textContent = `county files ${i + 1} / ${cs.length}…`; await cached(cs[i].file, cs[i].sha256, { base: DATA }); }
+    msg.textContent = 'phonetic model and index (about 50 MB)…';
+    if (!S.phonReady) await call({ type: 'warm-phonetic' });
+    msg.textContent = 'the RDF view…';
+    await Promise.all(['vendor/jsonld/jsonld.mjs', 'data/rdf/context.jsonld', 'data/rdf/rules.json', 'data/plato-sample.json'].map((u) => fetch(u).then((r) => { if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`); return r.arrayBuffer(); })));
+    msg.textContent = 'done: this page now works without a network (the basemaps do not).';
+    usage().then((u) => { $('cache-size').textContent = u ? `(${(u / 1e6).toFixed(0)} MB in use)` : ''; });
+  } catch (e) {
+    msg.textContent = `stopped: ${e.message || e}`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 /* ── boot ───────────────────────────────────────────────────────────────────────────────── */
 async function boot() {
   try {
     veil('Loading the manifest…', 0);
-    S.manifest = await (await fetch(DATA + 'manifest.json', { cache: 'no-cache' })).json();
+    /* The manifest is the one thing that must come from the network to learn what is current, and
+       it used to be the one thing that stopped the page starting without a network. Keep the last
+       good copy; if the fetch fails (no network, or a captive portal answering with HTML), start
+       from that copy. The data files it names are in IndexedDB under its digests. */
+    try {
+      S.manifest = await (await fetch(DATA + 'manifest.json', { cache: 'no-cache' })).json();
+      saveManifest(S.manifest);
+    } catch (e) {
+      S.manifest = await loadManifest();
+      if (!S.manifest) throw e;
+      S.offline = true;
+      console.warn('manifest not fetched; starting from the saved copy', e);
+    }
     S.core = await cached(S.manifest.core.file, S.manifest.core.sha256, {
       base: DATA, onProgress: (l, t) => veil(`Loading the place index… ${(l / 1e6).toFixed(1)} MB`, t ? l / t : 0),
     });
