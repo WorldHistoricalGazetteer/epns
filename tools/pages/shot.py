@@ -476,6 +476,76 @@ def check_browse(page, rep: Report):
     rep.add("browse: county page lists its hundreds", "Bunsty Hundred" in txt and "hundred" in txt.lower())
 
 
+# A word the code printed because a value was missing, never one the survey wrote.
+PLACEHOLDER = re.compile(r"\b(undefined|null|NaN)\b|\[object ")
+
+
+def check_placeholders(page, rep: Report):
+    """A missing part is left out, never printed as "undefined", "null" or "NaN". Found 16 Nov 2026:
+    the top hit for 'Bunsty' read "undefined Bunsty Hundred", because the name index's derived keys
+    (kind 3 in export_site.py: 45,666 rows) had no entry in the result row's table of kind words.
+    Every row here asserts a presence first, so an empty drawer cannot pass as a clean one."""
+    if not wait_index(page):
+        rep.add("placeholders: name index loaded in the worker", False)
+        return
+
+    def results(q):
+        before = page.evaluate("window.deep.renders")
+        page.fill("#q", "")
+        page.fill("#q", q)
+        wait_render(page, before)
+        return page.evaluate("[...document.querySelectorAll('#drawer li[data-gid]')].map(l => [l.querySelector('.form')?.innerText || '', l.querySelector('.ctx')?.innerText || ''])")
+
+    def clean(name, text, need):
+        bad = PLACEHOLDER.search(text or "")
+        rep.add(name, need in (text or "") and not bad, (f"prints '{bad.group(0)}': " if bad else "") + (text or "")[:110].replace("\n", " | "))
+
+    # search results. Bunsty and Seckloe reach their hundreds through a key derived from the headword,
+    # Newport reaches 'Neuport, Newport' through one derived from a spelling.
+    for q, form, ctx in (("Bunsty", "Bunsty Hundred", "hundred / wapentake"), ("Seckloe", "Seckloe Hundred", "hundred / wapentake"),
+                         ("Newport", "Neuport, Newport", "spelling of Newport")):
+        rows = results(q)
+        hit = next((c for f, c in rows if f == form), None)
+        rep.add(f"placeholders: '{q}' finds {form}, read as: {ctx}…", hit is not None and hit.startswith(ctx), str(hit)[:90])
+        clean(f"placeholders: no result for '{q}' prints one", " || ".join(f + " " + c for f, c in rows), form)
+    # record panels: a hundred, a place with a 'late 12' century date, one with empty search forms,
+    # one with an unparseable coordinate, a field-name, and the one record that has no headword at all
+    for sid, need in (("02-hu-subcounty-000001", "Bunsty Hundred"), ("05-b-subparish-000101", "Farndale"), ("04-b-subparish-000067", "Hallow"),
+                      ("05-a-parish-000145", "unparseable"), ("28-e-fn-000001", "Alfreton"), ("76-e-fn-003800", "epns-deep-76-e-fn-003800")):
+        goto_id(page, sid)
+        clean(f"placeholders: record {sid} prints none", page.evaluate("document.getElementById('drawer').innerText"), need)
+    # the tooltip of a century date written 'late 12' (40 such, of 'l12', 'e 13', 'early 13' kinds) read "NaNth century"
+    goto_id(page, "05-b-subparish-000101")
+    page.evaluate("document.querySelector('.view-tog button[data-view=printed]')?.click()")
+    att = page.query_selector("#drawer .forms li[data-v='w83252'] .att")
+    if att:
+        att.hover()
+        page.wait_for_timeout(300)
+    clean("placeholders: tooltip glosses 'late 12' as the late 12th century", page.evaluate("document.getElementById('att-tip')?.innerText || ''"), "late 12th century")
+    page.mouse.move(700, 450)
+    page.evaluate("document.querySelector('.view-tog button[data-view=date]')?.click()")
+    # search forms the data leaves empty (14 of them) are left out, and the count beside them agrees
+    goto_id(page, "04-b-subparish-000067")
+    st = page.evaluate("(() => { const d = [...document.querySelectorAll('#drawer details')].find(x => x.querySelector('summary')?.textContent.startsWith('Normalised search forms')); return d ? [d.querySelector('summary').textContent, d.querySelector('p').textContent] : null; })()")
+    items = st[1].split(", ") if st else []
+    rep.add("placeholders: Hallow's search forms have no empty item, and the count is theirs", bool(st) and "heallinga weallan" in items and all(i.strip() for i in items) and f"({len(items)})" in st[0], f"{st[0] if st else st}; {len(items)} items")
+    # the browse list and a county page
+    labels = page.evaluate("[...document.getElementById('nav-county').options].slice(1).map(o => o.textContent)")
+    clean("placeholders: the browse list prints none", " | ".join(labels), "vol. 44")
+    gid = page.evaluate("[...document.getElementById('nav-county').options].find(o => o.text === 'Buckinghamshire')?.value")
+    before = page.evaluate("window.deep.renders")
+    page.select_option("#nav-county", gid)
+    wait_render(page, before, 90_000)
+    clean("placeholders: a county page prints none", page.evaluate("document.getElementById('drawer').innerText"), "Bunsty Hundred")
+    # the map's hover label, on whichever place points are drawn
+    tips = page.evaluate("""async () => { const m = window.deep.map, out = []; const fs = m.queryRenderedFeatures({layers: ['places']}).slice(0, 400);
+        for (let k = 0; k < fs.length && out.length < 12; k += 33) { const pt = m.project(fs[k].geometry.coordinates);
+          m.fire('mousemove', {point: pt, lngLat: m.unproject(pt), features: [fs[k]], originalEvent: {}, type: 'mousemove'});
+          const el = document.querySelector('.maplibregl-popup.tip .maplibregl-popup-content'); if (el) out.push(el.innerText.replace(/\\n/g, ' ')); }
+        m.fire('mouseleave', {type: 'mouseleave'}); return out; }""")
+    clean(f"placeholders: map hover labels print none ({len(tips)} hovered)", " | ".join(tips), " · ")
+
+
 def check_phonetic(page, rep: Report):
     """Opt-in phonetic matching: loads the model (CDN runtime) and the matrix, then a medieval spelling
     with no letters in common must find its modern headword. Skipped with a FAIL, not silently, if
@@ -647,6 +717,8 @@ def check_offline(pw, rep: Report, url: str, httpd=None):
             wait_render(p2, before)
             txt = p2.evaluate("document.getElementById('drawer').innerText")
             rep.add("offline: search finds Bunsty Hundred", "Bunsty Hundred" in txt, txt[:60].replace("\n", " | "))
+            bad = PLACEHOLDER.search(txt)   # the saved page code is the fixed one (16 Nov 2026: "undefined Bunsty Hundred")
+            rep.add("offline: that result prints no placeholder word", "Bunsty Hundred" in txt and not bad, f"prints '{bad.group(0)}'" if bad else "")
             before = p2.evaluate("window.deep.renders")
             p2.fill("#q", "qzxqzxqzx")
             wait_render(p2, before)
@@ -688,7 +760,7 @@ def check_offline(pw, rep: Report, url: str, httpd=None):
         shutil.rmtree(prof, ignore_errors=True)
 
 
-CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "phonetic": check_phonetic, "ids": None, "downloads": None, "cache": None, "offline": None}
+CHECKS = {"boot": None, "basemaps": check_basemaps, "search": check_search, "place": check_place, "formats": check_formats, "browse": check_browse, "placeholders": check_placeholders, "phonetic": check_phonetic, "ids": None, "downloads": None, "cache": None, "offline": None}
 
 
 def main():

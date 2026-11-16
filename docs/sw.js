@@ -10,15 +10,21 @@
  *                       under the same path.
  *   everything else     network first, but give up on the network after 4 s and serve the saved copy,
  *   (this origin)       so a dead or captive wifi costs four seconds, not a hang. The saved copy
- *                       is matched ignoring ?v=…, so a version bump on the page never strands it.
+ *                       is the exact URL if it is held, else the same path ignoring ?v=…, so a
+ *                       version bump on the page never strands it and never serves the older file
+ *                       when the newer one has been fetched.
  *   any-ascii on the    symphonym/preprocess.js imports it from cdn.jsdelivr.net and must not be
  *   jsdelivr CDN        edited (it is hash-pinned to whg3's), so the request is answered from the
  *                       vendored copy instead: the same code at the same version, no CDN needed.
  *
- * Bump CACHE when this policy changes; old caches are deleted on activation. Page code is not
- * versioned here: it is refreshed from the network whenever there is one.
+ * Bump CACHE when this policy changes, AND when page code changes in a way an offline client must
+ * not miss: the bump makes the browser install this worker afresh, which fetches every SHELL file
+ * again (past the HTTP cache) and deletes the old cache on activation. Without a bump, page code is
+ * still refreshed from the network whenever there is one.
+ *   deep-shell-2 (16 Nov 2026): app.js stopped printing "undefined" for derived search keys; and
+ *   shell-1 answered an offline js/app.js?v=13 with the precached, older js/app.js.
  */
-const CACHE = 'deep-shell-1';
+const CACHE = 'deep-shell-2';
 const SCOPE = self.registration.scope;
 const u = (p) => new URL(p, SCOPE).href;
 
@@ -38,7 +44,7 @@ self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     // one by one: a single missing file must not stop the rest from being kept
-    await Promise.all(SHELL.map((p) => cache.add(u(p)).catch((err) => console.warn('[sw] not precached', p, err))));
+    await Promise.all(SHELL.map((p) => cache.add(new Request(u(p), { cache: 'reload' })).catch((err) => console.warn('[sw] not precached', p, err))));
     await self.skipWaiting();
   })());
 });
@@ -70,7 +76,7 @@ async function networkFirst(req, ms) {
     return res;
   } catch (err) {
     clearTimeout(timer);
-    const hit = await cache.match(req, { ignoreSearch: true }) || (req.mode === 'navigate' ? await cache.match(u('index.html')) : null);
+    const hit = await cache.match(req) || await cache.match(req, { ignoreSearch: true }) || (req.mode === 'navigate' ? await cache.match(u('index.html')) : null);
     if (hit) return hit;
     throw err;
   }

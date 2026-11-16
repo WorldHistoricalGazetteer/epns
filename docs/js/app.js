@@ -83,7 +83,13 @@ function explainDate([sub, b, e, text]) {
   switch (sub) {
     case 'simple': return b !== e && b != null ? `the document is dated ${span}` : `the document is dated ${span || text}`;
     case 'circa': return `approximately ${text.replace(/^c\.?\s*/, '')}; the editors\u2019 bracket is ${span}`;
-    case 'century': return `${/th$/.test(text) ? text : ORD(parseInt(text, 10))} century (${span})`;
+    case 'century': {
+      if (/th$/.test(text)) return `${text} century (${span})`;
+      // "13", "18th cent.", and with a part of the century before it: "late 12", "e 13", "l12", "m13"
+      const m = /^(e\.?|early|m\.?|mid|l\.?|late)?\s*(\d+)/i.exec(text.trim());
+      if (!m) return `${text}, a century (${span})`;
+      return `${m[1] ? { e: 'early', m: 'mid', l: 'late' }[m[1][0].toLowerCase()] + ' ' : ''}${ORD(parseInt(m[2], 10))} century (${span})`;
+    }
     case 'ante': return `before ${text.replace(/^a\.?\s*/, '')} (the editors allow ${span})`;
     case 'post': return `after ${text.replace(/^p\.?\s*/, '')} (the editors allow ${span})`;
     case 'no date': return 'undated in the source';
@@ -163,7 +169,7 @@ async function shardFor(code) {
       byGid.set(r.g, r);
       if (data && C().types[r.ty] === 'fn') { const a = kidsFn.get(r.p); if (a) a.push(r); else kidsFn.set(r.p, [r]); }
     }
-    for (const a of kidsFn.values()) a.sort((x, y) => x.t.localeCompare(y.t));
+    for (const a of kidsFn.values()) a.sort((x, y) => (x.t || '').localeCompare(y.t || ''));   // one field-name (76-e-fn-003800) has no headword
     const sh = { ...data, byGid, kidsFn };
     S.shards.set(code, sh);
     S.shardLoading.delete(code);
@@ -277,7 +283,7 @@ function initMap() {
       map.getCanvas().style.cursor = 'pointer';
       const f = e.features[0]; const i = S.rowOf.get(f.properties.gid);
       if (i === undefined) return;
-      tip.setLngLat(f.geometry.coordinates).setHTML(`<span class="tip-name">${esc(title(i))}</span><span class="tip-ctx">${esc(TYPE_LABEL[typeName(i)] || typeName(i))} · ${esc(countyOf(i)?.name)}</span>`).addTo(map);
+      tip.setLngLat(f.geometry.coordinates).setHTML(`<span class="tip-name">${esc(title(i))}</span><span class="tip-ctx">${[TYPE_LABEL[typeName(i)] || typeName(i), countyOf(i)?.name].filter(Boolean).map(esc).join(' · ')}</span>`).addTo(map);
     });
     map.on('mouseleave', 'places', () => { map.getCanvas().style.cursor = ''; tip.remove(); });
     map.on('click', 'places', (e) => { tip.remove(); openPlace(e.features[0].properties.gid, { fly: false }); });
@@ -316,7 +322,12 @@ function call(msg) {
 }
 
 /* ── search ─────────────────────────────────────────────────────────────────────────────── */
+/* What a name-index row is to its place, by the row's kind (export_site.py). Kind 3 is a derived
+   key, a search aid ("bunsty" for Bunsty Hundred) that carries the text it was derived from: the
+   headword itself, or one of the spellings. A kind with no word here is shown as the place alone;
+   a part that is missing is left out, never printed. */
 const KIND_WORD = ['', 'spelling of', 'normalised form of'];
+const kindWord = (row, name) => (row.kind === 3 ? (row.text === name ? '' : KIND_WORD[1]) : KIND_WORD[row.kind]) || '';
 
 function rowContext(row) {
   const i = S.rowOf.get(row.gid);
@@ -330,7 +341,8 @@ function rowContext(row) {
 
 function resultRow(row, score) {
   const ctx = rowContext(row);
-  const what = row.kind === 0 ? ctx.type : `${KIND_WORD[row.kind]} <b>${esc(ctx.name)}</b>, ${esc(ctx.type)}`;
+  const word = ctx.name ? kindWord(row, ctx.name) : '';
+  const what = word ? `${word} <b>${esc(ctx.name)}</b>, ${esc(ctx.type)}` : esc(ctx.type);
   const where = [ctx.parent, ctx.county].filter(Boolean).map(esc).join(' · ');
   const sc = score != null ? `<span class="score" title="sound ${(row.cos ?? 0).toFixed(2)} · spelling ${(row.ortho ?? 0).toFixed(2)}">${score.toFixed(2)}</span>` : '';
   return `<li data-gid="${row.gid}">${sc}<span class="form">${esc(row.text)}</span> <span class="ctx">${what}${where ? ' · ' + where : ''}</span></li>`;
@@ -700,7 +712,7 @@ function renderKids(gid, shard) {
       const arr = fns.filter((r) => (r.at || undefined) === at);
       if (!arr.length) continue;
       h += `<details class="fn" ${arr.length <= 40 ? 'open' : ''}><summary>${label} (${fmt(arr.length)})</summary><ul class="fnlist">`
-        + arr.map((r) => `<li><a href="#id=${shortIdRec(r, shard.code)}" data-gid="${r.g}">${esc(r.t)}</a></li>`).join('') + '</ul></details>';
+        + arr.map((r) => `<li><a href="#id=${shortIdRec(r, shard.code)}" data-gid="${r.g}">${esc(r.t || shortIdRec(r, shard.code))}</a></li>`).join('') + '</ul></details>';
     }
   }
   return h;
@@ -725,7 +737,7 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   else if (i !== undefined && C().geo[i] === 2) badges.push('<span class="badge inh">location inherited</span>');
   let h = `<button class="close" title="Close">×</button>`;
   if (S.lastResults) h += `<div class="actions"><button id="back-results">‹ Back to results</button></div>`;
-  h += `<div class="crumbs">${crumbs}</div><h2>${esc(rec.t)}</h2>`;
+  h += `<div class="crumbs">${crumbs}</div>${rec.t ? `<h2>${esc(rec.t)}</h2>` : ''}`;
   let volNote = '';
   if (tname === 'county') {
     const co = S.counties.find((x) => x.gid === gid);
@@ -734,14 +746,15 @@ async function openPlace(gid, { fly = true, push = true } = {}) {
   }
   h += `<div class="meta">${esc(label)}${badges.length ? ' ' + badges.join(' ') : ''}${rec.cr ? ` · record ${esc(rec.cr)}` : ''}${volNote}</div><div class="id">${esc(id)}</div>`;
   h += renderForms(rec);
-  if (rec.st && rec.st.length && !isFn) h += `<details><summary class="meta">Normalised search forms (${rec.st.length})</summary><p class="meta">${rec.st.map((s) => esc(s[1])).join(', ')}</p></details>`;
+  const st = isFn ? [] : (rec.st || []).map((s) => s[1]).filter(Boolean);   // the data has 14 empty ones
+  if (st.length) h += `<details><summary class="meta">Normalised search forms (${st.length})</summary><p class="meta">${st.map(esc).join(', ')}</p></details>`;
   if (rec.n && rec.n.length) h += `<h3>Note</h3>${rec.n.map((n) => `<p class="meta">${esc(n)}</p>`).join('')}`;
   h += renderGeo(rec, i);
   h += renderKids(gid, shard);
   const links = [];
   /* rec.cs, the 2013 epns.nottingham.ac.uk browse URL, now redirects to the university home page
      (checked 26 Sep 2026), so it is not offered as a link; the DEEP id above is the citable handle. */
-  links.push(`<a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener" title="Etymologies and elements are in the Institute's Key to English Place-Names; it has no per-place URL to link to, so search there for ${esc(rec.t)}">Etymology: Key to English Place-Names</a>`);
+  links.push(`<a href="https://kepn.nottingham.ac.uk/" target="_blank" rel="noopener" title="Etymologies and elements are in the Institute's Key to English Place-Names; it has no per-place URL to link to${rec.t ? `, so search there for ${esc(rec.t)}` : ''}">Etymology: Key to English Place-Names</a>`);
   links.push(`<a href="#" id="copy-link">Copy link to this place</a>`);
   h += `<div class="links">${links.join('')}</div>`;
   h += `<div class="formats"><span class="meta">This record as</span>
