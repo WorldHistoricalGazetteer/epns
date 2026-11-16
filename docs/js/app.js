@@ -19,6 +19,8 @@ import { toRdf, canonical as rdfCanonical } from './rdf.js?v=2';
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+/* A line of context: parts that are missing are left out, and a part equal to the one before it is said once. */
+const ctxLine = (parts) => parts.filter(Boolean).filter((p, k, a) => p !== a[k - 1]).map(esc).join(' · ');
 const fmt = (n) => Number(n).toLocaleString('en-GB');
 const DATA = new URL('data/', location.href).href;
 const SYM = new URL('symphonym/', location.href).href;
@@ -283,7 +285,7 @@ function initMap() {
       map.getCanvas().style.cursor = 'pointer';
       const f = e.features[0]; const i = S.rowOf.get(f.properties.gid);
       if (i === undefined) return;
-      tip.setLngLat(f.geometry.coordinates).setHTML(`<span class="tip-name">${esc(title(i))}</span><span class="tip-ctx">${[TYPE_LABEL[typeName(i)] || typeName(i), countyOf(i)?.name].filter(Boolean).map(esc).join(' · ')}</span>`).addTo(map);
+      tip.setLngLat(f.geometry.coordinates).setHTML(`<span class="tip-name">${esc(title(i))}</span><span class="tip-ctx">${ctxLine([TYPE_LABEL[typeName(i)] || typeName(i), countyOf(i)?.name])}</span>`).addTo(map);
     });
     map.on('mouseleave', 'places', () => { map.getCanvas().style.cursor = ''; tip.remove(); });
     map.on('click', 'places', (e) => { tip.remove(); openPlace(e.features[0].properties.gid, { fly: false }); });
@@ -343,7 +345,7 @@ function resultRow(row, score) {
   const ctx = rowContext(row);
   const word = ctx.name ? kindWord(row, ctx.name) : '';
   const what = word ? `${word} <b>${esc(ctx.name)}</b>, ${esc(ctx.type)}` : esc(ctx.type);
-  const where = [ctx.parent, ctx.county].filter(Boolean).map(esc).join(' · ');
+  const where = ctxLine([ctx.parent, ctx.county]);   // a hundred's parent is its county: one "Buckinghamshire"
   const sc = score != null ? `<span class="score" title="sound ${(row.cos ?? 0).toFixed(2)} · spelling ${(row.ortho ?? 0).toFixed(2)}">${score.toFixed(2)}</span>` : '';
   return `<li data-gid="${row.gid}">${sc}<span class="form">${esc(row.text)}</span> <span class="ctx">${what}${where ? ' · ' + where : ''}</span></li>`;
 }

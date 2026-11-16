@@ -23,8 +23,9 @@
  * still refreshed from the network whenever there is one.
  *   deep-shell-2 (16 Nov 2026): app.js stopped printing "undefined" for derived search keys; and
  *   shell-1 answered an offline js/app.js?v=13 with the precached, older js/app.js.
+ *   deep-shell-3 (16 Nov 2026): a result row names the county once.
  */
-const CACHE = 'deep-shell-2';
+const CACHE = 'deep-shell-3';
 const SCOPE = self.registration.scope;
 const u = (p) => new URL(p, SCOPE).href;
 

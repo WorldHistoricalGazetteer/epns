@@ -508,6 +508,9 @@ def check_placeholders(page, rep: Report):
         hit = next((c for f, c in rows if f == form), None)
         rep.add(f"placeholders: '{q}' finds {form}, read as: {ctx}…", hit is not None and hit.startswith(ctx), str(hit)[:90])
         clean(f"placeholders: no result for '{q}' prints one", " || ".join(f + " " + c for f, c in rows), form)
+    # a hundred's parent IS its county (409 places are so): the county is said once, not "Buckinghamshire · Buckinghamshire"
+    hit = next((c for f, c in results("Bunsty") if f == "Bunsty Hundred"), None)
+    rep.add("placeholders: a place directly under its county names the county once", hit == "hundred / wapentake · Buckinghamshire", str(hit)[:90])
     # record panels: a hundred, a place with a 'late 12' century date, one with empty search forms,
     # one with an unparseable coordinate, a field-name, and the one record that has no headword at all
     for sid, need in (("02-hu-subcounty-000001", "Bunsty Hundred"), ("05-b-subparish-000101", "Farndale"), ("04-b-subparish-000067", "Hallow"),
