@@ -14,7 +14,7 @@
  */
 import { CONFIG } from './config.js?v=1';
 import { cached, clearAll, usage, saveManifest, loadManifest } from './store.js?v=2';
-import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=2';
+import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=3';
 import { toRdf, canonical as rdfCanonical } from './rdf.js?v=2';
 
 const $ = (id) => document.getElementById(id);

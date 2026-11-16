@@ -37,6 +37,7 @@ each document from _:b0.
 from __future__ import annotations
 
 import argparse
+import os
 import gzip
 import hashlib
 import json
@@ -48,7 +49,7 @@ from multiprocessing import Pool
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXP = ROOT / "data" / "export"
+EXP = Path(os.environ.get("DEEP_EXPORT") or ROOT / "data" / "export")   # DEEP_EXPORT: build a new release beside the published one
 PLATO_REPO = Path.home() / "PycharmProjects" / "place-attestation-ontology"
 OUT_NAME = "deep-plato.nt.gz"
 P = "https://w3id.org/plato#"

@@ -15,6 +15,7 @@ each named asset is really there before the page claims it is.
 from __future__ import annotations
 
 import argparse
+import os
 import gzip
 import hashlib
 import json
@@ -26,9 +27,15 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXP = ROOT / "data" / "export"
+EXP = Path(os.environ.get("DEEP_EXPORT") or ROOT / "data" / "export")   # DEEP_EXPORT: build a new release beside the published one
 REPO = "WorldHistoricalGazetteer/epns"
 RELEASE = json.loads((Path(__file__).resolve().parent / "release.json").read_text())
+# True of data-2026-11-16 against data-2026-09-28. Revise or empty it for the release after: it names both.
+IN_PLACE_NOTE = ("One thing was changed in place between the two, and not by PLATO's append-only rule: each headword's "
+                 "relation to its parent in the survey's arrangement (a parish in its hundred, a hundred in its county) is now "
+                 "<code>plato:ContainedIn</code> where data-2026-09-28 had <code>gvp:broaderPartitive</code>, under the same "
+                 "attestation identifiers. The parents are unchanged, and nothing else differs. data-2026-09-28 was an "
+                 "experimental publication.")
 LICENCE_TEXT = ("Digitisation of English Placenames MADS data is licensed to Jisc by the English Place Names Society and "
                 "released under a Creative Commons Attribution-NonCommercial 4.0 International License.")
 
@@ -74,6 +81,11 @@ def main():
     args = ap.parse_args()
 
     man = json.loads((EXP / "manifest.json").read_text())
+    if man.get("release") != args.tag:     # the manifest names the release it is uploaded with (as data-2026-09-28's does)
+        if "release" in man:
+            sys.exit(f'manifest says release {man["release"]}, not {args.tag}: this export was built for another release')
+        man["release"] = args.tag
+        (EXP / "manifest.json").write_text(json.dumps(man, indent=1, ensure_ascii=False))
     counts = json.loads((ROOT / "docs" / "data" / "manifest.json").read_text())["counts"]
     base = f"https://github.com/{REPO}/releases/download/{args.tag}/"
     files = {f["file"]: f for f in man["files"]}
@@ -155,7 +167,7 @@ def main():
   <h1>Downloads</h1>
   <p>The whole corpus, in four shapes for four purposes: the English Place-Name Society survey volumes as digitised in 2011–13 by DEEP (Digital Exposure of English Place-names) and published in 2017 by Jisc, the UK higher-education technology body. Every file below was generated from the same DuckDB build of that XML on {man["generated"][:10]}; sizes and digests are read from the build manifest, not typed. Nottingham's own <a href="https://www.nottingham.ac.uk/research/groups/ins/resources/digital-survey-of-english-place-names.aspx">Digital Survey of English Place-Names</a> continues to develop the material; these files are the 2017 release as open data.</p>
   {access_note}
-  <p class="small"><b>Release {args.tag}</b>, a frozen snapshot of the living gazetteer <code>https://w3id.org/whg-epns/</code>: PLATO 0.5.0 makes a published gazetteer append-only, so a release is never regenerated in place, and a correction comes as a new release. The previous release, <a href="https://github.com/{REPO}/releases/tag/{RELEASE["previous"]}">{RELEASE["previous"]}</a>, stays where it is.</p>
+  <p class="small"><b>Release {args.tag}</b>, a frozen snapshot of the living gazetteer <code>https://w3id.org/whg-epns/</code>: a release is never replaced once uploaded, and a rebuild comes as a new release. The previous release, <a href="https://github.com/{REPO}/releases/tag/{RELEASE["previous"]}">{RELEASE["previous"]}</a>, stays where it is. {IN_PLACE_NOTE}</p>
   <div class="licence">{LICENCE_TEXT}<br /><span class="small">Every file on this page derives from that data and carries the same terms. The PLATO and LPF serialisations are adaptations of it and therefore cannot be offered under CC BY or CC0.</span></div>
 
   <h2>1. PLATO — lossless</h2>

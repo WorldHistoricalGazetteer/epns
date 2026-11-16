@@ -1,6 +1,6 @@
-# Draft PR body for perma-id/w3id.org — namespace `whg-epns`
+# PR body for perma-id/w3id.org — namespace `whg-epns`
 
-*Branch `whg-epns` on the fork `docuracy/w3id.org` (synced to upstream 57b211f1). Files: `ids/whg-epns/.htaccess`, `ids/whg-epns/README.md`. Not yet pushed or opened; the owner does that.*
+*Branch `whg-epns` on the fork `docuracy/w3id.org` (synced to upstream 57b211f1). Files: `ids/whg-epns/.htaccess`, `ids/whg-epns/README.md`. Opened as [perma-id/w3id.org#6754](https://github.com/perma-id/w3id.org/pull/6754) and merged on 2026-09-28 (6c169b5d). The release identifiers were added later by #6775 (`w3id-whg-epns-releases-pr.md`). Kept as the record of what was submitted.*
 
 ---
 

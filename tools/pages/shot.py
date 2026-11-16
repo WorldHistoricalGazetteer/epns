@@ -421,6 +421,8 @@ def check_identifiers(page, rep: Report, url: str):
         rep.add("ids: every cited source in a record has a whg-epns IRI", bool(srcs) and not unnamed, f"{len(srcs)} sources, {len(unnamed)} without an IRI")
         want = sorted({s["@id"] for s in srcs})[:3] + [W + "source/DB", W + "volume/52", W + "source/ASC/witness/B-c-1000", W + "source/deep"]
         res = {}
+        # dcterms:license under either spelling: since PLATO 0.9 the Source context has the term "licence" for it
+        has_lic = lambda x: "dcterms:license" in x or "licence" in x  # noqa: E731
         for iri in want:
             try:
                 with urllib.request.urlopen(base + "id/" + iri[len(W):] + ".json", timeout=30) as resp:
@@ -428,7 +430,7 @@ def check_identifiers(page, rep: Report, url: str):
                     nodes = {x.get("@id"): x for x in d.get("@graph", [])}
                     doc = next((x for x in nodes.values() if x.get("foaf:primaryTopic", {}).get("@id") == iri), {})
                     # the source node names itself; the licence sits on the document node, never on the source
-                    res[iri[len(W):]] = resp.status == 200 and iri in nodes and "@context" in d and "dcterms:license" in doc and "dcterms:license" not in nodes[iri]
+                    res[iri[len(W):]] = resp.status == 200 and iri in nodes and "@context" in d and has_lic(doc) and not has_lic(nodes[iri])
             except Exception as e:  # noqa: BLE001
                 res[iri[len(W):]] = getattr(e, "code", str(e))
         rep.add("ids: source IRIs dereference to JSON-LD naming themselves", all(v is True for v in res.values()), json.dumps(res))

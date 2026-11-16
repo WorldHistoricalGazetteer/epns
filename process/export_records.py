@@ -30,6 +30,7 @@ context. The MADS file is the ORIGINAL <mads> element from the DEEP source file,
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import sys
 import time
@@ -60,7 +61,7 @@ def main():
     ap.add_argument("--plato-commit", default=None)
     ap.add_argument("--validate", action="store_true", help="validate every per-record PLATO document (slow)")
     args = ap.parse_args()
-    sha = args.plato_commit or json.loads((ROOT / "data" / "export" / "manifest.json").read_text())["plato_commit"]
+    sha = args.plato_commit or json.loads((Path(os.environ.get("DEEP_EXPORT") or ROOT / "data" / "export") / "manifest.json").read_text())["plato_commit"]
     version_info = re.search(r'owl:versionInfo\s+"([^"]+)"', git_show(sha, "ontology.ttl")).group(1)
     tags = subprocess.check_output(["git", "-C", str(PLATO_REPO), "tag", "--points-at", sha], text=True).split()
     tag = next((t for t in tags if t.lstrip("v") == version_info), None)
@@ -200,8 +201,11 @@ def write_sources(ex, con):
         typed = {} if "authorityType" in o else {"@type": "plato:Source"}   # authorityType is rdf:type already (Source or Dataset)
         # Two nodes: the source, and this file about it. The licence is the DESCRIPTION's (an adaptation of
         # the DEEP data); on the source node it would assert that Domesday Book or GeoNames is CC BY-NC.
-        doc = {"@id": PAGES + "id/" + iri[len(SRCIRI.W3ID):] + ".json", "foaf:primaryTopic": {"@id": iri},
-               "dcterms:license": {"@id": "https://creativecommons.org/licenses/by-nc/4.0/"},
+        # Since PLATO 0.9 the Source context has its own term for dcterms:license ("licence"); compaction prefers
+        # the term, so the file is written with it (the same triple) and the round trip in check_sources still holds.
+        by_nc = "https://creativecommons.org/licenses/by-nc/4.0/"
+        lic = {"licence": by_nc} if ctx.get("licence") == {"@id": "dcterms:license", "@type": "@id"} else {"dcterms:license": {"@id": by_nc}}
+        doc = {"@id": PAGES + "id/" + iri[len(SRCIRI.W3ID):] + ".json", "foaf:primaryTopic": {"@id": iri}, **lic,
                "dcterms:source": {"@id": SRCIRI.W3ID}}
         f.write_text(json.dumps({"@context": ctx, "@graph": [{**typed, **o}, doc]}, ensure_ascii=False, separators=(",", ":")))
     check_sources(ctx, [OUT / (iri[len(SRCIRI.W3ID):] + ".json") for iri in seen])

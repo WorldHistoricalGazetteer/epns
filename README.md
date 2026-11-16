@@ -65,12 +65,16 @@ Every PLATO and LPF file carries `plato_commit=<sha>` in its header and the mani
 sha; `export_plato.py --verify` fails loudly if they disagree. The exporter reads the schema out of that
 exact commit with `git show`, so the stamp names what validated the output. Where the commit carries a
 release tag whose name matches `owl:versionInfo` the files also cite the version (the current exports
-are against PLATO v0.5.0); where it does not, the files say so rather than quote a version string that
+are against PLATO v0.9.0-alpha.3); where it does not, the files say so rather than quote a version string that
 does not describe them.
 
-**Each data release is a frozen snapshot.** PLATO 0.5.0 makes a published gazetteer append-only: an
-attestation is never deleted or changed, only superseded or retracted by a new one. So a rebuild is a new
-release under a new name (`process/release.json`), and an uploaded release is never replaced. The
+**Each data release is a frozen snapshot.** A rebuild is a new release under a new name
+(`process/release.json`), and an uploaded release is never replaced: data-2026-09-28 stays as it was
+published. Since 0.5.0, PLATO asks more of a published gazetteer, that it be append-only: an attestation is
+never deleted or changed, only superseded or retracted by a new one. **This gazetteer does not claim that
+between data-2026-09-28 and data-2026-11-16.** The parent relation of each headword attestation was
+re-encoded in place (see "Under 0.9.0-alpha.3" below), because data-2026-09-28 was an experimental
+publication. The
 gazetteer header names the snapshot `https://w3id.org/whg-epns/release/<name>`, with `version`,
 `status: published`, `isVersionOf` the living namespace root and `previousVersion` the release before.
 
@@ -84,6 +88,15 @@ Under 0.5.0 the export also:
 - gives the GeoNames matches `identityType: unspecified`, because DEEP does not say how strong they are.
 - names each copy witness's date `<witness>#timespan` in the JSON itself, so the JSON Lines and the
   N-Triples describe one graph.
+
+Under 0.9.0-alpha.3 (release data-2026-11-16) the export also:
+- records the survey's arrangement (a parish in its hundred, a hundred in its county) with `plato:ContainedIn`
+  on each headword attestation. LPF has no such term, so the LPF view keeps `gvp:broaderPartitive`. The change
+  was made in place, under the same attestation IRIs, by Stephen's decision: data-2026-09-28 was an
+  experimental publication. So `plato-tools compare` from 09-28 to 11-16 reports exactly those headwords as
+  changed, and nothing else. The parents are unchanged.
+- gives no `timespanRole`, so every attestation takes the default, `plato:WhenTrue`. That includes the
+  "et passim to" runs, whose span runs from the earliest to the latest date the volume prints in the run.
 
 The triples come from the validated PLATO files, whose digests `export_rdf.py` checks against the
 manifest first, expanded by PLATO's own context at the commit the records are validated against. The context's `$comment` lists what a context cannot do; the exporter does three

@@ -134,7 +134,7 @@ export function toPlato(rec, ctx) {
     notes: `DEEP record ${deepId(rec, ctx)}; digitised ${rec.cr ?? 'None'}; DEEP URI ${deepUriOf(ctx.code, rec.u)} (no longer resolves)` };
   const parent = rec.p >= 0 ? ctx.byGid.get(rec.p) : null;
   if (parent && parent.u != null) {
-    hw.relations = [{ relatesTo: uriOf(ctx.code, parent.u), relationType: 'http://vocab.getty.edu/ontology#broaderPartitive',
+    hw.relations = [{ relatesTo: uriOf(ctx.code, parent.u), relationType: PLATO + 'ContainedIn',   // PLATO 0.9; LPF keeps gvp:broaderPartitive
       relationLabel: `within ${parent.t} (the survey's arrangement; structural, not dated)` }];
   }
   if (rec.cr) hw.created = `${rec.cr}T00:00:00Z`;

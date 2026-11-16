@@ -50,6 +50,7 @@ WHAT IS EXERCISED, and where each DEEP element lands (the mapping the LPF export
 from __future__ import annotations
 
 import argparse
+import os
 import gzip
 import hashlib
 import json
@@ -67,7 +68,7 @@ import sources as SRC  # noqa: E402  (source IRIs: one rule for every writer)
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "deep.duckdb"
-OUT = ROOT / "data" / "export"
+OUT = Path(os.environ.get("DEEP_EXPORT") or ROOT / "data" / "export")   # DEEP_EXPORT: build a new release beside the published one
 PLATO_REPO = Path("/home/stephen/PycharmProjects/place-attestation-ontology")
 SITE = "https://worldhistoricalgazetteer.github.io/epns/"
 W3ID = "https://w3id.org/whg-epns/"
@@ -109,7 +110,7 @@ GAZ = {"geonames": {"@id": "https://w3id.org/whg-epns/source/gazetteer/geonames"
        "kepn": {"@id": "https://w3id.org/whg-epns/source/gazetteer/kepn", "authorityType": "dataset", "title": "Key to English Place-Names (KEPN)", "uri": "https://kepn.nottingham.ac.uk/"},
        "epns": {"@id": "https://w3id.org/whg-epns/source/gazetteer/epns", "authorityType": "dataset", "title": "English Place-Name Society survey (DEEP coordinates)"}}
 CITO_EVIDENCE = "http://purl.org/spar/cito/citesAsEvidence"
-# The release being built: a frozen, versioned snapshot of the living gazetteer (PLATO 0.5.0), named in one file
+# The release being built: a frozen, versioned snapshot of the living gazetteer (PLATO 0.5.0 on), named in one file
 RELEASE = json.loads((Path(__file__).resolve().parent / "release.json").read_text())
 SNAPSHOT = "https://w3id.org/whg-epns/release/{}"
 CONTRIBUTOR = "https://orcid.org/0000-0003-3060-0181"     # Stephen Gadd, who made this conversion
@@ -239,7 +240,7 @@ class Exporter:
               "citations": [{"source": self.volume_source(cc)}],
               "notes": f"DEEP record {pid}; digitised {created}; DEEP URI {title_uri} (no longer resolves)"}
         if parent and tree.get(parent):
-            hw["relations"] = [{"relatesTo": tree[parent], "relationType": "http://vocab.getty.edu/ontology#broaderPartitive",
+            hw["relations"] = [{"relatesTo": tree[parent], "relationType": PLATO + "ContainedIn",   # PLATO 0.9; LPF keeps gvp:broaderPartitive
                                 "relationLabel": f"within {ptitle} (the survey's arrangement; structural, not dated)"}]
         if created:
             hw["created"] = f"{created}T00:00:00Z"
