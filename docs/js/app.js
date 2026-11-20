@@ -43,6 +43,9 @@ const TYPE_LABEL = {
   subparish: 'township', chapelry: 'chapelry', belowparish: 'sub-parish', mappedname: 'minor name', fn: 'field-name',
   forest: 'forest', feature: 'feature',
 };
+/* English plural of a type label for a list heading: 'parish' → 'parishes', 'county' → 'counties'. */
+const plural1 = (w) => (/ of /.test(w) ? w.replace(/^(\S+)/, (h) => plural1(h)) : /(s|sh|ch|x)$/.test(w) ? `${w}es` : /[^aeiou]y$/.test(w) ? `${w.slice(0, -1)}ies` : `${w}s`);
+const plural = (w, n) => (n === 1 ? w : w.split(' / ').map(plural1).join(' / '));
 const AUTH_LABEL = { histfn: 'historical field-name', modfn: 'modern field-name', histmappedname: 'historical minor name' };
 /* Standard EPNS source abbreviations, for the attestation tooltips. These are the ones used across
    the survey with one national meaning; the county volume's own list of abbreviations is the
@@ -116,8 +119,8 @@ function explainCopy([text, b, e]) {
   const m = /^(e\.?|early|m\.?|mid|l\.?|late)\s*(\d+)(th)?$/.exec(t);
   const part = m ? ({ e: 'early', early: 'early', m: 'mid', mid: 'mid', l: 'late', late: 'late' }[m[1].replace('.', '')] + ' ') : '';
   const cent = /^(\d{1,2})(th)?$/.exec(m ? m[2] : t);
-  const what = cent ? `${part}${ORD(parseInt(cent[1], 10))} century` : /^c/.test(t) ? `about ${t.replace(/^c\.?\s*/, '')}` : t;
-  return `the spelling is read in a copy made in the ${what}${b ? ` (${range(b, e)})` : ''}, not in the original document`;
+  const when = cent ? `in the ${part}${ORD(parseInt(cent[1], 10))} century` : /^c/.test(t) ? `about ${t.replace(/^c\.?\s*/, '')}` : `in ${t}`;
+  return `the spelling is read in a copy made ${when}${b ? ` (${range(b, e)})` : ''}, not in the original document`;
 }
 
 const GROUP = {
@@ -702,7 +705,7 @@ function renderKids(gid, shard) {
     const byType = new Map();
     for (const j of kids) { const t = typeName(j); const a = byType.get(t); if (a) a.push(j); else byType.set(t, [j]); }
     for (const [t, arr] of byType) {
-      h += `<h3>${esc(TYPE_LABEL[t] || t)}${arr.length > 1 ? 's' : ''} <span class="n">(${fmt(arr.length)})</span></h3><ul class="kids">`
+      h += `<h3>${esc(plural(TYPE_LABEL[t] || t, arr.length))} <span class="n">(${fmt(arr.length)})</span></h3><ul class="kids">`
         + arr.map((j) => `<li><a href="#id=${shortId(j)}" data-gid="${c.gid[j]}">${esc(title(j))}</a>${c.nVar[j] ? ` <span class="n">${c.nVar[j]} spelling${c.nVar[j] > 1 ? 's' : ''}</span>` : ''}${c.nKids[j] ? ` <span class="n">· ${fmt(c.nKids[j])} places</span>` : ''}${c.nFn[j] ? ` <span class="n">· ${fmt(c.nFn[j])} field-names</span>` : ''}</li>`).join('')
         + '</ul>';
     }

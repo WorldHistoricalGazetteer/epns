@@ -24,8 +24,10 @@
  *   deep-shell-2 (16 Nov 2026): app.js stopped printing "undefined" for derived search keys; and
  *   shell-1 answered an offline js/app.js?v=13 with the precached, older js/app.js.
  *   deep-shell-3 (16 Nov 2026): a result row names the county once.
+ *   deep-shell-4 (20 Nov 2026): the copy tooltip reads "made about 890" (not "made in the about 890"),
+ *   list headings say "parishes", and the help's sound-alike example is one that works.
  */
-const CACHE = 'deep-shell-3';
+const CACHE = 'deep-shell-4';
 const SCOPE = self.registration.scope;
 const u = (p) => new URL(p, SCOPE).href;
 
