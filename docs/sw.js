@@ -29,8 +29,9 @@
  *   deep-shell-5 (21 Nov 2026): phonetic search no longer applies the spelling veto to a query in a
  *   non-Latin script (it compared Greek or Cyrillic letters with Latin keys and withheld everything).
  *   deep-shell-6 (21 Nov 2026): the demo cheat code (↑ ↑ ↓ ↓ in the search box) in app.js.
+ *   deep-shell-7 (21 Nov 2026): "Copy link" copies the w3id identifier and holds its width; PLATO linked in the info panel.
  */
-const CACHE = 'deep-shell-6';
+const CACHE = 'deep-shell-7';
 const SCOPE = self.registration.scope;
 const u = (p) => new URL(p, SCOPE).href;
 

@@ -14,7 +14,7 @@
  */
 import { CONFIG } from './config.js?v=1';
 import { cached, clearAll, usage, saveManifest, loadManifest } from './store.js?v=2';
-import { toPlato, toLpf, toMads, deepId as deepIdOfRec } from './formats.js?v=3';
+import { toPlato, toLpf, toMads, deepId as deepIdOfRec, w3idOf } from './formats.js?v=4';
 import { toRdf, canonical as rdfCanonical } from './rdf.js?v=2';
 
 const $ = (id) => document.getElementById(id);
@@ -912,7 +912,12 @@ function wireUI() {
     }
     if (e.target.id === 'copy-link') {
       e.preventDefault();
-      navigator.clipboard?.writeText(location.href).then(() => { e.target.textContent = 'Link copied'; setTimeout(() => { e.target.textContent = 'Copy link to this place'; }, 1500); });
+      // The persistent identifier, not the #id= page URL: it is what the PLATO record names this place by.
+      const a = e.target, uri = S.currentRec ? w3idOf(S.currentRec, fmtCtx()) : location.href;
+      // Hold the link's width while it says the shorter "Link copied". Otherwise the row of links reflows
+      // (the short text fits on the line above, the long one does not) and the drawer jumps.
+      a.style.display = 'inline-block'; a.style.minWidth = `${a.offsetWidth}px`;
+      navigator.clipboard?.writeText(uri).then(() => { a.textContent = 'Link copied'; setTimeout(() => { a.textContent = 'Copy link to this place'; a.style.minWidth = ''; }, 1500); });
     }
   });
 

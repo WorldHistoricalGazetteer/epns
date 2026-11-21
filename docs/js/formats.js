@@ -50,6 +50,7 @@ const y = (n) => (n < 0 ? '-' + String(Math.abs(n)).padStart(4, '0') : String(n)
    DEEP's 2013 numbering unchanged, so its dead placenames.org.uk URI maps by prefix substitution. */
 export const W3ID = 'https://w3id.org/whg-epns/';
 const uriOf = (cc, num) => `${W3ID}${cc}/${String(num).padStart(6, '0')}`;
+export const w3idOf = (rec, ctx) => uriOf(ctx.code, rec.u);   // the place's persistent identifier, as the PLATO export gives it
 const deepUriOf = (cc, num) => `http://placenames.org.uk/id/placename/${cc}/${String(num).padStart(6, '0')}`;
 
 /* Python dict insertion order is significant for the equality check, so keys are set in the same
