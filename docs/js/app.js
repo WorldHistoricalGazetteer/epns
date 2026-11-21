@@ -303,7 +303,7 @@ function selectOnMap(gid) {
 
 /* ── worker ─────────────────────────────────────────────────────────────────────────────── */
 function startWorker() {
-  const w = new Worker('js/search.worker.js?v=4', { type: 'module' });
+  const w = new Worker('js/search.worker.js?v=5', { type: 'module' });
   S.worker = w;
   w.onmessage = ({ data: m }) => {
     if (m.type === 'progress') {

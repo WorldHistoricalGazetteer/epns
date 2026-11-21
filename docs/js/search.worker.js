@@ -190,7 +190,7 @@ async function loadPhonetic() {
     const c = json(cv), s = json(sv), l = json(lv);
     S.vocabs = { charToId: c.char_to_id || c, scriptToId: s.script_to_id || s, langToId: l.lang_to_id || l };
     S.session = await ort.InferenceSession.create(new Uint8Array(onnx), { executionProviders: ['wasm'] });
-    S.ort = ort; S.tokenise = pre.tokenise;
+    S.ort = ort; S.tokenise = pre.tokenise; S.detectScript = pre.detectScript;
     post({ type: 'phonetic-ready', n: sm.n });
   })();
   S.phonLoading.catch(() => { S.phonLoading = null; S.emb = null; });
@@ -233,6 +233,10 @@ function nameSimilarity(x, y) {
 async function phoneticSearch(q, limit) {
   await loadPhonetic();
   const fq = asciiFold(nameKey(q));
+  // The spelling veto compares character bigrams, which is meaningless between scripts: a Greek query
+  // shares none with any Latin key, so the veto would withhold everything. For a non-Latin query,
+  // sound alone ranks (still floored at COS_MIN).
+  const crossScript = !['LATIN', 'OTHER'].includes(S.detectScript(fq));
   const v = await embed(nameKey(q));
   const emb = S.emb, n = S.nEmbedded;
   const cos = new Float32Array(n);
@@ -259,7 +263,7 @@ async function phoneticSearch(q, limit) {
   for (const j of cand) {
     if (cos[j] < COS_MIN) continue;
     const ortho = nameSimilarity(fq, S.skeys[j]);
-    if (ortho < DICE_VETO) continue;                      // the veto: sounds alike, but is not spelt alike at all
+    if (!crossScript && ortho < DICE_VETO) continue;                      // the veto: sounds alike, but is not spelt alike at all
     scored.push({ ki: j, cos: cos[j], ortho });
   }
   scored.sort((a, b) => b.cos - a.cos || b.ortho - a.ortho);
