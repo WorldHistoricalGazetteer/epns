@@ -855,6 +855,20 @@ function wireUI() {
   let t;
   qi.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { doSearch(qi.value); if (qi.value.trim()) history.replaceState(null, '', `#q=${encodeURIComponent(qi.value.trim())}`); }, 220); });
   qi.addEventListener('keydown', (e) => { if (e.key === 'Escape') { qi.value = ''; hideDrawer(); } });
+  /* Demo cheat code: ↑ ↑ ↓ ↓ in the search box puts the next of four sound-alike forms of Cambridge in the
+     input, one per script (Latin, Greek, Cyrillic, Han), turning phonetic matching on first. Each finds
+     Cambridge, county town (measured 21 Nov 2026). Any other key resets the sequence. */
+  const DEMO = ['kaymbrij', 'Καμπριτζ', 'Кембридж', '坎特布里格'], CODE = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown'];
+  let cheat = 0, demoAt = 0;
+  qi.addEventListener('keydown', (e) => {
+    cheat = e.key === CODE[cheat] ? cheat + 1 : (e.key === CODE[0] ? 1 : 0);
+    if (cheat < CODE.length) return;
+    cheat = 0;
+    e.preventDefault();
+    if (!$('phon').checked) { $('phon').checked = true; $('phon').dispatchEvent(new Event('change')); }
+    qi.value = DEMO[demoAt++ % DEMO.length];
+    qi.dispatchEvent(new Event('input'));
+  });
   $('fn').addEventListener('change', () => { if (qi.value.trim().length >= 2) doSearch(qi.value); });
   $('phon').addEventListener('change', () => {
     try { localStorage.setItem('deep_phon', $('phon').checked ? '1' : '0'); } catch { /* fine */ }

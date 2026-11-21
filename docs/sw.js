@@ -28,8 +28,9 @@
  *   list headings say "parishes", and the help's sound-alike example is one that works.
  *   deep-shell-5 (21 Nov 2026): phonetic search no longer applies the spelling veto to a query in a
  *   non-Latin script (it compared Greek or Cyrillic letters with Latin keys and withheld everything).
+ *   deep-shell-6 (21 Nov 2026): the demo cheat code (↑ ↑ ↓ ↓ in the search box) in app.js.
  */
-const CACHE = 'deep-shell-5';
+const CACHE = 'deep-shell-6';
 const SCOPE = self.registration.scope;
 const u = (p) => new URL(p, SCOPE).href;
 
